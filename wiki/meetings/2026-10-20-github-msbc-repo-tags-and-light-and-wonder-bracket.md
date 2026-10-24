@@ -3,7 +3,7 @@ type: meeting
 title: GitHub-MSBC follow-up — repositories or tags, agent notes instead of MSBC reports, and the Light & Wonder Flex-Port fit (Oct 20 2026, 2:15–2:31 PM)
 date: 2026-10-20
 aliases: [Alignment on GitHub-MSBC Integration, GitHub MSBC Repo Tags and Light and Wonder Bracket, Oct 20 repo tags call, Val Genadi Oct 20 2:15 PM]
-source-count: 2
+source-count: 3
 open-commitments: 0
 open-questions: 0
 ---
@@ -30,7 +30,7 @@ Thin stub.
 ## Notes on the sources
 
 - **§12 — new meeting.** A corpus-wide search for both filenames, "Repo Tags", "Light & Wonder" and "1 mm" found no page citing them. The Oct-19 GitHub-MSBC meeting and the other Oct-20 meetings (the 8:31 AM third-party EGM call, the stand-up, the Flex-Port MVP1 call) are different meetings. The 3:06 PM call is its own recording and gets its own stub.
-- **"Andrei" — not resolved.** The notes write "Andrei Klimovich" [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]; on Oct 19 the "Andrei" who opens the GitHub repositories was read as Andrey Bosik by context (inference). The transcript gives no surname. Queued for the owner.
+- **"Andrei" — not resolved.** The notes write "Andrei Klimovich" [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]; on Oct 19 the "Andrei" who opens the GitHub repositories was read as Andrey Bosik by context (inference). The transcript gives no surname. Queued for the owner. *Oct 21: resolved — at the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oct-21 10:01 AM call]] the speaker label is "Andrei Bosik" and he says he answered the email on why many repositories are not needed, so this "Andrei" is [[wiki/people/andrey-bosik.md|Andrey Bosik]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].*
 - **Garbles kept as heard.** "райтнауэйтан" (read as "right now Nathan" — **inference**); "Вялопульс, который программирует" (unclear); "mple fiere" (the notes read it as "likely the amplifier"); "littenfunder" / "лайтен вандер" / "Пайтон wander" = Light & Wonder; "payslam" = the Pay Slim (**inference**); "Танова" (unclear; possibly Nova — **inference**, not asserted).
 - **Skipped as chatter.** Greetings, and the end-of-call switch to Val's computer.
 - **§15.8:** clear — part prices are company costs; no one's pay. Val's remarks about Sebastian are kept to work facts. **§15 #9:** clear.
@@ -39,3 +39,4 @@ Thin stub.
 
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

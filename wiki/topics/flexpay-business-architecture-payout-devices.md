@@ -3,9 +3,9 @@ type: topic
 title: FlexPay business architecture and the payout-device catalog
 date: 2025-04-11
 aliases: [FlexPay Evolution, floating FlexPort, FlexPort on posts, флори дизайн, recycling cassette, drop cassette, two-tape reel, refill cycle, IQ point of sale, promo credit on SAS 2, validator emulation, payout tower, dispensing tower, cage POS, card-dispensing unit, temporary wallet, no-value wallet, FlexPay business model rethink, TITO server, local TITO server, FlexPOS, bill recycler, JCM, UBA Pro-RC, Cash Code, ARM board, Rockchip, RK3568, LVDS, POS 2, Mother Goose, Mutha Goose, RKS, manual POS, ATM registration, slim ATM, Flex-Port-Mini, Flex Port Mini, Flex-Slim first ten, brackets from China, twelve eight twenty, eVoucher, wrapped gift card, EasyLynx, second SAS port, ATM Recycler, PTI Sentry, MudaGoose, Lego bricks, closed loop ATM, promo meter, technology agnostic, player is the king, tap to fund, the magic is in speed, Pay Slim, cannibalise MudaGoose, zero-balance wallet, wallet lifetime, one TITO printer, splitting, AFT device, AFT window, emulate an AFT device, no cash dispensing, eWallet TTL, collect fork, unclaimed transaction, reissue versus reprint, print new carrier, balance snapshot, daily cap and velocity, SAS 6.02, Gaming Standards Association, audit report one button, dual balance deposited and playable, Total Playable only Redeemable, balance naming ADR, playable only, unclaimed money, maintenance versus lockout, always-on scanner, LTE modem per device, capability requires requirement, printer tilts, preventive supply telemetry, vault server, incremental five, five dollars of promotional credit for a phone number, clearance network prohibits proceeds from gambling, business way agnostic, they are not your customer they are mine, offline operation, twenty-four hour offline window, lease expiry versus internet loss, be honest with yourselves, no cash on FlexPay, de-enrolled from a location never from the cloud, fifteen Flex-Ports design for 99, no daily cap error, pending transaction, one-time redemption PIN, synchronisation point, metal mesh on standoffs, Flex-Pay-Slim lid, service bay cover, taut string stopper, roll forward only, no rollback to a previous build, MVP1 dual SAS only, capability 144 cloned, nothing is closed, Monday scope freeze, receipt format still not given, balance display game agnostic, stackable recycler, cash box capacity, standalone TITO printer topology, four swimlanes seven columns, language button top left, 854 by 480, status icons on error screens, asset number, серийный номер машины, engineering menu QR, machine performance report MVP2, feature lock slips, capability 229, TouchGFX Designer, two-stage screen redraw, HTML mock-up versus Figma, design tokens, the kiosk is FlexPay, player gets two dollars less, blank not empty, texts compiled at build, October 2 end date, E2E micro-step, KORE SIM in the IQ, capability 234, capability 235, forfeit wallet, no PIN lockout, nine Flex-Ports default twenty]
-source-count: 327
-open-commitments: 157
-open-questions: 45
+source-count: 329
+open-commitments: 159
+open-questions: 46
 ---
 
 # FlexPay business architecture and the payout-device catalog
@@ -3215,6 +3215,24 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish the Terminal Hub kiosk-spoofing fix on STG and roll it out with Andrei — due Oct 20 2026 ("возможно, сегодня") — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — after the build, get from Claude all Flex IQ commits on port communication and list the differences to bring into Flex Pay — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
+## Oct 21 2026 (4:46 AM stand-up) — Biratka's Flex Pay vs Flex IQ analysis gives 8–10 tasks and no new capabilities; a Flex Pay built with its screen upside down
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]:
+
+- **The analysis is done.** [[wiki/people/alexander-biratka.md|Alexander Biratka]] finished the analysis of how Flex Pay and Flex IQ communicate, as agreed at the last meeting, and found "достаточно большое количество" of changes. He created about 8–10 tasks; they fall under existing requirements, or requirements taken from Flex IQ; "побилите новые не понадобились". He now starts implementing them. The AI PM's version of this task did not reach Jira — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-21 update) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **The Flex-Port mode switch from the kiosk.** Raised by Biratka while checking the Flex Pay work — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update).
+- **The screen upside down.** [[wiki/people/pavel.md|Pavel]]: Andrei (Klimovich by context — **inference**) showed him a Flex Pay the day before, assembled with the screen upside down; their connector goes the other way, so they cannot turn it. Biratka: there is a rotation parameter in the build; in Minsk it worked because the monitor was simply laid that way; he offered to make a rotated build at once. Pavel: wait — they are at the trade show today and back probably tomorrow evening. First they must say whether touches work correctly; he asked and got no answer. "мы только экран двигаем или тач тоже мы должны повернуть" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **Settings QR on Flex Pay is temporary** — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-21 update).
+
+### Open commitments (Oct 21 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — implement the 8–10 Flex Pay tasks from the Flex Pay vs Flex IQ communication analysis — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — make a rotated-screen Flex Pay build once Andrei's team says whether the touch must be rotated too — due after the team is back from the show — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+
+### Open questions (Oct 21 2026)
+
+- Must the Flex Pay touch be rotated together with the screen? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -3547,3 +3565,5 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 447
-open-commitments: 84
+source-count: 450
+open-commitments: 83
 open-questions: 1
 ---
 
@@ -1742,8 +1742,15 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 ## Open commitments (Oct 20 2026)
 
-- [ ] Val Levitan — find his earlier note on why tags do not work — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [ ] Val Levitan, Genadi Peari — talk every day — due ongoing — [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+
+## Oct 21 2026 (8:02 AM) — drop the browser; no code before capabilities; MVP1 is six Texas games; Samusenko as product owner
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] he backed Leshkevich in dropping the browser ("Это была ошибочная… Сейчас время поправить"), made everyone agree out loud that nobody writes code before capabilities, requirements, acceptance criteria and an architecture he can read, set MVP1 as a stable NOVA that releases six Texas games, step by step, and gave at most 10 days. He wants designers who describe a game in words, Unity/Miranda dropped, a layer that breaks down competitor games, CI/CD to the machine with audit, and field upgrades proven correct — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]]. He chose Vladimir Samusenko as product owner and accepted Pavel's one-file-per-person capability method — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]]. He called it the most pleasant meeting he had taken part in over JVL's years [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
+## History (closed Oct 21 2026)
+
+- [x] Val Levitan — find his earlier note on why tags do not work — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] — *no longer needed: tags were dropped on Oct 21 (one repository with subfolders); Val still did not remember why tags were rejected in development [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]*
 
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -2201,3 +2208,6 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

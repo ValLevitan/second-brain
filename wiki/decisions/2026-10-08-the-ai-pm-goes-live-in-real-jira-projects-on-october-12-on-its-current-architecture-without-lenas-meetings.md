@@ -3,7 +3,7 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 17
+source-count: 19
 status: active
 open-commitments: 8
 open-questions: 5
@@ -155,6 +155,14 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 
 - Will the AI PM create the Product Requirements task Pavel spoke aloud at the Oct-20 stand-up? (Kovalchuk: "посмотрим") — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
+## Update, Oct 21 2026 — the agent's comparison task did not reach Jira, but the work was done; Pavel's SAS-fix story hangs under an AI Draft
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]:
+
+- **A task the agent could not place.** [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: the day before, [[wiki/people/alexander-biratka.md|Biratka]] said he must compare Flex IQ and Flex-Port; the agent did not find the right project and should have written to him. Biratka: the agent wrote, in substance "compare Flex IQ Flex-Port communication", and it did not reach Jira; but he had done the full investigation and created about 8–10 tasks under existing requirements, so "по факту эта задача была решена". Kovalchuk: "Всё супер" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]. *(Biratka's own report that morning was on Flex Pay vs Flex IQ — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 21); the agent's wording names Flex-Port — kept as said.)*
+- **The AI Draft on Pavel.** Kovalchuk: Pavel should have an AI Draft. Pavel: under that draft he had already created a story for the SAS fix ([[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]], Oct-21 update); he will close the task and attach the report on supported SAS commands [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- Whether Biratka's Oct-19 AI Draft (above) was handled is not said.
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
@@ -173,3 +181,5 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

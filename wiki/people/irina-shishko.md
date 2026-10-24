@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 155
+source-count: 159
 open-commitments: 38
 ---
 
@@ -755,6 +755,14 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 
 At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|release-notes review]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] (in Russian) she said a new RIS from a USB stick is needed when the games or main settings change (bet buttons, game percentages), and otherwise the old RIS can be used; she showed the proposed screen; and she raised the case of a new RIS on the same software with a different 8 of the 15 games — which RIS and which lease then apply (no clear answer on the record). With Pavel she is asked to rewrite the tasks, capability and acceptance criteria to match the notes — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
 
+## Oct 21 2026 — RIS requirements rewritten; bill-validator tests next; who reviews the integration repo
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] she said she is rewriting the RIS requirements ("там всё очень плохо") for all release capabilities — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 21); she is cleaning up the port and machine tests and then turns to bill-validator connection tests, and proposed moving the integration-repository review to Igor — [[wiki/topics/test-automation-strategy.md]] (Oct 21). She asked whether the Flex-Port must be told its mode after each reboot (Pavel: it is kept in EEPROM), said the Banilla statistics are the data being asked for, and will check which no-SAS capabilities Andrei created — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update).
+
+## Oct 21 2026 (8:02 AM) — Georgia certification; exact requirements; the product-owner search
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] she said that in Georgia only SAS/LGS is certified, so a new game does not affect it, but Intralot must know — [[wiki/organizations/intralot.md]] (Oct 21). From the Transactional work she stressed that requirements must be written exactly, with values, or Claude will send them back when writing tests — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]]. In the product-owner search she named Samusenko's return date (Monday Oct 26), kept Klimovich on Transactional ("не надо его портить"), and writes her own capabilities file by Monday — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -912,3 +920,7 @@ At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|relea
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

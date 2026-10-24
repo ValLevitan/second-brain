@@ -3,7 +3,7 @@ type: decision
 title: For Flex-Port MVP 1 only an easy, stable release build and the USB-stick update are needed — check it, put it in MVP 1 and open 10 locations; Val wants the build documented so a non-developer (or Claude) can make it without Alekseev; Alekseev writes STM32 / FreeRTOS coding rules for Claude review; no schedule until the work is split into tasks and estimated (Oct 20 2026)
 date: 2026-10-20
 aliases: [easy release build for MVP1, легко компилировать новый релиз, non-developer must be able to build, нон девелопер, not depend on one developer, document the system so we do not depend on you, STM32 FreeRTOS rules, best practice for Claude review, стандарт разработки STM32, double beep, двойной бип, beeper in its own thread, hard fault, HFM-663, version 0.0.84, update.bin with a different version, one branch not two, Flex POS emulator for Alekseev, release action blocks on prose and contract checks]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 7
 open-questions: 3
@@ -71,7 +71,7 @@ Settled at the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-st
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — split this meeting's transcript into tasks and give Alekseev the task descriptions — due unspecified — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — write the STM32 / FreeRTOS coding rules as a development standard that Claude review uses — due unspecified — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — estimate each task once the tasks exist — due after Pavel's split — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — build a second update.bin with a different version from branch HFM-663 through GitHub Actions and test the USB update of the main application and of the bootloader — due unspecified (MVP 1 blocker) — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — build a second update.bin with a different version from branch HFM-663 through GitHub Actions and test the USB update of the main application and of the bootloader — due unspecified (MVP 1 blocker) — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] — *Oct 21 2026: Khamin tested a build from Alekseev's branch and replied to him; not said to be this test — left open* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [ ] [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] — find and fix the hard fault in the main loop, move the beeper to its own thread and remove the test define, all in the same branch — due unspecified — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create the Jira ticket for Alekseev's hard-fault work — due unspecified — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Alekseev access to the Flex IQ (Flex POS) emulator — due unspecified — [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
@@ -84,7 +84,13 @@ Settled at the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-st
 
 **§15.8:** clear — no pay figure or rate recorded. **§15 #9:** none.
 
+## Note, Oct 21 2026
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]] said he tested the Flex-Port build Alekseev sent from his branch and replied to him [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]. Whether this is the second-update.bin and bootloader test in the commitment above is not said, so it stays open. Pavel also said the kiosk-to-port mode command will not wait for Alekseev — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

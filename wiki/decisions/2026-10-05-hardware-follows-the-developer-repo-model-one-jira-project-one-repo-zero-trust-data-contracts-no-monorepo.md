@@ -1,15 +1,17 @@
 ---
 type: decision
-title: Hardware follows the developer repo model — one Jira project equals one repo, repos have zero trust, each holds prose, ADRs and a data contract; GitHub keeps a flat list of parts and the BOM is generated from it like a build; no monorepo
+title: Hardware follows the developer repo model — zero trust, prose, ADRs and a data contract per part group; GitHub keeps a flat list of parts and the BOM is generated from it like a build (the "one Jira project = one repo, no monorepo" element was reversed Oct 21 — one repository with subfolders)
 date: 2026-10-05
 aliases: [developer model for hardware, zero trust repos for hardware, data contracts for hardware, one project one repo, no monorepo, a project is described by capabilities, flat list not a BOM, BOM generated like an ISO, ISO image analogy, 70% sure, the repo tells the agent how to search, displays repo, harnesses repo]
-source-count: 10
-status: active
+source-count: 12
+status: active   # "one project = one repo; no monorepo" superseded Oct 21 by the one-repository ruling; the data-contract / generated-BOM core stands
 open-commitments: 0
 open-questions: 1
 ---
 
 # Hardware follows the developer repo model; no monorepo (Oct 5 2026)
+
+> **Status note (Oct 21 2026):** the "one project = one repo; no monorepo" point below was reversed on Oct 21 — hardware parts go into one repository with subfolders, on Andrei Bosik's proposal ([[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]]). The data contracts and the BOM generated like a build still stand.
 
 Set out by [[wiki/people/val-levitan.md|Val Levitan]] twice on Oct 5 2026: first to [[wiki/people/genadi-peari.md|Genadi Peari]] at the [[wiki/meetings/2026-10-05-design-to-msbc-zero-trust-repos-and-data-contracts.md|1:19 PM meeting]] [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]], then to [[wiki/people/nathan-carver.md|Nathan Carver]] at the [[wiki/meetings/2026-10-05-nathan-carver-flex-pay-slim-bom-reverse-spike.md|1:58 PM call]], where the "no monorepo" point was ruled [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]. It is the model the [[wiki/decisions/2026-10-05-nathan-carver-runs-the-flex-pay-slim-bom-reverse-spike-and-flex-port-follows.md|Flex Pay Slim spike]] tests. For the software side of the same model see [[wiki/decisions/2026-09-04-data-contracts-closed-every-repository-by-september-11.md]] and [[wiki/topics/github-release-management-pipeline.md]].
 
@@ -70,6 +72,10 @@ In segment 1 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-proj
 
 Ruling: [[wiki/decisions/2026-10-19-hardware-repositories-start-with-harness-display-and-sheet-metal-and-the-agent-generates-data-contracts-from-vetted-data-sheets.md]]. The notes record the same [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. **Evolution:** Oct 8 put the data contracts on Genadi; Oct 19 has the agent write them from the files Genadi supplies.
 
+## Oct 21 2026 update — one repository with subfolders; the BOM still comes out "instead of an ISO image"
+
+At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oct-21 10:01 AM call]] (Russian) Val explained he wanted many repositories to copy the developers' set-up, where GitHub Actions build the ISO image. [[wiki/people/andrey-bosik.md|Andrei Bosik]] argued that a repository is only a storage level and an Action can read subfolders; Val closed it: "мы не делим это на на разные репозитории" [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]. The ISO-image picture survives: "вместо iso имиджа… выйдет билов материал", which Nathan loads into Business Central [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]. **Evolution:** the Oct-5 "no monorepo" ruling is replaced. Ruling: [[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]].
+
 ## Open questions
 
 - Will it work for hardware at all? Val puts it at "70% sure" and calls it untried ("I haven't tried it yet") — the spike is the test — [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]] *Oct 9: first evidence — the rebuilt BOM came close to the original, with "outlier parts that we're going to have to settle on"; Genadi expects an agent BOM to be about "90% correct". The forward test on the Georgia Flex Pay Slim is next. Still open [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]*
@@ -85,3 +91,5 @@ Ruling: [[wiki/decisions/2026-10-19-hardware-repositories-start-with-harness-dis
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 241
+source-count: 248
 open-commitments: 108
 open-questions: 0
 ---
@@ -1309,6 +1309,19 @@ At the [[wiki/meetings/2026-10-20-val-pavel-alignment-trust-standards-and-delega
 
 At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|release-notes review]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] he confirmed the upgrade, lease and printer statements; explained that a peripheral swap postpones the passport update to the next lease scan (no login needed); said the lease on a mismatch keeps the previous end date ("It will not expand existing Lease"); gave three options for a machine that missed an upgrade and agreed with Felipe's "one more interval"; said the team is not ready for a new list of error codes — the screen names the cause, server-side help "including AI" later; and proposed a cash-out filter, then left point 9 as written. With Irina he is asked to rewrite the tasks, capability and acceptance criteria to match the notes; Val said he would try not to disturb him the next day so he could catch up — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
 
+## Oct 21 2026 — the kiosk-to-port mode command, the SAS CRC fix, statistics from a Banilla, one settings design
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] he said the Flex-Port mode is set by a technician from the kiosk per machine, that the missing port-side command is "задача 5 минут" and will not wait for Alekseev, and that the mode is kept in EEPROM; he reported fixing a SAS bug (a CRC sent after commands that have none), which made the port stable on IGT and Banilla; he read games, money in and out and games played from a Banilla and will attach a report on supported SAS commands to Jira; he said the no-SAS mode needs capabilities with proper requirements — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update). He told Seregin the Flex Pay Wi-Fi QR is temporary and asked for one design across Flex-Port, Flex Pay and Flex IQ — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-21 update). He held back Biratka's rotated-screen Flex Pay build until Andrei's team says whether the touch must turn too — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 21).
+
+## Oct 21 2026 (8:02 AM) — the native engine, remote updates, and the product-owner role
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] he supported dropping the browser (with AI "Антон может за неделю этот движок перегенерировать") and proposed a separate RK3576 test of Leshkevich's prototype, which Val declined. He took the capabilities and requirements for the game-update part, noting that new maths will likely need a regulator told — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]], [[wiki/organizations/intralot.md]] (Oct 21). He proposed the one-file-per-person capability method, which Val accepted, and will write the product-owner role and meet Vladimir Samusenko on Monday Oct 26 — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
+
+## Oct 21 2026 (9:44 AM) — use cases before interfaces; product owner of the Georgia commissioning chatbot
+
+On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-chatbot.md|ad-hoc call with Val]] (Russian, two segments) he told Val that product owners should work from use cases, not interfaces; OpenAPI / Swagger suit only front-end/back-end data contracts; and he proposed interactive HTML documents that people can read and Claude can keep working with — [[wiki/topics/docs-as-code-and-atlassian-exit.md]] (Oct 21) [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]. On the commissioning chatbot he first suggested collecting 40–100 call recordings (JVL cannot, it is not on those calls), then sketched a cloud voice-over-IP service with a simple API to the machine [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]. Val then made him **product owner** of the chatbot, with [[wiki/people/andrey-bosik.md|Andrey Bosik]] as developer; he may define spikes for Bosik and will write the capabilities (user screens, Galaxy functions). "Хорошо да подходит." — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1555,3 +1568,10 @@ At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|relea
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]

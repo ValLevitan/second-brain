@@ -3,7 +3,7 @@ type: decision
 title: The RIS improvements release notes are settled point by point with Val (nine points) — settings kept through an upgrade, the lease period stays unaltered, a peripheral registers on its own, a missed machine runs on with an upgrade warning (Felipe's paragraph), the error screen names the cause (no new error-code list now), the cash-out paragraph stays — and the team is asked to rewrite the tasks, capability and acceptance criteria to match (Oct 20 2026)
 date: 2026-10-20
 aliases: [RIS improvements release notes, refinement of RIS improvement Pros, release notes review, nine points, clean draft, the current lease period will remain unaltered, peripheral such as a bill acceptor, currently instead of today, Felipe's paragraph, point 6, machines missed during an upgrade, upgrade pending, one more lease interval, the screen will name the cause of the error, no bank in street operation, 81 pages of 20 records, fix the description in the actual tasks, Intralot replies on hard and soft reset]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 1
 open-questions: 3
@@ -55,7 +55,7 @@ Felipe read out answers he had from the lottery side ("I had asked Intralot a fe
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]] — rewrite the task descriptions in the repository, the capability, and the requirements and acceptance criteria so they match the release notes and allow automated tests (Val's suggestion) — due unspecified — [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]] — rewrite the task descriptions in the repository, the capability, and the requirements and acceptance criteria so they match the release notes and allow automated tests (Val's suggestion) — due unspecified — [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] — *Oct 21 2026: Irina is rewriting the RIS requirements for all release capabilities; not reported done* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 
 ## Open questions
 
@@ -69,8 +69,14 @@ Felipe read out answers he had from the lottery side ("I had asked Intralot a fe
 
 **§15.8:** clear. **§15 #9:** none. **Personal matters:** none.
 
+## Note, Oct 21 2026
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[wiki/people/irina-shishko.md|Irina]] said she is rewriting the RIS requirements, "потому что там всё очень плохо" — all the capabilities to be released [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]. The commitment above is in work, not done.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

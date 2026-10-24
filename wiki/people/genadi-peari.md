@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 136
+source-count: 138
 open-commitments: 59
 ---
 
@@ -686,6 +686,11 @@ With Val, in Russian, at the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-an
 - [ ] Genadi Peari — find a proper Light & Wonder Flex-Port fit (cover, mold change or spacer) — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [ ] Genadi Peari — teach Sebastian to make brackets — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 
+
+## Oct 21 2026 (10:01 AM, in absentia) — one repository; he does not build the BOM by hand
+
+At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|call with Andrei Bosik]] the hardware parts went into one repository with subfolders, partly because many repositories would be hard for Genadi to work with. Val does not want Genadi to build the power-supply BOM by hand in Excel as he does today — Genadi should only discuss the logic — and does not want Andrei and Genadi to agree things without him: "Генадий сделает посвоему, он сделает хорошо, но не сделает так я хочу." Andrei thinks Genadi should read the data contracts Claude writes; Val would read them only when a BOM fails — [[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -824,3 +829,5 @@ With Val, in Russian, at the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-an
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 52
+source-count: 55
 open-commitments: 22
 ---
 
@@ -291,6 +291,14 @@ At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.
 
 At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] Irina said he writes the story for Alekseev to make the Flex-Port build production-ready. Pavel named him ("лёша") with Ivan in Irina's team for the automated tests of bill-validator emulation mode; Val would have "Алексей" run Claude on the requirements and acceptance criteria to write the tests (Khamin by context — **inference**) — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
+## Oct 21 2026 — tests on hardware through CI; the mode switch does not reach the port
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] he said he keeps moving tests to run on hardware through CI, tested Alekseev's Flex-Port build from a branch and replied to him, and is the only reviewer on the new integration repository — [[wiki/topics/test-automation-strategy.md]] (Oct 21). He said the mode switch works on the terminal but the Flex-Port does not change its mode, and will re-check; he asked about the no-SAS documentation in Jira — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update).
+
+## Oct 21 2026 (in absentia) — raised as product owner, not taken
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] Val twice raised him as a possible product owner for the new NOVA; Pavel said no and Irina did not see it; Pavel thought Samusenko a better candidate — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -345,3 +353,6 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

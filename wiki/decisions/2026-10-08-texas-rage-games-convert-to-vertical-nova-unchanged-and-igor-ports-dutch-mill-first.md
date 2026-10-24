@@ -3,10 +3,10 @@ type: decision
 title: The horizontal Texas games on RAGE are converted to vertical NOVA games with Igor's 20% method, with no change to maths or function; Igor ports Dutch Mill first and Sergey Kleimenychev only makes the video (Oct 8 2026)
 date: 2026-10-08
 aliases: [Texas blind conversion, в тупую слепую, Texas Rage to Nova vertical, перевозим их на нова вертикальные, 20 percent stretch, symbols 20% taller than wide, Dutch Mill first port, дач мил, Kleimenychev video only, looping topper video, keep it confidential, держим конфиденцию, Games convert horizontal to vertical, one feature per game under capability 240, рейчту новым migration]
-source-count: 9
+source-count: 11
 status: active
-open-commitments: 7
-open-questions: 3
+open-commitments: 6
+open-questions: 2
 ---
 
 # The horizontal Texas games on RAGE go to vertical NOVA, unchanged; Igor ports Dutch Mill first
@@ -67,12 +67,10 @@ Igor: about two weeks for one game with the port and its tests ("недели 2"
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — tell Val whether graphics for any Texas game came from Sergey — due Mon Oct 12 2026 — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — check with Efim how to build the container that supports the Texas maths — due unspecified — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — finish the testing work and report its status — due Thu Oct 15 2026 meeting — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — port Dutch Mill to vertical NOVA — due Mon Oct 19 2026 (Val's target) — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 
 ## Open questions
 
 - How does LGS get mystery-progressive support for the Texas games, when Igor will not commit to that project? — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
-- How long does one port really take once tests and resources are ready — a week (Igor) or less (Val)? The Dutch Mill port is the measurement — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - Can the older games with static toppers (Igor's "над") go vertical as easily as the Dakota games, once AI videos replace the static pictures? — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 
 **§15.8:** Pavel's statement of how many hours a day Sergey works is engagement detail and is not recorded. No pay or rate appears. **§15 #9:** none.
@@ -109,7 +107,16 @@ Earlier the same morning, on the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lo
 
 On the commitments above: Igor's Oct-16 item (show the generated art; meet Val) is discharged — moved to History. The Dutch Mill port (due Oct 19) is re-aimed at the Oct-21 review of a first NOVA iteration; it stays open. Sergey's looping video (due Oct 12) is still not delivered as such; his access now works and new bonus videos are coming; it stays open. On the estimate question: Igor now says about 15 hours per game for the move, and about three days for Dutch Mill himself with Claude — still an estimate, not the measurement; the question stays open.
 
+## Update, Oct 21 2026 — Dutch Mill runs on vertical NOVA; the measurement
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 review]] (Russian) [[wiki/people/igor-metelski.md|Igor]] showed the vertical Dutch Mill on NOVA with all bonuses working, a test harness and a test scenario, and acceptance criteria and requirements linked to a capability (still a local draft). His measurement: about one session for the port (garbled in the transcript; about six hours per the Oct-20 stand-up), a parallel test session of about the same time, and a couple of hours to fix the defects he saw. He also built a vertical Midnight Money from its theme, on RAGE so far [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]. Full record: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-21 update). The same meeting decided to drop the browser under NOVA and set MVP1 as six Texas games on a stable NOVA — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]].
+
+On the commitments and questions above: the Dutch Mill port is done (two days after Val's Oct-19 target) — moved to History. The "how long does a port take" question is answered by that measurement — moved to History.
+
 ## History
+
+- [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — port Dutch Mill to vertical NOVA — due Mon Oct 19 2026 (Val's target) — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — **discharged Oct 21 2026**: shown running on NOVA with tests [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- Answered question: how long does one port really take once tests and resources are ready? — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — **answered Oct 21 2026**: about one session for the port plus a parallel test session and a couple of hours of fixes [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 
 - [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — show Pavel the generated art with programmatic animation; set up a meeting with Val on the next steps — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — **discharged Oct 18 2026**: the meeting with Val took place and Igor showed the art [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 
@@ -123,3 +130,5 @@ On the commitments above: Igor's Oct-16 item (show the generated art; meet Val) 
 - [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

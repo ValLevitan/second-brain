@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 89
-open-commitments: 75
-open-questions: 12
+source-count: 91
+open-commitments: 76
+open-questions: 13
 ---
 
 # Test-automation strategy and testing architecture
@@ -982,6 +982,23 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 
 At the end of the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|RIS release-notes review]] Val asked the team to "fix the description… in the actual tasks… In the repository", fix the capability, and make "the requirements and the acceptance criteria" consistent with the release notes, "so we can have automated tests. Otherwise, we're going to be suffering day after day… manual testing" [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]. Commitment (Pavel, Irina) on [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]].
 
+## Oct 21 2026 (4:46 AM) — tests move to hardware through CI; the new integration repository has one reviewer; Irina turns to bill-validator tests; the no-SAS mode needs capabilities
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** He keeps moving the tests to run on hardware through CI. He tested the Flex-Port build that Alekseev sent from his branch and replied to him. He was reviewing [[wiki/people/evgeny-kharetski.md|Kharetski]]'s PR on the new integration repository [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **One reviewer.** Kharetski: rulesets were set the day before ("по тире сета" — **inference**), so he cannot review his own PR, and Khamin is the only reviewer — "это очень сильно тормозит работу". He will ask Andrei to change the rules (who — **not identified**; Bosik fits by role, **inference**). Pavel: the repository was first made for integration and tests, and historically Khamin was there first. [[wiki/people/irina-shishko.md|Irina]] asked to move review to Igor (Metelski by context — **inference**); Pavel: "Игорь не сопротивляться не может его нету" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **Irina.** She rewrites the RIS requirements (see [[wiki/topics/ris-remote-install-and-machine-states.md]], Oct 21), keeps cleaning up the tests that concern the port and the machine, then turns to the bill-validator connection tests, asking Claude how best to do them [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **The no-SAS mode.** Khamin asked whether the no-SAS documentation in Jira will be fixed. Pavel: full testing of the bill-validator mode needs capabilities with proper requirements; most of it was built about a year ago without them; the acceptance criteria are likely out of date; some tests will work, some must be written from scratch. Irina will check what Andrei created — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+
+### Open commitments (Oct 21 2026, 4:46 AM)
+
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — ask Andrei to change the review rules on the new integration repository — due Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+
+### Open questions (Oct 21 2026)
+
+- Who reviews PRs on the new integration repository besides Khamin — Igor? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1073,3 +1090,5 @@ At the end of the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-revi
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

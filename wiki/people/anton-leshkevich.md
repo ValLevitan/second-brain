@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 46
+source-count: 50
 open-commitments: 4
 open-questions: 0
 ---
@@ -185,6 +185,14 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 
 At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] he fixed the vertical help in Clover Fortune, ported one Georgia game into Nebraska 2, and got the invite to the Wednesday meeting with Val — [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-20 update). His Claude, like Igor's, flagged VP9 decoding on the board — [[wiki/topics/nova-platform-architecture.md]] (Oct 20). His pipeline hung "offline" on a self-hosted runner, then ran fine during the meeting — [[wiki/topics/test-automation-strategy.md]] (Oct 20).
 
+## Oct 21 2026 — Nebraska 2 and RAM use
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] he said he worked on Nebraska 2 and is researching ways to cut RAM use, with maybe a small result by the 8:00 meeting — [[wiki/topics/nova-platform-architecture.md]] (Oct 21).
+
+## Oct 21 2026 (8:02 AM) — his Rust prototype; the browser is dropped
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] he reopened the architecture question: he had rewritten part of NOVA locally in Rust with small renderers for Spine and Miranda resources, LGS kept, running Calle Ocho natively — same speed at a 60 FPS cap, about half the RAM, and with compressed images about 700 MB against 2,700 MB (his laptop only). Val, Biratka and Pavel backed him and Val ruled to drop the browser; Val praised him for holding to his view. He also converted Clover Fortune from Nebraska to NOVA. He called Val's 10-day target "очень оптимистично". He will ask Andrei (Bosik, by role — **inference**) for a repository and upload the prototype — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]]. He agreed to Val's rule ("Yes да"); Pavel proposed him as product owner, which Val did not take — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]]. His RAM findings promised at the morning stand-up were shown here — [[wiki/topics/nova-platform-architecture.md]] (Oct 21, 8:02 AM) [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -234,3 +242,7 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

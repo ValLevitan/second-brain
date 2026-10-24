@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 28
+source-count: 30
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -252,6 +252,16 @@ At the [[wiki/meetings/2026-10-18-creative-direction-spec-review-and-game-design
 
 The spec those games will now follow: [[wiki/decisions/2026-10-18-igors-spec-becomes-a-creative-direction-specification-for-game-designers-and-the-word-re-skin-is-dropped.md]].
 
+## Oct 21 2026 — a vertical Midnight Money from a theme: geometry from one game, theme and maths from another, art generated
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] (Russian) [[wiki/people/igor-metelski.md|Igor]] showed a vertical version of the horizontal Midnight Money — "как демонстрация технологий", not a final game; the original art was "достаточно бедным" [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]:
+
+- **Geometry from Lion's Riches.** The newest vertical game made with the designers, in GCOAM 3 — Lion's Riches ("лайн рич"; the notes: "Lion's Rich"), 5 reels × 3 symbols — was used as the geometry standard: where the reel frame, paytable, logo and character sit and how much space each takes. Theme and maths came from Midnight Money: a night forest, a moon, moonflowers, animals on the symbols [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **Steps.** With Claude he worked out how to fit the theme to the standard and what character to invent; Claude wrote the prompts; he generated the images in ChatGPT; first one full-HD portrait picture (forest, moon, side trees, the wolf), then segmentation into elements (background, wolf, trees) so animations do not overlap; Claude animated the art, and the character was animated as video by another, third-party neural network. All backgrounds are made programmatically. The symbols did not fit the new style or aspect ratio and were regenerated from the originals, each with its own (mostly programmatic) animation; free spins were redone [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **A set of networks.** Gemini generates images poorly but segments "очень хорошо", so the method may use several networks, each for what it does best. Of those he tried, ChatGPT's image results suited him best; he had not tried Grok, which Val thinks is first today ("Но не окей, это неважно"). Pavel read that OpenRouter's rankings recommend Qwen and a second model heard "матч 2.1 турбо" (**unclear**) for image generation. Val: in a year the technology will be far ahead [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **Time.** In parallel with the Dutch Mill port: about a day for all the art with background animations, about half a day for the symbols [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **What it shows.** Val: Igor played a designer who states a theme in words, and the game is assembled programmatically; Igor: "А именно так." Val wants a few designers who describe a design in words and watch it built — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -282,3 +292,5 @@ The spec those games will now follow: [[wiki/decisions/2026-10-18-igors-spec-bec
 - [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

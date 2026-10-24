@@ -3,7 +3,7 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 14
+source-count: 19
 open-commitments: 3
 open-questions: 4
 ---
@@ -105,6 +105,14 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 
 At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|Oct-20 release-notes review]] [[wiki/people/felipe-miranda.md|Felipe]] read out replies to questions he had sent: "I had asked Intralot a few questions about that… This were responses by the lottery". The replies: "There is no restriction of when a hard rese[t]" and "Soft reset, no… decommissioning is required… as the lifetime meters are not affected in any way." Felipe: until now JVL "assumed that information from the documents we saw on the web page"; these are direct answers to the exact question. Val: "I thought we knew that information already." [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] *(Felipe says both "Intralot" and "the lottery" for the sender; which of the two answered is **unclear**.)* See [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]].
 
+## Oct 21 2026 (in absentia) — new games sent remotely; Val wants a chatbot for Intralot
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] (Russian) [[wiki/people/pavel.md|Pavel]] said remote game updates will meet some commission that does not let a new game simply appear on a machine: "мы должны все равно уведомить там какойто интролот или там ещё какуюто организацию" about new maths, stakes and payback; a new version of the same game (new art, same maths and button settings) could perhaps be loaded in the background without that. [[wiki/people/irina-shishko.md|Irina]]: in Georgia only SAS/LGS is certified through the commission, so adding a game does not affect it, but Intralot must still know [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]. [[wiki/people/val-levitan.md|Val]] wants a development system for "чат бот. Который разговаривает с центролотом" and asked to aim [[wiki/people/andrey-bosik.md|Andrey Bosik]] at it: "Я не шучу" [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]. The commitment sits on [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]].
+
+## Oct 21 2026 (9:44 AM, in absentia) — a JVL machine would call Intralot to commission itself
+
+On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-chatbot.md|ad-hoc call with Pavel Frolov]] (Russian) [[wiki/people/val-levitan.md|Val]] described how he wants Georgia commissioning to work. Today it is a voice call made by the machine owner or the technician. Val's plan: the machine has a phone module and a "commission machine" button; "Машина набирает номер телефона интерлот"; a live person at Intralot asks for the machine number, the location number and other data, and a JVL chatbot answers. JVL records the call; a failed commissioning is forwarded to a live technician, and the chatbot is improved and tried again on another machine [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]. Minutes later Val made [[wiki/people/pavel.md|Pavel]] its product owner and [[wiki/people/andrey-bosik.md|Andrey Bosik]] its developer [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]. See [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]]. This is the use behind the 8:02 AM wish above. Whether Intralot knows of or accepts a chatbot on the line is not stated.
+
 ## History
 
 - **2014.** "**Back in twenty fourteen, Intralot won the bid to become the central monitoring system**" (Billy Liu's account) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
@@ -144,3 +152,8 @@ At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|Oct-2
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]

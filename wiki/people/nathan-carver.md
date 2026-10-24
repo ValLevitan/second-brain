@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 63
-open-commitments: 19
+source-count: 65
+open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -253,7 +253,6 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 ## Open commitments (Oct 19 2026)
 
-- [ ] Nathan Carver — request the three repositories (harness, display, sheet metal) — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [ ] Nathan Carver — ask Dmitri Kovalchuk to create the three matching Jira projects — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [ ] Nathan Carver — add more MSBC endpoints for end-to-end inventory control, from Val's AI COO use cases — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [ ] Nathan Carver, Genadi Peari — review Val's AI COO use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] *(Oct 20: started — Genadi said Nathan "сейчас пошёл изучать" [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]])*
@@ -265,7 +264,16 @@ At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bra
 
 ## Open commitments (Oct 20 2026)
 
-- [ ] Nathan Carver, with "Andrei" (identity unresolved) — agree separate repositories or tags and reply by email — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+
+
+## Oct 21 2026 (10:01 AM, in absentia) — he loads the spike BOM into Business Central
+
+At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|call with Andrei Bosik]] the hardware parts went into one repository with subfolders, replacing the repositories-or-tags email. In the first spike the power-supply BOM is built automatically, and "нейтан потом берёт и… Закладывает его в бизнес централ" — [[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].
+
+## History (closed Oct 21 2026)
+
+- [x] Nathan Carver, with "Andrei" (identity unresolved) — agree separate repositories or tags and reply by email — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] — *done Oct 21: the "Andrei" is Andrei Bosik, who answered by email; Val closed it on the call — one repository [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]*
+- [x] Nathan Carver — request the three repositories (harness, display, sheet metal) — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] — *superseded Oct 21: one repository with subfolders [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]*
 
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -332,3 +340,5 @@ At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bra
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

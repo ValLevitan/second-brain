@@ -3,7 +3,7 @@ type: meeting
 title: Call with Genadi Peari — the procurement admin system first, cost work in January, TVs and ordered harnesses (Oct 20 2026, 3:06–3:23 PM)
 date: 2026-10-20
 aliases: [Call with Genadi Peari Oct 20, Genadi Peari Procurement Admin First TVs and Harnesses, Oct 20 3:06 PM Genadi call, 45 working days call]
-source-count: 2
+source-count: 3
 open-commitments: 0
 open-questions: 0
 ---
@@ -29,7 +29,7 @@ Thin stub.
 ## Notes on the sources
 
 - **§12 — new meeting.** A corpus-wide search for both filenames, "45 working days", "$46" and "TV" found no page citing them. The notes link it to the 2:15 PM meeting as a continuation, but it is a separate recording with its own time, so it gets its own stub.
-- **Garbles and unclear points.** "Эко" in Val's TV question is unclear (the notes say so too). The "he" who will ask the TV supplier is not named. "олюном дайкас" is read as aluminum die-cast (the notes say the same). "AICOI mery" = the AI COO and Mary (the notes). "Джорджа филта" = Georgia field tests (the notes). "Андрей" is not resolved — see the 2:15 PM stub.
+- **Garbles and unclear points.** "Эко" in Val's TV question is unclear (the notes say so too). The "he" who will ask the TV supplier is not named. "олюном дайкас" is read as aluminum die-cast (the notes say the same). "AICOI mery" = the AI COO and Mary (the notes). "Джорджа филта" = Georgia field tests (the notes). "Андрей" is not resolved — see the 2:15 PM stub. *Oct 21: resolved — at the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oct-21 10:01 AM call]] the speaker label is "Andrei Bosik" and he says he answered the email on why many repositories are not needed, so this "Andrei" is [[wiki/people/andrey-bosik.md|Andrey Bosik]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].*
 - **Skipped as chatter.** Val saying he sent an email, and the goodbyes.
 - **§15.8:** clear — part and TV prices are company costs; no one's pay. **§15 #9:** clear.
 
@@ -37,3 +37,4 @@ Thin stub.
 
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

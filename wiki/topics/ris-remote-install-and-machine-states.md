@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521, RIS improvements release notes, the current lease period will remain unaltered, upgrade pending, no bank in street operation]
-source-count: 40
+source-count: 42
 open-questions: 21
 open-commitments: 4
 ---
@@ -455,7 +455,7 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 
 ### Open commitments (Oct 19 2026)
 
-- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the passport task and move its due date from Oct 30 — due Oct 21–22 2026 (Irina) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026: still in work, alongside permissions for the update authorization service; not reported done* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the passport task and move its due date from Oct 30 — due Oct 21–22 2026 (Irina) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026: still in work, alongside permissions for the update authorization service; not reported done* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] — *Oct 21 2026: last scenarios on the stand, commit planned that day; not reported done* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 
 ## Oct 20 2026 (4:46 AM) — the hardware-tracking checkbox now carries more logic: with it on, RIS cannot be applied with an unregistered passport
 
@@ -486,6 +486,14 @@ At the [[wiki/meetings/2026-10-20-diamond-amusement-ris-improvements-release-pre
 ### Open questions (Oct 20 2026)
 
 - How long is the "upgrade pending" grace period for a machine that missed an upgrade, and is "one more lease interval, then stop" the rule? Val offered 30–60 days as an example; not set — [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+
+## Oct 21 2026 (4:46 AM) — Irina rewrites the RIS requirements; Ivan checks Kharetski's and Tsymanov's work; Tsymanov finishes the passport task
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]:
+
+- **The requirements.** [[wiki/people/irina-shishko.md|Irina]] is rewriting the requirements for RIS, "потому что там всё очень плохо" — all the capabilities to be released. This is work on the Oct-20 commitment to make the tasks match the release notes — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] (Oct-21 note) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **The checks.** [[wiki/people/ivan.md|Ivan]] continues on RIS, checking what [[wiki/people/evgeny-kharetski.md|Kharetski]] did and what [[wiki/people/sergey-tsymanov.md|Tsymanov]] is doing; Tsymanov's part is not finished. Irina expects rework after the previous day's discussion [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **Tsymanov.** He finishes the passport task today: last scenarios on the stand, commit planned today. He also plans to finish the roles for software updates today and to close the printer task — [[wiki/decisions/2026-10-05-epic-950-is-the-terminal-printer-tested-first-and-all-models-stay-supported.md]] (Oct-21 note) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
 
 ## Sources
 
@@ -529,3 +537,5 @@ At the [[wiki/meetings/2026-10-20-diamond-amusement-ris-improvements-release-pre
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

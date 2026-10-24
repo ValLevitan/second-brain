@@ -3,9 +3,9 @@ type: decision
 title: RAGE is finished — all new work is on NOVA; the first NOVA iteration of Dutch Mill is reviewed Wednesday Oct 21; a re-skin from a new theme abstract (Michael writes it, on Igor's spec) tests whether an artist can use the tools alone (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [Rage is closed, Rage закончился, ничего под рэйдж больше не делается, Dutch Mill on NOVA Wednesday, first iteration Dutch Mill NOVA, Dutch Mill re-skin, рискин дач мила, theme abstract, абстракт, technical spec for the abstract, техническое задание по написанию абстракта, Michael writes the abstract, three tool sets, Conversion Cycle Texas Rage Horizontal to Texas NOVA Vertical, question pause answer, вопрос пауза ответ, 15 hours per game]
-source-count: 8
+source-count: 10
 status: active
-open-commitments: 8
+open-commitments: 6
 open-questions: 4
 ---
 
@@ -66,7 +66,6 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-10
 
 ## Open commitments
 
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — move Dutch Mill from RAGE to NOVA, first iteration with tests — due Wed Oct 21 2026 review — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [ ] Owner not named — give Igor access to the Dutch Mill repository — due before work starts — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — ask Michael to write a new theme abstract replacing Dutch Mill (abstract only) — due after the spec review — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — remove the intermediate RAGE scene step so art goes straight to the OMNI scene converter ("это как бы я сделаю") — due unspecified — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
@@ -108,14 +107,27 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 
 ### Open commitments (Oct 20 2026)
 
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — fix the visible graphic defects of the Dutch Mill port and add each defect to the requirements list so the harness catches it next time — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [ ] Unassigned (Pavel) — split the remaining game ports among the team — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
 ### Open questions (Oct 20 2026)
 
 - Who writes the tests for the game ports? (Irina) — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
+## Update, Oct 21 2026 (8:02 AM) — the Wednesday review: Dutch Mill runs on NOVA with tests; a vertical Midnight Money built from a theme; the meeting turns to a native engine
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 review]] (Russian; Val, Igor, Leshkevich, Biratka, Pavel, Irina, Kharetski) [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]:
+
+- **Dutch Mill on NOVA.** [[wiki/people/igor-metelski.md|Igor]]: "порт вертикального дачмила… На нова платформу готов… Все бонусы рабочие". The progressive bonus "было плохо сделано и в рейдже недоделать чутьчуть". From the port he wrote acceptance criteria and requirements linked to a capability — "пока всё ещё локально в виде черновика". A test harness and a test scenario are done; the harness did not start correctly the first time and needed a separate session. The port took about one session (garbled "примерно 06:01 сессия"; cf. about six hours on Oct 20), a parallel session of about the same time for the tests, and one more session of a couple of hours to fix what he saw by eye; all of it was added to the acceptance criteria and requirements, so the list grows port by port [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **A vertical Midnight Money from a theme.** In parallel Igor made a vertical version of the horizontal Midnight Money: screen geometry from Lion's Riches (the notes: "Lion's Rich"; "лайн рич"), the newest vertical from GCOAM 3, 5 reels × 3 symbols; theme and maths from Midnight Money; art generated — detail on [[wiki/topics/game-art-animation-production-pipeline.md]] (Oct 21). It runs on RAGE only so far. Texas now has three vertical versions: one on NOVA, two still RAGE only [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **Val's reading.** Igor played a designer who dictates a theme in words, and the game is built programmatically: "Проиграть роль дизайнера, который в принципе может продиктовать новую схему. И… Программчески это можно всё собрать." Igor: "А именно так." Val praised Igor's work [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]. *(This is the theme-to-game test the re-skin was meant to run, done by Igor himself on another game — **inference**; the Dutch Mill re-skin by Sergey and the abstract from Michael were not discussed.)*
+- **Leshkevich's port.** [[wiki/people/anton-leshkevich.md|Leshkevich]] also converted Clover Fortune from Nebraska to NOVA "в качестве экстерза" [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+- **Then the engine.** Leshkevich used the review to reopen the browser question; Val ruled to drop the browser for a native engine, set "no code before capabilities", and defined MVP1 as six Texas games on a stable NOVA — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]]; product owner and capability process — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]].
+- **On the commitments.** Igor's NOVA first iteration with tests is shown — discharged. His Oct-20 defect fixes are done and added to the criteria — discharged. Not taken up: the Dutch Mill repository access line, Michael's abstract, the intermediate RAGE scene step, Sergey's loops, the maths-for-six-games question, who splits the remaining ports, who writes the tests. They stay open.
+
 ## History
+
+- [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — move Dutch Mill from RAGE to NOVA, first iteration with tests — due Wed Oct 21 2026 review — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] — **discharged Oct 21 2026**: shown at the review, all bonuses working, with a test harness and scenario [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — fix the visible graphic defects of the Dutch Mill port and add each defect to the requirements list so the harness catches it next time — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] — **discharged Oct 21 2026**: a session of a couple of hours fixed what he saw, and the acceptance criteria and requirements were extended [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 
 - [x] [[wiki/people/irina-shishko.md|Irina Shishko]] — invite Anton Leshkevich to the Wednesday Dutch Mill review — due Wed Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *discharged Oct 20 2026: Irina forwarded him the invite during the stand-up* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
@@ -131,3 +143,5 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

@@ -10,7 +10,7 @@ open-questions: 0
 
 # Daily stand-up — IO board firmware via GitHub and VP9 video decode (Oct 20 2026)
 
-**Date/time:** October 20 2026 (a Tuesday), **4:46 – 5:36 AM Eastern**, about 51 minutes, from the `**Date:**` header line of both files [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. Teams session "Daily Standup meeting". **Language: Russian.** The Minsk team's morning stand-up, run by Pavel. The previous stand-up is [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct 19]].
+**Date/time:** October 20 2026 (a Tuesday), **4:46 – 5:36 AM Eastern**, about 51 minutes, from the `**Date:**` header line of both files [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. Teams session "Daily Standup meeting". **Language: Russian.** The Minsk team's morning stand-up, run by Pavel. The previous stand-up is [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct 19]]. The next is [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct 21]].
 
 **Who spoke** (speaker labels): [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] (label "Alexander Biratko"), [[wiki/people/alexei-khamin.md|Alexei Khamin]] (label "Alexey Khamin"), [[wiki/people/anton-leshkevich.md|Anton Leshkevich]], [[wiki/people/anton-seregin.md|Anton Seregin]], Daniil Stauskiy (no page), [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/igor-metelski.md|Igor Metelski]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/ivan.md|Ivan]] (label "Ivan Shpak"), [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] (label "Sergey Tsimanov") [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. Val was not present. Pavel noted Vladimir is on vacation.
 
@@ -26,6 +26,8 @@ open-questions: 0
 - [[wiki/topics/test-automation-strategy.md]] (Oct 20) — Flex IQ SSH login in the CI secrets; Review → Completed → Closed; capability 243 split; the Terminal Hub test environment; the self-hosted runners.
 - [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 20) — the hardware-tracking checkbox and the passport; Tsymanov's permissions work; Kharetski's tasks to In Progress.
 - People: [[wiki/people/pavel.md]] · [[wiki/people/alexander-biratka.md]] · [[wiki/people/alexei-khamin.md]] · [[wiki/people/anton-leshkevich.md]] · [[wiki/people/anton-seregin.md]] · [[wiki/people/dmitri-kovalchuk.md]] · [[wiki/people/evgeny-kharetski.md]] · [[wiki/people/igor-metelski.md]] · [[wiki/people/irina-shishko.md]] · [[wiki/people/ivan.md]] · [[wiki/people/sergey-tsymanov.md]] · [[wiki/people/evgeniy-alekseev.md]] (in absentia)
+
+- **Follow-up:** the Wednesday meeting with Val ("завтра") took place on Oct 21 at 8:02 AM — [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md]].
 
 ## Notes on the sources
 

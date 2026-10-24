@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 135
+source-count: 141
 open-commitments: 50
 ---
 
@@ -651,6 +651,19 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.md|Oct-20 7:01 AM Flex-Port firmware meeting]] Val said that, as he understands it, the GitHub Actions are made "Андреем босиком… специально нон девелопром", and that this is the point: a non-developer must be able to build. Pavel: not necessarily, and "Андрей не сможет это все покрыть"; Val: he can only if the repository holds the right data contracts and prose — [[wiki/decisions/2026-10-20-flex-port-mvp1-needs-only-an-easy-release-build-and-the-usb-update-and-alekseev-writes-stm32-freertos-rules-for-claude-review.md]] [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]. This repeats Val's Oct-19 "Andrei writes Github actions" (above).
 
+## Oct 21 2026 (in absentia) — a chatbot for Intralot; a repository for the Rust prototype
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] Val asked that he be aimed at building a chatbot that deals with Intralot — [[wiki/organizations/intralot.md]] (Oct 21). Leshkevich will ask "Андрей" for a repository for his Rust prototype — Bosik by role (**inference**) — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
+
+## Oct 21 2026 (9:57 AM, in absentia) — developer of the Georgia commissioning chatbot
+
+Val named him developer of the chatbot that commissions machines with Intralot, with [[wiki/people/pavel.md|Pavel Frolov]] as product owner — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]].
+
+## Oct 21 2026 (10:01 AM) — one repository with subfolders; the power-supply BOM spike
+
+At an [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|18-minute call with Val]] (Russian) he argued that hardware parts need one repository with subfolders, not many repositories: a repository is only a storage level, an Action can read subfolders, parts overlap, and "Мы можем всегда разделить гораздо сложнее соединять". Val accepted and closed the question. He says he is the one who answered the email on repositories, so the Oct-20 "Andrei" who questioned some fifteen repositories is him. He takes the power-supply BOM spike with this transcript as the spec, for a meeting on Tue Oct 27; Thu–Fri he is busy with the PM agent and helping "Женя" with autotests (which Zhenya is not resolved) — [[wiki/decisions/2026-10-21-hardware-parts-go-into-one-repository-with-subfolders-and-the-first-spike-builds-the-power-supply-bom-automatically.md]] [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -791,3 +804,9 @@ At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]

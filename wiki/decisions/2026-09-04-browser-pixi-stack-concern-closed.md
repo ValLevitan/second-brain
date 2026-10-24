@@ -1,15 +1,17 @@
 ---
 type: decision
-title: The browser/Pixi technology-stack concern is raised, argued and closed — build the pipeline first; swapping the engine later means changing one block, not the pipeline
+title: The browser/Pixi technology-stack concern is raised, argued and closed (Sept 4) — build the pipeline first; swapping the engine later means changing one block — REVERSED Oct 21 2026, when Val ruled that NOVA drops the browser for a native engine
 date: 2026-09-04
 aliases: [tech stack concern closed, browser vs compiled engine, Pixi alternatives, Godot experiment, Unity Unreal royalties, engine choice September 2026, one block out of twenty]
-source-count: 2
-status: active
+source-count: 4
+status: superseded
 open-commitments: 0
-open-questions: 2
+open-questions: 1
 ---
 
 # The browser/Pixi stack concern — raised, argued, and closed
+
+> **Status: superseded (Oct 21 2026).** The concern was reopened by Leshkevich and Val ruled to drop the browser and Pixi for a native engine — see the Oct-21 update below and [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]].
 
 When Val opened the floor for objections at the [[wiki/meetings/2026-09-04-rage-nova-conversion-readiness.md|Sept 4 2026 morning meeting]] ("Даю слово любому ктото не согласен… Любое любое любое"), [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] took it and raised the one thing that had been bothering him for a long time. By the end of the exchange Val asked "значит, мы ваш конструр закрываем, да?" and Anton answered "Пожалуй, да пока пока" — closed, for now. [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 
@@ -38,9 +40,20 @@ Optimising Claude's own cost is a design goal, not just an implementation detail
 
 ## Open questions
 
-- Whether the browser/Pixi stack is the right 10–20-year bet for NOVA. **Deferred, not answered** — Anton withdrew the concern "пока" (for now), on the argument that the pipeline is the thing to build and the engine is one replaceable block inside it — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - How to keep Claude's token cost down as the automated pipeline grows. Raised by Anton, unaddressed — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+
+## Update, Oct 21 2026 — reopened and reversed: NOVA drops the browser
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] (Russian) [[wiki/people/anton-leshkevich.md|Leshkevich]] raised the architecture again before the game ports go "на поток". He had rewritten part of NOVA locally in Rust with small renderers for the Spine and Miranda resources, keeping LGS: the same speed at a 60 FPS cap and, with compressed images, "около семиста мегабайт. Против 2 700 на текущей" — measured on his laptop; the RK3576 board shares one memory between system and video [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]. This time [[wiki/people/alexander-biratka.md|Biratka]], who defended the browser on Sept 4, backed dropping it ("браузер у нас узкое место"), and Pavel noted that with AI the engine can now be regenerated in about a week. Val: "Это была ошибочная… Сейчас время поправить, я поддерживаю Антоном в этом." No browser build is kept [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]. Full record: [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]].
+
+The open question "is the browser/Pixi stack the right bet?" is answered — moved to History.
+
+## History
+
+- Answered question: whether the browser/Pixi stack is the right 10–20-year bet for NOVA — deferred Sept 4 "пока" — [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]] — **answered Oct 21 2026: no; the browser and Pixi are dropped for a native engine** [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

@@ -3,9 +3,9 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 22
+source-count: 24
 open-commitments: 1
-open-questions: 3
+open-questions: 4
 ---
 
 # Docs-as-code and the plan to exit Atlassian
@@ -158,8 +158,18 @@ The Sept-29 position holds: Confluence is the working place for the transactiona
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move the Flex-Port folder up to the same level as FlexPay and Flex IQ in Confluence, and post in the team chat where everything now lies — due Sept 30 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 
+## Oct 21 2026 — use cases before interfaces, and interactive HTML documents beside .md (advice from Pavel Frolov)
+
+On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-chatbot.md|ad-hoc call]] (Russian) [[wiki/people/val-levitan.md|Val]] asked [[wiki/people/pavel.md|Pavel Frolov]] how a product owner can show an idea and document who does what [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]:
+
+- **Use cases first.** Val first called the tool "react"; Pavel said React is a framework for building interfaces, and what Val meant is OpenAPI and Swagger, which describe endpoints between front end and back end — "на самом деле маленькая часть". Product owners should "на ступеньку выше стоять и идти от us кейсов, а не от интерфейсов."
+- **Val's position: .md.** "мы говорим, что на всё нужно лучше дат эм d файл. Потому что клад ему легче работать просто с текстом… нам не не нужно ни свагер, ни опы напи." Pavel: OpenAPI is the ideal tool for front-end/back-end data contracts, "но оно не везде подходит".
+- **Pavel's proposal: interactive HTML documents.** An HTML artifact is "наглядный для человека и понятный для клота"; Claude makes it easily and keeps working with it, while plain .md "Для человека плохо воспринимается". He had tried a GitHub project that gained about 8,000 stars in the last month and draws architecture diagrams (not named). The module diagrams and links must be documented anyway at the architecture stage, "либо MD, либо это будет интерактив… Артефакт".
+- **Not settled.** Val's summary — "нам нужно юз кейсы, нам нужно картинки в htt m… И задания в дотенди" — drew only "Ну что да чтото вроде такого" from Pavel. The derived notes list the final format as an open question [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]].
+
 ## Open questions
 
+- Use-case documents: .md only, or interactive HTML artifacts for pictures with tasks in .md? Val's summary got only a loose yes from Pavel (Oct 21 2026). — [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - The initial Confluence-to-Markdown export was **incomplete**: the symbol table (symbol names + export naming) that exists in Confluence did **not** port. Aaron said Confluence's export may be lossy and it must be reconciled. [[raw/GitHub_commit_of_LFS_demo_by_Lena_2025-02-21.md]]
 - Will Claude's earlier-proposed architecture (from the Mar-23 data-access-strategy session) actually apply to the legacy CMS codebase once the documentation pass completes? Still open after the Apr 28 sync — documentation was only ~73% done (Flex-POS crowded out CMS work), so Val deferred the future-platform discussion rather than resolving it. [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
 - **External validator status** — Dmitri Chudinov referenced "some external service" that will check produced documentation against the declared criteria; whether it is built, planned, or aspirational was not clarified. [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
@@ -189,3 +199,5 @@ The Sept-29 position holds: Confluence is the working place for the transactiona
 - [[raw/Meeting_Transcript_Transactional_MVP1_Setup_Instructions_and_MikroTik_Router-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]

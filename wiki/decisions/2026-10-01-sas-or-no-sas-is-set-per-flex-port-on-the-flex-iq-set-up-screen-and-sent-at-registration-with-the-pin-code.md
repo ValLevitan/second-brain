@@ -3,7 +3,7 @@ type: decision
 title: A Flex-Port's SAS / no-SAS mode is set per port on the Flex IQ set-up screen, not on the server (that waits for MVP 2 or 3), and goes to the port at terminal registration with the PIN code; a port switches only when it holds no transaction and no money; the modes are called "sas AFT" and "no sas"
 date: 2026-10-01
 aliases: [SAS mode flag, sas AFT и no sas, SAS AFT, no SAS, тумблер переключения, mode per port, mode on the Flex IQ set-up screen, not on the server, PIN code and mode at registration, port switches when idle, эмуляция билаксептора, part of a location on SAS and part not, одном банке часть машин по сассу, flag on the fly, задача на 5 минут, server-side toggle MVP 2 or 3]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 1
 open-questions: 2
@@ -39,7 +39,7 @@ Pavel then asked whether any other parameter must be given to a device at the st
 
 ## Open commitments
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] or [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — add the mode flag to the PIN-code capability: a per-port toggle on the Flex IQ set-up screen's connected-ports tab, sent as the second registration parameter after the PIN code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] or [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — add the mode flag to the PIN-code capability: a per-port toggle on the Flex IQ set-up screen's connected-ports tab, sent as the second registration parameter after the PIN code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]] — *Oct 21 2026: Khamin says the switch is on the terminal and works, and Tsymanov says it worked when he built it; whether it goes at registration with the PIN code is not said, and the port does not act on it (see the Oct-21 update) — left open* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 
 ## Open questions
 
@@ -59,7 +59,17 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 
 Whether Chudinov's or Tsymanov's mode flag (the open commitment above) is built is not said.
 
+## Update, Oct 21 2026 — the switch is on the Flex IQ, but the Flex-Port does not change its mode; the port-side command is built now
+
+At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-crc-fix.md|Oct-21 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]:
+
+- **The design stands.** [[wiki/people/pavel.md|Pavel]]: the technician sets from the kiosk which machines work by SAS and which do not, because one kiosk can serve different machine types — **consistent** with this page.
+- **The gap.** [[wiki/people/alexei-khamin.md|Khamin]]: the switch exists on the terminal and works, but the Flex-Port does not change its mode; today someone must connect by telnet ([[wiki/people/alexander-biratka.md|Biratka]]). Pavel: the command from the kiosk to the port is not built on the port side; it is "задача 5 минут" and will not wait for Alekseev. The mode is written to the port's EEPROM and survives a restart [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]].
+- **This page's first open question** (what the port does with the flag) now has part of an answer: it should store the mode in EEPROM and keep it — Pavel. Detail and the new commitments: [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-21 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]

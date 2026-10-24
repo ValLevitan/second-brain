@@ -31,6 +31,8 @@ open-questions: 0
 - [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-19 update) — an AI Draft on Biratka; about 11 tasks under a closed parent; Claude-set due dates.
 - People: [[wiki/people/pavel.md]] · [[wiki/people/alexander-biratka.md]] · [[wiki/people/alexei-khamin.md]] · [[wiki/people/anton-leshkevich.md]] · [[wiki/people/anton-seregin.md]] · [[wiki/people/dmitri-kovalchuk.md]] · [[wiki/people/evgeny-kharetski.md]] · [[wiki/people/irina-shishko.md]] · [[wiki/people/ivan.md]] · [[wiki/people/sergey-tsymanov.md]] · [[wiki/people/efim-podvoiski.md]] (in absentia) · [[wiki/people/igor-metelski.md]] (in absentia)
 
+- **Follow-up:** the Wednesday Dutch Mill review Leshkevich was invited to took place on Oct 21 at 8:02 AM — [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md]].
+
 ## Notes on the sources
 
 - **§12 — new meeting.** The notes and the transcript share the date, time and title and link each other. A corpus-wide search for both filenames, "October-19-2026", "2026-10-19", "SP 1360" and "FAKE 171" found no page citing either file and no stub for this session. The other Oct-19 raws (two GitHub/MSBC sessions) have different titles and content. The AFT discussion Pavel moved to "новый митинг" is not in this pair; if it reaches the corpus it is a separate stub.

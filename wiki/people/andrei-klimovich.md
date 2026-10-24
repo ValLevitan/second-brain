@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 125
+source-count: 127
 open-commitments: 114
 open-questions: 0
 ---
@@ -906,6 +906,10 @@ At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requiremen
 
 At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] he ran the sync. He argued for reading SAS data (game-title performance, money in and out) from other makers' machines and selling it through the operational dashboard for about $30–50 a month extra; Val doubted it, then approved his split: transactions by bill validator and counters through pulses, and on every machine with SAS 6.0 or higher JVL can take data and make it a paid product. He proposed setting each port's mode in the gateway, and raised technicians swapping bill acceptors of other makes. He is away on Wednesday and Thursday at a trade show. He owes the bill-validator + pulses capability in MVP 1 tied to requirements with acceptance criteria, his approval of the reworked requirements, the request to Sebastian to connect the ports, and the bill-validator list — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
+## Oct 21 2026 (in absentia) — the model product owner
+
+At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21 Dutch Mill review]] Val held him up as the product owner who works well — "Он выполняет этот респонсобилоти очень хорошо" — and the grooming with him on Transactional as the model for the new NOVA. He was not taken for the role: Val, "у него нету диапазона"; Irina, "Андрей занимается транзакшн… не надо его портить" — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -1034,3 +1038,5 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]

@@ -5630,3 +5630,17 @@ VERIFICATION: **35 facts checked by main context against cited raws — 35/35 he
 **Tier A:** (1) Diamond told "end of November" for P1–P3 vs the owner's RIS MVP 1 ≈ Nov 9 — release vs field delivery? (2) the "Andrei" who objects to ~15 repos — notes say Klimovich, Oct 19 read as Bosik; unresolved. **Tier B:** P1–P3 = Peach 1–3 (inference); Oct-5 error-screen title still says "cause and fix" (retitle?); Diamond-side names (Connie, Tara, "Kowalski", "Eagle") no pages; "Эко" for the TVs unclear.
 STRUCTURE: bijection EXACT (1656=1656=1656); artifact scan clean; 0 dangling in changed pages; all 8 batch raws cited; parentheticals synced.
 Progress: steady-state run of 2026-10-24 — batches 267–269 done; 28/60 new raw files handled; pending: 32 files.
+
+## [2026-10-24] ingest | steady-state batch 270 started (Oct 21 2026 morning — 5 recordings, 10 files)
+qmd update run before writing.
+
+## [2026-10-24] ingest | steady-state batch 270 COMPLETED (Oct 21 2026 morning) — 5 recordings = 4 meeting events / 10 raw files
+Three writer units, sequential; verifier = main context. All Russian.
+**Events:** 4:46 AM stand-up (kiosk cannot yet switch a Flex-Port between SAS and BV mode — port command built now, mode in EEPROM; Pavel's SAS CRC fix makes the port stable on IGT and Banilla; one settings-QR design across Flex-Port/Flex Pay/Flex IQ) · 8:02 AM Dutch Mill on NOVA review (Dutch Mill on NOVA with tests; Leshkevich's Rust prototype ~700 MB vs 2,700 MB; NOVA drops the browser for a native engine; no code before capabilities; MVP 1 = stable NOVA releasing six Texas games, 10 days max; Samusenko invited as NOVA product owner) · 9:44 AM Val–Pavel, two segments, one stub (use cases before interfaces; Georgia commissioning chatbot — Pavel product owner, Bosik developer) · 10:01 AM Val–Bosik (one hardware repository with subfolders; power-supply BOM spike).
+Pages CREATED (9): 4 meeting stubs; 5 decisions. Pages UPDATED (~40). **Superseded:** Sept-4 browser/Pixi decision (status superseded, retitled; index summary updated). **Partly reversed (retitled, status annotated, index summaries refreshed):** Oct-5 "no monorepo" and Oct-19 "three repos first" → one repository with subfolders.
+VERIFICATION: **47 facts checked by main context against cited raws — 47/47 held (PASS).** Per unit: a 15/15, b 16/16, c 16/16; 22 writer-list, **25 verifier-drawn**; all Russian.
+**STATE CHANGES:** Igor's Dutch Mill NOVA port + defect fixes discharged (Oct-8 and Oct-18 pages); Pavel's Banilla SAS-commands check done; Leshkevich's RAM findings shared; questions answered: "how long does one port take", "is browser/Pixi the right bet" (no), "separate repos or tags" (one repo, subfolders). Three Oct-19 repo commitments closed as superseded/done. No contradictions opened.
+§15: none found. §15.8: none. No identifiers.
+**Tier A:** (1) the Oct-20 "Andrei" (repos/tags) now resolved as Andrey Bosik (speaker label Oct 21) — overrides the Oct-20 notes' "Klimovich"; confirm. (2) "себаша" — the product owner Val first named for the chatbot (Sebastian or Samusenko?). **Tier B:** «за 02:00» read as ~2 hours; "нова 2 / супер нова" name; "ирон" (against tags) unclear; Genadi's Oct-13 "control BOM" commitment vs Val's "no hand-built BOM" flagged unclear.
+STRUCTURE: bijection EXACT (1664=1664=1664); artifact scan clean; 0 dangling in changed pages; all 10 batch raws cited; parentheticals synced.
+Progress: steady-state run of 2026-10-24 — batches 267–270 done; 38/60 new raw files handled; pending: 22 files.
