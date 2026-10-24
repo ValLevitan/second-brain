@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 28
+source-count: 29
 open-commitments: 5
 open-questions: 3
 ---
@@ -161,6 +161,10 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 
 At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; "Michael" / "Mikhail" = Mikhail Perelman by the procurement context, §4): Val said "Michael will be leaving", that he "worked on his own" long-built framework — "There were certain reports that he were relying on" — and that Mary cannot work off the same format [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. In segment 2 Val said vendor "ready" and "shipping" messages are today only "Verbal emails between Michael and the vendor", which "cannot work like this"; Genadi recalled Mikhail asking that his notes be kept, and said they should be taken from the emails [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. See [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]]. A garbled "Mikhail Levitan part" at the end of segment 1 is read as his hand-over by context (**inference**) [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. No reason for leaving and no personal detail recorded.
 
+## Oct 20 2026 (3:06 PM, in absentia) — about 45 working days left
+
+On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] (Russian; "миша" = Mikhail Perelman by the procurement context, §4) Val: "если миша уйдёт, мы закопаемся… у нас осталось 45 дней… Рабочих дней 45 дней. Потом миша уйдёт" — so the administrative procurement system comes first and cost work waits for January — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. Genadi also said he had raised ordering harnesses with "михаэлю" (read as Mikhail by context — **inference**) [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. No reason for leaving and no personal detail recorded.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -193,3 +197,4 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

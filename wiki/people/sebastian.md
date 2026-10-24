@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 25
+source-count: 27
 open-commitments: 3
 open-questions: 2
 ---
@@ -145,6 +145,10 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 
 At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] Klimovich said he would first ask Sebastian to connect the ports through bill validators and counters on all borrowed machines except the Banilla, and that he and Sebastian are away on Wednesday and Thursday at a trade show; the machines go back on Friday — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
+## Oct 20 2026 (2:15 PM, in absentia) — he measured the brackets; Genadi will teach him to make them
+
+At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|Oct 20 2:15 PM meeting]] (Russian) Genadi said Sebastian "померил все эти бракет" but cannot make the part himself. Val: he has no instructions yet; "Все, что ему не даешь, он делает"; he wants to learn, teaches himself with Claude and free programs, and JVL would buy tools he needs ("автокад или ещё чтото"). Genadi: "Я его научу, мы его научим"; there is a lot of small production work for him — [[wiki/decisions/2026-10-20-first-light-and-wonder-flex-port-installs-get-a-hand-cut-fit-while-a-proper-fix-is-found.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -172,3 +176,5 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]

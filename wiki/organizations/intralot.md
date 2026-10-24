@@ -3,7 +3,7 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 13
+source-count: 14
 open-commitments: 3
 open-questions: 4
 ---
@@ -101,6 +101,10 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 
 On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] Felipe: "**Tech training event happening on November second at InComm where were yesterday, not InComm, Angelock where were yesterday.**" On Oct 13 Val and Felipe were at Intralot, so "Angelock" is read as Intralot — **inference**; the notes give only "heard 'Angelock', not InComm" [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]. Felipe asked "Christina" whether a JVL technician could attend; the answer was to talk to "Zach", who gives tips on different manufacturers. The notes: [[wiki/people/sebastian.md|Sebastian]] should attend "so JVL is presented correctly" [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
 
+## Oct 20 2026 — Intralot's written replies on hard and soft resets
+
+At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|Oct-20 release-notes review]] [[wiki/people/felipe-miranda.md|Felipe]] read out replies to questions he had sent: "I had asked Intralot a few questions about that… This were responses by the lottery". The replies: "There is no restriction of when a hard rese[t]" and "Soft reset, no… decommissioning is required… as the lifetime meters are not affected in any way." Felipe: until now JVL "assumed that information from the documents we saw on the web page"; these are direct answers to the exact question. Val: "I thought we knew that information already." [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] *(Felipe says both "Intralot" and "the lottery" for the sender; which of the two answered is **unclear**.)* See [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]].
+
 ## History
 
 - **2014.** "**Back in twenty fourteen, Intralot won the bid to become the central monitoring system**" (Billy Liu's account) [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Georgia_Payment_Ecosystem_and_Float_Economics-September-15-2026.md]].
@@ -139,3 +143,4 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 - [[raw/Application_Nudge_Skill_for_Nebraska_2025-03-14.md]]
 - [[raw/eclipse_nebraska_testing_requirement_review-june-4-2025.md]]
 - [[raw/Meeting_Transcript_Georgia_Lottery_Class_A_Guidance_and_Prize_Card_Compliance-September-10-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]

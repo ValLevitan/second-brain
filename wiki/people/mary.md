@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery, Mery Villavicencio, Мэри]
-source-count: 16
+source-count: 18
 open-commitments: 2
 ---
 
@@ -50,6 +50,10 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 
 At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; Val, Genadi, Nathan) Val said Michael worked from his own long-built framework and reports and "Mary cannot work off of the same format"; the architecture he presented "should work for Mery" [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. In segment 2: she "is not an engineer", so she needs "an administration environment" in Business Central; JVL moves away from specialized reports and she should "be able to write in Spanish or English and get an answer" through MCP; Nathan adds MSBC endpoints from Val's AI COO use cases [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. Genadi: "she needs to start working very fast" [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. See [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]] and [[wiki/decisions/2026-10-08-mary-takes-over-mikhail-perelmans-ordering-role-with-training-from-october-19.md]] (Oct-19 update). Read as this Mary — same hand-over as the owner's 2026-10-15 ruling. Her two open items below are not reported on.
 
+## Oct 20 2026 (3:06 PM, in absentia) — brought up to speed step by step
+
+On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] (Russian) Val: "нам нужно постепенно вводить меры в курс дел", and Genadi should switch his energy to "AICOI mery" (the AI COO and Mary, per the notes) — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]].
+
 ## Open commitments (Oct 13 and Oct 16 2026)
 
 - [ ] Mary — set the amount and the purchase lines for the open purchase order Lev asked about (vendor garbled) — due Monday Oct 19 2026 (notes' date; transcript "в понедельник") — [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
@@ -73,3 +77,5 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 239
+source-count: 241
 open-commitments: 108
 open-questions: 0
 ---
@@ -1305,6 +1305,10 @@ At the [[wiki/meetings/2026-10-20-val-pavel-alignment-trust-standards-and-delega
 - **7:01 AM.** At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.md|Flex-Port firmware meeting]] [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] he set the MVP 1 need — the USB-stick update, every build through GitHub Actions — and held that a build rule is written once and then anyone can start it; a release action can block a release on failed tests, prose or contract checks. He disputed Alekseev's claim that no release had been built, ran Alekseev's Claude report on Yavorski's older branch (same remarks, fewer), and asked Alekseev to write the STM32 / FreeRTOS rules. He splits the transcript into tasks, opens the Jira ticket for the hard fault and gives Alekseev the Flex IQ emulator — [[wiki/decisions/2026-10-20-flex-port-mvp1-needs-only-an-easy-release-build-and-the-usb-update-and-alekseev-writes-stm32-freertos-rules-for-claude-review.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]].
 - **8:31 AM.** At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|third-party EGM call]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] he said only JVL and Aristocrat work fully over AFT; the rest go to bill-validator emulation and pulses, code he had kept as a parameter. He said auto-detecting the mode is unreliable, reported the SAS commands seen on three machines, and takes the Banilla command check and the third-party test tasks — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
+## Oct 20 2026 (10:49 AM) — the RIS improvements release notes
+
+At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|release-notes review]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] he confirmed the upgrade, lease and printer statements; explained that a peripheral swap postpones the passport update to the next lease scan (no login needed); said the lease on a mismatch keeps the previous end date ("It will not expand existing Lease"); gave three options for a machine that missed an upgrade and agreed with Felipe's "one more interval"; said the team is not ready for a new list of error codes — the screen names the cause, server-side help "including AI" later; and proposed a cash-out filter, then left point 9 as written. With Irina he is asked to rewrite the tasks, capability and acceptance criteria to match the notes; Val said he would try not to disturb him the next day so he could catch up — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1549,3 +1553,5 @@ At the [[wiki/meetings/2026-10-20-val-pavel-alignment-trust-standards-and-delega
 - [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]

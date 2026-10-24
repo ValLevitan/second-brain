@@ -2,9 +2,9 @@
 type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
-aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521]
-source-count: 37
-open-questions: 20
+aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521, RIS improvements release notes, the current lease period will remain unaltered, upgrade pending, no bank in street operation]
+source-count: 40
+open-questions: 21
 open-commitments: 4
 ---
 
@@ -467,6 +467,26 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - **Tsymanov** works on the passport task and, in parallel, adds permissions to the update authorization service so that not all users can see it [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
 - **Kharetski** listed RIS performance work and Georgia MVP 1 fixes among his tasks, with three task numbers heard as 1262, 1263 and 1259; Pavel asked him to move what he named to In Progress, because with the AI Draft column added, To Do is now the second column and is easy to take for In Progress [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
 
+## Oct 20 2026 (10:49 AM) — the release notes, point by point
+
+At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|Oct-20 10:49 AM release-notes review]] (Val, Felipe, Pavel, Irina; mostly English) Val fixed the wording of the RIS improvements release notes, nine points — full record: [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]. For this page:
+
+- **Upgrades keep the settings.** "After the release, the machine keeps its full configuration through an upgrade" (cabinet, peripherals, games, bet buttons, denominations); if the game math does not change, no new setup file; if one is needed, it comes "through a modem or a USB". This is the "reuse the RIS on newer software" thread of Oct 6–15 (capability 248), now in customer words (**inference**, by content) [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **Lease on a mismatch.** The lease is issued on its own for the software on the machine, "with no action at Jvl and no passport step"; anyone can scan it, no login; "the current lease period will remain unaltered" — fully paid machines run to end of life (2030) [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **Peripheral swap and the Passport.** To the user the machine registers a new peripheral on its own; Pavel: "under the hood, it will postpone update of passport until next Lease scan" [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]. A data point for the open Passport question below; Val did not rule on the Passport itself.
+- **Printer switch** available any time before a hard reset, "Even if money was still placed on the machine" (Pavel) [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **A missed machine** runs on its old RIS; Felipe and Pavel favour one more lease interval with an upgrade warning; Val did not rule. Val: on the street "there is no bank… each machine is individual" [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **Critical errors:** the screen "will name the cause of the error"; no new error-code list now [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **Intralot's replies** (read by Felipe): no restriction on when a hard reset is done; a soft reset needs no decommissioning, since lifetime meters are not affected [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+
+## Oct 20 2026 (1:11 PM) — the notes go to a customer
+
+At the [[wiki/meetings/2026-10-20-diamond-amusement-ris-improvements-release-preview.md|Oct-20 1:11 PM visit to Diamond Amusement]] Val and Felipe handed over the printed notes and asked Diamond to approve them; tentative delivery "end of November", new builds for "P1, 2, and 3" first, with "a decommission and recommission, but only this time"; "one scan does it all" for lease renewal; "upgrade pending" with, for example, "thirty to sixty days" — [[wiki/decisions/2026-10-20-diamond-gets-the-ris-improvements-first-on-p1-p2-and-p3-at-the-end-of-november-and-the-two-machine-trial-is-extended.md]] [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]. *(The owner's 2026-10-18 ruling — RIS MVP 1 about November 9 — is not changed by this customer delivery date.)*
+
+### Open questions (Oct 20 2026)
+
+- How long is the "upgrade pending" grace period for a machine that missed an upgrade, and is "one more lease interval, then stop" the rule? Val offered 30–60 days as an example; not set — [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -506,3 +526,6 @@ At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]

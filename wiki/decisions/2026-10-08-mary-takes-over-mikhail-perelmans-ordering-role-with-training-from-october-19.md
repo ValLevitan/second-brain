@@ -3,7 +3,7 @@ type: decision
 title: Mikhail Perelman leaves from January; Mary (Mery) takes over his ordering role — decided for now (owner ruling 2026-10-15), with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
-source-count: 11
+source-count: 13
 status: active
 open-commitments: 1
 open-questions: 0
@@ -40,6 +40,10 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 
 At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; Val, Genadi, Nathan) Val opened with the hand-over: "Michael will be leaving", Michael worked from his own "30 year… framework" and reports, and "Mary cannot work off of the same format"; Val has no time to bring someone else on and Genadi must not spend time on purchasing [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. In segment 2 Val said she "is not an engineer. Michael is an engineer", so she needs "an administration environment" in Business Central: no specialized reports, questions through MCP "in Spanish or English", and more MSBC endpoints from Nathan, driven by AI COO use cases Val writes [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] — [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]]. Genadi: "she needs to start working very fast" [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. The transcript spells her "Mary" and "Mery"; the notes "Mery" [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. Nothing here changes the leaving date or the training plan; whether training started on Oct 19 is not said.
 
+## Oct 20 2026 update — about 45 working days left; admin procurement first; Genadi brings Mary up to speed
+
+On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] (Russian) Val: "у нас осталось 45 дней… Рабочих дней 45 дней. Потом миша уйдёт", so the administrative side of procurement comes first and cost work waits for January; "нам нужно постепенно вводить меры в курс дел"; Genadi should fill GitHub with supplier data and talk with Val every day — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. **Consistent** with a January departure; nothing here changes the plan.
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — start training Mary on ordering — due Oct 19 2026, running through November and half of December — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] *(Oct 19: the work to build her Business Central environment began; no training session is reported [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]])*
@@ -61,3 +65,5 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

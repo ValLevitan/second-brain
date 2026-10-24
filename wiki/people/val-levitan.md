@@ -3,8 +3,8 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 439
-open-commitments: 83
+source-count: 447
+open-commitments: 84
 open-questions: 1
 ---
 
@@ -1722,13 +1722,28 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 ## Open commitments (Oct 19 2026)
 
-- [ ] Val Levitan — write a first set of AI COO use cases (up to about 10) for tracking material management and send them to Nathan and Genadi — due Oct 19 2026 ("I will get on it today") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [x] Val Levitan — write a first set of AI COO use cases (up to about 10) for tracking material management and send them to Nathan and Genadi — due Oct 19 2026 ("I will get on it today") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] — **discharged by Oct 20 2026:** Genadi and Nathan were reviewing "ваш драфт" (read as this use-case set — **inference**) [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [ ] Val Levitan — meet Lev Rudky to learn the payment flow and how purchase invoices are administered — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 
 ## Oct 20 2026 (7:01 AM and 8:31 AM) — "we cannot depend on one developer"; the SAS-only call "was a mistake"
 
 - **7:01 AM.** At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.md|Flex-Port firmware meeting]] [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] he said a non-developer must be able to run the Flex-Port release build, which works only when the repository holds the right architecture, prose and data contracts; "Я хочу документировать так систему, чтобы в будущем мы от вас не зависели." For MVP 1 he asked only for an easy, stable release build: check it, include it, open 10 locations. No schedule until the work is split into tasks and estimated — [[wiki/decisions/2026-10-20-flex-port-mvp1-needs-only-an-easy-release-build-and-the-usb-update-and-alekseev-writes-stm32-freertos-rules-for-claude-review.md]].
 - **8:31 AM.** At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|third-party EGM call]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] he called the old decision to take MVP 1 only on SAS "ошибочное решение"; rejected the name "hybrid mode" for reading SAS data on machines without AFT; approved Klimovich's split of AFT (transactions) and SAS 6.0+ (data); said future promotional credits would work only on AFT machines; set the MVP 1 release for a Wednesday and the first install for about Monday November 2 — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
+
+## Oct 20 2026 (10:49 AM and 1:11 PM) — "my goal is to make sure that our customers in Georgia are satisfied"
+
+- **10:49 AM.** He fixed the RIS improvements release notes point by point [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]: rewrote point 2, added "the current lease period will remain unaltered", changed "part" to "peripheral, such as a bill acceptor" and "today" to "currently", and took Felipe's paragraph as point 6 after admitting "I totally tuned off… My goal is to make sure that our customers in Georgia are satisfied." On the street "there is no bank… each machine is individual." He asked the team to rewrite the tasks, the capability, and the requirements and acceptance criteria to match, "so we can have automated tests" — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **1:11 PM.** At [[wiki/organizations/diamond-amusement.md|Diamond]] [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]] he asked for approval of the notes, gave "end of November" as the tentative delivery, said JVL is adding cell modems and pays for the data, extended the two-machine trial, and expected "ten to thirty percent improvement in net win" from the new software: "You told us, we listened… I don't read minds." — [[wiki/decisions/2026-10-20-diamond-gets-the-ris-improvements-first-on-p1-p2-and-p3-at-the-end-of-november-and-the-two-machine-trial-is-extended.md]] [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]].
+
+## Oct 20 2026 (2:15 PM and 3:06 PM) — tags are bad; admin procurement first, cost work in January; "каждый день на связи"
+
+- **2:15 PM.** At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|GitHub-MSBC follow-up]] (Russian; with Genadi) he held that "таги плохо" because each repository needs its own data contract, but let "Andrei" and Nathan answer — [[wiki/decisions/2026-10-19-hardware-repositories-start-with-harness-display-and-sheet-metal-and-the-agent-generates-data-contracts-from-vetted-data-sheets.md]] (Oct-20 update); said no custom MSBC reports are needed when agents keep their own notes; and set a hand-cut Flex-Port fit for the first Light & Wonder installs while the cover is "в лучшем случае через 2 месяца" away — [[wiki/decisions/2026-10-20-first-light-and-wonder-flex-port-installs-get-a-hand-cut-fit-while-a-proper-fix-is-found.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]].
+- **3:06 PM.** On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|call with Genadi]] he put the administrative procurement system first — "у нас осталось 45 дней… Рабочих дней" before Mikhail leaves — and moved cost cuts, new suppliers and machine redesign to January; agreed that harnesses be ordered; proposed buying 200 TVs at $46 in batches of 40; and asked for daily contact — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]].
+
+## Open commitments (Oct 20 2026)
+
+- [ ] Val Levitan — find his earlier note on why tags do not work — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [ ] Val Levitan, Genadi Peari — talk every day — due ongoing — [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -2178,3 +2193,11 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 - [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

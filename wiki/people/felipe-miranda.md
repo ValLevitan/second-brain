@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 99
+source-count: 103
 open-commitments: 24
 open-questions: 0
 ---
@@ -449,6 +449,11 @@ At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-
 
 He set up the meeting — the notes pair the recording with a calendar event "Meeting with David Villari", organizer Felipe [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]] — and sat in while [[wiki/people/david-villari.md|David Villari]] of [[wiki/organizations/bad-dog-zephyr.md|Bad Dog / Zephyr]] described Puerto Rico and offered a distributor contact. David will connect "both of you" — Val and Felipe — with the right partner. Val's terms are on [[wiki/decisions/2026-10-16-puerto-rico-goes-through-one-distributor-at-twenty-percent-with-no-jvl-financing.md]]; the market detail on [[wiki/projects/puerto-rico-expansion.md]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 
+## Oct 20 2026 (10:49 AM and 1:11 PM) — the release notes, and presenting them at Diamond
+
+- **10:49 AM.** At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|release-notes review]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]] he read out Intralot's replies on resets (no restriction on a hard reset; no decommissioning after a soft reset), asked whether the printer switch works any time before a hard reset (Pavel: yes, even with money on the machine), raised the missed-machine case and proposed one more lease interval with an upgrade warning — his paragraph became point 6 — suggested a QR page with likely causes for critical errors, and kept the cash-out paragraph because the log is overwritten within about two hours of play. Val asked him to print the clean draft — [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]] [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]].
+- **1:11 PM.** At [[wiki/organizations/diamond-amusement.md|Diamond]] [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]] he walked the customer through the points and the rollout (P1–P3 first, end of November; decommission and recommission "only this time"). The day before, a Diamond tech had called him about a machine whose lease had expired — [[wiki/decisions/2026-10-20-diamond-gets-the-ris-improvements-first-on-p1-p2-and-p3-at-the-end-of-november-and-the-two-machine-trial-is-extended.md]] [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -550,3 +555,7 @@ He set up the meeting — the notes pair the recording with a calendar event "Me
 - [[raw/Meeting_Notes_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Notes_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]

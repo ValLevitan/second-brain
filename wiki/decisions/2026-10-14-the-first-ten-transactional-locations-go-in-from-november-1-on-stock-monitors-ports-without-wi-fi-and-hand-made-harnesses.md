@@ -3,7 +3,7 @@ type: decision
 title: The first ten transactional locations go in from November 1 — stock monitors instead of covers, Flexports without Wi-Fi, JVL-made brackets for the first location, ten harness sets made by hand, at most two installs a day, then a pause
 date: 2026-10-14
 aliases: [path to the first ten locations, November 1 stays, Первое ноября у нас решено, first ten locations then a pause, десять локаций нам сделаем паузу, monitors instead of covers, JVL We Take Our Games Seriously on the monitor, first release without Wi-Fi, no port replacement, brackets for the first location, order brackets for ten locations, hand-made harnesses, ten sets of harness by hand, two installs a day, sixty ports for ten locations]
-source-count: 4
+source-count: 8
 status: active
 open-commitments: 7
 open-questions: 2
@@ -67,8 +67,18 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 
 **Against this page.** November 1 2026 is a Sunday, so a first install on Monday November 2 fits "from November 1" — **consistent**. Whether the Wednesday release changes the owner's November 1 release date is not said; nothing here replaces it. Detail: [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]].
 
+## Note, Oct 20 2026 (2:15 PM and 3:06 PM) — harnesses to be ordered; Light & Wonder needs a hand-cut fit
+
+- **Harnesses.** On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] Genadi said Elizabeth is making harnesses by hand and it takes much of her time; the field tests need "20, 40 штук" Flex-Ports, two harnesses each, and the drawings exist, so order them. Val: "я с вами согласен." Genadi will send the list of drawings at once — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. **Evolution:** this moves the Oct-14 hand-made plan toward ordered harnesses; how many sets are still made by hand for the first locations is not said.
+- **Brackets.** At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|Oct 20 2:15 PM meeting]] Genadi said Sebastian has measured the brackets; on Light & Wonder machines the Flex-Port is 1 mm too tall without its back cover, about two months away; for the first Light & Wonder installs the part is cut by hand — [[wiki/decisions/2026-10-20-first-light-and-wonder-flex-port-installs-get-a-hand-cut-fit-while-a-proper-fix-is-found.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]].
+- **Why installs matter.** Val: a customer liked the demo but changed his mind on hearing none are installed, so he is rushing to get machines onto locations [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

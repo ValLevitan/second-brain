@@ -3,7 +3,7 @@ type: topic
 title: Low-cost street machine (sub-$2,000 street cabinet program)
 date: 2026-06-09
 aliases: [street machine, machine-width video deck, 10-degree play panel, golden mark, Light and Wonder panel on an arm, pull-out electronics shelf, street cabinet, Sept 16 board spec, ID003 and ccTalk, eye level electronics, halo light, plywood cabinet, cup holders, low-cost street machine, low-cost street cabinet, street slot machine, sub-$2000 street machine, RK3588 street machine, stripped street cabinet, Flex S, флекс эс, стрит машина, RK3576 street machine, wooden monolithic body, wood or metal, price both then decide, three containers, 7000 square feet, deeper cabinet, fixed dashboard, slide-down panel, fold-down door, plastic is out, kitchen-cabinet makers, pedestal split, devices onto the panel, dashboard halved, 27-inch panel, electronics drawer, why the FlexPort at all, too early for Igor]
-source-count: 34
+source-count: 37
 open-commitments: 6
 open-questions: 6
 ---
@@ -310,6 +310,10 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - "**We're designing new cabinets for street market**".
 - "**For street market, we're thinking of moving away from printer and bill acceptor inside of the machine. We only want to put the AFT on the machine.**" The AFT is Flexport: "**We call it Flexport**". Printing would happen "**at the back at the clerk**" through JVL's own POS, or at a slim self-checkout counter that "**fits between the machines**". See the open contradiction below. The notes say the same [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
 
+## Oct 20 2026 — a die-cast frame "like an iPhone", and cost work waits for January
+
+On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] (Russian), as an example of why cost cuts depend on machine design, Val said street machines should be built "как айфон": inside, the whole frame is "олюном дайкас" (aluminum die-cast, per the notes), a TV on one side and a cover on the other; narrow, because "билоксектор нам не нужен"; all electronics flat, spread over the large area of a "43"-inch TV, with no small boxes. He said many ideas must still be weighed, and all of it — the machine, the amplifier, new suppliers — waits for January — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. In the 2:15 PM meeting Genadi said the street machine will not have a digital amplifier ("Астрит у нас не будет дижитолом лиффаера") [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]. **Consistent** with the program being on hold since Oct 8.
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — review the market for a long, machine-width touchscreen for the video deck — due unspecified ("я должен ребеью маркет") — [[raw/Meeting_Transcript_Street_Machine_Cabinet_Layout_and_FlexPort_Enclosure-September-24-2026.md]] — *Sept 25: first prices reported (~$100 at ~30 cm, ~$180 at 21.5 length); he will talk to the supplier again* [[raw/Meeting_Transcript_Street_Cabinet_Deep_Layout_and_Service_Door-September-25-2026.md]]
@@ -373,3 +377,6 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]

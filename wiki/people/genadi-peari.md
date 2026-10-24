@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 132
-open-commitments: 53
+source-count: 136
+open-commitments: 59
 ---
 
 # Genadi Peari
@@ -664,8 +664,27 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 - [ ] Genadi Peari — load his vetted data sheets and drawings into the three repositories — due after the repositories exist — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [ ] Genadi Peari, Nathan Carver — find Val's earlier repository table (email or Teams) and compare it with the folder list — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
-- [ ] Genadi Peari, Nathan Carver — review Val's AI COO use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
-- [ ] Genadi Peari, with Nathan Carver — walk through one repository together (about 15 minutes) — due Oct 20 2026 (notes; "tomorrow") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [ ] Genadi Peari, Nathan Carver — review Val's AI COO use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] *(Oct 20: started — "я не закончил" [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]])*
+- [ ] Genadi Peari, with Nathan Carver — walk through one repository together (about 15 minutes) — due Oct 20 2026 (notes; "tomorrow") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] *(Oct 20: not yet — Genadi asked Nathan to go through the repository issues "завтра" [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]])*
+
+## Oct 20 2026 (2:15 PM and 3:06 PM) — tags are not his call; the Light & Wonder 1 mm; teaching Sebastian; harnesses ordered; admin procurement first
+
+With Val, in Russian, at the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|2:15 PM meeting]] [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] and the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|3:06 PM call]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]:
+
+- **Repositories or tags.** He passed on that "Andrei" does not want about fifteen repositories and suggests tags; "это не не мой экспертиз, я не хочу туда лезть" — Andrei and Nathan should settle it — [[wiki/decisions/2026-10-19-hardware-repositories-start-with-harness-display-and-sheet-metal-and-the-agent-generates-data-contracts-from-vetted-data-sheets.md]] (Oct-20 update). He and Nathan had looked at Val's draft; he had not finished; he agreed no custom MSBC reports are needed with the agents, and said Lev must join at some point for invoicing — [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]] (Oct-20 update).
+- **Light & Wonder and Sebastian.** He raised that the Flex-Port is 1 mm too tall on Light & Wonder machines without its back cover; he agreed to hand-cut for the first installs and to find a proper fix; he will teach Sebastian to make brackets — [[wiki/decisions/2026-10-20-first-light-and-wonder-flex-port-installs-get-a-hand-cut-fit-while-a-proper-fix-is-found.md]].
+- **Cost ideas parked.** He proposed cheaper parts (a "$35" part for "10" from China; a distributor part at about $40 that should be about 15) and flagged old Flex components that are hard to buy. Val moved all cost work to January; Genadi: "Хорошо я понял" — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]].
+- **TVs and harnesses.** He had agreed with someone (not named) that 10 TVs come by air for a fit check before 90 more at $46; he pushed to order Flex-Port harnesses instead of Elizabeth making them by hand, and Val agreed. He will send the list of drawings.
+- **His focus.** Val: the admin side of procurement; fill GitHub with supplier and product data; bring Mary up to speed step by step; talk with Val every day. Genadi: "Так точно."
+
+## Open commitments (Oct 20 2026)
+
+- [ ] Genadi Peari — make the list of harness drawings and send it so harnesses are made urgently — due Oct 20 2026 — [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [ ] Genadi Peari — fill GitHub with supplier and product data — due ongoing — [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [ ] Genadi Peari — bring Mary up to speed step by step — due ongoing — [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [ ] Genadi Peari, Val Levitan — talk every day — due ongoing — [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [ ] Genadi Peari — find a proper Light & Wonder Flex-Port fit (cover, mold change or spacer) — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [ ] Genadi Peari — teach Sebastian to make brackets — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -801,3 +820,7 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 - [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

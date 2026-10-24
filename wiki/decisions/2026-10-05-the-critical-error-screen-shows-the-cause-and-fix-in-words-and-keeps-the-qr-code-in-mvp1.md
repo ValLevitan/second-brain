@@ -3,7 +3,7 @@ type: decision
 title: In RIS improvement MVP1 the critical-error screen shows the real cause and the fix in words and keeps the QR code; the QR data goes to JVL's database, and real-time data for technicians is a later MVP
 date: 2026-10-05
 aliases: [critical error screen, we adding the description along the QR code, the QR code is for JVL, technician will not get anything by scanning, for class 3 we need it, Mvp 27, real cause of a critical error]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 2
 open-questions: 2
@@ -51,6 +51,16 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 - How will the team check that every source of a critical error is covered? Asked by Kharetski; left for when the task starts — [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 
+## Oct 20 2026 — the release-notes wording: the screen names the cause; no new error-code list now
+
+At the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|Oct-20 10:49 AM release-notes review]] [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]:
+
+- **Pavel:** "I'm not sure that we can cover all the possible issues right now" and "I'm not sure that to be actually implementing new list of error codes." The yellow screen "will be changed to specify some particular messages related to this error"; the QR code carries "the error code, serial number and software version." "seems like we are not ready right now to make something more."
+- **Felipe's idea:** the QR code opens a page with "the most probable causes" of a critical error and troubleshooting steps. **Pavel:** "In the future… on the server side, we will be able to implement some logic, including AI".
+- **Val's wording for point 7:** "after the release the screen. Will name the… cause of the error." Pavel: "Yes."
+
+**Evolution, not reversal:** the screen still shows the cause in words and keeps the QR code, but the Oct-5 "and the suggested fix" is not in the Oct-20 wording; fix steps move to later, server-side work. At 1:11 PM Felipe told Diamond the screen "will identify the cause of the error" [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]. See [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]].
+
 ## Open commitments
 
 - [ ] Sebastian Cortes, with Pavel Frolov — review and rewrite the capability descriptions, including the critical-error QR text (the technician gets nothing from scanning in MVP1) — due unspecified — [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
@@ -66,3 +76,5 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
 - [[raw/Meeting_Notes_RIS_MVP1_Scope_and_Peach_Packaging-October-5-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]

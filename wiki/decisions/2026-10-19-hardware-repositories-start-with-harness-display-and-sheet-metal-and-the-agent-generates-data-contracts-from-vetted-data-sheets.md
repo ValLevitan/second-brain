@@ -2,11 +2,11 @@
 type: decision
 title: Hardware repositories start with three — harness, display and sheet metal — from Nathan's folder list; each repository is one project with free-form content plus readme, Prose and data contracts, and the agent generates the data contracts from the data sheets and drawings Genadi has vetted
 date: 2026-10-19
-aliases: [first three hardware repos, harness display sheet metal, repository equals project, one repository per project, free-form repository, readme Prose data contracts, data contracts are generated not hand-written, a release is a bill of material, only vetted items go in, 13 repositories, about 15 repositories, hardware manufacturing repo name, Andrei opens repos Dima opens projects]
-source-count: 3
+aliases: [first three hardware repos, harness display sheet metal, repository equals project, one repository per project, free-form repository, readme Prose data contracts, data contracts are generated not hand-written, a release is a bill of material, only vetted items go in, 13 repositories, about 15 repositories, hardware manufacturing repo name, Andrei opens repos Dima opens projects, repositories or tags, Andrei does not want fifteen repositories, tags are bad]
+source-count: 6
 status: active
-open-commitments: 4
-open-questions: 1
+open-commitments: 7
+open-questions: 2
 ---
 
 # Hardware repositories start with harness, display and sheet metal; the agent generates the data contracts (Oct 19 2026)
@@ -36,16 +36,32 @@ The derived notes record the same four decisions [[raw/Meeting_Notes_GitHub_MSBC
 
 **Evolution, not contradiction.** Oct 5 set the model; Oct 8 named a 13-repo table and said the data contracts lie "полностью на вас" (Genadi), while noting the AI mostly builds them from datasheets; Oct 9 showed Nathan's folders as future repositories ([[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]]). Oct 19 turns the folders into the starting repo list, names the first three, and makes the agent the writer of the contracts, with Genadi supplying the vetted files. The data-contract-not-CAD rule of [[wiki/decisions/2026-10-13-the-agent-builds-the-bom-as-a-control-gate-taught-by-data-contracts-not-cad-and-genadi-finds-why-it-is-wrong.md]] stands.
 
+## Oct 20 2026 update — "Andrei" questions the repository count and suggests tags; Andrei and Nathan to settle it
+
+At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|Oct 20 2:15 PM meeting]] (Russian; Val and Genadi only) [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]:
+
+- **The objection.** Genadi: "Андрей он говорит, но я не хочу делать фифтин" — "Andrei" does not want about fifteen repositories, one per category, and suggests collecting them "по такс" (by tags). Genadi: "я не вижу разницы"; "это не не мой экспертиз, я не хочу туда лезть"; Nathan was writing an email "чтобы они это между собой… Технически сделали".
+- **Val's view.** "Нет таги плохо": each repository carries its own data contract, "чтобы мы могли логику на этом построить… но и построить чекпойнт… Поймать ошибки." He said it was discussed before and he has a note somewhere that explains why tags do not work — "Я могу поискать."
+- **Left to them.** Genadi: "пускай Андрей это с нейтаном. Скажут правильно как"; "Дайте им, дайте ему ответить." Val: "Хорошо, хорошо." Genadi asked Nathan to go through it "завтра" and hopes the repository issues will be closed "чтоб можно было… Начать".
+- **Val, on the follow-up call:** "Андрей, например, не хочет строить так архитектуру, как я предложил… Андрей толковой… его стоит послушать" [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]].
+- **Who "Andrei" is — unresolved.** The notes write "Andrei Klimovich" [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]; on Oct 19 the "Andrei" who opens the repositories was read as [[wiki/people/andrey-bosik.md|Andrey Bosik]] by context (inference). The Oct-20 transcript gives no surname. Queued for the owner.
+
+**Against this page: an open challenge, not yet a change.** The one-repository-per-project rule stands until Andrei and Nathan answer.
+
 ## Open commitments
 
 - [ ] [[wiki/people/nathan-carver.md|Nathan Carver]] — request the three repositories (harness, display, sheet metal) — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [ ] Nathan Carver — ask Dmitri Kovalchuk to create the three matching Jira projects — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — load his vetted data sheets and drawings into the three repositories — due after the repositories exist — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [ ] Genadi Peari, Nathan Carver — find Val's earlier repository table (email or Teams) and compare it with the folder list — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [ ] "Andrei" (identity unresolved), [[wiki/people/nathan-carver.md|Nathan Carver]] — agree separate repositories or tags and reply by email — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [ ] Nathan Carver — go through the repository issues with Genadi so the work can start — due Oct 21 2026 (notes; "завтра") — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — find his earlier note on why tags do not work — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 
 ## Open questions
 
 - How many repositories, and with what names? Val: "Thirteen"; Genadi: "about 15". Genadi: "I don't understand hardware manufacturing" — sheet metal, plastics and harnesses already cover it, "so basically nothing left in there"; Val: "it's possible that the names are also incorrect." Genadi also thinks Val's earlier table "was better". — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- Separate repositories or one set grouped by tags? Val: tags are bad because each repository needs its own data contract; "Andrei" prefers fewer repositories with tags; Genadi will not decide. — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 
 **§15.8:** clear. **§15 #9:** clear.
 
@@ -54,3 +70,6 @@ The derived notes record the same four decisions [[raw/Meeting_Notes_GitHub_MSBC
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]

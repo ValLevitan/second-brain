@@ -2,8 +2,8 @@
 type: organization
 title: Diamond Amusement
 date: 2026-07-23
-aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games, Diamond Amusements, route acquisition, Conyers GA, 2069 Lake Industrial Ct, peach ones, 74 JVLs deployed, field auditor, American Kiosk]
-source-count: 11
+aliases: [Diamond Amusement, Diamond, Diamond Amuse, Diamond Games, Diamond Amusements, route acquisition, Conyers GA, 2069 Lake Industrial Ct, peach ones, 74 JVLs deployed, field auditor, American Kiosk, RIS improvements preview, trial for the two machines, Kowalski]
+source-count: 13
 open-commitments: 8
 open-questions: 4
 ---
@@ -142,14 +142,29 @@ The ruling and its consequences are on [[wiki/decisions/2026-09-14-competitor-ma
 
 On the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 RIS and Passport call]], [[wiki/people/felipe-miranda.md|Felipe]] used Diamond as his example of the unexplained **boot loop** that only a hard reset clears: "Just the other day with Diamond Amusement, we had in one location two machines going in this boot loop at the same time. This was very strange". He linked boot loops in general to electrical problems at a location ("A power spike thunder somewhere"). The cause was not known as of that call. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Sept 23). [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
 
+## Oct 20 2026 — Val and Felipe bring the RIS improvements, and ask Diamond to approve them
+
+At the [[wiki/meetings/2026-10-20-diamond-amusement-ris-improvements-release-preview.md|Oct-20 1:11 PM visit]] (Conyers; about 16 minutes) [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe]] handed over the printed RIS improvements release notes — the answer to the Sept-10 complaints about hard resets, settings files, passcode keys, the Passport scan and error codes that name nothing (above). Val: "These are the changes that we're going to be implementing if you approve, and our tentative delivery date is end of November." [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+
+- **The rollout:** new builds for "P1, 2, and 3" first — "The ones that we have more off out there" — then the rest; this first upgrade needs "a decommission and recommission, but only this time". Val: JVL is adding cell modems, "We pay for the data" [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]].
+- **The two machines:** Val: "we're extending the trial for the two machines, and we are changing the software for these two machines"; he expects "between ten to thirty percent improvement in net win" from that software, new games and tweaks [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]].
+- **A field case:** the day before, a Diamond tech (heard "Kowalski") called Felipe about a machine whose lease had expired — the one Felipe had given a dongle for the upgrade [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]].
+- **Diamond's side:** the notes read the reaction as good — easier work for its field techs [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]. A JVL machine is about to go to "a tier one location". Val: "If you have anything else in mind, tell us… I don't read minds." [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+
+Ruling and the four commitments (Diamond to approve the notes and report field problems; JVL to ship the P1–P3 builds and change the trial machines' software): [[wiki/decisions/2026-10-20-diamond-gets-the-ris-improvements-first-on-p1-p2-and-p3-at-the-end-of-november-and-the-two-machine-trial-is-extended.md]].
+
+## Open contradictions
+
+- **What Val promised on Sept 10.** The Sept-10 recording has Val saying he could not start now — "I cannot do it now… my entire team is focused on profitability today… After this game gets in the field, I will start working on your complaints" [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]. On Oct 20 Val recalled it as: "I told you that I that I would put everything on hold, and I will implement the changes that you wanted" [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]. Two accounts of the same conversation; not resolved.
+
 ## Open commitments (Sept 10 2026)
 
-- [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — identify the two pilot locations, buy the two machines and deploy them in two different location types — due ~Oct 1 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — identify the two pilot locations, buy the two machines and deploy them in two different location types — due ~Oct 1 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] — *Oct 20 2026: Val speaks of "extending the trial for the two machines" and changing their software; whether these are the two machines of this order, and whether they were bought, is not stated — kept open* — [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
 - [ ] [[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — send Val the per-game performance breakdown — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [x] ~~[[wiki/people/sean-fellows.md|Sean Fellows]] (Diamond) — check his team's availability and confirm the location-tour day~~ — due Sept 11 2026 — **overtaken, not discharged (Sept 14 2026):** the day was settled by JVL calling Diamond's head tech directly while Sean was unreachable, not by Sean confirming. Nothing in the corpus records Sean confirming anything — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] [[raw/Meeting_Transcript_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [ ] Diamond's field auditor — capture settings/menu-screen data off the JVL fleet on compliance rounds — ongoing — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — provide a written price and proposal for incremental fleet upgrades — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
-- [ ] [[wiki/people/val-levitan.md|Val]] — upgrade Diamond's older "four one nine" units with modem and software, free — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val]] — upgrade Diamond's older "four one nine" units with modem and software, free — due unspecified — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]] — *Oct 20 2026: new builds with the RIS improvements go to P1–P3 first, end of November (tentative), and JVL is adding cell modems with the data paid by JVL; the "four one nine" units are not named — kept open* — [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val]] — confirm the senior VP of game design is travelling, then coordinate the location tour — due Sept 11 2026 — [[raw/Meeting_Transcript_Diamond_Amusements_Machine_Performance_and_Transactional_Bundle_Pilot-September-10-2026.md]]
 
 ## History
@@ -169,3 +184,5 @@ On the [[wiki/meetings/2026-09-23-ris-and-passport-hard-reset-burden.md|Sept-23 
 - [[raw/Meeting_Notes_Competitor_Field_Reconnaissance_and_Class_A_Visits-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
 - [[raw/Meeting_Transcript_RIS_and_Passport_Hard_Reset_Burden-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
+- [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]

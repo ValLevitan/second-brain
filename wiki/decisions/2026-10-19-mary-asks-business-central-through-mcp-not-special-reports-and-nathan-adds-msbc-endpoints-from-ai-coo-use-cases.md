@@ -2,10 +2,10 @@
 type: decision
 title: Mary gets answers from Business Central by asking through MCP in Spanish or English, not from special reports; Nathan adds MSBC endpoints for end-to-end inventory control, driven by AI COO use cases that Val writes (use cases → capabilities → endpoints)
 date: 2026-10-19
-aliases: [no special reports for Mery, Mery asks through MCP, multi-contextual protocol, Spanish or English questions, more MSBC endpoints, end-to-end points, AI COO use cases, use cases to capabilities to endpoints, AI COO scans Business Central and emails, purchase invoices not handled correctly, prepayment does not register, vendor shipping notice, 40 days lead time]
-source-count: 2
+aliases: [no special reports for Mery, Mery asks through MCP, multi-contextual protocol, Spanish or English questions, more MSBC endpoints, end-to-end points, AI COO use cases, use cases to capabilities to endpoints, AI COO scans Business Central and emails, purchase invoices not handled correctly, prepayment does not register, vendor shipping notice, 40 days lead time, agent writes its own MD notes, no custom MSBC reports, Lev for invoicing]
+source-count: 4
 status: active
-open-commitments: 3
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -41,10 +41,20 @@ An agent that "scans through Business Central" and says "hey, we didn't make a p
 
 **Evolution.** On Oct 13 Val ruled that procurement reports come only from MSBC, built by Lev's consultant, with Nathan linking the endpoints into MCP ([[wiki/decisions/2026-10-13-procurement-reports-come-only-from-msbc-and-the-excel-export-report-goes-away.md]]). Oct 19 keeps MSBC as the source and MCP as the way in, but now says to move away from specialized reports, and the endpoint list comes from Val's AI COO use cases. The consultant is not mentioned on Oct 19; whether the consultant's report work still stands is not said.
 
+## Oct 20 2026 update — the draft is reviewed; the agent keeps its own notes, so no custom MSBC reports
+
+At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|Oct 20 2:15 PM meeting]] (Russian; Val and Genadi) [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]:
+
+- **The draft.** Genadi: "мы с нейтаном посмотрели ваш драфт"; "я не закончил. Честно говоря, я не успел", and Nathan "сейчас пошёл изучать". They went through the capabilities "брифли очень". Val: "юз кейсы более не менее понятно, правильно?" Genadi: "Абсолютно."
+- **The agent's notes.** On an idea to store data so the agent does not regenerate a report each time, Val: the agent "пишет MD fill… накапливает… файл, который потом читает… для себя записки пишет". Genadi: "мы же не хотим, чтобы он генерил этот репорт… каждый раз."
+- **No custom MSBC reports.** Val: with this logic and the agents "нам не нужно, чтобы сделать кастом репорта"; Genadi: "вообще не нужно репорт никакие… Там все будет." The notes: "No custom MSBC reports are needed when agents are used" [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]].
+- **Invoicing.** Genadi: "в какой то момент надо будет лёва подключить… В плане инвойсинг" ("лёва" = [[wiki/people/lev-rudky.md|Lev Rudky]] by context, **inference**). When was not said.
+
+**Against this page: consistent** — it confirms "no special reports" from the agent side.
+
 ## Open commitments
 
-- [ ] Val Levitan — write a first set of AI COO use cases (up to about 10) for tracking material management and send them to Nathan and Genadi — due Oct 19 2026 ("I will get on it today") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
-- [ ] Nathan Carver, Genadi Peari — review Val's use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [ ] Nathan Carver, Genadi Peari — review Val's use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] *(Oct 20: started — Genadi had not finished; Nathan was studying it [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]])*
 - [ ] Nathan Carver — add more MSBC endpoints for end-to-end inventory control, from the use cases — due unspecified (Val asked all three to "achieve something by Wednesday"; the notes date it Oct 21) — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 
 ## Open questions
@@ -53,7 +63,13 @@ An agent that "scans through Business Central" and says "hey, we didn't make a p
 
 **§15.8:** clear — no pay or rates; the only numbers are lead-time days. **§15 #9:** clear.
 
+## History
+
+- [x] Val Levitan — write a first set of AI COO use cases (up to about 10) for tracking material management and send them to Nathan and Genadi — due Oct 19 2026 ("I will get on it today") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] *(discharged — on Oct 20 Genadi and Nathan were reviewing "ваш драфт", read as this use-case set by the notes and context, **inference** [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]])*
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]

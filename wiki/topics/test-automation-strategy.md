@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 88
+source-count: 89
 open-commitments: 75
 open-questions: 12
 ---
@@ -978,6 +978,10 @@ At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.
 
 At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]: Pavel said QA had not tested bill-validator emulation mode for two weeks, so new tests are needed; for the MVP 1 release QA must test as many of its cases as possible, in parallel with real machines in Georgia. He hopes most existing tests work in this mode. Val's order: Klimovich ties the pulse capability to requirements with acceptance criteria, then QA runs Claude on them to write the tests. Irina said Claude keeps flagging that the reworked requirements wait for Klimovich's approval. Irina's team (Khamin, Ivan) creates and starts the automated-test tasks the coming week — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
+## Oct 20 2026 (10:49 AM) — "so we can have automated tests": the tasks must match the release notes
+
+At the end of the [[wiki/meetings/2026-10-20-ris-improvements-release-notes-review.md|RIS release-notes review]] Val asked the team to "fix the description… in the actual tasks… In the repository", fix the capability, and make "the requirements and the acceptance criteria" consistent with the release notes, "so we can have automated tests. Otherwise, we're going to be suffering day after day… manual testing" [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]. Commitment (Pavel, Irina) on [[wiki/decisions/2026-10-20-the-ris-improvements-release-notes-are-settled-point-by-point-and-the-tasks-are-to-be-rewritten-to-match-them.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1068,3 +1072,4 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
