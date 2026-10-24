@@ -3,10 +3,10 @@ type: decision
 title: RAGE is finished — all new work is on NOVA; the first NOVA iteration of Dutch Mill is reviewed Wednesday Oct 21; a re-skin from a new theme abstract (Michael writes it, on Igor's spec) tests whether an artist can use the tools alone (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [Rage is closed, Rage закончился, ничего под рэйдж больше не делается, Dutch Mill on NOVA Wednesday, first iteration Dutch Mill NOVA, Dutch Mill re-skin, рискин дач мила, theme abstract, абстракт, technical spec for the abstract, техническое задание по написанию абстракта, Michael writes the abstract, three tool sets, Conversion Cycle Texas Rage Horizontal to Texas NOVA Vertical, question pause answer, вопрос пауза ответ, 15 hours per game]
-source-count: 6
+source-count: 8
 status: active
-open-commitments: 7
-open-questions: 3
+open-commitments: 8
+open-questions: 4
 ---
 
 # RAGE is finished; Dutch Mill reaches NOVA by Wednesday; a re-skin tests the tools
@@ -89,14 +89,35 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 
 ### Open commitments (Oct 19 2026)
 
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — invite Anton Leshkevich to the Wednesday Dutch Mill review — due Wed Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [ ] Unassigned (Irina and Pavel raised it) — ask Igor whether Efim made the maths for all six games or only one — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 
 ### Open questions (Oct 19 2026)
 
 - Did Efim make the maths containers for all six games or for one? Irina and Pavel remember Igor differently — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 
+## Update, Oct 20 2026 — Igor ported Dutch Mill to NOVA in one session of about six hours; Pavel: the ports can now go "on a conveyor"
+
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]:
+
+- **Dutch Mill is ported.** [[wiki/people/igor-metelski.md|Igor Metelski]]: "Я сделал… Порт дачмила", "фактически одной сессии в течение ну там часов 6". He has a number of graphic remarks on it. He will start a session to fix what he sees by eye and add each defect to the requirements list, so that on the next port such defects are caught by the harness and testing. That day he tests the port.
+- **Other work.** Igor prepared the main scenes and symbols of a vertical Texas Midnight Money and will finish its scenes; he also mentioned vertical versions of Dutch Mill and Midnight Money ("из небраски 1", as heard — what he meant is **unclear**). He updated resources for Nebraska 2 as the designers sent them (in one game a bonus did not work) and must fix the spec written on Sunday to Val's requirements [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. ("нато 2" as heard = Nebraska 2 — **inference** from context and the notes.)
+- **Ready for a conveyor.** [[wiki/people/pavel.md|Pavel]]: over the last week everyone, Igor first, was asked whether anything still blocks moving the games over in production mode. Nobody answered directly, but he understands the answer is yes. It will be discussed "завтра" at the meeting: Igor took an entirely new game and ports it. Igor showed him Midnight Money the day before; "не хуже оригинала, а даже лучше". The remaining games must now be split among people, and the build side ("сборки всего") finished after that. [[wiki/people/irina-shishko.md|Irina]] asked who will write the tests [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Leshkevich.** He fixed the vertical help screen in Clover Fortune, which "плюс минус" looks ready to him, and ported one Georgia game into Nebraska 2. He asked for the invite to the Wednesday meeting with Val; Irina forwarded it during the meeting ("Антон я тебя переслала") [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **A risk for the conveyor.** Multi-screen horizontal games stutter on the new board, and NOVA's VP8 videos may have no hardware decode there — detail on [[wiki/topics/nova-platform-architecture.md]] (Oct 20). Igor: it would be unpleasant if everything ported had to be redone later.
+- **On the commitments.** Igor's Dutch Mill port exists before the Wednesday review; "first iteration with tests" is not confirmed, so his line stays open until the review. The question on Efim's maths was not taken up.
+
+### Open commitments (Oct 20 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — fix the visible graphic defects of the Dutch Mill port and add each defect to the requirements list so the harness catches it next time — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [ ] Unassigned (Pavel) — split the remaining game ports among the team — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
+### Open questions (Oct 20 2026)
+
+- Who writes the tests for the game ports? (Irina) — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
 ## History
+
+- [x] [[wiki/people/irina-shishko.md|Irina Shishko]] — invite Anton Leshkevich to the Wednesday Dutch Mill review — due Wed Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *discharged Oct 20 2026: Irina forwarded him the invite during the stand-up* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
 - [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — write and send the technical spec for the theme abstract (scenes, components, placeholders) — due Oct 18 2026, before the 11:00 AM ET review — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] — **done:** shown at the 11:02 AM review the same day [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 
@@ -108,3 +129,5 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]

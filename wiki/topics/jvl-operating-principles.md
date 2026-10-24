@@ -3,7 +3,7 @@ type: topic
 title: JVL operating principles (the JVL Constitution)
 date: 2026-07-13
 aliases: [JVL Constitution, machines should not break, useless emotions, I will fix it but cannot commit to a date, Ways JVL Constitution, operating principles, governing principles, hypothetical vs factual, factual data doctrine, dollars not discounts, AI flattery guardrail, selling doctrine, 43 years experience, it worked here it doesn't work there, work preventively, there are no weekends, call don't write, my goal is to change your mind, you cannot insult me, nothing changed from 1984, a salesperson should leave the moment the deal is reached, designing to your spec, you'll shine it's your achievement, being the first is not always the best, I'm step one]
-source-count: 24
+source-count: 26
 ---
 
 # JVL operating principles (the JVL Constitution)
@@ -239,6 +239,18 @@ At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-c
 
 **§15.8:** clear on this page — management conduct and principle only; the judgements about the named engineer are excluded, see the decision page.
 
+## "Repeating a standard is not distrust" — trust first, then detail (Oct 20 2026)
+
+At the [[wiki/meetings/2026-10-20-val-pavel-alignment-trust-standards-and-delegation-follow-through.md|Oct-20 one-to-one with Pavel Frolov]] (Russian) Val set out how his attention to standards should be read.
+
+- **Trust is the precondition, not the question.** An invitation to work at JVL means trust: "**когда я только говорю, пожалуйста, приди работай на GBL 1. Это доверие**"; without trust "**приглашение на работу от меня никогда не выходит**" [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- **What is called micromanagement is the search for detail.** Val said the team confuses distrust with his wish to reach perfection through small elements, and that the difference from competitors lies in that detail ("**разница между компьютешн заключается именно в этом**") [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]. He noted that JVL's games look better made than the competition's, yet Aristocrat's earn more, and nobody can say how to make a JVL game earn more [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- **The example: the field-defect standard.** There was no written standard for what to do with defects found at a field rollout; anyone in the company could have written it, but nobody did until Val did [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]] [[raw/Meeting_Notes_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- **Writing a standard is not enough — it must reach everyone, so it is repeated.** People forget or are busy with other things, so a reminder is normal; Val called it "**постоянное повторение для достижения этого профессия, которого мы все ищем**" — constant repetition to reach the quality everyone wants, not distrust [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]. He asked the team not to be irritated by it [[raw/Meeting_Notes_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- **Small steps add up.** On following up delegated work: "**это 5 микротепс это большой степ**" — the working agreement this produced is on [[wiki/people/pavel.md]] (Oct 20 2026) [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+
+**§15.8:** clear — principle only; personal matters not recorded, and assessments of named or former staff are excluded.
+
 ## History
 
 - **The one-source-of-truth principle predates the Constitution:** the ~2023–24 **JVL Insights** knowledge-base proposal already framed its strategic goal as **"ONE-JVL - ONE SOURCE OF TRUTH!"** — the same principle later codified as "One source of truth" in Constitution v1.1. See [[wiki/projects/jvl-insights-knowledge-base.md]]. [[raw/jvl_insights_the_aidriven_knowledge_base_draft_2_2025-03-29.md]]
@@ -269,3 +281,5 @@ At the [[wiki/meetings/2026-09-14-code-standards-main-branch-rule-and-alekseev-c
 - [[raw/Meeting_Notes_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]
+- [[raw/Meeting_Notes_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]

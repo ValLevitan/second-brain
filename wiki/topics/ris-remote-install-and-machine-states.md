@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521]
-source-count: 35
+source-count: 37
 open-questions: 20
 open-commitments: 4
 ---
@@ -455,7 +455,17 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 
 ### Open commitments (Oct 19 2026)
 
-- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the passport task and move its due date from Oct 30 — due Oct 21–22 2026 (Irina) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the passport task and move its due date from Oct 30 — due Oct 21–22 2026 (Irina) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026: still in work, alongside permissions for the update authorization service; not reported done* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
+## Oct 20 2026 (4:46 AM) — the hardware-tracking checkbox now carries more logic: with it on, RIS cannot be applied with an unregistered passport
+
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]:
+
+- **[[wiki/people/ivan.md|Ivan]]** works on the RIS performance tasks. He asked, "раз и навсегда", whether with hardware tracking on, removing a device and rebooting the machine still brings up the passport window, as it used to. [[wiki/people/pavel.md|Pavel]] first said the logic does not change.
+- **[[wiki/people/evgeny-kharetski.md|Kharetski]] corrected it.** With the checkbox off, everything is as before, except the new passport window in RIS. With it on, if something is wrong with the passport, the machine must not let the player go on into the games. The passport step right after the language choice was removed from the set-up; what follows now hangs on the checkbox — whether RIS can be applied with an unregistered passport or not — and the server logic now depends on it too. Ivan: so with tracking on, he cannot get through until he scans the passport and applies something new. Ivan: the checkbox was hardly used before; Kharetski: "Мы на нее просто больше логики повесили" [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Ivan's plan.** Check everything without the checkbox first, then with it. [[wiki/people/sergey-tsymanov.md|Tsymanov]] asked to take the details ("in the first time" = a clean machine with new software, per Ivan) after the meeting [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Tsymanov** works on the passport task and, in parallel, adds permissions to the update authorization service so that not all users can see it [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Kharetski** listed RIS performance work and Georgia MVP 1 fixes among his tasks, with three task numbers heard as 1262, 1263 and 1259; Pavel asked him to move what he named to In Progress, because with the AI Draft column added, To Do is now the second column and is easy to take for In Progress [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
 
 ## Sources
 
@@ -494,3 +504,5 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]

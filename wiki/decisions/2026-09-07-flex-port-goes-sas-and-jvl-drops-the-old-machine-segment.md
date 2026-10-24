@@ -1,10 +1,10 @@
 ---
 type: decision
-title: The Flex-Port project goes with SAS — JVL drops the flexible bill-acceptor/counter connection and will not address the part of the market still on old machines; SAS goes into the current software, one firmware serves all interfaces by configuration, and Georgia runs AFT not TITO
+title: The Flex-Port project goes with SAS — JVL drops the flexible bill-acceptor/counter connection and will not address the part of the market still on old machines; SAS goes into the current software, one firmware serves all interfaces by configuration, and Georgia runs AFT not TITO (Oct 20 2026: the dropped bill-acceptor/counter connection is back in MVP 1 for machines without working AFT)
 date: 2026-09-07
 aliases: [Flex-Port goes SAS, away from the acrobatics, drop the flexible connection, not address old machines, one firmware three interfaces, EBDS not loaded, counters for statistics only, Georgia runs AFT, AFT not TITO, RS-232 and power, Class III machines, Pavel's Friday AFT experiment]
-source-count: 6
-status: active — but the "drops the old-machine segment" half is contradicted two days later; see ## Open contradictions
+source-count: 8
+status: active — but the "drops the old-machine segment" half is contradicted two days later; see ## Open contradictions; Oct 20 2026: the "drop the flexible bill-acceptor/counter connection" element is reversed — Val called the SAS-only MVP 1 call a mistake and bill-validator emulation plus pulses is in MVP 1 for machines without working AFT (see the Oct-20 update)
 open-commitments: 4
 open-questions: 0
 ---
@@ -86,6 +86,12 @@ This lands on the **"support both"** side, consistent with the Sept-9 sales-room
 
 **§15.8:** clear — protocol and market-scope content only; no named-person compensation.
 
+## Update, Oct 20 2026 — Val calls the SAS-only MVP 1 call a mistake; bill-validator emulation and pulses return to MVP 1
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[wiki/people/pavel.md|Pavel]] recalled that when JVL moved to SAS "было принято решение, что всё мы MVP один идём исключительно на сас." [[wiki/people/val-levitan.md|Val]]: "Вот это было ошибочное решение." Pavel had kept the old bill-acceptor code as a parameter. Because only JVL and Aristocrat machines work fully over AFT, the other makers' machines now connect in MVP 1 by bill-validator emulation (money in) and pulses (money out); SAS stays on for data [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]. Full ruling: [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]].
+
+**Against this page.** The "acrobatics" this page dropped — connecting through counters and bill acceptors — is back for these machines. That is an **evolution** (a later ruling replaces an earlier one), and the title and status are annotated. It does **not** settle the open contradiction below: that one is about single-SAS old machines, while the Oct-20 machines are current makers' machines with SAS whose AFT does not work. No source says the two sets are the same.
+
 ## Sources
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
 - [[raw/Meeting_Transcript_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -93,3 +99,5 @@ This lands on the **"support both"** side, consistent with the Sept-9 sales-room
 - [[raw/Meeting_Transcript_SAS_AFT_on_FlexPort_and_Remote_Update-September-7-2026.md]]
 - [[raw/Meeting_Transcript_Dixie_Amusement_Georgia_Transactional_Equipment_and_Bundle_Economics-September-8-2026.md]]
 - [[raw/Meeting_Transcript_Rao_Machine_Performance_and_Exclusivity_Offer-September-9-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

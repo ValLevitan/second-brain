@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 24
+source-count: 25
 open-commitments: 3
 open-questions: 2
 ---
@@ -141,6 +141,10 @@ From the [[wiki/meetings/2026-10-14-returns-triage-sebastian-and-support-calls.m
 
 At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] Klimovich said Sebastian would spend that day on the machines' SAS settings, and that he and Sebastian are on hand for physical steps such as pressing cash-out during Minsk's remote tests — [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update, with the commitments) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
 
+## Oct 20 2026 (8:31 AM, in absentia) — connect the ports by bill validators and counters; away Wednesday and Thursday
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] Klimovich said he would first ask Sebastian to connect the ports through bill validators and counters on all borrowed machines except the Banilla, and that he and Sebastian are away on Wednesday and Thursday at a trade show; the machines go back on Friday — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -167,3 +171,4 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

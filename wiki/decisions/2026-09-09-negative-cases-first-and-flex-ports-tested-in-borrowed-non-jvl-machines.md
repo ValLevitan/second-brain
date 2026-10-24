@@ -3,10 +3,10 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 19
+source-count: 21
 status: active
 open-commitments: 10
-open-questions: 5
+open-questions: 4
 ---
 
 # Negative cases first, in borrowed non-JVL machines, from September 15
@@ -173,14 +173,14 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] with [[wiki/people/elizabeth.md|Elizabeth]] — flash the debug build onto every Flex-Port in the set-up (ST-Link) — due before the machines go back on Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — once the builds are on, send the list of port IP addresses with the machine each belongs to, plus the current Flex IQ IP — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - [ ] [[wiki/people/sebastian.md|Sebastian]] — spend time on the machines' SAS settings — due Oct 16 2026 ("сегодня") — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] (Minsk) — read the SAS logs machine by machine on the debug build — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
-- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] and [[wiki/people/sebastian.md|Sebastian]] — be on hand for the physical steps on the machines (such as pressing cash-out) during remote tests — due until Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] (Minsk) — read the SAS logs machine by machine on the debug build — due before Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] — *Oct 20 2026: partly — he has looked at the SAS traffic of three machines (not the Banilla), not command by command; the Banilla check is a new item* — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] and [[wiki/people/sebastian.md|Sebastian]] — be on hand for the physical steps on the machines (such as pressing cash-out) during remote tests — due until Oct 21 2026 — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] — *Oct 20 2026: the machines now go back on Friday Oct 23; Klimovich and Sebastian are away on Wednesday and Thursday, and Elizabeth is there* — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 
 ### Open questions (Oct 16 2026, 10:01 AM)
 
 - Why does neither load nor cash-out work on the "баниле" machine? (Narrowed Oct 18: the Aristocrat and IGT parts are answered — see the Oct-18 update.) — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - What does the extra failure status heard as "риф Хьюстон" mean? — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
-- What was the Light & Wonder result? Klimovich did not remember — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- ~~What was the Light & Wonder result? Klimovich did not remember~~ — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]] — **Answered Oct 20 2026:** AFT does not fully work on the Light & Wonder machines (one says AFT is registered but all its options are zero); they answer SAS credit queries — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 
 ## Update, Oct 18 2026 (7:00 AM) — Aristocrat fixed; IGT seems not to handle the SAS lock command; every gap becomes requirements and an emulator mode
 
@@ -192,6 +192,16 @@ At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requiremen
 - **Val's rule** for every gap found, the per-maker emulator modes, and the setup-screen photos: [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]] [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]].
 
 On the Oct-16 open question: the Aristocrat cash-out problem has a fix and the IGT one a likely cause; the question is narrowed to the "баниле" machine. The Light & Wonder result is still not stated. Pavel's Oct-16 item to read the SAS logs machine by machine is under way (the Grafana logs) but not reported finished; it stays open.
+
+## Update, Oct 20 2026 (8:31 AM) — only JVL and Aristocrat work fully; the rest connect by bill-validator emulation and pulses; the machines go back on Friday
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]:
+
+- **Result.** [[wiki/people/pavel.md|Pavel]]: only JVL and Aristocrat work fully over AFT. The other makers' machines connect in MVP 1 by bill-validator emulation for money in and pulses for money out — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]].
+- **Return date.** [[wiki/people/andrei-klimovich.md|Klimovich]]: the machines must be returned on Friday (Oct 23 2026), not Wednesday as said on Oct 16; more can be borrowed later. He and [[wiki/people/sebastian.md|Sebastian]] are away on Wednesday and Thursday; [[wiki/people/elizabeth.md|Elizabeth]] is there.
+- **This week.** Connect the ports by pulses and bill validators on all machines except the Banilla; keep SAS on and turn AFT off on the secondary port; Pavel checks which SAS commands the Banilla supports.
+
+The "баниле" open question above stays open (Pavel to check its commands). The return-date change is an **update** to the Oct-16 line, not a contradiction [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -213,3 +223,5 @@ On the Oct-16 open question: the Aristocrat cash-out problem has a fix and the I
 - [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

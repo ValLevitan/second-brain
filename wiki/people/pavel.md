@@ -4,8 +4,8 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 231
-open-commitments: 107
+source-count: 239
+open-commitments: 108
 open-questions: 0
 ---
 
@@ -1285,6 +1285,26 @@ At the [[wiki/meetings/2026-10-18-creative-direction-spec-review-and-game-design
 
 At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] he set the design of the settings QR for Flex IQ and the Flex-Ports: made on a server page for the location by its owner or a bound technician, encrypted with a key per location, decrypted and applied by the registered device; a plain phone QR is refused; a server-side task for Seregin, maybe a spike first — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-19 update). He told Irina to create MVP 2 tests and agreed she moves Flex Pay to MVP 3 herself — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-19 update). He asked Biratka to handle an AI Draft within the day and will review about 11 tasks under a closed parent — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-19 update). He reported that Light & Wonder and IGT machines still fail over AFT and asked Kharetski and Biratka for ideas — [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]] (Oct-19 update).
 
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] he restated that MVP 1 counts as released only when the Flex-Port updates by USB stick, with remote update in MVP 2, and set a 2:00 PM meeting with Alekseev, bringing Irina — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-20 update). He settled Debian on every platform and asked Daniil to prove VP9 plays our videos smoothly on the board — [[wiki/topics/nova-platform-architecture.md]] (Oct 20). He said the game ports can go "on a conveyor" — [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-20 update). He spoke the encrypted-settings requirement aloud for the AI PM and moved its duplicate task to Tsymanov — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-20 update); [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-20 update). He told Biratka to ask Claude for Flex IQ's port-communication commits — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 20). He accepted a login and password for Flex IQ SSH in the CI secrets for now ("вкусовщина") — [[wiki/topics/test-automation-strategy.md]] (Oct 20).
+
+## Oct 20 2026 (6:31 AM) — one-to-one with Val: trust first, and follow-through on delegated work
+
+At the [[wiki/meetings/2026-10-20-val-pavel-alignment-trust-standards-and-delegation-follow-through.md|Oct-20 alignment one-to-one]] (Russian) Val said his repeated attention to standards is a push for quality, not distrust — the principle is on [[wiki/topics/jvl-operating-principles.md]] (Oct 20 2026). Pavel said he understood the point about trust and agreed the team sometimes needs a push in the right direction [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+
+- **His workload point.** There is a large backlog of work he cannot finish, while new, lower-priority work arrives that cannot be ignored ("**прилетает другая работа, которая… гораздо менее приоритетная. Но, которую нельзя проигнорировать сейчас**"); AI tools give more information and more work, and time must be found to read and process their reports [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- **The working agreement on delegation (Val's expectation).** After a meeting his first job is not to listen but to plan who does what, how to ask that person, which standards they use and what outcome is expected. When he hands work off he should follow through with the person: how they will do it, which standard, why, "**а мы же договорились вот так делать**". Small improvements made often add up: "**5 микротепс это большой степ**" [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]] [[raw/Meeting_Notes_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- **His answer.** He agreed he used to route everything through himself and said that, thanks to AI, he now hands much more to others ("**благодаря искусственному интеллекту я уже могу многое чего доверить другим**"). He accepted the point but said he needs to think about specifics ("**надо… Подумать конкретики какой то**") [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]].
+- Ties to the Oct-18 ruling that he and Irina, not Val, enforce the development culture — [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]].
+
+## Open commitments (Oct 20 2026, alignment)
+
+- [ ] Pavel Frolov — think through concrete steps for following through on delegated work (how, which standard, expected outcome) — due unspecified — [[raw/Meeting_Notes_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]
+
+## Oct 20 2026 (7:01 AM and 8:31 AM) — the Flex-Port USB update, the build rule, and bill-validator emulation
+
+- **7:01 AM.** At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.md|Flex-Port firmware meeting]] [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]] he set the MVP 1 need — the USB-stick update, every build through GitHub Actions — and held that a build rule is written once and then anyone can start it; a release action can block a release on failed tests, prose or contract checks. He disputed Alekseev's claim that no release had been built, ran Alekseev's Claude report on Yavorski's older branch (same remarks, fewer), and asked Alekseev to write the STM32 / FreeRTOS rules. He splits the transcript into tasks, opens the Jira ticket for the hard fault and gives Alekseev the Flex IQ emulator — [[wiki/decisions/2026-10-20-flex-port-mvp1-needs-only-an-easy-release-build-and-the-usb-update-and-alekseev-writes-stm32-freertos-rules-for-claude-review.md]] [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]].
+- **8:31 AM.** At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|third-party EGM call]] [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] he said only JVL and Aristocrat work fully over AFT; the rest go to bill-validator emulation and pulses, code he had kept as a parameter. He said auto-detecting the mode is unreliable, reported the SAS commands seen on three machines, and takes the Banilla command check and the third-party test tasks — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1521,3 +1541,11 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]
+- [[raw/Meeting_Notes_Alignment_Pavel_Frolov_Trust_and_Micromanagement-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
+- [[raw/Meeting_Notes_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

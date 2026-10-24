@@ -3,9 +3,9 @@ type: decision
 title: Wi-Fi credentials are entered once on Flex-Pay and handed to each Flex-Port by an encrypted QR code — and the connection/installation event is captured and sent home, buffered when there is no internet
 date: 2026-09-07
 aliases: [encrypted QR provisioning, QR handoff to Flex-Ports, no password screen on the Flex-Port, install telemetry, who connected what and when, offline buffering, cloud logging server, Grafana section]
-source-count: 6
-status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update); Oct 19 2026: Pavel confirmed the QR is encrypted, now with a key personal to each location, and carries all settings, not only Wi-Fi (see the Oct-19 update)
-open-commitments: 3
+source-count: 8
+status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update); Oct 19 2026: Pavel confirmed the QR is encrypted, now with a key personal to each location, and carries all settings, not only Wi-Fi (see the Oct-19 update); Oct 20 2026: the spike exists and Pavel restated the requirement (Location Manager makes the QR; Flex IQ, Flex Pay and the Flex-Ports decode it) for the AI PM (see the Oct-20 update)
+open-commitments: 2
 open-questions: 0
 ---
 
@@ -54,11 +54,22 @@ The notes record it as Pavel's decision: "Settings QR for Flex IQ / Flex-Ports m
 - **Against the Oct-15 update.** "Whether the QR is still encrypted was not discussed" on Oct 15 — now answered: yes, with a key per location. The page the QR comes from matches the Oct-15 location page. This restates Sept 7 (no plain phone QR) and widens the QR from Wi-Fi credentials to all device settings.
 - **On the commitments below.** Pavel's Sept-7 build commitment is not reported done; the Oct-19 task is a step toward it. Both stay open.
 
+## Update, Oct 20 2026 — the spike exists; Pavel states the requirement for the AI PM; CAP-142 is still only proposed
+
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 Minsk stand-up]] (Russian; Val absent):
+
+- **The spike.** [[wiki/people/anton-seregin.md|Anton Seregin]]: "на основе вчерашнего митинга сделал спайк" — "FP 13 604" as heard (the notes: FP-1364, "heard"; Pavel later says "Эф пи 13 64"). He already has a branch and commits on it and generated documentation [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **The AI PM's duplicate.** The AI PM also created a task for the same work, a day later, on [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] (by keywords, Kovalchuk thinks). It was kept, moved to Tsymanov, and Seregin links his own task to it — detail on [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-20 update). Seregin and Tsymanov both said the task is complex and touches all repositories, front end included [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **The requirement, spoken for the AI PM.** The task had no link to a requirement. [[wiki/people/irina-shishko.md|Irina]]: capability "кап 142" is still proposed, not active. [[wiki/people/pavel.md|Pavel]] then said aloud, for the AI PM, that a task must be created in the Product Requirements project: some device parameters for Flex IQ, Flex Pay and the Flex-Ports — for binding to an access point with a password, plus other parameters that differ per device — must be passed in a secret way; the QR is generated on the server side, "на лакейшн менеджере", and handed to the device by an operator or technician; each device must be able to decode it [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. This restates Oct 19 and adds Flex Pay to the device list and Location Manager as the server.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the Wi-Fi provisioning screens on Flex-Pay and Flex-IQ and the encrypted-QR handoff to the Flex-Ports, diagnostic screens included — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — extend the cloud logging to record connection and installation telemetry (time, date, location, port serial numbers, what was installed where), including store-and-forward when there is no internet at the moment of connection — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create the server-side task for the encrypted settings QR (parameter list; maybe an architecture spike on decryption on the Flex-Ports) for [[wiki/people/anton-seregin.md|Anton Seregin]] to work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+
+## History
+
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — create the server-side task for the encrypted settings QR (parameter list; maybe an architecture spike on decryption on the Flex-Ports) for [[wiki/people/anton-seregin.md|Anton Seregin]] to work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *discharged Oct 20 2026: Seregin made the spike himself the day after (FP-1364 as heard), and the AI PM made a second task for it* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
 **§15.8:** clear — device telemetry design only; the captured data is installer/engineering event data, no named-person compensation.
 
@@ -69,3 +80,5 @@ The notes record it as Pavel's decision: "Settings QR for Flex IQ / Flex-Ports m
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]

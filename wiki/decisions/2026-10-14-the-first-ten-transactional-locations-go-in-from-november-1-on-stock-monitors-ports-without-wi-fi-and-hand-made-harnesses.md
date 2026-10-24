@@ -3,7 +3,7 @@ type: decision
 title: The first ten transactional locations go in from November 1 — stock monitors instead of covers, Flexports without Wi-Fi, JVL-made brackets for the first location, ten harness sets made by hand, at most two installs a day, then a pause
 date: 2026-10-14
 aliases: [path to the first ten locations, November 1 stays, Первое ноября у нас решено, first ten locations then a pause, десять локаций нам сделаем паузу, monitors instead of covers, JVL We Take Our Games Seriously on the monitor, first release without Wi-Fi, no port replacement, brackets for the first location, order brackets for ten locations, hand-made harnesses, ten sets of harness by hand, two installs a day, sixty ports for ten locations]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 7
 open-questions: 2
@@ -61,6 +61,14 @@ The notes list running AI over the November-1 MVP in Jira as unassigned [[raw/Me
 
 **§15.8:** clear — parts, counts and dates only. **§15 #9:** none.
 
+## Note, Oct 20 2026 — first install about Monday November 2, and an MVP 1 release on a Wednesday
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[wiki/people/val-levitan.md|Val]] set the first installation "гдето 2 ноября… Это понедельник"; [[wiki/people/andrei-klimovich.md|Klimovich]] agreed on condition that everything else is in place. Val also set the MVP 1 release for a Wednesday, once Alekseev's Flex-Port build is production-ready and QA has tested the bill-validator-emulation cases; which Wednesday was not stated [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
+
+**Against this page.** November 1 2026 is a Sunday, so a first install on Monday November 2 fits "from November 1" — **consistent**. Whether the Wednesday release changes the owner's November 1 release date is not said; nothing here replaces it. Detail: [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

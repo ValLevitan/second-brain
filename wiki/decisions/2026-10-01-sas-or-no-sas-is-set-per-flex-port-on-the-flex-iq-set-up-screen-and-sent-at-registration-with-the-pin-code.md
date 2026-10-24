@@ -3,7 +3,7 @@ type: decision
 title: A Flex-Port's SAS / no-SAS mode is set per port on the Flex IQ set-up screen, not on the server (that waits for MVP 2 or 3), and goes to the port at terminal registration with the PIN code; a port switches only when it holds no transaction and no money; the modes are called "sas AFT" and "no sas"
 date: 2026-10-01
 aliases: [SAS mode flag, sas AFT и no sas, SAS AFT, no SAS, тумблер переключения, mode per port, mode on the Flex IQ set-up screen, not on the server, PIN code and mode at registration, port switches when idle, эмуляция билаксептора, part of a location on SAS and part not, одном банке часть машин по сассу, flag on the fly, задача на 5 минут, server-side toggle MVP 2 or 3]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 1
 open-questions: 2
@@ -48,6 +48,18 @@ Pavel then asked whether any other parameter must be given to a device at the st
 
 **§15.8:** clear — product design only. **§15 #9:** none.
 
+## Update, Oct 20 2026 — both modes are now in MVP 1, and the mode stays a per-port setting, not auto-detected
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]:
+
+- **In MVP 1 after all.** On Oct 1 Pavel said MVP 1 would not ship in two modes. Now machines without working AFT connect by bill-validator emulation and pulses in MVP 1 — **evolution**. Detail: [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]].
+- **No auto-detection.** Val asked whether the port could tell by itself (a bill acceptor connected means no AFT). [[wiki/people/pavel.md|Pavel]]: not reliable — a bill acceptor may lose power, a broken pulse line cannot be detected, and some machines claim AFT they cannot do.
+- **Where it is set.** Pavel: the current firmware needs only a parameter changed through the console, or, he thinks, the switch on the Flex IQ devices screen between bill acceptor and SAS. [[wiki/people/andrei-klimovich.md|Klimovich]]: go into the gateway and mark each port AFT or non-AFT. This matches this page's per-port toggle on the Flex IQ — **consistent**.
+- **SAS stays on in the bill-validator mode.** For the borrowed machines Pavel said SAS stays on everywhere and AFT is turned off on the secondary port; SAS (6.0 and up) is kept for data. So the second mode is not "no SAS" in the plain sense — it is "no AFT" (**inference**; it bears on this page's open question about the second mode's name).
+
+Whether Chudinov's or Tsymanov's mode flag (the open commitment above) is built is not said.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

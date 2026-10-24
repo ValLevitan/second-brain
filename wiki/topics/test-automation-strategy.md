@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 83
-open-commitments: 73
+source-count: 88
+open-commitments: 75
 open-questions: 12
 ---
 
@@ -947,11 +947,36 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 
 ### Open commitments (Oct 19 2026, 4:46 AM)
 
-- [ ] [[wiki/people/ivan.md|Ivan]] with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — continue the battery-replacement work after Evgeny's answers to his 14 questions — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — continue the battery-replacement work after Evgeny's answers to his 14 questions — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026: Ivan: little is left; the battery is basically good — not reported finished, so left open* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
 ### Open questions (Oct 19 2026, 4:46 AM)
 
-- Are the backlog device emulations (the "fi 8 sei" item, the LTE modem, the LED strip lights, the Wi-Fi QR) still needed? Seregin asked; not answered except for the QR — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- Are the backlog device emulations (the "fi 8 sei" item, the LTE modem, the LED strip lights, the Wi-Fi QR) still needed? Seregin asked; not answered except for the QR — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026: not answered; the items are being moved out of capability 243 instead (see the Oct-20 entry)* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
+## Oct 20 2026 (4:46 AM) — Flex IQ SSH login in the CI secrets; who moves a capability to Completed; capability 243 is split; the Terminal Hub test environment; the self-hosted runners
+
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]] — SSH to Flex IQ.** He runs the autotests on hardware and added the Flex IQ login and password (SSH access) to the repository secrets, so more tests can run. [[wiki/people/pavel.md|Pavel]] would rather use keys with password-free access on the test environments. Khamin: Andrei asked why, since STG already keeps an autotest user's login and password the same way. Pavel: "вкусовщина"; Khamin: easy to change later; "Пока так" [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. The notes record "keep login/password for now" as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Capability statuses.** A developer moves a capability to Review ("request review"); it is not closed. [[wiki/people/irina-shishko.md|Irina]] and her team check it and write autotests; with autotests written it goes to Completed; it goes to Closed when released. A capability in Review can go back to In Progress if a new feature is needed. Irina is now moving every MVP 1 capability with nothing left and tests written to Completed [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Capability 243 is split.** Irina: capability 243 on [[wiki/people/anton-seregin.md|Seregin]] has backlog, in-progress and completed items mixed. Seregin: what is left there is not implemented; FIQ-87 in the terminal could be done if LTE-modem or LED-strip emulation is needed. Pavel: move FIQ-81 and FIQ-87 to fitting capabilities — one tied to Flex-Port software update, another perhaps to Wi-Fi — then saw many items are listed. Irina will find where 80, 81 and 87 can go [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **The Terminal Hub test environment.** Irina: Andrei was to set something up some weeks ago. Khamin: the idea was a place to run tests against the Terminal Hub and Location Manager; Andrei then said it needs a couple of days, "достаточно давно уже было". Pavel: go to Andrei and ask [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. Which Andrei is not said. At the end Kovalchuk asked whether they meant another Andrei; Irina: "Про твоего" — the one who answers Kovalchuk on the runners. [[wiki/people/andrey-bosik.md|Andrey Bosik]], the DevOps engineer, fits by context — **inference**, not confirmed.
+- **Self-hosted runners.** [[wiki/people/anton-leshkevich.md|Leshkevich]]'s pipeline, started from the GitHub UI, hung with "offline" in the logs. Pavel: there are two self-hosted runners — one on a virtual machine (the original), and a full server used when a graphics accelerator is needed; try switching. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] later relayed from Andrei that monitoring shows no problems; Leshkevich: during the meeting the pipeline ran fine [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **[[wiki/people/ivan.md|Ivan]] — the battery.** "Ничего особого там не осталось"; the battery is basically good. His hardware-tracking question: [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 20).
+- **Game ports.** Irina asked who writes tests for the game ports — see [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-20 update). Igor will close two acceptance-criteria/autotest tasks after merging his branches with main.
+
+### Open commitments (Oct 20 2026, 4:46 AM)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — split capability 243: move FIQ-80, FIQ-81 and FIQ-87 to fitting capabilities — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — ask Andrei about the promised Terminal Hub / Location Manager test environment — due Oct 20 2026 — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
+## Oct 20 2026 (7:01 AM) — the Flex-Port USB update is tested by hand; a release action can block on prose and contract checks
+
+At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.md|Oct-20 7:01 AM Flex-Port firmware meeting]] (Russian) [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]: Pavel said every build goes through GitHub Actions because testing depends on it, and a release action can refuse a release when unit tests, the prose check or the contract check fail; QA then starts the build. Khamin tested the USB-stick update by hand from Alekseev's branch (passed on the second try, then constant beeping); the bootloader test needs a second update.bin with a different version. Alekseev writes STM32 / FreeRTOS rules so Claude review can check code against them — [[wiki/decisions/2026-10-20-flex-port-mvp1-needs-only-an-easy-release-build-and-the-usb-update-and-alekseev-writes-stm32-freertos-rules-for-claude-review.md]].
+
+## Oct 20 2026 (8:31 AM) — bill-validator emulation mode needs new tests; Claude writes them from requirements with acceptance criteria
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]: Pavel said QA had not tested bill-validator emulation mode for two weeks, so new tests are needed; for the MVP 1 release QA must test as many of its cases as possible, in parallel with real machines in Georgia. He hopes most existing tests work in this mode. Val's order: Klimovich ties the pulse capability to requirements with acceptance criteria, then QA runs Claude on them to write the tests. Irina said Claude keeps flagging that the reworked requirements wait for Klimovich's approval. Irina's team (Khamin, Ivan) creates and starts the automated-test tasks the coming week — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1038,3 +1063,8 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

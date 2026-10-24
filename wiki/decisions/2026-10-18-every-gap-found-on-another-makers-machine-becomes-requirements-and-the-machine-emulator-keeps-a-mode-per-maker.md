@@ -3,9 +3,9 @@ type: decision
 title: Every gap found on another maker's machine becomes new or corrected requirements with acceptance criteria, plus code and prose, and the machine emulator keeps a mode per maker; Pavel and Irina, not Val, enforce this culture (Oct 18 2026)
 date: 2026-10-18
 aliases: [emulator per maker, работай как айджи, keep the emulator current, scope gaps into requirements, скоб гапс, new requirements with acceptance criteria, Pavel and Irina enforce the development culture, законодатель культуры, IGT lock command, команда lock, SAS lock, machine emulator, сасмулятор, машинкулятор, reference SAS client, setup screens of other makers, 4K capture adapter, фор кей адаптер, 55 AFT checkboxes, oscilloscope not needed for now]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 6
+open-commitments: 5
 open-questions: 1
 ---
 
@@ -48,7 +48,7 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-10
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — get IGT cash-out working by not sending the SAS lock command — due Oct 18 2026 ("сегодня") — [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]] — *Oct 19 2026: Pavel told the stand-up the IGT machine does not answer the lock command and keeps reporting locked; not working yet (see the Oct-19 update)* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — get IGT cash-out working by not sending the SAS lock command — due Oct 18 2026 ("сегодня") — [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]] — *Oct 19 2026: Pavel told the stand-up the IGT machine does not answer the lock command and keeps reporting locked; not working yet (see the Oct-19 update)* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026 (8:31 AM): closed as superseded (not done) — IGT reports SAS 6.03 but its AFT still does not work, and machines without working AFT now connect by bill-validator emulation and pulses (see the Oct-20 update)* — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] / team — write the gaps found on Aristocrat and IGT as new or corrected requirements with acceptance criteria, with code and prose; add per-maker modes to the machine emulator — due unspecified — [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]] [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — set and enforce the development culture every day — ongoing — [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] with the Atlanta team (who takes the photos is **unclear**) — capture every setup screen on the Aristocrat, Light & Wonder and IGT machines with the new 4K adapter and send them to Pavel's team — due from Mon Oct 19 2026 (adapter arrives Monday) — [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]] [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
@@ -74,7 +74,17 @@ Pavel asked [[wiki/people/evgeny-kharetski.md|Kharetski]] and "Саша" ([[wiki
 
 ### Open commitments (Oct 19 2026)
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] and [[wiki/people/alexander-biratka.md|Alexander Biratka]] — work out the AFT cash-out failures on the Light & Wonder and IGT machines from the port logs — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] and [[wiki/people/alexander-biratka.md|Alexander Biratka]] — work out the AFT cash-out failures on the Light & Wonder and IGT machines from the port logs — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026 (8:31 AM): Pavel: only JVL and Aristocrat work fully; the other machines go to bill-validator emulation and pulses for MVP 1; stays open as the record of the AFT gaps* — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+
+## Update, Oct 20 2026 (8:31 AM) — only JVL and Aristocrat work fully; the other makers' machines go to bill-validator emulation and pulses in MVP 1
+
+At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM call]] (Russian) [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]:
+
+- **The verdict.** [[wiki/people/pavel.md|Pavel]]: "Живел и аристократ. Молодцы." The other machines work only partly with AFT, so they connect by bill-validator emulation (money in) and pulses (money out). IGT reports SAS version 6.03 but AFT does not work; a second Light & Wonder machine says AFT is registered but all its AFT options are zero.
+- **What the SAS side shows.** On three machines (not the Banilla) a limited set of commands: handpay state on all, door open/close on some, credit queries on Light & Wonder. [[wiki/people/irina-shishko.md|Irina]]: certified machines must support about 20 commands. Light & Wonder has a setting to report every spin, which needs a factory reset to try.
+- **Gaps become requirements.** Val asked that the pulse capability be tied to requirements with acceptance criteria before tests are written — this page's rule in use.
+
+Full detail: [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]. Nothing was said about the per-maker emulator modes or the setup-screen photos; those commitments stay open.
 
 ## Sources
 
@@ -82,3 +92,5 @@ Pavel asked [[wiki/people/evgeny-kharetski.md|Kharetski]] and "Саша" ([[wiki
 - [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]

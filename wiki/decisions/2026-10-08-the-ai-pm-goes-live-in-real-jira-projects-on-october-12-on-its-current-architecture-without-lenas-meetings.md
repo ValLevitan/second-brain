@@ -3,10 +3,10 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 15
+source-count: 17
 status: active
 open-commitments: 8
-open-questions: 4
+open-questions: 5
 ---
 
 # The AI PM goes live on Oct 12 on its current architecture
@@ -140,7 +140,20 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 ### Open commitments (Oct 19 2026)
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — review the AI Draft task on him: move it to To Do or reject it with a reason — due Oct 20 2026 (it disappears after a day) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review the about 11 tasks whose parent feature is closed, and decide where such stories hang — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review the about 11 tasks whose parent feature is closed, and decide where such stories hang — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] — *Oct 20 2026: Pavel said he started reviewing his features that day and moved stories that sat on the wrong features to current ones; that these are the same ~11 tasks is an **inference**, so left open* — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
+## Update, Oct 20 2026 — the AI PM's task for the settings-QR spike came a day after the developer's own; it is kept to see how the agent performs; Pavel speaks a requirement aloud for it
+
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]:
+
+- **A duplicate, a day late.** [[wiki/people/anton-seregin.md|Anton Seregin]] had already made the encrypted-settings-QR spike from the Oct-19 meeting, with a branch, commits and generated documentation. The AI PM created a second task for the same work. Seregin: "он как бы опаздывает на сутки… хорошо бы он там в течение часа сразу прислал." [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: the agent gets the recording about an hour later and creates tasks at once. [[wiki/people/pavel.md|Pavel]] saw it that morning in the AI Draft state, moved it to To Do and onto Seregin — that is likely why Seregin saw it only now. It had been created on [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]; Kovalchuk: "скорее всего по ключевым словам флекса икрю флекс спорт" it decided the work was his. Tsymanov: it was created for Location Manager.
+- **Keep it, do not close it.** Seregin first offered to close it as a duplicate. [[wiki/people/irina-shishko.md|Irina]] wanted to keep it, so the team can see that the agent works and how well. Pavel moved it to Tsymanov ("тогда не надо удалять, просто надо вычитать правильно здесь написано"); Seregin links his own task to it [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. The notes record this as a decision by Pavel and Irina [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **A requirement spoken for the agent.** The task had no link to a requirement. Pavel said aloud, "для пима", that a task must be created in the Product Requirements project for the encrypted device settings — detail on [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-20 update). Kovalchuk: "посмотрим", because today the agent cannot act on instructions like "change this, add that"; it creates tasks when, in the talk, someone gives something to someone.
+- **Not "Dasha".** Irina: the agent should be renamed, to avoid a gender. Kovalchuk: they will think of a name, but not Dasha, because a staff member named Dasha may join; then "Мерлин он будет" — whether this is a real choice is **unclear**. This bears on point 5 above (the agent gets a name; "Dasha" on Oct 9).
+
+### Open questions (Oct 20 2026)
+
+- Will the AI PM create the Product Requirements task Pavel spoke aloud at the Oct-20 stand-up? (Kovalchuk: "посмотрим") — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
@@ -158,3 +171,5 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]

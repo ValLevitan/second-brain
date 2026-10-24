@@ -23,6 +23,7 @@ open-questions: 0
 - [[wiki/topics/test-automation-strategy.md]] (Oct 16, 10:01 AM) — the debug build's console, AI over the data, emulated events, and the limit: nobody in Minsk can press cash-out.
 - [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 16, 10:01 AM) — the Flex-Port in other makers' machines, in short.
 - People: [[wiki/people/andrei-klimovich.md]] · [[wiki/people/pavel.md]] · [[wiki/people/sebastian.md]] (in absentia) · [[wiki/people/elizabeth.md]] (in absentia)
+- Follow-up: [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data.md|Oct-20 8:31 AM third-party EGM sync]].
 
 ## Notes on the sources
 

@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 89
-open-commitments: 68
-open-questions: 36
+source-count: 91
+open-commitments: 70
+open-questions: 38
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -766,6 +766,28 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 
 - Which texture format replaces WebP across the games, and is it adopted for all? Leshkevich's test format is not named clearly — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 
+## Oct 20 2026 — the ports go "on a conveyor"; Debian on every platform; no system yet for the RK3576; VP8 videos may have no hardware decode on the board
+
+At the [[wiki/meetings/2026-10-20-daily-standup-io-board-firmware-via-github-and-vp9-video-decode.md|Oct-20 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]:
+
+- **The ports.** [[wiki/people/anton-leshkevich.md|Leshkevich]] fixed the vertical help in Clover Fortune and ported one Georgia game into Nebraska 2; [[wiki/people/igor-metelski.md|Igor Metelski]] ported Dutch Mill in about six hours; [[wiki/people/pavel.md|Pavel]] says the games can now go "на поток" and the remaining ones must be split up — detail on [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-20 update).
+- **No system for the ARM board yet.** Pavel: the hardest point is that, to release on the ARM platform, "там у нас системы нету вообще" for the "35 76" (RK3576) [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Debian everywhere.** Asked which Linux the new machines get: for the big machines on x86 ("ф п с эвен"; the notes: "FPS Even") kernel 6.18; for the RK board "6 12 скорее всего"; the distribution is Debian. "Мы сейчас всё на дебиан переносим" because it gets regular support, unlike Slackware, which is re-released about once in two years with old packages — they already hit SSL-type packages arriving late. For the RK3568 there was no Slackware, so they took Debian; now it is logical to settle on one distribution so porting between ARM and x86 is easy both ways [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. The notes record "Debian on all platforms" as Pavel's decision [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. *(This firms up Pavel's Sept-29 hedge "дебиан по-моему" above.)*
+- **Video stutter on multi-screen games.** Igor: his horizontal Dragon Pays (four screens — a topper, a deck and two monitors, as heard) has a problem at the transition into auto-spins. His Claude thinks too many videos play at once, and the VP8 videos used in NOVA have no hardware acceleration. [[wiki/people/anton-leshkevich.md|Leshkevich]]: his Claude said the same about VP9 — otherwise the CPU must decode the videos and FPS may drop. Igor: Biratka once said VP8 was chosen for a reason, so VP9 may have had its own problems. Daniil Stauskiy: the board he works on supports only VP9 as hardware decode — VP8 is not supported at all; he converted the videos, with alpha, and "в целом" they look fine [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]].
+- **Pavel's ruling.** Confirm that VP9 on the board plays our videos smoothly, as we supply them. On x86 there is probably CPU headroom to decode some video in software; on the board there is none — "придётся максимально выжимать все, что может плата". Igor: Clover Fortune is horizontal too and may hit the same problem; until it is solved Dragon Pays is not production-ready, and it would be unpleasant to redo everything ported [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. *(VP8/VP9 were chosen in Jan 2025 for alpha transparency — see [[wiki/topics/fp7-hardware-platform.md]]; the Oct-2 stand-up noted Rage videos in VP9 against the repository's VP8.)*
+- **Daniil.** He loaded the game on the board and tests it on a big screen; the video is choppy. He needs a feature for the dependency version bump and, in the game repository, a bug or feature for the progress image on the diamonds in the Diamond Bonus. He updated his pull request in the new RAGE converter tool so it syncs with main. He needs access from "Дима" to the Clover Fortune repository; Pavel: try Clover Fortune on the board too and look for artefacts [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]. The notes name Dmitri Kovalchuk for the access [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] — kept as the notes' reading.
+- **On earlier commitments.** Daniil is testing on a big screen, so Pavel's Oct-16 screens line may be met; the source does not say, so it stays open. Leshkevich's Clover Fortune recheck: the vertical help is fixed and the game looks "плюс минус" ready; the help screens in general are not said, so it stays open until Wednesday. Pavel's "give Daniil access to the second game" (Oct 19) is now asked of "Дима" — left open.
+
+### Open commitments (Oct 20 2026)
+
+- [ ] Daniil Stauskiy — confirm that VP9 hardware decode on the board plays our videos smoothly, and try Clover Fortune on the board — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] (per the notes; "Дима" in the transcript) — give Daniil access to the Clover Fortune repository — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
+### Open questions (Oct 20 2026)
+
+- Will VP9 hardware decode on the board carry multi-screen games such as Dragon Pays without stutter? — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- What system (image) will the RK3576 board run? None exists yet — [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -858,3 +880,5 @@ At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encry
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
