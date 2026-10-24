@@ -3,9 +3,9 @@ type: decision
 title: Val and Lev Rudky focus together on fixing inventory control (receipts, production postings, invoicing) so Mary can run the work alone and Lev's time moves to standards and automation
 date: 2026-10-16
 aliases: [fix inventory control, inventory control is the root problem, вдвоём с тобой сфокусируемся, so Mery can work alone, Lev to standards and automation, inventory cantrol]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 1
+open-commitments: 2
 open-questions: 1
 ---
 
@@ -26,8 +26,13 @@ Proposed by [[wiki/people/val-levitan.md|Val Levitan]] and agreed by [[wiki/peop
 - **Where Lev's time should go instead.** Val wants Lev on "более продуктивную работу": standards for many things ("как что вносить, как делать") and automation like the work [[wiki/people/nathan-carver.md|Nathan]] does ("нейтан" — by context).
 - **Status.** Agreed on the call; no start date or plan was set. The notes list it as decided by Val with Lev agreeing [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
 
+## Oct 19 2026 update — Val needs Lev to explain the payment and purchase-invoice flow
+
+In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 "GitHub-MSBC" meeting]] (English) Val said the count "is more or less okay now", and what JVL does not do is treat "Purchase invoices correctly": a prepayment on a purchase order "doesn't register against the invoices", and vendor "ready" and "shipping" messages are only emails between Michael and the vendor. On the flow itself: "I don't know exactly the flow of it. So I need to meet with Lev and get him to explain to me the flow of payment and administering purchase invoices." [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] Related ruling: [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]]. The notes list the meeting as Val's undertaking [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]].
+
 ## Open commitments
 
+- [ ] Val Levitan — meet Lev Rudky to learn the payment flow and how purchase invoices are administered — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [ ] Val Levitan + Lev Rudky — work together to fix inventory control (receipts, production postings, invoicing) so Mary can run it alone — due unspecified — [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 
 ## Open questions
@@ -39,3 +44,5 @@ Proposed by [[wiki/people/val-levitan.md|Val Levitan]] and agreed by [[wiki/peop
 ## Sources
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

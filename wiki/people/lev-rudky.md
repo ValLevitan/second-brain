@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 23
+source-count: 25
 open-commitments: 2
 ---
 
@@ -91,6 +91,10 @@ On his [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 
 **§15.8:** no pay was discussed. Remarks judging his work are left out. Personal matters not recorded.
 
+## Oct 19 2026 (in absentia) — Val needs him to explain the payment and purchase-invoice flow
+
+At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English) Val said purchase invoices are not handled correctly — a prepayment on a purchase order does not register against the invoices — and "I need to meet with Lev and get him to explain to me the flow of payment and administering purchase invoices" [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. The meeting is Val's undertaking on [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]] (Oct-19 update) [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
@@ -117,3 +121,5 @@ On his [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

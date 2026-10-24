@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 26
+source-count: 28
 open-commitments: 5
 open-questions: 3
 ---
@@ -157,6 +157,10 @@ At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 
 On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] (Russian; "миша" = Mikhail Perelman by context, §4) Val opened with "миша будет уходить"; Lev: "Да я я знаю." Val: Mary takes his place. Later Val repeated "сейчас вот миша уходит" as the reason he and Lev will fix inventory control so Mary can work on her own — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]] [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. No date was restated on this call. **§15.8 / §15 #1:** no reason for leaving and no personal detail recorded.
 
+## Oct 19 2026 (in absentia) — leaving; his own framework and reports; vendor shipping notices only in his emails
+
+At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; "Michael" / "Mikhail" = Mikhail Perelman by the procurement context, §4): Val said "Michael will be leaving", that he "worked on his own" long-built framework — "There were certain reports that he were relying on" — and that Mary cannot work off the same format [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. In segment 2 Val said vendor "ready" and "shipping" messages are today only "Verbal emails between Michael and the vendor", which "cannot work like this"; Genadi recalled Mikhail asking that his notes be kept, and said they should be taken from the emails [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. See [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]]. A garbled "Mikhail Levitan part" at the end of segment 1 is read as his hand-over by context (**inference**) [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. No reason for leaving and no personal detail recorded.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -187,3 +191,5 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 38
+source-count: 44
 open-commitments: 31
 open-questions: 1
 ---
@@ -257,6 +257,19 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 
 At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] he and Leshkevich put games and resources into NAD 2; his vertical Dutch Mill has all its scenes; Efim packed the Dutch Mill maths in a container for the OMNI format, to run locally; with the background video stuck on Kleimenychev's blocked account, he made generated art with programmatic animation and offered to show it; he raised a meeting with Val on next steps, and Pavel agreed one is needed — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Oct-16 update), [[wiki/topics/nova-platform-architecture.md]] (Oct 16).
 
+
+## Oct 18 2026 (8:04 AM) — shows the vertical Dutch Mill; moves it to NOVA by Wednesday; writes the spec for a theme abstract
+
+At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM Dutch Mill session]] he showed the vertical Dutch Mill made in a week on RAGE (base game, two bonuses, animated scenes, 4 redrawn symbols, new help) and estimated the move to NOVA at "не дольше, чем в 15:00" per game with tests (read as 15 hours — **inference**); he needs only the Dutch Mill repository to start. Val set Wednesday (Oct 21) to review the first NOVA iteration. Igor proposed a re-skin test by Sergey Kleimenychev without his help, and agreed to write the technical spec for Michael's theme abstract that day and to remove the intermediate RAGE scene step [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]. Full record and commitments: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]]. Earlier that morning Pavel told Val that Igor works on moving games to NOVA and wanted to show something on Friday [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]].
+
+## Oct 18 2026 (11:02 AM) — his spec becomes a creative direction specification; a vertical Crazy Spins in about two hours
+
+At the [[wiki/meetings/2026-10-18-creative-direction-spec-review-and-game-design-voice-assistant.md|Oct-18 11:02 AM spec review]] he showed his spec as a Russian/English HTML page plus an md file for Claude. Val had it renamed a specification for creative direction for game designers (vertical screen, NOVA), with "re-skin" removed everywhere, positions in pixels and percent, a taxonomy table, and every point written out fully in Russian before translation; Igor added normalized coordinates during the meeting. He also showed a vertical Crazy Spins made with Claude in about two hours, and will support Evgeny Kharetski on the new voice Game Design Assistant by checking its output [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]. Records and commitments: [[wiki/decisions/2026-10-18-igors-spec-becomes-a-creative-direction-specification-for-game-designers-and-the-word-re-skin-is-dropped.md]] · [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]].
+
+## Oct 19 2026 (in absentia) — Leshkevich joins his Wednesday review; the six-games maths question
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] Irina proposed bringing Anton Leshkevich, who finished Clover Fortune on NOVA, to Igor's Wednesday Dutch Mill review; Irina and Pavel remember Igor differently on whether Efim made maths for all six games, and will ask him — [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-19 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -297,3 +310,9 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

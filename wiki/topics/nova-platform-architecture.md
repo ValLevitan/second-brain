@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 85
-open-commitments: 63
-open-questions: 35
+source-count: 89
+open-commitments: 68
+open-questions: 36
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -710,7 +710,7 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 
 ### Open commitments (Oct 15 2026)
 
-- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — create a feature under capability 240 for the Clover Fortune conversion and finish the vertical layout — due end of the week (stated "до конца недели") — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — create a feature under capability 240 for the Clover Fortune conversion and finish the vertical layout — due end of the week (stated "до конца недели") — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] — *Oct 19 2026: the vertical layout is done (the game plays in both layouts); whether the feature under 240 was created is not said, so left open* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [ ] unassigned — sort out with the designers why the NAD 2 resource tasks carry the NOVA label — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [ ] the AI PM (Pavel's "для записи") — create two tasks: NAD 2 product-code support in the data center, and the Nebraska progressives — due unspecified (not a priority) — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
@@ -733,9 +733,38 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 
 ### Open commitments (Oct 16 2026)
 
-- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — finish testing the Clover Fortune port; port the remaining one or two games into the new Nebraska 2 project — due Oct 16 2026 (Clover Fortune, "надеюсь") — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Daniil two screens, fix the backlight that needs button presses, and prepare a test stand — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — finish testing the Clover Fortune port; port the remaining one or two games into the new Nebraska 2 project — due Oct 16 2026 (Clover Fortune, "надеюсь") — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — *Oct 19 2026: Clover Fortune is finished on NOVA, but he has not yet checked its help screens and will recheck before Wednesday; the Nebraska 2 games were not reported; left open* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Daniil two screens, fix the backlight that needs button presses, and prepare a test stand — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — *Oct 19 2026: Daniil is still waiting for the screens* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [ ] the AI PM (Pavel's "для пим") — clarify with Andrei Bosik the access to video-generation AI tools for Sergey Kleimenychev — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+
+## Oct 18 2026 (11:02 AM) — erasing a game and writing a new one on a NOVA machine
+
+At the [[wiki/meetings/2026-10-18-creative-direction-spec-review-and-game-design-voice-assistant.md|Oct-18 11:02 AM spec review]] (Russian) Val asked [[wiki/people/pavel.md|Pavel]] whether, on a machine with the module (Texas), the team can erase everything and write a new game. Pavel: "на данный момент нет", but "это не рокет Сайнс": the system stays untouched; there is a second partition for specific files; for NOVA each game is already planned to be separate with its own checksum, so a game can be erased and another written, adding its checksum. It needs some work and an architecture design. Val asked him to make the design and plan the work for people [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]. *(The regulatory side of changing a game in the field was sent to GLI on Sept 11 — [[wiki/meetings/2026-09-11-nova-game-change-regulatory-procedure.md]].)*
+
+### Open commitments (Oct 18 2026, 11:02 AM)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — architecture design for erasing and writing games on a NOVA machine in the field, and a work plan for people — due unspecified — [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+
+## Oct 19 2026 — Clover Fortune runs on NOVA in both layouts; another texture format than WebP saves 1–1.5 GB of video memory; Daniil's dependency feature and the bonus modifier
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]:
+
+- **[[wiki/people/anton-leshkevich.md|Leshkevich]] — Clover Fortune done.** "Закончил кловер форчен переводить из рейч… в ногу. Она играет теперь в 2 конфигурациях вертикальной и горизонтальной." Pavel's "Я полностью со всеми бонусами" follows — whether a question or a statement is **unclear**. He has not checked the help screens yet ("я по клоуфорчу не посмотрел хелл") and will recheck everything before the Wednesday deadline [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **The maths.** Pavel asked whether the maths was ready in a container or fake. Leshkevich: for Clover Fortune it exists — [[wiki/people/efim-podvoiski.md|Efim]] made it "почти в 1 же день". Whether Efim made it for all six games is open — see [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-19 update) [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **Textures take most of the memory.** Leshkevich: most of the memory a game uses goes to textures and its many animations. WebP was probably brought over from the online games, "чтобы по сети было быстро". In tests run with AI he saved "от гигабайта до полутора видеопамяти" on Clover Fortune by using another format instead of WebP — the format is not named clearly ("какой нибудь более ушатый", as heard). It matters for cheap hardware, where one memory module serves both the graphics and the operating system — Pavel had spoken of running games on cheap hardware [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. *(This bears on the RK3576 game library and on the Oct-13 video-decoding memory work — **inference**.)*
+- **[[wiki/people/pavel.md|Pavel]]:** with a second game from Anton the team can put different games on the board and watch performance — "интереснее становится с каждым днём" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **Daniil Stauskiy.** The bot proposed dependency updates for NOVA (Jest and others, per the notes [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]); they touch "мапинг для контрактов", so they need their own feature, where he will load all the version bumps. He found a small display problem with one modifier in the game's bonus, to settle with "Саша". He waits for screens from Pavel to test on two large screens. He will try re-converting textures as Leshkevich did, asked which format Anton used, and asked for access to the second game — Pavel: "Да, конечно". Pavel asked Anton to post the repository name in the chat; Anton will also send the link to his Jira task with the image-compression report, "клод прям всё в принципе шагово расписано" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. *("Саша" here is not named in full; Biratka is the stand-up's Sasha, but a game-bonus question fits a games developer — **not identified**.)*
+
+### Open commitments (Oct 19 2026)
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — recheck Clover Fortune on NOVA, help screens included — due Wed Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — post the repository name in the chat and send Daniil the link to his Jira task with the image-compression report — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — give Daniil access to the second game — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] Daniil Stauskiy — create a separate feature for the dependency updates; settle the bonus modifier display; try re-converting the textures — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+
+### Open questions (Oct 19 2026)
+
+- Which texture format replaces WebP across the games, and is it adopted for all? Leshkevich's test format is not named clearly — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 
 ## Sources
 
@@ -825,3 +854,7 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

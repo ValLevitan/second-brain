@@ -3,7 +3,7 @@ type: decision
 title: Mikhail Perelman leaves from January; Mary (Mery) takes over his ordering role — decided for now (owner ruling 2026-10-15), with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
-source-count: 8
+source-count: 11
 status: active
 open-commitments: 1
 open-questions: 0
@@ -36,9 +36,13 @@ On the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 
 On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] (Russian) Val told [[wiki/people/lev-rudky.md|Lev Rudky]] that Mikhail is leaving (Lev already knew) and that Mary takes his place — "пока вот в данную минуту я никого другого не могу придумать" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. The notes list it as decided by Val [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. To make it work Val and Lev will focus together on inventory control, "для Того, чтобы мерой смогла сама заработать" — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]] [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Val also said Mary is back on Monday and will handle an open purchase order Lev asked about [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Nothing here changes the Oct 19 training start or the January leaving date.
 
+## Oct 19 2026 update — her working environment: questions to Business Central through MCP, not Mikhail's reports
+
+At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; Val, Genadi, Nathan) Val opened with the hand-over: "Michael will be leaving", Michael worked from his own "30 year… framework" and reports, and "Mary cannot work off of the same format"; Val has no time to bring someone else on and Genadi must not spend time on purchasing [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. In segment 2 Val said she "is not an engineer. Michael is an engineer", so she needs "an administration environment" in Business Central: no specialized reports, questions through MCP "in Spanish or English", and more MSBC endpoints from Nathan, driven by AI COO use cases Val writes [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] — [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]]. Genadi: "she needs to start working very fast" [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. The transcript spells her "Mary" and "Mery"; the notes "Mery" [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. Nothing here changes the leaving date or the training plan; whether training started on Oct 19 is not said.
+
 ## Open commitments
 
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — start training Mary on ordering — due Oct 19 2026, running through November and half of December — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — start training Mary on ordering — due Oct 19 2026, running through November and half of December — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] *(Oct 19: the work to build her Business Central environment began; no training session is reported [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]])*
 
 ## Open questions
 
@@ -54,3 +58,6 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

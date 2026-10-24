@@ -3,7 +3,7 @@ type: decision
 title: Installers set up a location by phone — a QR code generated on the location's dashboard page is scanned on each Flexport, binding the ports to that Flex IQ and setting the Wi-Fi; installers are registered with JVL, the set-up is walked through and tested by phone, and the first set-up is recorded with a date and time (the "location map")
 date: 2026-10-15
 aliases: [location map, лакейшн map, location topography, installer set-up by phone, QR code from the location dashboard, scan the QR on each Flexport, bind Flexports to the location's Flex IQ, foreign Flexport cannot join, registered installers, все должны быть к нам подписаны, first set-up record with date and time stamp, reverse install record, Wi-Fi name and password set from the dashboard, PIN codes on the location page]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 1
@@ -47,6 +47,10 @@ Bosik asked for customer feedback. Val: "я думаю, что с января �
 - Val's first-set-up record builds on his Sept-7 requirement to send home who connected what, when and where (same page).
 - The switch between own access point and external router — [[wiki/decisions/2026-10-15-flex-iq-gets-a-switch-between-its-own-access-point-and-an-external-router-and-mvp2-starts-on-the-router.md]].
 
+## Note, Oct 19 2026 — the QR is encrypted per location
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] settled what Oct 15 left open: the QR made on the location's server page is encrypted with a key personal to that location, only the location owner or a technician bound to it can export it, and a plain phone network-sharing QR is refused. It carries all settings (Wi-Fi, network order, PIN codes, binding), not only Wi-Fi [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. Detail: [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-19 update). The open question below (third-party routers) was not taken up.
+
 ## Open questions
 
 - How are the Wi-Fi name and password set on a third-party router without a skilled installer? Pavel named the gap — [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]] [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
@@ -56,3 +60,5 @@ Bosik asked for customer feedback. Val: "я думаю, что с января �
 ## Sources
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

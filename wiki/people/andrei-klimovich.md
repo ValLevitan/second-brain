@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 122
+source-count: 123
 open-commitments: 114
 open-questions: 0
 ---
@@ -897,6 +897,11 @@ At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-
 
 - [ ] Andrei Klimovich — make an introduction to the group of people Sergey Vysotsky could hand the work to — due unspecified — [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
 
+
+## Oct 18 2026 (in absentia, inference) — asked to photograph the other makers' setup screens
+
+At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requirements.md|Oct-18 7:00 AM Val–Pavel call]] Pavel said he had asked "Андрея" the day before to capture the setup screens of the borrowed machines — "более идеального случая, чтобы снять чужие скрины у нас не будет" — and that they had looked together at the AFT parameters (about 55 checkboxes). Read as Klimovich, who runs the Atlanta set-up — **inference** [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]. Record: [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -1022,3 +1027,4 @@ At the [[wiki/meetings/2026-10-16-klimovich-recap-of-the-vysotsky-call-location-
 - [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
 - [[raw/Meeting_Notes_Andrei_Klimovich_Vysotski_Recap_Location_Owner_Outreach_Bot-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 25
+source-count: 28
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -236,6 +236,22 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - **Static toppers become videos.** Some older games have a static topper picture and no video (Dutch Mill among them). Val: have Claude or ChatGPT make a video from the static picture. Pavel: it must loop — the first frame equals the last — about 10 seconds. The game title should be a separate video, not baked into the topper. A "liquid glass" reel frame can come later; plain video first.
 - **Who.** Sergey Kleimenychev prepares the videos; Igor writes him a technical task with sizes and steps, and ports the game himself. Full record: [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]]
 
+
+## Oct 18 2026 — a vertical Dutch Mill in a week: master frame, ChatGPT and Gemini, then Claude; AI video loops badly, programmatic animation loops cleanly
+
+At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM Dutch Mill session]] (Russian) [[wiki/people/igor-metelski.md|Igor]] showed the vertical Dutch Mill [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]:
+
+- **Steps.** A master frame assembled from the existing horizontal resources; ChatGPT and Gemini to bring it to an acceptable level; then Claude to animate. Older games' art is more primitive than Dragon Pays', so more work was needed. 4 symbols were redrawn to match the new background and animated; the help screen is new; the whole job took a week.
+- **Looping.** All these are idle animations that play in a loop, so there must be no visible jump at the seam. AI video tools loop poorly; the "first frame and last frame" option does not always work. The girl is a video, and a small part of her loop had to be finished with Claude. The mill blades and the sky were made programmatically with Claude, and "когда я делаю чтото программное, я… могу корректно… зациклить". Pavel added that the motion must also carry through the joining frame, not just match first and last frames. The sky had to be slowed — fast, it made viewers dizzy.
+- **Next.** Igor expects [[wiki/people/sergey-kleimenychev.md|Sergey Kleimenychev]] to find the right mix of prompts and references with more tries; Sergey's AI access was set up that day and he is sending new bonus videos.
+- **A re-skin from a theme.** Val wants the art for a re-skinned Dutch Mill made from scratch, from a theme abstract by [[wiki/people/michael-gottlieb.md|Michael]] on Igor's spec of scenes and placeholders — [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
+
+## Oct 18 2026 (11:02 AM) — a vertical Crazy Spins in about two hours
+
+At the [[wiki/meetings/2026-10-18-creative-direction-spec-review-and-game-design-voice-assistant.md|Oct-18 11:02 AM spec review]] (Russian) [[wiki/people/igor-metelski.md|Igor]] showed a vertical version of Crazy Spins ("crisis pons"). Unlike Dutch Mill, the other games of the Texas set from Nebraska are far more abstract and need less detailed art work; he gave Claude the instructions, and the result is close to the original abstract game with shifting lines in the background; art was finished with ChatGPT where needed. Val: "за 02:00 вы сделали?" — Igor: "Ну по большому счету да." Val: "когда я сказал, что игры будем делать за месяц, я беру свои слова обратно." Pavel: "Будем за 14:00 делать… Из них из них полтора дня это тестирование" — read by the notes as about 14 hours per game; 14 hours with a day and a half of testing do not fit together, so the figure is **unclear** [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]].
+
+The spec those games will now follow: [[wiki/decisions/2026-10-18-igors-spec-becomes-a-creative-direction-specification-for-game-designers-and-the-word-re-skin-is-dropped.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -263,3 +279,6 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 - [[raw/Meeting_Transcript_Rage_Nova_Port_Autotests_and_Horizontal_to_Vertical_Layout-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]

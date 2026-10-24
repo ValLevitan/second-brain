@@ -4,7 +4,7 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 70
+source-count: 71
 open-commitments: 15
 ---
 
@@ -362,6 +362,11 @@ He led the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-bo
 - [ ] Michael Gottlieb — concept for Queen of Luxor Keno — due about 1–1.5 weeks from Oct 8 2026 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [ ] Michael Gottlieb — document the Georgia V4 ideas and start abstracts — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
+
+## Oct 18 2026 (in absentia, inference) — to write a theme abstract for a Dutch Mill re-skin
+
+At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM Dutch Mill session]] Val said he will ask "Майкла" to create a new theme to replace Dutch Mill — the abstract only — based on Igor Metelski's technical spec of scenes and placeholders. Pavel warned Michael may feel the process is "с ног на голову"; Val said he would manage it. Read as Michael Gottlieb by context (game design) — **inference** [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]. Record: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -434,3 +439,4 @@ He led the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-bo
 - [[raw/Meeting_Notes_GA_Progressives_and_Class_A_Lions_Riches-September-25-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Dragon_Pays_Vertical_Port_and_Symbol_Distortion-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]

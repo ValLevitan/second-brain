@@ -3,9 +3,9 @@ type: decision
 title: The AI PM goes live in real Jira projects on Monday Oct 12 on its current architecture (change it later if needed); Lena's meetings leave the pilot; the agent deletes only what it created and only comments on the rest; the agent is not genderless and gets a name
 date: 2026-10-08
 aliases: [AI PM live October 12, боевой режим, launch with current architecture, Lena out of the AI PM pilot, agent deletes only its own items, AI Draft status, AI Draft lifetime, Dasha, the AI PM is not genderless, two kinds of draft]
-source-count: 13
+source-count: 15
 status: active
-open-commitments: 6
+open-commitments: 8
 open-questions: 4
 ---
 
@@ -129,6 +129,19 @@ At the close of the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-an
 
 - Should Jira allow tasks with no parent, and who runs the regular grooming of them? (Vladimir, Pavel) — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 
+## Update, Oct 19 2026 — an AI Draft on Biratka to handle within the day; about 11 tasks under a closed parent; Claude-set dates and parents
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]:
+
+- **An AI Draft on Biratka.** [[wiki/people/pavel.md|Pavel]]: "тут появился аи драфт на тебе, посмотри" — is it current and correctly assigned ("Сп 13 60"; the notes: "SP 1360" as heard [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]). [[wiki/people/alexander-biratka.md|Biratka]]: as Dima said, it hangs only a day. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "За завтра его уже не будет, да?" Pavel: move it to To Do, or delete it with a note on why it does not fit; Kovalchuk: "Либо отклонить." This is the 24-hour practice of Oct 16, applied.
+- **Tasks under a closed parent.** Kovalchuk: many tasks hang whose parent is closed, "Порядка 11"; Pavel should look. Pavel: he created them in bulk, probably after the parent closed; "клод все новые истории, которые она создавал. Он привязал к фичу, который закрылась." Irina: "Ну он не умеет." Kovalchuk suggested creating something to hang such stories on "чтоб оно не падало вниз… На плане" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. *(Here "Claude" is Pavel's own hand-run use of Claude to write stories, not the agent — **inference** from "я все вот эти… создавал".)* This continues the Oct-16 open question on tasks with no parent or a closed parent.
+- **Claude-set due dates.** [[wiki/people/sergey-tsymanov.md|Tsymanov]]'s passport task got October 30 from Claude when it generated tasks; he will change it — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 19).
+
+### Open commitments (Oct 19 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — review the AI Draft task on him: move it to To Do or reject it with a reason — due Oct 20 2026 (it disappears after a day) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review the about 11 tasks whose parent feature is closed, and decide where such stories hang — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
 - [[raw/Meeting_Notes_AI_PM_Agent_Listener_Scope_and_Draft_Lifetime-October-8-2026.md]]
@@ -143,3 +156,5 @@ At the close of the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-an
 - [[raw/Meeting_Notes_AI_PM_Keep_080_Threshold_and_Meeting_Rigor-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

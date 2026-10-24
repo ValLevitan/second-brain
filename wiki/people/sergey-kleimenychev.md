@@ -3,7 +3,7 @@ type: person
 title: Sergey Kleimenychev
 date: 2025-11-20
 aliases: [Sergey Kleimenychev, Kleimenychev Sergey, Sergey, Sergei, Sergey Kleimenich, Сергей Клемёныч, Клемёныч, кремёнычев, Kremyonychev, климеч, Klimech, клименвича, клименничева, Sergey Klimenchuk, клемёнычев, Лимёныч, Sergei Klemenchev, Sergey Klimenovich, Сергей климёнович, Сергей льёныч]
-source-count: 8
+source-count: 10
 open-commitments: 4
 open-questions: 1
 disambiguation: "One of several 'Sergey/Sergei' at JVL. This Sergey = the graphics-team design generalist (artist + a bit of a programmer) who owns the artists' Git/LFS workflow. Distinct from Sergey Tsymanov (Minsk CMS-requirements engineer) and Sergei Novitsky (advanced-setup technician). Resolve by context."
@@ -76,6 +76,11 @@ At the [[wiki/meetings/2026-10-08-dragon-pays-vertical-accepted-and-dutch-mill-p
 
 At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] Pavel said the vertical games are held back by the background videos asked of "Сергея льёныча"; "у него там заблокировался аккаунт, почему то он не может на там на на банане работать или ещё на каких то там". Pavel's item for the AI PM: clarify with Andrei Bosik the video-AI access "для Сергея климёновича" [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. The notes write "Sergey Klimenovich" [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. His looping Dutch Mill video (due Oct 12) is therefore not delivered — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Oct-16 update).
 
+
+## Oct 18 2026 (in absentia) — access fixed; new bonus videos; proposed for a Dutch Mill re-skin
+
+At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requirements.md|Oct-18 7:00 AM Val–Pavel call]] Pavel said Sergey has delivered nothing yet; his OpenRouter AI access did not work and "Андрей" fixed it on Thursday; Pavel will check on Monday [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]. At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM Dutch Mill session]] Igor said Sergey's access "настроили сегодня" and that he is sending new videos for the bonus; Igor expects him to find prompts and references that loop cleanly. Val wants him trained to move games between markets on his own, preferring him as a graphic designer who can improve art on the fly; Igor proposed he re-skin Dutch Mill without Igor's help to test the tools. Who does the re-skin is not settled (his limited working time was raised; detail not recorded, §15.8) [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]. Full record: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -86,3 +91,5 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]

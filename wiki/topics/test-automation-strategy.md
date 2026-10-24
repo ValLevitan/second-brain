@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 80
-open-commitments: 72
-open-questions: 11
+source-count: 83
+open-commitments: 73
+open-questions: 12
 ---
 
 # Test-automation strategy and testing architecture
@@ -894,7 +894,7 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 ### Open commitments (Oct 15 2026, 4:46 AM)
 
 - [ ] unassigned (the agent did not create it) — create a feature under capability 242 for hardware scenario tests through the runner — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — finish the printer scenarios and find where the "10-minute invalid ticket" rule came from — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — finish the printer scenarios and find where the "10-minute invalid ticket" rule came from — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] — *Oct 19 2026: the printer scenarios are finished; the 10-minute rule was not mentioned, so left open* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — bring the autotests to 90%; remove TIN 88 from MVP 1 — due Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — close TIN 71, 72, 27 and 33 (ask Pavel on 33); then take 57, 63 and 56; at least remove the Oct 15 date from 56 — due Oct 15 2026 (the four) — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 
@@ -913,7 +913,7 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 
 ### Open commitments (Oct 16 2026, 4:46 AM)
 
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — close 102, 103 and 129 and finish the printer scenarios — due Oct 16 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — close 102, 103 and 129 and finish the printer scenarios — due Oct 16 2026 — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — *Oct 19 2026: the printer scenarios are finished; 102, 103 and 129 were not mentioned, so left open* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [ ] [[wiki/people/ivan.md|Ivan]] — find out what the 0x89 fix after a DHCP change involves, and fix it only if needed (Pavel to review) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — finish 71, 31 and 33, then 57 and 63 — due unspecified (perhaps the weekend) — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 
@@ -930,6 +930,28 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 - **The limit.** On the debug build he can emulate a ticket held to the port, "но я не смогу нажать на машине cashаут" — people on site are needed ([[wiki/people/andrei-klimovich.md|Klimovich]] and [[wiki/people/sebastian.md|Sebastian]]).
 
 Results, commitments and the Oct-21 return date: [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update).
+
+
+## Oct 18 2026 (7:00 AM) — the machine emulator keeps a mode per maker; start on the emulator, finish on live machines
+
+At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requirements.md|Oct-18 7:00 AM Val–Pavel call]] (Russian) [[wiki/people/pavel.md|Pavel]] said he built a reference SAS client — a machine emulator — about three weeks earlier, and the Flex-Port worked against it in about three days before failing at first on a real JVL machine and now on other makers' machines [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]. [[wiki/people/val-levitan.md|Val]] ruled that every gap found on a machine becomes new or corrected requirements with acceptance criteria, plus code and prose, and the emulator keeps switches to act "как айджи" or "как аристократы", so a future Flex-Port change can be tested without borrowing machines. Pavel: maybe 80% of tests can run on the emulator, but final tests on all machines; Val: a live-machine test at the end is desirable, but work always starts on the emulator. Pavel also said all Flex-Port activity is logged to Grafana, enough that an oscilloscope is not needed for now [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]. Full record: [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]].
+
+## Oct 19 2026 (4:46 AM) — Seregin's printer scenarios are done and a plain Wi-Fi QR does nothing at the kiosk; Khamin's CI; Irina re-runs her tests and turns to MVP 2; Ivan's battery questions
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]].** Still adapting tests for CI ("под c inine", as heard), and reviewing in parallel.
+- **[[wiki/people/anton-seregin.md|Seregin]].** "я закончил по сценариям по принтеру." He closed a task from Vladimir ("фейки 171", as heard; Vladimir Samusenko — **inference**); the status of "фейки 67" is not clear in the transcript [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. Other devices sit in the backlog and he does not know whether they are needed: one heard as "fi 8 sei", the LTE modem, the LED strip ("лет лента") with emulation of the lights, and the Wi-Fi QR. He tried a Wi-Fi QR on an ordinary bank scanner: "он пикает, но не воспринимает, никак не обрабатывает"; it is not built at the kiosk. Pavel: it existed but was not encrypted, so it does not fit anyway — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-19 update).
+- **[[wiki/people/irina-shishko.md|Irina]].** She is re-running the tests rewritten in the new way and fixing gaps. Pavel: create tests for MVP 2 — review its capabilities and requirements. Her move of Flex Pay to MVP 3: [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-19 update).
+- **[[wiki/people/ivan.md|Ivan]] and [[wiki/people/evgeny-kharetski.md|Kharetski]] — the battery.** Ivan works with Evgeny on battery replacement: "вчера… 14 вопросов, он мне дал ответ". Evgeny named Ivan's tests ("ваню, что портить по тестам", as heard; the notes: "Ivan's tests") as one of his three directions, with NOVA and the game-design agent. What the battery is (which device) is not said [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+
+### Open commitments (Oct 19 2026, 4:46 AM)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] with [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — continue the battery-replacement work after Evgeny's answers to his 14 questions — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+
+### Open questions (Oct 19 2026, 4:46 AM)
+
+- Are the backlog device emulations (the "fi 8 sei" item, the LTE modem, the LED strip lights, the Wi-Fi QR) still needed? Seregin asked; not answered except for the QR — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1013,3 +1035,6 @@ Results, commitments and the Oct-21 return date: [[wiki/decisions/2026-09-09-neg
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

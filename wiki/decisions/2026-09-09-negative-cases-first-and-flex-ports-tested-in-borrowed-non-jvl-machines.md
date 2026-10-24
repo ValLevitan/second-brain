@@ -3,7 +3,7 @@ type: decision
 title: Testing starts September 15 with the negative cases first, and Flex-Ports must be proved in borrowed non-JVL machines — fake-commissioned, tracked as a separate Jira item from JVL-machine testing
 date: 2026-09-09
 aliases: [negative cases first, door open, borrow a machine fake commission it, Aristocrat and Light and Wonder, at least one or two machines, two separate records, two different router manufacturers, no Chinese manufacturer, stay away from Cisco, ten port router, storm through the test, bracket drawings to Genadi]
-source-count: 17
+source-count: 19
 status: active
 open-commitments: 10
 open-questions: 5
@@ -178,9 +178,20 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 
 ### Open questions (Oct 16 2026, 10:01 AM)
 
-- Why does cash-out lock after two or three tries on Aristocrat, never work on IGT, and why does neither load nor cash-out work on the "баниле" machine? — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- Why does neither load nor cash-out work on the "баниле" machine? (Narrowed Oct 18: the Aristocrat and IGT parts are answered — see the Oct-18 update.) — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - What does the extra failure status heard as "риф Хьюстон" mean? — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - What was the Light & Wonder result? Klimovich did not remember — [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+
+## Update, Oct 18 2026 (7:00 AM) — Aristocrat fixed; IGT seems not to handle the SAS lock command; every gap becomes requirements and an emulator mode
+
+At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requirements.md|Oct-18 7:00 AM Val–Pavel call]] (Russian) [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]:
+
+- **Aristocrat.** [[wiki/people/pavel.md|Pavel]]: a minimal change about timing and the correct order of events; "мы в принципе быстро это поправили."
+- **IGT.** It did not work the day before; in the evening Pavel found that the IGT machine seems not to handle the SAS "lock" command correctly — it just queues the cash-out request. He expected IGT to work that day if the Flex-Port does not send the lock.
+- **The rest.** The team needs access to the other machines' parameters, "сегодня, завтра". On the third machine SAS is connected and commands flow; all Flex-Port activity is logged to Grafana; no oscilloscope is needed for now. Val: Aristocrat and IGT cover about 70% of the market, but Light & Wonder and other machines are still required.
+- **Val's rule** for every gap found, the per-maker emulator modes, and the setup-screen photos: [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]] [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]].
+
+On the Oct-16 open question: the Aristocrat cash-out problem has a fix and the IGT one a likely cause; the question is narrowed to the "баниле" machine. The Light & Wonder result is still not stated. Pavel's Oct-16 item to read the SAS logs machine by machine is under way (the Grafana logs) but not reported finished; it stays open.
 
 ## Sources
 - [[raw/Meeting_Notes_September_Resource_Plan_and_FlexPort_Readiness-September-9-2026.md]]
@@ -200,3 +211,5 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]

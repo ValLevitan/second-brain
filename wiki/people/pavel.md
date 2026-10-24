@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 225
+source-count: 231
 open-commitments: 107
 open-questions: 0
 ---
@@ -1268,6 +1268,23 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 
 At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests.md|Oct-16 10:01 AM third-party EGM call]] (Russian) he set the next steps after Klimovich's results: the debug Flex-Port build on every port, each port labelled with its IP, then the SAS logs machine by machine. He will email the build link with Elizabeth in copy. He can emulate a ticket at the port but not press cash-out — [[wiki/decisions/2026-09-09-negative-cases-first-and-flex-ports-tested-in-borrowed-non-jvl-machines.md]] (Oct-16 update, with his commitments) [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]].
 
+
+## Oct 18 2026 (7:00 AM) — the Flex-Port SAS story; Val makes him and Irina the enforcers of the development culture; no private calls with the AI PM
+
+At the [[wiki/meetings/2026-10-18-flex-port-sas-igt-lock-and-emulator-requirements.md|Oct-18 7:00 AM Val–Pavel call]]: he built the machine emulator about three weeks earlier; Aristocrat needed a small fix; IGT seems not to handle the SAS lock command, and he expected IGT to work that day without it. Val ruled that every gap becomes requirements with acceptance criteria, code and prose, and an emulator mode per maker — and that Pavel and Irina, not Val, set and enforce the culture daily; Pavel: "Да я это понимаю." His AI-PM idea of private calls was turned down; he agreed [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]] [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]. Records: [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]] · [[wiki/decisions/2026-10-18-no-private-calls-with-the-ai-pm-it-should-speak-at-the-meeting-itself.md]].
+
+## Oct 18 2026 (8:04 AM) — three kinds of tool sets; doubts about a re-skin from nothing
+
+At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM Dutch Mill session]] he named three tool sets (RAGE horizontal → RAGE vertical; RAGE vertical → NOVA vertical; a NOVA game → many new games with new art and maths), offered Anton Leshkevich and Daniil as people with time, said a re-skin test needs a theme or concept art to start, and warned that Michael may feel the process is upside down [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]. Record: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
+
+## Oct 18 2026 (11:02 AM) — questions by screen position; sketches between calls; designs game swapping on a NOVA machine
+
+At the [[wiki/meetings/2026-10-18-creative-direction-spec-review-and-game-design-voice-assistant.md|Oct-18 11:02 AM spec review]] he proposed that the voice assistant show the screen template and ask position by position, and that the AI make sketches between calls ([[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]]); he said "14:00" per game, "из них полтора дня это тестирование" after Igor's two-hour Crazy Spins (**unclear** — see [[wiki/topics/game-art-animation-production-pipeline.md]]); he said the Wednesday NOVA meeting is still needed; and he took the architecture design for erasing and writing games on a NOVA machine ([[wiki/topics/nova-platform-architecture.md]], Oct 18) [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]].
+
+## Oct 19 2026 — the encrypted settings QR; MVP 2 tests; the AFT failures on other makers' machines
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] he set the design of the settings QR for Flex IQ and the Flex-Ports: made on a server page for the location by its owner or a bound technician, encrypted with a key per location, decrypted and applied by the registered device; a plain phone QR is refused; a server-side task for Seregin, maybe a spike first — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Oct-19 update). He told Irina to create MVP 2 tests and agreed she moves Flex Pay to MVP 3 herself — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-19 update). He asked Biratka to handle an AI Draft within the day and will review about 11 tasks under a closed parent — [[wiki/decisions/2026-10-08-the-ai-pm-goes-live-in-real-jira-projects-on-october-12-on-its-current-architecture-without-lenas-meetings.md]] (Oct-19 update). He reported that Light & Wonder and IGT machines still fail over AFT and asked Kharetski and Biratka for ideas — [[wiki/decisions/2026-10-18-every-gap-found-on-another-makers-machine-becomes-requirements-and-the-machine-emulator-keeps-a-mode-per-maker.md]] (Oct-19 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -1498,3 +1515,9 @@ At the [[wiki/meetings/2026-10-16-third-party-egm-flex-port-sas-connection-tests
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Third_Party_EGM_Flex-Port_SAS_Connection_Tests-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

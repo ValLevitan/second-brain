@@ -3,9 +3,9 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521]
-source-count: 33
+source-count: 35
 open-questions: 20
-open-commitments: 3
+open-commitments: 4
 ---
 
 # RIS (remote install/setup system) and machine states
@@ -445,6 +445,18 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - **Tsymanov** finishes his first rework task today, then the task "По обновлению получению риса. Ну хотя вроде как там ничего делать не надо", then three report tasks (he named 35 and 21): one report that fires when an event happens, one with statistics over a number of days. Pavel: "Да можно так."
 - **RIS first.** On the payment hub Pavel told Tsymanov: "Давай сначала вот рисом занимаемся"; it is talked over once most of the RIS work is done — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-16 update).
 
+## Oct 19 2026 (4:46 AM) — Tsymanov's lease work is on STG; the passport task is a separate check in the same chain
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]:
+
+- **On STG.** [[wiki/people/sergey-tsymanov.md|Tsymanov]] finished the implementation (the notes: "LISA"; the transcript "пализии" / "лиза" — lease is likely, as the notes read "лиза" on Oct 6–8 — **inference**) with the soft-install handling discussed before ("с этим мягким… то, что мы обсуждали"), and deployed it on STG: "можете проверять" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **The passport task.** He created a task from the earlier talk about the passport and works on it now. Passport and lease are different checks in one chain: "Паспорт это своя проверка лиза это своя проверка… Своя цепочка проверок"; if the passport does not pass, no lease is given. Testers can check the lease now if they do not change the passport. [[wiki/people/evgeny-kharetski.md|Kharetski]] confirmed he has done the passport part on the machine side ("Да") [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **The due date.** Claude set the passport task's due date to October 30 when it generated the tasks ("клод просто задачи генерировал сам поставил"); Sergey expects to finish within about three days and will change the date himself. [[wiki/people/irina-shishko.md|Irina]]: "максимум 22 21" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]. The notes record: the due date moves earlier than Oct 30 — Sergey expects about 3 days; Irina: Oct 21–22 at most [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+
+### Open commitments (Oct 19 2026)
+
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the passport task and move its due date from Oct 30 — due Oct 21–22 2026 (Irina) — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -480,3 +492,5 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

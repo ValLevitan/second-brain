@@ -3,9 +3,9 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17, came back on Sept 28, and left again on Oct 15 — MVP 1 keeps only the Flex-Port update by USB stick, and remote Flex-Port update is MVP 2
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, remote FlexPort update moves to MVP2 again, USB-stick update is the only MVP1 gap, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367, IO board update on the fly, обновление ио барда]
-source-count: 28
+source-count: 30
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below; Oct 15 2026: the IO board is to be updated along with Flex Pay and Flex IQ firmware; Oct 15 2026 (11:04 AM): remote update of the Flex-Ports moved to MVP 2 again — MVP 1 keeps only the USB-stick update, its one remaining gap (see the Oct-15 11:04 AM update); Oct 16 2026: remote update of the ports through Flex IQ confirmed as one of MVP 2's two tasks
-open-commitments: 11
+open-commitments: 12
 open-questions: 3
 ---
 
@@ -232,6 +232,19 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — create a task to add the Terminal Hub parameters so Flex Pay can be updated through the hub, and request git access to the Terminal Hub and to the FP 1335 board firmware repository — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 
+## Update, Oct 19 2026 — the IO board firmware built in CI runs on Biratka's board but not yet on gaming machines; the flashing is now in the board service; a flash-and-roll-back test is next
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian; Val absent) [[wiki/people/alexander-biratka.md|Biratka]] said he has two tasks in work: the IO board firmware update, and checks of the Terminal Hub connection, including attempts to spoof it — for example a terminal connecting with a fake number. Part of the cloud hub changes are done by "Андрей" (not named in full — **not identified**) [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+
+- **"Never checked on hardware."** Claude told him the IO board firmware built in CI "ни разу не запускали на из железы, это прямо написано в ридме" of the repository. [[wiki/people/pavel.md|Pavel]]: the board in Biratka's Flex Pay is already flashed with that CI build; it was not properly tested on gaming machines, so there may be nuances [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **What remains.** Biratka added the flashing process into the service that manages the board; the remaining step is to build a version with a change (for example the version number), flash it and roll it back through that service [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+
+*(The roll-back here is a test of the IO board flash path; whether it touches the Sept-18 rule that rolling back to a previous build stays out of MVP 1 was not discussed — **inference** only.)* The Oct-16 Terminal Hub task above is not reported done.
+
+### Open commitments (Oct 19 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — test the IO board firmware update and roll-back through the board service with a build that changes the version — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -262,3 +275,5 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]

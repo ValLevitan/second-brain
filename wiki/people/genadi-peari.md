@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 128
-open-commitments: 49
+source-count: 132
+open-commitments: 53
 ---
 
 # Genadi Peari
@@ -630,8 +630,8 @@ At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 ## Open commitments (Oct 13 2026)
 
 - [ ] Genadi Peari — work with Lev Rudky on what the procurement reports need and what administrative data is missing in MSBC; list the gaps so Mary gets concrete work — due week of Oct 13 2026 — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
-- [ ] Genadi Peari — after Lev, discuss with Nathan Carver how to get the missing data (endpoints, MCP) — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
-- [ ] Genadi Peari, with Nathan Carver — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [ ] Genadi Peari — after Lev, discuss with Nathan Carver how to get the missing data (endpoints, MCP) — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] *(Oct 19: discussed with Nathan and Val; Nathan adds endpoints from Val's AI COO use cases. Whether the Lev step came first is not said [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]])*
+- [ ] Genadi Peari, with Nathan Carver — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] *(Oct 19: the repository side was discussed and a one-repository walkthrough set; the vendor data format was not discussed [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]])*
 - [ ] Genadi Peari — build a control BOM as the template the agent's BOM is checked against — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 
 
@@ -650,6 +650,22 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 ## Oct 16 2026 (in absentia) — the bezel-light question
 
 At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] Biratka and Pavel agreed to ask "гений" where the validator and printer bezel lights connect (capability 138); Pavel thinks the two-COM-port board [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. The notes: "Alexander will confirm with Genadi" [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 16).
+
+## Oct 19 2026 (5:02 PM) — "Now it makes sense": the repository structure; vetted files into three repos; tools for Mary
+
+At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; with Val and Nathan) [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]:
+
+- **His question.** Before loading his product and component data into GitHub he wanted the structure confirmed: tags, readme files, and how a component is found ("Through the part number, where it's stored, how it's stored"). After Nathan's walk-through: "Yes, this makes sense. Now it makes sense."
+- **His remarks on the list.** He asked what "hardware manufacturing" means, since sheet metal, plastics and harnesses already cover it — "so basically nothing left in there"; he put the count at "about 15" repositories against Val's 13, and thinks the table Val sent earlier "was better".
+- **His part.** Only items he has vetted and approved go into the repositories, sorted by project (displays with displays, harnesses with harnesses); the agent then generates the data contracts — [[wiki/decisions/2026-10-19-hardware-repositories-start-with-harness-display-and-sheet-metal-and-the-agent-generates-data-contracts-from-vetted-data-sheets.md]]. He asked for one example repository; Val asked for three (harness, display, sheet metal); he agreed and signed off on the names.
+- **Purchasing.** Val: "I cannot allow Genadi spend time on purchasing." Genadi raised the tools for Mary; in segment 2 he said the material-requirements data is there and only the MSBC count is not exact (Val disagreed: the count is "more or less okay now"; purchase invoices are the gap), listed the steps that must be confirmed (PO approval, PO deposit, invoicing, payment, shipping, lead time), and asked that the AI COO pull vendor replies from emails into the matching line — [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]].
+
+## Open commitments (Oct 19 2026)
+
+- [ ] Genadi Peari — load his vetted data sheets and drawings into the three repositories — due after the repositories exist — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [ ] Genadi Peari, Nathan Carver — find Val's earlier repository table (email or Teams) and compare it with the folder list — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [ ] Genadi Peari, Nathan Carver — review Val's AI COO use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [ ] Genadi Peari, with Nathan Carver — walk through one repository together (about 15 minutes) — due Oct 20 2026 (notes; "tomorrow") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -781,3 +797,7 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

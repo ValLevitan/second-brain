@@ -3,7 +3,7 @@ type: decision
 title: Build no further games on RAGE — switch straight to NOVA, and do Texas on NOVA
 date: 2026-09-17
 aliases: [no more games on Rage, не делать никаких игр в речь, switch straight to Nova, Texas on Nova, сразу переключиться на нового, Техас сделать на ново, no time for debate, время на полемику]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 0
@@ -52,6 +52,10 @@ Pavel's observation was practical: the experiment under way converts a **horizon
 
 - ~~**What becomes of the RAGE horizontal→vertical conversion experiment now in progress?**~~ **Answered Oct 8 2026:** it continues, aimed at NOVA. Igor asked whether the conversion is for RAGE or NOVA; Val: "На новый." The horizontal Texas games on RAGE are moved to vertical NOVA games, maths and function unchanged — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — earlier: Pavel raised it as the reason for the ruling; Val ruled on future games without saying whether the running experiment continues, is redirected onto NOVA, or stops. Nobody asked. [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 
+## Note, Oct 18 2026 — "RAGE is finished"
+
+At the [[wiki/meetings/2026-10-18-dutch-mill-rage-to-nova-conversion-and-reskin-plan.md|Oct-18 8:04 AM session]] Irina asked whether a planned re-skin is for RAGE or NOVA. Val: "Rade. Закончился. Ничего под рэйдж больше не делается, всё делается только под новом." [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] The notes record it as Val's decision: "Rage is finished; all new work is done only on NOVA" [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]. This restates the ruling above in wider words (nothing more for RAGE, not only no new games); no sunset date or certification step was named, so the "does NOT settle" list above stands. Detail: [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
+
 ## §15.8 / §15.9
 
 **§15.8:** clear on this page — platform and product direction only; no named-person compensation or personal assessment is recorded here. (The same meeting did contain personal-assessment material on other subjects; it was deliberately not ingested — see the [[wiki/meetings/2026-09-17-kleimenychev-hire-nova-direction-and-planning-handover.md|meeting stub]].) **§15.9:** no licence, registration, tax or account numbers appear.
@@ -61,3 +65,5 @@ Pavel's observation was practical: the experiment under way converts a **horizon
 - [[raw/Meeting_Transcript_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Notes_Kleimenich_Hire_Nova_Direction_and_Planning_Handover-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
+- [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]

@@ -3,8 +3,8 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 57
-open-commitments: 13
+source-count: 61
+open-commitments: 18
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
 
@@ -231,8 +231,8 @@ At the [[wiki/meetings/2026-10-12-daily-standup-flexport-emulator-and-jira-auto-
 
 ## Open commitments (Oct 13 2026)
 
-- [ ] Nathan Carver — link the MSBC endpoints named by the consultant through the API into MCP — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
-- [ ] Nathan Carver, with Genadi Peari — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
+- [ ] Nathan Carver — link the MSBC endpoints named by the consultant through the API into MCP — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] *(Oct 19: reframed as adding endpoints from Val's AI COO use cases [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]])*
+- [ ] Nathan Carver, with Genadi Peari — agree the vendor administrative/financial data format into MSBC and how repository files are organised or tagged — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] *(Oct 19: the repository side was discussed — readme, Prose, data-contract and source-file folders; a walkthrough of one repository is set for the next day. The vendor data format was not discussed [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]])*
 
 ## Oct 15 2026 (11:04 AM, in absentia) — the location shortfall: a card payment notifies his module
 
@@ -241,6 +241,23 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 ## Oct 16 2026 (in absentia) — the payment hub
 
 At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 stand-up]] Pavel recalled that the day before it was said "нейтану чтото надо будет доделать" for the payment hub, alongside Tsymanov's Stripe experiment; what is not said. The work waits until RIS is mostly done [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]] — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-16 update).
+
+## Oct 19 2026 (5:02 PM) — his spike folders become the starting repo list; three repos to request; more MSBC endpoints from AI COO use cases
+
+At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; with Val and Genadi) [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]:
+
+- **The repo layout.** He showed his spike on a branch (not merged) and shared the link in the meeting chat: folders standing in for future repositories, each with a folder of YAML contract files; no Prose folder or ADR yet. He confirmed the agent generates the data contracts from data sheets and drawings ("Correct, we generate"), and that each repository needs a folder for those source files. Val accepted the folders as the starting list — [[wiki/decisions/2026-10-19-hardware-repositories-start-with-harness-display-and-sheet-metal-and-the-agent-generates-data-contracts-from-vetted-data-sheets.md]].
+- **The request.** "I can make the request, but I think just need Genadi sign off on the on the names." Genadi signed off. Val: ask Dmitri Kovalchuk to create the three Jira projects.
+- **MSBC endpoints.** Val: his MSBC endpoints are limited and must cover inventory control end to end; Nathan: "No, I think that's right." He adds endpoints from Val's AI COO use cases (use cases → capabilities → endpoints): "Sounds good to me" — [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]].
+- **Next.** He agreed to give Genadi about 15 minutes the next day to walk through one repository; Val suggested including Andrei. He is available for the Wednesday follow-up call.
+
+## Open commitments (Oct 19 2026)
+
+- [ ] Nathan Carver — request the three repositories (harness, display, sheet metal) — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [ ] Nathan Carver — ask Dmitri Kovalchuk to create the three matching Jira projects — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [ ] Nathan Carver — add more MSBC endpoints for end-to-end inventory control, from Val's AI COO use cases — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [ ] Nathan Carver, Genadi Peari — review Val's AI COO use cases — due on receipt — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [ ] Nathan Carver, with Genadi Peari — walk through one repository together (about 15 minutes), with Andrei if possible — due Oct 20 2026 (notes; "tomorrow") — [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -301,3 +318,7 @@ At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-r
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

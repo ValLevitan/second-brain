@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 88
+source-count: 90
 open-questions: 7
 ---
 
@@ -527,6 +527,17 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 
 **An open purchase order.** Lev saw that Mary issued a purchase order (vendor garbled, "делай") with several threads about amendments, and asked what amount and which purchase lines to use. Val: "Меры уже выходят в понедельник, и она это сделает" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
 
+## Oct 19 2026 (5:36 PM) — an administration environment for Mary: MCP questions, more endpoints; the purchase-invoice gaps
+
+In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; Val, Genadi, Nathan) [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]:
+
+- **No special reports.** Val: Mary is not an engineer and needs "an administration environment" in Business Central; "We need to move away from building specialized reports"; she should ask through MCP in Spanish or English.
+- **Endpoints.** Nathan's MSBC endpoints are limited (Nathan: "I think that's right"); he adds more for end-to-end inventory control, driven by AI COO use cases Val writes — [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]].
+- **The gaps.** Genadi: the data is there and only the count is not exact. Val: the count "is more or less okay now"; purchase invoices are not handled correctly. A vendor's prepayment on a purchase order "doesn't register against the invoices"; "ready" and "shipping" notices are only emails between Mikhail Perelman and the vendor, so the system cannot track lead time (Val's example: 25 days by boat plus 15 by truck, 40 days). Genadi's list of steps to confirm: PO approval, PO deposit, invoicing, payment, shipping, lead time.
+- **Lev.** Val will meet Lev Rudky to learn the payment flow and how purchase invoices are administered.
+
+**Evolution** from Oct 13 (reports only from MSBC, built by the consultant, linked into MCP by Nathan): MSBC stays the source and MCP the way in; the endpoint list now comes from the use cases. The notes record the same [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -618,3 +629,5 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

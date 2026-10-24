@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery, Mery Villavicencio, Мэри]
-source-count: 14
+source-count: 16
 open-commitments: 2
 ---
 
@@ -46,6 +46,10 @@ At the [[wiki/meetings/2026-10-13-github-msbc-ai-bom-control-gate-and-msbc-only-
 
 On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-replacing-misha.md|Oct 16 1:34 PM call with Lev Rudky]] (Russian) Val told Lev that Mikhail is leaving and "на его место… Мы будем брать эту меры", adding "пока вот в данную минуту я никого другого не могу придумать", and tied the hand-over to the "автоматикой, которую мы… с ринадой обсуждаем" ("ринада" unresolved) [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. Val and Lev are to fix inventory control so she can run the work on her own — [[wiki/decisions/2026-10-16-val-and-lev-focus-together-on-inventory-control-so-mary-can-run-ordering-alone.md]]. Lev had seen a purchase order she issued (vendor garbled, "делай") with several threads about amendments; Val: "Меры уже выходят в понедельник, и она это сделает" [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]. The notes put her return on Monday Oct 19 [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]].
 
+## Oct 19 2026 (in absentia) — an administration environment in Business Central: ask through MCP, no special reports
+
+At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 5:02 PM "GitHub-MSBC" meeting]] (English; Val, Genadi, Nathan) Val said Michael worked from his own long-built framework and reports and "Mary cannot work off of the same format"; the architecture he presented "should work for Mery" [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]. In segment 2: she "is not an engineer", so she needs "an administration environment" in Business Central; JVL moves away from specialized reports and she should "be able to write in Spanish or English and get an answer" through MCP; Nathan adds MSBC endpoints from Val's AI COO use cases [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. Genadi: "she needs to start working very fast" [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. See [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]] and [[wiki/decisions/2026-10-08-mary-takes-over-mikhail-perelmans-ordering-role-with-training-from-october-19.md]] (Oct-19 update). Read as this Mary — same hand-over as the owner's 2026-10-15 ruling. Her two open items below are not reported on.
+
 ## Open commitments (Oct 13 and Oct 16 2026)
 
 - [ ] Mary — set the amount and the purchase lines for the open purchase order Lev asked about (vendor garbled) — due Monday Oct 19 2026 (notes' date; transcript "в понедельник") — [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
@@ -67,3 +71,5 @@ On the [[wiki/meetings/2026-10-16-lev-rudky-workload-inventory-control-and-mery-
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
+- [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]

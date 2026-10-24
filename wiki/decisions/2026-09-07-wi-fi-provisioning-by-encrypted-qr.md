@@ -3,9 +3,9 @@ type: decision
 title: Wi-Fi credentials are entered once on Flex-Pay and handed to each Flex-Port by an encrypted QR code — and the connection/installation event is captured and sent home, buffered when there is no internet
 date: 2026-09-07
 aliases: [encrypted QR provisioning, QR handoff to Flex-Ports, no password screen on the Flex-Port, install telemetry, who connected what and when, offline buffering, cloud logging server, Grafana section]
-source-count: 4
-status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update)
-open-commitments: 2
+source-count: 6
+status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update); Oct 19 2026: Pavel confirmed the QR is encrypted, now with a key personal to each location, and carries all settings, not only Wi-Fi (see the Oct-19 update)
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -38,10 +38,27 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 - **Against the title.** "Entered once on Flex-Pay" is replaced, for the own-access-point mode, by "set on the location dashboard". The QR hand-off to each port survives. Whether the QR is still encrypted was not discussed. With an external router Pavel still sees a manual step at the router's web interface — as on Sept 7.
 - **Val's telemetry requirement** (who connected what, when, where) returns as the first set-up record. Pavel's Sept-7 commitments below are not reported done.
 
+## Update, Oct 19 2026 — the settings QR is encrypted with a per-location key, made only by authorised staff; a plain QR is refused
+
+At the [[wiki/meetings/2026-10-19-daily-standup-clover-fortune-on-nova-and-encrypted-settings-qr.md|Oct-19 Minsk stand-up]] (Russian; Val absent) [[wiki/people/pavel.md|Pavel]] set out the MVP 2 work "применения настроек" for Flex IQ and the Flex-Ports [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]:
+
+- **What it carries.** The Wi-Fi access point and password, the order of networks ("модем или л т е"), and Flex IQ parameters such as PIN codes and binding — "короче большой список параметров" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **Where it is made.** The QR is generated on a server page for the location. A user logged in as the location owner or as a technician bound to that location opens a page, runs "экспорт настроек", and the export opens as a QR [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **Encrypted per location.** "Этот QR код должен быть закодирован… ключом персональный для этого лакейшего"; the registered Flex IQ has its own key, decrypts on the fly when it scans, and applies the settings "скрытно" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **When the QR is the only way.** Flex IQ can also get the settings over the network, but if Wi-Fi is its only network, it cannot get them without the QR; for the Flex-Ports the QR "будет единственный вариант передачи параметров, скорее всего" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **A plain QR is refused.** [[wiki/people/anton-seregin.md|Anton Seregin]] had tried a Wi-Fi QR on a bank scanner: it beeps but nothing is processed at the kiosk. Pavel: it existed before, may have broken, "но не зашифровано. То есть это нас не устраивает" — anyone could press "поделиться сетью" on a phone, hold the QR to the terminal, "и он перестанет работать на реальной сети". "Только авторизованные персонал может такое сделать" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+- **How to start.** Begin on the server side, collect the list of parameters, and perhaps first run a spike on how to organise it architecturally, including decryption on the Flex-Ports. The task is to be created for Seregin. [[wiki/people/alexei-khamin.md|Alexei Khamin]] asked whether terminals read a QR from a phone screen; Pavel: "Ну да… по крайней мере обычный QR" [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+
+The notes record it as Pavel's decision: "Settings QR for Flex IQ / Flex-Ports must be encrypted per location and created only by authorized staff on a server page; a plain Wi-Fi QR is not acceptable" [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]].
+
+- **Against the Oct-15 update.** "Whether the QR is still encrypted was not discussed" on Oct 15 — now answered: yes, with a key per location. The page the QR comes from matches the Oct-15 location page. This restates Sept 7 (no plain phone QR) and widens the QR from Wi-Fi credentials to all device settings.
+- **On the commitments below.** Pavel's Sept-7 build commitment is not reported done; the Oct-19 task is a step toward it. Both stay open.
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the Wi-Fi provisioning screens on Flex-Pay and Flex-IQ and the encrypted-QR handoff to the Flex-Ports, diagnostic screens included — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — extend the cloud logging to record connection and installation telemetry (time, date, location, port serial numbers, what was installed where), including store-and-forward when there is no internet at the moment of connection — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create the server-side task for the encrypted settings QR (parameter list; maybe an architecture spike on decryption on the Flex-Ports) for [[wiki/people/anton-seregin.md|Anton Seregin]] to work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 
 **§15.8:** clear — device telemetry design only; the captured data is installer/engineering event data, no named-person compensation.
 
@@ -50,3 +67,5 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 - [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
