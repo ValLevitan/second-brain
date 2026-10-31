@@ -5733,3 +5733,6 @@ Progress: steady-state run of 2026-10-31 **COMPLETE — batches 273–275 (3 bat
 **Owner Decisions queue:** overview LIVE OPEN gained A37–A42 and C21. overview.md refreshed (counts, health, run line). One owner item resolved by a later source: none this run.
 **Category / type fit:** no change. Standing note kept: transactional/RIS/Flex-Port decisions split between "Games & Design", "Markets & Product" and "Hardware & Cabinets" (this run's NOVA remote update sits beside the Sept-14 remote-firmware decision under Hardware & Cabinets) — the "Transactional & NOVA platform" split proposal stays for the monthly lint. **Month boundary:** October not closed this run (today is Oct 31; files may still land) — the October month-close manifest is due at the next run.
 Lint only diagnosed; edits were catalog housekeeping (index summaries for the retitled Oct-5 and Oct-18 decisions and the Miranda topic).
+
+## [2026-10-31] note | weekly report written and sent — steady-state run of 2026-10-31 complete
+Report file overwritten (14 recordings / 14 meetings, Oct 24 – Oct 30; 146/146 hand-checked + 133 verifier-drawn quotes held; owner items A37–A42, C21). Bonus send to val@jvl.ca done (§17.1 authorized). Pushed to GitHub (ValLevitan). qmd update run; qmd embed started after the push. Routine lock waited 15 min for another routine before starting.
