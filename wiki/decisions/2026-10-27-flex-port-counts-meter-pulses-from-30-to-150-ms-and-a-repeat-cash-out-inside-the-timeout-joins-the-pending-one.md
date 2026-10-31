@@ -3,7 +3,7 @@ type: decision
 title: The Flex-Port accepts meter-pulse periods from 30 to 150 ms and resets the count after 2 seconds of silence, with no per-machine setting for now (a Banilla was found pulsing at 125 ms); a repeat cash-out pressed before the Flex-Port timeout ends is added to the pending amount and the timeout restarts (Oct 27 2026)
 date: 2026-10-27
 aliases: [pulse band 30 to 150 ms, полоса от 30 до 70, 125 ms Banilla, pulse statistics command, 2 seconds of silence resets the count, repeat cash-out, multi cash-out, второй кэшаут, add to the pending cash-out, сбросить счетчик вывода, game-start interrogate resets the timeout]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 3
 open-questions: 2
@@ -38,10 +38,14 @@ In one line: **the Flex-Port takes pulse periods of 30–150 ms, 2 seconds of si
 
 At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] [[wiki/people/alexei-khamin.md|Khamin]] asked whether the multi cash-out now being built affects BV mode on SAS. Pavel: two cash-outs inside the timeout can happen there too; in SAS the money should add up onto one ticket, "Но есть подозрения, что это сейчас не будет работать". Irina will check it first [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
 
+## Update, Oct 29 2026 — the latest port builds add up a cash-out that goes on after the timeout
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 Minsk stand-up]] [[wiki/people/pavel.md|Pavel]] said the old port logic, after a timeout of about 2 seconds, took a cash-out as finished and skipped the later clicks or sent them to unclaimed ("анкле" — **inference**). "Вот сейчас логика уже на порте другая на последних белдах": however many times the machine pays out, the port adds it up — if a machine stalls and then goes on paying, "мы суммируем эти все деньги" ($12, then the other 8) [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]. This handles the split cash-out seen on Oct 27; its cause was not restated. Whether it is the same code as the repeat cash-out pressed by a player inside the timeout is not said. The same talk produced a new screen rule — [[wiki/decisions/2026-10-29-the-flex-port-screen-shows-the-cash-out-amount-in-whole-dollars-as-the-pulses-are-counted.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — widen the pulse logic to a 30–150 ms period with a 2-second silence reset — due Oct 27 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the repeat cash-out: add the new amount to the pending one and restart the timeout — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the repeat cash-out: add the new amount to the pending one and restart the timeout — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] — *Oct 29 2026: the latest port builds add up a cash-out that continues after a timeout; whether this covers a second cash-out pressed by the player is not said — left open* — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — check whether two cash-outs inside the timeout add up to one ticket in BV mode on SAS — due Oct 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 
 ## Open questions
@@ -57,3 +61,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

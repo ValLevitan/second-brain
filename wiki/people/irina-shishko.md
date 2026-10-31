@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 169
+source-count: 174
 open-commitments: 38
 ---
 
@@ -779,6 +779,15 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 
 At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] she raised the split cash-outs that show part of the money as unclaimed — [[wiki/decisions/2026-10-27-flex-port-counts-meter-pulses-from-30-to-150-ms-and-a-repeat-cash-out-inside-the-timeout-joins-the-pending-one.md]] — and said she is reviewing all the autotests for the bill validator — [[wiki/topics/test-automation-strategy.md]] (Oct 27). At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] she said Biratka had not finished the port work, will go through Andrei's list of findings — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-28 update) — and will check whether two cash-outs add up on SAS — [[wiki/decisions/2026-10-27-flex-port-counts-meter-pulses-from-30-to-150-ms-and-a-repeat-cash-out-inside-the-timeout-joins-the-pending-one.md]] (Oct-28 update).
 
+
+## Oct 29 2026 — where a human takes part; Anton must lead the engine; Miranda "outlived itself"
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] she asked where a human takes part in the full-cycle test (Val: "Сейчас не важно") and noted that NOVA has no engine yet — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update). She named "Антон Игорь саша" as the people who know what an engine needs, and said Anton already works on the capabilities and has run an experiment — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 note). At the [[wiki/meetings/2026-10-29-engine-meeting-postponed-and-miranda-development-stopped.md|10:01 AM call]] [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] she proposed moving the engine meeting about an hour when Anton did not join, and told Val the team had already reached the Miranda question at the last meeting and that Sasha had been asked that day — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]].
+
+## Oct 29 2026 — "port first"; no reworking old games; linked progressives cannot block old RIS
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] she said the port comes first, before Biratka's new stories — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update). On agent-made requirements, which default to her, she said a requirement is "Ни на ком" — [[wiki/decisions/2026-10-28-a-story-under-a-completed-feature-does-not-reopen-it-automatically-and-the-storys-creator-moves-the-feature-or-picks-another-parent.md]] (Oct-29 update). Reworking old games is "впустую трата времени" with a new engine coming — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 stand-up note). Linked progressives cannot be a reason to reject old RIS — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 29). Her own next work: autotests and features, MVP 2 first.
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -950,3 +959,8 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

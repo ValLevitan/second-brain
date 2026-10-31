@@ -3,8 +3,8 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 97
-open-commitments: 71
+source-count: 99
+open-commitments: 72
 open-questions: 38
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
@@ -827,6 +827,18 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 - [ ] Daniil Stauskiy — free the video decoders in each game and try texture compression to cut RAM use — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
+## Oct 29 2026 — the NOVA update system; one game is about 700 MB; video decoders load at game select
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]:
+
+- **How NOVA will update.** [[wiki/people/pavel.md|Pavel]] reminded [[wiki/people/dmitri-chudinov.md|Chudinov]] (back that day) that Val had written, with him among the recipients, about how the team sees the update system for components and in particular games on the NOVA platform. Pavel sent a general draft; the server side will be Chudinov's to work out ("с точки зрения сервера, наверное, проработка с твоей стороны будет") [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **How big a game is.** Pavel: roughly 700 MB for one game, with all resources and videos. Daniil got about "700 900". Pavel: 700 is probably a high estimate; compressed with a strong archiver, "Возможно, что там 350 там 400." Chudinov: "Нормально… Надо обсуждать это" [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **Two games on one board.** Pavel asked about the two-game try on the RK3576 ("она 35, 76" — **inference**). Daniil: the video decoders are loaded when a game is selected, so games with many videos load slowly and games with few load normally [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]. See [[wiki/decisions/2026-10-14-no-freeze-inside-a-game-so-a-games-videos-are-decoded-when-the-game-is-entered.md]] (Oct-29 note).
+
+### Open commitments (Oct 29 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work out the server side of the NOVA update system, from Pavel's draft — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
@@ -927,3 +939,5 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

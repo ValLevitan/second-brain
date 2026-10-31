@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 109
+source-count: 111
 open-commitments: 24
 open-questions: 0
 ---
@@ -466,6 +466,10 @@ On a [[wiki/meetings/2026-10-21-val-felipe-sales-refocus-on-the-eighty-list.md|s
 
 He read Val a customer's request for a 60-day countertop trial on TITO; Val thought it meant Flex IQ and asked him to call and check. Nine minutes later he reported: George means the Echo, for a new bar location; Class B, TITO to a kiosk, a bill acceptor and printer in one enclosure. Val asked him to "say the least amount of words" and took the request away — [[wiki/topics/echo-home-gaming-device.md]] (Oct 22) [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]] [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]. The notes record his call to the customer as done the same morning [[raw/Meeting_Notes_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]] [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]].
 
+## Oct 29 2026 (in absentia, inference) — asked to name the first operator and equipment
+
+At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] Pavel said "Филипп" has been asked to say which operator, when, and the list of machines and equipment for the first installs; it is not finalised, so no install is planned — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update). That "Филипп" is Felipe Miranda is an **inference** from his Georgia sales role.
+
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -577,3 +581,5 @@ He read Val a customer's request for a 60-day countertop trial on TITO; Val thou
 - [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

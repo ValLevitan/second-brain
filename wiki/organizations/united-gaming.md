@@ -3,7 +3,7 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 10
+source-count: 12
 open-commitments: 1
 open-questions: 1
 ---
@@ -92,6 +92,10 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 
 **§15.8:** clear — credit lines, capex budgets, market position and role descriptions only; no compensation figure for any named person appears in either Sept-2 InComm source.
 
+## Oct 29 2026 — JVL plans to try the port on United Gaming's machines
+
+At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] Pavel called United Gaming "один из крупнейших операторов в джорджии" with all kinds of machines; "Андрей" (the notes: Klimovich) goes there with Sebastian on Friday, Oct 30, to try the Flex-Port — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
@@ -104,3 +108,5 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 - [[raw/Meeting_Transcript_BofA_Treasury_MS_Dynamics_Integration-August-27-2026.md]]
 - [[raw/Meeting_Notes_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

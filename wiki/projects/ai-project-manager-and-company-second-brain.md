@@ -2,8 +2,8 @@
 type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
-aliases: [AI PM, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 34
+aliases: [AI PM, one brain for all agents, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
+source-count: 38
 open-commitments: 0
 open-questions: 0
 ---
@@ -155,6 +155,14 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 - **Oct 27.** At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] said due dates look better than the day before and asked for feedback on talking to the agent. [[wiki/people/irina-shishko.md|Irina]]: it wrote sensible requirements — the ones he sent her — and she moved them to draft. Kovalchuk: before, requirements were not included at all; now the agent looks in conversation for what could be a requirement, checks whether it already exists, adds to a similar one in a comment (its owner then puts it into the text) or creates a new one; "это надо будет понаблюдать" [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
 - **Oct 28.** At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] Daniil asked about IP-1113 (heard), a board report put on him; Pavel said it was created "Пиемом" (read as by the PM agent — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
 
+## Oct 29 2026 — the second brain becomes every agent's knowledge source
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] (Russian) [[wiki/people/andrey-bosik.md|Bosik]] proposed that the second brain built for the PM agent ("для пьем агента seconbrain", read as such — **inference**) be the knowledge source for all current and future agents, each limited to what it needs on both the second-brain side and the agent side; Val agreed and set the game design agent's limits — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Asked by Val what it holds, Bosik said: converted meeting transcripts; cards built per GitHub repository from the prose and CLAUDE.md files; and Jira — not the old games' code [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. He added that it might one day serve as an MCP server for Claude Code on users' computers — "совсем далеко" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+
+## Oct 29 2026 (2:02 PM) — the persona repository
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] Val told Nathan Carver: "We have repository for personas." [[wiki/people/andrey-bosik.md|Bosik]] "is working on AI Project Manager", and that persona lives in a persona file; "we have a CO… We have a Cfo" (the notes: AI-COO, AI-CFO); "all of the persona lives in a persona files repository." The hardware agent's instructions are to move there, and Nathan is to contact Bosik [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]]. How the persona repository relates to the second brain was not discussed.
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -190,3 +198,7 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 - [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

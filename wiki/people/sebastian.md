@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 31
+source-count: 33
 open-commitments: 3
 open-questions: 2
 ---
@@ -157,6 +157,10 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] Pavel said Sebastian and Andrei should be on site with the borrowed machines that day — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-23 update). Irina said he should open a ticket for an Intralot email on Georgia machines — [[wiki/organizations/intralot.md]] (Oct 23).
 
+## Oct 29 2026 (in absentia) — to United Gaming on Friday
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] Pavel said "Андрей" (the notes: Klimovich) goes with "себастьяном" on Friday, Oct 30, to United Gaming to try the port on their machines — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -190,3 +194,5 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

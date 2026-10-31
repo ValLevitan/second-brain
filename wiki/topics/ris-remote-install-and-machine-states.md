@@ -3,9 +3,9 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521, RIS improvements release notes, the current lease period will remain unaltered, upgrade pending, no bank in street operation]
-source-count: 50
+source-count: 52
 open-questions: 22
-open-commitments: 8
+open-commitments: 9
 ---
 
 # RIS (remote install/setup system) and machine states
@@ -543,6 +543,18 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — finish the installer that keeps old RIS data after a reinstall or software change, using build 4353 (heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 
+## Oct 29 2026 (4:46 AM) — old RIS with linked progressives; a separate meeting at 12:40
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]:
+
+- **Ivan** built (where — "на рубь", **unclear**) to check Pavel's installer changes; with the old build there is little point until it is rebuilt. Pavel: machine 65 had the pilot "с поддержкой сохранения", and he has a flash drive to install over it for a check [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **Linked progressives.** Ivan: old RIS data seem to be kept, but he cannot apply them, because the master controller probably has no rule for which one to take. [[wiki/people/irina-shishko.md|Irina]]: "У нас сейчас столько lence progreesive", so this cannot be a reason not to accept old RIS, "Иначе мы всё, что сделали это пойдёт насмарку." [[wiki/people/evgeny-kharetski.md|Kharetski]]: this needs a requirement with criteria — "Мне нужно решение, как это должно работать." [[wiki/people/pavel.md|Pavel]]: a short separate meeting to say what is missing and how it should work, "12 там 40 гденибудь" (the notes: 12:40 Minsk time) [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **RIS progressives.** Pavel recalled the RIS-progressive tasks: Sergey did the server part, "женя" the machine part. Kharetski: that work is mostly finished; next, the JSON agent and bug fixes [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+
+### Open commitments (Oct 29 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/ivan.md|Ivan]], [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]], [[wiki/people/irina-shishko.md|Irina Shishko]] — meet at about 12:40 (Minsk) on applying old RIS with linked progressives — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -595,3 +607,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

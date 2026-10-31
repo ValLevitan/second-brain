@@ -3,7 +3,7 @@ type: decision
 title: Engineers never change anything in MSBC and administration never changes anything in GitHub — a "non-penetrable border", crossed only by a tool that carries flat revisions one way
 date: 2026-09-30
 aliases: [non-penetrable border, engineering territory and administrative territory, engineers are never allowed to change anything in MSBC, the administrator is never allowed to change anything in GitHub, under the key and lock, the transcriber, a tool that looks after the revisions all the time, hourly or by minute, supplier data lives in MSBC, engineering files live in GitHub, clear separation between engineering and administration]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 0
 open-questions: 1
@@ -49,7 +49,13 @@ On the [[wiki/meetings/2026-10-01-genadi-io-board-chips-flat-bom-pilot-and-stree
 
 **§15.8:** clear — process rule only. Val's sharper remarks at Genadi on this call are not recorded. **§15 #9:** clear — "highly confidential banking information" for a vendor is a category, not a value.
 
+## Oct 29 2026 — vendor admin data is a second push and stays out of GitHub
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] Val said the technical data goes from GitHub into MSBC, but "It needs a second push for the same vendor… Of all the administrational data… We don't want it in Github." Today it lives in MSBC, reached by "the administrational way of the company, not by engineering… And… not by procurement people"; "we want to have a division… Of… power." Whether it should stay in MSBC he left open: "I don't know whether we should change it or not" [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]. Detail: [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Flat_BOM_in_GitHub_and_AI_Configurator-October-1-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

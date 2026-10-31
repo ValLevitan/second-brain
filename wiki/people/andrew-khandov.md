@@ -4,7 +4,7 @@ title: Andrew Khandov
 date: 2026-07-13
 aliases: [Andrew Khandov, Andrey Khandov, Andrey Handov, Andrei Handov]
 disambiguation: "C# developer for Miranda; father of Dmitriy Khandov (owner-confirmed). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 4
+source-count: 6
 open-commitments: 1
 open-questions: 0
 ---
@@ -39,9 +39,16 @@ On the Apr-14 Omni framework review ([[wiki/meetings/2025-04-14-omni-framework-m
 
 - **Owner-confirmed (2026-07-14): Andrew Khandov is the father of [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]** (Senior 3D Graphic Designer). This confirms the Mar-2025 Miranda coaching remark that Dimitri's dedicated Miranda developer "is your dad." (Owner correction is its own citation.)
 
+
+## Oct 29 2026 — Miranda development stops
+
+On Oct 29 2026 Val stopped the development of Miranda, the product Andrew Khandov develops: he sees no future in it, and the team agreed it has outlived itself — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]. What this means for Khandov's own work was not discussed.
+
 ## Sources
 
 - [[raw/github_explained-feb-3-2025.md]]
 - [[raw/game_design_meeting_february_21_2025.md]]
 - [[raw/Even more on Miranda.md]]
 - [[raw/omni_progress-april-14-2025.md]]
+- [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]

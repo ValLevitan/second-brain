@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 66
-open-commitments: 22
+source-count: 68
+open-commitments: 23
 ---
 
 # Alexei Khamin
@@ -319,6 +319,14 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 
 At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] he had closed his hanging tasks and deleted extra branches, and raised three long-open branches merged in the last week with long pull-request texts — [[wiki/people/eugine-yavorski.md]] (Oct 27). At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] he raised Yavorski's comments on HFM-692 (heard) — [[wiki/people/eugine-yavorski.md]] (Oct 28); asked who sets up the cloud terminal hub — [[wiki/topics/test-automation-strategy.md]] (Oct 28); and asked whether the multi cash-out affects BV mode on SAS — [[wiki/decisions/2026-10-27-flex-port-counts-meter-pulses-from-30-to-150-ms-and-a-repeat-cash-out-inside-the-timeout-joins-the-pending-one.md]] (Oct-28 update).
 
+## Oct 29 2026 — the SD-card install to the terminal failed; autotests on hardware go on
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] he said the install from an SD card to the terminal did not work the day before; he takes it first that day, will also try a flash drive, and goes on with autotests on hardware.
+
+### Open commitments (Oct 29 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — install from the SD card to the terminal, and also try a flash drive — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -387,3 +395,5 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

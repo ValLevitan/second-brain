@@ -2,14 +2,16 @@
 type: topic
 title: Miranda — the Unity game-authoring plugin suite
 date: 2025-03-21
-aliases: [Miranda, Miranda plugin, Miranda plugin suite, Miranda 8, Miranda 9, Miranda exports, translatable images]
-source-count: 10
-open-questions: 3
+aliases: [Miranda, Миранда, Миранды, Miranda development stopped, Miranda plugin, Miranda plugin suite, Miranda 8, Miranda 9, Miranda exports, translatable images]
+source-count: 13
+open-questions: 1
 ---
 
 # Miranda — the Unity game-authoring plugin suite
 
 Miranda is JVL's in-house **plugin suite inside Unity** that lets designers assemble casino-game content and produce **"exports" ready for the Pixie graphic engine**. Development-side threads: [[wiki/people/andrew-khandov.md|Andrew Khandov]] (its C# developer), [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]] (design-side integration and, per the Mar 2025 coaching, its de-facto product owner), the Miranda 8/9 feature-branch work ([[wiki/meetings/2025-02-03-feature-branch-discipline-coaching.md]]), and the Miranda→math test tool ([[wiki/topics/slot-game-design-principles.md]]). Production usage lives on [[wiki/topics/game-art-animation-production-pipeline.md]].
+
+**Current state (Oct 29 2026): development stopped.** On Oct 29 2026 Val said he sees no future in Miranda and no sense in continuing its development; Kharetski and Irina agreed, and Irina said Sasha had also been asked and sees it has outlived itself; Val: "Окей, договорились" [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]. Earlier that morning Kharetski and Bosik had ruled Miranda out as the basis for the new NOVA engine — "Миранда нужна чисто для конвертации игр… это конвертер" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Full record: [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]]. (On Oct 28 the designers had agreed the current Miranda export formats will do for now in the new engine — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]], Oct-28 note.) The sections below are the tool's history.
 
 ## What Miranda is (the developer's own description)
 
@@ -45,7 +47,7 @@ On the Feb 10 repo-structure meeting ([[wiki/meetings/2025-02-10-github-repo-str
 
 - ~~Is the dedicated Miranda developer ("your dad") Andrew Khandov?~~ **RESOLVED (owner ruling 2026-07-14): yes — Andrew Khandov is Dmitriy Khandov's father** and the dedicated Miranda developer. (Owner correction is its own citation.)
 - Who are "Pavel and Arena" whom Dimitri should negotiate Miranda's development with — "Arena" is a garbled name (Irina? Lena?). — [[raw/Even more on Miranda.md]]
-- **Adopt Unity (with its casino engines) and drop Miranda entirely?** Raised May 1 2025 as a real reconsideration now that Unity charges no per-game/per-install fee; revisited May 6 (Val's "why do we need Miranda?" probe — see below); **still unresolved** (needs C# adoption + assessment of refactoring Miranda's logic). — [[raw/unity_instead_miranda-may-1-2025.md]] [[raw/the_reason_for_miranda-may-6-2025.md]]
+- ~~**Adopt Unity (with its casino engines) and drop Miranda entirely?** Raised May 1 2025 as a real reconsideration now that Unity charges no per-game/per-install fee; revisited May 6 (Val's "why do we need Miranda?" probe — see below); **still unresolved** (needs C# adoption + assessment of refactoring Miranda's logic). — [[raw/unity_instead_miranda-may-1-2025.md]] [[raw/the_reason_for_miranda-may-6-2025.md]]~~ **ANSWERED in part (Oct 29 2026):** Miranda development is stopped, and the new engine is JVL's own native one, not Unity — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 
 ## Apr 28 2025 — GitHub versioning and Dmitriy's commit hygiene
 
@@ -104,3 +106,6 @@ The "next Tuesday" Miranda session ([[wiki/meetings/2025-05-06-miranda-github-or
 - [[raw/unity_instead_miranda-may-1-2025.md]]
 - [[raw/the_reason_for_miranda-may-6-2025.md]]
 - [[raw/miranda_organization_github-may-6-2025.md]]
+- [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]

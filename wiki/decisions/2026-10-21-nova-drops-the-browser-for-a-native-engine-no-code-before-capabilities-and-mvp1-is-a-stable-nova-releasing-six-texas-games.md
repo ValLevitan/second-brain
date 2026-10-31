@@ -3,10 +3,10 @@ type: decision
 title: NOVA drops the browser (and Pixi) for JVL's own native engine, with no browser build kept; no code before capabilities, requirements, acceptance criteria and an architecture Val can read; MVP1 is a stable NOVA on which JVL releases six Texas games, reached step by step (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [drop the browser, native engine, NOVA native engine, Rust engine prototype, Leshkevich Rust prototype, убрать браузер, no code before capabilities, никто не начинает строчить код, rule before code, MVP1 six Texas games, стабильное ново MVP один, NOVA 2, Super NOVA, супер нова, remove browser and Pixi, download flow with GLI signature check]
-source-count: 13
+source-count: 19
 status: active
-open-commitments: 11
-open-questions: 5
+open-commitments: 13
+open-questions: 7
 ---
 
 # NOVA drops the browser for a native engine; no code before capabilities; MVP1 = six Texas games on a stable NOVA
@@ -83,6 +83,7 @@ Decided at the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.m
 - Keep the OMNI scene structure in the new engine, or a new one? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - A full designer editor, or scenes built through a chatbot? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - How are games updated remotely when the maths changes, and what does each regulator require? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- Run the brief-to-production full-cycle test on Pixi now, or wait for the new engine? (Val asked; Kharetski: double setup work, but days not months; the notes send it to the Anton meeting) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 
 **§15.8:** clear. **§15 #9:** clear.
 
@@ -141,6 +142,44 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - **Video.** [[wiki/people/pavel.md|Pavel]]: the question that matters is the video format. "В п 9 да, правильный формат. А текущее видео у нас в п 8" — VP9 is supported on ARM by a hardware decoder, VP8 is not; keep it in mind [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]. This follows the Oct-20 VP9 decode work — [[wiki/topics/nova-platform-architecture.md]] (Oct 20).
 - **Daniil.** He finished NC6 (heard) and moves to "н ф л один" (NFL1, heard). He asked about IP-1113 (heard), a board report put on him; Pavel: it was created "Пиемом" (read as by the PM agent — **inference**) from text discussed the day before; re-read it [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
 
+## Note, Oct 29 2026 — the engine question at the game agent review; Rust "decided"; the engine meeting with Anton moved
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] (6:59 AM, Russian; Leshkevich not present), Val's wish for one full cycle from brief to a game on the production server ([[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]], Oct-29 update) ran into the engine [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]:
+
+- **No engine yet.** Irina: the game would be NOVA, "у которой нет ещё движка"; Kharetski: "Движка нет." Val: "Мы только сказали, что HTML у нас не будет, это мы решили уже правильно"; so "если мы отказываемся от HTML, нам нужно написать движок." Writing an engine used to take a team of 10 (Kharetski: "Даже больше"; Pavel: "И 2 года") [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Test on Pixi now, or wait?** Irina: the full-cycle test can run on what exists now, whatever the engine. Kharetski: the one catch — testing on Pixi and then ending with another engine means doing the CI/CD and integration-repository setup twice; asked by Val whether that is a day or a month, "какой месяц… вы можете забыть про месяца" — "несколько дней". He had wanted to connect games to the integration repository that day but decided not to while the new engine is open [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Val asked whether to take a primitive engine as the base and drop HTML, or stay on HTML and Pixi until the engine is clear; Kharetski: it depends on when games must reach production — the engine "нас отодвигает прям сильно", as "Мы пока не понимаем даже, что мы от него хотим" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Not settled.
+- **Who knows what is needed.** Kharetski: he is not an engine expert and does not know what game development needs; others do — Irina: "Антон Игорь саша" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Val asked whether Claude could build the engine from a list; Kharetski: with the full cycle — capabilities, features, regulations — yes; the main danger is forgetting a key part, such as video or sound; Val: then another version follows [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Val's MVP-1.** "Я бы сделал бы m bp 1, который соответствует тем же кейпобиологи, которые сейчас у нас есть в пиксель плюс HTML" — he thinks this is likely possible "потому что у нас на это уже есть код" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Kharetski: Anton was doing something like that; Igor: Anton also generalized it for Rage — "мы собирались в понедельник по этой теме" (the notes: a meeting on it happened Monday) — and questions remain [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Windows builds.** Igor's example question: build games for Windows or only for the target machine? Val: for Windows, "потому что это единственный вариант, как дизайнеры могут видеть" the games; Bosik: "На сегодняшний день да"; Igor: designers could run a Linux virtual machine [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Two groups of use cases.** Val: what the designers need and what the machine needs; the designers' needs are known from Miranda. Kharetski and Bosik would not base the engine on Miranda — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **The stack.** Val asked what implements the capabilities if not NOVA, HTML or Pixi; Igor: another technology stack. Kharetski: "Не мы уже там решено, вроде как russt и графическую оболочку только надо написать." Val's "Раст джава и чавоскрипт" — Kharetski: for the engine "не совсем так" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Leshkevich's Rust prototype is above.
+- **Anton must be in it.** Kharetski: "сюда надо тянуть Антона"; Bosik: "компетенции не хватает"; Irina: he already works on these capabilities, has done an experiment and understands which technologies are needed. Val set a meeting with Anton "по поводу реплейсмента эйч и. Пиксель и как дальше нам… Подойти к этому" at 10:00 [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **10:01 AM — moved.** At the [[wiki/meetings/2026-10-29-engine-meeting-postponed-and-miranda-development-stopped.md|10:01 call]] Anton did not join (the notes name him; the transcript does not). Irina: "Смысла нет", move it about an hour; Val would let people know, or move it to the next day [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]. The notes say the full meeting took place at noon the same day [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]. In the same call Val stopped Miranda development — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]].
+
+## Note, Oct 29 2026 (4:46 AM stand-up) — browser games paused, the new engine not started, Daniil without tasks
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 Minsk stand-up]] (Russian; Val absent), earlier the same morning than the game agent review above [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]:
+
+- **Daniil has nothing to do.** He opened a PR for NFL1 (heard); two other games are merged ("В рамборке и кали очень", heard); Anton should review his PR in "lover forтуне" (heard). "в целом у меня пока нету задач" [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **Rework old games? No point.** With Igor absent, [[wiki/people/pavel.md|Pavel]] wondered about reworking another game in parallel. [[wiki/people/irina-shishko.md|Irina]]: "что перерабатывать, если это будет теперь новый движок? Всё это впустую трата времени." [[wiki/people/alexander-biratka.md|Biratka]]: the new engine must move forward somehow but is not defined yet — "Бал же запретил нам писать код" ("Бал" = Val — **inference**); Pavel: "Да."; Irina: "Правильно сделал." [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- **Resource conversion instead.** Pavel: Igor made South Dakota games vertical from horizontal ones, converting the resources; going from vertical to vertical on a new engine is easier later. Biratka: if it is resource conversion, maybe — the resources stay either way. Pavel will talk with Igor about Daniil converting horizontal resources to vertical [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]. "Igor" fits [[wiki/people/igor-metelski.md|Igor Metelski]] (**inference**).
+- **A decision is needed.** Pavel: "надо принять какоето решение, куда мы идём дальше… по новой движок мы пока не готовы его делать… А браузерные мы пока приостанавливаем." [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- **The requirements page for Samusenko.** Pavel asked [[wiki/people/anton-leshkevich.md|Leshkevich]] to send the one-page list of new-engine requirements they had discussed, so [[wiki/people/vladimir-samusenko.md|Samusenko]] can read it; Anton: "Да, сейчас скину." [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- The NOVA update system and the size of one game, raised at the same stand-up, are on [[wiki/topics/nova-platform-architecture.md]] (Oct 29).
+
+### Open commitments (Oct 29 2026, stand-up)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — talk with Igor about Daniil converting horizontal game resources to vertical — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — send Samusenko the one-page list of new-engine requirements — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+
+### Open questions (Oct 29 2026, stand-up)
+
+- Where does the game team go next while the new engine is not ready and browser games are paused? Raised by Pavel — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+
+## History
+
+- [x] [[wiki/people/val-levitan.md|Val Levitan]] — set a meeting with Anton Leshkevich on replacing HTML and Pixi and the way forward — due Oct 29 2026, 10:00 — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] — *discharged Oct 29 2026: set for 10:00; Anton did not join, and per the notes it was held at noon* — [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
@@ -156,3 +195,9 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

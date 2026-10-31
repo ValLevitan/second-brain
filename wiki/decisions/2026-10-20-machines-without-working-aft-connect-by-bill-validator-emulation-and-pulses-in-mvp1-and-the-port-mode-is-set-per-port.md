@@ -3,10 +3,10 @@ type: decision
 title: Other makers' machines whose AFT does not fully work connect through bill-validator emulation (money in) and pulses (money out), and this mode is in MVP 1; the mode is set per port in the gateway, not detected; SAS (6.0 and up) is kept apart from AFT, for data that may become a paid product; MVP 1 release on a Wednesday and first install about November 2 (Oct 20 2026)
 date: 2026-10-20
 aliases: [bill validator emulation mode, BV emulation mode, режим билвалидатор эмуляции, pulses for cash-out, AFT for transactions SAS for data, SAS 6.0 and higher, not a hybrid mode, случайный режим, accidental mode, SAS data as a paid product, analytics of competitor machines, 30 to 50 dollars a month, promotional credits only on AFT machines, port mode per port in the gateway, no auto-detection of AFT, ID-003, four bill validators, report every spin, HTT dongle, machines back on Friday, MVP1 release Wednesday, first install November 2, ошибочное решение]
-source-count: 14
+source-count: 16
 status: active
-open-commitments: 18
-open-questions: 6
+open-commitments: 20
+open-questions: 7
 ---
 
 # Machines without working AFT connect by bill-validator emulation and pulses in MVP 1; the mode is set per port
@@ -96,7 +96,7 @@ Settled at the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-
 
 - Should JVL read SAS data from other makers' machines at all, and sell it? Klimovich proposed it; Val doubted, then liked the wording; no product decision — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] — *Oct 21 2026: Pavel read games, money in and out and games played from a Banilla; Irina: "Это вот то, чего добиваются"; still no capabilities or requirements — not answered* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - Do replacement bill acceptors of other makes fit the same cabinet connector and work with JVL's port? To be checked on the four on hand — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
-- Which Wednesday is the MVP 1 release? Not stated — [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
+- Which Wednesday is the MVP 1 release? Not stated — [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] — *Oct 29 2026: Pavel said the team is expected to release the port "до завтра" (Oct 30, a Friday); whether that is the MVP 1 release is not said — not answered* — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - Which no-SAS (bill-validator) capabilities exist, are their acceptance criteria current, and which autotests must be written from scratch? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - Did anyone (Elizabeth, Sebastian) check that the pulses work on the borrowed machines before they leave? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - Who creates the Jira tasks for the cash-out fixes — the AI PM, Pavel or Biratka? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
@@ -165,8 +165,29 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 
 ### Open commitments (Oct 28 2026)
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call Biratka about his unfinished port work, which holds up Irina's BV tests — due Oct 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call Biratka about his unfinished port work, which holds up Irina's BV tests — due Oct 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] — *Oct 29 2026: Biratka was back and reviewing his unfinished port task; whether Pavel called him is not said — left open* — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — go through Andrei's list from the evening of Oct 27, decide what to fix, and add the MVP needs to the requirements — due Oct 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+
+## Update, Oct 29 2026 — SAS works only with Aristocrat, so the first installs go in BV + pulse mode; no install planned yet; a United Gaming visit; requirement 1926 gaps; the port release expected the next day
+
+At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]:
+
+- **What the field showed.** Asked by [[wiki/people/dmitri-chudinov.md|Chudinov]] (back that day) whether it all worked, [[wiki/people/pavel.md|Pavel]]: "Сас заработал только с аристократом." On another machine ("С банилой помоему из IGT" — Banilla or IGT, **unclear**) AFT does only money in; "снятие денег не имплементировано." From the field: operators say Light & Wonder "вообще не работает нигде, никто никогда не ставил… Никто никогда не проверял на FT". Chudinov: so the makers did not present themselves as supporting SAS? Pavel: no — "Только вот мы и аристократ." [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- **First installs in BV + pulse mode.** Pavel: "мы идём тогда с первыми установками. Вот эти машины будут настраиваться в режиме билвалидатор плюс пульса." [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- **No install planned yet.** Chudinov asked whether any installs are scheduled. Pavel: "Нет." "Филипп" ([[wiki/people/felipe-miranda.md|Felipe Miranda]] — **inference**) has been asked to say which operator, when, and the list of machines and equipment; "они ещё это не зафинализировали" [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]. (The Oct-20 plan put the first install about Nov 2 — above.)
+- **The test machines are gone; United Gaming next.** Pavel: port tests on those machines are probably no longer relevant, "с учётом Того, что эти машины вчера забрали". Which machines, and why "вчера" when they were to go back on Oct 23, is **unclear**. "Андрей" ([[wiki/people/andrei-klimovich.md|Klimovich]] — the notes name him; **inference**) goes with [[wiki/people/sebastian.md|Sebastian]] on Friday (Irina: "В пятницу" — Oct 30) to [[wiki/organizations/united-gaming.md|United Gaming]], "один из крупнейших операторов в джорджии", which has all kinds of machines, to try the port [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **Requirement 1926 is not fully covered.** [[wiki/people/alexander-biratka.md|Biratka]] (present) is reviewing what is unfinished in task 172 (heard), or merging it. In requirement 1926 (heard), which "Андрей" wrote, three things are missing: a notice like "Ваши деньги… Сохранены… обратитесь к этому", a "коллект" screen, and a message about a partial deposit. Since it does not contradict their work, "по факту здесь просто не хватает 2 экранов, да и сообщения одного", he will create stories for them. Irina: the port comes first [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **The port release.** Pavel: "От нас ожидает, что мы зарелизимся до завтра" (by Oct 30). Not all autotests can be run on that build, but the release build must at least be checked to update from a flash drive [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]].
+- **A new screen rule** came out of the same talk — [[wiki/decisions/2026-10-29-the-flex-port-screen-shows-the-cash-out-amount-in-whole-dollars-as-the-pulses-are-counted.md]].
+
+### Open commitments (Oct 29 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — create stories for the two missing screens ("money saved, contact…" and collect) and the partial-deposit message in requirement 1926 (heard), after the port work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — check the Flex-Port release build, at least the update from a flash drive (the notes name him; on tape Pavel says "нам надо будет") — due Oct 30 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+
+### Open questions (Oct 29 2026)
+
+- When do the first installs start, with which operator and which machines and equipment? Felipe has not finalised it — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
 ## Open contradictions
 
@@ -196,3 +217,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]

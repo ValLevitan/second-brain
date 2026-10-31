@@ -3,7 +3,7 @@ type: decision
 title: The AI agent builds the BOM as a "control gate" for whether it understands JVL products — taught by data contracts (.md files), not CAD exports — and Genadi finds why it is wrong instead of fixing it; reports, vendor data, BOM and agent logic run as separate parallel workstreams
 date: 2026-10-13
 aliases: [BOM control gate, control BOM template, 70 percent right, data contracts not CAD, no SolidWorks export, what each part gives out, find the error not fix it, four parallel workstreams, report now BOM in three months]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 1
 open-questions: 1
@@ -59,6 +59,10 @@ At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oc
 
 **§15.8:** clear. **§15 #9:** clear.
 
+## Oct 29 2026 note — an auditor agent; "It should collapse"
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] Val said an agent is a persona with a source of truth, and to learn from mistakes "we need to have an auditor of some sort" — another agent that checks against the truth. Nathan: output is verified by another agent and by people, and learning means refining the instructions and scripts. Val: every spec (a monitor's dimensions, a screw's thread and depth) must be in the data sheet in GitHub before the contract; "if we don't have this information, we should not be able to form a complete bomb. It should collapse. That's our checkpoint." [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] See [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
@@ -66,3 +70,5 @@ At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oc
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

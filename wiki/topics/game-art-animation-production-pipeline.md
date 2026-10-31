@@ -3,7 +3,8 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 32
+source-count: 34
+open-questions: 2
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -272,6 +273,26 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 - **When.** Igor expects MVP-1 — brief to finished game scenes — on Monday (Oct 26), if his weekly Claude limit lasts (it resets Monday 11:00 Minsk time); Val did not want to hear about limits, and Igor will ask for another account. It is shown at the Thursday Oct 29 7:00 AM review [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]].
 - **Seasonal styles.** Pavel's idea of seasonal or time-of-day styles (New Year, spring, Halloween) was welcomed and parked: "давайте вернёмся, бейсик" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]].
 
+## Oct 29 2026 — Igor's art toolkit, from brief to scenes in a game; Val: "быстро, но приблизительно"
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|second review of the AI game design agent]] (Russian) [[wiki/people/igor-metelski.md|Igor Metelski]] showed the tool he promised on Oct 24 [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]:
+
+- **What it is.** A set of Claude skills packaged as a plugin ("пладин для Клода"); Claude picks from context which skill to call. It began when he made vertical versions of games and was tired of telling Claude "faster, slower"; he asked for a web tool to tune things himself, then generalized it — the tool's own instructions name no specific game, so he expects it to be universal [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. The web tools are in Python, which Claude chose; Pavel: good, as it runs on Windows and Linux [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **The steps.** The entry point is the creative brief; he tested it on Clover Fortune. (1) From the brief — theme, mood, characters, background details, colours — Claude writes a prompt that he pastes by hand into an outside network, mostly ChatGPT; there is no API link yet, so he is the go-between. (2) The agreed art is split into layers: elements to animate, logos, paytable, reel frame. (3) A web tool moves and scales the layers; another sets paytable cells, symbol sizes, fonts and the new message line on the paytable. (4) An animation tool animates the layers; whatever Claude can animate in code is done in code [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Shaders instead of one big video.** Current games carry one large full-HD background video; the approach to test is to move background animation to shaders and keep video only where it makes sense, such as a character; the tool also writes the prompt for the character video. A web panel tunes shader parameters, such as the speed of the sky [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. He is building a library of shader effects, as a sky turns out to be needed in many games [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Into a game.** The tool can push scenes straight into a game: he showed a Rage game with scenes made during these experiments, "в 01:02 сессиях Клода" (read as one or two Claude sessions, as the notes do); positioning was off in places, and this part is perhaps more for a developer than a designer [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Kharetski: it looks like parts of the future engine [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **A scene format.** Claude invented its own scene format for the tool — a root YAML file ("яму", the notes' reading), the scene description, and the scene's resources stored separately — with rules for element positions, animations and effects; Igor converts it to the Rage format. Whether it suits the new engine is open; it is one option beside the Pixi or Rage approaches or a new one [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Learning from rejections.** Whether he likes an art result or not, he tells ChatGPT why it is rejected; the reasons go into the tool, so later prompts get better — "как будто бы со временем до обучается" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Video model.** For video he uses a pay-per-token model he could not name ("клинкта" / "клинт" as heard; "я понятия не имею, что это за модель"): about $5 buys tokens for about 10 symbols or 6 background videos (as heard); it lets him set the first and last frame for clean loops, and allows download. Bosik suggested an OpenRouter API key to try several models [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Not done.** No tool for symbols yet; transitions not yet worked out; "это надо испытывать снова на ком то Кроме меня" — his eye is "замылен" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Val's worry — polish.** Val: before, the path from idea to code was a known routine; now a producer can ask for "улыбку более такую наглую", but "как машине передать это непонятно"; "Игра получится быстро, но приблизительно." Igor: background motion — clouds faster, more shine, more sway — is easy to code; video generators work by key frames, so good middle frames can be kept and the prompt changed. Pavel: designers could say "с кадра 7 по 13 убери" and regenerate only that part. Pavel: once Igor got a good result, designers who want a small change find the next generations come out worse; Val: "Хуже или иначе?" Val was not convinced: "Я, скорее всего, не могу объяснить свою… мысль" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Next.** Val asked for one full cycle, from a brief to a game on the production server — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update).
+
+## Open questions
+
+- Can designers give notes precise enough for AI-made art and animation to be polished, or will games come out "быстро, но приблизительно"? (Val) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- Who tests Igor's toolkit besides Igor? (Igor) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -306,3 +327,5 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Hardware parts go into one GitHub repository with subfolders, not many repositories; the first spike builds the power-supply sub-assembly BOM automatically from data contracts and GitHub Actions for Nathan to load into Business Central; Genadi does not build the BOM by hand and only discusses the logic (Val, on Andrei Bosik's proposal, Oct 21 2026)
 date: 2026-10-21
 aliases: [one hardware repository, one repo with subfolders, single repo for hardware parts, no separate hardware repositories, подпапки в одном репозитории, power supply BOM spike, power supply sub-assembly spike, блок питания spike, BOM instead of an ISO image, Genadi does not build the BOM by hand, no fake milestone, audit agent for parts, this transcript is the spec]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 1
@@ -40,7 +40,7 @@ The notes record the same three decisions and say the one-repository ruling repl
 
 ## Open commitments
 
-- [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — study the topic, take the spec from this transcript, and prepare the power-supply BOM spike — due Tue Oct 27 2026 (the next meeting; he is busy Thu–Fri with the PM agent and with autotests, helping "Женя") — [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrei Bosik]] — study the topic, take the spec from this transcript, and prepare the power-supply BOM spike — due Tue Oct 27 2026 (the next meeting; he is busy Thu–Fri with the PM agent and with autotests, helping "Женя") — [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] — *Oct 29 2026: Nathan, not Bosik, showed the first generated contract (a Flex Pay main door); the power-supply spike was not mentioned — left open* — [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — book a meeting with Andrei for Tuesday at 7:00 ("Договорились на вторник на тогда на 07:00 я назначу митинг"; Andrei asked for Tuesday, not Friday) — due before Oct 27 2026 — [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 
 ## Open questions
@@ -49,7 +49,13 @@ The notes record the same three decisions and say the one-repository ruling repl
 
 **§15.8:** clear. **§15 #9:** clear.
 
+## Update, Oct 29 2026 — the first generated contract, in Genadi's new folder structure
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] (English; Bosik not present) [[wiki/people/nathan-carver.md|Nathan Carver]] showed the first data contract the agent generated from a part's source files and an item YAML. The example part was a Flex Pay main door Genadi designed in SolidWorks, so "Jvl is the vendor". Genadi and Nathan spent three days settling a consistent folder structure inside the repository; Nathan's contract is better than his earlier spike because of it. Next: merge the contract generation into that structure, make different agents generate the same contract, then build a BOM and sync it to MSBC [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]. Genadi must still fill in about 100 files for the chosen assembly ("it was a small one that we picked previously") [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]. Whether the power-supply spike above is done was not said. Detail: [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

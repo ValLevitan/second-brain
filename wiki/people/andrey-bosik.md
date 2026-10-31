@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 149
+source-count: 153
 open-commitments: 50
 ---
 
@@ -680,6 +680,15 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 
 At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] he asked all developers to make Claude tie every branch to a Jira issue, delete branches when the task closes, and never add itself as a commit co-author — [[wiki/decisions/2026-10-26-claude-made-branches-carry-a-jira-key-and-are-deleted-when-the-task-closes-and-claude-is-never-a-commit-co-author.md]]. He reported the AWS environment for autotests ready (charts, values, databases, Grafana); which application version runs there went to a separate discussion — [[wiki/topics/test-automation-strategy.md]] (Oct 26).
 
+
+## Oct 29 2026 — one second brain for all agents, limited on both sides; Miranda "лишнее звено"
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] he explained his proposal: agents keep only their logic and draw all knowledge from the second brain, which today holds converted transcripts, cards built from GitHub repositories (prose and CLAUDE.md files) and Jira; access is limited "с 2 сторон" — in the second brain and in the agent; later it might be an MCP server for Claude Code — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]]. He suggested an OpenRouter API key to compare image models for Igor's tool — [[wiki/topics/game-art-animation-production-pipeline.md]] (Oct 29). On the full cycle: pass the whole workflow once, then automate — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update). He agreed "на 100%" that Miranda is a converter and an extra link, and said the team lacks the engine competence without Anton — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]], [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 note).
+
+## Oct 29 2026 (2:02 PM, in absentia) — the persona repository; maybe the MSBC client ID
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] Val sent Nathan Carver to "get together with Andrei Bosik" about the persona repository — "he is working on AI Project Manager" — to move the hardware agent's instructions there. Nathan thinks "Andrei may have to provide" Genadi's MSBC client ID — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -834,3 +843,7 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

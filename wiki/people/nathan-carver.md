@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 65
+source-count: 67
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -275,6 +275,10 @@ At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|
 - [x] Nathan Carver, with "Andrei" (identity unresolved) — agree separate repositories or tags and reply by email — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]] — *done Oct 21: the "Andrei" is Andrei Bosik, who answered by email; Val closed it on the call — one repository [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]*
 - [x] Nathan Carver — request the three repositories (harness, display, sheet metal) — due Oct 20 2026 (notes) — [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]] — *superseded Oct 21: one repository with subfolders [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]*
 
+## Oct 29 2026 (2:02 PM) — the first generated contract; the persona repository; helping Genadi with MSBC
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] he showed the first data contract the agent generated: two human steps (put the source files in the part's folder; write the item YAML), then the agent writes the contract; the repository is "self-instructing". Next he merges this into Genadi's folder structure, makes different agents produce the same contract, then a BOM and the MSBC sync. He did not know about JVL's persona repository and will contact Andrei Bosik to move the instructions there; he will help Genadi pull MSBC standard parts once Genadi has a client ID — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]]. He sent Val the repository link (notes).
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -342,3 +346,5 @@ At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 83
+source-count: 84
 open-commitments: 11
 open-questions: 0
 ---
@@ -335,6 +335,11 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 
 At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] Igor said Efim had long since updated the Sparkle Seven maths, which sits in the Jackpot Rush Nebraska config, and had asked for a change on progression levels reset after draws, to go into the data-center image — [[wiki/projects/nebraska-skill-market.md]] (Oct 27) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
 
+
+## Oct 29 2026 (in absentia) — his maths into mechanics; nobody present knows his Excel files
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] Val asked how to get from Efim's maths to a description of a game's mechanics in prose; Igor thinks it is possible through the framework code and each game's maths settings, but RTP statistics cannot be rebuilt from bare maths. Igor and Pavel said they have never seen what is inside his Excel files — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update). Val wants his maths, "разобрана… В механику", in the game design agent's second brain — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
@@ -421,3 +426,4 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]

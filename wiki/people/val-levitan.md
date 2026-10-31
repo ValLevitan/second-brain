@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 456
+source-count: 458
 open-commitments: 83
 open-questions: 1
 ---
@@ -1764,6 +1764,10 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 
 At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] he told the game team JVL has about ten machines in Nebraska, so changing the dual box is "Not a factor" — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]]. He gave optional art comments on Aaron's Pub and wants to reuse its three-segment screen in other games. He confirmed Class A goes ahead of South Dakota D27 on NOVA: "I'm not changing the priority" — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]]. He raised Class 3 for Colombia on NOVA, agreed that casino Class 3 is not for JVL, and said the untouched Colombia installed base needs "something for the end of 2027" or "we will lose that cow"; first ask what earns in Colombia now, and he will open the dialogue — [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]]. He asked Efim to explain churn.
 
+## Oct 29 2026 (2:02 PM) — the persona repository; not tied to one AI model; the BOM must collapse on missing data
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] he had Nathan explain contract generation, said an agent is a persona that needs an auditor agent, and ruled: the hardware agent's instructions move to the persona repository; GitHub is the source of truth, so "Grok or… any cloud services" could do the work Claude Code does — "I don't see why we need to be married to… a single… Ai model"; vendor admin data stays out of GitHub; a BOM with missing data "should collapse". He will point the AI COO at the repository and booked the next review for Wednesday Nov 4, 2:00 PM — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -2229,3 +2233,5 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

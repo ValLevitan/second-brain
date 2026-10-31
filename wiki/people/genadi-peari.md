@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 144
+source-count: 146
 open-commitments: 59
 ---
 
@@ -703,6 +703,10 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 A 31-minute [[wiki/meetings/2026-10-22-genadi-peari-bill-acceptor-harness-and-data-contracts.md|call with Val]]. Teams wrote the speech down as English words and almost nothing can be read [[raw/Meeting_Notes_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]. Readable terms: the bill acceptor ("innovative technology", "JCM"), "existing harness", "monster harness", "shield connector", "vision" next to "connector"; and data contracts for part numbers, vendors and "part number substitutes different brands, different part numbers". He said "I didn't connect the bill acceptor", and of Sebastian: "He is responsive, he is very responsive" [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]. No decision or undertaking can be taken from it.
 
+## Oct 29 2026 (2:02 PM) — three days on the folder structure; about 100 files to go; no MSBC access
+
+At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] he said he and Nathan spent three days settling a consistent structure. He must finish all JVL-made parts of the chosen assembly — "about like 100 files" — and needs an MSBC client ID to pull the hundreds of standard parts into GitHub ("manually, I cannot do this"); Nathan will help, category by category. He asked that part descriptions expand (dimension, brightness, interface, LED backlight); Val: all of it belongs in the data sheet in GitHub — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -849,3 +853,5 @@ A 31-minute [[wiki/meetings/2026-10-22-genadi-peari-bill-acceptor-harness-and-da
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]

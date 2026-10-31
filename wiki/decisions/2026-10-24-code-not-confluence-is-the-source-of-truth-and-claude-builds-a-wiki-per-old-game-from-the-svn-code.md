@@ -1,9 +1,9 @@
 ---
 type: decision
-title: Confluence is not a source of truth for the game agent — only code is; old games get a one-time Claude-built wiki page each, made from the real SVN code and sized to answer Igor's specification; the old SVN code itself is not moved into GitHub or the agent, and universality is built step by step in new, clean code (Oct 24 2026)
+title: Confluence is not a source of truth for the game agent — only code is; old games get a one-time Claude-built wiki page each, made from the real SVN code and sized to answer Igor's specification; the old SVN code itself is not moved into GitHub or the agent, and universality is built step by step in new, clean code; on Oct 29 Igor showed the method on Clover Fortune and the wikis are to be loaded into the company second brain (Oct 24 2026)
 date: 2026-10-24
 aliases: [code is the source of truth, Confluence is not a source of truth, конфлюенс не является source of truth, SVN to wiki, per-game wiki from SVN code, old games wiki, Karpathy wiki for old games, no SVN in GitHub, clean code step by step]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 2
@@ -42,14 +42,27 @@ Set at the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-co
 - It applies the long-held "only what is in git is the source of truth" line ([[wiki/topics/docs-as-code-and-atlassian-exit.md]]) and the code-to-prose method ([[wiki/decisions/2026-10-08-an-ai-chief-system-architect-maps-galaxy-and-nova-from-code-prose-and-data-contracts-to-find-gaps-as-bosiks-next-objective.md]]) to the game agent's knowledge of old games (**inference** — the link is not drawn in the meeting).
 - "No more games on SVN/Rage" was Bosik's understanding, said in passing; the Rage closure itself is [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]].
 
+## Update, Oct 29 2026 (6:59 AM) — Igor's Clover Fortune test; the wikis go into the second brain
+
+At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 second review of the game design agent]] (Russian) [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]:
+
+- **The experiment.** [[wiki/people/evgeny-kharetski.md|Kharetski]]: after the last meeting [[wiki/people/igor-metelski.md|Igor]] ran an experiment showing that the same design document the agent produces can be built "по… Любой старой игре", with the palette and graphics pulled from the game's repository; so instead of moving heavy Rage into git, "мы просто можем в вике и библиотеку собрать из таких документов по всем играм, которые нас интересуют старым" and load it into the second brain or into a GitHub repository connected to it [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **What Igor did.** He showed Claude the brief Kharetski's tool had generated and asked for the same brief for the existing Clover Fortune. Claude broke down the game's idea, tone and style, palette and motifs, wrote the screen parameters to the specification, and pulled out references that really sit in the game's repository [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. A gap in one cell was the expanding symbol, which is a video; Claude did not take the video apart, but would have if asked. Symbol cells looked uneven because Claude took the real texture sizes, while in a Rage scene the scale is set on the cell object [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Layouts for the wiki.** Igor: the new-game brief uses vertical layouts, but in the repository the game is horizontal, so for the wiki that would mislead; Claude can be set to measure the real scenes and show the actual layouts. Kharetski: "для вики это честнее"; a vertical version can be made later from the wiki document [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **The full screen.** Igor: the screens are taken apart one by one, but Claude can be asked to assemble the full game screen, as the instructions are there. Val: "Да, я бы собрал, но весь экрал [экран]" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. No one took this on in words; the notes list it for Igor, flagged as needing Val's confirmation [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **The run.** Kharetski: an automated process "запускается одним бронтом [промтом]" and runs "там день"; Igor: only the template — what the document should show — must be set; Kharetski: "Отладить промт". Claude can fetch the SVN locally for the time it needs and then delete it, so SVN need not be downloaded first. Kharetski on run time per game: "это скорее может Игорь сказать" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Why it is current.** Igor: it will be like Confluence, but whether Confluence was kept up "уже никто не вспомнит", while the SVNs hold the production versions of games, "поэтому их состояние ну по любому актуальное" — the game code, the action graphs used for animations, and the resources: textures, screens and the rest [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
+- **Which games.** Kharetski: pick a package of games actually needed — "например, нам нужны все гекамы" (as heard; **unclear**) — and not the very old ones; "Алгоритм у Игоря есть он уже это делал" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Val: the wikis of past games "которые мы выберем" go into the game design agent's second brain — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]].
+- **Recorded as a decision.** The notes: build the old-game wiki from SVN code with Igor's method and load it into the second brain (Kharetski's recap, no objection) [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Still no owner and no date.
+
 ## Open commitments
 
-- [ ] Unassigned (Bosik proposed; Val agreed; no owner named) — one-time job: Claude builds a wiki page per old game from the SVN code, sized to answer Igor's specification; Confluence is then removed as the agent's knowledge source — due unspecified — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [ ] Unassigned (Bosik proposed; Val agreed; no owner named) — one-time job: Claude builds a wiki page per old game from the SVN code, sized to answer Igor's specification; Confluence is then removed as the agent's knowledge source — due unspecified — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *Oct 29 2026: method shown by Igor on Clover Fortune; the output is to be loaded into the company second brain; still no owner* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 
 ## Open questions
 
 - Can old Rage game code alone fully describe a game, when the framework is a monolith and behaviour also depends on data-center settings? (Igor) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
-- Who runs the SVN-to-wiki job? No owner was named — [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- Who runs the SVN-to-wiki job, and which games go in? No owner was named on Oct 24; on Oct 29 Kharetski said to pick a package of needed games and that Igor has the algorithm, but still no owner and no list — [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 
 **§15.8:** clear. **§15 #9:** none.
 
@@ -57,3 +70,5 @@ Set at the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-co
 
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
