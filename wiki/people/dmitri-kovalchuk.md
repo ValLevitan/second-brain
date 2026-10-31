@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 82
+source-count: 85
 open-commitments: 16
 open-questions: 3
 ---
@@ -383,6 +383,15 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 
 At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] he showed the Knowledge repository's standards — one Jira project per GitHub repository; the Jira hierarchy; BEP and the old projects not in the table and to be archived — and will add a line so Claude stops suggesting BEP. He asked who should get the requirements the agent creates (today Irina); not settled. Due dates are mostly fine; some tasks have no end date — [[wiki/decisions/2026-10-28-a-story-under-a-completed-feature-does-not-reopen-it-automatically-and-the-storys-creator-moves-the-feature-or-picks-another-parent.md]] (Oct-29 update).
 
+## Oct 29 2026 (8:31 AM) — the Tableau licence runs to May; MCP "не нужная прослойка"
+
+At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] (Russian; speaker label) [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]: outside access to Tableau reports had been given, but those reports are no longer updated. He called an MCP an unneeded layer, suggested users pick their own interval and get an email when the file is ready, and thought a month of data might be enough. He said the Tableau licence runs until May. Val named him among the users of the new export; he asked "а мне зачем?" — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
+
+
+## Oct 30 2026 — FPORT access only; asked to block Yavorski's merges into Flex-Port main
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] he said Val's approval gave the Evgenys Jira access to FPORT only, as asked — not all projects. Pavel asked him to stop Yavorski merging into main in the Flex-Port repository while still letting him open pull requests; he thinks it possible and asked whether Alekseev too (no) — [[wiki/people/eugine-yavorski.md]] (Oct 30), where his commitment is tracked. He named the "PM agent" ("Пиамогент") as the one to create Leshkevich's task.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -467,3 +476,6 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 50
+source-count: 52
 open-commitments: 14
 ---
 
@@ -247,6 +247,10 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 
 At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] he said he is going through backlog tasks ("127 142", heard). One low-priority item: a data text-id for autotests, so tests compare by a key library rather than by text, to avoid failures on duplicates. Pavel asked Leshkevich to send him the one-page new-engine requirements list to read — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 stand-up note).
 
+## Oct 29 2026 (10:32 AM, in absentia) — interested in trying the product-owner role
+
+At the [[wiki/meetings/2026-10-29-minsk-team-reorganization-and-staffing-review.md|Oct-29 10:32 AM call with Val and Irina]] (Russian) [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]] Pavel said the old front-end role is no longer needed, so they try people in other directions. Vladimir was tried in autotests, where he showed perhaps the best results of all. Pavel had talked with him about taking on product-owner duties; "он заинтересовался" — he wants to try ([[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]: "agreed to try a product owner role") — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]] (Oct-29 note).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -299,3 +303,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+- [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]

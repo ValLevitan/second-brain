@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 34
+source-count: 36
 open-questions: 2
 ---
 
@@ -288,6 +288,15 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 - **Val's worry — polish.** Val: before, the path from idea to code was a known routine; now a producer can ask for "улыбку более такую наглую", but "как машине передать это непонятно"; "Игра получится быстро, но приблизительно." Igor: background motion — clouds faster, more shine, more sway — is easy to code; video generators work by key frames, so good middle frames can be kept and the prompt changed. Pavel: designers could say "с кадра 7 по 13 убери" and regenerate only that part. Pavel: once Igor got a good result, designers who want a small change find the next generations come out worse; Val: "Хуже или иначе?" Val was not convinced: "Я, скорее всего, не могу объяснить свою… мысль" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
 - **Next.** Val asked for one full cycle, from a brief to a game on the production server — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update).
 
+## Oct 29 2026 (11:59 AM) — the same toolkit as one step of the whole pipeline; a shaders-or-video spike
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] Val asked Kharetski and [[wiki/people/igor-metelski.md|Igor]] to present the concept end to end, so the engine team sees how designers will use it [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]:
+
+- **The steps, as Igor told them.** His Claude plugin takes Kharetski's brief (he prepared one to the same template for an existing game; name garbled). First, full-screen background art for every scene needed — main, bonus and the rest — with all elements on it; it is approved. Frames and elements are placed on it — what designers call the comp art — and approved. The background is cut into animatable layers (a character, the sky, other visible elements), and the base is filled in so it stands without them. The plugin has web tools to move and scale layers. Then what is animated by video gets generated video, and what can be animated in code gets shaders, with a separate tool to tune them. Last, the tool converts everything to the YAML-based scene format Claude invented, with positions and animations [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **Two engine options.** Keep full-HD video (one vertical or several horizontal) with all effects baked in, or animate in code with shaders and use video only for what cannot be done in code. "нам просто нужно провести некоторые измерения на машинах" [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **Comp art is the base.** Biratka: the producer and designer make the comp art; AI can place scenes from it, and in future maybe make the art itself, "как вот сейчас делает принципе Игорь" [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Bosik and Anton: Igor's tool should become part of Anton's engine as the editor; where the line sits is open — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **The spike.** Igor asked for an experiment on a real machine on whether shaders pay off; he has already made shader scenes for Rage. Pavel: try two machines, a "тысячной" one and ARM; Igor: nothing runs on ARM yet, Rage would need adapting; Pavel: run the browser version. Biratka: good shader support is needed either way; whether shaders replace video can be decided later. Due Monday Nov 2 [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+
 ## Open questions
 
 - Can designers give notes precise enough for AI-made art and animation to be polished, or will games come out "быстро, но приблизительно"? (Val) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
@@ -295,6 +304,8 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 
 ## Sources
 
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]
 - [[raw/Meeting_Notes_Game_Conversion_Vertical_Scene_Progress-September-17-2026.md]]

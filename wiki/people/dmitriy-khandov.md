@@ -4,7 +4,8 @@ title: Dmitriy Khandov
 date: 2026-07-13
 aliases: [Dmitriy Khandov, Dmitry Khandov, Dima Khandov, Dima, Jim, Dima Handoff, Dima Khandrov]
 disambiguation: "Senior 3D Graphic Designer (graphics/3D/video). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 25
+source-count: 27
+open-commitments: 1
 ---
 
 # Dmitriy Khandov
@@ -95,6 +96,14 @@ On the [[wiki/meetings/2025-06-26-omni-schedule-grooming.md|Omni schedule groomi
 
 On the Nov-11 graphics-specification call ([[wiki/meetings/2025-11-11-graphics-specification-for-testing.md]]; Val + [[wiki/people/pavel.md|Pavel]] + [[wiki/people/irina-shishko.md|Irina Shishko]], "Dima" by Miranda context = this designer) Pavel said that **when Dima returns from vacation he will extract from the Miranda project the full scene structure** — every component's coordinates, size and nesting (parent/child) — and generate it in a usable form to become QA's layout **reference**. Consistent with his Miranda ownership; the risk flagged was that a wrongly-built scene would propagate an error, so each export must be verified once against a correct game. See [[wiki/topics/game-art-animation-production-pipeline.md]] (Nov-11). [[raw/Specs_graphics.md]]
 
+## Oct 29 2026 (10:32 AM, in absentia) — preserve Miranda properly
+
+At the [[wiki/meetings/2026-10-29-minsk-team-reorganization-and-staffing-review.md|Oct-29 10:32 AM call with Val and Irina]] (Russian) Val said Miranda must be preserved properly — correct prose, data contracts, correct repositories — and that he had already sent this message to "Андрею и диме" (Andrew and Dmitriy Khandov) [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]] [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]. See [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] (Step 3).
+
+### Open commitments (Oct 29 2026)
+
+- [ ] Dmitriy Khandov (with Andrew Khandov) — preserve Miranda: correct prose, data contracts, correct repositories — due unspecified — [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]] [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+
 ## Sources
 
 - [[raw/Specs_graphics.md]]
@@ -122,3 +131,5 @@ On the Nov-11 graphics-specification call ([[wiki/meetings/2025-11-11-graphics-s
 - [[raw/tools_adaptation_games_design_department-may-7-2025.md]]
 - [[raw/mcp_servers_for_jvl-may-8-2025.md]]
 - [[raw/game_design-may-8-2025.md]]
+- [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+- [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]

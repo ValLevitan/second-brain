@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 49
-open-commitments: 13
+source-count: 52
+open-commitments: 14
 ---
 
 # Anton Seregin
@@ -215,6 +215,22 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — run the spike on how dense or large a QR code the scanner reads reliably, and test it on an installed port — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
+## Oct 29 2026 (10:32 AM, in absentia, inference) — Pavel on the emulator and the Wi-Fi requirements
+
+At the [[wiki/meetings/2026-10-29-minsk-team-reorganization-and-staffing-review.md|Oct-29 10:32 AM call with Val and Irina]] (Russian) [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]] Pavel described the work of the front-end "Антон" — read as Anton Seregin by his emulator and Wi-Fi work (**inference**):
+- **Front-end as a role.** Pavel: the front-end in the form it had is no longer needed; one or two people on front-end makes no sense, so they are trying them in other directions.
+- **The emulator.** For some weeks (Pavel first said two or three, then more than a month; Irina: "больше") he built an emulator — FlexPay first, then Flex IQ. Pavel: this is not front-end work; it is a product for QA so autotests can run without a Flex IQ or FlexPay, as with real hardware.
+- **The Wi-Fi settings requirements.** His next task: the architecture of Wi-Fi connection settings between Flex IQ and FlexPay and how they tie to the server. After a series of "456" meetings (heard — read as four to six), he processed the transcripts into a list of capabilities and requirements, with entering them in Jira as the last step. They began to appear that day; the one Pavel read, on Flex IQ, was correctly linked and matched what was discussed; the rest still has to be reviewed. See [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Oct-29 update).
+
+
+## Oct 30 2026 (4:45 AM) — capabilities brought to standard; mark them MVP-2 Transactional; the Wi-Fi settings page next
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] he said he had brought the generated capabilities and features to the team's standard and moved the BEP and Flex Pay items in the Jira repository to the current scheme; acceptance criteria were generated for the requirements — Irina: "требования без аксепс критериев это не требование, это пустышка". Pavel asked him to mark these capabilities "MVP 2 транзакшнл" (MVP-2 Transactional); that this is the MVP 2 of [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] is an **inference**. Next, Pavel suggested (to be agreed with Dima and Sergey): on the server UI, a page that shows the Wi-Fi network settings and generates a QR code; encryption still to be discussed; he will check ADR 503 (heard), which is not yet merged [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]. Pavel works the Flex IQ access-point mode from tasks he created [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]. He suggested a fork for Yavorski's work; Pavel said no — [[wiki/people/eugine-yavorski.md]] (Oct 30).
+
+### Open commitments (Oct 30 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — mark the newly generated capabilities MVP-2 Transactional — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -266,3 +282,6 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]

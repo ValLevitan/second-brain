@@ -3,8 +3,8 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 68
-open-commitments: 23
+source-count: 70
+open-commitments: 24
 ---
 
 # Alexei Khamin
@@ -327,6 +327,19 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — install from the SD card to the terminal, and also try a flash drive — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
+
+## Oct 30 2026 — the Flex IQ build failed again; Yavorski's private messages; the port-to-idle recheck
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]:
+- His Flex IQ build failed again; with about 80 parameters he should not have to study them to get a build. Pavel ruled that the default action with default parameters must build for its target — [[wiki/decisions/2026-10-30-the-default-ci-build-action-builds-with-default-parameters-for-its-target-environment-and-a-many-parameter-action-is-kept-for-claude-and-special-cases.md]]. He also raised the branch-then-main version conflict.
+- Yavorski keeps writing to him privately about tasks; he asked what to answer — [[wiki/people/eugine-yavorski.md]] (Oct 30).
+- Andrei's port-107 item (heard): after a machine reboots, the Flex-Port may not return to idle. Khamin: it is on JVL's side — test a plain reboot and a reboot by the button, with the port board on separate power; short work. Pavel had committed a fix two days earlier for a port that hung and did not recover; this may be the same case. Irina: if Khamin works from home that day, Ivan may take it [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- Hardware autotests go on [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+
+### Open commitments (Oct 30 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] (or Ivan) — recheck that the Flex-Port returns to idle after a machine reboot (reboot plus separate power to the port) — due Oct 30 2026 (the notes) — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -397,3 +410,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]

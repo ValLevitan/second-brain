@@ -3,9 +3,9 @@ type: decision
 title: A voice AI "Game Design Assistant" that questions the head of game design and produces a creative direction document to Igor's spec — Evgeny Kharetski owns it with Igor; new Jira project and repository; first pass (booked for Sunday Oct 25) reviewed Saturday Oct 24 as a text agent in Teams that writes game briefs; at the second review (Oct 29) it leads a stuck designer and Val wants one full cycle from brief to a game on the production server (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [AI game design agent, Review - AI voice Game Design Assistant first pass, Game Design Assistant, AI Game Design Assistant, геймдизайн IS astond, creative direction design assistant, кредит в дирекшен дизайн assistend, voice to voice AI assistant, войс ту войс эй ассистент, AI design assistant, ai дизайна asisnate]
-source-count: 13
+source-count: 17
 status: active
-open-commitments: 9
+open-commitments: 8
 open-questions: 6
 ---
 
@@ -46,7 +46,6 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 ## Open commitments
 
-- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — test Val's hypothesis: teach the agent to break a competitor's new game into components and mechanics, starting from a YouTube video — due Fri Oct 30 2026, 8:00 AM Toronto time (a separate session) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — load all of Efim's working maths files and all game layouts (3x3, 3x5, 4x5) into the agent — due unspecified ("следующим шагом") — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — rename the agent with the "AI-" dash prefix — due unspecified ("позже") — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — if possible, add MVP-2 work (for example a second game besides Dutch Mill) before the Thursday review — due Thu Oct 29 2026 — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *Oct 29 2026: he said he had done "не супер много" — a mode where the agent leads a stuck designer; no second game was shown; left open* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
@@ -109,11 +108,28 @@ The Thursday review set on Oct 24 took place on **Oct 29, 6:59–8:19 AM Eastern
 - **Miranda.** In the engine talk Kharetski and Bosik ruled Miranda out as the new engine's basis; at 10:03 AM Val stopped Miranda development — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]].
 - **Commitments.** Val's Oct-24 commitment to set this review is discharged (History). Igor's MVP-1 was shown but is not finished; neither Kharetski nor Igor showed a second game — both left open. The voice part, the Jira project and the repository were not mentioned. The competitor-breakdown session (Friday Oct 30) was not discussed.
 
+## Note, Oct 29 2026 (11:59 AM) — the agent as step one of the pipeline; the creative leader must be steered back
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] Val asked Kharetski and Igor to present the concept end to end [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]:
+
+- **Kharetski's part.** The agent sits in Teams with access to the "second brain", which holds a wiki of the earlier games — one specification per game, with graphics references and element layout; maths will be loaded next. A designer who wants a new game is led through an interview that outputs a full specification for a given layout ("5 на 3 и 4 на 4"); the document then goes to Igor's tools [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Val: the wiki keeps growing with new games; Kharetski: "Да" [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **Val on the creative leader.** The person who will work with this has never worked this way and will at first resist it; the system must be smooth, and Kharetski's tool must bring him back when he is stuck or goes the wrong way and ask the questions the team needs. "Это должно стать частью мвп один" [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. The notes call him a new creative director [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. The engine side is on [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+- **Commitments.** None of the open items above was reported done here; all stay open.
+
+## Update, Oct 30 2026 (8:03 AM) — the competitor teardown: mechanics, not maths
+
+The Friday competitor session set on Oct 24 took place on **Oct 30, 8:03–8:49 AM Eastern** (header line), titled "Review – AI teardown of a competitor game (hypothesis test)", with Val, Kharetski, Pavel, Igor Metelski and Irina — [[wiki/meetings/2026-10-30-ai-competitor-game-teardown-and-mechanics-library.md|stub]] [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]. Russian.
+
+- **The test ran.** Kharetski had Claude break down competitor games from free YouTube videos — 234 minutes across four games (Aristocrat, IGT and one more, heard) — getting the mechanics, bonuses, grids and animations, and only a rough maths model [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]].
+- **The ruling and the plan** — mechanics, not maths; only games that matter in JVL's markets, chosen by Val from a market report; and first a blind test on one game from each of three JVL products by Nov 6 — are on [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]].
+- **Commitments.** The Oct-24 hypothesis-test commitment is discharged (History). The others were not mentioned and stay open.
+
 ## History
 
 - [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] (with [[wiki/people/igor-metelski.md|Igor Metelski]] checking the output) — first pass of the Game Design Assistant, voice to text and text to voice — due Sun Oct 25 2026 review — [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] — *discharged Oct 24 2026: the first pass was reviewed a day early, as a text chat in Teams; voice was not shown* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — talk to Andrey Bosik about the voice technology — due before the first pass — [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] — *discharged Oct 24 2026: the agent runs from an account deployed in the Amazon cloud with Bosik's help* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [x] [[wiki/people/val-levitan.md|Val Levitan]] — set the next review for Thursday Oct 29, 7:00 AM — due Oct 29 2026 — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *discharged Oct 29 2026: the review was held 6:59–8:19 AM* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — test Val's hypothesis: teach the agent to break a competitor's new game into components and mechanics, starting from a YouTube video — due Fri Oct 30 2026, 8:00 AM Toronto time (a separate session) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *discharged Oct 30 2026: the session was held 8:03–8:49 AM; Claude broke down four competitor games from YouTube video; the next step is a validation test on JVL's own games* — [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
@@ -127,6 +143,10 @@ The Thursday review set on Oct 24 took place on **Oct 29, 6:59–8:19 AM Eastern
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
+- [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]

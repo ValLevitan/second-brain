@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 84
+source-count: 86
 open-commitments: 11
 open-questions: 0
 ---
@@ -340,6 +340,10 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 
 At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] Val asked how to get from Efim's maths to a description of a game's mechanics in prose; Igor thinks it is possible through the framework code and each game's maths settings, but RTP statistics cannot be rebuilt from bare maths. Igor and Pavel said they have never seen what is inside his Excel files — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update). Val wants his maths, "разобрана… В механику", in the game design agent's second brain — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]].
 
+## Oct 29 2026 (8:31 AM, in absentia) — full access to the new export; the person Felipe asks about the numbers
+
+At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] Val named "Фима" among the users of the new legacy-CMS Excel export and said that if Felipe has questions on how to read the numbers he can go to "ефиму", who must get full access to everything ("Фима" / "ефиму" read as Efim Podvoiski, as the notes do [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]) — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
@@ -427,3 +431,5 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 - [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]

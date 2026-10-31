@@ -4,8 +4,8 @@ title: Andrew Khandov
 date: 2026-07-13
 aliases: [Andrew Khandov, Andrey Khandov, Andrey Handov, Andrei Handov]
 disambiguation: "C# developer for Miranda; father of Dmitriy Khandov (owner-confirmed). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 6
-open-commitments: 1
+source-count: 8
+open-commitments: 2
 open-questions: 0
 ---
 
@@ -44,6 +44,14 @@ On the Apr-14 Omni framework review ([[wiki/meetings/2025-04-14-omni-framework-m
 
 On Oct 29 2026 Val stopped the development of Miranda, the product Andrew Khandov develops: he sees no future in it, and the team agreed it has outlived itself — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]. What this means for Khandov's own work was not discussed.
 
+## Oct 29 2026 (10:32 AM, in absentia) — preserve Miranda properly
+
+At the [[wiki/meetings/2026-10-29-minsk-team-reorganization-and-staffing-review.md|Oct-29 10:32 AM call with Val and Irina]] (Russian) Val said Miranda must be preserved properly — correct prose, data contracts, correct repositories — and that he had already sent this message to "Андрею и диме" (Andrew and Dmitriy Khandov) [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]] [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]. See [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] (Step 3).
+
+### Open commitments (Oct 29 2026)
+
+- [ ] Andrew Khandov (with Dmitriy Khandov) — preserve Miranda: correct prose, data contracts, correct repositories — due unspecified — [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]] [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+
 ## Sources
 
 - [[raw/github_explained-feb-3-2025.md]]
@@ -52,3 +60,5 @@ On Oct 29 2026 Val stopped the development of Miranda, the product Andrew Khando
 - [[raw/omni_progress-april-14-2025.md]]
 - [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
 - [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+- [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]

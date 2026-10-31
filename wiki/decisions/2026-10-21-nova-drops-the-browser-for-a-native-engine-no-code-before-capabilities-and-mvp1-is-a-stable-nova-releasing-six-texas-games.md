@@ -3,7 +3,7 @@ type: decision
 title: NOVA drops the browser (and Pixi) for JVL's own native engine, with no browser build kept; no code before capabilities, requirements, acceptance criteria and an architecture Val can read; MVP1 is a stable NOVA on which JVL releases six Texas games, reached step by step (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [drop the browser, native engine, NOVA native engine, Rust engine prototype, Leshkevich Rust prototype, убрать браузер, no code before capabilities, никто не начинает строчить код, rule before code, MVP1 six Texas games, стабильное ново MVP один, NOVA 2, Super NOVA, супер нова, remove browser and Pixi, download flow with GLI signature check]
-source-count: 19
+source-count: 23
 status: active
 open-commitments: 13
 open-questions: 7
@@ -73,15 +73,15 @@ Decided at the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.m
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — ask Andrei (Bosik, by role — **inference**) for a repository and upload the Rust prototype, which lives only on his disk — due unspecified — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write the capabilities and requirements for the game-update part — due unspecified — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — build a chatbot that deals with Intralot (Val's wish; not present) — due unspecified — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] *(9:57 AM the same day: Val formally made Bosik the developer of a Georgia commissioning chatbot, with Pavel Frolov as product owner — tracked on [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]])*
-- [ ] Team (no single owner named) — have the new NOVA ready ("это будет готово"; the notes place it under MVP1) — due within 10 days of Oct 21 (Val's "максимум"; Leshkevich called it optimistic) — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [ ] Team (no single owner named) — have the new NOVA ready ("это будет готово"; the notes place it under MVP1) — due within 10 days of Oct 21 (Val's "максимум"; Leshkevich called it optimistic) — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] — *Oct 29 2026 (11:59 AM): not done; Val ordered a full engine description, an MVP 1/2/3 split, two schedules and a test environment before any code; left open* — [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — optimize his variant, which runs slow — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 
 ## Open questions
 
 - Does "Nebraska 2 is the last product on RAGE" still stand? Igor asked; Val answered only that the new NOVA will come fast — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
-- Can a still image with a shader replace heavy background video? Biratka is sure; Igor wants a test first (possible in Pixi) — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- Can a still image with a shader replace heavy background video? Biratka is sure; Igor wants a test first (possible in Pixi) — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] — *Oct 29 2026 (11:59 AM): still open; Igor takes a spike on shaders against video on real machines, due Nov 2* — [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - Keep the OMNI scene structure in the new engine, or a new one? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
-- A full designer editor, or scenes built through a chatbot? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- A full designer editor, or scenes built through a chatbot? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] — *Oct 29 2026 (11:59 AM): partly answered — no full editor in version 1; the engine on the designer's PC with Claude driving it through MCP is in MVP 1; Anton is to write the editor requirements* — [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - How are games updated remotely when the maths changes, and what does each regulator require? — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - Run the brief-to-production full-cycle test on Pixi now, or wait for the new engine? (Val asked; Kharetski: double setup work, but days not months; the notes send it to the Anton meeting) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 
@@ -176,6 +176,19 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - Where does the game team go next while the new engine is not ready and browser games are paused? Raised by Pavel — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
+## Note, Oct 29 2026 (11:59 AM) — the engine meeting is held: describe everything, split, schedule, then code
+
+The meeting moved from 10:01 AM took place at [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|11:59 AM – 1:04 PM]] with Leshkevich (Russian) [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]:
+
+- **The order.** Anton wanted to start coding that week; Val: "Нет". First describe the full engine with every wish, split it into MVP 1, 2, 3, make an overall schedule and an exact MVP-1 schedule, build a test environment that can test during development — then code [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. This extends the handshake above; details on [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+- **Who.** Not Anton alone — Anton, Igor and Sasha (Biratka) together [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **Windows.** Windows builds only for internal and designer testing, never a final build; Linux on both x86 and ARM [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. This narrows the morning's "for Windows" answer above.
+- **Language.** Anton's prototype is in Rust, and the list assumes it [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+
+## Note, Oct 30 2026 — the same order applied to remote update; Texas first
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] Val told the team they need not build remote update into MVP 1: the machine can be released now, tried, given games and taken to market, with remote update added MVP by MVP — but the final architecture (for example MVP 10) must be agreed now. Texas is the first market for remote update, since it needs no certification for updates [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details on [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
 ## History
 
 - [x] [[wiki/people/val-levitan.md|Val Levitan]] — set a meeting with Anton Leshkevich on replacing HTML and Pixi and the way forward — due Oct 29 2026, 10:00 — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] — *discharged Oct 29 2026: set for 10:00; Anton did not join, and per the notes it was held at noon* — [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]] [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
@@ -201,3 +214,7 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]

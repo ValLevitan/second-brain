@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 66
+source-count: 71
 open-commitments: 5
 open-questions: 0
 ---
@@ -222,8 +222,23 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — review Daniil's PR in "lover forтуне" (heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
+## Oct 29 2026 (11:59 AM) — his engine requirements; told not to code yet; two engine tasks and a spike
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian) he presented the capabilities he had collected with AI from the existing platforms as a toolbox, and his engine requirements list (sound with Kira, player video, shaders, platforms, an inspector and AI API, modularity, Rust) [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. He wanted to start coding that week; Val said no — full description, MVP split, schedules and a test environment come first, and he builds the engine with Igor and Biratka, not alone [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. He guessed MVP 1 at a few days to a week [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. His items — a modularity spike due Nov 2, the editor and textured-text requirements, and the requirements into Jira with the NOVA component — are on [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+
+## Oct 30 2026 (in absentia) — named as holding part of the NOVA architecture
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] Pavel said part of the NOVA architecture "уже там на себя взял Антон ришкевич" (a garble of Leshkevich) [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
+
+## Oct 30 2026 (4:45 AM) — the modularity spike half done; no Jira task yet; requirements into Jira today
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] he said he is splitting his prototype into modules, with each game's maths in its own module, about half done. There is no Jira task for it — Pavel: "Нету задачи нету работы" — so he will ask the PM agent to create one. He had not yet moved the engine requirements into Jira and would do it that day, as Biratka asked — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Oct-30 note).
+
 ## Sources
 
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
 - [[raw/Meeting_Transcript_Vertical_Game_Skeletons_and_Art_Pipeline-September-17-2026.md]]
@@ -291,3 +306,6 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]

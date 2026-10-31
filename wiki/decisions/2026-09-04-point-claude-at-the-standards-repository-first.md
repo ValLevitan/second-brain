@@ -3,9 +3,9 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 13
+source-count: 15
 status: active
-open-commitments: 6
+open-commitments: 7
 open-questions: 1
 ---
 
@@ -103,6 +103,14 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 
 - Does every developer — including Daniil — now have access to the knowledge repository? Kovalchuk said it should be open by default; a re-check was mentioned, with no owner named — [[raw/Meeting_Transcript_Daily_Standup_Capability_Test_Status_and_FlexPort_GUI-September-22-2026.md]]
 
+## Update, Oct 30 2026 — Val's reminder: put your own standards in the repository
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] Val reminded everyone that the GitHub standards repository holds all the standards; he points his own Claude at it to ask whether a standard exists for what he is working on, and asked each person to put their own standards there too [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+
+### Open commitments (Oct 30 2026)
+
+- [ ] Pavel Frolov, Dmitri Chudinov, Alexander Biratka and Irina Shishko (all attendees) — add your own standards to the GitHub standards repository — due unspecified — [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -117,3 +125,5 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]

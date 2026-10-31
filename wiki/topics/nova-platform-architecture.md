@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 99
+source-count: 103
 open-commitments: 72
 open-questions: 38
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -839,8 +839,28 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — work out the server side of the NOVA update system, from Pavel's draft — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
+## Oct 29 2026 (11:59 AM) — the new engine's requirements so far; no code until it is described, split and scheduled
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian; Val present) [[wiki/people/anton-leshkevich.md|Leshkevich]] walked through his engine requirements [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]:
+
+- **The list.** Screenshots of screens, scenes or objects; sound inside the engine instead of LGS (Kira recommended); player video rebuilt on a server from saved round state, not a buffer on the machine; shaders from the start; Linux on x86 and ARM, Windows for testing only; WebAssembly as a future idea; an inspector sharing one module with an AI API, with MCP on top; games and bonuses as loadable modules; adding resources to a scene without reload; textured and gradient text; Rust [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **The ruling.** Val: first the full description, then MVP 1/2/3, schedules and a test environment, then code; Anton, Igor and Biratka build it together — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+- **The framework.** Reel spin, buttons, sliders, tickers and rich text must be ported to Rust from Omni or Rage; Daniil's capabilities describe this work and are reviewed by Biratka, Igor and Anton [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+
+## Oct 30 2026 — remote update for NOVA: NOVA only, Texas first, full architecture before the MVP split
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (Russian; Val present) the team talked through how games and other components reach a NOVA machine remotely — details on [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]] [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]:
+
+- **Rulings.** Remote update is for NOVA only — the current platform cannot do it; the first market is Texas; the full architecture is written first and split into MVPs after; one list of allowed updates for JVL's own and sold machines; architecture decisions (ADRs) go in the NOVA integration repository, since it crosses all repositories [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+- **Shape talked through.** A cloud server with every signed release; a "fingerprint" the machine sends after an update; two slots as on Transactional (RAUC), falling back after 3–4 failed boots; games, maths, bonuses, LGS, progressive controller and HAL packages as separately replaceable modules; a compatibility map proven on a test stand. Open: delta or full image, maths per game, LGS storage when games change, and who runs the update on the machine [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+- **NOVA vs Galaxy.** Val: the two architectures cross; Galaxy is Chudinov's. Pavel: Galaxy controls updates through an update manager and a module linking component versions; NOVA as a project covers the engine, games and framework; part of the NOVA architecture is already Leshkevich's [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+- **No experiments yet.** Pavel: real update experiments wait until the NOVA integration repository produces one full build ("женя" is on it — read as Kharetski, **inference**) [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+- **On earlier commitments.** Pavel's Oct-18 design for erasing and writing games: he says he has started the architecture and sent it, but it lacks points raised here — left open. Chudinov's Oct-29 server-side task: not reported on; he will organize Galaxy sessions next week — left open [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Diagnostic_Tool_on_Install_Stick_NOVA_FP7_and_RK-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -941,3 +961,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]

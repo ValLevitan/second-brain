@@ -3,7 +3,7 @@ type: decision
 title: Remote firmware update is in MVP 1 — Flex IQ and FlexPay update themselves first; distributing firmware to the Flex-Ports left MVP 1 on Sept 17, came back on Sept 28, and left again on Oct 15 — MVP 1 keeps only the Flex-Port update by USB stick, and remote Flex-Port update is MVP 2
 date: 2026-09-14
 aliases: [firmware upgrade in MVP1, remote FlexPort update moves to MVP2 again, USB-stick update is the only MVP1 gap, capability 146, PORT-13, remote FlexPort update back in MVP1, remote firmware update, OTA firmware, приоритет номер один это чтобы обновлялся флекс ай кю, flash the FlexPorts, Flex IQ to FlexPort protocol, доперфек, priority two deferred, FlexPort firmware by USB stick, capability 144 to MVP2, capability 144 cloned, no rollback, roll forward only, requirement 1367, IO board update on the fly, обновление ио барда]
-source-count: 43
+source-count: 45
 status: active — priority two (remote update of the Flex-Ports) left MVP 1 on Sept 17 2026 and RETURNED to MVP 1 on Sept 28 2026 (capability 146); rolling BACK to a previous build stays out of MVP 1 (Sept 18 2026); the delivery design is still open as of Oct 1 2026 (parked "to tomorrow" on Sept 30 and not taken up on Oct 1); see the dated updates below; Oct 15 2026: the IO board is to be updated along with Flex Pay and Flex IQ firmware; Oct 15 2026 (11:04 AM): remote update of the Flex-Ports moved to MVP 2 again — MVP 1 keeps only the USB-stick update, its one remaining gap (see the Oct-15 11:04 AM update); Oct 16 2026: remote update of the ports through Flex IQ confirmed as one of MVP 2's two tasks; Oct 20 2026: restated — MVP 1 is released only when the Flex-Port updates by USB stick, remote update is MVP 2; capabilities 137, 122 and 146 get the MVP 2 mark (see the Oct-20 update); Oct 20 2026 (7:01 AM): Alekseev's branch HFM-663 builds a release and the USB-stick update passed on the second try, but the application hard-faults and keeps beeping; Val: MVP 1 needs only the easy release build and the USB update (see the Oct-20 7:01 AM update); Oct 23 2026: remote port update restated as MVP 2, capability 146 to be split into USB and remote parts, and Tsymanov takes the Flex IQ → Flex-Port delivery side (see the Oct-23 update)
 open-commitments: 20
 open-questions: 5
@@ -336,6 +336,14 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — change the firmware-transfer protocol to the Flex-Port, build and test it, and agree it with "Dima" — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — update CI for the production update — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 
+## Update, Oct 30 2026 — the remote-update meeting is held, for NOVA; the Flex IQ update is the model
+
+The remote-update meeting spoken of at the Oct-27 stand-up was, by its topic, held on Friday Oct 30, 9:03 AM (**inference** — Oct 27 named Thursday, and Biratka mentioned a Friday meeting) ([[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]]; Russian; Val, Pavel, Chudinov, Biratka, Irina) [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. It is about **NOVA only** — Irina: what was described "в текущем не работает" — so it does not change this page's Flex-Port/Flex IQ scope; details on [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]] [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+
+- **Flex IQ as the model.** Pavel: the NOVA update will work as for Transactional — duplicate partition, switch, roll back after 3 or 4 failed boots — "Это то, что называется раук". Chudinov: on Flex IQ a RAUC application starts first, talks to the server, checks checksums, applies and rolls back; with Andrei he measured that 300 MB takes 20 to 30 minutes at about 6 Mbit/s [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+- **Health checks.** Chudinov: on the IQ terminal a health check passed while the browser hung; he added a small watchdog to check it reached the right screen [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+- **On the Oct-27 commitments.** Pavel had sent his draft ("то, что я вам сбрасывал") — his half is met; a separate proposal from Biratka is not mentioned, so the line stays open. Kharetski is not among the speakers, so "invite Kharetski" is not shown met — left open [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Hardware_Priorities_TITO_Case_and_Street_Cabinet-September-14-2026.md]]
@@ -381,3 +389,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]

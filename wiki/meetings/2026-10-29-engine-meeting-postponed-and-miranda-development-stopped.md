@@ -20,13 +20,14 @@ open-questions: 0
 
 - [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]] — Step 2: Val stops Miranda development; Kharetski and Irina agree; Sasha, Irina says, sees it has outlived itself.
 - [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 note) — the engine meeting moved; held at noon per the notes.
+- [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md]] — segment 2, the meeting held at noon.
 - People: [[wiki/people/anton-leshkevich.md]] (absent) · [[wiki/people/alexander-biratka.md]] ("Sasha", in absentia — **inference**)
 
 ## Notes on the sources
 
 - **§12 — new meeting.** The notes and the transcript share the date, time and title and link each other. A corpus-wide search for both filenames, "October-29-2026" and "2026-10-29" found no page citing either file and no stub for this session.
 - **Who was missing.** The transcript never names him; Val calls him "очень обязательный человек". The notes name Anton Leshkevich [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]], which fits Val's "Сантона" meeting set at about 8:16 AM [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]].
-- **Segment 2.** The notes say the full meeting took place at noon the same day [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]; that recording is a separate source.
+- **Segment 2.** The notes say the full meeting took place at noon the same day [[raw/Meeting_Notes_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]; that recording is a separate source, stubbed at [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md]] (11:59 AM – 1:04 PM).
 - **Not recorded:** guesses about why he was absent; goodbyes; the opening lines, which are garbled ("Theuts sup privesy возмо").
 - **§15.8:** clear. **§15 #9:** clear.
 

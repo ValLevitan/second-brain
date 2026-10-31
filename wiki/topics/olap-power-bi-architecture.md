@@ -3,8 +3,8 @@ type: topic
 title: OLAP / Power BI / Active Directory architecture (machine-data visualization)
 date: 2024-12-01
 aliases: [OLAP, Power BI, Tableau, Active Directory, Azure AD, Entra ID, SQL OLAP visualization, SAS host, casino as a service, ClickHouse, data collection cube, RAS, share percent, Business Central stats]
-source-count: 5
-open-questions: 4
+source-count: 6
+open-questions: 3
 disambiguation: "The two OLDEST source meetings are internally dated ~2024 (likely Q4 2024) despite a 2025-03-29 staging date — see the date notes on those meeting stubs. Frontmatter date is a placeholder for that origin material; the page also carries current-state 2025–2026 updates. Everything in the '~2024' sections is as-of ~2024 history relative to the later timeline."
 ---
 
@@ -54,6 +54,8 @@ A Russian working call ([[wiki/meetings/2025-06-10-data-collection-bi-architectu
 
 ## The Mar-23 2026 decision — drop Tableau/Excel, MCP-to-cube as the interim, full CMS-to-cloud migration
 
+*Oct 29 2026: the MCP-to-cube interim below was replaced by a legacy-CMS Excel export — see the Oct-29 section.*
+
 A ~46-min Russian working call ([[wiki/meetings/2026-03-23-data-access-strategy-cms-cloud-migration.md]]; recording header 1:34pm) with [[wiki/people/val-levitan.md|Val]], the back-end "Dima" [[wiki/people/dmitri-chudinov.md|Chudinov]] (transcribed "Dzmitry Chudzinau"), the IT "Dima" [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] ("Sergey Tsimanov") and DevOps [[wiki/people/andrey-bosik.md|Andrei Bosik]] — the direct 2026 continuation of the ~2024 stack above and the June-2025 cube rebuild. Facts here are drawn from the transcript (primary source of record for a §12 derived-document family: transcript + two distinct derived notes — see the meeting stub). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
 - **The question and Val's lean.** Val opened saying he is inclined to go **straight to MCP** (conversational AI queries against the OLAP cube) and sees very few benefits in continuing with **Tableau / Microsoft BI** dashboards; he called the meeting to break a stalled chat debate (Chudinov had earlier posted a comparison table). [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
@@ -70,11 +72,21 @@ A ~46-min Russian working call ([[wiki/meetings/2026-03-23-data-access-strategy-
 
 This closes the loop on the "get off Excel; collect → SQL → cube → visualize" direction and the Tableau-brittleness complaints from the June-10/11 2025 sections above — the answer settled on here is MCP-to-cube now, full cloud migration (PostgreSQL + Entra SSO) later.
 
+## Oct 29 2026 — the interim changes: a role-limited Excel export from the legacy CMS; Tableau dropped
+
+On the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] (Russian; Val, Chudinov, Bosik, Kovalchuk, Tsymanov) the Mar-23 MCP-to-cube interim was replaced. Detail on [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
+
+- **Trigger.** Georgia machines now report over LTE modems, and nobody understands the Tableau reports; Juan's game statistics had been pulled by hand with database queries into Excel [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]].
+- **Ruling (Val).** An Excel export from the legacy CMS, not Tableau and not an MCP: account statistics by game, operator, jurisdiction and date, six months at most per export, each user limited to their region (Marta Colombia, Felipe Georgia; Val all). The team argued an MCP cannot enforce per-user permissions and would load the database; the legacy CMS already knows each user's filter [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]].
+- **Tableau.** Val: "Мне табло не нужен вообще." Stop updating the reports, bury the Tableau structure, and give up the licence (it runs to May) once the export is delivered [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]].
+- **Target.** Ready by Nov 7 2026, work starting Monday (Chudinov) [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]].
+- **What this answers.** The Mar-23 open question on an auth gate for the MCP-to-cube interim is moot: the MCP route was not taken, and access is limited by the legacy CMS login instead [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]. Whether the full cloud-migration plan still stands was not discussed (it stays open below).
+- **History echo.** Tsymanov: such an export already existed; with no time limit users pulled a year or two of data, which was slow and broke — why the move to OLAP began [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]. The six-month cap answers that old failure (**inference**).
+
 ## Open questions
 
 - What does the cloud stack actually cost per month (MS SQL vs PostgreSQL scenarios)? Gates the whole migration decision — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - Can the OLAP cube support per-user / per-dimension role-based filtering, or is a separate cube per consumer required? — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
-- For the ~6-month MCP-to-cube interim, what auth gate exposes the on-prem cube without opening it wide? — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 - Does cloud PostgreSQL cleanly handle the existing stored procedures / SQL feature set? — [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
 
 ## Sources
@@ -84,3 +96,4 @@ This closes the loop on the "get off Excel; collect → SQL → cube → visuali
 - [[raw/architecture_data_collection-june-10-2025.md]]
 - [[raw/games_design-june-11-2025.md]]
 - [[raw/Meeting_Transcript_data_access_strategy_and_cms_cloud_migration-March-23-2026.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]

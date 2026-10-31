@@ -3,7 +3,7 @@ type: decision
 title: Capabilities sit in one flat list under each platform, views come from filters, and releases are Jira timeline lines — not initiatives
 date: 2026-09-24
 aliases: [one long list of capabilities, flat capability list, releases are vertical lines, no release-named initiatives, Core value stream, Core and Tools rename, Galaxy Platform, remove the product IP layer, Games Core Hardware value streams, IP-1204 Core, IP-738 Tools, IP-481 NOVA Gaming Platform Land-based, IP-1199 IP-1202 MVP split]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 4
 open-questions: 2
@@ -69,7 +69,13 @@ At the [[wiki/meetings/2026-09-25-games-conversion-repos-jira-capabilities.md|Se
 - **Applied.** Pavel picked the existing initiative "снова геймин платформ лэндбэйст" (NOVA Gaming Platform Land-based) with the capability for RAGE-to-NOVA conversion under it; two projects follow. Detail on [[wiki/decisions/2026-09-25-the-conversion-experiment-closes-and-the-converter-gets-its-own-project-and-repository.md]].
 - **Order.** Kovalchuk: "Сначала репозитории создаем. Потом проект", since Jira project names match repositories. Val asked for it in the standard; Pavel: "Она внесена уже".
 
+## Update, Oct 30 2026 — a naming standard for releases: project name, then MVP number
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] Val asked for a standard: in Jira a release is named by the project, then "MVP" and its number; all items go under it, it gets a date, and the date is the vertical line on the Jira timeline [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Irina: keep names short, or "MVP 1" gets pushed far right — on Transactional they first wrote "MVP 1" and later swapped it with the name. Pavel: "project" is a Jira term (one project = one GitHub repository), so the release is really a group of work across projects; Irina: the release holds capabilities, then features by project [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Val: "это не от меня зависит. Я просто говорю, что давайте стандарт" [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. The name for the remote-update release was not settled — see [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_GALAXY_Jira_Hierarchy_Cleanup-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Games_Conversion_Repos_Jira_Capabilities-September-25-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]

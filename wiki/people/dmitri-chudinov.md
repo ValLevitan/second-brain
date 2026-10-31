@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 97
-open-commitments: 47
+source-count: 102
+open-commitments: 50
 open-questions: 0
 ---
 
@@ -653,6 +653,31 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 
 Back at the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] — Pavel referred to "перед тем, как ты уходил в отпуск". He asked how it had all gone — "по всей теме заработали не заработали"; Pavel: SAS worked only with Aristocrat; he asked whether installs are planned — no — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update). Val's email on how NOVA will update components and games has a general draft from Pavel; the server side is his to work out — [[wiki/topics/nova-platform-architecture.md]] (Oct 29). He said a meeting that day would be about "нашему табло": by an email, modems were put on some machines and Val wants reports. He also said, in a garbled passage, that the main server ("сваха опять на основной серый арене летит", **unclear**) is failing again after one of JVL's machines was connected, and the maths must be reworked ("Надо поднимать математику") [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]. What exactly fails is **unclear**.
 
+## Oct 29 2026 (8:31 AM) — the legacy-CMS Excel export replaces Tableau; he builds it by Nov 7
+
+At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]: in recent months Juan asked for game statistics, which Tableau has no report for, so he ran database queries and made Excel files by hand. He proposed web-interface reports instead of Tableau, said the database is the main source of truth, and said an MCP cannot enforce per-user restrictions. The legacy CMS already has a reports section and part of the function. He gave the recap: a role-based export for internal JVL users of account statistics by game, operator, jurisdiction and date, each user limited to their region, and the user flow (log in, pick filters, Apply, the browser downloads the file). On Galaxy: the Transactional stack planned on the server side is ready; the machine side must be discussed and turned into capabilities before coding — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
+
+### Open commitments (Oct 29 2026)
+
+- [ ] Dmitri Chudinov — extend the legacy CMS export into the role-based Excel export (game, operator, jurisdiction, date; six months at most; region limits) — due Nov 7 2026 (start Mon Nov 2) — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [ ] Dmitri Chudinov — give Efim full access to all the data — due with the export — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+
+## Oct 30 2026 — components, the compatibility map, Flex IQ lessons; Galaxy sessions next week
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (Russian; label "Dzmitry Chudzinau") he asked to start from the paradigm: today games are "nailed" to the software; the goal is a container for maths, games and settings. He wants today's build split into versioned components and a tool to compare two builds; compatibility proven on a test stand. From Flex IQ: 300 MB took 20 to 30 minutes at about 6 Mbit/s, and a health check once passed while the browser hung [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Val: Galaxy is his; he will organize sessions next week on the Galaxy questions — server work, jurisdictions, users, machine registration [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
+
+## Oct 30 2026 (4:45 AM) — CI/CD through a task; the report capabilities; Andrei's edited requirements
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]:
+- **CI/CD.** He said the build parameters exist for a reason and he runs builds through Claude Code; he asked for a Jira task with priorities instead of chat requests. Pavel ruled the default build must work with default parameters — [[wiki/decisions/2026-10-30-the-default-ci-build-action-builds-with-default-parameters-for-its-target-environment-and-a-many-parameter-action-is-kept-for-claude-and-special-cases.md]].
+- **Report.** He created capabilities and features for the report with an Excel export (the Oct-29 Tableau replacement — **inference**); the RIS and passport migration items lost their dates — Pavel had removed them; Chudinov: they can go, "тем более они бипы", and Galaxy will bring costly tasks later [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- **Andrei's requirements.** Irina asked him to review the requirements Andrei edited and to file items where code must change — she named 1815 (on Samusenko and him) and 917 (on him; heard) [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+
+### Open commitments (Oct 30 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — review Andrei's edited requirements and file the items on himself and Samusenko (1815, 917 — heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -752,3 +777,8 @@ Back at the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-an
 - [[raw/Meeting_Notes_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]

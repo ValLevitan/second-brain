@@ -4,8 +4,8 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 153
-open-commitments: 50
+source-count: 157
+open-commitments: 51
 ---
 
 # Andrey Bosik
@@ -689,7 +689,21 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] Val sent Nathan Carver to "get together with Andrei Bosik" about the persona repository — "he is working on AI Project Manager" — to move the hardware agent's instructions there. Nathan thinks "Andrei may have to provide" Genadi's MSBC client ID — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
 
+## Oct 29 2026 (8:31 AM) — Excel over MCP; Tableau to be dropped
+
+At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] he asked who still views Tableau reports and whether anyone outside the company does. He first proposed a web portal behind the Transactional system's login for the old machines tied to the legacy CMS, then backed the Excel export from the legacy CMS as fastest: no authorization, token or security work, as the CMS already knows the user and the filter. An MCP working straight on the database would raise its load. He asked whether Tableau can then be dropped; Val: stop updating it and give up the licence once the export is delivered — "Принято" — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
+
+### Open commitments (Oct 29 2026)
+
+- [ ] Andrey Bosik — stop updating the Tableau reports and give up the licence once the Excel export is delivered (licence runs to May) — due after the export ships — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+
+## Oct 29 2026 (11:59 AM) — Linux x86 or ARM; Unity's MCP; Igor's tool as part of Anton's engine
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian; label "Andrei Bosik") he asked which Linux — x86 or ARM (answer: both); noted Unity has MCP support built in; found full browser support excessive; added CI/CD, autotests and the CMS link to the pipeline; and said Igor's tool should become part of Anton's system, with a clear line between them [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Details: [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -847,3 +861,5 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]

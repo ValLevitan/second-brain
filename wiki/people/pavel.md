@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 267
+source-count: 271
 open-commitments: 108
 open-questions: 0
 ---
@@ -1363,7 +1363,17 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 
 At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] he gave the field result — SAS worked only with Aristocrat, so the first installs go in bill-validator + pulse mode, and no install is planned until Felipe names the operator and equipment — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update). He set the cash-out progress screen in whole dollars (requirement 1960, heard) — [[wiki/decisions/2026-10-29-the-flex-port-screen-shows-the-cash-out-amount-in-whole-dollars-as-the-pulses-are-counted.md]] — and said the latest port builds add up a cash-out that goes on after the timeout. On agent-made requirements he said they can sit with whoever reviews them, and do not matter once accepted — [[wiki/decisions/2026-10-28-a-story-under-a-completed-feature-does-not-reopen-it-automatically-and-the-storys-creator-moves-the-feature-or-picks-another-parent.md]] (Oct-29 update). He said the team is not ready to build the new engine and browser games are paused, and will talk with Igor about work for Daniil — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 stand-up note). He also passed Val's question on the NOVA update system to Chudinov ([[wiki/topics/nova-platform-architecture.md]], Oct 29), will review Seregin's Wi-Fi list ([[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]], Oct-29 update), and set a 12:40 meeting on old RIS with linked progressives ([[wiki/topics/ris-remote-install-and-machine-states.md]], Oct 29).
 
+## Oct 29 2026 (11:59 AM) — server-side player video; who reviews Daniil's capabilities; the NOVA component in Jira
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian) he said Daniil's spike already sends round state to a server-side service that rebuilds the player video, so the machine keeps playing; he steered the review of Daniil's capabilities to Biratka, Igor and Anton (and offered himself), not the young specialist; and asked that the engine requirements in Jira carry the NOVA component, as the existing capabilities do [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Details: [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+
+## Oct 30 2026 — the NOVA remote-update model; full image where checksums are checked; ADRs in the integration repository
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (Russian) he set out the update model — a cloud server with every signed release, a "fingerprint" sent after the update, two slots as on Transactional (RAUC), and separately replaceable modules — and three kinds of market, from no updates to no outside control [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He would skip patches where checksums are checked and send the whole system image [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He proposed keeping the architecture decisions in the NOVA integration repository, and Val agreed; he will update his architecture document, with capabilities and open questions, for a review in a week [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -1635,3 +1645,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 80
+source-count: 87
 open-commitments: 12
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
@@ -332,7 +332,26 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 
 At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] he said he cleaned up Jira, the RIS-progressive work is mostly finished, and next come the JSON agent and bug fixes. For applying old RIS with linked progressives he needs a requirement with criteria — "Мне нужно решение, как это должно работать" — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 29).
 
+## Oct 29 2026 (11:59 AM) — presents his agent as step one of the game pipeline
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian) he presented his Teams agent with access to the second brain's wiki of earlier games, which interviews a designer and outputs a full game specification for Igor's tools; he placed the engine between Igor's step and Val's release step [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Val: his tool must steer the creative leader back when stuck — part of MVP 1 — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 noon note) [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
+
+## Oct 30 2026 (in absentia, inference) — the NOVA integration build gates update experiments
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (he did not speak) Pavel said real remote-update experiments must wait until "женя" finishes the NOVA integration repository — all components in one build; Chudinov also suggested "саша с Женей" look at what can stay in the machine's fast memory and what can move to a database. Both are read as Kharetski by context (integration repository; LGS) — **inference** [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
+
+## Oct 30 2026 (4:45 AM) — a regulation and two feature requirements done
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] he said he had finished the regulation ("регламент") discussed earlier and two feature requirements, but was not sure he had committed them, and was preparing for a meeting that day (the notes: the competitor teardown).
+
+## Oct 30 2026 (8:03 AM) — the competitor teardown: Claude breaks down four games from YouTube; his validation test by Nov 6
+
+At the [[wiki/meetings/2026-10-30-ai-competitor-game-teardown-and-mechanics-library.md|Oct-30 teardown review]] (Russian) [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] he showed what Claude got from free YouTube videos of Aristocrat, IGT and other games — 234 minutes across four games: the mechanics, bonuses, grids and animations, and only a rough maths model — and a first capture list for filming other companies' machines. Val ruled "mechanics, not maths". He proposed proving the method first: a blind video breakdown of a JVL game compared with a wiki built from its code; Irina had him take one game from each of the three products on the GA-COAM machine; due Fri Nov 6 — [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]]. This discharges his Oct-24 hypothesis-test commitment — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-30 update).
+
 ## Sources
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -414,3 +433,8 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
+- [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]

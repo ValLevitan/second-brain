@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 111
+source-count: 112
 open-commitments: 24
 open-questions: 0
 ---
@@ -470,6 +470,10 @@ He read Val a customer's request for a 60-day countertop trial on TITO; Val thou
 
 At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] Pavel said "Филипп" has been asked to say which operator, when, and the list of machines and equipment for the first installs; it is not finalised, so no install is planned — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update). That "Филипп" is Felipe Miranda is an **inference** from his Georgia sales role.
 
+## Oct 29 2026 (8:31 AM, in absentia) — Georgia-only access to the new Excel export
+
+At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] Val said Felipe looks only at Georgia and works very comfortably with Claude. Under the new legacy-CMS Excel export he logs in with his own credentials, picks filters, downloads the file and builds reports alone or with Claude; he sees Georgia only, and takes questions on the numbers to Efim — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -583,3 +587,4 @@ At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-a
 - [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]

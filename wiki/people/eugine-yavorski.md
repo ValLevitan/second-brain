@@ -4,8 +4,8 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 40
-open-commitments: 6
+source-count: 42
+open-commitments: 8
 ---
 
 # Eugine Yavorski
@@ -200,6 +200,22 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — ask "Dima" to remove Yavorski from the reviewers of the HFM-692 project — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 
+## Oct 30 2026 (in absentia) — blocked from merging into Flex-Port main; pull requests still allowed; no fork
+
+At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]:
+
+- **Private messages.** [[wiki/people/alexei-khamin.md|Khamin]] asked what to do with "егорским" — he keeps writing to Khamin privately about tasks (that something works, can be closed, should be tested). Khamin: Val last said he is not on the project, "но я смотрю, что как как зомби идёт". [[wiki/people/pavel.md|Pavel]]: they cannot send him anywhere yet; the question whether the work with him is closed must be raised with Val. [[wiki/people/alexander-biratka.md|Biratka]]: tell him Val said he is not on the project, and ignore him [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- **Jira access.** Pavel recalled that Val approved access for "евгениям" (read as Yavorski and Alekseev — **inference**) to all Jira projects; [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: not all — they asked for FPORT and were given FPORT [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- **The risk.** [[wiki/people/irina-shishko.md|Irina]]: he may take Flex-Port tasks, but must not break anything — the team builds and verifies, then a commit of his arrives. Khamin: what he works on already works, he will merge with priority to his own code, "а он пишет хуже". Irina: the tests cannot yet be run in full, so nobody would know where the damage is [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- **The ruling (Pavel).** "можем мы запретить яворского, чтобы он делал слияние в мейн? То есть он пиар… открывает, но чтобы он в мэйн не мог сам заливать." Kovalchuk: probably possible; for the Flex-Port repository ("Лекпорт"), his only one — Pavel: there is also "флекс сми" (heard), which he has not touched for long. Kovalchuk asked whether Alekseev too; Pavel: "Нет Алексеев пока оставляем" — Irina: Alekseev does other work the team knows and waits for; from Yavorski "мы сейчас не ждем ничего" [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]. The notes record it as Pavel's decision: no merging into main, pull requests still allowed, no fork [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- **No fork.** [[wiki/people/anton-seregin.md|Anton Seregin]] suggested a fork; Pavel: if Yavorski builds his own version of old fixes, "мы никогда уже не сольём в нашу версию, потому что она будет слишком далеко" [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+- **Release first.** Pavel himself will merge nothing into main — not even his Wi-Fi work — before the port release "сегодня завтра", so nothing extra slips in [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]].
+
+### Open commitments (Oct 30 2026)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — block Yavorski from merging into main in the Flex-Port repository (pull requests still allowed; Alekseev keeps his access) — due Oct 30 2026 (the notes) — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — ask Val whether JVL's work with Yavorski is closed — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -242,3 +258,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]

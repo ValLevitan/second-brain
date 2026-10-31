@@ -3,7 +3,7 @@ type: decision
 title: Val's MVP 2 — no Flex Pay; Flex IQ, Wi-Fi configuration, remote update for the Flexports and Flex IQ, diagnostics, Galaxy transactional brought up to reporting and dashboards, and the location's bank shortfall paid by card with the operator as guarantor — Flex Pay is retagged MVP 3, and each MVP takes two to three weeks with testing alongside development
 date: 2026-10-15
 aliases: [MVP 2 scope Oct 15, no Flex Pay in MVP 2, Flex Pay to MVP 3, retag Flex Pay MVP 3, гвоздь программы это вай фай, Wi-Fi is the centrepiece of MVP 2, remote update of Flexports moves to MVP 2, Galaxy transactional reporting and dashboards, location shortfall paid by card, Stripe on the location page, operator as guarantor, two to three weeks per MVP, desirably two weeks, development in parallel with testing, Andrei writes only functional requirements]
-source-count: 8
+source-count: 9
 status: active — Val's view, subject to the final MVP 2 list he is polishing with Andrei (Klimovich, by context — inference); Oct 16 2026: Pavel reported MVP 2 as only Wi-Fi and remote port update through Flex IQ, with Flex Pay renamed MVP 3 — the width of MVP 2 is an open contradiction (see the Oct-16 update)
 open-commitments: 8
 open-questions: 2
@@ -98,7 +98,7 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 ### Open commitments (Oct 29 2026)
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review Seregin's Wi-Fi list and start entering the capabilities and requirements — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review Seregin's Wi-Fi list and start entering the capabilities and requirements — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] — *Oct 29 2026 (10:32 AM): in progress — Seregin turned the Wi-Fi meetings into capabilities and requirements and they began to appear in Jira that day; Pavel had read one, on Flex IQ, and found it correct; the rest is still to be reviewed* — [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
@@ -109,3 +109,4 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]

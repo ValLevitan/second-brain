@@ -3,7 +3,7 @@ type: person
 title: Marta (Automated Technologies)
 date: 2025-03-22
 aliases: [Marta, Martha]
-source-count: 4
+source-count: 5
 ---
 
 # Marta (Automated Technologies)
@@ -24,9 +24,14 @@ On the Apr-3 tech call ([[wiki/meetings/2025-04-03-sd-printer-and-mh1-settings.m
 
 On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-23 cash-position call]], Val reminded Igor Donis that "Marta will have to add a little bit of money for the EDS payment." Igor said Laura and Martha told him she will not pay; Val: "they withheld the money from paying us." Igor is waiting for Laura and Martha to send him the EDS-vs-Colombia offset position before asking Colombia to send money to JVL. Detail on [[wiki/organizations/eds-colombia.md]] (Sept 23). *(Same "Marta/Martha" who pays the Colombian share to EDS — by the Colombia/EDS context.)* [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 
+## Oct 29 2026 (8:31 AM, in absentia, inference) — Colombia-only access to the new Excel export
+
+At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] Val said "Марта смотрит только на колумбрю" and that Marta will want an Excel file; under the new legacy-CMS export she is to be limited to Colombia — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]]. That this is the same Marta is an **inference** from the Colombia scope.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - [[raw/meeting_with_julian_puerta_texas_eds.md]]
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
+- [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]

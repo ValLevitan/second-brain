@@ -3,7 +3,7 @@ type: decision
 title: Vladimir Samusenko is invited to be product owner of the new NOVA (a thinking owner who writes no code on it), Pavel writes the role and meets him Monday Oct 26; meanwhile each engineer drafts use cases, personas and capabilities in one file per person in a new repo, groomed from Tuesday Oct 27 and merged into Jira by AI (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [NOVA product owner, product owner for NOVA, продакт онор, prodactoner, Samusenko product owner, Самусенко продакт онор, product owner and developer conflict, one file per person capabilities, capability files in a repo before Jira, grooming capabilities MVP1 NOVA]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 4
 open-questions: 1
@@ -48,7 +48,7 @@ Decided by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/202
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write the product-owner role description (persona) and hold a meeting with Vladimir Samusenko to invite him — due Mon Oct 26 2026 — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — write the product-owner role description (persona) and hold a meeting with Vladimir Samusenko to invite him — due Mon Oct 26 2026 — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] — *Oct 29 2026: the talk has happened — Pavel spoke with him about taking on product-owner duties and he is interested; whether the written role description exists is not said* — [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
 - [ ] Leshkevich, Metelski, Biratka, Kharetski, Frolov and Shishko — each write his own use cases, personas and capabilities for the new NOVA engine and platform, one file each, pushed after a couple of hours of local work — due Mon Oct 26 2026 — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [ ] Owner not named (Pavel proposed it) — create the new repo/project for the capability files — due before Oct 26 2026 — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [ ] The team with Samusenko — groom the capabilities for NOVA MVP1 — due Tue Oct 27 2026 (start) — [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
@@ -63,9 +63,15 @@ Decided by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/202
 
 At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlanta-port-test.md|Oct-23 Minsk stand-up]] (Russian; Val absent) [[wiki/people/anton-leshkevich.md|Leshkevich]] said he has written "достаточно внушительное количество" of requirements and asked where to put them online. [[wiki/people/pavel.md|Pavel]] opened the NOVA project's repository (name **unclear** in the transcript) — "Давайте сюда в папочку dox сложим" — maybe with a subfolder "На на рассмотрение" (for review); "туда всем все будем чегото складывать, потом объединим и обсудим" [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]. This is a folder in the existing repository, not the new repo/project Pavel proposed on Oct 21; whether that commitment is met is not said, so it stays open.
 
+## Note, Oct 29 2026 — Samusenko is interested
+
+At a [[wiki/meetings/2026-10-29-minsk-team-reorganization-and-staffing-review.md|10:32 AM call with Val and Irina]] (Russian), Pavel said Vladimir had been tried in autotests, where he showed perhaps the best results of all, and that Pavel had now talked with him about taking on product-owner duties: "он заинтересовался" [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]. The notes record it as "agreed to try a product owner role" [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+- [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]

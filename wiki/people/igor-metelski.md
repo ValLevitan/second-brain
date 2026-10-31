@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 60
+source-count: 64
 open-commitments: 31
 open-questions: 1
 ---
@@ -301,7 +301,18 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 
 At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] "Игорь" was absent. Pavel recalled that Igor made South Dakota games vertical from horizontal ones by converting resources, and will talk with him about Daniil doing such conversions — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-29 stand-up note). That this "Игорь" is Igor Metelski is an **inference** (the Minsk game developer at this stand-up).
 
+## Oct 29 2026 (11:59 AM) — his toolkit as a pipeline step; shaders-or-video spike; one of three engine builders
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian) he presented his Claude plugin's steps from Kharetski's brief to a YAML scene — [[wiki/topics/game-art-animation-production-pipeline.md]] (Oct 29, 11:59 AM) [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. He raised that Rage cannot put a texture or gradient on text, now an engine requirement, and took a spike on shaders against video on real machines, due Nov 2 [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Val named him, Anton and Biratka to build the engine together, and he is one of the three reviewing Daniil's capabilities — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+
+
+## Oct 30 2026 (8:03 AM) — bonuses as pluggable modules; he adds to the engine requirements list
+
+At the [[wiki/meetings/2026-10-30-ai-competitor-game-teardown-and-mechanics-library.md|Oct-30 teardown review]] (Russian) [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] he said that from a written-up mechanic the team could build a working bonus with placeholder scenes, define the code contracts, and learn what the maths must provide — [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]]. He described the new framework as separate pluggable modules — engine, framework, games and bonuses — bound only by the framework's contracts, so new bonuses need no framework change; where a bonus's resources live is left for later — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Oct-30 teardown note). Val gave him the addition to the engine requirements list (requirements, not architecture), and first named him for writing up the mechanics of JVL's newer games; that owner is not settled — both commitments are tracked on those decision pages. He also said JVL's maths tests start "От 4 миллионов" games [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -363,3 +374,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
+- [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]

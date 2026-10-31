@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 458
+source-count: 462
 open-commitments: 83
 open-questions: 1
 ---
@@ -1768,7 +1768,17 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] he had Nathan explain contract generation, said an agent is a persona that needs an auditor agent, and ruled: the hardware agent's instructions move to the persona repository; GitHub is the source of truth, so "Grok or… any cloud services" could do the work Claude Code does — "I don't see why we need to be married to… a single… Ai model"; vendor admin data stays out of GitHub; a BOM with missing data "should collapse". He will point the AI COO at the repository and booked the next review for Wednesday Nov 4, 2:00 PM — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
 
+## Oct 29 2026 (11:59 AM) — the new engine: describe it all, split, schedule, test environment, then code
+
+At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian) he stopped Anton from starting code: first a full engine description with every wish, then MVP 1/2/3, an overall and an exact MVP-1 schedule, a test environment, then code; he put Anton, Igor and Biratka on the engine together and said the creative leader's flow must be in MVP 1 [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. He shared a tip: ask Claude for a two-paragraph prose summary of an engine, then its opinion [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Details: [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
+
+## Oct 30 2026 — remote update: full architecture first; one allowed-update list; Texas first; a release-name standard
+
+At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (Russian) he asked for a technical brief for the engineers and stood aside while they talked [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He ruled out an MVP split or schedule until the full architecture exists; said the list of allowed updates must exist the same way for JVL's own and sold machines; named Texas the first market; asked to copy proven practice (Apple named); set a Jira release-name standard (project, then MVP number); and reminded everyone to add their standards to the GitHub repository [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He will set the review for 9:00 AM next Friday [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
@@ -2235,3 +2245,5 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
