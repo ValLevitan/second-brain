@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 30
+source-count: 32
 ---
 
 # Game art & animation production pipeline (comp art → Miranda)
@@ -262,6 +262,16 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - **Time.** In parallel with the Dutch Mill port: about a day for all the art with background animations, about half a day for the symbols [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
 - **What it shows.** Val: Igor played a designer who states a theme in words, and the game is assembled programmatically; Igor: "А именно так." Val wants a few designers who describe a design in words and watch it built — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]].
 
+## Oct 24 2026 — the game brief and the art are separate steps; Igor's tool turns a brief into prompts (MVP-1)
+
+At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-as-source-of-truth.md|first-pass review of the AI game design agent]] (Russian) [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]:
+
+- **A brief, not art.** The agent produced a brief for a Dutch Mill game with a Japanese-garden theme; [[wiki/people/igor-metelski.md|Igor Metelski]]: "мы здесь не получим [арт], мы здесь получим бриф для создания арта."
+- **Igor's tool.** He is building the tool that makes art from the brief. For MVP-1 there is no API link: the tool proposes prompts for an outside network — "для чата г б т или для грока" (he said he had looked and "делать неплохой арт" — which service he meant is unclear) — and the user is the go-between. Val: "опиратесь на грок" (he expects ChatGPT to leave the business); Pavel: the service is easy to swap.
+- **Roles.** Bosik wanted pictures right in the chat; Igor: the game producer writes a brief for the designer and the designer makes the art, so this first stage is a producer's tool. Val backs one tool in principle but in steps — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-24 update).
+- **When.** Igor expects MVP-1 — brief to finished game scenes — on Monday (Oct 26), if his weekly Claude limit lasts (it resets Monday 11:00 Minsk time); Val did not want to hear about limits, and Igor will ask for another account. It is shown at the Thursday Oct 29 7:00 AM review [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]].
+- **Seasonal styles.** Pavel's idea of seasonal or time-of-day styles (New Year, spring, Halloween) was welcomed and parked: "давайте вернёмся, бейсик" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Vertical_Geometry_Standard_and_ADR_Consolidation-September-20-2026.md]]
@@ -294,3 +304,5 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]

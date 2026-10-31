@@ -3,9 +3,9 @@ type: project
 title: Nebraska skill-gaming market entry
 date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
-open-commitments: 8
+open-commitments: 11
 open-questions: 12
-source-count: 72
+source-count: 76
 ---
 
 # Nebraska skill-gaming market entry
@@ -481,8 +481,21 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - **Aaron's Pub goes to the next Nebraska release**, "not this one" (Lena) [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]; **Wildfire Ranch** art was shown — Michael's "aspirational wealth" for Nebraska and South Dakota players. Details on [[wiki/topics/slot-game-design-principles.md]] (Oct 23).
 - **Only Nebraska is in production**, and the schedule runs to "December 21st" (Lena; year not said — 2026 by context, **inference**). After it, Class A is the first NOVA project — [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 
+## Oct 27–28 2026 — Sparkle Seven, the last game on the Nebraska 2 list
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]:
+
+- **The last port.** [[wiki/people/anton-leshkevich.md|Leshkevich]] cleaned out unneeded files and ported "последнюю игру из списка" — Sparkle Seven ("sparkal sevess") — only partly, as it had no maths yet [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]. For his Nebraska 2 work see [[wiki/topics/nova-platform-architecture.md]] (Oct 21).
+- **The maths exists.** [[wiki/people/igor-metelski.md|Igor]]: Efim wrote long ago that he had updated it; it sits not in the Nebraska 2 maths configs but in Jackpot Rush Nebraska, where Sparkle Seven and Sapphire Star ("сапферстар") both are. Leshkevich will add it that day [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **Task and image.** Pavel: Sparkle Seven looks like a feature, and the port is a task under it; Leshkevich said the agent will make the task. Igor will add the game's icon and update the data-center image ("доцентр", heard), adding a change Efim asked for — progression levels reset after draws (the build wording is garbled). He wants no separate task: "это один маленький [коммит]" [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]:
+
+- **Done.** Leshkevich finished porting Sparkle Seven and fixed the requirements as agreed the day before. Igor asked whether he had put in the maths — "Да" — so Igor will rebuild [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+
 ## History
 
+- [x] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — add the Sparkle Seven maths from the Jackpot Rush Nebraska config — due Oct 27 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] — *discharged Oct 28 2026: the port is finished and the maths is in* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [x] Michael Gottlieb — finish the **Wildfire Ranch** abstract (new "Nebraska aspirational" game, aiming for D2702) — due TBD — [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]] — **discharged by Oct 23 2026:** the game's art was shown, built on his "aspirational wealth" concept; he said the concept and mechanics are defined [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [x] Lena Zhukova — start the **Wildfire Ranch** comp art (follows Michael's abstract) — due TBD — [[raw/Meeting_Notes_NOVA_Capability_Wishlist-August-14-2026.md]] — **discharged by Oct 23 2026:** Lena showed the current Wildfire Ranch art [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 
@@ -515,6 +528,10 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [ ] Val — prepare an answer to "**you have this system nowhere else — how are you testing it?**" before the meeting with J&J corporate — due before the Jansen/Harwick meeting — [[raw/Meeting_Notes_JJ_Gaming_Steakhouse_Lunch_Rick_Rees-June-16-2026.md]] [[raw/Meeting_Transcript_JJ_Gaming_Steakhouse_Lunch_Rick_Rees-June-16-2026.md]]
 - [ ] TNT Enterprises (Whitey Tolliver / Mike Kotab) — think over Val's three ideas (split-win / e-wallet / partnership, promo credits, recycler kiosk) and get back to him; check the Nebraska rules on the wallet idea — due unspecified — [[raw/Meeting_Transcript_TNT_Enterprises_Nebraska_Intro_and_Product_Ideas-June-22-2026.md]]
 - [ ] Val — **change out the underperforming games** on the existing J&J machines and restart — due next release (he said September–October) — [[raw/Meeting_Notes_JJ_Gaming_Steakhouse_Lunch_Rick_Rees-June-16-2026.md]] [[raw/Meeting_Transcript_JJ_Gaming_Steakhouse_Lunch_Rick_Rees-June-16-2026.md]]
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — have a Jira task made for the Sparkle Seven port, under its feature (he said the agent will make it) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — add the Sparkle Seven icon and update the data-center image with Efim's progression fix — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — rebuild Sparkle Seven with the new maths — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 
 ## Open questions
 
@@ -607,3 +624,7 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

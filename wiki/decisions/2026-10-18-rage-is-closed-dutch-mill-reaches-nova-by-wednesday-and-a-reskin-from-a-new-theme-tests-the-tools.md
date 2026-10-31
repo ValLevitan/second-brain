@@ -3,9 +3,9 @@ type: decision
 title: RAGE is finished — all new work is on NOVA; the first NOVA iteration of Dutch Mill is reviewed Wednesday Oct 21; a re-skin from a new theme abstract (Michael writes it, on Igor's spec) tests whether an artist can use the tools alone (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [Rage is closed, Rage закончился, ничего под рэйдж больше не делается, Dutch Mill on NOVA Wednesday, first iteration Dutch Mill NOVA, Dutch Mill re-skin, рискин дач мила, theme abstract, абстракт, technical spec for the abstract, техническое задание по написанию абстракта, Michael writes the abstract, three tool sets, Conversion Cycle Texas Rage Horizontal to Texas NOVA Vertical, question pause answer, вопрос пауза ответ, 15 hours per game]
-source-count: 10
+source-count: 12
 status: active
-open-commitments: 6
+open-commitments: 8
 open-questions: 4
 ---
 
@@ -124,6 +124,19 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - **Then the engine.** Leshkevich used the review to reopen the browser question; Val ruled to drop the browser for a native engine, set "no code before capabilities", and defined MVP1 as six Texas games on a stable NOVA — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]]; product owner and capability process — [[wiki/decisions/2026-10-21-vladimir-samusenko-is-invited-as-nova-product-owner-and-capabilities-are-drafted-one-file-per-person-before-grooming.md]].
 - **On the commitments.** Igor's NOVA first iteration with tests is shown — discharged. His Oct-20 defect fixes are done and added to the criteria — discharged. Not taken up: the Dutch Mill repository access line, Michael's abstract, the intermediate RAGE scene step, Sergey's loops, the maths-for-six-games question, who splits the remaining ports, who writes the tests. They stay open.
 
+## Update, Oct 27 2026 — the vertical Nebraska Dutch Mill task can close; Dragon Pays
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]:
+
+- **Igor's integration work.** [[wiki/people/igor-metelski.md|Igor]] reworked a feature ("праймериз скилл", **unclear**) to updated requirements from Michael and Efim, and goes on integrating new resources. He thinks no extra tasks are needed for this: the designers already create integration tasks. He also works on an AI tool for building game scenes [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **Dutch Mill.** Pavel asked him to fix items "21 22" (the notes: Dutch Mill items 21–22, **unclear**). Igor: the vertical Nebraska Dutch Mill task "наверное её закрыть можно"; once Daniil finishes that day, to avoid conflicts, he will pull the current framework changes, merge all the branches into main and close them, "потому что, по большому счёту, это задача сделана" [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **Dragon Pays.** Pavel said "драган бэйс" (Dragon Pays, heard) still looks open. Igor thought he closed it the day before — "этот IPM напомнил"; its contracts are generated and merged — and will check [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
+### Open commitments (Oct 27 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — fix Dutch Mill items 21–22 (heard), merge the branches into main and close the vertical Nebraska Dutch Mill task, after Daniil finishes — due Oct 27 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — check that Dragon Pays (heard) is closed — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+
 ## History
 
 - [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — move Dutch Mill from RAGE to NOVA, first iteration with tests — due Wed Oct 21 2026 review — [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] [[raw/Meeting_Notes_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]] — **discharged Oct 21 2026**: shown at the review, all bonuses working, with a test harness and scenario [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
@@ -145,3 +158,5 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]

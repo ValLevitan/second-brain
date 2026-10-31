@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 145
+source-count: 149
 open-commitments: 50
 ---
 
@@ -672,6 +672,14 @@ On an [[wiki/meetings/2026-10-23-math-excel-files-stay-on-github.md|18-minute ca
 
 At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] he said the cloud services need about 25–30 minutes of maintenance once a month for Amazon updates; Val set it at night, 2–4 AM Eastern, and Bosik said he had planned that — [[wiki/decisions/2026-10-23-monthly-cloud-maintenance-runs-at-night-between-2-and-4-am-eastern.md]]. He received Pavel's workflow document for the commissioning voice assistant to review, and said such a bot would not shorten the technician's wait — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] (Oct-23 note). He said a modem mode in the machines would open many tools for technicians — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]] — and that he removed his hand-made agents, and that Galaxy was built by two people, "Дима" and himself — [[wiki/topics/ai-assisted-development.md]] (Oct 23). Kharetski's agent was built on his base — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-23 note).
 
+## Oct 24 2026 — the game agent runs on his cloud set-up; he proposes the one-time SVN-to-wiki job
+
+At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-as-source-of-truth.md|Oct-24 first-pass review of the game design agent]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]: Kharetski's game design agent runs in Teams from an account deployed in the Amazon cloud with his help — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-24 update). He proposed that Claude build a wiki page for each old game from the real SVN code, load it into the agent, and drop Confluence as a source; Val agreed — [[wiki/decisions/2026-10-24-code-not-confluence-is-the-source-of-truth-and-claude-builds-a-wiki-per-old-game-from-the-svn-code.md]]. He also suggested the agent ask about sound, and argued for one tool for brief and art; Val: in steps.
+
+## Oct 26 2026 — Claude branch hygiene; the AWS autotest environment is ready
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] he asked all developers to make Claude tie every branch to a Jira issue, delete branches when the task closes, and never add itself as a commit co-author — [[wiki/decisions/2026-10-26-claude-made-branches-carry-a-jira-key-and-are-deleted-when-the-task-closes-and-claude-is-never-a-commit-co-author.md]]. He reported the AWS environment for autotests ready (charts, values, databases, Grafana); which application version runs there went to a separate discussion — [[wiki/topics/test-automation-strategy.md]] (Oct 26).
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -822,3 +830,7 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
 - [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]

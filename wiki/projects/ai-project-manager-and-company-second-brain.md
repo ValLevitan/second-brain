@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 29
+source-count: 34
 open-commitments: 0
 open-questions: 0
 ---
@@ -146,6 +146,15 @@ Commitments and open questions are held on the decision pages, not duplicated he
 
 **§15.8:** clear — roles, process and tool economics only; Val's personal remarks to Bosik are not recorded. **§15 #9:** none.
 
+## Oct 26 2026 — reminders by private message; two items about to drop out of AI Draft
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 Minsk stand-up]] (Russian; Val absent) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] said some people — "только 5 человек помоему" — were to get a private message that day reminding them of their tasks; he asked for feedback on whether it helps, and whether talking with the agent helps. He also told Irina she has two items ("регламента", **unclear**) in "itraft" status — read as the agent's AI Draft (**inference**) — that will disappear unless handled, and he will add them so they show in Pavel's view too [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]. That the reminders come from the AI PM agent is an **inference** from Kovalchuk's role and the Oct-23 plan to message people privately on overdue tasks.
+
+## Oct 27–28 2026 — the agent looks for requirements in conversations; a task it created
+
+- **Oct 27.** At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] said due dates look better than the day before and asked for feedback on talking to the agent. [[wiki/people/irina-shishko.md|Irina]]: it wrote sensible requirements — the ones he sent her — and she moved them to draft. Kovalchuk: before, requirements were not included at all; now the agent looks in conversation for what could be a requirement, checks whether it already exists, adds to a similar one in a comment (its owner then puts it into the text) or creates a new one; "это надо будет понаблюдать" [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **Oct 28.** At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] Daniil asked about IP-1113 (heard), a board report put on him; Pavel said it was created "Пиемом" (read as by the PM agent — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -176,3 +185,8 @@ Commitments and open questions are held on the decision pages, not duplicated he
 - [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Notes_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 256
+source-count: 264
 open-commitments: 108
 open-questions: 0
 ---
@@ -1338,6 +1338,22 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 
 At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] he said the team is finishing Flex-Port work and discussing MVP 1 and 2; he wrote the workflow document for the commissioning voice assistant and sent it to Bosik — [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] (Oct-23 note) — and drafted the diagnostic tool with Claude — [[wiki/decisions/2026-10-02-the-diagnostic-tool-goes-onto-the-installation-stick-and-lives-in-the-sdk-repository-both-rk-and-fp7-are-worked-out.md]] (Oct-23 note). On Georgia he said the key is to remove re-commissioning from every case that does not need it, such as a printer change, and proposed SMART checks of the SSD so a failing disk is swapped early without re-commissioning — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]]. He said Claude now picks its own agents, and that the developers Val named would gladly take more responsibility — [[wiki/topics/ai-assisted-development.md]] (Oct 23).
 
+## Oct 24 2026 — the game agent review; seasonal styles; old SVN code not needed
+
+At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-as-source-of-truth.md|Oct-24 first-pass review of the game design agent]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] he said JVL will fill the git repositories with new games faster than converting the old SVN code, which Claude does not need; he suggested generating prose per old game and comparing it with Confluence (Bosik: drop Confluence instead) — [[wiki/decisions/2026-10-24-code-not-confluence-is-the-source-of-truth-and-claude-builds-a-wiki-per-old-game-from-the-svn-code.md]]. He proposed seasonal or time-of-day game styles (New Year, spring, Halloween); Val parked it — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-24 update).
+
+## Oct 26 2026 — ran the stand-up; Claude standards in context; the autotest environment talk moved out
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] he ran the stand-up. He said Claude keeps the company standards if a link to them is in its session context or memory file — [[wiki/decisions/2026-10-26-claude-made-branches-carry-a-jira-key-and-are-deleted-when-the-task-closes-and-claude-is-never-a-commit-co-author.md]]. He moved the AWS autotest-environment app-version question to a separate discussion — [[wiki/topics/test-automation-strategy.md]] (Oct 26) — set the new-engine requirements meeting for Oct 27 and asked for a task for Daniil's setup screenshot viewer — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-26 note). He will look at tasks 168 and 169 (heard).
+
+## Oct 27 2026 — the pulse band, the repeat cash-out, and the remote-update document
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] he closed PORT-127 and PORT-165, found with a pulse statistics command that a Banilla pulses at 125 ms, and set a 30–150 ms band with a 2-second reset and the rule that a repeat cash-out inside the timeout joins the pending one — [[wiki/decisions/2026-10-27-flex-port-counts-meter-pulses-from-30-to-150-ms-and-a-repeat-cash-out-inside-the-timeout-joins-the-pending-one.md]]. He wrote a one-page document on remote update for Val's Thursday meeting — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-27 update). He has the installer error screens on one page — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 27). He said of the old merged branches that the project has moved "на 300% вперёд" — [[wiki/people/eugine-yavorski.md]] (Oct 27).
+
+## Oct 28 2026 — no automatic reopen; the boot-sector switch; VP9
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] he ruled that a story under a Completed feature does not reopen it automatically — [[wiki/decisions/2026-10-28-a-story-under-a-completed-feature-does-not-reopen-it-automatically-and-the-storys-creator-moves-the-feature-or-picks-another-parent.md]]; gave Tsymanov the firmware-transfer protocol change and described the port's flash-checksum-switch step — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Oct-28 update); said game video should be VP9, not VP8 — [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] (Oct-28 note); and will call Biratka about the unfinished port work — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-28 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -1599,3 +1615,11 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 - [[raw/Meeting_Transcript_Pavel_Frolov_Code_Standards_and_Knowledge_Repo-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

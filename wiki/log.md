@@ -5687,3 +5687,15 @@ Lint only diagnosed; edits were catalog housekeeping (index summaries for the su
 
 ## [2026-10-24] note | weekly report written and sent — steady-state run of 2026-10-24 complete
 Report file overwritten (30 recordings / 27 meetings, Oct 18 – Oct 23; 279/279 verified; owner items A27–A36, C19–C20). Bonus send to val@jvl.ca done (§17.1 authorized). Pushed to GitHub (ValLevitan). qmd update run; qmd embed started after the push.
+
+## [2026-10-31] ingest | steady-state batch 273 started (Oct 24–28 2026 — 4 recordings, 8 files)
+qmd update run before writing.
+
+## [2026-10-31] ingest | steady-state batch 273 COMPLETED (Oct 24–28 2026) — 4 recordings = 4 meeting events / 8 raw files
+Two writer units, sequential; verifier = main context. All four meetings in Russian.
+**Events:** Oct 24 7:56 AM first-pass review of Kharetski's AI game design agent (text agent in Teams writing game briefs; only code is a source of truth — Claude builds a wiki per old game from the SVN code; agents named "AI-…") · Oct 26 4:46 AM stand-up (Claude branch/commit hygiene; AWS autotest environment ready) · Oct 27 4:45 AM stand-up (Flex-Port pulse band 30–150 ms; repeat cash-out joins the pending one; SAS game-index limit) · Oct 28 4:50 AM stand-up (firmware transfer to the Flex-Port; no automatic reopen of Completed features; VP9 video).
+Pages CREATED (8): 4 meeting stubs; 4 decisions (Oct-24 code-is-source-of-truth/SVN wiki; Oct-26 Claude branch hygiene; Oct-27 pulse band + repeat cash-out; Oct-28 no automatic reopen). Pages UPDATED (~44), incl. the Oct-18 game-design-assistant decision (retitled: first pass held Sat Oct 24, not Sun Oct 25), the Oct-5 Jira reopen decision (retitled: automatic reopen dropped Oct 28 — evolution; Kovalchuk's build commitment → History as superseded), Oct-20 BV/pulses, Sept-14 remote update, Oct-21 NOVA native engine, nebraska-skill-market, test-automation-strategy, ai-assisted-development.
+VERIFICATION: **37 facts checked by main context against cited raws — 37/37 held (PASS).** Per unit: a 17/17 (11 writer-list, 6 verifier-drawn), b 20/20 (16 writer-list incl. 2 spares, 4 verifier-drawn); all Russian sources, read at the cue lines, not keyword-only. Heard-number hedges ("about 255", "224 server") confirmed as hedged on the pages.
+§15 cuts at staging (marker line): one family remark in the Oct-24 transcript. §15.8: none in these files. No identifiers.
+**Tier A:** (1) Oct 24 — Val's view that JVL may soon not need someone like Efim to make maths (Efim would only check correctness) — recorded as a view, not a ruling; owner may confirm. (2) Yavorski still merging long-open branches touching BV mode (Oct 27) and commenting on HFM-692 (Oct 28) though his tasks were removed Sept 7; Pavel wants him off the reviewers. **Tier B:** unnamed "Дима"/"Андрей" readings left as inference; "каймове" unresolved; Daniil Stauskiy still has no person page; the SVN-to-wiki job has no owner.
+STRUCTURE: bijection EXACT (1690=1690=1690); artifact scan clean; 0 dangling in changed pages; all 8 batch raws cited; parentheticals synced (30 lines).

@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 49
+source-count: 55
 open-commitments: 31
 open-questions: 1
 ---
@@ -280,6 +280,18 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 
 At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] Val named "митейский" / "метельские" (read as Metelski — **inference**) among the developers he would bring into early problem talks as future product owners, unsure how he would take it [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] — [[wiki/topics/ai-assisted-development.md]] (Oct 23).
 
+## Oct 24 2026 — Claude learns a game from the maths server; the old Rage code may not be enough; MVP-1 of his art tool by Monday
+
+At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-as-source-of-truth.md|Oct-24 first-pass review of the game design agent]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]:
+
+- **Maths.** When porting games to NOVA he gave Claude the maths server's address; it sent spin requests and mapped each game's layout and bonuses fairly accurately — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-24 update).
+- **Old code.** His local git copy of the SVN repository is 6.55 GB for six games. He warned that the Rage framework is "такой большой Монолит" and a game's behaviour can also depend on data-center settings, so old game code alone may not be a full source of truth for the agent — [[wiki/decisions/2026-10-24-code-not-confluence-is-the-source-of-truth-and-claude-builds-a-wiki-per-old-game-from-the-svn-code.md]].
+- **Art tool.** He is building the tool that turns the producer's brief into art; MVP-1 gives prompts for an outside service (ChatGPT or Grok). He expects MVP-1 — brief to finished game scenes — on Monday Oct 26 if his weekly Claude limit lasts; he will ask for another account; it is shown at the Thursday Oct 29 7:00 AM review, with MVP-2 work if possible — [[wiki/topics/game-art-animation-production-pipeline.md]] (Oct 24).
+
+## Oct 27–28 2026 — Sparkle Seven's maths and image; Dutch Mill and Dragon Pays to close
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] he pointed Leshkevich to the Sparkle Seven maths in the Jackpot Rush Nebraska config and took the icon and the data-center image update — [[wiki/projects/nebraska-skill-market.md]] (Oct 27); said the vertical Nebraska Dutch Mill task can close once he merges the branches, and he will check Dragon Pays — [[wiki/decisions/2026-10-18-rage-is-closed-dutch-mill-reaches-nova-by-wednesday-and-a-reskin-from-a-new-theme-tests-the-tools.md]] (Oct-27 update); and said he works on an AI tool for building game scenes. At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] he was integrating new resources and fixing designer requests, and will rebuild Sparkle Seven with the new maths — [[wiki/projects/nebraska-skill-market.md]] (Oct 28).
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -331,3 +343,9 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 - [[raw/Meeting_Notes_Daily_Standup_IO_Board_Firmware_via_GitHub_and_VP9_Video_Decode-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

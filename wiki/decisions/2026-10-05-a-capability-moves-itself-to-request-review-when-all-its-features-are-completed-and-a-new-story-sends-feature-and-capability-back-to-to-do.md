@@ -1,15 +1,17 @@
 ---
 type: decision
-title: A capability moves itself to Request Review when all its child features are Completed (Kovalchuk's weekend automations), and a story added under a Completed feature sends the feature to To Do and its capability from Request Review to To Do — Kovalchuk automates it, the developer moves it to In Progress when he takes the story; every story must hang under a parent
+title: A capability moves itself to Request Review when all its child features are Completed (Kovalchuk's weekend automations), and a story added under a Completed feature sends the feature to To Do and its capability from Request Review to To Do — the automatic move was dropped on Oct 28 (the story's creator now moves the feature by hand), the developer moves it to In Progress when he takes the story; every story must hang under a parent
 date: 2026-10-05
 aliases: [Jira reopen rules, four automations, 4 автоматизации, capability to Request Review automatically, все дочерние фичи комплект капабилити реквест ревью, story reopens feature and capability, фичу из комплитов в туду, капабилити в туду, пускай будет всё в туду, open story hiding inside a done tree, внутри сидит открытая история, stories without a parent, ряд оказались ни к кому, today's date no longer red, убрал сегодняшнюю дату]
-source-count: 8
+source-count: 10
 status: active
-open-commitments: 2
+open-commitments: 1
 open-questions: 3
 ---
 
 # A capability moves itself to Request Review when its features are Completed; a new story sends feature and capability back to To Do
+
+**Status note (Oct 28 2026):** the *automatic* reopen agreed here is dropped. Pavel ruled that a story under a Completed feature does not move the feature by itself; the person who creates the story moves it back or picks another parent — [[wiki/decisions/2026-10-28-a-story-under-a-completed-feature-does-not-reopen-it-automatically-and-the-storys-creator-moves-the-feature-or-picks-another-parent.md]]. The capability → Request Review automation and the "every story hangs under a parent" rule are not touched by that ruling [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
 
 Settled at the end of the [[wiki/meetings/2026-10-05-daily-standup-autotest-stand-debate-and-jira-reopen-rules.md|Oct-5 Minsk stand-up]] (Russian) by [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]. It extends the Oct-1 ruling on [[wiki/decisions/2026-10-01-completed-is-the-developers-last-step-and-a-found-problem-sends-the-feature-from-completed-back-to-to-do-as-a-story.md]] (Completed is the developer's last step; a problem found during development is a story and the feature goes Completed → To Do) up one level, to the capability, and makes both moves automatic.
 
@@ -43,7 +45,6 @@ At the [[wiki/meetings/2026-10-06-daily-standup-ris-georgia-branch-and-critical-
 
 ## Open commitments
 
-- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the reopen: a story created under a Completed feature moves the feature Completed → To Do and its capability Request Review → To Do — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 
 ## Open questions
 
@@ -89,6 +90,14 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 
 This leans toward Tsymanov's release branch, but no ruling was made and Pavel did not speak to it. The Oct-13 question below stays open.
 
+## Update, Oct 28 2026 — no automatic reopen after all
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] asked again what to do when a story appears under a Completed feature, and offered a side link or a "needs rework" status. [[wiki/people/pavel.md|Pavel]]: no automatic move and no extra status; the story's creator moves the feature to To Do or In Progress, or picks a different parent, because people and AI sometimes set the wrong parent [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]. Full ruling: [[wiki/decisions/2026-10-28-a-story-under-a-completed-feature-does-not-reopen-it-automatically-and-the-storys-creator-moves-the-feature-or-picks-another-parent.md]]. This is **evolution**: the Oct-5 automation is replaced by a manual step; the capability's move was not discussed.
+
+## History
+
+- [x] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the reopen: a story created under a Completed feature moves the feature Completed → To Do and its capability Request Review → To Do — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] — *superseded Oct 28 2026: Pavel, "Я бы наверное автоматически не не переводил"; the story's creator moves the feature by hand* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -98,3 +107,5 @@ This leans toward Tsymanov's release branch, but no ruling was made and Pavel di
 - [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

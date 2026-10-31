@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 24
+source-count: 26
 open-commitments: 1
 open-questions: 4
 ---
@@ -167,6 +167,10 @@ On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-ch
 - **Pavel's proposal: interactive HTML documents.** An HTML artifact is "наглядный для человека и понятный для клота"; Claude makes it easily and keeps working with it, while plain .md "Для человека плохо воспринимается". He had tried a GitHub project that gained about 8,000 stars in the last month and draws architecture diagrams (not named). The module diagrams and links must be documented anyway at the architecture stage, "либо MD, либо это будет интерактив… Артефакт".
 - **Not settled.** Val's summary — "нам нужно юз кейсы, нам нужно картинки в htt m… И задания в дотенди" — drew only "Ну что да чтото вроде такого" from Pavel. The derived notes list the final format as an open question [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]].
 
+## Oct 24 2026 — "Confluence is not a source of truth": the game agent's knowledge of old games comes from the code
+
+At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-as-source-of-truth.md|first-pass review of the AI game design agent]] (Russian) [[wiki/people/val-levitan.md|Val]] stopped the demo because the agent answered from the Confluence game pages: designers do not keep Confluence as exactly as code, errors go unnoticed, and "Код это сортов чус, ничего другого не существует." Confluence may serve as an abstract reference, not as the source of truth. [[wiki/people/andrey-bosik.md|Bosik]] proposed a one-time job — Claude builds a wiki page per old game from the real SVN code — and Confluence is then dropped as the agent's source; Val agreed ("как… Андрей карпаты строит свой вики") [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]. Ruling: [[wiki/decisions/2026-10-24-code-not-confluence-is-the-source-of-truth-and-claude-builds-a-wiki-per-old-game-from-the-svn-code.md]]. This is the same line as "the only source of truth is what's in git" above (**inference**).
+
 ## Open questions
 
 - Use-case documents: .md only, or interactive HTML artifacts for pictures with tasks in .md? Val's summary got only a loose yes from Pavel (Oct 21 2026). — [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]] [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
@@ -201,3 +205,5 @@ On an [[wiki/meetings/2026-10-21-pavel-frolov-use-case-docs-and-commissioning-ch
 - [[raw/Meeting_Notes_Transactional_MVP1_Instructions_Complete_and_Modem_Supply-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]

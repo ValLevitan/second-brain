@@ -3,7 +3,7 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 12
+source-count: 13
 status: active
 open-commitments: 6
 open-questions: 1
@@ -86,6 +86,10 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 - **The transactional repositories.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Разделили с Сергеем там на пополам репозиторий, там где то 78 у него у меня. Вот и. Ну постепенно репозиториям. Проза [ADR]. Приведены в стандарт. Это то, Что касается транзакшенных системы." Pavel: "Отлично." ("78" as spoken; the derived notes read "7–8 repos" [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]].) Tsymanov: "прозы параллельно вёл. Сейчас вот прозы заканчиваю."
 - **No prose for archived repositories.** Chudinov: "у нас есть [репозитории], которая уже. Наверное, ближе к статусу архив. Мы будем на них прозу делать. Это старая [updater]." [[wiki/people/pavel.md|Pavel]]: "**Нет, нет, там, скорее всего может быть прозы нету, но там [description] вполне себе нормальный был, но нет смысла нет смысла на него мы его точно не будем использовать.**" — the old updater and repositories near archive status get no prose.
 
+## Update, Oct 26 2026 — "a link to the company standards in Claude's context" stops the branch mess
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[wiki/people/andrey-bosik.md|Bosik]] asked everyone to make Claude keep the standards on branches and commits. [[wiki/people/sergey-tsymanov.md|Tsymanov]]: the standard is written down somewhere, and his Claude found it. [[wiki/people/pavel.md|Pavel]]: if the context has a link saying "use the company standards" — in the session, or in a memory file or "клодом ди" (read as CLAUDE.md — **inference**) — Claude keeps to it "и не будет таких проблем." This is the Sept-4 rule applied to branches — [[wiki/decisions/2026-10-26-claude-made-branches-carry-a-jira-key-and-are-deleted-when-the-task-closes-and-claude-is-never-a-commit-co-author.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — bring his repository into order over the weekend of Oct 3–4 2026, following Val's message — due Oct 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -112,3 +116,4 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 - [[raw/Meeting_Transcript_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]

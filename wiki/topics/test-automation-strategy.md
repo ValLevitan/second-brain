@@ -3,9 +3,9 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 91
-open-commitments: 76
-open-questions: 13
+source-count: 97
+open-commitments: 80
+open-questions: 15
 ---
 
 # Test-automation strategy and testing architecture
@@ -251,6 +251,7 @@ On the [[wiki/meetings/2025-09-22-specification-standards-review-aaron.md|Sept-2
 
 ## History
 
+- [x] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — re-check the modem autotests after Pavel's Flex IQ fix; send his port tasks into work — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] — *discharged Oct 28 2026: port fixes done; the modem defects retested, the test green* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 ### The "Test 360" origin review (Fri Jul 5 2024 — date inferred; pre-dates the v1 window, Tier A-queued)
 
 The earliest captured root of this effort — a Bitbucket-era progress review between Val, [[wiki/people/aaron.md|Aaron]] and [[wiki/people/anton-leshkevich.md|Anton]] (stub with the dating evidence: [[wiki/meetings/2024-07-05-test-360-progress-review.md]]). Val coined the name on this call: "I'm deliberately going to call it, I'm adopting the name **test 360 culture**, because I think it resonates now between the three of us." [[raw/test-360_progress_review_meeting.md]]
@@ -999,6 +1000,49 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 
 - Who reviews PRs on the new integration repository besides Khamin — Igor? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 
+## Oct 26 2026 (4:46 AM) — CI tests stop at missing simulators; the AWS autotest environment is ready; the modem autotests to re-check
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]:
+
+- **[[wiki/people/alexei-khamin.md|Khamin]] — CI.** The CI line that runs on every pull request: the tests that could pass now run, but most are stopped by missing simulators — "Экспорта" (read as Flex-Port by the notes), the terminal hub, the logic manager, InComm and others. He will close his long-running in-progress task and open separate tasks when emulators appear; he keeps bringing up the tests that run on hardware. He handed two tasks, 168 and 169 (heard), to [[wiki/people/pavel.md|Pavel]] to look at [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+- **[[wiki/people/irina-shishko.md|Irina]].** She is finishing work for the bill validator and will then re-run everything; she sent autotest bugs to Biratka [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]] — the modem autotests.** Back after a week away, with 17 tasks in his backlog (4 current for the port; IQ and LGS unclear). Irina asked him to re-check the modem autotests after Pavel's fix ("Это по флекс ай кю", Pavel); the run is not automatic yet, so it has to be started by hand [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+- **[[wiki/people/andrey-bosik.md|Bosik]] — the AWS autotest environment.** He finished the environment for autotests on Amazon: charts with the right values, databases for autotests, Grafana — "всё, в общем, готово". Open: which applications are deployed there — "дэф с т г или прод или вообще отдельную какуюто версию" — and how it lives; images must be built, or actions made to build them; the applications, emulators and devices must support it. He wanted "Дима" for it (away until Thursday; not identified). Pavel moved it to a separate discussion and said work that does not need Dima can start now. [[wiki/people/sergey-tsymanov.md|Tsymanov]]: the version should depend on the test [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+
+### Open commitments (Oct 26 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — close his current hardware-test task and open new tasks when emulators exist — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — look at tasks 168 and 169 (heard) that Khamin assigned to him — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+
+### Open questions (Oct 26 2026)
+
+- Which application version runs in the AWS autotest environment (dev, staging, prod or a separate one), and how are its images built? Moved to a separate discussion — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+
+## Oct 27 2026 (4:45 AM) — Irina reviews the BV autotests; Vladimir's port bugs and the modem in one run
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]:
+
+- **[[wiki/people/irina-shishko.md|Irina]]** works on the bill-validator requirements and is reviewing all the autotests [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **[[wiki/people/vladimir-samusenko.md|Vladimir]]** closed port bugs 136, 37 and 34 (heard); for one he must learn which text colour the amounts and buttons take, then retest these bugs and the modem in one run [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **[[wiki/people/alexei-khamin.md|Khamin]]** closed his hanging tasks, goes on with the hardware autotests and deleted extra branches [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
+## Oct 28 2026 (4:50 AM) — the modem retest is green; who sets up the cloud terminal hub
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]:
+
+- **Irina** goes on with the BV-mode autotests; the bill-validator findings list is on [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-28 update) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+- **Khamin** continues the hardware tests. Andrei said something must be set up — "облачное терминал хаб там или менеджер", InComm — so services can be pulled from the repositories; who does it and when is unclear. Irina: wait for "Дима" the next day, together with Andrei. Khamin: "не сильно прям горит" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+- **Vladimir.** Port fixes done and checked; the modem defects retested — "тест зелёный". No fresh backlog. Two IQ text tasks wait on a text library that does not exist yet — one really belongs to "каймове" (**unclear**), and the other is to add text IDs from that library. Older tasks, one to two years old (an LGS dispenser among them), need a look [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+
+### Open commitments (Oct 28 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] and [[wiki/people/irina-shishko.md|Irina Shishko]] — settle the cloud terminal hub set-up with "Dima" and Andrei — due Oct 29 2026 ("not urgent") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — sort out the two IQ text tasks and review the one-to-two-year-old backlog tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+
+### Open questions (Oct 28 2026)
+
+- Who sets up the cloud terminal hub (or manager) so services can be pulled from the repositories, and when? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1092,3 +1136,9 @@ At the [[wiki/meetings/2026-10-21-daily-standup-flex-port-mode-switch-and-sas-cr
 - [[raw/Meeting_Transcript_RIS_Improvements_Release_Notes_Review-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

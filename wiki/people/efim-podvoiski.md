@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 79
+source-count: 83
 open-commitments: 11
 open-questions: 0
 ---
@@ -327,6 +327,14 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - **Churn.** He explained it to Val: total bet divided by the money brought in; it depends first on RTP, and higher volatility gives lower churn — [[wiki/topics/slot-game-design-principles.md]] (Oct 23).
 - **Colombia.** He asked whether JVL has new cabinets there — [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]]
 
+## Oct 24 2026 (in absentia) — his Dutch Mill maths in the game agent; Val's view on maths
+
+At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-as-source-of-truth.md|Oct-24 first-pass review of the game design agent]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]: Kharetski's game design agent parsed two of his Dutch Mill maths files and answers on RTP, pays, symbols and bonuses; Val said Efim had told him Claude cannot make sense of his Excel maths, and Val doubts it; the next step is to load all his working files — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-24 update). Val also said that in about six months maths could be made automatically from a game's mechanics, with Efim checking correctness — a view, not a ruling — [[wiki/topics/ai-assisted-development.md]] (Oct 24).
+
+## Oct 27 2026 (in absentia) — Sparkle Seven maths and a progression fix
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] Igor said Efim had long since updated the Sparkle Seven maths, which sits in the Jackpot Rush Nebraska config, and had asked for a change on progression levels reset after draws, to go into the data-center image — [[wiki/projects/nebraska-skill-market.md]] (Oct 27) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Repo_Standards_Walkthrough_with_Efim-September-30-2026.md]]
@@ -409,3 +417,7 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Notes_Math_Excel_Files_Stay_on_GitHub-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]

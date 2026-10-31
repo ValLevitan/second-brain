@@ -3,9 +3,9 @@ type: decision
 title: NOVA drops the browser (and Pixi) for JVL's own native engine, with no browser build kept; no code before capabilities, requirements, acceptance criteria and an architecture Val can read; MVP1 is a stable NOVA on which JVL releases six Texas games, reached step by step (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [drop the browser, native engine, NOVA native engine, Rust engine prototype, Leshkevich Rust prototype, убрать браузер, no code before capabilities, никто не начинает строчить код, rule before code, MVP1 six Texas games, стабильное ново MVP один, NOVA 2, Super NOVA, супер нова, remove browser and Pixi, download flow with GLI signature check]
-source-count: 7
+source-count: 13
 status: active
-open-commitments: 7
+open-commitments: 11
 open-questions: 5
 ---
 
@@ -108,6 +108,39 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — share the list of improvements made for the Rust implementation in the team chat — due Oct 23 2026 — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [ ] Owner not named — give Daniil Stauskiy the transcript of the earlier engine meeting and decide his next tasks (browser version or the new engine) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 
+## Note, Oct 26 2026 — requirements meet on Oct 27; Daniil's framework requirements go to Claude; a screenshot viewer yes, video render not now
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]:
+
+- **Requirements.** [[wiki/people/alexander-biratka.md|Biratka]] writes requirements for the new engine, filtering them partly with Claude, partly by hand. [[wiki/people/pavel.md|Pavel]] asked whether he had seen the requirements Daniil wrote for the framework — "которые лежат уже в [Jira]… штук 30 40" — and told him to feed them to his Claude, as they will overlap on game functions. Biratka: the sets must be merged into one picture; some requirements are functional, some architectural. Pavel: at this stage architecture matters more, "потому что мы выбираем новый подход к архитектурам да к стеко." [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- **A meeting.** Biratka wanted to meet before Val's next meeting to compare who looks at what — architecture or functions; set for the next day right after the stand-up, with Pavel and [[wiki/people/anton-leshkevich.md|Leshkevich]], who said he has finished his requirements and will give details there [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+- **Daniil's work.** Daniil Stauskiy is building a screenshot system in the framework so the setup can show screenshots from different games. Pavel: yes — create a task so setup shows screenshots "от любой игры… Который есть в пакете, а не только в которой была последним." The same for video render: "Это наверно пока не надо", because the team may move to another engine and it would no longer matter [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+
+### Open commitments (Oct 26 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]], [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — meet right after the stand-up on the new-engine requirements (architecture vs functions) — due Oct 27 2026 — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] — *Oct 27 2026: set for 12:30 Minsk time that day (Pavel, Biratka, Leshkevich, Irina), after a coffee break; whether it was held is not recorded — left open* — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — feed Daniil's 30–40 framework requirements in Jira to his Claude and merge them with his own — due Oct 27 2026 (before the meeting) — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create a task for Daniil Stauskiy: setup shows screenshots from any game in the package — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+
+## Note, Oct 27 2026 — the NOVA requirements meeting is set; Daniil moves buttons into the framework
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]:
+
+- **The meeting.** At the end Pavel asked what they had planned to meet on; [[wiki/people/alexander-biratka.md|Biratka]]: "По поводу требований" — for NOVA. [[wiki/people/anton-leshkevich.md|Leshkevich]] has his list of requirements and was ready. After a 10-minute coffee break, at 12:30 "по нашему" (Irina), with Pavel to create the meeting [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]. The notes put 12:30 Minsk at about 5:30 AM Eastern [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **Daniil's buttons.** Daniil Stauskiy is about to commit "н ц 6" (NC6, heard). Next he moves buttons into the framework: "в обморке [framework] у нас будет реализация кнопок, а всё отображение уже игры задавать будут сами" — the framework implements the buttons, each game sets their look and place. Several games need rework (names garbled). Pavel: open a task [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
+### Open commitments (Oct 27 2026)
+
+- [ ] Daniil Stauskiy — open a task for buttons in the framework (the game sets look and layout) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+
+## Note, Oct 28 2026 — VP9, not VP8; the Miranda formats are fine for now; Daniil's next items
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]:
+
+- **Formats.** [[wiki/people/anton-leshkevich.md|Leshkevich]] asked the designers which formats they want supported; for now they agreed the current formats from Miranda ("UP форматы из миранды", the notes' reading) will do, perhaps with some changes inside the format [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+- **Video.** [[wiki/people/pavel.md|Pavel]]: the question that matters is the video format. "В п 9 да, правильный формат. А текущее видео у нас в п 8" — VP9 is supported on ARM by a hardware decoder, VP8 is not; keep it in mind [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]. This follows the Oct-20 VP9 decode work — [[wiki/topics/nova-platform-architecture.md]] (Oct 20).
+- **Daniil.** He finished NC6 (heard) and moves to "н ф л один" (NFL1, heard). He asked about IP-1113 (heard), a board report put on him; Pavel: it was created "Пиемом" (read as by the PM agent — **inference**) from text discussed the day before; re-read it [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
@@ -117,3 +150,9 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

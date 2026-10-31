@@ -3,9 +3,9 @@ type: decision
 title: Other makers' machines whose AFT does not fully work connect through bill-validator emulation (money in) and pulses (money out), and this mode is in MVP 1; the mode is set per port in the gateway, not detected; SAS (6.0 and up) is kept apart from AFT, for data that may become a paid product; MVP 1 release on a Wednesday and first install about November 2 (Oct 20 2026)
 date: 2026-10-20
 aliases: [bill validator emulation mode, BV emulation mode, режим билвалидатор эмуляции, pulses for cash-out, AFT for transactions SAS for data, SAS 6.0 and higher, not a hybrid mode, случайный режим, accidental mode, SAS data as a paid product, analytics of competitor machines, 30 to 50 dollars a month, promotional credits only on AFT machines, port mode per port in the gateway, no auto-detection of AFT, ID-003, four bill validators, report every spin, HTT dongle, machines back on Friday, MVP1 release Wednesday, first install November 2, ошибочное решение]
-source-count: 8
+source-count: 14
 status: active
-open-commitments: 15
+open-commitments: 18
 open-questions: 6
 ---
 
@@ -90,6 +90,7 @@ Settled at the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — merge his Flex-Port work into main and release it for the test on the borrowed machines in Atlanta — due Oct 23 2026 — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review PORT-138 (as heard) and merge it into main if ready — due Oct 23 2026 — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [ ] Owner not named — make a Flex IQ RC release build for the site (Pavel adds nothing more) — due Oct 23 2026 — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — close the Flex-Port / Flex Pay hardware-check tasks ("наверно сегодня") — due Oct 26 2026 — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
 
 ## Open questions
 
@@ -140,12 +141,40 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - **Biratka's cash-out work.** He works on PORT-164, 162 and 163 and now shows "кэшен дизейбл" when, for example, the door is opened — the Oct-22 rewording of "out of service". The amount-screen timing and the "present your wallet" prompt are not reported, so his commitment stays open [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]].
 - **The mode question.** Nobody said whether the port now follows the kiosk's mode command; the site test is meant to check the mode. See Open contradictions.
 
+## Update, Oct 26 2026 — PORT-165 and PORT-127 built one at a time for an SAS-AFT run; the Flex-Port / Flex Pay hardware checks end
+
+At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]:
+
+- **Two port branches.** [[wiki/people/pavel.md|Pavel]]: "пор 165 и… порт 127" (PORT-165 and PORT-127, heard) are done and tested in some form; builds from those two branches must now run on a machine in the SAS-AFT mode ("сасаев тире", the notes' reading). He had not switched the machine the day before because it needed reconfiguring. [[wiki/people/irina-shishko.md|Irina]] asked [[wiki/people/alexei-khamin.md|Khamin]] to build them for "159" (a machine, heard), one at a time; Pavel's idea of merging both branches into one build was dropped as even slower [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+- **Flex-Port with Flex Pay.** [[wiki/people/alexander-biratka.md|Biratka]]: the hardware checks of the Flex-Port working with Flex Pay, on the devices themselves, are ending, and those port tasks will probably close that day [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]].
+
+## Update, Oct 27 2026 — PORT-127 and PORT-165 closed; a pulse statistics command; Biratka's BV tasks and requirement 1926
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]:
+
+- **Closed.** [[wiki/people/pavel.md|Pavel]]: "Закрыли 127… закрыли 165" (PORT-127 and PORT-165), and one more task, "20/173" (heard) — a command that shows pulse statistics. After it, "Банила заработала"; [[wiki/people/irina-shishko.md|Irina]]: "они все заработали только с вопросами" [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+- **The pulse band and the repeat cash-out** that followed are a separate ruling — [[wiki/decisions/2026-10-27-flex-port-counts-meter-pulses-from-30-to-150-ms-and-a-repeat-cash-out-inside-the-timeout-joins-the-pending-one.md]].
+- **Biratka.** More than half of his tasks are in fact done; he is closing the "биви дривенн" (BV-driven) tasks. He now works on a new requirement "Андрей" wrote, "рекламенс 19, 26" (requirement 1926, heard), which changes capability 272 — how BV mode works; the timeouts change. The "Андрей" fits [[wiki/people/andrei-klimovich.md|Klimovich]] (**inference**) [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
+## Update, Oct 28 2026 — Biratka absent with the port work unfinished; Andrei's list of findings
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]:
+
+- **Biratka.** Absent; Irina: "он не доделал вчерашнее да то что нам по порту надо". Pavel will call him [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
+- **Andrei's list.** Pavel: go through the list "Андрей вечером писал" the night before and decide what to fix. Irina: the BV autotests were left hanging because Biratka had not finished; she had asked Andrei to write findings at once and to add what MVP needs straight into the requirements. Pavel: "надо было, чтобы он сразу чтото находит, сразу писал, пока мы ещё здесь находились на месте… Он всё собрал и написал ночью" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]. The "Андрей" fits [[wiki/people/andrei-klimovich.md|Klimovich]] (**inference**).
+
+### Open commitments (Oct 28 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call Biratka about his unfinished port work, which holds up Irina's BV tests — due Oct 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — go through Andrei's list from the evening of Oct 27, decide what to fix, and add the MVP needs to the requirements — due Oct 28 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+
 ## Open contradictions
 
 - **Does the Flex-Port follow the kiosk's mode command? (Oct 22 2026, same meeting.)** Khamin: "я перепроверил эту ситуацию, всё работает"; Biratka: "Да работает". Irina: the port "получает, но он не следует" these commands [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Not resolved. — *Oct 23 2026: not settled. Irina said nothing was changed on the Flex IQ for BV mode and only the port needs installing; Pavel wants Biratka's released Flex-Port given to the site "чтобы они проверяли режим". Nobody restated whether the port follows the command; the on-site test is the next evidence* — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 
 ## History
 
+- [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — build the PORT-165 and PORT-127 branches (heard) one at a time for machine 159 (heard), for an SAS-AFT mode run — due Oct 26 2026 — [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] — *overtaken Oct 27 2026: Pavel closed PORT-127 and PORT-165; whether they ran on machine 159 is not said* — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [x] [[wiki/people/pavel.md|Pavel Frolov]] — check which SAS commands the Banilla supports (left as it is) — due unspecified — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] — *discharged Oct 21 2026: Pavel worked with a Banilla, read its statistics, and will attach a report on supported SAS commands to Jira* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 
 - [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — re-check whether switching the mode on the terminal changes the Flex-Port's mode — due Oct 21 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] — *discharged Oct 22 2026: "я перепроверил эту ситуацию, всё работает"* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
@@ -161,3 +190,9 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]

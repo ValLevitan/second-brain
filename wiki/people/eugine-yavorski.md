@@ -4,8 +4,8 @@ title: Eugine Yavorski
 date: 2025-02-18
 aliases: [Eugine Yavorski, Evgeny Yavorsky, Yavorski, Yavorsky, Яворский, Evgeny Egorsky, Egorsky, Егорский, Evgeny Nevorsky, Nevorsky, Неворский, Evgeny, Yevgeny, Zhenya, Женя, Евгений]
 disambiguation: "FlexPort/FlexPay integration engineer (alias Egorsky), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 36
-open-commitments: 4
+source-count: 40
+open-commitments: 6
 ---
 
 # Eugine Yavorski
@@ -184,6 +184,22 @@ At the [[wiki/meetings/2026-10-20-flex-port-mvp1-usb-update-and-build-standards.
 
 At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] Irina saw pull requests from him on the Flex-Port and did not know what they were; Pavel thought one unrelated to current work, maybe two months old, and not merged. He asked from whom to get the new Flex Pay version — [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Oct 22).
 
+## Oct 27 2026 (in absentia) — three old branches merged last week
+
+At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updates.md|Oct-27 stand-up]] [[wiki/people/alexei-khamin.md|Khamin]] said "егоски" (read as Yavorski — "Egorsky" is a registered alias, and on Oct 28 the same complaint names him; **inference**) keeps merging: "3 мержа за последнюю неделю", from branches opened long ago, each pull request "полотно текста"; someone must sit and check what went in, and the code too. [[wiki/people/irina-shishko.md|Irina]]: "сегодня опять какоето сочинение написал", and "он сейчас бил валидатор трогает режим" just as the team goes live. [[wiki/people/pavel.md|Pavel]]: since those branches were opened "проект ушел уже там на 300% вперёд". No decision; Khamin will send Irina the list [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]].
+
+### Open commitments (Oct 27 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — send the list of last week's merges from the old branches — due Oct 27 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+
+## Oct 28 2026 (in absentia) — HFM-692 again; take him off the reviewers
+
+At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-reopening-completed-features.md|Oct-28 stand-up]] Khamin: "опять яворский, там х ф м 692" (HFM-692, heard) — after Andrei updated the requirements there, "егорский опять реагирует" with more questions, and this touches MVP 1. Pavel: at least ask "диму" to remove him from the reviewers of this project; he probably just gets a review-request message and goes to review. Khamin had already written to Andrei; Irina: that removes him from review but does not stop him committing. Khamin: the task is his (Yavorski's), and he had passed it to Khamin to close; Khamin may hand it back [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]. Which Dima is not said (Kovalchuk, present, fits the GitHub-admin role — **inference**).
+
+### Open commitments (Oct 28 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — ask "Dima" to remove Yavorski from the reviewers of the HFM-692 project — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Notes_Code_Standards_Main_Branch_Rule_and_Alekseev_Coaching-September-14-2026.md]]
@@ -222,3 +238,7 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Transcript_Flex-Port_MVP1_USB_Update_and_Build_Standards-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
