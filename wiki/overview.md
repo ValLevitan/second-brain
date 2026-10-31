@@ -1,7 +1,7 @@
 ---
 type: overview
 title: Second Brain — Overview
-updated: 2026-10-17
+updated: 2026-10-31
 ---
 
 # Overview — state of the wiki
@@ -10,19 +10,20 @@ A short, plain-language snapshot for the owner. Refreshed at each lint pass.
 
 ## What's in here now
 
-The wiki holds **1,682 content pages** built from **1,676 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Friday October 23 2026** (the 2:00 PM game-development meeting). Everything traces to a source with an inline citation. The 2026-10-24 run (batches 267–272) absorbed **30 recordings = 27 meeting events** from Oct 18 – Oct 23 (three meetings came as two recorded segments each).
+The wiki holds **1,709 content pages** built from **1,704 raw source files** — the complete backlog (2025-01-01 through mid-2026) plus weekly steady-state intake, now current **through Friday October 30 2026** (the 9:03 AM NOVA remote-update meeting). Everything traces to a source with an inline citation. The 2026-10-31 run (batches 273–275) absorbed **14 recordings = 14 meeting events** from Oct 24 to Oct 30: the AI game design agent's two reviews and the competitor-game teardown, Val stopping Miranda development, the new-engine plan, Tableau replaced by an Excel export, the NOVA remote-update architecture, a hardware data-contract call, a confidential staffing consultation (held), and five Minsk stand-ups.
 
-By kind (lint pass, 2026-10-24):
+By kind (lint pass, 2026-10-31):
 - **People — 147** (none new this run).
 - **Organizations — 65.**
 - **Topics & Concepts — 59**, grouped in the index under 6 sub-headings.
 - **Projects — 12.**
-- **Decisions — 398**, grouped in the index under 5 sub-headings (25 new this run). One older decision superseded (Sept-4 browser/Pixi — NOVA now drops the browser for a native engine); three partly reversed and retitled (Sept-7 SAS-only, Oct-5 "no monorepo", Oct-19 "three repos first").
-- **Meetings — 1,001.** Thin stubs, grouped by month, complete through **Oct 23 2026**.
-- **Open items (frontmatter totals):** 2,451 open commitments and 1,167 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
+- **Decisions — 411**, grouped in the index under 5 sub-headings (13 new this run). Two older decisions retitled to current state: the Oct-5 Jira reopen rule (automatic reopen dropped Oct 28) and the Oct-18 game design assistant (first pass held Oct 24). Miranda development stopped (Oct 29); the Miranda topic now leads with that.
+- **Meetings — 1,015.** Thin stubs, grouped by month, complete through **Oct 30 2026**.
+- **Open items (frontmatter totals):** 2,541 open commitments and 1,205 open questions across all pages (7 lines quarantined as `blocked-on-*`). The rollup lists below this block are the historical early-batch rollup; the live per-page lists are authoritative.
 
 ## Health
 
+- **Run of 2026-10-31 (batches 273–275):** 14 recordings → 14 meetings (Oct 24 – Oct 30). Every batch passed the ≥9/10 gate. **146 facts checked by hand — 146/146 held** (37 + 40 + 69), plus **133 verifier-drawn verbatim quotes, all held** after reading the misses by hand. Nearly all sources Russian. Regression drift-guard: 14 quoted facts re-checked from 2025 pages — **14/14 hold** in substance (one translation, one bold-in-quote, one close paraphrase — same standing style note). Structure: bijection exact (1,709 = 1,709 = 1,709); 0 dangling links in content pages; index tails match every page; artifact scan clean; 0 orphans among the 13 new decisions; body↔Sources exact on all 79 changed pages. Privacy: 5 small personal remarks cut at staging; two pay passages in the Oct-29 staffing consultation held (§15.8).
 - **Run of 2026-10-24 (batches 267–272):** 30 recordings → 27 meetings (Oct 18 – Oct 23). Every batch passed the ≥9/10 gate. **279 facts checked across 6 batches — 279/279 held** (66 + 45 + 35 + 47 + 39 + 47), about 160 against Russian source strings. Regression drift-guard: 12 quoted facts re-checked from 2025 pages — **12/12 hold** after reading the source (six are ellipsis joins, translations or near-verbatim). Structure: bijection exact (1,682 = 1,682 = 1,682), 0 orphans, 0 dangling in changed pages, artifact scan clean, body↔Sources clean. Privacy: personal passages cut at staging from 5 raws (Val's own background, a personal-property aside, a birthday/age line, a family remark, a health exchange). Two Oct-22 calls have unreadable transcripts (Russian written as English words) — thin stubs only. Pages carrying `## Open contradictions`: 40 (+2: Diamond Sept-10 promise; Flex-Port follows the kiosk mode command or not).
 - **Run of 2026-10-17 (batches 263–266):** 17 recordings → 16 meetings (Oct 13 evening – Oct 16). Every batch passed the ≥9/10 gate. **80 facts checked across 4 batches — 80/80 held** (19 + 20 + 21 + 20), 36 against Russian source strings. Regression drift-guard: 12 quoted facts re-checked from 2025 pages — **12/12 hold** after reading the source (five are cleaned-up garbles, translations or close paraphrases of the source words, not verbatim). Structure: bijection **exact (1,630 = 1,630 = 1,630)**, 0 dangling, 0 orphans among new pages, index tails match, artifact scan clean. Privacy: family, health, age, home and private-purchase passages cut from 11 raws at staging; two compensation items (a distributor contact's personal commission offer; a guest's past pay) kept out of the wiki.
 - **Run of 2026-10-14 (batches 258–262):** every batch passed the ≥9/10 gate. **138 facts checked across 5 batches — 138/138 held** (26 + 24 + 29 + 23 + 36), 73 of them against Russian source strings. Regression drift-guard: 10 numeric facts re-checked from 2025 pages — **10/10 hold**.
@@ -139,6 +140,16 @@ Rolled up from every page at each lint pass. Each traces to a raw source.
 - A36. **Flex-Port and the kiosk mode command** (Oct 22): Khamin/Biratka say the port follows it; Irina says it receives but does not follow it. Held as a contradiction until the Atlanta test. — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]]
 - C19. Retitles to consider: the Oct-18 Dutch Mill decision still says "re-skin" (you banned the word that day); the Oct-5 error-screen decision still says "cause and fix" (Oct 20 wording: cause only).
 - C20. Names read by context (inference): the 7:01 AM Oct-20 session = the stand-up's "2:00 PM meeting with Alekseev"; "HTT" = IGT; "Дима" away until Oct 26 = Chudinov; "Владимир" = Samusenko; Daniil Stauskiy still has no page; Aaron's Pub — Nebraska (Oct 23) or South Dakota (Oct 8)?
+
+**ADDED by the 2026-10-31 run (batches 273–275) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
+
+- A37. **Confidential staffing consultation (Oct 29, Val/Pavel/Irina).** You asked it stay between the three of you. Its staffing plans and its assessments of named people are held; pay talk is held (§15.8). Only Miranda preservation and two work updates are recorded. Should any of the rest enter the brain? — [[wiki/meetings/2026-10-29-minsk-team-reorganization-and-staffing-review.md]]
+- A38. **Miranda stopped (Oct 29).** The "Sasha" who agreed is read as Biratka (inference). What it means for the Khandovs' work beyond preserving Miranda was not discussed in a recorded meeting. — [[wiki/decisions/2026-10-29-miranda-development-stops-and-miranda-is-not-the-basis-for-the-new-engine.md]]
+- A39. **Efim and maths (Oct 24).** You said JVL may soon not need someone like Efim to make maths; he would check correctness. Recorded as a view, not a ruling — confirm. — [[wiki/decisions/2026-10-24-code-not-confluence-is-the-source-of-truth-and-claude-builds-a-wiki-per-old-game-from-the-svn-code.md]]
+- A40. **Yavorski.** Still merging old branches that touch bill-validator mode (Oct 27) and commenting on HFM-692 (Oct 28); blocked from merging into Flex-Port main (Oct 30). Pavel will ask you whether the work with him is over. — [[wiki/people/eugine-yavorski.md]]
+- A41. **Who writes up the mechanics of JVL's newer games** — Igor Metelski (your first pick) or Kharetski (offered with his test)? Not settled. — [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]]
+- A42. **Persona repository vs company second brain.** The Oct-29 hardware call moves agent instructions to a persona repository (AI-PM, AI-COO, AI-CFO); the same morning Bosik proposed one company second brain for all agents. How they fit was not discussed. — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]]
+- C21. Names and calls by inference: unnamed "Дима"/"Андрей" readings in the Oct 26–30 stand-ups; "Екатерина филипповна" in the Tableau export user list; "каймове"; "калиочио" (Calle Ocho?); the "Vlad" sound author; the engine meeting's noon session kept as its own stub (cross-linked to the 10:01 false start); Daniil Stauskiy still has no person page.
 
 **ADDED by the 2026-10-14 run (batches 258–262) — for the owner's ruling.** *(Tier A first; details and sources on each named page.)*
 
