@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 89
-open-commitments: 17
+source-count: 93
+open-commitments: 18
 open-questions: 3
 ---
 
@@ -404,6 +404,16 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 - [ ] The team except [[wiki/people/sergey-tsymanov.md|Tsymanov]] and [[wiki/people/evgeny-kharetski.md|Kharetski]] (asked by [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) — set an end date on every task not in the backlog — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 
+## Nov 4 2026 — the missing projects on the Kanban dashboard; the agent now writes to ten people; asked (in absentia) to remove "Request Review" from the feature workflow
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: Chudinov's observability tasks under "ип 435" do not show on the Kanban dashboard; he asked which other projects are missing and named three already — "ц м с h и CMSFE… SMSC" (heard; the notes: CMS-H, CMS-FE, SMS-C); "Я сделаю" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. On dates: the picture is fine; the tasks moved onto Biratka need end dates — "Да поправим"; the agent wrote to five people and five more were added, "так что не пугайтесь" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. (A per-person remark on who now has most undated tasks is not recorded — the Nov-3 precedent.)
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (he was not present) Val made it an undertaking that he remove "Request Review" from the feature workflow — or, if the designers need it, split design features from development features — and that he find out why a red build-error marker sits on a Completed item; Bosik takes him the transcript [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] — tracked on [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]]. How this touches his Oct-5 capability automation: [[wiki/decisions/2026-10-05-a-capability-moves-itself-to-request-review-when-all-its-features-are-completed-and-a-new-story-sends-feature-and-capability-back-to-to-do.md]] (Nov-4 note).
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the missing projects (IP-435 and the CMS projects) to the Kanban dashboard filter — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -495,3 +505,7 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The game sound library is rewritten in Rust on PulseAudio and lives in the engine, not the LGS — the LGS drives it through an API; the Kira library is dropped for now; the existing FMOD sounds are converted by a tool from FSB to FLAC with JSON descriptions, so Vlad's work is kept and he can go on with his own tools (Pavel, Biratka and Daniil Stauskiy, Nov 2 2026)
 date: 2026-11-02
 aliases: [sound library in Rust, Rust sound library, PulseAudio sound library, Kira dropped, FSB to FLAC, FMOD sounds converted, JSON sound description, sound library lives in the engine not LGS, самодостаточный пульс аудио, библиотека на расте, маленький конвертер]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
 open-questions: 1
@@ -45,7 +45,13 @@ Settled at the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Nov 4 2026 — the pull request is open; NC-1 can be closed
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]]: on the rewrite of the sound repository in Rust "я уже открыл пиар", after solving a few problems; he also closed dependency requests; the parent "н ц один" (heard; NC-1), with all child tasks done, can be closed — Pavel: "Думаю, что можно закрывать… новое вроде не планируется"; Daniil has no task now and Pavel and Biratka will find him one tomorrow [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The commitment above is not shown merged, so it stays open.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

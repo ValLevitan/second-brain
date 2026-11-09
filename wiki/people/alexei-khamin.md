@@ -3,8 +3,9 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 74
-open-commitments: 24
+source-count: 76
+open-questions: 1
+open-commitments: 26
 ---
 
 # Alexei Khamin
@@ -344,6 +345,19 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 
 At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian; label "Alexey Khamin") the hardware autotests on the runner continue; two blockers from the day before were resolved that day "с Андреем с Димой" (which Andrei and Dima is not said); PR reviews go on [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. He asked whether the port update Tsymanov merged affects the release; Pavel: the remote update is not in it [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] the autotests continue; on the Flex-Port release — "Единичка версия релиза теперь" (heard: version 1 now) — and he waits for Chudinov on the Flex IQ release action, who "должен меня научить или как то сделать" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. On the one-button action he said rolling back to an older SDK version is not "прям популярный случай" — Pavel accepted — [[wiki/decisions/2026-10-30-the-default-ci-build-action-builds-with-default-parameters-for-its-target-environment-and-a-many-parameter-action-is-kept-for-claude-and-special-cases.md]] (Nov 2–3 update).
 
+## Nov 4 2026 — the Flex-Port flashed with the release version; an instruction for installing over factory firmware; one email with the release links; a task for the IQ change Irina needs
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: the tests on hardware go on; he flashed the Flex-Ports with the release version ("фреэкспорты прошил. Домашняя версия реализовантую", heard) — can be checked; and "нам надо написать инструкцию. Как ставить на заводскую прошивку, то есть там через апдейт бин" — no owner was named [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. When it turned out nobody had handed the release builds over, Irina asked him to do it; "мы можем просто одним письмом собрать, и там будет и IQ… и флесс порты"; he writes the email and copies it to the chat — [[wiki/topics/github-release-management-pipeline.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. For the IQ change that blocks Irina's remaining tests: "Байкю не полезу я создам на когото" — a task with a description for someone else [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. On the Echo he asked whether JVL gives notifications or a bill validator that reads — the thread moved on [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — email the released Flex IQ and Flex-Port build links (the notes: to Felipe and Elizabeth) and copy them to the release chat — due Nov 4 2026 — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — create a task, on someone else, for the IQ change that blocks Irina's remaining tests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
+### Open questions (Nov 4 2026)
+
+- Who writes the instruction for installing on factory firmware through update.bin? Khamin raised the need; no owner named — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -420,3 +434,5 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

@@ -2,8 +2,8 @@
 type: person
 title: Ray Cosentino
 date: 2026-09-28
-aliases: [Ray, Ray Cosentino, Ray Constantino]
-source-count: 3
+aliases: [Ray, Ray Cosentino, Ray Constantino, Ray at Inna Box]
+source-count: 5
 open-commitments: 0
 open-questions: 0
 disambiguation: "Ray Cosentino of Inamax / Ultra (Georgia operator). Not Ray Marks, the possible co-lender named on [[wiki/people/doug-skrepnek.md]]. 'Ray Constantino' (Aug 31 2026) is very likely the same person — an inference, see the org page."
@@ -23,8 +23,14 @@ Ray Cosentino is a senior executive of the Georgia master operator [[wiki/organi
 
 What he told JVL about the market, JVL's machines and the trial is on [[wiki/organizations/inamax-ultra.md]] (Feb 11 2026). The meeting stub is [[wiki/meetings/2026-02-11-inamax-ray-cosentino-georgia-market-trial.md]].
 
+## Nov 4 2026 (in absentia) — "Ray at Inna Box": the 5-plus-5 D27 order for Nebraska, and how Val reads him
+
+On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|Nov-4 4:32 PM call]] [[wiki/people/val-levitan.md|Val]] called him "Ray at Inna Box" (heard; = Inamax — **inference**) and coached [[wiki/people/felipe-miranda.md|Felipe]] on his order: "5 new D27s at a standard price… five additional new D27 through a trade-in program", all for Nebraska, with the Georgia software to be upgraded; Ray told Ashley to write the POs and wants the upgrades paid up front. Val: "We have to chase this guy. He almost never delivers on his promise. He sets out big plans, but hardly ever delivers for us." Felipe: "this is the closest I've been to a deal with him since I sold him last time." Ray showed Felipe performance reports "more pessimistic" than the numbers. Detail on [[wiki/organizations/inamax-ultra.md]] (Nov 4); the pricing on [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]] [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]. The trade-in decision he claimed as his on Feb 11 ("That'd be mine") is consistent with the trade-in program in this order — **inference**.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]

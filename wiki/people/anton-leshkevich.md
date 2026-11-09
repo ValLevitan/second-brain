@@ -4,8 +4,8 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 75
-open-commitments: 5
+source-count: 77
+open-commitments: 6
 open-questions: 0
 ---
 
@@ -243,6 +243,14 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 
 At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]: he continues on Nebraska — "не Артур" (heard; the notes read Arthur) keeps sending updates that he inserts [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. Who "Артур" is is not resolved here (the wiki knows an artist Artur on the Georgia art team — a fit by context only). In parallel a spike for "нова студии нового эдитора" — the team had discussed a universal development environment; he tests ideas, wrote a small skeleton and wanted to add to it that day so it works like a native development environment [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. Pavel: the task he created for the spike ("дома 2 спайк", heard) must be tied to a capability; one is missing that says the team wants to work out the architecture for building the engine and framework on the new platform, with all such spikes under it; "Хорошо, я создам… привешу" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov 2–3 note), where the commitment is tracked.
 
+## Nov 4 2026 — comments on the first version of the new Nebraska game; an editor prototype by the end of the week; the boards arrived
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: he continues on Nebraska — "отдали версию первую новой игры посмотреть оставила комментарии, которые я сегодня буду отправлять" (the game is not named) — [[wiki/projects/nebraska-skill-market.md]] (Nov 4); he has started "над прототипом редактора, который мы обсуждали" and expects something roughly working "к концу недели" — perhaps meet then; and "мне наконецто пришли эти борды" — he will work out how to connect them and may need a couple of extra wires; Pavel: ask any questions on connecting the boards [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The editor is the NOVA Studio spike of Nov 3 — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-4 note); which boards is not said (the RK boards by context — **inference**).
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — send his comments on the first version of the new Nebraska game; have the editor prototype roughly working; connect the boards — due Nov 6 2026 ("к концу недели") — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -321,3 +329,5 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

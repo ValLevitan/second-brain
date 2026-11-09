@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 157
+source-count: 159
 open-commitments: 51
 ---
 
@@ -701,6 +701,10 @@ At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md
 
 At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noon engine meeting]] (Russian; label "Andrei Bosik") he asked which Linux — x86 or ARM (answer: both); noted Unity has MCP support built in; found full browser support excessive; added CI/CD, autotests and the CMS link to the pipeline; and said Igor's tool should become part of Anton's system, with a clear line between them [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Details: [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]].
 
+## Nov 4 2026 (8:00 AM) — the pre-release check must fail the release; he runs the server deploy; the SIM alert is the provider's job; manuals and release notes beside the artifacts; he briefs Kovalchuk
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]: taking the final build "с нашего. Сервера" is "правильнее всего"; Sergey had already added the Flex-Port function to the dashboard with him ("мы с ним это уже доделывали") [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. Pavel named him as the one who runs the production deploy action for the server services [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. On Claude's release-notes check he placed it before the release — "какойто этап предрелиза" — and asked that a failed check fail the release; Val agreed; he also asked whether autotests should catch the gaps (Val: not their place) — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]], where his commitment to brief Kovalchuk from the transcript is tracked. He remembered "Request Review" surviving for the designers [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. On the SIM: "подобного типа уведомления это задача провайдера"; as a developer he saw few settings in the portal; he multiplied 160 MB by 45 days — "7200" — to size the limit [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. He asked for release notes inside the zip or by a click, and a stand-alone PDF manual beside each artifact, "как это делают все производители" — manuals went to MVP 2 — [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]] [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. He said he did not remember looking "сильно негативно" at Chudinov's SIM-binding idea [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -863,3 +867,5 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

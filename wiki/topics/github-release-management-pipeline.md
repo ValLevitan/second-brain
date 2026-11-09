@@ -3,9 +3,9 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 110
+source-count: 114
 open-commitments: 1
-open-questions: 10
+open-questions: 11
 ---
 
 # GitHub release management and the CI/CD release pipeline
@@ -846,6 +846,20 @@ On the [[wiki/meetings/2026-10-08-genadi-bom-standard-flex-slim-metal-mikhail-ha
 
 Detail on [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-one-jira-project-one-repo-zero-trust-data-contracts-no-monorepo.md]] (Oct-8 update).
 
+## Nov 4 2026 — the release builds nobody handed over; links go in the release chat, not side channels; where release notes and artifacts live; then Val's release definition and the release-manager flow
+
+**The stand-up (6:15 AM).** At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]:
+
+- **Not handed over.** [[wiki/people/pavel.md|Pavel]]: "релизную версию флекса айкью ктонибудь там Филиппа Элизабет перекидывал?" — nobody. [[wiki/people/irina-shishko.md|Irina]] had sent Pavel the Flex-Port builds the evening before to pass on; he had not. Rule: "В тот чат, где мы говорили о релизных версиях… туда же надо выложить [Flex] IQ. Чтобы это не шло какими то альтернативными каналами." [[wiki/people/alexei-khamin.md|Khamin]] sends one email with the released Flex IQ and Flex-Port links and copies it to the chat (Irina: an email rather than chat, "чтоб они знали, где взять") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The notes say the builds go to Toronto; the place is unclear (see the stub).
+- **One place for what was released.** Irina wants a document, "как делает ваня" for the machines, saying what was released and "кто с кем живёт" — which IQ build goes with which port build. Pavel: releases are made as GitHub tags with descriptions; they could be mirrored to Confluence ("конкурент", heard) so it is in one place. [[wiki/people/dmitri-chudinov.md|Chudinov]]: the server already has the firmware store with download links — users must always take the latest version; a letter can notify them; a document can be generated into it reviewing what each version holds ("кукол соберёт всё по MVP", heard; the notes read a Claude step); he was not sure GitHub keeps the release builds as artifacts — "Зачем хранить в 2 местах?"; Pavel: GitHub keeps the tagged release versions automatically, and "рано или поздно ты придёшь в gi, чтобы посмотреть… к какому камиту он привязан"; Chudinov: the name of the build leads to the build number, "Уже линк", and nothing is cleaned up [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. For now: "дадим Ссылки на скачивание" through the graphical interface on the "экстре" (heard; STG?) — describe, show, make a link — for the Flex IQ; the port is on STG too but, Chudinov, "не в текущей версии" — Pavel: the next [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. Khamin asked that the Flex-Port release be flashed over factory firmware by update.bin and wants an instruction written — [[wiki/people/alexei-khamin.md]] (Nov 4).
+- **Jira.** Pavel: go through every Jira project and make the "MVP 1 Transactional" release in Jira — started the day before [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — [[wiki/people/pavel.md]] (Nov 4), where the commitments are tracked.
+
+**The MVP 1 meeting (8:00 AM).** Two hours later, at the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]], Val gave the pipeline its production-side rule: a release is done only when the cleaned build is on the production server (the AWS S3 store) under a number; Claude writes the release notes and checks them against the capabilities and the prose, producing a compliance and an exception report, as the last step of the GitHub workflow; the release manager is [[wiki/people/ivan.md|Ivan]], under Irina; Jira features go Completed → Done after the end-to-end test, capabilities Completed → Closed after the release; "Request Review" leaves the feature workflow; Pavel writes the release standard into the standards repository; Pavel keeps GitHub and the rebuild from tag — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]] [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. The Flex-Port download (programmer image and USB update) was forced into MVP 1 — [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]]. This gives Ivan's Oct-2025 release-manager role (above) its transactional form — **evolution**.
+
+### Open questions (Nov 4 2026)
+
+- Where do release notes live long term — GitHub tags, a Confluence mirror, or a generated document in the firmware store? Raised by Irina; not settled at the stand-up; the MVP 1 meeting put Claude-written release notes into the workflow without naming where they are kept — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -959,3 +973,7 @@ Detail on [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-
 - [[raw/Meeting_Transcript_Daily_Standup_Engineering_Menu_and_Jira_Discipline-September-25-2026.md]]
 - [[raw/Meeting_Transcript_V-1000_Modem_Current_Use_Cases-September-24-2026.md]]
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

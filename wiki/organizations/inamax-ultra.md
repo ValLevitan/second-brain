@@ -2,10 +2,10 @@
 type: organization
 title: Inamax (Powered by Ultra)
 date: 2026-07-27
-aliases: [Inamax, Ultra, Inamax Ultra, "Inamax (Powered by Ultra)", Ultra Gaming, Inna Max, Ray Constantino]
-source-count: 6
+aliases: [Inamax, Ultra, Inamax Ultra, "Inamax (Powered by Ultra)", Ultra Gaming, Inna Max, Inna Box, Ray Constantino, Ashley Gunther, Ray's 5 plus 5 D27]
+source-count: 10
 open-commitments: 4
-open-questions: 2
+open-questions: 3
 ---
 
 # Inamax (Powered by Ultra)
@@ -93,8 +93,20 @@ At the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug-3
 - **A caution:** "he also is a little bit on the crook side, right? So **don't get anything hundred percent from what they're saying**." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - **On the CFO and the Kroger footprint:** "these guys, they are CFO. **This is a lady. She used to work on the Kroger CFO**… They managed to have the Krogers, **all the Krogers**. They're putting their employees in the Krogers. **They're doing awful, by the way**, but we don't care about this." [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]] The Kroger connection itself corroborates the 2026 briefing, which credits this group with the Titan redemption platform deployed at Kroger locations. [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 
+## Nov 4 2026 — Ray orders 5 new D27 plus 5 on trade-in, all for Nebraska, and a Georgia software upgrade; Ashley writes the POs; and the warehoused IGTs come up for trade-in
+
+Two calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe]] on Nov 4 2026 — [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|10:27 AM]] and [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|4:32 PM]] (English). The company is named only as "Ray at Inna Box" (heard) on the afternoon call; that this is Inamax / Ultra rests on the name Ray, Ashley as "head of operations" (the briefing's Ashley Gunther), and the Nebraska and trade-in threads above — **inference** [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/georgia_operator_briefing_Inamax_Ultra.md]].
+
+- **The order.** Val, restating: Ray "says I want 5 new D27s at a standard price. I want five additional new D27 through a trade-in program." Felipe had asked "why don't you do 10 trade-in?"; Ray: "I only want to do 5 because I still don't know what I want to do with the rest." Why D27 not D43: "we don't have a vertical game for Nebraska. All those, all 10 of those are going to Nebraska." Ray "has never tried our games in Nebraska" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]. See [[wiki/projects/nebraska-skill-market.md]] (Nov 4).
+- **How it is to close.** Felipe: "I was with him and Ashley and he said, send Ashley the total amount. Ashley, please write down the POs. Order the games. and let's update the software in Georgia… I just need to send numbers." Upgrades are paid up front: "He said, just pay the upgrades up front. Don't worry for the credit." Then: "Just send us the quote. Ashley will go through it and once approved, we'll send you the PO" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]. Felipe on Ashley: "when he gives the go, everybody moves… That's what happened the last time when they ordered the 20 cabinets. It was his go… and she just followed through"; but "if she sees some numbers that don't make any sense, well, she's going to come back to him." Val: "if he said issued the purchase order, then he probably doesn't want to deal with it anymore, and now she will do what he said" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **Growth claim.** Felipe: "he said they're growing three to five locations per week" (Val later: "Five locations per month?" — both as heard) [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **Val's read of Ray** — "We have to chase this guy. He almost never delivers on his promise. He sets out big plans, but hardly ever delivers for us" — matches the "he says yes, but then nothing" of Aug 31 above; Felipe: "I've been after him for months trying to get him to order for Nebraska" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]. Val's coaching and the software-upgrade price — about $500 a game, $7,500 for the 15-game library — are on [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]].
+- **Ray's performance reports.** Felipe: "he showed me reports and He was more pessimistic that the actually the actual numbers showed and I showed him, but look, we're not far behind from IGT's prices [heard], right? And we're actually ahead Fort Knox… And he said, yeah, but look at aristocrat number. I said… Let's do location average… He said, yeah, but these are not my only locations. I have, of course, many other locations where I have JVL" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **The warehoused IGTs (morning call).** Felipe had asked "Ashley" about "the old IGT sitting in their warehouse… Let's trade them in for brand new flex", and wants first to learn how many they would trade. Val set the rule that the price is his to decide — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]. That this Ashley is Inamax's is **inference** from the afternoon call. Whether the five trade-in D27 are against these IGTs is not said.
+
 ## History
 
+- [x] [[wiki/people/felipe-miranda.md|Felipe]] — meet Ray (lunch was suggested for the following week) to discuss extending the trade-in offer — set Feb 11 2026 — **discharged by Nov 4 2026: Felipe reports having met Ray with Ashley, with a trade-in program part of the order; the date of that meeting is not stated** — [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]] [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - **Jan 27 2026 — an outside operator's read.** Former Georgia route operator [[wiki/people/rich-winley.md|Rich Winley]], listing masters JVL should work, placed Nick Damani at "number three or four in the market". The line around it is garbled; no company is named with him in that source, so the link to Inamax rests on this page's record of him as its CEO. *(The 2026 briefing ranks Inamax about #5 by decals — a different measure, date and speaker, so this is not recorded as a contradiction.)* [[wiki/meetings/2026-01-27-rich-winley-georgia-coam-market-intel.md]] [[raw/Meeting_Transcript_Rich_Winley_Georgia_COAM_Market_Intel-January-27-2026.md]]
 - **Mar 9 2026 — a good buyer.** Asked who is a good buyer in Georgia, [[wiki/people/rich-winley.md|Rich Winley]] listed Ultra with Diamond and United — "and if Ultras are good buyers", then "Ultra is the other one"; his next line, "Ultra is a good tire", is a garble (the derived notes read "good buyer"). Val's reply, "Ultra so Ultra is M Diamond", is unclear. "Ultra" is resolved to this page by context. [[wiki/meetings/2026-03-09-rich-winley-texas-rollout-delay-georgia-buyers.md]] [[raw/Meeting_Transcript_Rich_Winley_Texas_Rollout_Delay_and_Georgia_Buyers-March-9-2026.md]]
 
@@ -113,15 +125,20 @@ At the [[wiki/meetings/2026-08-31-arc-gaming-transactional-demo-class-a.md|Aug-3
 - [ ] [[wiki/people/juan-martinez.md|Juan]] (with [[wiki/people/felipe-miranda.md|Felipe]]) — keep the **Inamax Nebraska trial coordination** moving: follow up on Ray Cosentino's interest in testing JVL units under Inamax's Nebraska skill software and connect him with the right Nebraska operational contact — due unspecified — [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 - [ ] [[wiki/people/juan-martinez.md|Juan]] — send Ray the Nebraska game options and pricing — due "right away" (Feb 11 2026) — [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 - [ ] [[wiki/people/felipe-miranda.md|Felipe]] — make the final arrangements for the free-machine trial in top Inamax locations (machines, locations, which figures to collect) — due unspecified — [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
-- [ ] [[wiki/people/felipe-miranda.md|Felipe]] — meet Ray (lunch was suggested for the following week) to discuss extending the trade-in offer — due week of Feb 16 2026 — [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
+- [ ] [[wiki/people/felipe-miranda.md|Felipe]] — send Ashley the quote for Ray's order: 5 new D27 at standard price, 5 D27 through the trade-in program, and the Georgia software upgrade ("I just need to send numbers"; "I want to send them a quote") — due unspecified (Nov 4 2026) — [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 
 ## Open questions
 
+- What will Ray do with the rest of his machines beyond the first 10 for Nebraska? Ray: "I still don't know what I want to do with the rest" (Nov 4 2026) — [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - What is the **real constraint preventing broader JVL deployment at Inamax** (commercial terms, standardization preferences, strategic partnerships, internal product-approval workflow, competitive benchmarks)? To be resolved executive-to-executive with Ray Cosentino, with Ashley Gunther's operational approval a gating factor. [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 - How many JVL Peach 3 machines does Inamax run, and did it get JVL machines through route acquisitions? Felipe's system shows one Peach 3; the question was asked on Feb 11 2026 and no answer is recorded. — [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/georgia_operator_briefing_Inamax_Ultra.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Transactional_Demo_and_Class_A-August-31-2026.md]]

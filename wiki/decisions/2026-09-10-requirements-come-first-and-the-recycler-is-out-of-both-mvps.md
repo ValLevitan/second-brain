@@ -3,10 +3,10 @@ type: decision
 title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
 date: 2026-09-10
 aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
-source-count: 8
+source-count: 10
 status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update); on Oct 1 2026 the engineers said they work from the mock-ups first because the requirements are abstract (see update)
 open-commitments: 5
-open-questions: 1
+open-questions: 2
 ---
 
 # Requirements first, then the MVP split — and the Flex-Recycler is out of both
@@ -73,6 +73,14 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 
 **§15.8:** clear — scope, schedule and process only; no named-person compensation.
 
+## Note, Nov 4 2026 — Biratka asks when the Recycler starts; Pavel sends it to the business: Flex Pay MVP 3 first, or a Recycler MVP, and it is a Texas product
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[wiki/people/alexander-biratka.md|Biratka]]: "у меня остаётся вопрос по поводу риса айклера, то есть мы будем стартовать… на какое то у нас м в п… Трогать ли железа короче." [[wiki/people/pavel.md|Pavel]]: "Давай это уточним с бизнесом, какие у нас приоритеты? Мы flex pay хотим в первую очередь зарезить, например да VP 3 или открывать какой то MVP для риса и клера" — and which: a Recycler "для Джорджи или сайтлер для Техаса это тоже разные… сценарии"; "выглядит так, что это надо для Техаса, и вряд ли это надо для Джорджия" — cash payout is not allowed there "в ближайший год", and the InComm card route is "ещё не утвержденный… обходной манёвр"; Biratka: "для Техаса будет проще"; if the Recycler lands in "VP 3", the features can be planned (an IP connection and so on) — his "задачи будущего"; Pavel: libraries exist "и под икс 86 и под арм" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The titular ruling holds (not MVP 1, not MVP 2); the Sept-30 "probable MVP 3" is now one of two options, against a Recycler MVP of its own — **evolution**. The commitment is on [[wiki/people/pavel.md]] (Nov 4).
+
+### Open questions (Nov 4 2026)
+
+- Does Flex Pay MVP 3 come first, or a separate Recycler MVP (for Texas)? Pavel takes it to the business — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -82,3 +90,5 @@ At the [[wiki/meetings/2026-10-01-transactional-mvp1-status-slice-and-sas-comman
 - [[raw/Meeting_Transcript_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Status_Slice_and_SAS_Command_Logging-October-1-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

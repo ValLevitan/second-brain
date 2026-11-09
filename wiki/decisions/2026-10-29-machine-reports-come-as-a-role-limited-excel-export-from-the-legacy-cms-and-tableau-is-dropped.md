@@ -3,7 +3,7 @@ type: decision
 title: Machine reports come as a role-limited Excel export from the legacy CMS — by game, operator, jurisdiction and date, six months at most per export, each user seeing only their own region — not Tableau and not an MCP; Tableau is no longer maintained and its licence goes once the export ships; target November 7 (Val, Oct 29 2026)
 date: 2026-10-29
 aliases: [Tableau replaced by legacy CMS Excel export, Excel export from the legacy CMS, legacy CMS Excel export, табло не нужен, мне табло не нужен вообще, bury Tableau, drop the Tableau licence, six-month export limit, полгода максимум, role-based Excel export, game statistics export, account statistics export, Tableau reports fix incomplete and outdated data]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 4
 open-questions: 3
@@ -75,6 +75,10 @@ A Russian working call on Oct 29 2026, 8:31 – 8:58 AM Eastern — [[wiki/meeti
 
 - Recheck the machine and its statistics before the deploy, or verify on production? — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 
+## Update, Nov 4 2026 — Irina takes the check of Tsymanov's server-side work so Chudinov can release; the passport deploys too if approved
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[wiki/people/irina-shishko.md|Irina]]: "Мне нужно сейчас посмотреть, если чтото со стороны сервера не проверено да проверить, и тогда ты сможешь релизить"; [[wiki/people/pavel.md|Pavel]]: the items Sergey did ("борисовруман", "парисо" — heard: RIS, passport); [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "Дима будешь, если дадут добро, то паспорт тоже" deploy; [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Хорошо" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. This takes over the Nov-2 "Chudinov and Ivan meet on Wednesday" item (annotated on [[wiki/people/dmitri-chudinov.md]]); whether the STG deploy of Nov 3 happened is not said. The commitment is on [[wiki/people/irina-shishko.md]] (Nov 4). Chudinov also reported "Я сделаю рот вчера. Прелиз экю" (heard: the IQ release made yesterday) and work on host and server reporting [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
@@ -83,3 +87,5 @@ A Russian working call on Oct 29 2026, 8:31 – 8:58 AM Eastern — [[wiki/meeti
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

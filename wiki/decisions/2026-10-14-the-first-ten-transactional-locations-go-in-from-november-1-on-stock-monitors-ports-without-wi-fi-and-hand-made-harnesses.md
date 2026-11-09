@@ -3,7 +3,7 @@ type: decision
 title: The first ten transactional locations go in from November 1 — stock monitors instead of covers, Flexports without Wi-Fi, JVL-made brackets for the first location, ten harness sets made by hand, at most two installs a day, then a pause
 date: 2026-10-14
 aliases: [path to the first ten locations, November 1 stays, Первое ноября у нас решено, first ten locations then a pause, десять локаций нам сделаем паузу, monitors instead of covers, JVL We Take Our Games Seriously on the monitor, first release without Wi-Fi, no port replacement, brackets for the first location, order brackets for ten locations, hand-made harnesses, ten sets of harness by hand, two installs a day, sixty ports for ten locations]
-source-count: 9
+source-count: 11
 status: active
 open-commitments: 7
 open-questions: 2
@@ -73,6 +73,10 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - **Brackets.** At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bracket.md|Oct 20 2:15 PM meeting]] Genadi said Sebastian has measured the brackets; on Light & Wonder machines the Flex-Port is 1 mm too tall without its back cover, about two months away; for the first Light & Wonder installs the part is cut by hand — [[wiki/decisions/2026-10-20-first-light-and-wonder-flex-port-installs-get-a-hand-cut-fit-while-a-proper-fix-is-found.md]] [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]].
 - **Why installs matter.** Val: a customer liked the demo but changed his mind on hearing none are installed, so he is rushing to get machines onto locations [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]].
 
+## Note, Nov 4 2026 — not released by November 4; three approved locations; the first an hour from the warehouse
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] said "мы поставили цель сделать этого 1 октября… Выдали это на 40 дней позже. Неважно чья вина" and defined the release as the cleaned build on the production server — so as of Nov 4 the MVP 1 release of the November-1 owner ruling had not been made; no new date was set [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]]. **Evolution:** the November 1 date has slipped; the ruling's content (ten locations, then a pause; two installs a day) was not revisited. [[wiki/people/andrei-klimovich.md|Klimovich]]: "3 утверждённые локации"; the first "в часе езды от нашего уайнхауса" with one JVL and one Aristocrat on SAS and two "HT" (heard) in bill-validator mode; "У нас ещё нету бракетов" (Val) — [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]] [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
@@ -83,3 +87,5 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

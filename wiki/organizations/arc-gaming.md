@@ -2,8 +2,8 @@
 type: organization
 title: ARC Gaming
 date: 2026-08-31
-aliases: [ARC, Arc, Ark, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck]
-source-count: 23
+aliases: [ARC, Arc, Ark, ARC Gaming, намберту, number two company in Georgia, two machines a week, five machines a week, Art, ARC Gaming DC, ARC Gaming & Technologies, Lucky Bucks, Lucky Bugs, Lucky Box, Arc Luck, ARP]
+source-count: 27
 open-commitments: 8
 open-questions: 6
 disambiguation: "The Georgia COAM master/route operator whose COO is Georgios 'Zaza' Zazanis and whose CEO is David Sloan. **Lucky Bucks is its FORMER NAME** — one company, renamed (Val's ruling, 2026-09-10). The corpus's earlier bare 'Arc' mentions in a *kiosk-vendor* sense are a separate, still-unresolved thread — see the §4 name note below. Resolve by context."
@@ -276,6 +276,12 @@ A long lunch between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/georgi
 
 On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momentum.md|Oct-14 5:33 PM call]] Val told Felipe ARC "**is thinking of trading in approximately two hundred IGTs**" at about $1,500, against IGT's $6,500 upgrade kit — see [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]] (Oct-14 note). Felipe also mentioned a connected machine "**from Art**" with almost $5,000 played; reading "Art" as ARC is **inference** (see [[wiki/projects/georgia-market-rollout.md]], Oct 14, 5:33 PM) [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
 
+## Nov 4 2026 (in absentia) — the ten machines leave on JVL's own truck, with modems; and Val's figures from George retold: $7,500 to upgrade an IGT, $1,500 on trade-in
+
+- **The delivery (10:27 AM).** On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 morning call]] [[wiki/people/felipe-miranda.md|Felipe]]: "I had to deliver the 10 games to Arc. So they are leaving right now today because they didn't want to pick up. So I kind of pushed it and I forced it, but we're delivering ourselves. I got a truck and they're delivering today." Val: "to arc, you delivering without modems or with modems." Felipe: "With modems? Yeah, all machines have modems now." The Oct-6 release commitment is discharged — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]] (Nov-4 update); Val's modem-configuration scope gap, raised on the same call, is [[wiki/decisions/2026-11-04-when-a-modem-is-present-its-connection-is-forced-on-and-opting-out-is-intentional-and-multi-stage-not-a-flag.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- **"Another large operator… for 2027."** Val told Felipe to tell a second operator "that there is another large operator who is making this deal with Val… for all of his IGTs in the warehouse for 2027" — by the Oct-13 handshake, ARC (**inference**; not named on the call) — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- **George's figures, retold (4:32 PM).** On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|afternoon call]] Val: IGT "charge about $7,500… I got this number from George and ARP [heard], they they they asked him for $7,500 per machine to upgrade his IGTs", and "George, for trading of his IGTs, he is looking at somewhere $1500 to charge us about $1500." "George and ARP" = [[wiki/people/georgios-zazanis.md|George Zazanis]] and ARC — **inference** from the Oct-13 lunch. The $7,500 differs from the $300,000-for-50 of Oct 13 and the $6,500 of Oct 14 — recorded on [[wiki/decisions/2026-10-13-arc-trades-in-old-machines-for-texas-as-credit-on-2027-purchases.md]] (Nov-4 note) [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+
 ## History
 
 - **Under its former name, Lucky Bucks** (date not given): Val says it took about **40 machines a month** from him, for "two years. Maybe a year", when it had "six hundred plus" locations [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
@@ -286,6 +292,10 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]

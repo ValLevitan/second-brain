@@ -3,7 +3,7 @@ type: topic
 title: JVL machine pricing and commercial strategy
 date: 2025-09-23
 aliases: [machine pricing, fifteen seven fifty, $15750, free hardware instead of discount, retail price, price list, Dennis one number, CFO-to-CFO credit, market pricing, list price, dollars not discounts, JVL Dollars pricing lever, show special pricing, Georgia machine price, D43 price, D27 trade-in, South Dakota premium, twelve eight twenty, two nine thirty, $795 port, $895 IQ, $7950 Flex-Slim, kill the market, fifty-seven fifty, topper eight hundred to one thousand, ten dollars per machine, value almost as much as this machine is, ninety to one fifty, one hundred months, $150 minimum, lease pricing, fourteen dollars per machine per month]
-source-count: 43
+source-count: 45
 ---
 
 # JVL machine pricing and commercial strategy
@@ -320,8 +320,22 @@ At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-
 - **Val's terms.** "I will pay twenty percent commission… I want to get nine thousand dollars here minus twenty percent. I don't want to finance." See [[wiki/decisions/2026-10-16-puerto-rico-goes-through-one-distributor-at-twenty-percent-with-no-jvl-financing.md]]. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - **The transactional pieces, priced separately.** Val: "The port is roughly a thousand, just under a thousand. The POS system, the table mount POS, is roughly a thousand, just under. And I think the kiosk is eight and a half." The kiosk price depends on "what's inside the kiosk"; "I'm giving you approximate numbers. But I am extremely flexible." David: kiosks there "need to be around five" thousand, and most places pay by hand at the counter. [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 
+## Nov 4 2026 — software upgrades priced by game count: about $500 a game, $7,500 for a 15-game library, about $1,500 for a premium game alone
+
+On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|Nov-4 4:32 PM call]] [[wiki/people/val-levitan.md|Val]] gave [[wiki/people/felipe-miranda.md|Felipe]] the retail rule of thumb for upgrading installed machines' software — ruling on [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]] [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]:
+
+- **The numbers.** "I'm thinking $500 per game… if a release has 15 games, to me it's $7,500… If a release has six games, then it's 3000. If a release has 10 games, it's 5000… That's my retail. Price." A premium game on its own — "a Bison game just by itself" — "$1,500"; "Lions and Bisons… about $1,500 a game." "This is a rule of thumb." [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- **The doctrine behind it** — the same one as Sept 16 above, applied to software: "the best form of a discount is software. That's why I'm sticking with $500 a game… Because I'm setting them up for a potential discount… there is no bill of material involved in discounting the software." [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- **Competitor figures, as Val has them.** IGT "charge about $7,500" per machine to upgrade (from ARC's George, heard "George and ARP"); Aristocrat's upgrade price unknown; George's IGTs on trade-in "about $1500". How IGT upgrades a machine is "worth investigating" (open on the decision page). [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- **Against the $250-a-game of Oct 14** (extra games on a new machine, "peanuts"): a different thing priced; the two are not reconciled on the call — **inference**. Against the Apr-2025 $2,900 kit — [[wiki/decisions/2025-04-01-price-georgia-coam-upgrade-kits.md]] (Nov-4 note).
+- **The trade-in price itself is not Felipe's to quote** — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]].
+
+**§15.8:** clear.
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]

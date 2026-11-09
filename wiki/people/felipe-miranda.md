@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 112
+source-count: 116
 open-commitments: 24
 open-questions: 0
 ---
@@ -474,7 +474,30 @@ At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-a
 
 At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] Val said Felipe looks only at Georgia and works very comfortably with Claude. Under the new legacy-CMS Excel export he logs in with his own credentials, picks filters, downloads the file and builds reports alone or with Claude; he sees Georgia only, and takes questions on the numbers to Efim — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
 
+## Nov 4 2026 (10:27 AM) — he opens an IGT trade-in with an operator's Ashley, is told to leave the price to Val, delivers the ARC machines himself, and spreads the word
+
+On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 10:27 AM call]] with Val [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]:
+
+- **The trade-in approach.** He had told an operator's "operations manager or tech manager, Ashley" — by the afternoon call, Inamax's head of operations (**inference**) — "Let's trade them in for brand new flex" for "the old IGT sitting in their warehouse", and asked Val what offer would work. Val would not give a number and set the rule that he is in the middle of every trade-in deal; Felipe goes to the meeting to learn how many machines, says he will lobby Val, and mentions another large operator's 2027 deal — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]] (his commitment is held there). Val's reason, in his words: "you're a professionally nice guy… You need to remain you, and I need to remain me, and that's why you and I work together." Felipe: "seems that nice is not… Getting results" [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- **The ARC delivery.** "I had to deliver the 10 games to Arc. So they are leaving right now today because they didn't want to pick up. So I kind of pushed it and I forced it, but we're delivering ourselves. I got a truck and they're delivering today." All with modems: "all machines have modems now" — [[wiki/decisions/2026-10-06-the-ten-arc-machines-are-released-this-week-with-modems.md]] (Nov-4 update) [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- **The modem flag.** He said the ten "were configured with jam connected [heard]. Of course, if there's a hard reset, they might not do it" — Val's scope gap is [[wiki/decisions/2026-11-04-when-a-modem-is-present-its-connection-is-forced-on-and-opting-out-is-intentional-and-multi-stage-not-a-flag.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- **Outreach.** He texted "those large companies that I know have a lot of games in their warehouse" and "Christina Kaiser, who is very influential in Gamoa" — see [[wiki/organizations/gamoa.md]] (Nov 4) [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+
+## Nov 4 2026 (4:32 PM) — the Ray deal, coached "through the prism of a seasoned sales guy"
+
+On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|Nov-4 4:32 PM call]] with Val [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]:
+
+- **The deal he brought.** Ray at [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]] ("Inna Box", heard — **inference**) wants five new D27 at standard price and five more through a trade-in, all for Nebraska, plus the Georgia software upgrade; Ray told Ashley to write the POs. "this is the closest I've been to a deal with him since I sold him last time… I don't need to chase them anymore." Detail and his quote commitment on [[wiki/organizations/inamax-ultra.md]] (Nov 4) [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **The coaching.** Val: "I want to train you to think as a professional and trained sales executive" — Ray "sets out big plans, but hardly ever delivers for us", so "if we don't have answers to why he does what he does, we should at least… Think and be. Cautious." Felipe: "I, I don't know if I'm getting your message, man." Val: "I would like to sell 100. But I'm just questioning whether it's realistic." Felipe's answer to "I have never seen a large company order 10 games for a new market": "They ordered 20 for Georgia when they had not tested it." Val: "our games were already proven in Georgia." Val, closing: "I'm grateful for your effort and tenacity. That goes without saying." Felipe: "everything you've told me I've digested and now I'm trying to be more careful in what I say, how I say it, and the pace I'm saying it at" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **The pricing rule he got** — about $500 a game, $7,500 for the 15-game library, about $1,500 for a premium game alone, and "nail the deal" before any partnership question — [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]]. He had wanted "2400 for the upgrades" but did not say it to Ray [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **Ray's reports.** Ray "was more pessimistic that the actually the actual numbers showed"; Felipe argued "let's compare the average… location average. That's what everyone does" — against Aristocrat's number; "we're actually ahead Fort Knox". His aim: "Once he sees the numbers, we'll start getting orders from him" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **§15.8:** clear on both calls.
+
 ## Sources
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]

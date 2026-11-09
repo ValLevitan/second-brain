@@ -3,7 +3,7 @@ type: decision
 title: ARC trades in its old machines (IGT and others) for Texas, as a credit on its 2027 JVL purchases — handshake deal in principle; quantity and price open
 date: 2026-10-13
 aliases: [ARC trade-in, Texas trade-in, IGT trade-in, credit for 2027 buys, one year credit, handshake deal, Austin warehouse, board could be garbage, fifteen hundred sounds logical, sixty to two hundred seventy-five]
-source-count: 4
+source-count: 7
 status: active
 open-commitments: 2
 open-questions: 3
@@ -40,6 +40,19 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 
 - *Not a contradiction:* "about two hundred" sits inside George's Oct-13 range of 60 to about 275; the open quantity question below stays open.
 
+## Nov-4 note — used as leverage with a second operator, and the IGT upgrade figure retold as $7,500
+
+- **Leverage.** On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 10:27 AM call]] Val told Felipe to tell another operator "that there is another large operator who is making this deal with Val… for all of his IGTs in the warehouse for 2027" — this deal, by context (**inference**; ARC is not named on the call) — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- **The $1,500 again.** On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|4:32 PM call]] Val: "George, for trading of his IGTs, he is looking at somewhere $1500 to charge us about $1500" — consistent with Oct 13 [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+
+## Open contradictions
+
+**What IGT asked ARC per machine to upgrade — Val's own retellings differ.** Recorded, not resolved; all three are Val speaking, none is an IGT document.
+
+- **Oct 13 2026:** IGT asked ARC "about $300,000" to replace the logic boxes on 50 machines (George's account at the lunch — about $6,000 a machine, **inference** by division) [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]].
+- **Oct 14 2026:** Val to Felipe: IGT wants "sixty five hundred dollars" for its kit [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]].
+- **Nov 4 2026:** Val to Felipe: "they charge about $7,500… I got this number from George and ARP [heard], they they they asked him for $7,500 per machine to upgrade his IGTs" — and in the same breath, "I don't know how they upgrade machines… it's worth investigating. Maybe we should get those figures correctly" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]. The open question is held on [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/georgios-zazanis.md|George Zazanis]] — count the old machines in ARC's warehouses and in the field; send Val the number and the trade-in he wants — due "a couple of days, a few days" — [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
@@ -55,6 +68,9 @@ On the [[wiki/meetings/2026-10-14-sales-q4-trade-in-plan-and-transactional-momen
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
 - [[raw/Meeting_Notes_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]

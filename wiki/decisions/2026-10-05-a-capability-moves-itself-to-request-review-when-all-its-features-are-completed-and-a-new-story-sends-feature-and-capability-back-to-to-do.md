@@ -3,7 +3,7 @@ type: decision
 title: A capability moves itself to Request Review when all its child features are Completed (Kovalchuk's weekend automations), and a story added under a Completed feature sends the feature to To Do and its capability from Request Review to To Do — the automatic move was dropped on Oct 28 (the story's creator now moves the feature by hand), the developer moves it to In Progress when he takes the story; every story must hang under a parent
 date: 2026-10-05
 aliases: [Jira reopen rules, four automations, 4 автоматизации, capability to Request Review automatically, все дочерние фичи комплект капабилити реквест ревью, story reopens feature and capability, фичу из комплитов в туду, капабилити в туду, пускай будет всё в туду, open story hiding inside a done tree, внутри сидит открытая история, stories without a parent, ряд оказались ни к кому, today's date no longer red, убрал сегодняшнюю дату]
-source-count: 10
+source-count: 12
 status: active
 open-commitments: 1
 open-questions: 3
@@ -98,6 +98,10 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 
 - [x] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the reopen: a story created under a Completed feature moves the feature Completed → To Do and its capability Request Review → To Do — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] — *superseded Oct 28 2026: Pavel, "Я бы наверное автоматически не не переводил"; the story's creator moves the feature by hand* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 
+## Note, Nov 4 2026 — "Request Review" is to leave the feature workflow
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] said the "Request Review" status on features was forgotten when code review replaced peer review — "Я не вижу применения реквест ревью стейдж… непрактично" — and made it an undertaking for [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] (not present) to remove it from the feature workflow, or to split design features from development features if the designers need it; [[wiki/people/irina-shishko.md|Irina]]: two statuses "повторяют друг друга и только путаницу вводят"; [[wiki/people/pavel.md|Pavel]] agreed [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. The new feature flow is Completed → Done after the end-to-end test; the capability goes Completed → Closed after the release — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]]. What becomes of this page's capability-level automation (capability → Request Review when its features are Completed) was not discussed; it is not touched in words. Val also asked Kovalchuk to find out why a red build-error marker sits on a Completed item (Chudinov: Jira remembers the first build) [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -109,3 +113,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

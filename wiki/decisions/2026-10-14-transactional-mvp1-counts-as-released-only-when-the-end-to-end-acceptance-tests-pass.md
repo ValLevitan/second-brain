@@ -3,7 +3,7 @@ type: decision
 title: Transactional MVP 1 counts as released only when the end-to-end tests on the acceptance criteria pass — no separate product-team test pass now; field and beta tests come after
 date: 2026-10-14
 aliases: [MVP1 released only after end-to-end tests, end-to-end tests on acceptance criteria, end-to-end тесты согласно acceptance criteria, только после этого можно считать продукт выпущенным, no product-team test pass, waste of time, field tests after end-to-end, user experience is minutes not days]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 0
 open-questions: 0
@@ -55,8 +55,14 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Update, Nov 4 2026 — released also means on the production server, signed off by the release manager; not released by Nov 4
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/pavel.md|Pavel]] reported everything "MVP 1 Transactional" Completed; [[wiki/people/val-levitan.md|Val]] added the second half of "released": the cleaned production build on the production server under a number, Claude-written release notes checked against the capabilities and the prose, an exception report settled with the product owner, the capabilities moved to Closed — and the Flex-Port download pulled into MVP 1 first; "мы поставили цель сделать этого 1 октября… Выдали это на 40 дней позже" — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]] · [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]] [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. **Evolution:** the end-to-end tests remain the release test; the release event now has a place and an owner.
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

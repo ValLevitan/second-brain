@@ -3,7 +3,7 @@ type: organization
 title: Incom (payment processor)
 date: 2025-02-27
 aliases: [Incom, InComm, SkillPay launch email, hold off for two years, we will take the card away from you, Intum, they totally misled me, InComm's credit, that shift in opinion has only happened recently, black prize play card, white card ATM functionality, replace InComm on the back end, backend displacement, Incomm, Income, NCOM, Incom Payments, wrapped card rule, PAX, PAX 80, reloadable gift cards, Nathan Carver, cash-back commission, barcode activation, Mastercard rules, ABA number, MLH fee sharing, kicked to the curb, InComm doesn't offer any profit sharing, they've ignored us before during and after the show, sponsor bank behind InComm, 120 million a year, the easy living guys, daily cap five k, velocity calculated on the fly, it still says soon, InComm is the master guy, sub accounts, they actually buy bonds, biggest issuer, blue card, black card, billion-dollar gorilla, two dollars to load]
-source-count: 93
+source-count: 96
 open-commitments: 17
 open-questions: 14
 ---
@@ -802,6 +802,10 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - **The payment window.** Val has begun talks with InComm on when JVL must pay: "Сейчас, по-моему, мы согласились на три дня, а в контракте у нас стоит, по-моему, один день. Но нам нужно это сделать на пять дней." (Both current figures are his recollection.) Compare the $300,000 wire trigger on [[wiki/decisions/2026-10-13-new-incomm-terms-go-onto-the-existing-written-agreement.md]].
 - How JVL will back each location's cap: [[wiki/decisions/2026-10-14-jvl-sets-the-location-daily-cap-backs-it-with-a-guarantor-account-and-a-card-and-the-automatic-location-block-is-mvp-1-5.md]].
 
+## Nov 4 2026 — the second card product is paused after a "strike" from the local regulator, so MVP 1 goes with one product; the licence data for the first location already approved
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]] asked for two types of InComm cards on the Georgia side to test the multi-card work the Minsk office cannot test ("у инкома, что у нас мультикарт есть… карты одного продукта и карта другого продукта"); [[wiki/people/andrei-klimovich.md|Klimovich]]: "2 продукт сейчас на паузе они получили страйк от регулятора местного, этот продукция заморожена. Поэтому мы возвращаемся обратно к одному продукту"; for interface tests two products can be created, but the processing has one; Chudinov: "мы поддерживаем от одного и больше, поэтому тогда проблем не будет" [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. Which product is paused is not named; by the Sept-17 history the cash-access SkillPay card carried the regulatory risk Klimovich named then — **inference**, not stated here — see [[wiki/decisions/2026-09-17-jvl-supports-multiple-incomm-products-not-a-fixed-pair.md]]. For the first location, "мы кинули инкома заявку, скинули им все лицензионные данные, они нам дали зелёный свет" (no values spoken) [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. At the same morning's stand-up Pavel called InComm's card route for paying out in Georgia "не утвержденный… обходной манёвр" — [[wiki/projects/texas-used-machine-distribution.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_ATL_COAM_Transactional_Demo_Show_Special_and_Daily_Caps-October-14-2026.md]]
@@ -897,3 +901,6 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [[raw/Meeting_Notes_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [[raw/Meeting_Transcript_InComm_Prize_Play_Reset_Agreement_Scope_and_Cash_Dispense-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: November and December sales go to trade-ins — a $6,500 credit for old JVL machines against a new one, and Banilla and IGT machines taken for Texas; parts from incoming machines are crushed
 date: 2026-10-14
 aliases: [marching orders, Q4 trade-in plan, $6,500 trade-in, sixty-five hundred trade, JVL trade-in credit, Banilla and IGT for Texas, trade and deals, crush the validators, two packages, clean up our own market]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 1
 open-questions: 2
@@ -42,6 +42,10 @@ The next evening, at the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbish
 - **The rules Val set:** refurbished machines do not get the show special, and show-special machines are not financed — [[wiki/decisions/2026-10-15-refurbished-trade-in-machines-are-sold-apart-from-the-show-special-and-show-special-machines-are-not-financed.md]].
 - *Inference:* the Oct-14 plan's "refurbish them… package the deal and send them to South Dakota or to Nebraska" and this Georgia offer are two outlets for the same kind of stock. Whether the 20 machines here are JVL machines taken at $6,500 is not said.
 
+## Nov 4 2026 — the first operator approach under this plan, and who sets the price
+
+On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 10:27 AM call]] Felipe reported offering an operator's Ashley ([[wiki/organizations/inamax-ultra.md|Inamax / Ultra]] — **inference**) to trade "the old IGT sitting in their warehouse" for "brand new flex", and asked Val for the offer. Val gave none: "it's an ingredient of many things, how many machines, how committed they are… How quickly do they need it? What else is involved? I need to be in the middle of this deal" — the process rule is [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]. That afternoon the same operator's order arrived as "five additional new D27 through a trade-in program" for Nebraska, and Val restated "our plan is to send the machines to Texas" — [[wiki/organizations/inamax-ultra.md]] (Nov 4) · [[wiki/projects/texas-used-machine-distribution.md]] (Nov 4) [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]. Whether the Oct-15 priority list was made is not said on either call.
+
 ## Open commitments
 
 - [ ] [[wiki/people/felipe-miranda.md|Felipe Miranda]] — start a priority list of who to approach for trade-ins ("I'll start working on that tomorrow. I'll start putting a list together of priorities") — due Oct 15 2026 — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -49,12 +53,14 @@ The next evening, at the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbish
 ## Open questions
 
 - Will a price rise in January, right after the trade-in months, slow sales? Felipe raised it as "a strategic concern"; Val: "Going to be tough. Why is it going to be tough?" — no answer on the tape — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
-- What trade-in value for non-JVL machines? Felipe asked; Val: "Each deal is different." (Felipe's own figures in this passage are garbled — unclear.) — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
+- What trade-in value for non-JVL machines? Felipe asked; Val: "Each deal is different." (Felipe's own figures in this passage are garbled — unclear.) *Nov 4 2026: still no number — Val keeps it to himself per deal, and Felipe's question whether a returned IGT is priced like a Banilla or a trade-in went unanswered.* — [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 
 **§15.8:** clear — company trade-in values, machine and kit prices only.
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Notes_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]

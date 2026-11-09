@@ -3,8 +3,9 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий]
-source-count: 91
-open-commitments: 13
+source-count: 93
+open-questions: 1
+open-commitments: 15
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
 ---
 
@@ -359,7 +360,24 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 ### Open commitments (Nov 3 2026)
 
-- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — check the handpay-after-reboot bug (the event not sent, the ticket not printed) and the related printer settings — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — check the handpay-after-reboot bug (the event not sent, the ticket not printed) and the related printer settings — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] — *Nov 4 2026: he reported the "Dakota" double-ticket sequence and opened a group chat; whether it is the same defect and whether it is fixed at all is open — see Nov 4 below* — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
+## Nov 4 2026 — the "Dakota" double handpay ticket after a power-off; a group chat; a new SAS tool for autotests, Claude-driven; investigation under the service ticket, changes need a task; the 48-minute video for Friday
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]:
+- **The bug.** On the "Дакоте" machine ("который переиздавать собрались", heard — the one to be re-issued) the printer goes into a state where it prints ordinary tickets in audit-ticket orientation and does not report print completion properly: when the key is turned a handpay ticket should print; the printer "перестраивает у себя внутри… маркеры или метки… позиционку", and at that moment Ivan switches the machine off; after power-up the SAS host ("Центр") asks to print the ticket, the handpay comes up again, Ivan turns the key again and "2 тикета" print, vertical as for audit tickets but with handpay text. "там нечего фиксить собственно… Вопрос, будем ли мы это вообще как то фиксить? Не знаю" — the side that would fix it is heard as "со стороны одесси" (**unclear**; the notes: nothing to fix on JVL's side). Pavel asked whether only the machine or also the printer is powered off; Ivan: everything. He created a group chat on it. He and Pavel noted another printer might behave differently — "Даже ден 2 ген 5" (heard) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 4). It sits beside the Nov-3 handpay-after-reboot bug (annotated above); whether it is the same defect is not said.
+- **The SAS tool.** "делаю со стул новый" (heard; SAS tool) that should become the main one; now used to avoid the SAS host's acknowledgement of handpay reporting so the machine keeps reporting the handpay while "ров верифишн" (heard) is checked through SAS — needed for this bug; it goes to GitHub ("залью на… гид"), "будет служить нам для автотестов", with remote control and Claude control ("им можно будет управлять через клод") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. He needs SAS access from Ivan's machine to finish — [[wiki/people/ivan.md]] (Nov 4).
+- **Task discipline.** Pavel: is there a Jira task? "Задача будет, как только сейчас создастся репозиторий, создастся от репозитория проект в gi… Пока что это локально"; Pavel: investigation under the service ticket "CS 492" (heard) is fine, "но как только надо будет чтото менять… надо задачу"; Kharetski: why a task if he writes nothing to a repository — time is not logged, a task with no code or branch "Не мачится"; Pavel: a spike story under a capability, which for this old work probably does not exist yet — "Будем будем создавать, значит" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **Video.** "разбираю видео 48 минут, на которое я записал на нашей машине… чтобы к пятнице подготовиться" — the Oct-30 video-method test (**inference**) — [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]] [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. Igor's bonus page from his competitor-video breakdown: [[wiki/people/igor-metelski.md]] (Nov 4).
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish the new SAS tool, put it in a GitHub repository with its Jira project, and create a capability and spike for the service-ticket work before changing code — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — work through the 48-minute machine video and prepare for Friday — due Nov 6 2026 — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
+### Open questions (Nov 4 2026)
+
+- Fix the double handpay ticket after a power-off at all, and on whose side? — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -454,3 +472,5 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

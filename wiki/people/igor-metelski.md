@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 66
-open-commitments: 31
+source-count: 68
+open-commitments: 32
 open-questions: 1
 ---
 
@@ -314,6 +314,18 @@ At the [[wiki/meetings/2026-10-30-ai-competitor-game-teardown-and-mechanics-libr
 
 At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]: "по наду 2 вставляю ресурсы" (heard; the notes read NOVA 2); "по жениному разбору видео сделал бонус пейдже" — a bonus page from Kharetski's video breakdown; and he is preparing repositories to test the shader backgrounds on the machine [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — the Oct-29 shaders-vs-video spike is not yet reported; see [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov 2–3 note).
 
+## Nov 4 2026 — HTML pages for all GCM3 games; the bonus from Kharetski's videos; transitions in his Claude tool; profiling on NAD 2; NAD 2 needs its own product code; the designers aim at December
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]:
+- He keeps working on NAD 2 as resources arrive; "я сделал het mail страницы с описанием всех игр из г кма 3" (HTML pages for the GCM3 games), sent to Kharetski and reworked since — "я не знаю, где их хранить по итогу"; "сделал полностью бонус по описанию, который женя снял с видео… конкурентов"; and added transitions to his Claude extension while working on the bonus [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- Next: profile locally on NAD 2 — "на г к м. 3 были проблемы с производительностью" and NAD 2 adds a monitor with full-HD video — checking what in the framework eats time and that no video plays under the active one in a scene [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- Tasks: the Conversion task can be closed — everything is in the repository to the organisation's standards; the old performance bug on "3" (heard) too, since the current performance was accepted; the "кью автоплей" crash — a machine "в майл моде" (heard) that fell over once, caught by Ivan, with extra logging added and not reproduced since — "я бы его не закрывал" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **Product code.** "Дизайнеры говорят про то, что они 2 надх собираются в декабре выпускать"; the data centre must be planned to work with a NAD 2 product code; "нам нужен отдельный продуктовый код", because data-centre settings may be Georgia-specific and "настройки для небраски для Джорджия везде одинаковые" he doubts; NAD 2 is multi-product — several game types, as "НАТО один" (heard; NAD 1) was set up; the progressives change too. Pavel: then server-side tasks; Irina asked whether a "2" product had been made before — nobody remembered one; Pavel: the "НАТ один" product code was in fact Mega Hit, lines games. Igor: the framework has many "if Georgia" checks that will stop matching a new product code and change the framework's behaviour; Pavel: the new framework should carry no such codes — "это на самом деле флаг какойто поведенческий, а не флаг юрисдикции"; Igor: "одна и та же игра в разных юрисдикциях себя поразному ведёт" — why not key on one value instead of many flags from the centre; the framework itself only cares about the progressions a game works with. He will sync with the designers on their tasks and dates [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — [[wiki/topics/nova-platform-architecture.md]] (Nov 4), where the question is held.
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — profile on NAD 2 locally; close the Conversion task and the old performance bug (the QR-autoplay crash stays open); sync with the designers on the NAD 2 tasks and the December timing — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -382,3 +394,5 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 - [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

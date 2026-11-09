@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 122
-open-commitments: 22
+source-count: 124
+open-commitments: 23
 open-questions: 0
 ---
 
@@ -501,7 +501,20 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 ### Open commitments (Nov 3 2026)
 
-- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — move the remaining HFM tasks to the Flex-Port project with Jira Move, and merge the waiting pull requests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — move the remaining HFM tasks to the Flex-Port project with Jira Move, and merge the waiting pull requests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] — *Nov 4 2026: about ten of the twenty tasks closed; two remain under the old feature, to go under a capability; the Move itself not mentioned — still open* — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
+## Nov 4 2026 — about ten of the twenty moved tasks closed; HFM-354 and HFM-460 obsolete and the old feature closed; Claude's inaccuracies as port tasks; the Flex Pay update tasks; the Recycler question
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]:
+- "я позакрывал задачи, там было их штук 20. Наверное, сейчас осталось 10" — mostly the Flex-Port tasks Pavel moved to him; under the topmost feature his own tasks are closed, two remain — one of Pavel's in the backlog and one more [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. Pavel: the feature is "чтото очень древнее… ещё с давних времен, когда только только начиналась разработка"; Irina: one big feature, not even a capability, perhaps to be turned into a capability and split in two; Biratka: it is done in fact — move the two tasks under some capability "а это всё закрою мы забудем"; Pavel: yes [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- Chudinov: "х ф м 354" on him is the negative port–terminal scenarios already done on Flex IQ and Flex Pay — closed; "ф м 460" — Pavel: "Похоже, что это все устаревшее… это яворский создал… я тогда закрываю. Устаревшим"; Biratka agreed [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — [[wiki/people/eugine-yavorski.md]] (Nov 4).
+- While doing Yavorski's tasks, "клод нашёл несколько неточностей", which he filed as separate port tasks and is working through; the Flex Pay tasks tied to the update — "То, что Сергей яцманов там сделал на сервере" — he has not yet taken, "надо там работы немного" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **The Recycler.** "у меня остаётся вопрос по поводу риса айклера, то есть мы будем стартовать… на какое то у нас м в п… Трогать ли железа" — Pavel: ask the business whether Flex Pay MVP 3 or a Recycler MVP comes first; Texas, not Georgia; Biratka: "для Техаса будет проще"; even with cards, Pavel: the InComm route is not yet approved; Biratka: if the Recycler goes into "VP 3" the features can be planned — IP connection and so on — "Мои следующие задачи будущего"; Pavel: libraries exist "и под икс 86 и под арм" — [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] (Nov-4 note) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- Kovalchuk: the moved tasks need end dates — "Да поправим" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. He and Pavel will find Daniil a task tomorrow — [[wiki/people/pavel.md]] (Nov 4).
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — move the two remaining HFM tasks under a capability and close the old feature; take the Flex Pay update tasks (Tsymanov's server work); set end dates on the moved tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -628,3 +641,5 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

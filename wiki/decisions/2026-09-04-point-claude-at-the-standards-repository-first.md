@@ -3,7 +3,7 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 15
+source-count: 17
 status: active
 open-commitments: 7
 open-questions: 1
@@ -111,6 +111,10 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 
 - [ ] Pavel Frolov, Dmitri Chudinov, Alexander Biratka and Irina Shishko (all attendees) — add your own standards to the GitHub standards repository — due unspecified — [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 
+## Note, Nov 4 2026 — the release standard goes into the standards repository
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] asked [[wiki/people/pavel.md|Pavel]] to write the release flow agreed there as a standard, with Claude, and post it: "Это стандарт попадет в наш nolight bace. Репозитории, которая называется стандарты… все, которые туда направляют свой клод… поставить какието gard raails" — the same repository and the same rule as above; Pavel: "Стандарт по по релизам" [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. The commitment is tracked on [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]]. Val also said the bug-documentation standard already lives there [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -127,3 +131,5 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 - [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

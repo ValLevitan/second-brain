@@ -3,7 +3,7 @@ type: organization
 title: GAMOA — the Georgia coin-operated amusement machine operators' association
 date: 2026-09-01
 aliases: [GAMOA, GOAM, Demola, Gamal, seventy thirty, you are ostracized, indecision is the worst decision, GMUA, Gamua, Gamboa, Gomoa, Gomorrah, Georgia operators association, the state association, the association, GAMOA board, GAMOA show, GAMOA expo, gift-card lobbying]
-source-count: 16
+source-count: 18
 open-commitments: 0
 open-questions: 2
 ---
@@ -134,7 +134,13 @@ At the [[wiki/meetings/2026-10-13-intralot-christos-tzoumaras-dinner-route-partn
 - **What he asks them.** "**what they need… for revenues to go up**", and that the association should "**provide something to their members**" — for example, "**because JVL is selling machines… with 20 percent discount for their members**". This was his example of a member benefit; nothing was offered or agreed.
 - **One result: higher win limits.** From these talks, the limit at which a win needs Lottery approval was raised ("**if the winnings are more than ten thousand**"…"**we increased limits**"). A second ask, linked jackpots, the Lottery refused. See [[wiki/organizations/georgia-lottery-corporation.md]] (Oct 13, dinner). The notes say the same [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]].
 
+## Nov 4 2026 — Felipe asks "Christina Kaiser", who "talks to… all the masters", to spread the IGT trade-in offer
+
+On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 10:27 AM call]] [[wiki/people/felipe-miranda.md|Felipe]] told Val: "I've also shared a couple of text messages with those large companies that I know have a lot of games in their warehouse. I shared this with Christina Kaiser, who is very influential in Gamoa. She talks to everyone and to all the masters. And I listen, I have this great opportunity. Help me spread the word." The name is as heard (the notes mark it "heard"). Whether she is the association's paid administrator "Christina" of Sept 1 2026 (above) is **inference** from the first name and the role; no source joins the two. The offer being spread is the trade-in of old IGT machines — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
 
 - [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The new game engine is first described in full with every wish, then split into MVP 1/2/3, given an overall schedule and an exact MVP-1 schedule and a test environment — only then code; Anton Leshkevich does not start coding now; Anton, Igor Metelski and Alexander Biratka build the engine together; MVP 1 includes the engine on the designer's PC driven by Claude through MCP, and the creative leader's flow (Val, Oct 29 2026)
 date: 2026-10-29
 aliases: [new engine process order, describe the full engine first, описываем полный движок, потом делим на MVP 1 2 3, no code before the engine is described, Anton Igor and Sasha build the engine together, Антон Игорь и Саша вместе, engine on the designer PC with MCP, Claude talks to the engine through MCP, creative leader flow in MVP 1, new engine requirements Oct 29, Kira sound library, player video replay from saved state, engine requirements into Jira with the NOVA component]
-source-count: 12
+source-count: 14
 status: active
 open-commitments: 8
 open-questions: 4
@@ -139,6 +139,10 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — finish the scripting-language study for the engine and report the results — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — create a capability for the engine-and-framework architecture of the new platform and attach the editor spike (and related spikes) to it — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 
+## Note, Nov 4 2026 (stand-up) — Leshkevich's editor prototype by the end of the week; his boards arrived; Daniil's Rust sound pull request; NC-1 closed
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: [[wiki/people/anton-leshkevich.md|Leshkevich]] has started "над прототипом редактора, который мы обсуждали" (the NOVA Studio spike of Nov 3) and expects "к концу недели… чтото плюс минус рабочее", perhaps a meeting then; "мне наконецто пришли эти борды", which he will connect (a few extra wires may be needed) — [[wiki/people/anton-leshkevich.md]] (Nov 4), where the commitment is tracked. [[wiki/people/daniil-stauskiy.md|Daniil]] opened the pull request for the sound repository in Rust and has no task; "н ц один" (NC-1, heard) can be closed — Pavel: "Думаю, что можно закрывать" — [[wiki/people/daniil-stauskiy.md]] (Nov 4). The capability for the editor spike (Nov-3 commitment above) was not mentioned [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -153,3 +157,5 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 11
 open-questions: 12
-source-count: 78
+source-count: 84
 ---
 
 # Nebraska skill-gaming market entry
@@ -553,8 +553,24 @@ At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colomb
 - **Does enabling a different game inside an already-approved software pack require a Nebraska DOR re-approval and a new sticker?** Rick Rees confirmed that *changing a game* requires notifying the state and buying a new sticker, but the exchange about toggling within a pre-approved pack is garbled and his answer is not legible. The derived notes assert no re-approval is needed; that reading is unconfirmed and tensions with the Feb-27 2026 CRC/MD5 checksum record. [[raw/Meeting_Transcript_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]] [[raw/Meeting_Notes_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]]
 - **What is the denominator of the "NTI" figures on J&J's reports** ($0.75, $1.61, $2.68 per machine for January)? Val asked three times and did not get an answer; Rick was unsure of the column himself. Without it JVL cannot benchmark its machines against the route. [[raw/Meeting_Transcript_JJ_Gaming_Nebraska_Site_Visit-June-16-2026.md]]
 
+## Nov 4 2026 — Leshkevich reviews the first version of the new Nebraska game; NAD 2 settings for Nebraska and Georgia may differ
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]: "продолжаю заниматься небраской отдали версию первую новой игры посмотреть оставила комментарии, которые я сегодня буду отправлять" — the game is not named — [[wiki/people/anton-leshkevich.md]] (Nov 4), where the commitment is tracked [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. In the NAD 2 talk [[wiki/people/igor-metelski.md|Igor Metelski]] doubted that the data-centre settings "для небраски для Джорджия везде одинаковые" and said the progressions must also work "для небраски" — one reason NAD 2 needs its own product code — [[wiki/topics/nova-platform-architecture.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+
+## Nov 4 2026 — a Georgia master's first Nebraska order: 10 D27 (5 bought, 5 on trade-in); no vertical game for Nebraska yet; Georgia trade-ins can move to Nebraska
+
+Two calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-miranda.md|Felipe]] (English) — [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|10:27 AM]] and [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|4:32 PM]]:
+
+- **The order.** Ray of [[wiki/organizations/inamax-ultra.md|Inamax / Ultra]] (**inference** — "Ray at Inna Box", heard) wants "5 new D27s at a standard price" and "five additional new D27 through a trade-in program"; "all 10 of those are going to Nebraska." Why D27: Felipe, "we don't have a vertical game for Nebraska." Ray "has never tried our games in Nebraska." Val doubted the size — "I have never seen a large company order 10 games for a new market" — and Felipe answered that the same company "ordered 20 for Georgia when they had not tested it"; Val: "our games were already proven in Georgia." Felipe: "I've been after him for months trying to get him to order for Nebraska." Detail on [[wiki/organizations/inamax-ultra.md]] (Nov 4) [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+- **Trade-ins as Nebraska supply.** On the morning call Felipe told the same operator's Ashley the IGT trade-in "is good for him, not only for… the brand new games here, but for Nebraska. Because remember, we have the opportunity to move in games to Nebraska. So even if he goes with refurbished, you know, we could work something out even better" — the Oct-14 plan to "package the deal and send them to South Dakota or to Nebraska", now put to a customer ([[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]]) [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+- *The Feb-2026 Inamax Nebraska-trial items on [[wiki/organizations/inamax-ultra.md]] stay open; Nov 4 shows no trial took place ("never tried our games in Nebraska").*
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
+- [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -634,3 +650,5 @@ At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colomb
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

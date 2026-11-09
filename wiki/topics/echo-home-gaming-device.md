@@ -3,9 +3,9 @@ type: topic
 title: ECHO home gaming device and Amazon go-to-market
 date: 2025-02-01
 aliases: [Echo, ECHO, Echo home device, Amazon device, man-cave device, home solution, 149 games]
-source-count: 47
+source-count: 49
 open-commitments: 1
-open-questions: 4
+open-questions: 5
 ---
 
 # ECHO home gaming device and Amazon go-to-market
@@ -358,7 +358,7 @@ Two short calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/fel
 
 ### Open commitments (Oct 22 2026)
 
-- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — get back to Felipe on George's request for an Echo countertop with a bill acceptor and a T2 printer in one enclosure — due unspecified — [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]] [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — get back to Felipe on George's request for an Echo countertop with a bill acceptor and a T2 printer in one enclosure — due unspecified — [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]] [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]] — *Nov 4 2026: in Minsk the Echo is paused for want of a ticket-reading bill acceptor (see Nov 4 below); Val's answer to Felipe is not on record* — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
 ### Open questions (Oct 22 2026)
 
@@ -368,6 +368,14 @@ Two short calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/fel
 ## Nov 2–3 2026 — a RIS build with the modem on the Echo; two SAS outputs, a bill validator and a printer to check
 
 At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]] said he built RIS with the modem and installed it on the Echo ("даже модем закинул. Распоставлено эхо"); [[wiki/people/irina-shishko.md|Irina]]: check that the games run, the printer works on the Echo, and the modem link ("тодем живой") [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. [[wiki/people/evgeny-kharetski.md|Kharetski]]'s modem capability for RIS is "для эхо" (Pavel) and stays under MVP 1 [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 2–3). At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] [[wiki/people/pavel.md|Pavel]] listed what to check on the Echo machine on hand: two SAS outputs ("2 саса выведены"), else bring them out; the "ситолтовский" bill validator (heard; "Боевой 50" — BV-50 per the notes — through an adapter); and a "Ген 2", "День 5" (heard) or Nanoptix ("ноктикс", heard) printer, to make sure protocol 2 still works; Ivan has an Epic 950 printing tickets and paying out; the customer wrote of an external printer, and for the Flex IQ JVL will use a TransAct printer in an external housing, so a printer in its own housing is likely here too [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. By context this is the bar-location trial above (**inference**; the customer is not named here). Ivan's commitments are on [[wiki/people/ivan.md]] (Nov 2, Nov 3).
+
+## Nov 4 2026 — the Echo is paused: no known bill acceptor reads ticket barcodes, so nobody will take it unless Genadi finds one
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[wiki/people/ivan.md|Ivan]] meant to look at the Echo next; [[wiki/people/pavel.md|Pavel]]: "Эхо не надо. Эх, отложен проект да… Ничего не надо" — "для эхо нету билаксепторов, по крайней мере мы не знаем билаксепторов, которые могут сканировать. Читать тикеты то есть баркоды на тикеты. Сами принимают деньги, но не принимают тикеты, а в таком варианте. Всегда эхо вообще тогда не нужен"; "если гена не найдёт билактора сиситолоповского [heard; a maker, unclear] с таким функционалом, то нам вообще тогда никто этих эхо брать не будет. Или это будет какойто альтернативный вариант, где будет ставится другой белактор в другом корпусе"; for now nothing to test. [[wiki/people/irina-shishko.md|Irina]]: she knew, but nobody had said to touch the Echo — the printer problems come first; Ivan: "они теперь у меня на паузе" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The notes record it as Pavel's decision: Echo work paused until a bill acceptor that reads tickets is found [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. This is the same ticket-reading gap Genadi raised on Feb 12 2026 (above). **Evolution** of the Nov 2–3 checks: Ivan's Nov-3 Echo checks are parked (annotated on [[wiki/people/ivan.md]]); Val's Oct-22 promise to get back to Felipe on the bar-location Echo is still open and Val was not at this stand-up.
+
+### Open questions (Nov 4 2026)
+
+- Can Genadi find a bill acceptor for the Echo that reads ticket barcodes, or must a different acceptor go in a different housing? — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
@@ -418,3 +426,5 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

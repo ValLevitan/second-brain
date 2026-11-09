@@ -3,9 +3,9 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 103
+source-count: 105
 open-commitments: 72
-open-questions: 38
+open-questions: 39
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
 
@@ -712,7 +712,7 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — create a feature under capability 240 for the Clover Fortune conversion and finish the vertical layout — due end of the week (stated "до конца недели") — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] — *Oct 19 2026: the vertical layout is done (the game plays in both layouts); whether the feature under 240 was created is not said, so left open* — [[raw/Meeting_Transcript_Daily_Standup_Clover_Fortune_on_NOVA_and_Encrypted_Settings_QR-October-19-2026.md]]
 - [ ] unassigned — sort out with the designers why the NAD 2 resource tasks carry the NOVA label — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
-- [ ] the AI PM (Pavel's "для записи") — create two tasks: NAD 2 product-code support in the data center, and the Nebraska progressives — due unspecified (not a priority) — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [ ] the AI PM (Pavel's "для записи") — create two tasks: NAD 2 product-code support in the data center, and the Nebraska progressives — due unspecified (not a priority) — [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] — *Nov 4 2026: Pavel now takes the server and data-centre tasks for NAD 2 himself (see Nov 4 below); whether the agent made the Oct-15 tasks is not said* — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
 ### Open questions (Oct 15 2026)
 
@@ -857,6 +857,19 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 - **No experiments yet.** Pavel: real update experiments wait until the NOVA integration repository produces one full build ("женя" is on it — read as Kharetski, **inference**) [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
 - **On earlier commitments.** Pavel's Oct-18 design for erasing and writing games: he says he has started the architecture and sent it, but it lacks points raised here — left open. Chudinov's Oct-29 server-side task: not reported on; he will organize Galaxy sessions next week — left open [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]].
 
+## Nov 4 2026 — NAD 2 needs its own product code: a multi-product with server and data-centre tasks; the framework's "if Georgia" checks are behaviour flags, not jurisdiction flags; the designers aim at December
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]:
+
+- **What NAD 2 is, a little clearer.** [[wiki/people/igor-metelski.md|Igor Metelski]] keeps putting resources into NAD 2 and made HTML pages describing all the games "из г кма 3" (GCM3); GCM3 "были проблемы с производительностью", and NAD 2 adds a second monitor with full-HD video, so he will profile locally on NAD 2 first [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. "Дизайнеры говорят про то, что они 2 надх собираются в декабре выпускать" — he reads their tasks as finishing by December; when JVL releases it nobody could say ("Не могу ничего сказать" — Pavel) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. (The Oct-15 open question "what does NAD 2 name?" is still not answered in words; by this talk it is a multi-product game set on the data centre, successor to NAD 1 — **inference**.)
+- **Its own product code.** Igor: the data centre must be planned to work with a NAD 2 product code — "нам нужен отдельный продуктовый код", because the centre passes settings that may be Georgia-specific and he doubts Nebraska and Georgia settings are the same; Pavel: there is "на т один" (heard; NAD 1); Igor: preferably NAD 2, "он типа мультипродуктовый… несколько типов игр" — "Джек потраш филы… лайнс нвс, пачты и прогрессион" (heard; the notes: Jackpot Rush, Phil, lines, match, progressions); the progressives also change. Pavel: "С Северной стороны необходимо поддержать работу над 2, которые тоже становятся мультипродактом" — server-side tasks to configure a product set of three products, and support in the data centre; [[wiki/people/dmitri-chudinov.md|Chudinov]]: if it is started, why stop — "давайте делать", one only needs to know which products sit under it. [[wiki/people/irina-shishko.md|Irina]] asked whether a "2" product had been made before; nobody remembered one; Pavel: "НАТ один" was in fact Mega Hit, lines games (Igor: "лансон игры") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **Jurisdiction checks.** Igor: the framework has "в кучу мест… ифы что типа и ф Джорджия… если что то другое то делай другое"; with a NAD 2 product code those checks stop passing and the framework's behaviour changes — "в фреймворке надо смотреть еще". Pavel: in the new framework there should be no such codes inside the software — "это на самом деле флаг какойто поведенческий, а не флаг юрисдикции… на будущее подумать, как это правильно строить с точки зрения архитектуры". Igor: "одна и та же игра в разных юрисдикциях себя поразному ведёт" — why not tie to one value rather than pass many flags from the centre; the framework itself only cares about the progressions a game works with, but during development it got tied to the Georgia product code [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The notes record "NAD 2 gets its own product code; server and data-centre support tasks are needed" as decided by Pavel and Igor [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **Commitments.** Pavel creates the server and data-centre tasks — [[wiki/people/pavel.md]] (Nov 4); Igor profiles, closes the Conversion task and the old performance bug, and syncs with the designers on dates — [[wiki/people/igor-metelski.md]] (Nov 4). This advances the Oct-15 "for the record" item above (the AI PM to create a NAD 2 data-centre task) — annotated there.
+
+### Open questions (Nov 4 2026)
+
+- Behaviour flags or a product code: how should the new framework carry jurisdiction-dependent behaviour ("if Georgia") — Pavel: a behaviour flag, think it through later; Igor: one value rather than many flags from the centre — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -963,3 +976,5 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The modem is standard on every machine — customers are told the machines now come with modems, the reports are free for a limited time, and they can opt out of the service by sending a message
 date: 2026-10-06
 aliases: [modem is standard packaging, everything's coming out with the modem, reports free for a limited period, opt out of the modem service, modem notice to customers, we're evolving]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 1
 open-questions: 1
@@ -32,6 +32,8 @@ How the free reports sit with the $337-per-year data buy-back ([[wiki/topics/mac
 
 **Oct 15 2026 — the zero-revenue alert, and used machines without a modem.** At the [[wiki/meetings/2026-10-15-blue-sky-gold-rush-refurbished-machines-offer-and-transactional-demo.md|Oct-15 Blue Sky / Gold Rush meeting]] Felipe said "we're adding an LTE modem", and Val put the main benefit as an alert: "It will tell you that nobody puts money that day in the machine… We could say this machine has zero revenue." How often is up to the customer — "You could do it hourly. You could do it daily" — "And we pay for the data." Val on the 20 refurbished trade-in machines: "The used machines don't have it." Opt-out and the free period were not mentioned [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]].
 
+**Nov 4 2026 — the machine side of the opt-out.** On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 10:27 AM call]] Val said he had found "a scope gap in how [modems] are configured": the connection is "voluntary… just a flag", and he wants it forced on whenever a modem is present, with an opt-out that is "intentional and multi-stage"; fixing it "will trigger another re-approval and we will have to reinstall the software". The commercial opt-out above stands; the product rule is [[wiki/decisions/2026-11-04-when-a-modem-is-present-its-connection-is-forced-on-and-opting-out-is-intentional-and-multi-stage-not-a-flag.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
+
 ## Open commitments
 
 - [ ] Felipe Miranda — notify customers that machines now come with modems, reports are free for a limited time, and they can opt out by sending a message — due unspecified — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -42,6 +44,7 @@ How the free reports sit with the $337-per-year data buy-back ([[wiki/topics/mac
 
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Transcript_AKS_Amusements_Transactional_Demo_Two_Location_Test_and_Financing-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]

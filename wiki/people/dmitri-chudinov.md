@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 106
-open-commitments: 54
+source-count: 110
+open-commitments: 55
 open-questions: 0
 ---
 
@@ -694,7 +694,7 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 ### Open commitments (Nov 2 2026)
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — fix "203" (heard "фиг 203"; the notes: FIQ-203), the last Flex IQ bug before its release — due Nov 2 2026 (the notes) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/ivan.md|Ivan]] — meet on Wednesday to confirm whether Tsymanov's RIS / passport / lease work on STG can go to prod with the legacy CMS report; Chudinov reports on Friday — due Nov 4 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] and [[wiki/people/ivan.md|Ivan]] — meet on Wednesday to confirm whether Tsymanov's RIS / passport / lease work on STG can go to prod with the legacy CMS report; Chudinov reports on Friday — due Nov 4 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — *Nov 4 2026: Irina takes the server-side check instead ("Мне нужно сейчас посмотреть… и тогда ты сможешь релизить"); the Ivan meeting is not mentioned — left open until the release* — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — review and clean up the seven Wi-Fi / location-manager features — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 
 ## Nov 3 2026 — the report done, to STG today or tomorrow; the Georgia SIM ran out; a traffic-alert service proposed; the one-button Flex IQ release action
@@ -708,6 +708,23 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 ### Open commitments (Nov 3 2026)
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — deploy the legacy CMS report to STG — due Nov 4 2026 ("сегодня… завтра") — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
+## Nov 4 2026 (6:15 AM) — HFM-354 is obsolete; a generated release document in the firmware store; the dashboard filter misses IP-435; host and server reporting; "if NAD 2 is started, why stop"; Irina takes the server-side check
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian; label "Dzmitry Chudzinau") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]:
+- **HFM-354.** On him: negative transactional scenarios between port and terminal, "то, что на флексаке мы уже собственно сделали и… на flcпэй тоже" — Pavel closed it [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — [[wiki/people/alexander-biratka.md]] (Nov 4).
+- **Where releases live.** The server already has the firmware store with download links — users "всегда должны брать последнюю актуальную версию"; a document can be generated into it reviewing what each version holds ("кукол соберёт всё по MVP", heard; the notes read a Claude step); a feature is created and whoever is assigned does it; he doubted GitHub keeps the release builds as artifacts — "Зачем хранить в 2 местах?" — the build name links to the build number, nothing is cleaned up — [[wiki/topics/github-release-management-pipeline.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **His work.** "Я сделаю рот вчера. Прелиз экю" (heard: the IQ release made yesterday); now "всё, что связано с репортингом хоста и сервера. Сервер сделал, сейчас занимаюсь хостом"; the tasks under "ип 435" (the observability platform) are In Progress but invisible on the Kanban dashboard — Kovalchuk will add the missing projects — [[wiki/people/dmitri-kovalchuk.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **NAD 2.** "Что, если уже начали кастрель, чего останавливаться?… Что там внутри? Должно быть, давайте делать" — one only needs to know which products sit under NAD 2 — [[wiki/topics/nova-platform-architecture.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+- **The prod release.** Irina will check what on the server side is unverified so he can release; Tsymanov: if approved, the passport deploys too — "Хорошо" — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]] (Nov-4 note) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. This takes over his Nov-2 "meet Ivan on Wednesday" item (annotated above).
+
+### Open commitments (Nov 4 2026, stand-up)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — describe and show the dashboard download links for the Flex IQ (Pavel: "описать, показать, создать ссылку") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
+## Nov 4 2026 (8:00 AM) — binary plus code snapshot; the Claude step at the end of the workflow; one day for the Flex-Port upload; 160 MB a day; the multi-card test he cannot run
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]: a release is "бинарник… и кодовый слепок" — the snapshot stays on GitHub, the binary goes to a server — and the server repositories are released too; the Flex IQ binary is already uploaded for STG and production, visible as one row in the table [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. He proposed Claude as the last step of the workflow to write the release notes — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]] — and explained the red build marker: Jira remembers the first build [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. He would split the Flex-Port release upload off Sergey's update task — a few days with testing, probably a day — and check it on STG; the updates themselves go to MVP 2; manuals too. Traffic: "160 мегабайт… Полтора доллара в день"; repeated logs can be thinned; a task on the limit for MVP 2. He wanted two InComm card products on JVL's side to test the multi-card work Minsk cannot; the second is paused; "мы поддерживаем от одного и больше" — [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]], where his commitments are tracked. His "наш Андрей" remark was taken as a jab at Klimovich; "Если мы одна команда, здесь никто не должен обижаться" [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -817,3 +834,7 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

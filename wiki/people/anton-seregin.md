@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 56
-open-commitments: 14
+source-count: 58
+open-commitments: 15
 ---
 
 # Anton Seregin
@@ -247,6 +247,14 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 
 At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] (Russian): "в процессе корифе 8 и 9" (heard; the notes read CF-8 and CF-9); he built a page of QR codes to run through the scanner, and will add codes matching "нашим контрактам" at different pixel densities, so different devices can be emulated [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
 
+## Nov 4 2026 — CF-8 and CF-9 done as mock-ups; the QR must fit a phone; the TINT-102 scanner page shows a dense QR may not scan, so CF-10 gets a zoom-out button
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: "корифи 8 корифи 9 сделал" (heard; CF-8, CF-9) — adding the Wi-Fi settings to the interface and opening the QR code — "пока что молданки" (mock-ups); in time they should probably be separate pages, perhaps on a separate micro-frontend, still to be discussed. Pavel: it must be convenient on a phone — once logged in, the QR at the right size; Seregin: the viewport must be set in the tags. He also made "тинт 102" (heard; TINT-102), a page with QR variants to test the scanner at different distances and lighting from a phone screen, which showed that a very dense code "может не… открыть" — so for "корифи 10" (CF-10) a button to shrink the image is probably needed; "такого типа исследования помогло предложить новые фичу"; the tasks wait and stay In Progress [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. His Nov-2 item (review Pavel's Wi-Fi screens) was not mentioned.
+
+### Open commitments (Nov 4 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — add a zoom-out button for the QR code to CF-10 (heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -305,3 +313,5 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]

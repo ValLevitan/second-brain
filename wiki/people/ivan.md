@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 59
+source-count: 63
 open-commitments: 14
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -288,7 +288,13 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 ### Open commitments (Nov 3 2026)
 
-- [ ] [[wiki/people/ivan.md|Ivan]] — on the Echo: confirm two SAS outputs, connect the bill validator ("BV-50" per the notes) through the adapter, and test a Gen 2 / Nanoptix-class printer on protocol 2 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [ ] (blocked-on: Echo-bill-acceptor) [[wiki/people/ivan.md|Ivan]] — on the Echo: confirm two SAS outputs, connect the bill validator ("BV-50" per the notes) through the adapter, and test a Gen 2 / Nanoptix-class printer on protocol 2 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] — *Nov 4 2026: Pavel paused the Echo — "Эхо не надо… отложен проект" — until a bill acceptor that reads tickets is found; parked, not discharged* — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+
+## Nov 4 2026 — one more bug after Kharetski's fix; SAS needed to reproduce the field case; the Echo is paused for him; named release manager for the transactional release (in absentia)
+
+At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: he checked what Kharetski fixed and "нашёл ещё один бак", which he wrote up; he waits for Kharetski's SAS tool — "нам нужно посмотреть, что один б, если мы перестанем отвечать по умолчанию" (heard) — so the field case can be reproduced, "пока что это невозможно"; Kharetski needs SAS access from him to finish, and asked that nobody take Ivan's machine without permission [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. In the "Dakota" handpay bug he is the one who powers the machine off fully — "Я выключаю питание полностью. То есть принтер также выключается" — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 4). He meant to look at the Echo next; Pavel: "Эхо не надо… отложен проект"; he stays on the printer problems — "они теперь у меня на паузе" — [[wiki/topics/echo-home-gaming-device.md]] (Nov 4) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
+
+At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (he was not present) Val named him the release manager, reporting to Irina — "Релиз менеджер у нас подчиняется Ирине… Толкнуть Ивана на релиз" — whose job is the Claude-written release notes, the compliance and exception reports and moving the capabilities to Closed [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. This confirms, for the transactional release, the release-manager role he was given in the GitHub pipeline in Oct 2025 (above) — **evolution**. The commitment is tracked on [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]].
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -351,3 +357,7 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]

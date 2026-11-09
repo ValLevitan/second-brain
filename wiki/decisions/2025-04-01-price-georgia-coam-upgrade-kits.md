@@ -3,7 +3,7 @@ type: decision
 title: Price the Georgia COAM software-upgrade kits at ~$2,900, finance them against kiosk orders
 date: 2025-04-01
 aliases: [COAM kit pricing, Peach upgrade kit price, software upgrade fee, $2900 kit, Eclipse submission cost, Elevate financing, kit financing, zero bill of material kits]
-source-count: 2
+source-count: 3
 status: active
 ---
 
@@ -46,7 +46,12 @@ Nearly two months later the pricing met its first real operator resistance, and 
 
 Relates to [[wiki/projects/georgia-market-rollout.md]] and the FlexPay/kiosk payout-device strategy on [[wiki/topics/flexpay-business-architecture-payout-devices.md]].
 
+## Nov-4 2026 note — the same logic, now priced per game
+
+On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|Nov-4 2026 call]] Val priced a software upgrade of installed Georgia machines by game count — "roughly $500 per game… a library of brand new 15 games is $7,500", a premium game alone about $1,500 — and gave the same reason as here: "there is no bill of material involved in discounting the software", so software is "the best form of a discount". The Apr-2025 kit price is not mentioned on that call; this page stays as the 2025 ruling for the COAM conversion kit. Ruling: [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]] [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
+
 ## Sources
 
+- [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/upgrade_ga-coam_kits-april-1-2025.md]]
 - [[raw/felipe_georgia_market_update-may-29-2025.md]]
