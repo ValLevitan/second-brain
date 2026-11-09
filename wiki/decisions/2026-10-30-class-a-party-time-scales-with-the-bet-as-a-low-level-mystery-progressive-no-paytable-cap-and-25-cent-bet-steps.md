@@ -3,10 +3,10 @@ type: decision
 title: Class A party time moves off a flat $50 — the win scales with the bet like a low-level mystery progressive that hits many times, one fixed value per session, funded by shaving the top of the paytable; the paytable is never capped at higher bets; bets move on screen in 25-cent steps the Aristocrat/IGT way (Oct 30 2026)
 date: 2026-10-30
 aliases: [party time scales with the bet, low-level mystery progressive, tie the win levels to the bet levels, 10 20 30 40 50, shave off the top end of the pay table, 3 times 10 is better than 1 times 50, Primero model isn't working, it does not have legs, 47,000 machines, 6 dollars a day, no paytable cap, the top award is green, insulting, 25 cent increments, bet up and down on the screen, zero out, set it and forget it, no VDEC for Class A, one slam button, Okay I'm sold, Class A Georgia free games]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 1
-open-questions: 4
+open-questions: 3
 ---
 
 # Class A party time scales with the bet; no paytable cap; 25-cent bet steps on screen (Oct 30 2026)
@@ -63,18 +63,24 @@ Worked out at the [[wiki/meetings/2026-10-30-game-development-class-a-party-time
 
 ## Open commitments
 
-- [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] (with [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]) — work out the Class A party-time maths: bet-scaled fixed values per session, hit frequency, funding by shaving the top of the paytable, and the 25-cent bet steps — due unspecified — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] (with [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]) — work out the Class A party-time maths: bet-scaled fixed values per session, hit frequency, funding by shaving the top of the paytable, and the 25-cent bet steps — due unspecified — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] — *Nov 6 2026: a first target set — 12% of RTP to party time, ~1 in 240 (half the free-spin rate), a $3 top bet; "that's going to take Efim and I some period of time" — kept open* — [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 
 ## Open questions
 
 - What are the party-time values per bet level? "10, 20, 30, 40, 50" was Michael's arbitrary example — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - How does the maths make an exact fixed win (e.g. $10) inside the $50 cap? (Efim) — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
-- What is the Class A top bet? Val: 50 cents to $2.50 is enough; the 25-cent steps are agreed but the ceiling was not set — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
-- Does the Class A cabinet keep a V-deck? Michael would not spend the money; Val: one slam button — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- (answered Nov 6 2026: **$3**, 25-cent steps, raised later only if the market asks — [[wiki/decisions/2026-11-06-class-a-max-bet-is-3-dollars-free-spins-stay-party-time-takes-12-percent-of-rtp-at-about-1-in-240-rtp-about-92-percent-no-progressive-production-on-nova-in-january.md]]) What is the Class A top bet? Val: 50 cents to $2.50 is enough; the 25-cent steps are agreed but the ceiling was not set — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- Does the Class A cabinet keep a V-deck? Michael would not spend the money; Val: one slam button — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] — *Nov 6 2026: still open; Val — the QR scanners give "an ability not to have a [V-deck]", but if there is one it needs supporting graphics* — [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 
 **§15.8:** clear — market, machine and maths economics only. **§15 #9:** none.
+
+## Update, Nov 6 2026 (2:04 PM) — the top bet is $3; party time gets a first target (12% of RTP, ~1 in 240, silently after a capped free-spin round); free spins stay; the V-deck still open
+
+At the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-and-qr-wallet.md|Nov-6 2:04 PM game-development meeting]] (English) the top bet left open here was set: Val "I recommend not more than three", Michael "if you want to do it, let's do it", Val "I think 3 [bucks] is fine" — on the $50-cap visual above $3, the ~$1.20 Georgia average bet, and the "limiting bet machine" story for the regulator; 25-cent steps stand ("8 increments you don't have to deal with"); party time's first numbers: "12% of RTP dedicated to party time… free spins are one and 120, Party time will happen 1 and 240", triggered on the base spin after a $50-capped free-spin round without telling the player; free spins stay on Michael's time-on-device argument; the per-bet values and the fixed-value maths were not touched; the Efim-and-Michael maths commitment continues ("that's going to take Efim and I some period of time"); on the V-deck Val said the QR scanners give "an ability not to have a [V-deck]" but, if there is one, supporting graphics — still not decided — [[wiki/decisions/2026-11-06-class-a-max-bet-is-3-dollars-free-spins-stay-party-time-takes-12-percent-of-rtp-at-about-1-in-240-rtp-about-92-percent-no-progressive-production-on-nova-in-january.md]] · [[wiki/decisions/2026-11-06-the-class-a-software-supports-two-cash-set-ups-bill-acceptor-and-printer-or-two-qr-scanners-scan-to-add-credits-and-scan-to-redeem-awards-with-scanners-as-vals-launch-goal.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]].
 
 ## Sources
 
 - [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]

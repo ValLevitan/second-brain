@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 81
+source-count: 85
 open-commitments: 16
 ---
 
@@ -366,7 +366,18 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 
 At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) she spoke once on the transcript, asking of the Colombia refresh "Should it be Nova release or?" — Val: "Nova, Nova, Nova." Michael said the Georgia V4 question was one "Lena and I had", and that for Colombia "from the perspective of Lena and I, we'll just come up with a list of games and we'll do the games" — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. The Colombia game-list commitment (with Michael) is counted on that decision page. She was present for the Class A party-time debate — [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]].
 
+## Nov 6 2026 (in absentia) — "Lena sets the style": Val wants JVL's graphic style, recognizable as hers, written up as a template
+
+At the [[wiki/meetings/2026-11-06-ai-teardown-control-test-aristocrat-mechanic-port-and-trial-game.md|Nov-6 8:00 AM teardown review]] (Russian; she was not present) Val, on describing JVL's drawing style: "у нас Лена законодательный стиль, правильно? Она… не зная Того, что она как бы имеет свой стиль, но если ты смотришь на игру, ты всегда можешь сказать, что игра сделана Леной [heard 'летом']"; "Если вы посмотрите на игры, которые сейчас выходят от Майкла и Елены" — Igor Metelski is to write the style up as a template — [[wiki/decisions/2026-11-06-phone-video-of-help-screens-and-bonuses-is-enough-for-a-teardown-the-mechanic-is-ported-onto-jvls-own-maths-and-igor-builds-a-trial-game-with-an-aristocrat-mechanic.md]] [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]] [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+
+## Nov 6 2026 (2:04 PM) — the big-horse effect "like we do in lions races" (heard); the snow is a sunset, colour-corrected once all screens run together; "it's all games on the snow" for Nebraska; Class A production "in January after Nebraska is finished" on NOVA — "a completely new workflow"; the scanner-setup screen is hers
+
+At the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-and-qr-wallet.md|Nov-6 2:04 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]: on Wildfire Ranch — "When you have, like, stock of, like, three reels, like, filled with horses, and we can show, like, effect of big horses appearing, like, like we do in lions races" (heard); she asked Efim whether he had told the programmers ("I communicated already to… our artists… but programmers needs to implement it as well") — he had not; "it's not final illustration, but this illustration will be built on the base of photograph"; the hoof "will be like on final animation"; on the snow colour: "the top screen shows sunset. When you will see everything together… make a colour correction to the snow. It's an easy task"; "it's Nebraska, yeah, it's all games on the snow" — [[wiki/projects/nebraska-skill-market.md]] (Nov 6, 2:04 PM). On Class A: the base is "the same over to [Georgia]"; the skill pick: "They had it to just reference this reference company they have it"; the schedule: "We will start it in January after Nebraska is finished… we already approved [comp art]. It's going to be development… Assembly the scenes, doing the [export], testing on the machine, and it's going to be Nova, so it's going to be like a completely new workflow" — [[wiki/decisions/2026-11-06-class-a-max-bet-is-3-dollars-free-spins-stay-party-time-takes-12-percent-of-rtp-at-about-1-in-240-rtp-about-92-percent-no-progressive-production-on-nova-in-january.md]]. On the QR wallet: "On real machines, we just don't show it on the Windows Build because we don't have real device"; Michael: "that last screen, Lena, will have to come up with a new screen to tell the player" — the commitment is counted on [[wiki/decisions/2026-11-06-the-class-a-software-supports-two-cash-set-ups-bill-acceptor-and-printer-or-two-qr-scanners-scan-to-add-credits-and-scan-to-redeem-awards-with-scanners-as-vals-launch-goal.md]].
+
 ## Sources
+
+- [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
+- [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
 
@@ -450,3 +461,5 @@ At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colomb
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]

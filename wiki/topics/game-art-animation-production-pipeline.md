@@ -3,7 +3,7 @@ type: topic
 title: Game art & animation production pipeline (comp art → Miranda)
 date: 2025-03-12
 aliases: [animation production, comp art pipeline, CompArt, storyboards, Spine, Blender, After Effects, placeholder build, Miranda scene assembly, art production stages, spike, sorting, symbol containers, Glorosa, Havana Noches, Fiery Ice Link, Rodeo Spin, vertical geometry standard, liquid glass shader, screen zones]
-source-count: 36
+source-count: 38
 open-questions: 2
 ---
 
@@ -297,12 +297,23 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 - **Comp art is the base.** Biratka: the producer and designer make the comp art; AI can place scenes from it, and in future maybe make the art itself, "как вот сейчас делает принципе Игорь" [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]. Bosik and Anton: Igor's tool should become part of Anton's engine as the editor; where the line sits is open — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
 - **The spike.** Igor asked for an experiment on a real machine on whether shaders pay off; he has already made shader scenes for Rage. Pavel: try two machines, a "тысячной" one and ARM; Igor: nothing runs on ARM yet, Rage would need adapting; Pavel: run the browser version. Biratka: good shader support is needed either way; whether shaders replace video can be decided later. Due Monday Nov 2 [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]] [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]].
 
+## Nov 6 2026 — a written style template for JVL's graphics (Igor); generated art made real scenes "по контракту" for a ported bonus; the trial game reuses the wolves, lions and bison art
+
+At the [[wiki/meetings/2026-11-06-ai-teardown-control-test-aristocrat-mechanic-port-and-trial-game.md|Nov-6 8:00 AM teardown review]] (Russian) [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]] [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]:
+
+- **Art for a ported mechanic.** [[wiki/people/igor-metelski.md|Igor]] built the Aristocrat bonus "на сценах плейсхолдерах" — only the scene structure, elements and animations — "потом сгенерировал арт и создал из этого арта по контракту сцены… настоящую сцену с артом для игры"; "пару часов на арт" [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]. Irina's one worry: "У нас проблема только в нарисовать"; Val: "Я не думаю, что проблема" [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+- **A style template.** Val wants JVL's drawing style described — not a marketing brand book (Bosik's word) but a "стайл темплейт" — so that given a theme and a mechanic Claude makes the game "в нашем стиле"; Igor already decomposed the style for art prompts in the vertical-version experiments and will consolidate it into one short document; Bosik: the graphics team may have a document on symbol and coin style; Irina: it is in Confluence — [[wiki/decisions/2026-11-06-phone-video-of-help-screens-and-bonuses-is-enough-for-a-teardown-the-mechanic-is-ported-onto-jvls-own-maths-and-igor-builds-a-trial-game-with-an-aristocrat-mechanic.md]] [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]] [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+- **The trial game's art.** "Возьмите эту графику, чтоб вам не путается, это наша графика. И адаптируйте её под эту механику" — the wolves, lions or bison of the three latest Georgia games (Val) [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+
 ## Open questions
 
 - Can designers give notes precise enough for AI-made art and animation to be polished, or will games come out "быстро, но приблизительно"? (Val) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 - Who tests Igor's toolkit besides Igor? (Igor) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 
 ## Sources
+
+- [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
+- [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: A voice AI "Game Design Assistant" that questions the head of game design and produces a creative direction document to Igor's spec — Evgeny Kharetski owns it with Igor; new Jira project and repository; first pass (booked for Sunday Oct 25) reviewed Saturday Oct 24 as a text agent in Teams that writes game briefs; at the second review (Oct 29) it leads a stuck designer and Val wants one full cycle from brief to a game on the production server (Val, Oct 18 2026)
 date: 2026-10-18
 aliases: [AI game design agent, Review - AI voice Game Design Assistant first pass, Game Design Assistant, AI Game Design Assistant, геймдизайн IS astond, creative direction design assistant, кредит в дирекшен дизайн assistend, voice to voice AI assistant, войс ту войс эй ассистент, AI design assistant, ai дизайна asisnate]
-source-count: 17
+source-count: 19
 status: active
 open-commitments: 8
 open-questions: 6
@@ -124,6 +124,14 @@ The Friday competitor session set on Oct 24 took place on **Oct 30, 8:03–8:49 
 - **The ruling and the plan** — mechanics, not maths; only games that matter in JVL's markets, chosen by Val from a market report; and first a blind test on one game from each of three JVL products by Nov 6 — are on [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]].
 - **Commitments.** The Oct-24 hypothesis-test commitment is discharged (History). The others were not mentioned and stay open.
 
+## Update, Nov 6 2026 (8:00 AM) — the control test on JVL's own games holds; a phone is enough; Igor ported an Aristocrat bonus from the breakdown; next, a trial game
+
+The second Friday session took place on **Nov 6 2026, 8:00–8:58 AM Eastern**, titled "AI teardown review 2, control test on our own GA-COAM V2 games", with Val, Kharetski, Igor Metelski, Pavel, Irina and Andrey Bosik — [[wiki/meetings/2026-11-06-ai-teardown-control-test-aristocrat-mechanic-port-and-trial-game.md|stub]] [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]] [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]. Russian.
+
+- **Kharetski's result.** Two JVL games filmed with no special access, one by capture card and one by phone; Claude pulled the mechanics; a phone video of the help screens and each bonus round is enough — "Не надо подключать коробку" [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+- **Igor's result.** The Oct-30 YouTube breakdown, fed to Claude, became a working Aristocrat-style bonus in a Rage game in under a day [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+- **The rulings** — selective recording; the mechanic ported onto JVL's own maths with Efim; a JVL style template; Igor's trial game reviewed Wednesday — are on [[wiki/decisions/2026-11-06-phone-video-of-help-screens-and-bonuses-is-enough-for-a-teardown-the-mechanic-is-ported-onto-jvls-own-maths-and-igor-builds-a-trial-game-with-an-aristocrat-mechanic.md]]; the Oct-30 validation commitment is discharged on [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]]. The game-design agent itself (this page's subject) was not discussed; its open commitments stay as recorded.
+
 ## History
 
 - [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] (with [[wiki/people/igor-metelski.md|Igor Metelski]] checking the output) — first pass of the Game Design Assistant, voice to text and text to voice — due Sun Oct 25 2026 review — [[raw/Meeting_Transcript_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] [[raw/Meeting_Notes_Creative_Direction_Spec_Review_and_Game_Design_Voice_Assistant-October-18-2026.md]] — *discharged Oct 24 2026: the first pass was reviewed a day early, as a text chat in Teams; voice was not shown* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
@@ -132,6 +140,9 @@ The Friday competitor session set on Oct 24 took place on **Oct 30, 8:03–8:49 
 - [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — test Val's hypothesis: teach the agent to break a competitor's new game into components and mechanics, starting from a YouTube video — due Fri Oct 30 2026, 8:00 AM Toronto time (a separate session) — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *discharged Oct 30 2026: the session was held 8:03–8:49 AM; Claude broke down four competitor games from YouTube video; the next step is a validation test on JVL's own games* — [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
 
 ## Sources
+
+- [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
+- [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]

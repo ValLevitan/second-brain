@@ -3,7 +3,7 @@ type: person
 title: Juan Martinez
 date: 2026-07-13
 aliases: [Juan Martinez, Juan]
-source-count: 103
+source-count: 105
 open-commitments: 21
 ---
 
@@ -409,7 +409,14 @@ On the [[wiki/meetings/2026-05-18-ga-trip-recap-kiosk-intel.md|May-18 GA trip re
 
 At the [[wiki/meetings/2026-09-22-multi-game-screen-layout-and-game-count.md|Sept-22 2:45 PM multi-game screen call]], [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] relayed Juan's proposed approach to releases: carry the top earners of one release into the next and add new titles around them — "**Juan's proposed philosophy, which I think made a lot of sense**". See [[wiki/topics/slot-game-design-principles.md]] (Sept 22). On Nebraska, Michael would have preferred "**suggested progressive levels from Juan**", but "**that's challenging right now to get answers**", so Michael will decide them. See [[wiki/projects/nebraska-skill-market.md]] (Sept 22). No reason for the delay is given in the source. [[raw/Meeting_Transcript_Multi_Game_Screen_Layout_and_Game_Count-September-22-2026.md]]
 
+## Nov 6 2026 (in absentia) — "we lost our product owner… nobody can replace him": Val takes the Galaxy machine-registration use cases on himself
+
+At the [[wiki/meetings/2026-11-06-remote-update-design-schema-component-signing-and-machine-registration.md|Nov-6 9:03 AM remote-update review]] (Russian), when the group needed use cases for machine registration in the new Galaxy, Val: "мы потеряли [продакт оунера]… У нас некому… его заменить… Давайте я попытаюсь организовать это. Этот процесс. Он будет не очень хорошо идти, но он будет идти" [[raw/Meeting_Transcript_Remote_Update_Design_Schema_Component_Signing_and_Machine_Registration-November-6-2026.md]]. The transcript names nobody (heard "one"); the notes read "(Juan)" [[raw/Meeting_Notes_Remote_Update_Design_Schema_Component_Signing_and_Machine_Registration-November-6-2026.md]] — attributed here by his VP-product-owner role as an **inference**. No earlier source on this page records his leaving; the wording is new and is queued for the owner. The ruling is on [[wiki/decisions/2026-11-06-every-component-is-signed-separately-with-one-server-signature-at-update-time-ris-and-machine-registration-go-into-cloud-galaxy-use-cases-come-first-and-val-owns-machine-registration.md]].
+
 ## Sources
+
+- [[raw/Meeting_Transcript_Remote_Update_Design_Schema_Component_Signing_and_Machine_Registration-November-6-2026.md]]
+- [[raw/Meeting_Notes_Remote_Update_Design_Schema_Component_Signing_and_Machine_Registration-November-6-2026.md]]
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]

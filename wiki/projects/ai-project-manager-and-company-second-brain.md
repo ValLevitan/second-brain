@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, one brain for all agents, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 38
+source-count: 40
 open-commitments: 0
 open-questions: 0
 ---
@@ -163,6 +163,10 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] Val told Nathan Carver: "We have repository for personas." [[wiki/people/andrey-bosik.md|Bosik]] "is working on AI Project Manager", and that persona lives in a persona file; "we have a CO… We have a Cfo" (the notes: AI-COO, AI-CFO); "all of the persona lives in a persona files repository." The hardware agent's instructions are to move there, and Nathan is to contact Bosik [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]]. How the persona repository relates to the second brain was not discussed.
 
+## Nov 6 2026 (10:33 AM) — the second brain feeds the studio too: "один мозг на двоих"; Kharetski loads it with Igor's game wikis and Efim's maths (Dakota, not "Фанат")
+
+At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.md|Nov-6 10:33 AM NOVA-2 merge meeting]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: the design agent will be filled with "вики наших игр… на [GCM 3] это уже сгенерировано" and with the competitor mechanics analysed from videos, "в секонд брейн"; "Все, что знает агент, может знать и наш движок… использовать один мозг на двоих" — Anton Leshkevich's studio; he will "загрузить… все что ефим предоставил по… Фанат помоему вот и загрузить вике, которые предоставила мне Игорь"; [[wiki/people/igor-metelski.md|Igor]]: "Фанат я бы не торопился… не очень хорошем состоянии… Я бы предложил тебе ещё [Дакоту] отдать" — "Без проблем" (what "Фанат" is, is **unclear**; "Дакота" read as the South Dakota product, **inference**) — [[wiki/decisions/2026-11-06-rage-is-finished-nova-2-is-antons-rust-engine-with-lua-scripted-framework-and-games-lgs-stays-miranda-and-unity-are-not-needed-code-first-then-prose-no-browser-runtime-and-all-work-moves-to-corporate-repositories.md]], where the commitment is counted [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]] [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]. Igor's briefs are generated from the repository because "конфлюнс у нас как бы ну не всегда в актуальном состоянии" — 15 GCM3 games so far [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -202,3 +206,5 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
+- [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]

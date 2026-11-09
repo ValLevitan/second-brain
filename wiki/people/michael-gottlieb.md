@@ -4,7 +4,7 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 75
+source-count: 77
 open-commitments: 16
 ---
 
@@ -391,6 +391,14 @@ He led the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-co
 - **Georgia V4 and Colombia.** He asked whether another Georgia release goes with the curved cabinet; Val confirmed one. He has the V4 titles blocked out, including "perceived persistence" games. For Colombia he has a list of top-performing games (pub crawl, fruit games), floated two releases of Lines & Waves / Jackpot Rush / Fiery Ice, and will talk with Martha with a question list — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]]
 - Commitments from this meeting (play the new Nebraska build; the Martha questions; the Colombia game list with Lena; the V-deck check) are counted on those decision pages.
 
+## Nov 6 2026 (2:04 PM) — Wildfire Ranch up and playing, a big horse animation, desaturated royals, Midnight Money's mild pass; Class A: casino maths plus party time at 12% of RTP and 1 in 240, free spins defended ("you take their money very fast and you give it back to them very, very slowly"), "I think 5 bucks" then "if you want to do it, let's do it" at $3, no progressive, "choose the larger coin" as the Class A skill from the Aug-31 Claude reading; the QR-scanner screen wording
+
+He led the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-and-qr-wallet.md|Nov-6 2:04 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]:
+
+- **Nebraska.** "this week has been about working on the Nebraska build… We've got Wildfire Ranch up and playing now, so we're evaluating both the art and the math. and making some adjustments to the racking behavior. Efim came up with a good idea of doing a large horse animation when you get 3 stacks of horses"; "my only objection to horses and slots, Val, is if you use them as a main character staring you down, it looks weird. But… this side to side shot… looks really good"; royals "heavily desaturated, you want them to almost fall into the background completely… At some point, we're going to do a game where all the royals are going to be the exact same color"; Midnight Money got "update passes… I would call this mild" — [[wiki/projects/nebraska-skill-market.md]] (Nov 6, 2:04 PM) · [[wiki/topics/slot-game-design-principles.md]] (Nov 6, 2:04 PM).
+- **Class A.** "we're going to keep the casino math intact, but then we're going to add the party time feature on" — "12% of RTP dedicated to party time… free spins are one and 120, Party time will happen 1 and 240"; after a $50-capped free-spin round "on the subsequent spin, base game spin, we're going to put you in party time. We're not going to tell you"; he defended free spins against Val — "One of the rules of slot machines is you take their money very fast and you give it back to them very, very slowly. That feeds time on device… A slot machine should have two things to chase"; on the max bet he opened with "I think 5 bucks… Why would you cripple us", granted Val's upsides, named the maths saving ("8 increments you don't have to deal with") and closed "if you want to do it, let's do it"; "no progressives… Party time is the replacement for the progressive"; "We're using Georgia [COAM] as the base… it's just the skill element… choose the larger coin"; he believed skill is "regulatory requirement" from "the stuff that you sent and that Juan sent" — the Aug-31 "Claude's interpretation of Class A regulations" — and will forward it to Val — [[wiki/decisions/2026-11-06-class-a-max-bet-is-3-dollars-free-spins-stay-party-time-takes-12-percent-of-rtp-at-about-1-in-240-rtp-about-92-percent-no-progressive-production-on-nova-in-january.md]], where his two commitments (forward the material; tune party time with Efim) are counted.
+- **The QR wallet.** He worked Val's two-reader idea into screens: "a large overlay on the main game screen that says, scan QR code to add credits with an arrow"; "Scan to add credits and then scan to redeem. Awards"; "the confirmation doesn't change… would you like to collect $150 cashable awards?"; "the programmers have to tell us what the behavioral characteristics are"; "that's going to be in the setup menu… bill acceptor and printer or QR scanners"; "Lena, will have to come up with a new screen"; "these will initially be deployed with the scanner first… We don't know yet" — [[wiki/decisions/2026-11-06-the-class-a-software-supports-two-cash-set-ups-bill-acceptor-and-printer-or-two-qr-scanners-scan-to-add-credits-and-scan-to-redeem-awards-with-scanners-as-vals-launch-goal.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -468,3 +476,5 @@ He led the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-co
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]

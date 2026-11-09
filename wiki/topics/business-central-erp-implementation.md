@@ -3,8 +3,8 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 92
-open-questions: 8
+source-count: 94
+open-questions: 9
 ---
 
 # Business Central ERP implementation (JVL's Dynamics 365 rollout)
@@ -546,7 +546,22 @@ At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md
 
 - Once all parts live in GitHub, is MSBC cleaned and reloaded from GitHub, or left as it is? Val asked; Genadi was unsure — [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
 
+
+## Nov 7 2026 — are cabinet serial numbers entered into BC in advance from the bill of material? A build request as the link between BC and machine registration; the customer type in BC decides printer, software and settings
+
+At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian) — the registration discussion is on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]] [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]:
+
+- [[wiki/people/dmitri-chudinov.md|Chudinov]]: cabinet serials are reserved a month ahead for the metal plates, and the step "как то там сильно зависло от навижен текущего бизнес централа, что там заводят бил оф материал этот номер. Заранее или не заранее? Вот это вот я так и не понял"; the people to ask are "гена либо лев" ([[wiki/people/genadi-peari.md|Genadi Peari]], [[wiki/people/lev-rudky.md|Lev Rudky]] — **inference** by context). Val: "Если они заводят, то это тоже можно поменять. Потому что тоже процесс неправильный… Конечно, их надо их надо привлечь… к этому разговору" — nobody took the question [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]].
+- The BOM in BC "очень широкий, там и и провода, и какие то пластиковые части" (Chudinov); his possible link: a build request is created, "сервер сразу может сказать, что вот на эту заявку будет вот такойто номер машины. А потом при регистрации просто автоматически этой машины назначить этот номер"; [[wiki/people/andrey-bosik.md|Bosik]]: the assembly process itself may belong "в Майкрософт это бизнес централ" — open [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]].
+- Val: which devices, software and settings a machine ships with is the sales process, recorded in BC by how the customer is typed — "Это различается в бизнес централ… Геннадий назвал… с Геннадием говорили на эту тему… Я забыл сейчас имя правильное" (the BC term is **unclear**) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]].
+
+### Open questions (Nov 7 2026)
+
+- Are cabinet serial numbers entered into Business Central in advance from the BOM, and by whom (Genadi or Lev)? Unassigned — [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
+
 ## Sources
+- [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
+- [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]

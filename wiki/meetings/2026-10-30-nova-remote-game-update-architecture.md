@@ -24,6 +24,7 @@ open-questions: 0
 - [[wiki/decisions/2026-10-21-nova-drops-the-browser-for-a-native-engine-no-code-before-capabilities-and-mvp1-is-a-stable-nova-releasing-six-texas-games.md]] and [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Oct-30 notes) — the same order: full picture first, then MVPs.
 - [[wiki/decisions/2026-09-24-capabilities-sit-in-one-flat-list-under-each-platform-and-releases-are-timeline-lines-not-initiatives.md]] (Oct-30 update) — the Jira release-name standard.
 - [[wiki/decisions/2026-09-04-point-claude-at-the-standards-repository-first.md]] (Oct-30 update) — Val's reminder to add standards to the repository.
+- **Follow-up (Nov 6 2026):** the review promised here was held as [[wiki/meetings/2026-11-06-remote-update-design-schema-component-signing-and-machine-registration.md|the Nov-6 9:03 AM remote-update review]] — outcome on [[wiki/decisions/2026-11-06-every-component-is-signed-separately-with-one-server-signature-at-update-time-ris-and-machine-registration-go-into-cloud-galaxy-use-cases-come-first-and-val-owns-machine-registration.md]].
 
 ## Notes on the sources
 

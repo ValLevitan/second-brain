@@ -22,6 +22,7 @@ open-questions: 0
 - [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-30 update) — the Oct-24 hypothesis-test commitment is discharged.
 - [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Oct-30 note) — engine, framework, games and bonuses as separate pluggable modules; where bonus resources live; a requirements list, not an architecture; Igor adds to it.
 - People: [[wiki/people/evgeny-kharetski.md]] · [[wiki/people/igor-metelski.md]] · [[wiki/people/val-levitan.md]] · [[wiki/people/pavel.md]] · [[wiki/people/irina-shishko.md]]
+- **Follow-up (Nov 6 2026):** the validation test promised here was reviewed at [[wiki/meetings/2026-11-06-ai-teardown-control-test-aristocrat-mechanic-port-and-trial-game.md|the Nov-6 8:00 AM teardown review 2]] — outcome on [[wiki/decisions/2026-11-06-phone-video-of-help-screens-and-bonuses-is-enough-for-a-teardown-the-mechanic-is-ported-onto-jvls-own-maths-and-igor-builds-a-trial-game-with-an-aristocrat-mechanic.md]].
 
 ## Notes on the sources
 

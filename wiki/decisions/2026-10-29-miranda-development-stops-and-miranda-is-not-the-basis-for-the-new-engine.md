@@ -3,7 +3,7 @@ type: decision
 title: Miranda development stops — Val sees no future in it, and the team (with Sasha, as reported by Irina) agrees it has outlived itself; earlier the same morning Miranda was ruled out as the basis for the new engine, being "only a converter" (Val, Oct 29 2026)
 date: 2026-10-29
 aliases: [stop Miranda development, Miranda development stopped, девелопмент Миранда, я не вижу будущего в миранде, Miranda has outlived itself, это себя изжило, Miranda is only a converter, Миранда нужна чисто для конвертации, Miranda not the basis for the engine, я бы миранду не брал за основу]
-source-count: 8
+source-count: 10
 status: active
 open-commitments: 1
 open-questions: 1
@@ -57,6 +57,10 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Nov 6 2026 (10:33 AM) — "нам Миранда не нужна"; the Miranda-exported scene format stays as the working contract, simplified; the engine reads Miranda assets only because they were at hand
+
+At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.md|Nov-6 10:33 AM NOVA-2 merge meeting]] (Russian) Val: "то, что я понимаю нам Миранда не нужна" — Biratka: "Нет"; Irina: "Мне нужна" (heard; **unclear** whether in earnest); Efim: "Насчёт Миранда я не знаю" and later "мы очень хотим уйти от миранды. Почему мы хотим от неё?"; Igor: "если ишка может собирать сцены, зачем нам нужно собирать их мирандой?"; Val: "Да и от миранды мы уходим" [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]. Anton's engine "поддерживает асыты, которые были выпущены мирантой" because "это то, что у меня было"; Biratka: keep the Miranda/Pixi-era scene data contract as the working format, simplified, build scenes with AI, "нам юнити сам не нужен уже"; Anton: staying on Rage would mean its scene contracts and "3 d max" for designers — [[wiki/decisions/2026-11-06-rage-is-finished-nova-2-is-antons-rust-engine-with-lua-scripted-framework-and-games-lgs-stays-miranda-and-unity-are-not-needed-code-first-then-prose-no-browser-runtime-and-all-work-moves-to-corporate-repositories.md]] [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]] [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]. This confirms the Oct-28/Oct-29 reading above: development stopped, the export format survives; the Khandovs' preservation commitment is not mentioned [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Engine_Meeting_Postponed_and_Miranda_Development_Stopped-October-29-2026.md]]
@@ -67,3 +71,5 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 - [[raw/Meeting_Notes_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
+- [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
+- [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]

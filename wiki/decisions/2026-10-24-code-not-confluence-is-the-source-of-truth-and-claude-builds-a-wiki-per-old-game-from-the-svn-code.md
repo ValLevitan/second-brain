@@ -3,7 +3,7 @@ type: decision
 title: Confluence is not a source of truth for the game agent — only code is; old games get a one-time Claude-built wiki page each, made from the real SVN code and sized to answer Igor's specification; the old SVN code itself is not moved into GitHub or the agent, and universality is built step by step in new, clean code; on Oct 29 Igor showed the method on Clover Fortune and the wikis are to be loaded into the company second brain (Oct 24 2026)
 date: 2026-10-24
 aliases: [code is the source of truth, Confluence is not a source of truth, конфлюенс не является source of truth, SVN to wiki, per-game wiki from SVN code, old games wiki, Karpathy wiki for old games, no SVN in GitHub, clean code step by step]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 1
 open-questions: 2
@@ -55,9 +55,13 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 - **Which games.** Kharetski: pick a package of games actually needed — "например, нам нужны все гекамы" (as heard; **unclear**) — and not the very old ones; "Алгоритм у Игоря есть он уже это делал" [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Val: the wikis of past games "которые мы выберем" go into the game design agent's second brain — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]].
 - **Recorded as a decision.** The notes: build the old-game wiki from SVN code with Igor's method and load it into the second brain (Kharetski's recap, no objection) [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]. Still no owner and no date.
 
+## Update, Nov 6 2026 (8:00 AM) — Igor has templated 15 games of the GCM3 product, with tone-and-style points for each
+
+At the [[wiki/meetings/2026-11-06-ai-teardown-control-test-aristocrat-mechanic-port-and-trial-game.md|Nov-6 teardown review]] (Russian) [[wiki/people/igor-metelski.md|Igor]]: "мы говорили о том, что мы хотим сделать на основе игр, которые есть… некоторые вики. Вот, получается, я разобрал 15 игр из продукта г к вам 3 [GCM3]… по шаблону и оно… для всех из этих игр оно описало… пункты про тон и стиль" [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]. Val said the graphic style he wanted written up is a different thing (a style template for drawing — on [[wiki/decisions/2026-11-06-phone-video-of-help-screens-and-bonuses-is-enough-for-a-teardown-the-mechanic-is-ported-onto-jvls-own-maths-and-igor-builds-a-trial-game-with-an-aristocrat-mechanic.md]]) [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]. Igor is doing the job in practice (the HTML pages for the GCM3 games at the Nov-4 stand-up; 15 templated here); where the pages are stored and whether he is the named owner were not settled [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]] [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]].
+
 ## Open commitments
 
-- [ ] Unassigned (Bosik proposed; Val agreed; no owner named) — one-time job: Claude builds a wiki page per old game from the SVN code, sized to answer Igor's specification; Confluence is then removed as the agent's knowledge source — due unspecified — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *Oct 29 2026: method shown by Igor on Clover Fortune; the output is to be loaded into the company second brain; still no owner* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
+- [ ] Unassigned (Bosik proposed; Val agreed; no owner named) — one-time job: Claude builds a wiki page per old game from the SVN code, sized to answer Igor's specification; Confluence is then removed as the agent's knowledge source — due unspecified — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]] — *Oct 29 2026: method shown by Igor on Clover Fortune; the output is to be loaded into the company second brain; still no owner* — [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] — *Nov 6 2026: Igor has templated 15 GCM3 games ("разобрал 15 игр из продукта г к вам 3… по шаблону"); storage and ownership still unnamed — kept open* — [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 
 ## Open questions
 
@@ -67,6 +71,9 @@ At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-
 **§15.8:** clear. **§15 #9:** none.
 
 ## Sources
+
+- [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
+- [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 151
+source-count: 153
 open-commitments: 60
 ---
 
@@ -724,7 +724,14 @@ At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md
 
 At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian; he was not present) [[wiki/people/pavel.md|Pavel]]: the IQ has the Wi-Fi hardware, but "нам надо для всех новых IQ. Заказать и продумать нужны вай фай антенны. И придумать, куда они там крепятся внутри корпуса"; [[wiki/people/val-levitan.md|Val]]: "как заключение этого митинга нужно отослаться ими ал [email] геннадию и асаин этот таск тебе"; [[wiki/people/andrei-klimovich.md|Klimovich]]: "я сделаю с вами в копии" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — the commitment (Klimovich's) is on [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]]. Compare the Nov-4 stand-up's "antennas from the old media boxes" idea on [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Nov-4 update). At the same morning's stand-up Pavel also put an LTE modem with antenna and a Wi-Fi antenna on Leshkevich's test-board hardware list for purchasing — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
 
+
+## Nov 7 2026 (in absentia) — "гена либо лев": does Business Central get the cabinet serials in advance from the BOM? Val: they must be brought into the registration conversation; the BC customer type "Геннадий назвал"
+
+At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian; absent) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]: [[wiki/people/dmitri-chudinov.md|Chudinov]] said the one open point on the registration scheme needs "уточнение, кто тут, наверное, паше больше гена либо лев. Заводят ли они чтото бизнес централ заранее с этими номерами из пиво их материал?" — read as Genadi and [[wiki/people/lev-rudky.md|Lev Rudky]] by the BC / parts context (**inference**); Val: "Если они заводят, то это тоже можно поменять. Потому что тоже процесс неправильный… Конечно, их надо их надо привлечь… к этому разговору"; nobody took the question (unassigned on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]]) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]. Val also recalled that the way a customer is typed in BC for sales is a term "Геннадий назвал… с Геннадием говорили на эту тему" (the term itself **unclear**) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
+- [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
