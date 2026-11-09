@@ -3,8 +3,8 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 146
-open-commitments: 59
+source-count: 148
+open-commitments: 60
 ---
 
 # Genadi Peari
@@ -707,6 +707,19 @@ A 31-minute [[wiki/meetings/2026-10-22-genadi-peari-bill-acceptor-harness-and-da
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] he said he and Nathan spent three days settling a consistent structure. He must finish all JVL-made parts of the chosen assembly — "about like 100 files" — and needs an MSBC client ID to pull the hundreds of standard parts into GitHub ("manually, I cannot do this"); Nathan will help, category by category. He asked that part descriptions expand (dimension, brightness, interface, LED backlight); Val: all of it belongs in the data sheet in GitHub — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
 
+## Nov 3 2026 (2:50 PM) — importing all parts from Business Central into the GitHub repository by category; the agent does it under rules; "кто с 1000 парт"
+
+At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md|Nov-3 2:50 PM call]] with Val (Russian, five minutes) [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]:
+- Val asked whether he is exporting the parts from BC ("Фон би си"). Genadi: "Я пытаюсь… импортировать все партии из биси в рипа, которые мы создали" — the repository has folders by category, each category with its own rules, "потому что дата контракс будут создаваться по категориям"; in each category each part gets a small subfolder with its data contract, a readme file and "вся инжиниринг information" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]].
+- Val's fear — "очень плохое чувство" — was that Genadi would run the rules and data contracts by hand in those subfolders. Genadi: "Я вообще не собираюсь дотрагиваться, он всё сделает. Мы как раз написали рул, чтобы не было хьюман интеракшен"; his only manual job is to put JVL's documentation in ("нашу документацию gvel туда") — Val: any documentation, not only JVL's; Genadi: "Нет конечно я не буду" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. The agent is "он" in the transcript; the notes name Claude [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]].
+- "мы вчера начали. Я получила аксес, мы начали это делать" — the agent did not know how part numbers are built, so he wrote a rule for creating part numbers, "стандарт наш"; after that it worked and pointed out gaps for half a day; he is building the base now "чтобы это всё пошло автоматически" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. What access he got is not said; it reads as the MSBC access he lacked on Oct 29 (**inference**) — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]] (Nov-3 note).
+- Some parts — a screw, for instance — carry only a description; a monitor needs a data contract; the agent has to be told the difference [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]].
+- Val: once all the rules and standards are there, any export is instant — "Ну да, Да конечно"; should MSBC then be cleaned and the parts loaded again from the new system? "Это не знаю… Они все уже будут жить в гетхабе… Нам ничего больше делать не надо" — everything can be generated from there [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] — [[wiki/topics/business-central-erp-implementation.md]] (Nov 3). Val: "Я испугался, что вы хотите всё это делать руками"; Genadi: "Ну кто с 1000 парт" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]].
+
+### Open commitments (Nov 3 2026)
+
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — keep building the rules so the import of the BC parts into the GitHub repository by category runs automatically — due unspecified — [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -855,3 +868,5 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Transcript_Genadi_Peari_Bill_Acceptor_Harness_and_Data_Contracts-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]

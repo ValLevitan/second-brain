@@ -4,7 +4,7 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 73
+source-count: 75
 open-commitments: 16
 ---
 
@@ -382,6 +382,15 @@ He led the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombi
 - [ ] Michael Gottlieb (with Efim Podvoiski) — play-test the Aaron's Pub, Wildfire Ranch, Solar Keno and Queen of Luxor Keno builds to set the maths — due unspecified (once builds are up) — [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - Also owed, recorded on the decision pages: the dual box requirements (with Efim), all Class A concept work by about Oct 30, and the Colombia questions.
 
+## Oct 30 2026 — "Okay, I'm sold": party time scales with the bet; 25-cent bet steps; a Georgia V4; Colombia
+
+He led the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]:
+
+- **Nebraska dual box.** He changed the winning-spin flow: the dual box comes up with the win at 0, and the rack — and any bonus — follow the correct coin pick; told to the developers Oct 29; "Hundred percent" sure it is better — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]] (Oct-30 update)
+- **Class A.** He first defended the competitor's flat $50 party-time win ("you don't want to be less than") and wanted to "start with that $50 and see what it feels like"; after Val's market facts he turned — "the model that's been put forth by Primero isn't working… Okay, I'm sold" — and framed party time as "a low-level mystery progressive" with bet-scaled, per-session fixed values, funded by shaving the top of the paytable. He pushed through on-screen 25-cent bet steps "the IGT Aristocrat way" against the doubled maths, on the zero-out and "set it and forget it" arguments, and would not spend money on a V-deck for Class A — [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]]
+- **Georgia V4 and Colombia.** He asked whether another Georgia release goes with the curved cabinet; Val confirmed one. He has the V4 titles blocked out, including "perceived persistence" games. For Colombia he has a list of top-performing games (pub crawl, fruit games), floated two releases of Lines & Waves / Jackpot Rush / Fiery Ice, and will talk with Martha with a question list — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]]
+- Commitments from this meeting (play the new Nebraska build; the Martha questions; the Colombia game list with Lena; the V-deck check) are counted on those decision pages.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -457,3 +466,5 @@ He led the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombi
 - [[raw/Meeting_Transcript_Dutch_Mill_Rage_to_NOVA_Conversion_and_Reskin_Plan-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

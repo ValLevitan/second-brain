@@ -3,13 +3,15 @@ type: decision
 title: Class A design — after free spins, the next paid base-game spin may trigger party time; Lions Riches is the one game that defines Class A behaviour before it spreads to the rest (Oct 8 2026)
 date: 2026-10-08
 aliases: [party time after free spins, subsequent base game spin may trigger party time, set a flag, Class A requirements, IP-1220, IP 1220, IP-1190, Lions Riches definitive target, one particular game definitive target, reverse engineered Primero, 50 bucks a pop, 50 50 and 25, ready by October 16, living breathing document, GD-979 storyboard, Class A kickoff in Russian]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 3
-open-questions: 2
+open-commitments: 2
+open-questions: 1
 ---
 
 # Class A — party time may start on the paid spin after free spins; Lions Riches is the single target
+
+> **Status note (Oct 30 2026):** the "party time after free spins" rule stands. The flat "50 bucks a pop" party-time win described below is **superseded**: party-time wins now scale with the bet, as a low-level mystery progressive with one fixed value per session — [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]]. See the Oct-30 update below.
 
 Set by [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] with [[wiki/people/efim-podvoiski.md|Efim Podvoiski]], and presented to [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md|Oct 8 2026, 12:00 PM game-design meeting]] (English). Val asked questions and did not object [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]. Background: [[wiki/topics/georgia-class-a-machines.md]].
 
@@ -46,19 +48,27 @@ Val: "So Class A requirement that says ready by October 16th." Michael: "We'll s
 - Sept 25: party time was read as "a substitute for progressives", and Efim listed free spins and party time as open maths problems — [[wiki/meetings/2026-09-25-georgia-progressives-and-class-a-lions-riches.md]]. This ruling is the first answer on the free-spins side. Evolution.
 - Platform: [[wiki/decisions/2026-09-11-georgia-class-a-v43-is-built-on-nova-not-rage.md]].
 
+## Oct 30 2026 — the flat $50 goes; party time scales with the bet
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) Michael and Efim walked through the free-spins-to-party-time flow (a cash-out or a bet change disables it; after free spins party time may trigger only once, which Michael calls "surprise and delight"), and Val's market facts — most players bet "around a dollar… a dollar to $1.50", the competitor's flat-$50 machine earns "$6 a day per machine" in some locations and "Forty dollars a day" in others and "does not have legs" — turned Michael: "Okay, I'm sold." Party time becomes "a low-level mystery progressive" whose value goes up with the bet ("10, 20, 30, 40, 50" as an example), fixed within one session, funded by shaving "the top end of the pay table." Efim has many maths questions open. Full record: [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. The Oct-8 question "should payouts ever be less than $50?" is answered yes; the Oct-8 maths check is replaced by the new Oct-30 commitment on that page.
+
 ## Open commitments
 
-- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] / [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — check in the maths whether party-time payouts below $50 (e.g. 50 + 50 + 25) meet the goals — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — finish the detailed Lions Riches Class A storyboard (GD-979) — due unspecified — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — explain Class A behaviour to the developers in Russian at the Class A kickoff — due kickoff (date not set) — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
 ## Open questions
 
 - Will the Class A requirements really be ready by October 16? Michael: "We'll see" — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
-- Should party-time payouts ever be less than $50? Val says they may be; Michael has only seen $50 — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+## History
+
+- ~~Should party-time payouts ever be less than $50? Val says they may be; Michael has only seen $50~~ — **ANSWERED Oct 30 2026:** yes — party-time wins scale with the bet (e.g. 10, 20, 30, 40, 50) and stay fixed within a session — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [x] Michael Gottlieb / Efim Podvoiski — check in the maths whether party-time payouts below $50 (e.g. 50 + 50 + 25) meet the goals — **discharged Oct 30 2026** by the ruling that party time scales with the bet; the maths work continues as the Oct-30 commitment on [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]] — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 
 **§15.8:** clear — product and maths content only. **§15 #9:** none.
 
 ## Sources
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Notes_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

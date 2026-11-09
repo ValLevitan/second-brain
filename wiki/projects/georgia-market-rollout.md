@@ -3,7 +3,7 @@ type: project
 title: Georgia market rollout (Peach1234 / DLKG)
 date: 2025-02-19
 aliases: [Georgia, Georgia co-op, COAM Hearing Room, Georgia Lottery Corporation, Tracy Warren, HB 353, Intralot lab, Bill at Intralot, three fifty-eight nine, Peach1234, DLKG, Georgia Lottery, GLC, Eclipse, dual SAS, third printer port, Peach 1, Peach 2, Peach 3, Peach 4, JPRE, curved monitor cabinet, flex curve, Georgia 1, Georgia 2, conservative nudge, enhanced nudge, La Rosa, El Jaguar, nudge animation freeze, BDC, financial product financing, GAMOA, ILERS, ILAS report, Eilers, Eiler report, show special, Mega Hit Blaze, sales channel report, Bulldog Gaming, ARC, ARC Gaming, Class A, C-Store Connect, GACS, route consolidation, gift-card cash-back notice, Chris Plonic, Double Down Gaming, Ryan O'Donnell, Billy Liu, Play Payments, PlayPay, banking licence moat, 7455 modem, KORE, KORE SIM, APN, GACS October 21, Pay Slim, over-drive, Rao, Narasimha Rao Namburi, David Milani, September 2 letter, 5500 PAX locations, Lucky Coin service burden, Lucky Bucks is ARC, the market is literally bottomless, backend displacement, David Sloan, Dave Sloan, Bill the kiosk vendor, the wording is in the same location, guidance is not the law, Digital Cash Processing, DCP, ICP Inc., Gen Mega, Andrew Cashin, Rick Beer, seventy four hundred locations forty seven thousand machines, Unlimited Amusement, Mega Hit Blaze V3, program the rollout, Swanee, Johns Creek, Singleton, SurfNote, Debbie Alford, eighteen thousand connected, Mike Mackey, five hundred dollars per unit per machine, WSS protocol, not even one installation, Georgia Lazy, Skyriser, Cardinal, outside looking in, Rich Winley briefing, 18 games in one pack, one USB stick for all Peach, Peach 1 2 3 combined]
-source-count: 260
+source-count: 264
 open-commitments: 74
 open-questions: 38
 ---
@@ -1874,6 +1874,17 @@ On a [[wiki/meetings/2026-10-21-val-felipe-sales-refocus-on-the-eighty-list.md|s
 
 At an [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|informal chat]] with the Minsk leads, Val said the two-year chase of payout was only part of it: JVL's average RTP in the last release was about 95.5% against competitors' 90–92%, so its machines would need about 40% more play to make the same money, which he called impossible; but the real problem is that the operators' technicians have learned to hate the JVL machine, because of long commissioning calls and frequent factory resets, and owners listen to them. JVL now aims to win them back — the lighter RIS in November first, then tools for technicians — [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]] [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]] [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]].
 
+## Oct 30 2026 (2:00 PM) — a Georgia V4 release is confirmed; the Class A market in numbers
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]:
+
+- **V4 will happen.** Michael asked whether a software release should go with "this new curve cabinet" at "the Georgia show in the fall" — "we've got V3 right now." Val: "no doubts that there will be another Georgia software. It must be." Michael has the V4 titles blocked out, with "perceived persistence" games; Val calls them "large format games", like Bison. No date was set; the cabinet question was not answered — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]]. The Oct-8 placeholder and game list are above (Oct 8).
+- **Class A, by Val.** The Georgia market is "47,000 machines" today; unregulated Class A "may take it to 100,000 machines"; but the current Class A machine earns "$6 a day per machine" in some locations and "Forty dollars a day" in others — "nobody will dive into a business at such spread." JVL's Class A design changes accordingly — [[wiki/topics/georgia-class-a-machines.md]] (Oct 30) · [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]].
+
+## Nov 3 2026 — a Georgia location's SIM ran out of data
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]] reported that at a Georgia location ("Баррихаузе", heard; the notes: Barry House — matched to no known location) the LTE showed connected but the terminal was offline: the SIM had used up its "2 гига" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. His proposed traffic-alert service: [[wiki/decisions/2026-09-15-every-device-carries-its-own-lte-modem-and-sim.md]] (Nov-3 note).
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -2138,3 +2149,7 @@ At an [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-ow
 - [[raw/Meeting_Notes_Diamond_Amusement_RIS_Improvements_Release_Preview-October-20-2026.md]]
 - [[raw/Meeting_Notes_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Sales_Outbound_Targeting_Mid_Tier_Operators-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

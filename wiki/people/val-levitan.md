@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 462
+source-count: 466
 open-commitments: 83
 open-questions: 1
 ---
@@ -1776,6 +1776,14 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 
 At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (Russian) he asked for a technical brief for the engineers and stood aside while they talked [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He ruled out an MVP split or schedule until the full architecture exists; said the list of allowed updates must exist the same way for JVL's own and sold machines; named Texas the first market; asked to copy proven practice (Apple named); set a Jira release-name standard (project, then MVP number); and reminded everyone to add their standards to the GitHub repository [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He will set the review for 9:00 AM next Friday [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
 
+## Oct 30 2026 (2:00 PM) — the Class A machine "does not have legs"; party time must scale with the bet; a Georgia V4; Colombia by December 2027
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] he supplied the market facts that turned the Class A design: the industry is excited about "unregulated Class A" taking Georgia from "47,000 machines" toward "100,000", but the competitor's machine earns "$6 a day per machine" in some locations and "Forty dollars a day" in others, operators find the play uninteresting, and "it does not have legs"; players bet "around a dollar… a dollar to $1.50", not $5–$6, so party time should pay smaller wins more often ("Three times 10 is better"). He called the competitor's capped paytable "insulting", said "This is not a casino. This is a street business", and that five bet buttons "from 50 cents to $2.50" are enough. He said he may have "steered you the wrong way" on Aristocrat-style on-screen bet arrows, then accepted them for "set it and forget it", not for revenue; on the cabinet, "all you need is 1 slam button" — [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]] · [[wiki/decisions/2026-09-04-georgia-v4-mechanical-button-deck.md]] (Oct-30 update). He confirmed another Georgia software release ("It must be"), calling perceived-persistence games "large format games", and set the Colombia refresh: contracts expire December 2027, so the updated Georgia games (Bison, wolves, lions) go to Colombia as Class 3 on NOVA, "Minimum 6, maximum 12"; market questions go to Martha as structured lists — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]]. On the Nebraska dual box showing 0 he only asked whether Michael was convinced.
+
+## Nov 3 2026 (2:50 PM) — "я молю бога чтоб я был неправ": no hand-maintained rules and data contracts; is MSBC cleaned and reloaded afterwards?
+
+At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md|Nov-3 2:50 PM call]] with Genadi (Russian) [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] he checked the export of the parts from BC into GitHub; his fear was manual upkeep of the rules and data contracts in the per-part subfolders — "это меня очень пугает… я молю бога чтоб я был неправ"; Genadi answered that the agent does it under a written rule with no human interaction [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. His rule of thumb: "когда вы добьётесь всех рус и… стандартов, тогда любой экспорт он мгновенный" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. He asked whether, once everything is in GitHub, MSBC should be cleaned and the parts loaded again from the new system; Genadi did not know and sees GitHub as where the parts will live [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. He closed: "Я испугался, что вы хотите всё это делать руками… я понял" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] — [[wiki/people/genadi-peari.md]] (Nov 3) · [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]] (Nov-3 note) · [[wiki/topics/business-central-erp-implementation.md]] (Nov 3).
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -2247,3 +2255,7 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 79
+source-count: 81
 open-commitments: 16
 ---
 
@@ -362,6 +362,10 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - **South Dakota.** She is on the design of Queen of Luxor Keno; South Dakota has no date, and she suggested perhaps a new Georgia NOVA release first (curved monitor, August) — [[wiki/projects/south-dakota-vlt-market.md]] (Oct 23).
 - **Nebraska** is the only project in production, scheduled to December 21 — [[wiki/projects/nebraska-skill-market.md]] (Oct 23).
 
+## Oct 30 2026 — "Should it be Nova release?"; the Colombia game list with Michael
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) she spoke once on the transcript, asking of the Colombia refresh "Should it be Nova release or?" — Val: "Nova, Nova, Nova." Michael said the Georgia V4 question was one "Lena and I had", and that for Colombia "from the perspective of Lena and I, we'll just come up with a list of games and we'll do the games" — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. The Colombia game-list commitment (with Michael) is counted on that decision page. She was present for the Class A party-time debate — [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Mode_Flag_and_Feature_Status_Rules-October-1-2026.md]]
 - [[raw/Meeting_Transcript_AI_PM_Architecture_and_Second_Brain_Plan-September-29-2026.md]]
@@ -444,3 +448,5 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

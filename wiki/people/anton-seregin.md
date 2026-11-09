@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 52
+source-count: 56
 open-commitments: 14
 ---
 
@@ -229,7 +229,23 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 
 ### Open commitments (Oct 30 2026)
 
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — mark the newly generated capabilities MVP-2 Transactional — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [x] [[wiki/people/anton-seregin.md|Anton Seregin]] — mark the newly generated capabilities MVP-2 Transactional — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] — *done Nov 2 2026: "в мвипи 2 перетаскивал" (the features moved into MVP 2)* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+
+## Nov 2 2026 — the Wi-Fi settings feature, the QR page, ADR 503; the features moved into MVP 2 but assigned to nobody; "one feature, one repository"
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]:
+- For the Wi-Fi settings he generated a feature ("Фильм", heard) for the location manager, and a page for the QR code — how it opens and what limits apply; he checked ADR 503 ("андер 503 закарил", heard) and moved the features into MVP 2 ("в мвипи 2 перетаскивал") [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. This discharges his Oct-30 commitment to mark the capabilities MVP-2 (the word "Transactional" is not repeated here) — see the Oct-30 line above.
+- Pavel asked him to review Pavel's Wi-Fi setup screens on the Flex IQ, done the week before in a branch, and say whether they match the team's idea [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- He raised that the features are "практически ни на кого не засанены" and asked for them to be shared out ("поберите 287", heard); Pavel set a separate MVP-2 grooming meeting at 3:00 PM that day [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- Chudinov objected to the number of features — "7 фич" for Wi-Fi and the location manager — preferring one feature with many stories; Seregin: "У нас есть стандарт на один фича, один депозитарий"; Pavel sided with not splitting inside one repository unless the testing differs; Chudinov will review and may clean up [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Nov-2 update).
+
+### Open commitments (Nov 2 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — review Pavel's Wi-Fi setup screens on the Flex IQ (in a branch) and say whether they match the team's understanding — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+
+## Nov 3 2026 — CF-8 and CF-9; a QR test page at several pixel densities
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] (Russian): "в процессе корифе 8 и 9" (heard; the notes read CF-8 and CF-9); he built a page of QR codes to run through the scanner, and will add codes matching "нашим контрактам" at different pixel densities, so different devices can be emulated [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -285,3 +301,7 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 - [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

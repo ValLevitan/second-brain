@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 11
 open-questions: 12
-source-count: 76
+source-count: 78
 ---
 
 # Nebraska skill-gaming market entry
@@ -493,6 +493,10 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 
 - **Done.** Leshkevich finished porting Sparkle Seven and fixed the requirements as agreed the day before. Igor asked whether he had put in the maths — "Да" — so Igor will rebuild [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]].
 
+## Oct 30 2026 — the dual box shows a 0 win until the pick; a new build is coming
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) [[wiki/people/michael-gottlieb.md|Michael]] refined the Oct-23 rule after what he saw in Georgia: on a winning spin "The reels are going to stop. The dual box is going to come up. The win is going to say 0 because you haven't won anything yet. And then when you press the correct coin, then we're going to rack" — and the bonus, too, triggers only after the correct pick. He told the developers on Oct 29 and expects a new build soon; he will play it to see if it feels right. Val asked whether showing 0 is a good thing; Michael: "Hundred percent, absolutely." — [[wiki/decisions/2026-10-23-nebraska-dual-box-comes-before-the-rack-and-reads-to-access-bonus-when-a-bonus-is-triggered.md]] (Oct-30 update) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+
 ## History
 
 - [x] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — add the Sparkle Seven maths from the Jackpot Rush Nebraska config — due Oct 27 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]] — *discharged Oct 28 2026: the port is finished and the maths is in* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
@@ -628,3 +632,5 @@ At the [[wiki/meetings/2026-10-28-daily-standup-flex-port-firmware-delivery-and-
 - [[raw/Meeting_Notes_Daily_Standup_Cashout_Merging_and_Remote_Updates-October-27-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

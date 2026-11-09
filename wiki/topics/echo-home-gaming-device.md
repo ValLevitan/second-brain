@@ -3,7 +3,7 @@ type: topic
 title: ECHO home gaming device and Amazon go-to-market
 date: 2025-02-01
 aliases: [Echo, ECHO, Echo home device, Amazon device, man-cave device, home solution, 149 games]
-source-count: 43
+source-count: 47
 open-commitments: 1
 open-questions: 4
 ---
@@ -365,6 +365,10 @@ Two short calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/fel
 - Does JVL's newest software (dual SAS, with the game changes) work on the Echo? Felipe: "this is something we would have to ask" — [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
 - Can JVL offer an Echo countertop with a bill acceptor and a printer in one enclosure, on TITO to a kiosk? — [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
 
+## Nov 2–3 2026 — a RIS build with the modem on the Echo; two SAS outputs, a bill validator and a printer to check
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]] said he built RIS with the modem and installed it on the Echo ("даже модем закинул. Распоставлено эхо"); [[wiki/people/irina-shishko.md|Irina]]: check that the games run, the printer works on the Echo, and the modem link ("тодем живой") [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. [[wiki/people/evgeny-kharetski.md|Kharetski]]'s modem capability for RIS is "для эхо" (Pavel) and stays under MVP 1 [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 2–3). At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] [[wiki/people/pavel.md|Pavel]] listed what to check on the Echo machine on hand: two SAS outputs ("2 саса выведены"), else bring them out; the "ситолтовский" bill validator (heard; "Боевой 50" — BV-50 per the notes — through an adapter); and a "Ген 2", "День 5" (heard) or Nanoptix ("ноктикс", heard) printer, to make sure protocol 2 still works; Ivan has an Epic 950 printing tickets and paying out; the customer wrote of an external printer, and for the Flex IQ JVL will use a TransAct printer in an external housing, so a printer in its own housing is likely here too [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. By context this is the bar-location trial above (**inference**; the customer is not named here). Ivan's commitments are on [[wiki/people/ivan.md]] (Nov 2, Nov 3).
+
 ## Sources
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
@@ -410,3 +414,7 @@ Two short calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/fel
 - [[raw/Meeting_Transcript_Felipe_Miranda_Countertop_Trial_Request_Echo_or_Flex_IQ-October-22-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Felipe_Miranda_Echo_Countertop_for_Bar_Location-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

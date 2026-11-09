@@ -3,10 +3,10 @@ type: decision
 title: Val's MVP 2 — no Flex Pay; Flex IQ, Wi-Fi configuration, remote update for the Flexports and Flex IQ, diagnostics, Galaxy transactional brought up to reporting and dashboards, and the location's bank shortfall paid by card with the operator as guarantor — Flex Pay is retagged MVP 3, and each MVP takes two to three weeks with testing alongside development
 date: 2026-10-15
 aliases: [MVP 2 scope Oct 15, no Flex Pay in MVP 2, Flex Pay to MVP 3, retag Flex Pay MVP 3, гвоздь программы это вай фай, Wi-Fi is the centrepiece of MVP 2, remote update of Flexports moves to MVP 2, Galaxy transactional reporting and dashboards, location shortfall paid by card, Stripe on the location page, operator as guarantor, two to three weeks per MVP, desirably two weeks, development in parallel with testing, Andrei writes only functional requirements]
-source-count: 9
+source-count: 11
 status: active — Val's view, subject to the final MVP 2 list he is polishing with Andrei (Klimovich, by context — inference); Oct 16 2026: Pavel reported MVP 2 as only Wi-Fi and remote port update through Flex IQ, with Flex Pay renamed MVP 3 — the width of MVP 2 is an open contradiction (see the Oct-16 update)
-open-commitments: 8
-open-questions: 2
+open-commitments: 9
+open-questions: 4
 ---
 
 # Val's MVP 2: Flex IQ, Wi-Fi, remote update, diagnostics, Galaxy reporting — Flex Pay moves to MVP 3
@@ -100,6 +100,25 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review Seregin's Wi-Fi list and start entering the capabilities and requirements — due Oct 29 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] — *Oct 29 2026 (10:32 AM): in progress — Seregin turned the Wi-Fi meetings into capabilities and requirements and they began to appear in Jira that day; Pavel had read one, on Flex IQ, and found it correct; the rest is still to be reviewed* — [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
 
+## Update, Nov 2 2026 — Pavel's MVP-2 list for the terminals; Seregin's features in MVP 2 with no owners; a grooming meeting at 3:00 PM; "one feature, one repository" against seven features; the two-UI merge and reverse SSH for a later release
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]:
+
+- **Pavel's MVP 2 for the terminals.** Remote port update through the Flex IQ ("ремонт апдейт портов через flex IQ", heard) — Chudinov: "это готово почти", Pavel: now mainly testing; Wi-Fi on the ports and the Flex IQ — "Тоже почти готово"; and the server side [[wiki/people/anton-seregin.md|Seregin]] worked out: the location manager sets the access-point password and generates a QR code, shown from a phone to the Flex IQ or the Flex-Ports so they join the network, the Flex IQ setting up the access point over LTE; all of it "на ближайшую неделю 2"; Wi-Fi to be added to the capabilities [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- **Seregin's features.** He generated the Wi-Fi settings feature for the location manager and the QR page, checked ADR 503 (heard) and moved the features into MVP 2; "они практически ни на кого не засанены" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- **A grooming meeting.** Pavel: "давайте сделаем просто отдельный митинг" — at 3:00 PM (Minsk) that day with Seregin, Chudinov, Tsymanov and Irina, not Biratka — to go through the unassigned "MVP 2 транзакшн" tasks, set dates and assign [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- **Seven features or one.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: no sense in many features in one repository — "лучше одну фичу и много сторей"; for Wi-Fi and the location manager Seregin "насоздавал 7 фич", each branch in small pieces, hard to check; Seregin: "У нас есть стандарт на один фича, один депозитарий"; [[wiki/people/pavel.md|Pavel]]: if several features under one capability do the same thing in one repository there is no point splitting, unless the testing differs or a feature spans repositories; Chudinov: "будем… пересматривать, может почистим" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- **For a later release.** Chudinov proposed merging the Flex IQ's two UIs (the working mode and the other mode) into one — the switch is a separate application with new web connections, slow on the board, and the tests stumble on it; Anton or Vladimir could look; "на следующий релиз" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. Reverse SSH ("обратно СССР") works in some form but not through AWS and only from one network; Pavel: the MS box cannot serve production — at 50–100 IQs go through AWS; for about 10 locations it will do [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. The weekend hang on a Flex IQ also goes to the next release [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+
+### Open commitments (Nov 2 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/anton-seregin.md|Anton Seregin]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]], [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]], [[wiki/people/irina-shishko.md|Irina Shishko]] — groom the MVP-2 Transactional features at 3:00 PM Minsk: assign owners, set dates — due Nov 2 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+
+### Open questions (Nov 2 2026)
+
+- Merge the Flex IQ's two UIs into one for the next release? Proposed by Chudinov, not decided — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- What logs must the Flex IQ keep so a hang like Saturday's can be traced? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
@@ -110,3 +129,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Minsk_Team_Reorganization_and_Staffing_Review-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]

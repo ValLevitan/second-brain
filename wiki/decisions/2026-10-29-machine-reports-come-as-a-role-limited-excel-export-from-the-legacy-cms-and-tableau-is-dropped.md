@@ -3,10 +3,10 @@ type: decision
 title: Machine reports come as a role-limited Excel export from the legacy CMS — by game, operator, jurisdiction and date, six months at most per export, each user seeing only their own region — not Tableau and not an MCP; Tableau is no longer maintained and its licence goes once the export ships; target November 7 (Val, Oct 29 2026)
 date: 2026-10-29
 aliases: [Tableau replaced by legacy CMS Excel export, Excel export from the legacy CMS, legacy CMS Excel export, табло не нужен, мне табло не нужен вообще, bury Tableau, drop the Tableau licence, six-month export limit, полгода максимум, role-based Excel export, game statistics export, account statistics export, Tableau reports fix incomplete and outdated data]
-source-count: 2
+source-count: 6
 status: active
 open-commitments: 4
-open-questions: 2
+open-questions: 3
 ---
 
 # Machine reports come as a role-limited Excel export from the legacy CMS; Tableau is dropped
@@ -54,7 +54,7 @@ A Russian working call on Oct 29 2026, 8:31 – 8:58 AM Eastern — [[wiki/meeti
 
 ## Open commitments
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — extend the legacy CMS export: a role-based Excel export of account statistics by game, operator, jurisdiction and date, six months at most, with each user's region limits — due Nov 7 2026 (start Mon Nov 2) — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — extend the legacy CMS export: a role-based Excel export of account statistics by game, operator, jurisdiction and date, six months at most, with each user's region limits — due Nov 7 2026 (start Mon Nov 2) — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] — *Nov 3 2026: "Отчёт сделал"; STG deploy today or tomorrow; prod waits on verifying Tsymanov's vacation-time work* — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — give Efim full access to all the data — due with the export — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — stop updating the Tableau reports and give up the licence once the Excel export is delivered (licence runs to May) — due after the export ships — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [ ] Owner not named — turn the meeting transcript into capabilities and tasks and open the project; Val said the AI project manager might do it ("у нас же есть этот как его пиям, может быть это сделает уже") — due unspecified — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] (see [[wiki/projects/ai-project-manager-and-company-second-brain.md]])
@@ -66,7 +66,20 @@ A Russian working call on Oct 29 2026, 8:31 – 8:58 AM Eastern — [[wiki/meeti
 
 **§15.8:** clear. **§15 #9:** clear.
 
+## Update, Nov 2–3 2026 — the report is built; the prod deploy waits on checking Tsymanov's vacation-time work; STG today or tomorrow
+
+- **Nov 2.** At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] [[wiki/people/dmitri-chudinov.md|Chudinov]] must hand over the legacy CMS report ("на легость с м с репорт", heard — read as CMS, **inference**) "как 1 часть" and wants to deploy it to prod; but [[wiki/people/sergey-tsymanov.md|Tsymanov]]'s tasks from Chudinov's vacation (RIS, passport, lease — as heard) were tested by [[wiki/people/ivan.md|Ivan]] on STG only, and nobody knows what was checked; Ivan and Chudinov talk on Wednesday; "В пятницу мне надо будет отчитываться, почему я это ещё не сделал" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- **Nov 3.** At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]]: "Отчёт сделал", plus a log analysis — the current logs break and do not save statistics; if a game is not found or a machine is not registered, the record goes to a separate table so transfer is not blocked; deploy to STG today or tomorrow; open: recheck the machine and its statistics first, or verify on production [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. [[wiki/people/pavel.md|Pavel]]: the legacy CMS's machine-state view, basic diagnostics and tilts should keep working for connected machines; Chudinov: if nothing broke — the current machines are far ahead of those the logic was built for [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+
+### Open questions (Nov 3 2026)
+
+- Recheck the machine and its statistics before the deploy, or verify on production? — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

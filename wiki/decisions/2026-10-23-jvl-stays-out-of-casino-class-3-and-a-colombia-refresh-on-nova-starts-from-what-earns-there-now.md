@@ -3,7 +3,7 @@ type: decision
 title: JVL stays out of casino ("regular") Class 3; a gentle Class 3 plan for the Colombia installed base on NOVA starts by asking what earns in Colombia now, not from an existing game (Oct 23 2026)
 date: 2026-10-23
 aliases: [Colombia Class 3, Class 3 for Colombia in Nova, regular Class 3 is suicide, the cow that keeps on giving milk, something for the end of 2027, what's making money right now in Colombia, Colombia installed base, Colombia questions, gently plan a class 3]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 2
@@ -38,6 +38,10 @@ Raised by [[wiki/people/val-levitan.md|Val Levitan]] at the end of the [[wiki/me
 - Rage is being closed: [[wiki/decisions/2026-09-17-no-more-games-on-rage-and-texas-is-built-on-nova.md]].
 - The NOVA game queue this would join: [[wiki/decisions/2026-10-23-class-a-is-the-first-nova-game-project-ahead-of-south-dakota-d27-and-val-keeps-that-priority.md]].
 
+## Oct 30 2026 — the deadline and the scope arrive; Martha named for the questions
+
+A week later, at the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]], Val dated the "end of 2027": "our contracts expire December… 2027. So the entire install base need to be refreshed." Scope: the updated Georgia games (Bison, wolves, lions) made into Class 3, "Minimum 6, maximum 12" games, on NOVA ("Nova, Nova, Nova"), for mostly horizontal dual-screen machines with V-decks; Efim: Colombia ran plain Class 3 maths. Michael has a list of Colombia's top-performing games (pub crawl popular; fruit games popular, which Val thinks has passed); Efim will re-pull the last six months. For market questions Val pointed Michael to "Martha" — a list of questions, then verification questions; she researches with casino operators and answers "factual… not an opinion." Record: [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. **Evolution:** "start from what earns there now" now has a method (Martha's operator research, Efim's data) and a product scope. The two Oct-23 commitments below stay open: the questions are not yet written, and the dialogue is to be a meeting with Martha.
+
 ## Open commitments
 
 - [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — write the questions for the Colombia contact (what earns, what players like, which competitor games) — due unspecified — [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
@@ -45,7 +49,7 @@ Raised by [[wiki/people/val-levitan.md|Val Levitan]] at the end of the [[wiki/me
 
 ## Open questions
 
-- Who is the "reliable person" who runs JVL's Colombia business (an engineer, "she")? — [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- Who is the "reliable person" who runs JVL's Colombia business (an engineer, "she")? — [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] — **Oct 30 2026:** for the same Colombia questions Val named "Martha" ("quite binary, like digital, very structured"), by context [[wiki/people/marta.md|Marta]]; that she is the Oct-23 "reliable person" is an **inference**, not stated — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - What is making money in Colombia now, and which JVL games are most popular there? — [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 
 **§15.8:** clear — market and product content only. **§15 #9:** none.
@@ -54,3 +58,5 @@ Raised by [[wiki/people/val-levitan.md|Val Levitan]] at the end of the [[wiki/me
 
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

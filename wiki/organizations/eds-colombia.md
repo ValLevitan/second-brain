@@ -3,7 +3,7 @@ type: organization
 title: EDS (Colombian gaming operation)
 date: 2025-03-29
 aliases: [EDS, EDS PAPS, PAPS, EDS Colombia, EDS USA]
-source-count: 9
+source-count: 11
 open-questions: 3
 disambiguation: "A Colombian gaming company/operation running JVL machines — 'EDS' now looks like the real corporate name, not a garble (Val dictates proposal language 'EDS is a Colombian company'). NOT the same as EDC (Export Development Canada, wiki/organizations/edc.md), whose page carries 'EDS' as a transcript-garble alias. Also distinct (pending owner ruling) from En Grande, Julian's Medellín Ruta operation (wiki/organizations/en-grande.md). Resolve by context: Canadian export financing → EDC; Ruta/Echo/Coljuegos/Medellín → En Grande; Eliana's company / Julian's retainer / Texas distributor → this page."
 ---
@@ -62,6 +62,10 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 
 At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-class-3.md|Oct-23 game-development meeting]] Val said JVL is "very well established in Columbia", its business there "ran by a very reliable individual", with an installed base "We haven't touched" — "that cow that keeps on giving milk" — that will be lost without "something for the end of 2027". The machines are first-version Flex, "our own machine by participating", to be upgraded on NOVA. First step: ask what is making money in Colombia now [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]. **The source does not name EDS, JVL Colombia SAS or the person**; whether this is the EDS operation is an **inference** queued for the owner. Record: [[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]].
 
+## Oct 30 2026 — "our contracts expire December 2027" (link to EDS is an inference)
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 game-development meeting]] Val dated the Colombia deadline: "our contracts expire December… 2027. So the entire install base need to be refreshed" — with 6 to 12 Class 3 games on NOVA made from the updated Georgia games, for mostly horizontal dual-screen machines; market questions go to "Martha" ([[wiki/people/marta.md|Marta]], inference) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. **The source does not name EDS**; as on Oct 23, whether these are the EDS contracts is an **inference** for the owner. (The Elevate financing on this page also ends December 31, 2027 — a coincidence of dates recorded, not analysed.) Record: [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]].
+
 ## Open questions
 
 - ~~Is "EDS" the operation's real name or a transcription artifact?~~ **Substantially answered by the Texas call:** Val fluently dictates "EDS is a Colombian company … EDS becomes a distributor … there could be an EDS USA" — strong evidence "EDS" is the real corporate name. Owner confirmation still queued (Tier A) because of the standing EDS→EDC garble alias. [[raw/meeting_with_julian_puerta_texas_eds.md]]
@@ -80,3 +84,5 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

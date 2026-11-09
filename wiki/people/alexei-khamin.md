@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 70
+source-count: 74
 open-commitments: 24
 ---
 
@@ -340,6 +340,10 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] (or Ivan) — recheck that the Flex-Port returns to idle after a machine reboot (reboot plus separate power to the port) — due Oct 30 2026 (the notes) — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
 
+## Nov 2–3 2026 — hardware autotests go on; two blockers cleared; the Flex-Port release "version 1"; waiting for the Flex IQ release action
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian; label "Alexey Khamin") the hardware autotests on the runner continue; two blockers from the day before were resolved that day "с Андреем с Димой" (which Andrei and Dima is not said); PR reviews go on [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. He asked whether the port update Tsymanov merged affects the release; Pavel: the remote update is not in it [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] the autotests continue; on the Flex-Port release — "Единичка версия релиза теперь" (heard: version 1 now) — and he waits for Chudinov on the Flex IQ release action, who "должен меня научить или как то сделать" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. On the one-button action he said rolling back to an older SDK version is not "прям популярный случай" — Pavel accepted — [[wiki/decisions/2026-10-30-the-default-ci-build-action-builds-with-default-parameters-for-its-target-environment-and-a-many-parameter-action-is-kept-for-claude-and-special-cases.md]] (Nov 2–3 update).
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -412,3 +416,7 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

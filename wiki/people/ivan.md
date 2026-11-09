@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 55
-open-commitments: 12
+source-count: 59
+open-commitments: 14
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -274,6 +274,22 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 
 At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] he said he built to check Pavel's installer changes and continues on RIS. Old RIS data are kept but cannot be applied, because the master controller does not know which to take; a short meeting at 12:40 follows — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 29).
 
+## Nov 2 2026 — a RIS build with the modem installed on the Echo; STG only, not prod; Wednesday with Chudinov
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]: "я продолжаю с рисом, я собрал билт, даже модем закинул. Распоставлено эхо" — a RIS build with the modem, installed on the Echo; Irina: check that the games run and the printer works on the Echo, and whether STG / RIS get through over the modem — "тодем живой"; otherwise the same as on an ordinary machine [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/topics/echo-home-gaming-device.md]] (Nov 2–3) · [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 2–3). On Chudinov's prod deploy: "прот не трогаю я только со стыгаю работаю" (prod untouched; STG only); he will check whether Tsymanov's work can go to prod — "Давай и в среду… поговорим более предметно" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/people/dmitri-chudinov.md]] (Nov 2), where the Wednesday commitment is tracked.
+
+### Open commitments (Nov 2 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — test the RIS build with the modem on the Echo: games, the printer, the modem link to STG — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+
+## Nov 3 2026 — what to check on the Echo: two SAS outputs, the bill validator, a Gen 2 / Nanoptix-class printer
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] Pavel listed the checks: that the Echo machine on hand has two SAS outputs ("2 саса выведены"), else bring them out; connect the "ситолтовский" bill validator (heard; "Боевой 50" — the notes: BV-50 — through an adapter, on the table at the end, rarely connected) and check it works; and connect a "Ген 2", "День 5" (heard) or "ноктикс" (Nanoptix, heard) printer at least, to make sure nothing broke in protocol 2 ("по 2 протоколу общения") [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. Ivan has an "Эпик 950" working — printed tickets, cash-out; Pavel: the customer wrote of an external printer, and for the Flex IQ JVL will use a TransAct printer in an external housing, so a printer in its own housing is likely here too; "Я проверю" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] — [[wiki/topics/echo-home-gaming-device.md]] (Nov 2–3). He asked about the handpay bug: seen in release 1? [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
+### Open commitments (Nov 3 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — on the Echo: confirm two SAS outputs, connect the bill validator ("BV-50" per the notes) through the adapter, and test a Gen 2 / Nanoptix-class printer on protocol 2 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -331,3 +347,7 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

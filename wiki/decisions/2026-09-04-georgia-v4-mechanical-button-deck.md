@@ -4,7 +4,7 @@ title: Georgia V4 direction — replace the V-deck with a mechanical button deck
 date: 2026-09-04
 aliases: [V4 direction, mechanical button deck, drop the V-deck, default to a dollar, bet up bet down on dashboard, dual box replaces nudge, V-deck is a piano, fifteen games on the selection screen]
 status: active
-source-count: 4
+source-count: 6
 open-commitments: 2
 open-questions: 3
 ---
@@ -73,8 +73,14 @@ At the [[wiki/meetings/2026-10-08-game-design-class-a-party-time-and-dual-box.md
 
 **Open question added (Oct 8):** Georgia 3-reel games — dual box or nudge? — [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 
+## Oct 30 2026 — Val withdraws the revenue theory; the on-screen bet arrows stay, for friction reasons; V4 confirmed
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English), in the Class A debate, Val said: "I think I steered you the wrong way to do the Aristocrat type of button" (Michael: "with the BEP [bet] levels") "…I think it's a mistake." Michael held the line — "50,000 Elvis fans can't be wrong… IGT Aristocrat and Light and Wonder are all doing the bet up and down on the screen" — and Val came round: "I think what we're doing is correct, and I steered you the wrong way." But he dropped the Sept-4 reasoning above: "I don't believe that this is what makes Aristocrat make money… I don't think that changing it specifically because our machine will be making more money." Michael agreed: "I'm just talking about the flow, reducing friction." The arguments that now carry the design are Michael's zero-out case (a Class A player with fractional credits left — "$1.75" — bets exactly that and clears out instead of cashing out) and "set it and forget it"; Val: "What is the compelling argument here is that set it and forget it." The 25-cent steps double Efim's maths and testing; Michael: "we'd put ourselves in harm's way if we don't do it for Class A." Val also said the release will exist: "no doubts that there will be another Georgia software. It must be," with "perceived persistence" games he calls "large format games." Records: [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]] · [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. **On the first open question above** (is the V-deck costing revenue?): still no data; the theory's author now doubts it. Left open.
+
 ## Sources
 - [[raw/Meeting_Notes_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Lucky_Coin_Service_Burden_and_Exclusive_Partnership-September-9-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

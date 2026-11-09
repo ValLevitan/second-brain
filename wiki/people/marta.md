@@ -3,7 +3,7 @@ type: person
 title: Marta (Automated Technologies)
 date: 2025-03-22
 aliases: [Marta, Martha]
-source-count: 5
+source-count: 7
 ---
 
 # Marta (Automated Technologies)
@@ -28,6 +28,10 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 
 At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] Val said "Марта смотрит только на колумбрю" and that Marta will want an Excel file; under the new legacy-CMS export she is to be limited to Colombia — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]]. That this is the same Marta is an **inference** from the Colombia scope.
 
+## Oct 30 2026 (2:00 PM, in absentia, inference) — the person to ask about the Colombia market
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 game-development meeting]] (English) Val told Michael Gottlieb, who wants market insight for the Colombia game refresh: "I would suggest having a meeting with Martha, but if you have a set of questions that you want her to answer… She is quite binary, like digital, very structured… Give her a list of questions, have her reply. Give her another list of verification questions. She will go research and she'll reply. Her answer will be factual based on the research. It will not be an opinion." She would take the questions to casino operators and report "I've collected replies from 5 casino operators." Michael will talk with her — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]] [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. No surname is spoken; the identification is by the Colombia context — **inference**. Whether she is the Oct-23 "reliable person" who runs JVL's Colombia business is likewise an inference ([[wiki/decisions/2026-10-23-jvl-stays-out-of-casino-class-3-and-a-colombia-refresh-on-nova-starts-from-what-earns-there-now.md]], open question). Personal matters not recorded.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
@@ -35,3 +39,5 @@ At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md
 - [[raw/julian _puerta_nebraska-march-29-2025.md]]
 - [[raw/tech_and_settings_issues-juan_martinez-april-3-2025.md]]
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

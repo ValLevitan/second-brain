@@ -4,8 +4,8 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 85
-open-commitments: 16
+source-count: 89
+open-commitments: 17
 open-questions: 3
 ---
 
@@ -392,6 +392,18 @@ At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md
 
 At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-merge-lock.md|Oct-30 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] he said Val's approval gave the Evgenys Jira access to FPORT only, as asked — not all projects. Pavel asked him to stop Yavorski merging into main in the Flex-Port repository while still letting him open pull requests; he thinks it possible and asked whether Alekseev too (no) — [[wiki/people/eugine-yavorski.md]] (Oct 30), where his commitment is tracked. He named the "PM agent" ("Пиамогент") as the one to create Leshkevich's task.
 
+## Nov 2 2026 — review what the agent produced over the weekend; Jira may be written in Russian or English
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] he asked the team to look at what accumulated over the weekend ("Уроки", heard; the notes: the agent's output) and to write any feedback on the agent — what is wrong, what to recommend [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. Chudinov asked that the agent not write Russian in task descriptions; Kovalchuk: "волн [Val — inference] одобрял у нас двуязычие"; Irina: she can write Russian or English; Chudinov and Pavel thought English was in the standard; Kovalchuk: nothing is written in the standards — long ago at a meeting with [[wiki/people/aaron.md|Aaron]] an auto-translator was set up and bilingual use agreed, "приветствуется английский, конечно" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. His closing line — "я конечно клоду напишу, чтоб вам на русском напишу" — is **unclear** [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+
+## Nov 3 2026 — everyone but Tsymanov and Kharetski must set an end date on tasks not in the backlog
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] (Russian): "вам всё нормально. Только нужно, чтобы Все Кроме сереги И женя посмотрели свои задачи и поставили дату окончания"; the picture "становится лучше"; only tasks not in the backlog count — "блок[лог] мы убрали из этого" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. (A per-person remark on who has most undated tasks is not recorded — §15.8.)
+
+### Open commitments (Nov 3 2026)
+
+- [ ] The team except [[wiki/people/sergey-tsymanov.md|Tsymanov]] and [[wiki/people/evgeny-kharetski.md|Kharetski]] (asked by [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]) — set an end date on every task not in the backlog — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -479,3 +491,7 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

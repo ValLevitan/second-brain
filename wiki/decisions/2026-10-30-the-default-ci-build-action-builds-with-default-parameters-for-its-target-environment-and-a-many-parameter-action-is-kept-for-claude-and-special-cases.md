@@ -3,10 +3,10 @@ type: decision
 title: The default CI build action, run with its default parameters, must build for its target environment — no study of the ~80 parameters; a separate many-parameter action may be kept for Claude and special cases; Chudinov gets a Jira task to revise CI/CD, including the branch-then-main version conflict (Pavel, Oct 30 2026)
 date: 2026-10-30
 aliases: [default CI build rule, default action with default parameters, экшн по умолчанию с параметрами по умолчанию, без танцев с бубнами, Flex IQ build fails, 80 build parameters, CI version conflict branch then main, CI/CD revision task for Chudinov]
-source-count: 2
+source-count: 6
 status: active
 open-commitments: 1
-open-questions: 1
+open-questions: 2
 ---
 
 # The default CI build action builds with default parameters; a many-parameter action stays for Claude
@@ -35,7 +35,7 @@ Set by [[wiki/people/pavel.md|Pavel Frolov]] at the [[wiki/meetings/2026-10-30-d
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create a Jira task for [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] to revise CI/CD: a simple default build, and the branch-then-main version conflict — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — create a Jira task for [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] to revise CI/CD: a simple default build, and the branch-then-main version conflict — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]] — *done Nov 2 2026: an AI-PM draft task exists ("это то, что лёша просил… heam freendle"); Pavel moves it to To Do, Chudinov sets the reporter (that this is the task — inference)* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 
 ## Open questions
 
@@ -43,7 +43,26 @@ Set by [[wiki/people/pavel.md|Pavel Frolov]] at the [[wiki/meetings/2026-10-30-d
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Update, Nov 2–3 2026 — the CI/CD task exists as an AI-PM draft; the Flex IQ release action builds the release and the SDK with one button, no SDK-version parameter for now
+
+- **Nov 2.** At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] Pavel asked Chudinov about a task drafted by the AI PM ("от II draft", heard); Chudinov: "это то, что лёша просил… heam freendle" (a human-friendly build — the notes' reading); Pavel: it is current, he moves it to To Do, and Chudinov adds the right reporter and sees what to correct [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. Read as the task in the commitment above (**inference**) — marked done.
+- **Nov 3.** At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] Chudinov took the Flex IQ CI/CD task ("вся айсидиев лекса i ko", heard). There is also an SDK release; a one-button action would have to run the SDK release too — check for commits since the last release, build, wait, release. Pavel: or pick a particular SDK release, not the latest; Chudinov: "опять начинаются создания полей… Давайте версию не будем указывать"; Pavel: as it stands "Без Клода невозможно разобраться"; Chudinov: if one button, then build everything "и там и там"; Pavel: "И там и там делаем [релиз] тогда и с д к делаем" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+- **The ruling.** Pavel would have liked one parameter — the SDK version: a ready, latest or specific one, or a rebuild; [[wiki/people/alexei-khamin.md|Khamin]]: rolling back to an SDK version is not "прям популярный случай"; Pavel: fine — releases will be made and "всё будет соответствовать версии с д к будет соответствовать версии флекса айкью"; "Может быть в будущем… Добавим функционалу, чтобы иметь возможность специфицировать, какой конкретно с д к брать" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. The notes record it as decided by Pavel, Chudinov and Khamin [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+- **Access.** Chudinov needs developer access so the Flex IQ repository can see the SDK repository and run its action; who grants it is not named [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+
+### Open commitments (Nov 3 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — build the one-button Flex IQ release action (release plus SDK) and get developer access to the SDK repository — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
+### Open questions (Nov 3 2026)
+
+- Who grants Chudinov developer access so the Flex IQ repository can run the SDK repository's action? — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

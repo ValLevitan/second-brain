@@ -3,8 +3,8 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 90
-open-questions: 7
+source-count: 92
+open-questions: 8
 ---
 
 # Business Central ERP implementation (JVL's Dynamics 365 rollout)
@@ -538,6 +538,14 @@ In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-proj
 
 **Evolution** from Oct 13 (reports only from MSBC, built by the consultant, linked into MCP by Nathan): MSBC stays the source and MCP the way in; the endpoint list now comes from the use cases. The notes record the same [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]].
 
+## Nov 3 2026 — the parts are imported from BC into the GitHub repository by category; cleaning MSBC afterwards is an open question
+
+At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md|Nov-3 2:50 PM call]] (Russian) [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[wiki/people/genadi-peari.md|Genadi]] told [[wiki/people/val-levitan.md|Val]] he is importing all parts from BC into the GitHub repository the team created — folders by category, each with its own rules "потому что дата контракс будут создаваться по категориям"; each part in a small subfolder with its data contract, readme and engineering information; done by the agent under written rules, including a rule for the part-number standard; some parts (a screw) carry only a description, others (a monitor) need a data contract [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. Val: with all the rules in place "любой экспорт он мгновенный"; he asked whether MSBC should then be cleaned and the parts loaded again from the new system; Genadi: not sure — the parts will live in GitHub, "Нам ничего больше делать не надо" [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]. Ruling context: [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]] (Nov-3 note) · [[wiki/decisions/2026-10-09-the-georgia-flex-pay-slim-bom-is-built-forward-from-genadis-github-source-by-agent-and-script-with-human-approval-by-end-of-october.md]].
+
+### Open questions (Nov 3 2026)
+
+- Once all parts live in GitHub, is MSBC cleaned and reloaded from GitHub, or left as it is? Val asked; Genadi was unsure — [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -631,3 +639,5 @@ In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-proj
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]

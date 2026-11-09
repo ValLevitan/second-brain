@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 86
+source-count: 88
 open-commitments: 11
 open-questions: 0
 ---
@@ -340,6 +340,16 @@ At the [[wiki/meetings/2026-10-27-daily-standup-cashout-merging-and-remote-updat
 
 At the [[wiki/meetings/2026-10-29-ai-game-design-assistant-review-one-knowledge-base-and-a-full-cycle-test.md|Oct-29 game design agent review]] [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]] Val asked how to get from Efim's maths to a description of a game's mechanics in prose; Igor thinks it is possible through the framework code and each game's maths settings, but RTP statistics cannot be rebuilt from bare maths. Igor and Pavel said they have never seen what is inside his Excel files — [[wiki/decisions/2026-10-18-evgeny-kharetski-owns-a-voice-ai-game-design-assistant-with-a-first-pass-reviewed-oct-25.md]] (Oct-29 update). Val wants his maths, "разобрана… В механику", in the game design agent's second brain — [[wiki/decisions/2026-10-29-the-company-second-brain-is-the-one-knowledge-source-for-all-ai-agents-with-access-limited-per-agent-and-the-game-design-agent-sees-game-knowledge-only.md]].
 
+## Oct 30 2026 (2:00 PM) — party time frequency "depends on your bet"; "We will not" cap the paytable; 25-cent steps double the maths
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]:
+
+- **Party time.** He explained that party-time frequency "depends on your bid, because the higher the bid, the more often it happens, because it's always $50… it's not scaled." His own view: a good game is possible on small bets, where the $50 cap does not bite, and party time "allows players who bet at least $2.00 to have a meaningful game." Once the bet-scaled model was agreed he listed the open maths: "$50 is natural cup… You artificially make a win of $10 exactly? Find the combinations that gives always $10 or…" — [[wiki/decisions/2026-10-30-class-a-party-time-scales-with-the-bet-as-a-low-level-mystery-progressive-no-paytable-cap-and-25-cent-bet-steps.md]]
+- **Paytable cap.** On the competitor's top award staying the same at higher bets: "We will not do it"; "we definitely will avoid capping the Paytable this way or that way." He cited older bet-level data "from Jacob from a few years ago": about 28–29% of money bet comes from $3–$5 bets.
+- **25-cent bet steps.** "I have twice as much work for 25 cents increment" — 10 maths instead of 5, more testing, "more ways to make a mistake"; but "I trust your vision" (to Michael).
+- **Colombia.** Colombia ran plain Class 3 maths, no denomination-specific maths. He collected the Colombia top-games data over two years and will re-pull the last six months ("I'll do it. No problem. Easy.") — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]]
+- His two commitments from this meeting (the Class A party-time maths; the six-month Colombia data) are counted on those decision pages.
+
 ## Oct 29 2026 (8:31 AM, in absentia) — full access to the new export; the person Felipe asks about the numbers
 
 At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md|Oct-29 Tableau call]] [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] Val named "Фима" among the users of the new legacy-CMS Excel export and said that if Felipe has questions on how to read the numbers he can go to "ефиму", who must get full access to everything ("Фима" / "ефиму" read as Efim Podvoiski, as the notes do [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]) — [[wiki/decisions/2026-10-29-machine-reports-come-as-a-role-limited-excel-export-from-the-legacy-cms-and-tableau-is-dropped.md]].
@@ -433,3 +443,5 @@ At the [[wiki/meetings/2026-10-29-tableau-replaced-by-legacy-cms-excel-export.md
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Second_Brain_Knowledge_Base-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

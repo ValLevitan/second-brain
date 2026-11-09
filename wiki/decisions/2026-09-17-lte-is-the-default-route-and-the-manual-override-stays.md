@@ -3,10 +3,10 @@ type: decision
 title: LTE is the default route and the manual override stays — automatic route priority waits for Wi-Fi in MVP 2
 date: 2026-09-17
 aliases: [requirement 1405, route priority, route metric, LTE first then LAN then Wi-Fi, metric zero, basement location, manual connection priority, admin settings connection priority, зачем это приоритезировать руками, в подвале где-то]
-source-count: 3
+source-count: 5
 status: active
 open-commitments: 0
-open-questions: 1
+open-questions: 2
 ---
 
 # LTE is the default route; the manual override stays, and automatic priority waits for Wi-Fi
@@ -54,8 +54,18 @@ This is a data point against the Sept-17 ruling above, not a reversal: LTE stays
 
 **§15.8:** clear — network configuration only; no named person's pay, rate or performance judgement appears. **§15.9:** no IP address, APN, credential or SIM identifier value was spoken; the discussion stays at the level of route metrics and interface names.
 
+## Note, Nov 3 2026 — the modem "connect to server" setting: Slava's full design or a limited one
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] said "слава" (not resolved — no Slava exists in the wiki) sent a document describing a concrete implementation: to untick "коннект к серверу" some access code ("актер код", heard) must be scanned to allow the operation, which drags in a great deal at once — the server must then issue permissions for all operations. He finds parts of it controversial and will discuss that day whether to do that implementation now or a limited one: the box always on by default when a modem is present, with the operator able to switch it off, perhaps through an extra confirmation screen. [[wiki/people/evgeny-kharetski.md|Kharetski]]: "Не было команды делать" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. By context this is the MVP-2 return to the connection setting ruled above (**inference**).
+
+### Open questions (Nov 3 2026)
+
+- Modem "connect to server": the full implementation (a scanned access code, server-issued permissions) or the limited one (on by default; operator switch-off with a confirmation screen)? Pavel to decide — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_SkillPay_Multi_Product_and_Device_Network_Security-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Reissue_and_Modem_Gateway-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

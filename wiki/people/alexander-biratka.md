@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 118
-open-commitments: 20
+source-count: 122
+open-commitments: 22
 open-questions: 0
 ---
 
@@ -480,6 +480,29 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 
 At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30 remote-update meeting]] (Russian; label "Alexander Biratko") he argued for delta updates — "2 килобайта или 2 гигабайта. Это большая разница" — asked why maths is not per game, and said adding or removing a game in LGS storage "сейчас просто нереализовано" [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He proposed keeping the last records in fast storage and moving them to the database when the machine is idle, and asked for requirements for an automatic self-check after an update, with roll-back if nothing is played [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. He raised that who runs the update (LGS or another app) is not decided. Pavel proposed he take how the LGS fits into remote update and NOVA; he did not confirm [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]] [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]. Details: [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]].
 
+## Nov 2 2026 — Flex-Port bugs fixed; the Omni-engine capabilities plus Anton's requirements; Yavorski's 30 tasks; the sound library belongs in the engine
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]:
+- Over the weekend he fixed Flex-Port bugs; the port is "в более менее релизном варианте" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- He went through all the capabilities written for the Omni engine and added the requirements Anton wrote and the team discussed for the new engine; they "больше… относятся к фреймворку, чем к движку"; the engine needs its own extra capabilities — renders, video rendering, images ("рендельс там видео рендерис, картинки") [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. Read as his share of the Oct-29 review of Daniil's capabilities (**inference**) — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov 2–3 note).
+- He partly took Tsymanov's port-firmware task; since the team is in release mode, the port goes out "Без этого изменения" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
+- He took the "30 тасков" Pavel moved from Yavorski ("С яворского"); about "80% будет закрыто" — most are already done and he will just move them to the right state; some bugs are real, some cannot be reproduced "потому что уже всё подругому" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/people/eugine-yavorski.md]] (Nov 2–3).
+- **Sound.** He had not talked to Vlad; Vlad "может даже и… не знать про это" and keep working with his tools — JVL just converts the format with "Маленький конвертер"; the library will most likely live in the engine, not the LGS, with the LGS driving it through an API (a websocket inside the app, so the LGS can play a sound in setup or change the volume); the consumer of sound is the engine; Daniil's work should be rewritten in Rust so everything is in one language [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]].
+
+### Open commitments (Nov 2 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — close, or move to the right state, the 30 tasks moved from Yavorski — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+
+## Nov 3 2026 — merging the waiting pull requests; SAS and printer-command bugs; the HFM tasks move to the Flex-Port project
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]:
+- He is working the tasks from Yavorski; "накопилось много полрекестов", which he will now merge little by little; the bugs found are rare cases, mostly SAS- and printer-command-related, which do not hurt the main flow but are worth fixing [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+- The tasks sit under the old project name — Pavel: "HFM". Pavel wants them moved so it stays clear which task they belonged to; Biratka asked whether HFM would be deleted (no) and feared "мой клод там… С ума сойдет скажет, я работал по задаче, она исчезла"; Pavel: the link survives and lands on the new task; he showed Move, picking the Flex-Port project ("флед спорта", heard) [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. New bugs he already files in FPORT ("спорт", heard) [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+
+### Open commitments (Nov 3 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — move the remaining HFM tasks to the Flex-Port project with Jira Move, and merge the waiting pull requests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -601,3 +624,7 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

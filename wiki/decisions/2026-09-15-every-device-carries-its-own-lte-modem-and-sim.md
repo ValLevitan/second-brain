@@ -3,10 +3,10 @@ type: decision
 title: Every device at a location carries its own LTE modem and SIM and is self-sufficient — the location router is not the shared modem — and Val asks the team to work out whether the spare modems can back each other up when Wi-Fi fails
 date: 2026-09-15
 aliases: [LTE modem per device, own SIM per device, no shared router modem, self-sufficient devices, modem failover map, mesh network, Wi-Fi resilience, two communication channels, каждое устройство свой модем]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 1
-open-questions: 1
+open-questions: 2
 ---
 
 # Every device carries its own LTE modem and SIM
@@ -54,8 +54,18 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 
 At the [[wiki/meetings/2026-10-16-daily-standup-mvp2-wi-fi-scope-and-modem-mac-rollback.md|Oct-16 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] said a Flex IQ commit that sets a MAC address on the modem at boot breaks the modem link and will be rolled back; all modems sharing one MAC address is "меньшее зло". [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] found that after a change of connection priority the modem comes up only after a reboot; Pavel: it needs a fix [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]. Detail: [[wiki/decisions/2026-10-16-the-flex-iq-commit-that-sets-the-modem-mac-at-boot-is-rolled-back-and-the-shared-mac-stays.md]]. The failover map below was not discussed.
 
+## Note, Nov 3 2026 — a Georgia location's SIM ran out of its 2 GB; Chudinov proposes a traffic-alert service
+
+At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-release-action.md|Nov-3 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]]: at the Georgia location "Баррихаузе" (heard; the notes: Barry House) the LTE showed connected while the terminal was offline; the SIM had used up its traffic — "2 гига". He proposed a separate service, even a board with alerts: traffic running out, money running out, SIM-to-terminal binding, traffic per device, and later a USSD command or SMS to the device — "у нас хватает всех данных" [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]. No owner was assigned [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]].
+
+### Open questions (Nov 3 2026)
+
+- Who builds the SIM traffic-alert service, and when? — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP2_WiFi_Scope_and_Modem_MAC_Rollback-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]

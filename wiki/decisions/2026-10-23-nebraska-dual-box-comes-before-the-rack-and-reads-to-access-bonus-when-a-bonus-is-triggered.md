@@ -3,9 +3,9 @@ type: decision
 title: Nebraska dual box — on a win the dual box comes up first and the rack follows the choice; when a bonus is triggered the box reads "to access bonus"; the same approach goes to Class A (Oct 23 2026)
 date: 2026-10-23
 aliases: [dual box rule, rack after the dual box, move the skill to the outcome of the spin, to access bonus, to access win, dual box before racking, Nebraska dual box behaviour, dual box requirements]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 2
+open-commitments: 3
 open-questions: 1
 ---
 
@@ -36,6 +36,12 @@ Lena: "Igor asked me if it's possible to write the requirements for the behavior
 - **Oct 8 2026** set where the box sits (lower, above the button panel, for Class A; Nebraska keeps its panel) and refused a smaller touch area for the wrong coin. Oct 23 changes **when** the box appears, not where. This is a new rule beside that one, not a reversal — [[wiki/decisions/2026-10-08-dual-box-for-nebraska-class-a-and-georgia-five-reel-and-no-smaller-touch-area-for-the-wrong-coin.md]] (Oct-23 update).
 - The Nebraska product is on [[wiki/projects/nebraska-skill-market.md]].
 
+## Oct 30 2026 — the win meter shows 0 until the pick; the bonus waits too; developers told Oct 29
+
+At the [[wiki/meetings/2026-10-30-game-development-class-a-party-time-and-colombia-refresh.md|Oct-30 2:00 PM game-development meeting]] (English) Michael refined the rule. Before: "on a winning spin, the reels would stop, the dual box would come up and we would show you how much you've won. We're not going to do that anymore." Now: "The reels are going to stop. The dual box is going to come up. The win is going to say 0 because you haven't won anything yet. And then when you press the correct coin, then we're going to rack." It "also works better with the bonus behavior of not triggering the bonus until after you pick the correct… Coin." He told the developers "yesterday" (Oct 29) and expects "a new build in the not too distant future"; he will "play the build and see if it feels right." Val asked whether showing a zero value is a good thing; Michael: "Hundred percent, absolutely… it's superior doing it the way that we've described." The old way was a leftover of the "wind meter thing" (heard; the win/skill meter) [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]. **Evolution** of the Oct-23 rule (box first, then rack); the Oct-23 build change below is in progress, not yet seen.
+
+- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — play the new Nebraska build with the changed dual box flow and check the feel — due when the build arrives — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+
 ## Open commitments
 
 - [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] / [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — write the requirements for the dual box behaviour (asked by Igor via Lena), once the final rule is agreed — due unspecified — [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]] [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
@@ -51,3 +57,5 @@ Lena: "Igor asked me if it's possible to write the requirements for the behavior
 
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]

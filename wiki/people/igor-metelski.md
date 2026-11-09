@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 64
+source-count: 66
 open-commitments: 31
 open-questions: 1
 ---
@@ -310,6 +310,10 @@ At the [[wiki/meetings/2026-10-29-new-game-engine-requirements-and-spikes.md|noo
 
 At the [[wiki/meetings/2026-10-30-ai-competitor-game-teardown-and-mechanics-library.md|Oct-30 teardown review]] (Russian) [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] he said that from a written-up mechanic the team could build a working bonus with placeholder scenes, define the code contracts, and learn what the maths must provide — [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]]. He described the new framework as separate pluggable modules — engine, framework, games and bonuses — bound only by the framework's contracts, so new bonuses need no framework change; where a bonus's resources live is left for later — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Oct-30 teardown note). Val gave him the addition to the engine requirements list (requirements, not architecture), and first named him for writing up the mechanics of JVL's newer games; that owner is not settled — both commitments are tracked on those decision pages. He also said JVL's maths tests start "От 4 миллионов" games [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]].
 
+## Nov 2 2026 — resources into NOVA 2; a bonus page from Kharetski's video breakdown; shader-background tests prepared
+
+At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]: "по наду 2 вставляю ресурсы" (heard; the notes read NOVA 2); "по жениному разбору видео сделал бонус пейдже" — a bonus page from Kharetski's video breakdown; and he is preparing repositories to test the shader backgrounds on the machine [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] — the Oct-29 shaders-vs-video spike is not yet reported; see [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov 2–3 note).
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -376,3 +380,5 @@ At the [[wiki/meetings/2026-10-30-ai-competitor-game-teardown-and-mechanics-libr
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
 - [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
