@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 148
+source-count: 151
 open-commitments: 60
 ---
 
@@ -720,6 +720,10 @@ At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — keep building the rules so the import of the BC parts into the GitHub repository by category runs automatically — due unspecified — [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]] [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
 
+## Nov 5 2026 (in absentia) — Wi-Fi antennas for every new Flex IQ, and where they mount inside the case: Klimovich is to email him and assign the task, Val in copy
+
+At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian; he was not present) [[wiki/people/pavel.md|Pavel]]: the IQ has the Wi-Fi hardware, but "нам надо для всех новых IQ. Заказать и продумать нужны вай фай антенны. И придумать, куда они там крепятся внутри корпуса"; [[wiki/people/val-levitan.md|Val]]: "как заключение этого митинга нужно отослаться ими ал [email] геннадию и асаин этот таск тебе"; [[wiki/people/andrei-klimovich.md|Klimovich]]: "я сделаю с вами в копии" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — the commitment (Klimovich's) is on [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]]. Compare the Nov-4 stand-up's "antennas from the old media boxes" idea on [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Nov-4 update). At the same morning's stand-up Pavel also put an LTE modem with antenna and a Wi-Fi antenna on Leshkevich's test-board hardware list for purchasing — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -870,3 +874,6 @@ At the [[wiki/meetings/2026-11-03-genadi-peari-parts-export-from-bc-to-github.md
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The urgent RIS changes (CAP-252, 255, 246, 254) are built for Georgia only, on the 1.14 SVN line, with nothing else added — Kharetski does them before his own work, and the statistics carousel is dropped for this branch
 date: 2026-10-06
 aliases: [RIS Georgia branch, Georgia only 1.14 branch, 1.14 plus these changes and nothing else, continuation of Peach 3, carousel for Liza dropped, карусель для лизы, statistics only when scanned, срочные задачи о доработке рис и паспорта]
-source-count: 13
+source-count: 15
 status: active
 open-commitments: 5
 open-questions: 1
@@ -96,6 +96,10 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - **The separate meeting.** Pavel spoke of a two-hour meeting the day before with Sergey, Dima and Ira, scheduled at 4:30 — read as the Oct-13 "after lunch" meeting (**inference**). Tsymanov: after "последних нашего обсуждения" a plan for building his task (heard as "бип 35 22") must be discussed. The meeting itself is not in the corpus.
 - **1241** is not mentioned; the Oct-12 commitment stays open.
 
+## Update, Nov 5 2026 (12:03 PM) — Val: the release goes to the market free with the games and framework untouched; the same Peach packages, only the RIS and the setup screens change; 1.14 installs update in place with the new DC, the old 1.17.76 / 1.20-line installs need a full reinstall; two more items join the branch
+
+At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) [[wiki/people/val-levitan.md|Val]]: "Мы хотим этот эти импругменс дать за бесплатно. Но не меняя в софтер… не меняя игры… На на тот же пакет игр в том же состоянии, как он стоит на рынке"; [[wiki/people/irina-shishko.md|Irina]]: "печь один поменять на пичь один новый пичь 2, напичь 2 новый печь 3 напичь 3 новый… мы во фреймворке ничего не трогаем в играх ничего не трогаем… сами экраны в сетапе есть изменения"; [[wiki/people/pavel.md|Pavel]]: the revision "будет последняя в любом случае" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. Which installs can take it: Irina — "Мы говорили только про день 14 версии, что один 14 на один 14. Только с новым DC. А один 17, 76 это 1201 там 7 ну или там 1217 это их только через полную реинсталляцию… эти версия мы уже 5 лет" (the notes: 1.14 updates in place with the new DC; 1.17.76 and 1.20/1.21 need a full reinstall) [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]] [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. The "nothing else added" of this page now admits two more items by Val's ruling: the Georgia tilt/handpay fix and the modem always-on-with-disable-routine — [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]], [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] — **evolution** of the scope, not of the Georgia-only 1.14 base. Build to Eclipse November 16.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -111,3 +115,5 @@ At the [[wiki/meetings/2026-10-14-daily-standup-mvp1-extension-and-rk3576-game-l
 - [[raw/Meeting_Notes_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Video_Decode_Memory_and_Release_Task_Type-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]

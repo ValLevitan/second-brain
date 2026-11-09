@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 63
-open-commitments: 14
+source-count: 67
+open-commitments: 16
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -296,6 +296,19 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (he was not present) Val named him the release manager, reporting to Irina — "Релиз менеджер у нас подчиняется Ирине… Толкнуть Ивана на релиз" — whose job is the Claude-written release notes, the compliance and exception reports and moving the capabilities to Closed [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. This confirms, for the transactional release, the release-manager role he was given in the GitHub pipeline in Oct 2025 (above) — **evolution**. The commitment is tracked on [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]].
 
+## Nov 5 2026 — the Georgia field bug reproduced: handpay pending raises SAS exception 51, the host never sends 94 or 1B, so the signature cannot be computed; only that case is confirmed to block counting; "we already have five separate meetings"
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian; label "Ivan Shpak"; hard to hear at first): "повторили бак и с Ириной. То, что они в полях, скорее всего, получают то, что у них лонгпол 51… нету ответа он не снимается. И поэтому нельзя сигнатуру снять… Это должен хост слать либо 94, либо. Один б, чтобы снялся… escon 51 и тогда не будет этих ошибок. Не знаю, как это донести до интермота [heard]"; the entry point is a tilt dialog's Collect — "цеполог, к примеру, перегрелся" (CPU overheat, reproduced with Irina); forbidding Collect by setup would remove it on the V-deck too ("она на ведейке тоже пропадёт"); on checksums: "единственное, что проверено это если хэндпэй пендинг идёт у нас 51 эксепшн, то она не даёт посчитать. Во всех остальных случаях… оно давал… посчитать. Я пока не берусь делать утверждение"; to Chudinov's "separate meeting": "У нас уже 5 отдельных митингов на это на всё" — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 5), [[wiki/organizations/intralot.md]] (Nov 5) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. This closes his Nov-4 "cannot reproduce the field case yet" — reproduced (**evolution**); the fix went to a separate meeting with Kharetski and Irina. His opening "я отвечаю вал" (heard) is **unclear**. He was not at the scope review; the MVP 1 release he is to manage is now planned for Monday — [[wiki/decisions/2026-11-05-mvp-1-is-planned-for-monday-november-9-internally-and-the-client-is-told-wednesday-and-the-pyramid-bill-acceptor-is-tested-remotely-on-an-echo-cabinet-in-georgia.md]].
+
+## Nov 6 2026 — RIS and CMS review with Kharetski goes on; today he checks that the RIS is saved when Georgia machines run different software ("critical", never verified); Kharetski wrote that exception 51 is fixed, so he rebuilds his own machine to verify it, not the vertical one that carries the port
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian; label "Ivan Shpak") [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "Рис ц м с дальше смотрю то, что вот с Женей мы работаем всё ещё дальше, досматриваем. Я постараюсь сегодня, наверное, сразу же глянуть… если были разные у нас? Софты в пределах там ну джорджии раньше у нас рис не сохранялся и потом чтото сделал вроде должно сохраняться, но я до сих пор не проверил. Я проверю, потому что это критично. Женя мне ещё написал, что лонгпол 51, точнее esco 1 он тоже починил… проверю на своей же здесь этой машине просто пересоберу. Просто что не буду вертикально свою трогать, потому что там порт стоит" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 6), [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]] (the Nov-5 ruling he was not at; its commitment annotated). "Великолепно наконецто на стран тухри" (heard) at his opening is **unclear**. The Nov-4 "one more bug after Kharetski's fix" and the SAS tool were not mentioned.
+
+### Open commitments (Nov 6 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — verify that the RIS is saved when Georgia machines run different software (the earlier fix was never checked) — due Nov 6 2026 — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — rebuild his own machine and verify Kharetski's exception-51 fix — due Nov 6 2026 — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -361,3 +374,7 @@ At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilo
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

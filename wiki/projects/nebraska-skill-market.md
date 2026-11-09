@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 11
 open-questions: 12
-source-count: 84
+source-count: 86
 ---
 
 # Nebraska skill-gaming market entry
@@ -565,6 +565,10 @@ Two calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-mi
 - **Trade-ins as Nebraska supply.** On the morning call Felipe told the same operator's Ashley the IGT trade-in "is good for him, not only for… the brand new games here, but for Nebraska. Because remember, we have the opportunity to move in games to Nebraska. So even if he goes with refurbished, you know, we could work something out even better" — the Oct-14 plan to "package the deal and send them to South Dakota or to Nebraska", now put to a customer ([[wiki/decisions/2026-10-14-november-and-december-sales-go-to-trade-ins-a-6500-credit-for-jvl-machines-and-banilla-and-igt-machines-for-texas.md]]) [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
 - *The Feb-2026 Inamax Nebraska-trial items on [[wiki/organizations/inamax-ultra.md]] stay open; Nov 4 shows no trial took place ("never tried our games in Nebraska").*
 
+## Nov 5 2026 — Metelski profiles Nebraska 2 and removes invisible animations; GCM3 loses a little video performance; Leshkevich keeps feeding Nebraska resources
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 Minsk stand-up]] (Russian; Val absent) [[wiki/people/igor-metelski.md|Metelski]]: "по ндраски 2 сделал профилировку поубирал несколько невидимых анимаций, которые производились. Одна проблема, что по ходу у нас в г к м 3 это тоже уехало… чуть чуть потеряли в перформансе"; the designer had copied a video animation onto something ("пикмеш", heard) — not critical, "просто чуть чуть потеряли перформанс"; Pavel: "Будем иметь ввиду", and asked whether the products being re-issued with RIS could suffer the same — Metelski: the problem was specific to Nebraska; the GCM3 set is fine for the re-issue. He keeps adding resources as they arrive. [[wiki/people/anton-leshkevich.md|Leshkevich]]: besides the engine prototype, "занимаюсь дебраской [Nebraska] простой ресурсы обновляю, когда их присылают" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. "Nebraska 2" is NAD 2 by context (**inference**; see the Nov-4 entry above).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
@@ -652,3 +656,5 @@ Two calls between [[wiki/people/val-levitan.md|Val]] and [[wiki/people/felipe-mi
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]

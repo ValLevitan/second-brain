@@ -3,9 +3,9 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 21
+source-count: 27
 open-commitments: 6
-open-questions: 5
+open-questions: 4
 ---
 
 # Intralot
@@ -145,9 +145,19 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - Why do JVL machines lock — a site-controller signal, a timing issue, or the machine itself? Val: "**I don't know whether my machine locks up on its own or whether your controller sends a signal to lock it up**" — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - JVL says many cases, Intralot sees two or three. Is the gap because Intralot does not see the lockout? Chris: "**it's more than what is reported… to us**" — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]]
 - Will JVL and Intralot partner on routes — which states, revenue share, cap or equity, and when? Nothing is signed — [[raw/Meeting_Transcript_Intralot_Machine_Lockouts_Test_Lab_and_Route_Partnership-October-13-2026.md]] (Oct 13 evening: JVL is named as a potential partner in Christos's internal plan; he expects three to four months to finalize; still nothing signed [[raw/Meeting_Transcript_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]] [[raw/Meeting_Notes_Intralot_Christos_Tzoumaras_Dinner_Route_Partnership_and_Repair_Depot-October-13-2026.md]])
-- What is wrong on the Georgia machines in the Oct-23 email? SAS 21 answers fast, so the two-minute checksum theory does not fit — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- ~~What is wrong on the Georgia machines in the Oct-23 email? SAS 21 answers fast, so the two-minute checksum theory does not fit~~ — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]] — **ANSWERED Nov 5 2026 (by the same symptoms — checksum and handpay — an inference that it is the same case):** the machine is stuck in a false handpay, sending exception 51 for hours; the host's next-morning checksum command gets no reply; not a slow checksum but an unanswered one — see the Nov-5 12:03 PM section below [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 
 **§15.8:** clear — company and market figures only; no named-person compensation. **Personal matters:** not recorded. Gossip about a third party's finances was not recorded.
+
+## Nov 5 2026 — the host never clears a handpay: SAS exception 51 stays pending, so the signature cannot be computed and the machine is blocked
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 Minsk stand-up]] (Russian; Val absent) [[wiki/people/ivan.md|Ivan]] reproduced the Georgia field bug with Kharetski and Irina: "То, что они в полях, скорее всего, получают то, что у них лонгпол 51… нету ответа он не снимается. И поэтому нельзя сигнатуру снять… Это должен хост слать либо 94, либо. Один б, чтобы снялся… escon 51 и тогда не будет этих ошибок. Не знаю, как это донести до интермота [heard]"; [[wiki/people/pavel.md|Pavel]]: "Энтрод [heard] такого никогда слать не будет" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. The notes read the host as Intralot [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] — by the Georgia central-system context this page (**inference**). The handpay is reached from critical-tilt dialogs that still show a Collect button; the fix options were taken to a separate meeting — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 5). Compare the Oct-13 machine lockouts above.
+
+## Nov 5 2026 (12:03 PM) — confirmed from Sebastian's logs: the host's next-morning checksum command goes unanswered because the machine is still waiting on its own exception-51 poll; the fix is on JVL's side
+
+At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian; Val, Pavel, Irina) [[wiki/people/pavel.md|Pavel]]: "машины… Блокируется интро лотом… логи собирал Себастьян… предположение, что ошибочно срабатывает состояние хендпей. Которая… не даёт посчитать контрольную сумму… оно подтвердилось"; and how the block happens: "мы в какой то момент выставили 51 запрос лонгпул и продолжаем так часами, а они, например, на следующее утро. Присылают команду, по считай нам контрольную сумму мы должны свериться. Они присылают эту команду, а мы на неё не отвечаем, потому что мы заняты ещё всё тем же ожиданием ответа на лонгпул" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. [[wiki/people/irina-shishko.md|Irina]]: "Интролод ждёт просто сумму от нас. Мы не отвечаем"; the Georgia host has no long poll 1B or 94 "потому что у них не должно быть хэтпэй" — a centre-type host (Florida, South Dakota) would clear it [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. [[wiki/people/val-levitan.md|Val]] first read it as "Интерлот убивает машину" — Pavel and Irina: "Они просто не отвечают, они не отвечают на тот запрос, который машина посылает" — the host does nothing wrong; JVL's machine stops answering [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. Fix and release: [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]] (to Eclipse November 16, market about November 20). The notes record the cause as "Georgia machines blocked by Intralot — root cause confirmed" [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. Whether Intralot's Bill ever came back on the Oct-13 case (commitment above) is still not in the sources.
+
+**Nov 6 2026.** At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] [[wiki/people/ivan.md|Ivan]]: "Женя мне ещё написал, что лонгпол 51, точнее esco 1 он тоже починил"; Ivan will rebuild his machine to verify, and still does not know "как это донести до интермота" (Nov 5) — no contact with Intralot about the cause is recorded [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]].
 
 ## Sources
 
@@ -172,3 +182,9 @@ At the [[wiki/meetings/2026-10-23-daily-standup-bill-validator-lockout-and-atlan
 - [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

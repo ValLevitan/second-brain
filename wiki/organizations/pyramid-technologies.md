@@ -3,7 +3,7 @@ type: organization
 title: Pyramid Technologies (ticket printers and acceptors)
 date: 2026-01-08
 aliases: [Pyramid, Pyramid Technologies, Pyramid printer, pyramid printers, пирамид принтер, пирамидовские принтеры]
-source-count: 9
+source-count: 13
 open-commitments: 4
 open-questions: 2
 ---
@@ -57,6 +57,12 @@ Stub: [[wiki/meetings/2026-01-22-pyramid-tomislav-jeras-nda-scope-qr-prior-art.m
 - **Feb 25 2026** — Val describes the Texas scheme (Pyramid printer in the machines, Fujitsu in the kiosk) and refuses the broad agreement and the Pyramid "monopoly" it would bring. *(Five weeks after the Jan-22 call where he said he would sign a narrowed NDA — a change of stance over time, not a contradiction; no source in this wiki yet shows what Pyramid's legal team sent back.)* See [[wiki/topics/flexpay-business-architecture-payout-devices.md]]. [[raw/Call_Genadi_Peari-February-25-2026.md]]
 - **May 13 2026** — the IP 1007 dispenser's printer technology moves from Pyramid printers to Flex Port + Telekt. See [[wiki/projects/georgia-market-rollout.md]]. [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
 
+## Nov 5 2026 — a Pyramid bill acceptor for the Echo, tested remotely on a cabinet set up in Georgia
+
+At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian) [[wiki/people/pavel.md|Pavel]] raised "билаксептер пирамид": the capability and requirements are written and assigned ("назначил на Алексеева", heard — [[wiki/people/evgeniy-alekseev.md|Alekseev]] by the surname form and the hardware context, **inference**; the notes read "Alexey"), but rather than ship hardware to Minsk, "отправиться в Джорджия, поднять там кабинет эхо, подключить его удалённо в нашу сеть"; [[wiki/people/val-levitan.md|Val]] agreed and asked for as few subcontractor hands as possible; someone local inserts a bill or a ticket about once a week [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — [[wiki/decisions/2026-11-05-mvp-1-is-planned-for-monday-november-9-internally-and-the-client-is-told-wednesday-and-the-pyramid-bill-acceptor-is-tested-remotely-on-an-echo-cabinet-in-georgia.md]]. This follows the Feb-12 pointer above (Pyramid's acceptor reads barcode tickets) and the Nov-4 Echo pause for want of a ticket-reading acceptor — [[wiki/topics/echo-home-gaming-device.md]] (Nov 5). Which Pyramid acceptor model, and whether the NDA question above was ever settled, is not said.
+
+**Nov 5 2026 (12:03 PM) — the test moves to February.** At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) [[wiki/people/pavel.md|Pavel]]: "если мы к этому числу получим билаксептер, подключенный в джорджии. И мы сможем протестировать… лучше это сразу в этот релиз" — the RIS improvements release due at Eclipse on November 16; [[wiki/people/val-levitan.md|Val]]: do not hold the release for it; the Echo is not needed before February 1 and "Класс эй более важен. Чем? Протестировать один контр [heard]… я передвигаю на февраль месяц" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. The notes read it as the bill-acceptor test moved to February [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. That this acceptor is the Pyramid of the morning's plan is an **inference** (Pyramid is not named on this call) — [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]], [[wiki/topics/echo-home-gaming-device.md]] (Nov 5, 12:03 PM).
+
 ## Open commitments
 
 - [ ] Pyramid (Kerry, per the notes) — send the printer's mechanical CAD file to Genadi Peari — due unspecified — [[raw/Meeting_Transcript_Pyramid_Technologies_Printer_Integration_Intro-January-8-2026.md]]
@@ -80,3 +86,7 @@ Stub: [[wiki/meetings/2026-01-22-pyramid-tomislav-jeras-nda-scope-qr-prior-art.m
 - [[raw/Call_Genadi_Peari-February-25-2026.md]]
 - [[raw/Meeting_Notes_Schedule_Review-May-13-2026.md]]
 - [[raw/Meeting_Transcript_Rich_Winley_Miami_Lunch_Texas_Distribution_Pitch-January-8-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]

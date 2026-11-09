@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 77
+source-count: 81
 open-commitments: 6
 open-questions: 0
 ---
@@ -251,6 +251,14 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — send his comments on the first version of the new Nebraska game; have the editor prototype roughly working; connect the boards — due Nov 6 2026 ("к концу недели") — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — "when do we meet next?"; he will have the engine capability list, a block diagram and a demo of the prototype ready for tomorrow; Nebraska resources on the side; his Claude-written hardware list for the boards, reviewed by Pavel
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]: "я тоже хотел спросить, когда мы в следующий раз встретимся?… Я пока ничего не стою" (heard); asked whether he has an architecture in mind — "Ну да она Да да"; to Pavel's ask: "я тогда к завтра приготовлю, пи побила здесь [capabilities] и блок схемы, и и демонстрацию Того, что есть уже". Besides the prototype he updates Nebraska resources as they arrive. He had emailed a list of extra hardware "чтобы платы гонять" — "Не спрашивайте это клод писал" — and after Pavel's review: "я обновлю список и отправлю фолового письмо" — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note), where both commitments are tracked. His Nov-4 undertakings (editor prototype by the end of the week; connect the boards; Nebraska comments) were not reported on and stay open.
+
+## Nov 6 2026 — the prototype plays the scenario end to end: a studio agent takes a Jira ticket, pulls the resources and adds a new game to the platform; a status video sent; refactoring and bug fixes until the meeting
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian): "Я продолжаю всем прототип поработать. Я вчера значит, достиг определённой точки, где проигрывается следующий сценарий. В общем, дают агенты студии, он берёт джир этикет, берёт оттуда ресурсы и добавляет новую игру автоматически в в платформу. Я я отправлял видео с статусом… И пока до митинга я занимаюсь рефактурингом бат фиксом и просто работа на отдельными частями" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-6 note), where his Nov-5 commitment (capability list, block diagram, demo "к завтра") is annotated: the demo exists as a video; the list and diagram were not mentioned; the review meeting is not in the sources. Who received the video is not said.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -331,3 +339,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

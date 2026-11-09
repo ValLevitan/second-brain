@@ -3,7 +3,7 @@ type: organization
 title: Eclipse (gaming test lab)
 date: 2025-03-14
 aliases: [Eclipse, Eclipse Compliance Testing, Eclipse lab, клипс, клипсе, always wanted a local box for the electronics, Nebraska parameters, Xlibs, эклипс, a week for Eclipse to issue certificates, only the machine]
-source-count: 19
+source-count: 21
 open-commitments: 2
 open-questions: 1
 ---
@@ -122,6 +122,10 @@ At the [[wiki/meetings/2026-10-02-daily-standup-sas-log-collection-policy-and-ne
 
 At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RIS MVP 2 call]] Felipe planned the lab step for RIS MVP 2: "November 1st, we finished, then we send to Eclipse one more week, five days. So the release would be like November 9th, 10th." Paying the lab for an MVP 1 build first is part of why he prefers to wait for MVP 2 ("paying the lab and getting this new build") [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]. See [[wiki/topics/ris-remote-install-and-machine-states.md]] (Oct 12).
 
+## Nov 5 2026 — the RIS improvements build goes to Eclipse on November 16; the market gets it about November 20
+
+At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) [[wiki/people/val-levitan.md|Val]]: "давайте мы будем планировать. 15 ноября… чтобы сдать в эклипс"; [[wiki/people/irina-shishko.md|Irina]]: "16 15 воскресенье"; Val: "16 ноября, чтобы сдать эклипс, тогда и клип сделает приблизительно провод гдето за 16:00 [heard] это 20 ноября мы можем рассчитывать, что это будет. Доступно для рынка" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. The notes read the lab's turnaround as "about 4 days" [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. The build is the Georgia RIS improvements release with the tilt/handpay fix and the modem routine; Irina also noted the Echo "нужен сертифицированный билд", so it should ride this certification, and Val put the Echo off to February — [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]], where the hand-over commitment (Pavel and Irina, Nov 16) is tracked. This replaces the Oct-12 "five days… November 9th, 10th" timeline above — **evolution**.
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
@@ -143,3 +147,5 @@ At the [[wiki/meetings/2026-10-12-ris-mvp2-scope-and-release-timing.md|Oct-12 RI
 - [[raw/Meeting_Transcript_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 - [[raw/Meeting_Notes_Eclipse_Nick_Farley_South_Dakota_VLT_Answer-September-23-2026.md]]
 - [[raw/Meeting_Transcript_RIS_MVP2_Scope_and_Release_Timing-October-12-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]

@@ -1,0 +1,60 @@
+---
+type: decision
+title: Releases of the server applications and the optimisation of the logs going to Grafana are not added to MVP 1 — both become MVP 2 features, after Chudinov's accounting host; the programmer firmware package for the Flex-Port is the .hex main application plus the STLDR helper, no .bin; and any stand-up question that takes more than half a minute goes to a separate meeting (Pavel, Nov 5 2026)
+date: 2026-11-05
+aliases: [server releases not MVP 1, релиз серверных приложений, log optimisation MVP 2, оптимизация логов в графану, accounting host first, аккаунтинг хост, programmer package hex plus STLDR, хекс и с т л д р, бин не нужен, manual flash folder, half a minute rule, больше чем полминуты выносим в отдельный митинг, three follow-up meetings with Zhenya, no task with a red build, красненький кружок не надо закрывать, rerun the workflow with the same name]
+source-count: 5
+status: active
+open-commitments: 4
+open-questions: 0
+---
+
+# Server releases and log optimisation are MVP 2, after the accounting host; the programmer package is .hex + STLDR; the half-minute rule (Nov 5 2026)
+
+Ruled by [[wiki/people/pavel.md|Pavel Frolov]] at the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov 5 2026 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+
+*(Quotes come from an unpunctuated Russian speech-to-text transcript, kept word for word.)*
+
+## Server releases and logs — not MVP 1
+
+- [[wiki/people/dmitri-chudinov.md|Chudinov]]: since MVP 1 is put back, "Как я вчера говорил, можно сделать попробовать 2 задачи… Логи. Пересмотреть, может, есть ещё оптимизировать?… и сделать релиз для всех сервиных приложений." He pressed: "ты считаешь, что мы формально сервера не зарезали [released], они просто за дипломи [deployed]. Если вам завтра на какомнибудь спросить, а мы зарелизили и серверное приложение"; and: "У нас в м в п один условно там полсотника по убили и условно сотня фич так. Эти все фичи на 20 репозитория. Флекс спорт, флекс IQ… серверный репозитарий. Почему мы зарелизили только 2 и не зарелизили все остальные?" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+- Pavel: "Нет я я за то, чтобы это в MVP один не добавлять… И логи и релиз северных приложений." On the release standard: "у нас еще стандарт плода. Вот этот релиз толком не не написан. То есть меня озадачили это написать" — so they could wait until the right way to release is agreed [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. [[wiki/people/irina-shishko.md|Irina]]: "Это непи 2 это MVP один" when [[wiki/people/sergey-tsymanov.md|Tsymanov]] asked about MVP 2 dates; what belongs in the release and why it was delayed "написано в копобили 311" (heard), which she moved from Dima to Sergey [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+- The order: Pavel — "если вопрос стоит о том, надо ли сейчас создать фичу над на создание релизов серверных сервисов? Ответ да надо"; make it now? "Нет, не так приоритет… у тебя в приоритете стоял аккаунтинг. Хост… После этого можно делать релиз сервер после этого. Можно делать то, что ты сказал тоже завести фищу на то, что оптимизация. Оптимизация логов, которые идут в графа… с флекс айкью." Chudinov: "Окей, ну то есть делаем на MVP 2." Pavel: "Да да да" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+- Where the Grafana logs stand: "логи у графа нашли на д ф ц м с ки вроде заработал, а будем сегодня делать на с т г" (working on DF CMS, STG today); he still waits for the go-ahead to deploy (heard "сзади полис") before the accounting-host work with Andrei [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. Which Andrei is not said.
+- Thread: [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]] (Nov-5 note) — Chudinov had said there that the server repositories must be released too; Pavel keeps that out of MVP 1. The afternoon's [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md|MVP 2 ruling]] did not mention these two features; Chudinov there offered the log analysis as MVP 2 work.
+
+## The programmer package
+
+- Tsymanov: the firmware dashboard ("паспорта на на деви уже развёрнуто есть там по прошивкам по портам") lacks only "возможность скачивания для программатора"; through the programmer "они, по идее, могут поставить всё, что угодно… мы можем только после Того, как соединиться пор сети можем проверить это правильная прошивка или нет" — Pavel: "прошить всегда ты можешь любым со втом совместимым с этим процессом" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+- His question: "как выглядит для программатора прошивка там 2 файлика, один бин а 2 ещё какойто st DR или или просто один бин." [[wiki/people/alexei-khamin.md|Khamin]]: "либо хексом, либо эльфом прошивается. Да мы обычно хексом прошиваем… основное приложение это и есть точка хекс"; the STLDR is "вспомогатель, да он нужен". Tsymanov: "хекс и с л д р… Бин не нужен, правильно." Khamin: "Да." The files and the flashing script are in the artifacts, "В папке mannel flash"; "Я Сергею всё дам и скрипт". Chudinov: better as separate artifacts so the upload can run in parallel [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+- Thread: the programmer image is the first of the two port artifacts of [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]] (Nov-5 note).
+
+## The half-minute rule
+
+- After the hardware-tracking checkbox debate ran long ([[wiki/topics/ris-remote-install-and-machine-states.md]], Nov 5), [[wiki/people/igor-metelski.md|Metelski]]: "это как будто бы отдельный митинг"; Pavel: "давайте это обсудим действительно отдельно… Все, что можно выносить, лучше выносить. Давайте вот конкретно по задачам… если этот вопрос занимает больше, чем полминуты, значит, выносим в отдельный митинг" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+- Three such meetings came out of this stand-up: the hardware-tracking checkbox (Tsymanov and Kharetski), the modem connect-to-server default (Kharetski), and the Georgia handpay from tilt dialogs (Kharetski, Ivan, Irina) — Irina: "Сергей и женя 1 митинг. 2 митинг опять женя"; Kharetski: "И 3 еще раз женя"; Pavel: with Kharetski first after the stand-up, then with Tsymanov; a fourth, Samusenko's cloud-services test environment, "на завтра на утро" if at all — Irina: "это не приоритет" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+
+## Kovalchuk's rule on red builds
+
+[[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "Я вчера рассылал письмо… при закрытии. Ещё и надо смотреть состояние белда, если красненький кружок не надо закрывать, потому что это потом светится в релизах валу это не нравится… если у кого то красненький, перезапускайте воркфлоу с этим названием, чтобы он перезаписался, джира смотрит только последние с этим названием… Ну и даты подвигайте." Irina: "никому не нравится, это вызывает это опасение" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. This answers Val's Nov-4 red-marker question on the release-definition page (Nov-5 note there).
+
+## Open commitments
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — Grafana logs on STG today; then, after the accounting host, create the MVP 2 features for server-service releases and for Flex IQ log optimisation — due Nov 5 2026 (STG); the features unspecified — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — give Tsymanov the programmer files (.hex and STLDR) and the flashing script from the "manual flash" artifacts folder — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — add the programmer-package download to the Flex-Port firmware dashboard — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — hold the three follow-up meetings (Kharetski first, then Tsymanov) after the stand-up — due Nov 5 2026 — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] — *Nov 5 2026, 12:03 PM: two of the three were settled the same day with Val — the Georgia tilts and the modem tab ([[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md]]); Pavel there cited his talk "с Димой и с Женей" on the modem. The hardware-tracking meeting with Tsymanov is not in the sources — kept open for that part* — [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+
+**§15.8:** clear. **§15 #9:** clear — the numbers are capability and board numbers.
+
+## Note, Nov 6 2026 — Tsymanov's QR work moves on; the red-build rule in practice
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian) [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "закончил там с задачами по генерированию QR кода на стороне вебсервисов. Сейчас приступаю на стороне флекса и кю [IQ] там. Вот этой передачи терминал хаб"; the programmer-package download was not mentioned, so that commitment stays open [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] showed the Jira report: "Это все такого еще никогда не было… Все сроки стоят" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/people/dmitri-kovalchuk.md]] (Nov 6). Chudinov's Grafana-logs STG step was not reported on.
+
+## Sources
+
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

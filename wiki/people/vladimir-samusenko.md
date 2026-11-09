@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 58
-open-commitments: 15
+source-count: 62
+open-commitments: 16
 ---
 
 # Vladimir Samusenko
@@ -267,6 +267,18 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: "мне уже насовали тентов" — he takes autotests; part of the documentation work he spoke of — "документацию в л д с" (heard; LGS by context — **inference**) — is drafted; he now has access to the service repositories ("принтера… интеграшенной репозиторию") and reads their documentation to build the full picture, as time allows; when the draft is final he will publish or agree it; "Пока занимаюсь тентами" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. Pavel then noted the MVP 2 acceptance criteria are probably unreviewed, which matters for the autotests — [[wiki/decisions/2026-10-15-mvp2-is-flex-iq-wi-fi-remote-update-diagnostics-and-galaxy-reporting-and-flex-pay-moves-to-mvp3.md]] (Nov-4 update) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The NOVA 2 onboarding he began on Nov 3 was not mentioned.
 
+## Nov 5 2026 — back on the autotests; nearly all open ones need the cloud services (portal, terminal hub); his per-scenario service document shared in the chat; autotests for features not yet written; a fourth meeting wanted, "not a priority"
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian): "Меня перекинули на forteste [autotests] написание очередной раз начал их разбирать и втыкаюсь в то, что… всем практически, за исключением трёх или 4 задач, которые сейчас в колонке тоду висят в принципе нужны… Облачные сервисы, работа с ними. С порталом с термином алхабом [terminal hub]"; he talked to several people yesterday about a meeting on how and when that will be ready; "я собрал в один документ… скину сейчас в чат этот артефакт, где… по сервисам по сценариям расписано там для какого сценария, какой сервис нам может понадобится? Какой сервис, что должен отдавать, что должен уметь принимать"; and a second question — autotest tasks whose features are not created or closed, where the test cannot yet be written (his example: where and how a port's disconnection from the master is recorded "Мы этого не знаем"); Irina: the feature must say how; he: "вопрос творческий где то можно где то нет"; he wants "4 митинг с с обсуждением облачных сервисов и контуротстового [the test contour]"; Pavel: maybe tomorrow morning; Irina: not a priority — [[wiki/topics/test-automation-strategy.md]] (Nov 5) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+
+## Nov 6 2026 — TIN-105 and TIN-111 (heard); the Wi-Fi tests cannot run because machine 84 carries the MVP 1 build; waiting for word on the cloud services and taking no other tasks; "almost all" MVP 2 autotests need them; invited to the 4:00 NOVA remote-update meeting
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "Я вытащил работу тин 105 тин 111" (heard; the notes: TIN-105, TIN-111); "по 111 там есть часть тестов, связанная с вайфаем на IQ. Я понимаю, тот билд, который сейчас стоит на 84 машине. В нём работа с вайфаем ещё нет"; "Пока жду. Какойто информацией, планов по поводу. А облачных сервисов для тестирования. Остальные задачи в работу пока не беру"; Irina: which cloud services does MVP 2 need for the Flex IQ and Flex-Port — "Почти все"; on the Wi-Fi: "Оно оно в комичено да, но сколько я понял разговора с Алексеем вчера на face IQ сейчас стоит билл из MBP один, и он тестируется… когда закончится тестирование м п один можно будет прогонять тест и смотреть, что происходит уже по м и п 2"; Pavel: "у нас там сегодня в 04:00 будет тебя туда позвать по поводу обсуждения обновлений, удалённых для. Онова" — [[wiki/topics/test-automation-strategy.md]] (Nov 6), [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-6 note), [[wiki/decisions/2026-10-30-nova-remote-update-is-nova-only-and-texas-first-and-the-full-architecture-is-written-before-the-mvp-split.md]] (Nov-6 note). This continues his Nov-5 "nearly all open autotests need the cloud services"; the fourth meeting he wanted is still not scheduled in the sources.
+
+### Open commitments (Nov 6 2026)
+
+- [ ] (blocked-on: MVP2-build-on-the-test-IQ) [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — run the TIN-111 Wi-Fi tests once the MVP 2 build is on the test Flex IQ and the cloud services are known — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -327,3 +339,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

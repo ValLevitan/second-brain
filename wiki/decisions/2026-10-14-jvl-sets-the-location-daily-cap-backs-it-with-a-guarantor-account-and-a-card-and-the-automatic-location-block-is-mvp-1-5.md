@@ -3,8 +3,8 @@ type: decision
 title: JVL sets each location's daily cap because it guarantees the money to InComm — every location needs a back-up account and a card, low funds escalate by SMS and email to the secondary account and the master, and the automatic location block at the end of that chain moves to "MVP 1.5"
 date: 2026-10-14
 aliases: [Daily Cap устанавливаем мы, JVL sets the daily cap, we are the guarantor for InComm, guarantor account and credit card, balance checks every hour, secondary account then master then auto-block, automatic location block, автоблокировка локации, MVP 1.5, MVP один с половиной, a couple of locations without auto-block, operator and location contracts, sign-up master then locations, five-day payment window with InComm]
-source-count: 4
-status: active
+source-count: 6
+status: active — the cap, the back-up account and card, and the escalation chain stand; the titular "automatic location block is MVP 1.5" fell on Nov 5 2026: Val ruled the manual block command enough for MVP 2 and moved the automatic block, with the credit-card flow, to MVP 3 (see the Nov-5 update)
 open-commitments: 1
 open-questions: 3
 ---
@@ -65,8 +65,14 @@ At the [[wiki/meetings/2026-10-15-wi-fi-router-switch-power-loss-battery-and-mvp
 
 **§15.8:** clear — company fees and contract terms only. **§15 #9:** none.
 
+## Update, Nov 5 2026 — the manual block command is enough for MVP 2; the automatic block and the card flow go to MVP 3; Dwolla does not store cards
+
+At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] wanted the auto-block logic in MVP 2 — "автоблокировку в случае невозможности снять деньги… сколько это… попыток… когда принимается решение о блокировке локации". [[wiki/people/val-levitan.md|Val]]: "Это не так нужно делать… На 1 релиз… просто отослать в команду заблокировать всё. А потом уже на MBP 3 и дальше делать разные разную логику"; [[wiki/people/pavel.md|Pavel]]: the block already exists in MVP 1 "в виде команды… вручную"; Klimovich: but an auto-block when payment fails? Val: "Нет, нет, нет, нет, вручную достаточно"; Pavel: with about ten locations a manual block "крайне редко и редкое событие"; Klimovich: "я это выкину на мвпи 3… сразу с кредит картами и всем флоу"; Val: "Так точно" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. The card as secondary payment method also went to MVP 3: Klimovich — a provider that stores cards must be found and secured, "такая же большая задача, как когдато заняла интеграция двола… двола не делает, она не поддерживает взять в кредитную карточку"; Pavel: Tsymanov's Stripe spike showed it can be done, and Dwolla "продались комуто… крупному игроку" with card payments — "не знаю, насколько это живой вариант" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. **Evolution**: the Oct-14 "MVP 1.5" and the Oct-15 "card on the location page in MVP 2" both become MVP 3; the guarantor chain itself was not revisited. Governing page: [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
 - [[raw/Meeting_Notes_WiFi_Router_Switch_Power_Loss_Battery_and_MVP2_Scope-October-15-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Every device at a location carries its own LTE modem and SIM and is self-sufficient — the location router is not the shared modem — and Val asks the team to work out whether the spare modems can back each other up when Wi-Fi fails
 date: 2026-09-15
 aliases: [LTE modem per device, own SIM per device, no shared router modem, self-sufficient devices, modem failover map, mesh network, Wi-Fi resilience, two communication channels, каждое устройство свой модем]
-source-count: 8
+source-count: 10
 status: active
 open-commitments: 1
 open-questions: 2
@@ -66,6 +66,10 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/pavel.md|Pavel]] raised "проблемой, которая была вчера или позавчера… кончился зарезервированный трафик на симкарте" and proposed setting the first locations' limit at "там не знаю 10 гигабайт", keeping the high log volume on purpose — "пусть мы будем там переплачивать за трафик, но это важно" — and cutting it perhaps ten-fold in later versions; he relayed [[wiki/people/dmitri-chudinov.md|Chudinov]]'s idea from the day before: the machine sends its SIM to the server at the first modem connection, so a micro-service can pull traffic data from the provider's API; Chudinov: and warn when the limit is near. [[wiki/people/andrey-bosik.md|Bosik]]: "подобного типа уведомления это задача провайдера"; [[wiki/people/andrei-klimovich.md|Klimovich]]: "Логично согласен" — maybe the portal can, so he gives someone full admin rights to look for hidden settings; "давайте сделаем это в рамках MP 2". The limit: "сейчас поставили там лимит 4 с половиной гигабайта можем 10 поставить… Если хотите другую цифру, просто скажите". Chudinov: the current release sends "160 мегабайт… считай по центру за мегабайт… Полтора доллара в день"; repeated logs can be thinned without loss; "сделаем задачу на превышение лимитов" [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. This answers the Nov-3 question below in part: Chudinov, in MVP 2. Commitments: [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]].
 
+## Note, Nov 5 2026 — SIM-to-terminal binding and the traffic balance are confirmed MVP 2
+
+At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]] raised, as a possible future item, "привязка терминала к его сим карте и получению информации. О трафике балансе"; [[wiki/people/pavel.md|Pavel]]: "Это NVP 2 это MP 2 однозначно"; [[wiki/people/andrei-klimovich.md|Klimovich]]: "это есть выпидва" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. The MVP 2 date set there is November 20 2026 — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]]
@@ -75,3 +79,5 @@ At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilo
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]

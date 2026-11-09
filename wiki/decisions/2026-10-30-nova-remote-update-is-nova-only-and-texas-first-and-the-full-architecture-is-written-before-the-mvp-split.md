@@ -3,7 +3,7 @@ type: decision
 title: NOVA remote update is for NOVA only and starts in Texas; the full architecture is written first and split into MVPs after; one list of allowed updates for JVL's own and sold machines; architecture decisions live in the NOVA integration repository (Oct 30 2026)
 date: 2026-10-30
 aliases: [NOVA remote update, remote game update, remote update architecture, downloading games to remote machines via modem, NOVA remote update brief, ремоут апдейт, A/B slots, RAUC for NOVA, update fingerprint, component compatibility map, self-check after update, ADRs in the NOVA integration repository, one allowed-update list for sold machines]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 4
 open-questions: 7
@@ -77,7 +77,13 @@ Not settled in detail; Pavel: "решение писать нет. Потому 
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Nov 6 2026 — Samusenko is invited to "today's 4:00" meeting on remote updates for NOVA
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]], to [[wiki/people/vladimir-samusenko.md|Samusenko]]: "у нас там сегодня в 04:00 будет тебя туда позвать по поводу обсуждения обновлений, удалённых для. Онова [NOVA]" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]. By the clock this is the Friday review meeting of Val's Oct-30 commitment above (4:00 PM Minsk is 9:00 AM Eastern — **inference**); the meeting itself is not in the sources, so the Oct-30 commitments stay as recorded.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

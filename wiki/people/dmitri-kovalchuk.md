@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 93
+source-count: 97
 open-commitments: 18
 open-questions: 3
 ---
@@ -414,6 +414,14 @@ At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilo
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — add the missing projects (IP-435 and the CMS projects) to the Kanban dashboard filter — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — his Nov-4 email restated: do not close a task while its build shows red; rerun the workflow with the same name so Jira sees green; move the dates
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian): "Я вчера рассылал письмо по поводу Того, что при закрытии. Ещё и надо смотреть состояние белда, если красненький кружок не надо закрывать, потому что это потом светится в релизах валу это не нравится… Все должно быть зелененьким… если у кого то красненький, перезапускайте воркфлоу с этим названием, чтобы он перезаписался, джира смотрит только последние с этим названием… Ну и даты подвигайте"; Irina: "никому не нравится, это вызывает это опасение" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. This answers the red-marker half of his Nov-4 undertaking on [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]] (annotated there); "Request Review" was not mentioned. Earlier in the round he told Irina something about a "черник" created for Igor ("Пр. Про эримент", heard) — **unclear** [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. Rule recorded on [[wiki/decisions/2026-11-05-server-releases-and-grafana-log-optimisation-are-mvp-2-after-the-accounting-host-the-programmer-package-is-hex-plus-stldr-and-the-half-minute-rule.md]].
+
+## Nov 6 2026 — the Jira report "has never looked like this": all dates set, leaving aside Alekseev's tasks and "Андрея ханда"; the agent cannot create capabilities yet, only comments, requirements and features
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "Да, я даже покажу просто. Как выглядит наш отчет? Это все такого еще никогда не было. Вот если убрать ещё отсюда. Алексеева с его задачами и Андрея ханда. Вот у нас прям прям хорошо. Все сроки стоят" — "Алексеева" read as [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] by the surname form and "Андрея ханда" (heard) as [[wiki/people/andrew-khandov.md|Andrew Khandov]] per the notes (both **inference**); Pavel: "Не сдержался, да такой. Эмоции"; and to Pavel: "Паша там просил агента вроде про кобабилити, но он копабилити ещё не умеет создавать. Он, может, он только добавит к комментариев, какой билет создаёт рекларимент фичи" — Pavel: "А ну хорошо" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]. This follows his Nov-3 end-date round and the Nov-5 red-build rule; the capability Pavel wanted is the modem-off confirmation one — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-6 note).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -509,3 +517,7 @@ At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilo
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

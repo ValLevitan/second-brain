@@ -4,8 +4,8 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 124
-open-commitments: 23
+source-count: 129
+open-commitments: 24
 open-questions: 0
 ---
 
@@ -516,6 +516,18 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — move the two remaining HFM tasks under a capability and close the old feature; take the Flex Pay update tasks (Tsymanov's server work); set end dates on the moved tasks — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — his last Flex-Port tasks done (closing after tests), on to the update; "when does the engine group meet?"; one person should set the engine's base architecture, then capabilities split by block; a piece for Daniil
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]: "Я закончил сейчас последняя задача уже по порту… они будут закрыты сейчас, когда там тесты проведу, и я взялся наконецтаки за обновление для flixper" (heard; the notes read the Flex IQ update — **unclear**). He asked when the new engine ("нова") group meets — nothing is scheduled; he thought the agreement with Val was capabilities first, then a meeting; the base requirements exist, "Надо наверно копобилить по движку"; the capabilities will show what is missing and "Как мы сможем разбить, например, задачи на нескольких людей. Потому что. Бал предполагает, что будут работать несколько людей над этим"; the first architecture "Хотелось бы от одного человека, потому что он он охватил бы всё, потому что если мы будем каждый, каждый свою архитектуру рисовать будет. Ну абы что" — put the base in the repository, then take the capabilities (meters, buttons); Daniil could take "какуюто там. Ограниченную" piece once his tasks run out — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note). Irina will test his finished work — [[wiki/people/irina-shishko.md]] (Nov 5). At the scope review Irina suggested him for Monday's meeting — "саша будет на это самое портом заниматься полностью" (**inference** on the name) [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]].
+
+## Nov 6 2026 — the Flex-Port update through the Flex IQ checked: data goes through and the port flashes; the port itself on dev is left; then the Flex Recycler integration tasks, with the recycler library sources from Pavel; "how did the old sound problem reproduce?"
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian; label "Alexander Biratko") [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "я работаю по задачам апдейта проверил сейчас вот обновление флекс порта. С помощью флекс пем надо инваемером лица [heard; the notes: through the Flex IQ], всё вроде работает нормально. Данные передаются. И порт шьётся… мне осталось только сам порт. На дэвен вайер [dev] проверить? И после этого… я уже буду создавать по риса айклеру [Recycler] для интеграции. На него переходить"; Pavel: he needs the library sources — "я скачивал, он был линк"; Biratka: "я потом к тебе обращусь Паша" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/decisions/2026-09-14-remote-firmware-update-is-in-mvp1-and-flex-iq-updates-itself-first.md]] (Nov-6 note); the Recycler question of Nov 4 above now has him preparing its integration tasks — whether the business answered "Flex Pay MVP 3 or a Recycler MVP first" is not said. This resolves the Nov-5 "flixper" (IQ or port?) as the Flex-Port update through the IQ (**inference** — **evolution**). On the sound board he asked who remembers how the old sound problem reproduced and how easily — Pavel's answer is on [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-6 note).
+
+### Open commitments (Nov 6 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — check the Flex-Port update on the port itself on dev, then create the Flex Recycler integration tasks (with the library sources from Pavel) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -643,3 +655,8 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

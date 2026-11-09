@@ -1,0 +1,53 @@
+---
+type: decision
+title: The MVP 1 release is planned internally for Monday (November 9 2026) and the client is told Wednesday, so the client never waits on JVL; "released" means the production services deployed, the Flex IQ and Flex-Port firmware visible in the production server's interface on AWS, and the Jira release done through the GitHub procedure with the prose check; and the Pyramid bill acceptor is tested remotely on an Echo cabinet set up in Georgia, with as few subcontractor hands as possible (Val, Nov 5 2026)
+date: 2026-11-05
+aliases: [MVP 1 Monday internally Wednesday to the client, в понедельник, клиенту сказать в среду, the client never waits on us, plastic brackets for one location, пластиковые для 1 локации из 4 машин, brackets printed, metal brackets later, Pyramid bill acceptor remote test, кабинет эхо в Джорджии, Echo cabinet in Georgia, fewer subcontractor hands, меньше использовали сапконтрактов, insert a bill once a week, release means production services deployed and firmware visible on AWS, если вы не видите его в продакшн сервере значит его нету]
+source-count: 2
+status: active
+open-commitments: 4
+open-questions: 1
+---
+
+# MVP 1: Monday internally, Wednesday to the client; the Pyramid acceptor is tested remotely on an Echo in Georgia (Nov 5 2026)
+
+Set by [[wiki/people/val-levitan.md|Val Levitan]] at the opening of the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov 5 2026, 8:01 AM MVP 2 scope review]] (Russian), with [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/irina-shishko.md|Irina Shishko]] [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. The MVP 2 ruling of the same meeting is on [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]].
+
+*(Quotes come from an unpunctuated Russian speech-to-text transcript, kept word for word.)*
+
+## The Pyramid bill acceptor — remote, not by hand
+
+- Pavel opened with "короткий разговор по поводу билаксептер пирамид. Я танкоп обилити рекламу это уже сделал [heard: the capability and requirements are done], даже назначил на Алексеева но… Есть сомнения, что это будет фиктивно? Мне кажется более эффективно… отправиться в Джорджия, поднять там кабинет эхо, подключить его удалённо в нашу сеть… мы бы посмотрели быстро, как это работает" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. Whose name "Алексеева" is: by the surname form and the hardware context [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] (**inference**); the notes read "Alexey" ([[wiki/people/alexei-khamin.md|Khamin]]) [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — left as a queued name call.
+- Val: "Понимаю, оставляю в ваших руках"; then: "раньше, когда мы на эту тему говорили, вы хотели, чтобы руки прикасались к этому. Сейчас вы говорите, что вы можете это сделать ремонтный [remotely]. Мне лучше, если вы делаете ремонтлы… я бы хотел бы, чтобы мы меньше использовали сапконтрактов… чем меньше." Pavel: the time difference plays a part, "Понятное дело, что нам руки понадобятся, но мы эти руки можем там раз в неделю когото попросить билл вставить ticket вставить." Val: "Договорились" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]].
+- This answers the Nov-4 pause of the Echo for want of a ticket-reading bill acceptor ([[wiki/topics/echo-home-gaming-device.md]], Nov 4): a Pyramid acceptor is to be tried, on an Echo, remotely. Whether the acceptor reads ticket barcodes is not said here. See [[wiki/organizations/pyramid-technologies.md]] (Nov 5).
+
+## The MVP 1 date
+
+- Klimovich: "по поводу вчерашнего мы докинули к новой cappillity ecromements для отгрузки билдов в интерфейс. И насколько я вижу там уже работа по нему ведётся" — Irina: "Да, Сергей занимается" ([[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]]); "мы ждём реализации этой капбилети, и тогда мы готовы делать релиз. Речь идёт о ближайших днях в начале недели следующей" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. This discharges his Nov-4 undertaking to add the Flex-Port download to MVP 1 — [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]] (Nov-5 note).
+- Val: "У нас нету братец [brackets]." Klimovich: "Да бракет нету, но мы сделали сейчас пластиковые для 1 локации из 4 машин. Я их там должен забрать сегодня из печати. Если они более менее приемлемы. Это была идея инсталлироваться с пластиковым брак лица, потом заменить их на металлические" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]].
+- Val: "давайте будем говорить, что в понедельник"; "я вам советую… клиенту сказать в среду. Но нам рассчитывать в понедельник. Я не хочу, чтобы клиент был [waiting]… клиенту сказать, мы готовы сегодня, если ты готов" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. Monday is November 9 2026 by the calendar (**inference**; the notes say so too [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]).
+- Klimovich wanted the team to name the day; Val: "мы же вчера договаривались, что такое релиз, если вы не видите его. В продакшн сервере, значит его нету." Irina: "это пару дней. Среда это должно быть уже. Ну даже в понедельник у нас уже всё должно быть. По хорошему" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]].
+- **What "released" contains (Pavel and Irina).** Pavel: "давайте сразу оговорим за деплой продакшн версии сервисов. И те артефакты, которые могут быть доставлены… Клиенту. В качестве клиента там, например, ты выступаешь. Это прошивки для флекса iPhone [IQ] для экспорта [Flex-Port]… На продакшн сервере через график юзер интерфейс, который у нас на продакшн сервере на абл ю s ze [AWS] deploin"; Irina: "плюс этот самый подготовленный релизнулся по Джерри [Jira], и там вот эта процедура, которая должна пройти через гетхапс с проверкой там прозы" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. This is the Nov-4 definition applied — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]] (Nov-5 note). Klimovich: "План понятен."
+
+## How it sits against earlier rulings
+
+- The release date thread: October 1 → October 15 ([[wiki/decisions/2026-09-28-october-15-replaces-october-1-as-the-mvp1-date.md]]) → about November 8–9 ([[wiki/decisions/2026-10-14-mvp1-is-extended-to-about-november-8-or-9-and-the-mvp2-marked-tasks-are-done-inside-it.md]]) → November 1 for the first locations ([[wiki/decisions/2026-10-14-the-first-ten-transactional-locations-go-in-from-november-1-on-stock-monitors-ports-without-wi-fi-and-hand-made-harnesses.md]]) → not released on Nov 4 → Monday Nov 9 internally, Wednesday to the client. **Evolution.**
+- The brackets: metal brackets were ordered on [[wiki/decisions/2026-09-04-brackets-and-harnesses-from-china-and-a-metal-order-for-one-hundred.md]]; the first location goes in on printed plastic ones, metal later [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]].
+
+## Open commitments
+
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the Flex-Port build-download capability (the MVP 1 blocker) — due early in the week of Nov 9 2026 — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — collect the printed plastic brackets for the first location (four machines) and judge whether they will do — due Nov 5 2026 — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [ ] The release team (Pavel, Irina, Chudinov, Ivan as release manager) — the MVP 1 release on the production server: services deployed, IQ and port firmware in the AWS interface, the Jira release through GitHub — due Monday Nov 9 2026 (client told Wednesday Nov 11) — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — set up an Echo cabinet in Georgia, connected remotely to the Minsk network, for the Pyramid bill-acceptor test; someone local inserts a bill or ticket about once a week — due unspecified — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+
+## Open questions
+
+- Who holds the Pyramid capability — Alekseev (the transcript's "Алексеева") or Khamin (the notes' "Alexey")? — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+
+**§15.8:** clear. **§15 #9:** none.
+
+## Sources
+
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]

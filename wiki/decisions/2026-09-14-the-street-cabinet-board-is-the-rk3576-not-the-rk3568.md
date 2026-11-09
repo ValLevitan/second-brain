@@ -3,7 +3,7 @@ type: decision
 title: The street cabinet's board is the RK3576, not the RK3568 — the 3568 renders badly on a vertical screen
 date: 2026-09-14
 aliases: [RK3576, RK3568 vertical screen, 3576 target board, аркеи на горизонтальном телевизоре, именно 35 68, Touch Intelligent, RK3576 shipment to Minsk, 8 gigabytes, тач интеллигент, два борта]
-source-count: 15
+source-count: 17
 status: active
 open-commitments: 2
 open-questions: 1
@@ -112,6 +112,10 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 
 At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust-sound-library.md|Nov-2 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]]: he started on the SDK "для 35, 76" (the RK3576); on the new kernel the accelerators were not fully implemented — the GPU was not used for video decoding — so he pulled that in, plus security [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]. On this platform the machine could probably record what is shown on screen on the fly; a screen stream over the internet is heavy (poor quality, or a wide channel the locations do not have), but recording to disk in very good compressed quality for debugging and for AI analysis is possible; [[wiki/people/dmitri-chudinov.md|Chudinov]] recalled considering a screen stream when he worked on RAUC ("рауком", heard) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]].
 
+## Update, Nov 6 2026 — the SDK's main functionality is done; next, in free time, flash all components to eMMC so the board is fully ready with JVL's images; sound plays on both speakers but quietly
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]]: "я там занимался последние дни с д к для р к 35 76. В принципе там основной функционал всего, что надо было сделан. Сейчас буду ну в свободной от остальных задачных… Буду пытаться всётаки сделать полноценную прошивку всех компонентов в м м си [eMMC] ну, чтобы плата была полностью готова наших образах" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — the commitment is on [[wiki/people/pavel.md]] (Nov 6). [[wiki/people/daniil-stauskiy.md|Daniil]]'s sound board on the same board: both speakers play through the Rust library, quietly; sound returns after a USB and power pull — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-6 note).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -129,3 +133,5 @@ At the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-and-rust
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

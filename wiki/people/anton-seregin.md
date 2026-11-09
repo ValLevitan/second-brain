@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 58
-open-commitments: 15
+source-count: 64
+open-commitments: 17
 ---
 
 # Anton Seregin
@@ -255,6 +255,26 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — add a zoom-out button for the QR code to CF-10 (heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — finishing CORIFE-8 (backend integration, deploying to dev); CORIFE-9 paused on the backend; a warning-spewing versioned library; reports and CORIFE-11 next; he extends the Flex IQ emulator to pass firmware-update packets, for the autotests
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian; label "Anton Seregin", called "Кантон селюгин", heard): "заканчиваю корифи 8. Это вариант интеграции с бэкэндом. Сейчас deploys def. Окружение. Так по 9 там это нужно батент [backend] ещё… пока это на паузе"; a local problem since summer — a versioned library "мусорила консоль" with warnings; next "попробую репорта посмотреть что можно. Вот корифе 11"; Pavel: then the diagnostics can be worked through with him. On the emulator he asked whether the update emulation is needed or real hardware should be checked first; Pavel: Tsymanov checked on dev; Seregin can "доработать симулятор, чтобы проходили пакеты по обновлению. Прошивок" — "Это для автотестов" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. The "корифи" series is the CF series of Nov 4 (**inference**; the notes spell it CORIFE).
+
+### Open commitments (Nov 5 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — extend the Flex IQ emulator so firmware-update packets pass through, for the autotests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] — *Nov 6 2026: taken as the firmware-emulation feature ("81", heard) with its stories; not yet done* — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
+## Nov 5 2026 (12:03 PM, in absentia) — perhaps the QR-code entry point for the modem-disable routine
+
+At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) Pavel, listing who the modem-disable routine needs: "И возможно, что Антон серёгину, чтобы доработать немножко этот QR код" — an entry point for it [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]; the notes: "maybe Anton Seregin for the QR code" [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]] — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]]. Not assigned on tape.
+
+## Nov 6 2026 — CORIFE-8 closed and checked with the server; CORIFE-9 close, to close today; the firmware-emulation feature ("81", heard) taken with its stories — emulation, tests, documentation
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "Закрыл карифе 8 вчера проверил сервером всё работает карифе 9 на подходе тоже на сегодня… закрыты. Ещё взял по. Все эти 81 это симуляция… Как прошивки? Амфича и под ней там ещё с несколько старий. Сама энуляция. Тесты, книги, документация" (heard; the notes: feature 81 — firmware emulation with stories for emulation, tests and documentation). **Evolution** of Nov 5: CORIFE-9 was "на паузе" on the backend; now close. The Nov-5 emulator commitment (firmware-update packets through the Flex IQ emulator) is the feature he took — annotated below, kept open until done.
+
+### Open commitments (Nov 6 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — close CORIFE-9, then the firmware-emulation feature (emulation, tests, documentation) — due Nov 6 2026 for CORIFE-9; the feature unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -315,3 +335,9 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

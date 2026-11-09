@@ -3,7 +3,7 @@ type: decision
 title: The modem is standard on every machine — customers are told the machines now come with modems, the reports are free for a limited time, and they can opt out of the service by sending a message
 date: 2026-10-06
 aliases: [modem is standard packaging, everything's coming out with the modem, reports free for a limited period, opt out of the modem service, modem notice to customers, we're evolving]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 1
 open-questions: 1
@@ -34,6 +34,8 @@ How the free reports sit with the $337-per-year data buy-back ([[wiki/topics/mac
 
 **Nov 4 2026 — the machine side of the opt-out.** On the [[wiki/meetings/2026-11-04-felipe-igt-trade-in-approach-and-arc-delivery.md|Nov-4 10:27 AM call]] Val said he had found "a scope gap in how [modems] are configured": the connection is "voluntary… just a flag", and he wants it forced on whenever a modem is present, with an opt-out that is "intentional and multi-stage"; fixing it "will trigger another re-approval and we will have to reinstall the software". The commercial opt-out above stands; the product rule is [[wiki/decisions/2026-11-04-when-a-modem-is-present-its-connection-is-forced-on-and-opting-out-is-intentional-and-multi-stage-not-a-flag.md]] [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]].
 
+**Nov 5 2026 — the machine-side opt-out becomes a routine.** At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) Val, with Pavel and Irina: the modem stays always on with no operator on/off screen; an operator who does not want it ("у меня аллергия на него") switches it off only by scanning a QR code, the server recording the event and returning an activation code — "Мы должны дать возможность принудительно его отключить. Если человек его не отключил, это его проблема" — and the modem goes on every machine with the RIS improvements release because "все операторы без исключения хотят… ремоут innations [heard]" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]] [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]] — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]]. The "send us a message" opt-out above is the commercial side; the Nov-5 routine is what happens on the machine. Both stand.
+
 ## Open commitments
 
 - [ ] Felipe Miranda — notify customers that machines now come with modems, reports are free for a limited time, and they can opt out by sending a message — due unspecified — [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
@@ -50,3 +52,5 @@ How the free reports sit with the $337-per-year data buy-back ([[wiki/topics/mac
 - [[raw/Meeting_Transcript_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Delivery_Forecast_ARC_Release_and_Modem_Notice-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Yash_Patel_Halcyon_2027_Plan_Forest_Park_Pilot_and_Texas_Profit_Share-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]

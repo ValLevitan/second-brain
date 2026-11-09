@@ -3,7 +3,7 @@ type: topic
 title: ECHO home gaming device and Amazon go-to-market
 date: 2025-02-01
 aliases: [Echo, ECHO, Echo home device, Amazon device, man-cave device, home solution, 149 games]
-source-count: 49
+source-count: 53
 open-commitments: 1
 open-questions: 5
 ---
@@ -377,6 +377,14 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - Can Genadi find a bill acceptor for the Echo that reads ticket barcodes, or must a different acceptor go in a different housing? — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — a Pyramid bill acceptor is tried on an Echo cabinet set up in Georgia and reached remotely from Minsk; Val: fewer subcontractor hands
+
+At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian) [[wiki/people/pavel.md|Pavel]] opened with "билаксептер пирамид": the capability and requirements exist and are assigned ("назначил на Алексеева", heard — see the stub), but "более эффективно… отправиться в Джорджия, поднять там кабинет эхо, подключить его удалённо в нашу сеть… мы бы посмотрели быстро, как это работает". [[wiki/people/val-levitan.md|Val]]: "оставляю в ваших руках"; earlier Pavel had wanted hands on it, now remote — "Мне лучше, если вы делаете ремонтлы… я бы хотел бы, чтобы мы меньше использовали сапконтрактов"; Pavel: hands will still be needed about once a week to insert a bill or a ticket; Val: "Договорились" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — [[wiki/decisions/2026-11-05-mvp-1-is-planned-for-monday-november-9-internally-and-the-client-is-told-wednesday-and-the-pyramid-bill-acceptor-is-tested-remotely-on-an-echo-cabinet-in-georgia.md]], where Pavel's commitment is tracked. This picks up the Nov-4 pause above (no known bill acceptor reads ticket barcodes): a Pyramid acceptor is the candidate to try — see [[wiki/organizations/pyramid-technologies.md]] (Nov 5); whether it reads tickets is not said here, so the Nov-4 open question stands.
+
+## Nov 5 2026 (12:03 PM) — the Echo needs a certified build, but "we do not need the Echo before February 1"; the bill-acceptor test moves to February and the RIS improvements release does not wait for it
+
+At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) [[wiki/people/irina-shishko.md|Irina]] said the modem came into this release "потому что появилось эхо нам нужно эхо" — [[wiki/people/val-levitan.md|Val]]: no, the modem goes on every machine because every operator wants remote updates ([[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]]) — and then: "И всё таки я вернусь к эхо, потому что сейчас оно у нас идёт с одним дес [heard]… на эхо нам нужен сертифицированный билд, чтоб был мы отдавать будем… оно должно всё попасть сюда, иначе придётся делать [again]." Val: "Но эко раньше, чем 1 февраля, нам не нужно." [[wiki/people/pavel.md|Pavel]]: "если мы к этому числу получим билаксептер, подключенный в джорджии. И мы сможем протестировать… лучше это сразу в этот релиз"; Val: "не задерживайте"; Pavel: "задерживать ради этого не будем"; Val: "Я какоето пробная машина пойдет не пойдет. Я не хочу нагружать вас ничем" — Class A matters more, "Поэтому каунт ток [heard] только я передвигаю на февраль месяц" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. The notes: "Echo is not needed before February 1… Val moved the bill acceptor test to February" [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. That the bill acceptor "connected in Georgia" is the Pyramid test of the 8:01 AM meeting above is an **inference**. **Evolution** of the Nov-4 pause and the Nov-5 8:01 AM plan: the Echo and its acceptor test now have a February horizon, and the certified build the Echo needs is the RIS improvements build going to Eclipse on November 16 — [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]]. "February 1" is a year-less date (2027 by the calendar — **inference**).
+
 ## Sources
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Production_Ramp_Forecast-July-30-2026.md]]
@@ -428,3 +436,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]

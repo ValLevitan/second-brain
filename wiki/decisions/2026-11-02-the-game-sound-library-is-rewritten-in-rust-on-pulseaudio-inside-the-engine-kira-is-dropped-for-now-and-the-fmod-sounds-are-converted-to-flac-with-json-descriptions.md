@@ -3,10 +3,10 @@ type: decision
 title: The game sound library is rewritten in Rust on PulseAudio and lives in the engine, not the LGS — the LGS drives it through an API; the Kira library is dropped for now; the existing FMOD sounds are converted by a tool from FSB to FLAC with JSON descriptions, so Vlad's work is kept and he can go on with his own tools (Pavel, Biratka and Daniil Stauskiy, Nov 2 2026)
 date: 2026-11-02
 aliases: [sound library in Rust, Rust sound library, PulseAudio sound library, Kira dropped, FSB to FLAC, FMOD sounds converted, JSON sound description, sound library lives in the engine not LGS, самодостаточный пульс аудио, библиотека на расте, маленький конвертер]
-source-count: 4
+source-count: 8
 status: active
-open-commitments: 1
-open-questions: 1
+open-commitments: 2
+open-questions: 3
 ---
 
 # The sound library is rewritten in Rust on PulseAudio inside the engine; Kira is dropped; the FMOD sounds are converted (Nov 2 2026)
@@ -49,9 +49,34 @@ Settled at the [[wiki/meetings/2026-11-02-daily-standup-flex-port-release-build-
 
 At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]]: on the rewrite of the sound repository in Rust "я уже открыл пиар", after solving a few problems; he also closed dependency requests; the parent "н ц один" (heard; NC-1), with all child tasks done, can be closed — Pavel: "Думаю, что можно закрывать… новое вроде не планируется"; Daniil has no task now and Pavel and Biratka will find him one tomorrow [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. The commitment above is not shown merged, so it stays open.
 
+## Note, Nov 5 2026 — the sound board: left speaker and subwoofer work, the right channel is silent; Pavel's goal — sound returns after a sound-card power loss without a reboot
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]] has no task created yet and is working "со звуковой платой. Я уже проверил сейчас левая колонка из сабвуфе работает, а вот на правую колонку почемуто звук ещё пока не выводится. Ну будут смотреть, разбираться." [[wiki/people/pavel.md|Pavel]] set the aim for the future framework: if the sound card has a problem — "питание там пропало, что если её назад вернули, включили?" — "Чтобы у нас звук просто. Прозрачно появлялся на играх без каких то? Необходимости перегружать машину то, как, например, на старой машине." Daniil: "Ну да" [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. Biratka suggested Daniil could take a limited engine capability once his sound tasks run out — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note).
+
+### Open commitments (Nov 5 2026)
+
+- [x] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — get the right channel working on the sound board, and make sound recover after a sound-card power loss without rebooting the machine — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] — **discharged Nov 6 2026:** "на 2 колонках работается" and, after pulling the USB and the power from the sound board, "при подключении звук восстанавливается, воспроизводится"; Pavel: "Отлично отлично то что надо" — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
+## Note, Nov 6 2026 — sound on both speakers but quiet; the 85% master-volume slider on the old Flex cabinets; sound comes back after a USB and power pull; the overload case that only a reboot cured
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]]: "Samsung [heard] уже проверил на 2 колонках работается… играет, почему то тихо причём… сам по себе усилитель точно работает, потому что звук то выводится на Колонки"; the sound banks hold the same loudness as before in the LGS; "Я по сути через пульс аудио могу его усилить… он как бы будет погромче звучать, но я просто не знаю как бы так должно, либо усилитель сам по себе уже должен усиливать до такой степени". [[wiki/people/pavel.md|Pavel]]: on the old Flex cabinets "выставлялся ползунок мастер громкости… не в максимум… 85 знак процента. И она влияла на этот общий звук"; Daniil: the old FMOD library ("вмодовская") passed sound through PulseAudio too, "а я именно на ну на Ростовской [Rust] библиотеке проверял". The old crash where the LGS fell when another board was unplugged: "сейчас я и ю с б вытягивал и питание отключал именно с платы звуковой. Потом при подключении звук восстанавливается"; Pavel: "Отлично отлично то что надо". [[wiki/people/alexander-biratka.md|Biratka]] asked how the old sound problem reproduced; Pavel: one case was a too-loud start — the amplifier ("ванпли", heard) went into reboot, the sound vanished and "Устройство с USB по моему пропадало тоже и до следующей перезагрузки… не возвращался… Вряд ли мы эту проблему решим"; perhaps track the case where the USB device stays but the audio path shuts down from overload "чтобы мы могли перенициализировать… Но если у нас не будет USB устройства, то мы с этой платой ничего не сделаем. Ну либо какойто внешний его джедок [watchdog]" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]. The right-channel problem of Nov 5 is not mentioned; "на 2 колонках работается" is read as resolved (**inference**).
+
+### Open commitments (Nov 6 2026)
+
+- [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — sort out the quiet sound on the RK3576 board (boost in PulseAudio, or the amplifier) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
+### Open questions (Nov 6 2026)
+
+- Quiet sound: boost the signal in PulseAudio, or should the amplifier do it (and does the 85% master slider of the old cabinets apply)? — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- Can an audio-path shutdown from an amplifier overload be detected and re-initialised while the USB device remains, and is an external watchdog the only answer when the USB device vanishes? Pavel: "над этим можно будет подумать" — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

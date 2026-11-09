@@ -3,7 +3,7 @@ type: person
 title: Daniil Stauskiy
 date: 2026-11-08
 aliases: [Daniil Stauskiy, Daniil, Даниил, Daniil Stauski]
-source-count: 6
+source-count: 10
 open-commitments: 0
 open-questions: 0
 ---
@@ -24,6 +24,14 @@ At the [[wiki/meetings/2026-11-03-daily-standup-sim-traffic-alert-and-flex-iq-re
 
 At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]: on the rewrite of the sound repository in Rust ("на раз") "я уже открыл пиар" after solving a few problems; he closed dependency requests in the repositories; "пока нечего делать… Нет никакой задачи"; he asked whether "н ц один" (heard; NC-1) can be closed, since all its child tasks are done — Pavel: "Думаю, что можно закрывать… новое вроде не планируется"; Pavel and Biratka will think of a task for him tomorrow [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-4 note). A short exchange about his day is personal matters, not recorded.
 
+## Nov 5 2026 — on the sound board: left speaker and subwoofer work, the right channel is silent; no task created yet; a possible engine piece later
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian): "я сейчас удачи не создал [heard; no task created], но сейчас буду ну работать со звуковой платой. Я уже проверил сейчас левая колонка из сабвуфе работает, а вот на правую колонку почемуто звук ещё пока не выводится. Ну будут смотреть, разбираться"; Pavel's goal: sound returns after a sound-card power loss without rebooting the machine — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-5 note), where the commitment is tracked. Biratka: once his tasks run out he could take a limited engine capability — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note) [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+
+## Nov 6 2026 — sound on both speakers through the Rust library, but quiet; the amplifier works; PulseAudio can boost it, but should it; sound comes back after pulling the USB and the power from the sound board
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian; his report was repeated because Pavel's headphones were off) [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: his task numbers are heard three ways ("Фрау, 1996, 97"; "1096, прям 1997"; "from 1496 fron 7") — not recorded; "уже проверил на 2 колонках работается… играет, почему то тихо причём… сам по себе усилитель точно работает"; the sound banks keep the loudness they had in the LGS; "Я по сути через пульс аудио могу его усилить… но я просто не знаю как бы так должно, либо усилитель сам по себе уже должен усиливать"; the old FMOD library also went through PulseAudio, "а я именно… на Ростовской [Rust] библиотеке проверял"; on the old LGS crash when another board was unplugged: "сейчас я и ю с б вытягивал и питание отключал именно с платы звуковой. Потом при подключении звук восстанавливается" — Pavel: "Отлично отлично то что надо" — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-6 note), where the Nov-5 commitment is discharged and the quiet-sound commitment and the two open questions are tracked.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -32,3 +40,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

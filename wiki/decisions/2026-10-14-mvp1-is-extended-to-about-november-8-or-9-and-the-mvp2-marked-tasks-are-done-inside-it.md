@@ -3,8 +3,8 @@ type: decision
 title: The MVP 1 date is extended to about November 8 or 9, and the tasks marked MVP 2 are done inside MVP 1 — said in Kharetski's turn about the old-version branch, the RIS improvement MVP 1 (owner-confirmed 2026-10-15)
 date: 2026-10-14
 aliases: [MVP1 extension, MVP 1 extended to November 8 or 9, расширить дату до 8 или 9 ноября, MVP 2 tasks done in MVP 1, MVP turned into MVP 2, same scope longer time, больший срок, RIS MVP1 moves to November, AIP-744]
-source-count: 6
-status: active
+source-count: 8
+status: active — the "about November 8 or 9" date is superseded (Nov 5 2026: the November 9 build "не будет"; the build goes to Eclipse on November 16 and the market gets it about November 20 — see the Nov-5 note); the "MVP 2 tasks inside MVP 1" element stands
 open-commitments: 1
 open-questions: 1
 ---
@@ -45,7 +45,7 @@ So this source does **not** move the transactional October-15 date ([[wiki/decis
 
 ## Open questions
 
-- Is the new date November 8 or November 9, and has Val agreed to fold MVP 2 into MVP 1? — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
+- Is the new date November 8 or November 9, and has Val agreed to fold MVP 2 into MVP 1? — [[raw/Meeting_Notes_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]] — *Nov 5 2026: the date part is moot — Irina: "Мы планировали 9 на 9 не будет"; Val set November 16 for the Eclipse hand-over. The fold-in part is not answered as such; Val did rule, on the same call, that the tilt/handpay fix and the modem routine ride this release — see the Nov-5 note below* — [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 
 **§15.8:** clear. **§15 #9:** none; the numbers are Jira task numbers.
 
@@ -59,6 +59,10 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 
 At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-game-conversion.md|Oct-15 Minsk stand-up]] [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] read the AI digest of the day before: "Принос MVP один на восьмоедевятого ноября. Ну это добавлено как комментарий к айпи 744" (the notes: AIP-744) [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]. The digest still gives "the eighth–ninth", so the exact day stays open. Nobody restated or changed the plan. Kharetski reported the battery check (task 246) done and named LGS 1243 as his next task; whether that is one of the MVP 2-marked tasks is **not said** [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]].
 
+## Note, Nov 5 2026 (12:03 PM) — "the 9th will not happen": the build goes to Eclipse on November 16, the market gets it about November 20
+
+At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian; Val, Pavel, Irina) Val asked when the RIS improvements build is expected; [[wiki/people/irina-shishko.md|Irina]]: "Мы планировали 9 на 9 не будет… Нужно с Женей поговорить… я бы сказала к концу недели", because the Georgia tilt/handpay fix adds many test combinations (ICMS, machine, lease, passport reset); then the modem-disable routine was added to the scope (about three days), and [[wiki/people/val-levitan.md|Val]]: "давайте мы будем планировать. 15 ноября… чтобы сдать в эклипс" — "16 ноября", the 15th being a Sunday — with the market build "это 20 ноября" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]] [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]. **Evolution:** November 8–9 → Eclipse November 16, market about November 20. Full ruling and the commitments: [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
@@ -67,3 +71,5 @@ At the [[wiki/meetings/2026-10-15-daily-standup-offline-ris-fallback-and-nova-ga
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Offline_RIS_Fallback_and_NOVA_Game_Conversion-October-15-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]

@@ -3,9 +3,9 @@ type: organization
 title: Dwolla
 date: 2026-08-11
 aliases: [Dwolla, Qualls, Diwala, Duwalla, the ACH provider, the third-party ACH rail, Marc Lee, Mark, Nancy Baccam, Nancy]
-source-count: 2
+source-count: 4
 open-commitments: 2
-open-questions: 3
+open-questions: 4
 ---
 
 # Dwolla
@@ -39,6 +39,14 @@ On the [[wiki/meetings/2026-08-11-dwolla-reserve-reduction-negotiation.md|Aug-11
 
 *(Personal and family remarks from the call's small talk are not recorded, per §15.8.)*
 
+## Nov 5 2026 — Dwolla stays the primary ACH rail; it does not store cards, so the secondary card payment needs another provider (MVP 3); Pavel: Dwolla was sold to a larger player that has card payments
+
+At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian) [[wiki/people/andrei-klimovich.md|Klimovich]] put credit-card payment of location invoices into MVP 3: a location should have two payment methods — the primary "наш IC hound [ACH]" and a secondary card "на случай, если спрайт [heard] чтото не так пошло" — "Вот это двола не делает, она не поддерживает взять в кредитную карточку и както её там хранить и и использовать. В случае чего значит, надо искать другого провайдера и его интегрировать"; finding and securing a card provider is "такая же большая задача, как когдато заняла интеграция двола". [[wiki/people/pavel.md|Pavel]]: [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] "делал спайк и. Изучил, что мы можем в принципе через этот самый сервис страйп [Stripe]. Делать оплату"; and "не знаю, насколько это живой вариант это то, что долото [Dwolla], в общемто они они продались комуто они принадлежат, какомуто там крупному игроку. У которых уже функционал оплаты через кредиткарт тоже есть" [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. The buyer is not named; whether this is market knowledge or hearsay is not said — recorded as Pavel's statement. See [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]].
+
+### Open questions (Nov 5 2026)
+
+- Who bought Dwolla, and can its card-payment function serve as JVL's secondary payment method? — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+
 ## Open commitments
 
 - [ ] Marc Lee (Dwolla) — take the reduced-reserve request to Dwolla's risk team and come back with a number — due Aug 12–13 2026 (Val: "tomorrow the day after"; Marc: "Yep") — [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
@@ -54,3 +62,5 @@ On the [[wiki/meetings/2026-08-11-dwolla-reserve-reduction-negotiation.md|Aug-11
 
 - [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 - [[raw/Meeting_Notes_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]

@@ -3,9 +3,9 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 76
+source-count: 82
 open-questions: 1
-open-commitments: 26
+open-commitments: 28
 ---
 
 # Alexei Khamin
@@ -358,6 +358,19 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - Who writes the instruction for installing on factory firmware through update.bin? Khamin raised the need; no owner named — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — hardware autotest fixes; the Flex IQ emulator may run earlier for two-terminal tests; the programmer package is .hex plus STLDR, he hands Sergey the files and the flashing script
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian): "по железу по авто тесту по запуску… Небольшие правки ещё в тест… потому что чтото в реклатах может уже изменилось"; "Возможно, запуск аккумулятора [emulator] FQ на ранее. То есть можно уже, что вы тесты проходили, которые требуют там 2 терминала" — [[wiki/topics/test-automation-strategy.md]] (Nov 5). To Tsymanov's programmer question: "либо хексом, либо эльфом прошивается. Да мы обычно хексом прошиваем… основное приложение это и есть точка хекс"; the STLDR helper "нужен"; the .bin is not; "в артефактах есть… Я Сергею всё дам и скрипт там… В папке mannel flash" — [[wiki/decisions/2026-11-05-server-releases-and-grafana-log-optimisation-are-mvp-2-after-the-accounting-host-the-programmer-package-is-hex-plus-stldr-and-the-half-minute-rule.md]], where the commitment is tracked [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]. At the scope review the notes name him as the assignee of the Pyramid bill-acceptor capability; the transcript's "назначил на Алексеева" reads as Alekseev — queued, see [[wiki/decisions/2026-11-05-mvp-1-is-planned-for-monday-november-9-internally-and-the-client-is-told-wednesday-and-the-pyramid-bill-acceptor-is-tested-remotely-on-an-echo-cabinet-in-georgia.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]].
+
+## Nov 6 2026 — the full hardware autotest run: about 66% start and pass, about 30% do not start yet; some failures are real bugs to carry into the tests; small port-test fixes himself, otherwise the author; the Flex-Port view on STG not yet checked
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "у меня авто тест дальше по железу идут сейчас вот полный прогон сделал. Ну где то 66%. Запускается, проходит… процентов 30 там ещё не запускаются, поэтому надо этим работаю… какието сейчас выдало там ошибки по ходу… это реальная базель [heard]. Это справки надо в тест. Уносить"; it runs the port, the emulator and the IQ together ("всё вместе, да"); Irina: the port tests need periodic fixes because the requirements changed; he: "если по мелочи, то я сам обновлю. Если нет, то буду автора искать"; asked whether he had checked the Flex-Port view Tsymanov deployed on STG: "Нет, ещё не проверял" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/topics/test-automation-strategy.md]] (Nov 6). Samusenko cited "разговора с Алексеем вчера" that the test IQ runs the MVP 1 build; Irina proposed updating it to the new build after his run. The Nov-5 programmer-files hand-over to Tsymanov was not mentioned.
+
+### Open commitments (Nov 6 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — get the remaining ~30% of hardware autotests to start, carry the real bugs into the tests, and fix small port-test issues himself — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — check the Flex-Port view Tsymanov deployed on STG (the notes' undertaking; on the transcript only Irina's question and his "не проверял") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -436,3 +449,9 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]

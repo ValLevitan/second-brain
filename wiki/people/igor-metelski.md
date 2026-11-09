@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 68
+source-count: 72
 open-commitments: 32
 open-questions: 1
 ---
@@ -326,6 +326,14 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — profile on NAD 2 locally; close the Conversion task and the old performance bug (the QR-autoplay crash stays open); sync with the designers on the NAD 2 tasks and the December timing — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Nov 5 2026 — "stop pulling Anton into meetings and he'll build the engine fast"; Nebraska 2 profiled, invisible animations removed; GCM3 loses a little video performance, not critical; "the main thing is to film the help"
+
+At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-georgia-handpay-tilts.md|Nov-5 stand-up]] (Russian): on the engine — "если мы не будем дёргать с антонами митингами, но он нам быстро просто сделает движок. Может, уже соберемся с готовым?" (Irina: "Нет, нельзя"); Friday also holds the competitor-mechanics meeting — [[wiki/decisions/2026-10-29-the-new-engine-is-fully-described-and-split-into-mvp-1-2-3-with-schedules-and-a-test-environment-before-code-and-anton-igor-and-alexander-build-it-together.md]] (Nov-5 note). His work: "по ндраски 2 сделал профилировку поубирал несколько невидимых анимаций… в г к м 3 это тоже уехало… чуть чуть потеряли в перформансе" on video — a designer had copied a video animation onto something ("пикмеш", heard); not critical; the Nebraska-specific problem does not affect the GCM3 re-issue; he keeps adding resources — [[wiki/projects/nebraska-skill-market.md]] (Nov 5). To Kharetski on filming competitor games: "Самое главное хелп снять" — [[wiki/decisions/2026-10-30-competitor-games-are-studied-for-new-mechanics-not-maths-only-in-jvls-markets-and-the-video-method-is-first-proved-on-jvls-own-games.md]] (Nov-5 note). His remark "это как будто бы отдельный митинг" during the checkbox debate triggered Pavel's half-minute rule [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]].
+
+## Nov 6 2026 — Nebraska 2: inserting designer resources as they arrive, with the designers' comments on some functions; a feature for another game the day before
+
+At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian): "Меня не браска 2 [Nebraska 2]. Получается, по мере Того, как дизайнеры кидают ресурсы, вставляю их ещё иногда у дизайнеры бывают ну какието комментарии по поводу некоторого функционала. Мир вчера делал фичу для джамбриллиант [heard — the game is **unclear**; the notes: another game]. Ну короче, в основном сейчас у меня не просто" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/projects/nebraska-skill-market.md]] (Nov 5, continued). On the stand-up time: "Тогда нельзя быть на час 8… мы растядем, поэтому я предупреждаю" — scheduling, not recorded further.
+
 ## Sources
 - [[raw/Meeting_Transcript_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
 - [[raw/Meeting_Notes_New_Game_Engine_Requirements_and_Spikes-October-29-2026.md]]
@@ -396,3 +404,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
