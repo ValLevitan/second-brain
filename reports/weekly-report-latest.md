@@ -1,53 +1,36 @@
-# JVL second brain — weekly update, 31 October 2026
+# JVL second brain — weekly update, Saturday November 8 2026
 
-## The short version
-
-**14 meetings came in, from Saturday 24 October to Friday 30 October.** There was no new South Dakota report this week. I tested 146 facts against the recordings by hand, and all 146 were right. I also tested 133 quotes picked at random, and all were right. Everything is saved and sent to GitHub.
+This week's update completed. Everything checked out.
 
 ## What came in
 
-**1. The new game engine and Miranda (29–30 October).**
-- On 29 October you stopped Miranda development. You see no future in it. Miranda is not the base for the new engine. It must be preserved properly (prose, data contracts, repositories).
-- Your order of work for the new engine: describe the full engine, split it into MVP 1, 2 and 3, make the schedules and a test environment, and only then write code.
-- Anton, Igor and Alexander (Biratka) build it together, not Anton alone.
-- MVP 1 must let Claude run the engine on the designer's computer.
+Seventeen meetings from Friday October 30 (afternoon) to Saturday November 7. One late Oct-30 recording, five Minsk stand-ups, two Felipe sales calls, and nine planning or design meetings. One Teams chat capture (the IO-board repair chat) was set aside as out of scope, as the rules say.
 
-**2. The AI game design agent (24, 29 and 30 October).**
-- Evgeny Kharetski showed the agent twice. It writes game briefs in Teams and leads a designer who is stuck.
-- On 24 October you ruled: code is the only source of truth, not Confluence. Claude will build a wiki page for each old game from the old SVN code.
-- On 29 October Bosik proposed one company second brain for all AI agents, with access limited for each agent. The game agent gets game knowledge only, no meetings and no transactions.
-- You asked for one full test: from a brief to a finished game on the production server.
-- On 30 October you ruled: study competitor games for new mechanics, not maths, and only games in JVL's markets. The method is tested first on JVL's own games by 6 November.
+Note on the run itself: the Saturday-morning run stopped partway after writing its first meeting. The evening run found that work intact, kept it, and finished the week. Nothing was lost or redone.
 
-**3. NOVA remote update (30 October).**
-- Remote update is for NOVA only, and Texas comes first.
-- The full design is written first; the MVP split comes after. The review is Friday 6 November, 9 AM.
+## What the brain learned
 
-**4. Flex-Port and the stand-ups (26–30 October).**
-- The Flex-Port now counts meter pulses from 30 to 150 ms, because a Banilla machine pulsed at 125 ms.
-- A second cash-out inside the timeout is added to the first one.
-- The screen shows the cash-out amount in whole dollars as the pulses come in.
-- The first installs go in bill-validator plus pulse mode. SAS worked only with Aristocrat.
-- New team rules: Claude branches must carry a Jira number and be deleted when the task closes, and Claude is never a co-author of a commit. The default build button must build with default settings.
-- Yavorski is blocked from merging into the Flex-Port main code.
+- **Class A (Georgia).** On Oct 30 party time moved off a flat $50: wins now scale with the bet, the paytable is never capped, and bets move in 25-cent steps on screen. On Nov 6 the numbers were set: max bet $3, free spins stay, party time takes 12% of the return at about 1 in 240, total return about 92%, no progressive. The software will support either a bill acceptor and printer, or two QR scanners with the kiosk ticket as the wallet. Production on NOVA starts in January after Nebraska.
+- **Georgia V4 and Colombia.** You confirmed another Georgia software release with "perceived persistence" games. Colombia gets 6 to 12 Class 3 games on NOVA, made from the updated Georgia games, before the contracts expire in December 2027. Market questions go to Martha as structured lists.
+- **What "done" means.** On Nov 4 you ruled that a release is done only when the cleaned build sits on the production server under a number. Ivan is release manager, reporting to Irina. Claude writes the release notes and an exception report. "Request Review" leaves the feature workflow. You also forced the Flex-Port build download into MVP 1: "if the client cannot take it, it does not exist."
+- **MVP 2 cut down.** On Nov 5 MVP 2 was narrowed to Wi-Fi, remote Flex-Port update, robust installation and install diagnostics, due November 20. MVP 3 is aimed at about January 20. MVP 1 is planned for Monday November 9 internally, with the client told Wednesday.
+- **Georgia tilt bug.** The Intralot block was a false handpay caused by the Collect button on tilt dialogs. Your rule: "a tilt is a tilt" — during a tilt the machine does nothing else, on every machine. The fix ships free with the RIS improvements, to Eclipse on November 16.
+- **Modems.** The modem stays always on. An operator who refuses it can switch it off only through a deliberate QR-scan and activation-code routine. Scope is about three days of work.
+- **NOVA 2.** Rage is finished. NOVA 2 is Anton's Rust engine with Lua-scripted games and a studio with a built-in agent. The team agreed to work agile, code first. All work moves into corporate repositories under Bosik. The sound library is being rewritten in Rust.
+- **Remote update and registration.** Every software component is signed separately, with one server signature at update time. Registration and RIS move into Cloud Galaxy. At the Saturday session only two things were decided: at manufacture only the base must come up, and there is no jurisdiction check at registration. The one-scan serial scheme and the Dallas-chip replacement are still open, and you took the transcript to think.
+- **Sales.** You set a rule of thumb for software upgrades: about $500 a game, $7,500 for a 15-game library, about $1,500 for a premium game. Felipe does not quote trade-in prices; you are in the middle of every trade-in deal. Ray's 5-plus-5 D27 order goes to Nebraska.
+- **New person.** Daniil Stauskiy, the Minsk developer rewriting the sound library, now has his own page.
 
-**5. Reports and hardware (29 October).**
-- Tableau is dropped. Machine reports become an Excel export from the old CMS, limited by role and region, 6 months at most, ready by 7 November.
-- Nathan showed the first data contract written by the AI agent. The agent's instructions move to the persona repository. Next review is Wednesday 4 November.
+## Held for you
 
-## What the wiki learned
+- Someone said "we lost our product owner, nobody can replace him" at the Nov 6 remote-update review. The transcript gives no name; the notes say Juan. The brain recorded it as a guess only. Who, and when?
+- Your Nov 6 "code first" agreement narrows the Oct 29 order to describe the engine fully before code. The brain annotated the old decision rather than closing it. Confirm or close it.
+- You told Klimovich "since yesterday you are already ours". Whether his status changed formally is not in any source.
+- The Nov 1 release date has slipped (you said 40 days late on Nov 4) and no new date replaced it. The plan of record stays, with the actual beside it.
+- Several names are recorded as guesses: Slava (modem document), Artur (Nebraska updates), the Georgia SIM location, two unresolved Andreis, and the Pyramid acceptor owner (Alekseev or Khamin).
 
-- **13 new decisions** and 14 meeting pages. No new people.
-- **Changed:** the 5 October rule that reopened a finished feature by itself is dropped. Now the person who made the story moves it by hand.
-
-## For you
-
-1. **Your staffing talk with Pavel and Irina (29 October).** You asked that it stay between the three of you. I kept the staffing plans and the views on named people out of the brain. Pay talk is also out, by the standing rule. Should any of it go in?
-2. **Efim and maths (24 October).** You said JVL may soon not need someone like Efim to make maths; he would only check it. I kept it as your view, not a decision. Is that right?
-3. **Yavorski.** He still merges old code, and he is now blocked. Pavel will ask you if the work with him is over.
-4. **Who writes up the mechanics of JVL's newer games:** Igor or Evgeny Kharetski?
-5. **Persona repository and the company second brain.** Both came up on 29 October. How do they fit together?
+Personal passages in five transcripts were cut at intake and are not in the brain. No pay or compensation was recorded.
 
 ## Health
 
-Everything checked out. The October month-close check runs next week, because files for 31 October may still arrive.
+Everything checked out. 172 facts were checked by hand against the recordings and all 172 held. Twelve older facts were re-checked and all hold. The catalog is exact, no broken links, no orphan pages. One housekeeping fix: 95 catalog lines had fallen behind their pages' source counts and were refreshed.
