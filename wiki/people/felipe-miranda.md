@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 116
+source-count: 120
 open-commitments: 24
 open-questions: 0
 ---
@@ -493,6 +493,10 @@ On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing
 - **Ray's reports.** Ray "was more pessimistic that the actually the actual numbers showed"; Felipe argued "let's compare the average… location average. That's what everyone does" — against Aristocrat's number; "we're actually ahead Fort Knox". His aim: "Once he sees the numbers, we'll start getting orders from him" [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
 - **§15.8:** clear on both calls.
 
+## Nov 10–12 2026 (in absentia) — he told Val about a modem install problem; a production build for him
+
+On the [[wiki/meetings/2026-11-11-georgia-modem-failure-after-old-software-on-elizabeth-machines.md|Nov-11 8:57 AM call]] Val said Felipe told him "вчера" about trying to install the modem, with maybe two machines failing — the Georgia modem failure on Elizabeth's machines — [[wiki/projects/georgia-market-rollout.md]] (Nov 11, 8:57 AM) [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]] [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]. At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] Ivan will build production after lunch and give it to him, at Irina's wish, "Чтобы он посмотрел" — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 12) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
 - [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
@@ -611,3 +615,7 @@ On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]

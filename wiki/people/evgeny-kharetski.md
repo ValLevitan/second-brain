@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 117
+source-count: 121
 open-questions: 1
 open-commitments: 19
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -450,6 +450,14 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian) he reported that after a brief is approved his agent gathers the brief and references, archives them and opens "Сервис тикет на Андрея" for the repository, because the agent may not create GitHub repositories; the second brain's game wiki ("15 из гкуам 3" — heard) and the maths are not loaded yet — Val made it his Tuesday undertaking ("Да"), with Efim's emailed material to read "к следующему митингу"; next, loading the game repository into the engine so the flow starts with Igor's; he asked about local models; on the template repository, "я пас" — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
 
+## Nov 12 2026 — the agent (wiki, maths, service tickets); RIS performance; the LTE on/off tasks still in planning
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): the agent — to load it with the wiki and maths ("Вики и математикой") and test service-ticket creation; on RIS performance, Ivan found and fixed bugs — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 12); the LTE on/off tasks "97 98 99" (Pavel) "еще не в работе, потому что сейчас только на стадии планирования" — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-12 note) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+## Nov 13 2026 (7:01 AM) — LGS will work but the build is not ready; he writes the integration-repository actions for a first ISO by Tuesday; his game-design agent moves to the next plan
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian; many lines under his label are a microphone echo of Biratka or Metelski — only his own are used): "Элджи состояние в том, котором он запустится на машине и будет работать игр у нас нету. И билдера тоже ещё нету"; the hardware services are not integrated and not in the ISO; peripherals work only in autotests; LGS builds as a Docker container on every pull request and main. To Val: "Но я сказал, что элджи с работ будет работать, не сказал, что сборка готова." Monday — "Я, я не уверен"; Tuesday — "Может." His "Гейм дизайн агент" moved to the next plan. Plan: write the build actions, then integrate Anton's game repository into the build — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -570,3 +578,7 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 - [[raw/Meeting_Notes_Trial_Game_Review_Aristocrat_Mechanic_Not_Built_on_Rage-November-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

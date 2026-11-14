@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 75
+source-count: 77
 open-commitments: 17
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -329,6 +329,10 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian, label "Ivan Shpak"): "всего там 37 закрыто 36… Я досмотрю"; he puts the build names "в шапке" of the release notes; the port shows only "вы один" (heard) where the Flex IQ shows "206"; today he updates the release notes, and after Klimovich's green light moves all capabilities to Closed and releases the version in Jira — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 
+## Nov 12 2026 — Pavel's fix checks out quickly; RIS performance; a production build for Felipe after lunch; "не затягивайте" on the LTE modem; a printer question for Pavel
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian; label "Ivan Shpak"): Pavel's fix "вроде всё у меня отработало" in a quick check; RIS performance and the production build for Felipe — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 12; commitment there); on the LTE modem, "просто не затягивайте, пожалуйста" — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-12 note); he asked Pavel to come by after lunch: "есть вопрос… по принтеру просто поведение… надо как то им отписаться" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. With Metelski he is working on a Windows patch for GLI — [[wiki/organizations/gli.md]] (Nov 12) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -406,3 +410,5 @@ At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-produ
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]

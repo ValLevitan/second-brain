@@ -3,7 +3,7 @@ type: decision
 title: The game sound library is rewritten in Rust on PulseAudio and lives in the engine, not the LGS — the LGS drives it through an API; the Kira library is dropped for now; the existing FMOD sounds are converted by a tool from FSB to FLAC with JSON descriptions, so Vlad's work is kept and he can go on with his own tools (Pavel, Biratka and Daniil Stauskiy, Nov 2 2026)
 date: 2026-11-02
 aliases: [sound library in Rust, Rust sound library, PulseAudio sound library, Kira dropped, FSB to FLAC, FMOD sounds converted, JSON sound description, sound library lives in the engine not LGS, самодостаточный пульс аудио, библиотека на расте, маленький конвертер]
-source-count: 14
+source-count: 16
 status: active
 open-commitments: 3
 open-questions: 3
@@ -84,7 +84,11 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 ### Open commitments (Nov 11 2026)
 
-- [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — finish sound playback in the engine, with sounds and their names kept in the Lua scripts — due Nov 12 2026 ("завтра") — [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — finish sound playback in the engine, with sounds and their names kept in the Lua scripts — due Nov 12 2026 ("завтра") — [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] — *Nov 12 2026: in progress — the Studio mode button and sound switching done; "буду комитить уже и открывать пьер"* — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+
+## Note, Nov 12 2026 — game sounds stay in the game, system sounds go to the framework; clicks inside the setup screens stay in setup; the speaker test is played by the framework on a command from setup
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]]: in the Studio "добавил кнопочку мод… добавил переключение кнопки"; "буду комитить уже и открывать пьер" [pull request] [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. His question: sounds that belonged only to the LGS were stored and called there, but now "у нас чисто движок со звуком работы", so they must move to the framework or the engine — e.g. the speaker check, left and right [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/alexander-biratka.md|Biratka]]: "звуки будут в игре, а системные… во фремворк. Ну, соответственно, игровые в игре"; inside the LGS only a click is needed, which could be the game engine's standard one [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/pavel.md|Pavel]]: "Вот эти вот все клики, которые внутри интерфейса с этапа [setup]. Наверное, пусть он в сетапе и живёт этот звук, а если нам надо будет запустить именно тест звука? Ну, наверное, надо тогда действительно отправить какуюто команду. Во фреймворд типа проиграй своими средствами, звук, наверное, так будет правильнее"; a framework call on every click "Выглядит как стрельба из пушки по воробьям"; Biratka: before, the framework asked the LGS on every click; Pavel: "это было в омне, но это не было в рейдже" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Daniil: "Хорошо" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. The notes record it as a decision (Pavel; Daniil agreed) [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
 ## Sources
 
@@ -102,3 +106,5 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 - [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]

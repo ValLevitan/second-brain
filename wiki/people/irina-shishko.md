@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 210
+source-count: 217
 open-commitments: 47
 ---
 
@@ -899,6 +899,18 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 
 At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian) she had Ivan joined "Чтоб у нас не было передаточных механизмов", confirmed the 37th capability is closed and nothing was built after the November 3 IQ build, asked whether Klimovich accepts the release before the capabilities close, and recalled "мы договаривались, что клоуст не переоткрывается"; build names, not links, in the release notes — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 
+## Nov 12 2026 — the current project's capabilities and tests; the recycler meeting Val set; no meeting with Andrei booked
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): "продолжаю разбирать capility текущего проекта и тесты начала писать"; on the recycler review, "Вал поставил. На 14 45 митинг" — [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] (Nov-12 note); she asked Chudinov to create features where possible and found no meeting with Andrei booked ("Так митинга нет нужно создавать") — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-12 note); she wants Ivan's production build given to Felipe — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 12) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+## Nov 12 2026 (6:53 AM and 8:33 AM) — the bonus read back; who writes autotests; two releases, IQ and port first; "почему 19?"
+
+At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] (Russian) she read the $20 bonus back ("Сбросил 20, получил 22. А если вбросил 50?") — [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]]; asked who writes autotests: "пока больше пишем я и Владимир. И ксенияша" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. At the [[wiki/meetings/2026-11-12-mvp2-capability-review-goods-category-master-role-and-release-split.md|8:33 AM MVP 2 review]] she proposed "2 релизы" — IQ and port on the 20th, the server about five days later — "Мы их не сделаем за неделю"; she writes autotests for accepted requirements and is one of two people who may create releases — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]]; she asked "почему 19?" for the recycler date — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
+
+## Nov 13 2026 (7:01 AM) — the brief converter replaces the Rage converter later; Dakota on NOVA is a certification headache
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian): in the brief stage "этот рейс конвектор, он пропадёт вот этот квадратик, а появится новый конвектор с брифдизайном" (heard); Anton agreed. On Dakota as the first NOVA product: "Такая головная боль для сертификации" — start first where fixes are quick. She named Sergey Tsymanov ("Сергей цимонов цыманов") for the production download screen — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1112,3 +1124,10 @@ At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-produ
 - [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

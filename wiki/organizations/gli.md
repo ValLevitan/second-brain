@@ -3,7 +3,7 @@ type: organization
 title: GLI (Gaming Laboratories International)
 date: 2026-07-12
 aliases: [GLI, Gaming Laboratories International, GLC, start with GLI, they are the most savvy, they will ask for a payment, Puerto Rico Gaming Board, light certificate]
-source-count: 6
+source-count: 8
 ---
 
 # GLI (Gaming Laboratories International)
@@ -60,6 +60,10 @@ At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-
 - **A competitor's first GLI work.** Zephyr had "never been Gli certified before" (it used another lab for Georgia), got GLI certification for Puerto Rico, and says that "Kickstarted the class three for us". [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - **No date or product** for a JVL submission was set. See [[wiki/projects/puerto-rico-expansion.md]].
 
+## Nov 12 2026 — a working patch to run under Windows for GLI
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 Minsk stand-up]] (Russian) [[wiki/people/igor-metelski.md|Igor Metelski]]: "С ваней пытаемся для джила [GLI] сделать рабочий патч для запуска под виндовс"; "сейчас у них не стартовал дота центр [heard]. Вот и там надо разбираться, какая у них жаба [Java] стоит" — with [[wiki/people/ivan.md|Ivan]] [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. What the patch is for is not said.
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
@@ -68,3 +72,5 @@ At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-
 - [[raw/Meeting_Transcript_NOVA_Game_Change_Regulatory_Procedure-September-11-2026.md]]
 - [[raw/Meeting_Notes_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]

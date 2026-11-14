@@ -3,9 +3,9 @@ type: decision
 title: A task moved to To Do must carry a due date, set by whoever moves it (not necessarily the doer) — the rule goes into the Jira standard so every developer's Claude sets it; the creator does not put a new task straight into To Do; Jira gets no hard block on an empty date (a next-day notice instead); due dates are needed at least at feature level, and small features need not be split into stories
 date: 2026-11-09
 aliases: [due date rule in the standard, due date when moving to To Do, давайте это просто впишем стандарт, Claude sets the due date, no hard block on empty due date, запрет перевода в статус ту ду, creator does not put a task straight into To Do, создающий не должен эту задачу сразу в туду, whoever moves it to To Do sets the date, due date at feature level, хотя бы на уровне фич, 30 tasks without a due date, Friday report missed 30 tasks]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 1
+open-commitments: 2
 open-questions: 0
 ---
 
@@ -53,9 +53,19 @@ open-questions: 0
 
 At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] Kovalchuk sent the new version of the standard "в статусе черновик", comments welcome, "и смотрите сроки"; Kharetski: "Сейчас я подключу этот. Кладу вот то, что дима скинул новые новые эти. Стандарты" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. Whether the draft contains exactly this rule is not said in the sources.
 
+## Note, Nov 12 2026 — Kovalchuk's Gantt: almost nothing overdue or open more than 14 days, but many tasks have no date; the Jira agent has no right to set a date; Samusenko builds a plugin that loads the standard into Claude
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] showed the Gantt chart ("грант", heard): "Целом неплохая картина. Просроченных задач практически нету. Те, которые открыты больше 14 дней, тоже практически нету"; some open features have closed parents and must be checked; "очень много сдач, которые у которых нету сроков… Нужно поставить" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/vladimir-samusenko.md|Samusenko]] is building "Плагином, который будет подключать стандарт… и клод будет ориентироваться на. То, что в стандарте при работе" (Kovalchuk) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/alexei-khamin.md|Khamin]] asked whether the agent adds a date; Kovalchuk: "он не может, у неё нет разрешения на установку даты"; Khamin: "он просто не предупреждает, поэтому она улетает. Я даже не знал" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Which agent ("Этот IPM", heard) is **unclear**. Who sets the missing dates was not named [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+### Open commitments (Nov 12 2026)
+
+- [ ] Unassigned (Kovalchuk's Gantt finding; no owner named) — set due dates on the tasks that have none, and check the open features whose parents are closed — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]

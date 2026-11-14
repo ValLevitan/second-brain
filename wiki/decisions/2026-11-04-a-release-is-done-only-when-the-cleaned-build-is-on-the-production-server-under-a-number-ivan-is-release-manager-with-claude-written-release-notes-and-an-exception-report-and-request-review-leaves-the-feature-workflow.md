@@ -3,7 +3,7 @@ type: decision
 title: A transactional release is "done" only when the cleaned production build sits on the production server (the AWS S3 store) under a number, and from then on only bug fixes go in — anything else is MVP 2; the release manager (Ivan, under Irina) has Claude write the release notes and check them against the MVP capabilities and the prose, giving a compliance report and an exception report, and a failed check fails the release; the Jira flow is feature Completed → Done after the end-to-end test, capability → Completed, and after the release capability → Closed, requirements never closed; "Request Review" leaves the feature workflow (or design features are split off); Pavel writes the release standard into the standards repository (Val, Nov 4 2026)
 date: 2026-11-04
 aliases: [what done means, что означает готов, release on the production server, релиз с продакшн сервера, moment of truth, границу между рынком и инженерной, no calls to Pasha on Saturday, не хотим звонить паше в субботу, release manager Ivan, релиз менеджер Иван, Claude writes the release notes, compliance report and exception report, комплаенс репорт эксепшн репорт, exceptions go to product ownership, Jira release flow, features Completed to Done, capabilities Completed to Closed, requirements never closed, Request Review removed from the feature workflow, реквест ревью убрать, split design features from development features, release standard in the standards repository, стандарт по релизам, Kovalchuk removes Request Review, red build-error marker on a Completed item, nobody loses GitHub access, rebuild any version from its tag]
-source-count: 8
+source-count: 10
 status: active
 open-commitments: 8
 open-questions: 2
@@ -108,6 +108,11 @@ Val: "просто для транскрипта, я хочу, чтобы это
 - **The order made explicit.** Ivan updates the release notes; [[wiki/people/andrei-klimovich.md|Klimovich]] as product reviews, installs and gives a go / no-go; then the release manager moves all capabilities to Closed and releases the version in Jira. "мы договаривались, что клоуст не переоткрывается" (Irina) — a later gap goes into a new amendment capability (Pavel) — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]. Ivan's commitment above is carried there (annotated, kept open). The release standard (Pavel's commitment) and the Done-vs-Closed question for features were not raised.
 - **Val.** "а почему мы всё выдумываем?… весь мир уже это делает"; Bosik (CI/CD) should be at release meetings, the developers not [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 
+## Note, Nov 13 2026 — Val sets the same test for NOVA
+
+- At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] Val asked for proof that NOVA works and set the test: "Мы можем собрать только через CICD? Значит там должны быть написаны акшинс, которые собирают, ставят это на продакшн сербер"; the build is taken from the production server by link, put on a USB stick into a machine, and the machine runs — "Единственный эталон сделанного". A quick local build to check performance is allowed as an extra step [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- Pavel: the production server is S3 and today only payment-terminal builds have a download screen; a NOVA build there could be fetched only by Bosik through an admin panel. Val took an undertaking to make the screen show new products — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
@@ -118,3 +123,5 @@ Val: "просто для транскрипта, я хочу, чтобы это
 - [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

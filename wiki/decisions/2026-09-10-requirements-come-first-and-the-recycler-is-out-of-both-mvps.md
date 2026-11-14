@@ -3,10 +3,10 @@ type: decision
 title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
 date: 2026-09-10
 aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
-source-count: 16
-status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update); on Oct 1 2026 the engineers said they work from the mock-ups first because the requirements are abstract (see update)
-open-commitments: 5
-open-questions: 3
+source-count: 22
+status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update); on Oct 1 2026 the engineers said they work from the mock-ups first because the requirements are abstract (see update); on Nov 12 2026 Val gave the recycler its own MVP 1 (production server by Thursday Nov 19) and MVP 2 — it stays out of the transactional MVP 1 and MVP 2 but is no longer waiting for MVP 3 (see Nov-12 note and wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md)
+open-commitments: 6
+open-questions: 1
 ---
 
 # Requirements first, then the MVP split — and the Flex-Recycler is out of both
@@ -79,7 +79,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 ### Open questions (Nov 4 2026)
 
-- Does Flex Pay MVP 3 come first, or a separate Recycler MVP (for Texas)? Pavel takes it to the business — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [x] **ANSWERED Nov 12 2026 — the recycler first, with its own MVP (Texas).** Does Flex Pay MVP 3 come first, or a separate Recycler MVP (for Texas)? Pavel takes it to the business — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
 ## Note, Nov 9–10 2026 — Biratka builds the new recycler on the Pay platform; it answers statuses and switches; the old recycler leaves the project "как сказал вал"; the Flex-Pay changes move into the Flex Recycler
 
@@ -91,7 +91,23 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 ### Open questions (Nov 11 2026)
 
-- Does the recycler go into MVP 3 (Jan 20 2027), and is it left out for Georgia? (Pavel, in passing) — [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [x] **ANSWERED Nov 12 2026 — not MVP 3: its own MVP 1 on Nov 19, and Texas first.** Does the recycler go into MVP 3 (Jan 20 2027), and is it left out for Georgia? (Pavel, in passing) — [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+
+## Note, Nov 12 2026 — the recycler commands go into JVL's own Rust bill-validator service (version 0.7, checked on Flex-Pay); the vendor's library is only a reference; it builds for x86 and ARM; the recycler capabilities now need a review, and Val set a meeting at 14:45
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]]: "Я работаю над рисалером щас"; "В библиотеку поднял до версии там 07"; "проверил на flix pay"; it is used "как сервис" and "Вроде нигде больше сломаться не должна" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Asked by [[wiki/people/pavel.md|Pavel]] whether he took the vendor's own library: "Я использовал библиотеку от поставщика просто как источник информации и нарасте [in Rust] было написано добавление нужных команд к нашему сервису, который работает с билаксептором"; the protocol adds commands "на выдачу купюры там перемещения по барабану", while initialisation, reset and the like are the same as for the acceptor [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Pavel: "То есть мы их библиотеку армовскую вообще никак не берём… Всё абсолютно наша, и его можно собрать и под икс 86 и под аром"; the "07" is the version of the Rust service — Biratka: "Сервису да" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Which serial protocols the service covers (Pavel asked about "айдизеро зиро 3" — ID-003, heard — and another, heard "may") is **unclear** on tape [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+Pavel: "нам с тобой, тогда как минимум с тобой, как максимум с ирой и с Андреем. Надо будет начинать тогда работать со всеми. Вот этими копобилити, которые для риса айклера. Требования пересматривать, находить несоответствие" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Biratka: that day with Andrei was MVP 2 for the transactional products, "То есть рисайлер пока не будем"; [[wiki/people/irina-shishko.md|Irina]]: "Вал поставил. На 14 45 митинг" (the notes: 14:45 Minsk time) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. "Андрей" = [[wiki/people/andrei-klimovich.md|Klimovich]] by the requirements context (**inference**). Which MVP the recycler belongs to is not restated.
+
+### Open commitments (Nov 12 2026)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/alexander-biratka.md|Alexander Biratka]], [[wiki/people/irina-shishko.md|Irina Shishko]] and [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] (inference) — review the recycler capabilities and requirements and find the gaps — due unspecified (Val's meeting set for 14:45) — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+
+## Note, Nov 12 2026 (6:53 AM and 8:33 AM) — the recycler gets its own MVP 1, on the production server by Thursday November 19, and its own MVP 2 a week later; Texas, e-wallet only
+
+At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] (Russian) [[wiki/people/pavel.md|Pavel]] reported the recycler up — "поднял этот ресайтлер сказал, всё отлично нравится очень сильно" — with about two days of bring-up left, and the old capabilities without acceptance criteria; [[wiki/people/val-levitan.md|Val]]: "Настаиваю, чтобы MVP один был сделан где то в четверг… Поставлен на продакшн сервер", whatever does not fit goes to an MVP 2 "через неделю в четверг", "не двигайте дейт"; Pavel: "мы в первую очередь делаем это для техсос [Texas]?… мы никакого тито тикетов, ничего такого не поддерживаем" — Val: "Так точно" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. At the [[wiki/meetings/2026-11-12-mvp2-capability-review-goods-category-master-role-and-release-split.md|8:33 AM MVP 2 review]] [[wiki/people/andrei-klimovich.md|Klimovich]]: "Флекс пей слим подразумевался в MVP 3… То есть в первую очередь именно ресайтлер"; [[wiki/people/alexander-biratka.md|Biratka]]: "Мвипи один мы планируем к концу следующей недели" — Thursday November 19 — on the Flex-Pay base with the recycler in place of the validator and coin dispenser [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]. The full ruling is on [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]].
+
+What this does to this page: the titular ruling still holds for the **transactional** MVP 1 and MVP 2 (the recycler is in neither), but the recycler is no longer parked for a probable MVP 3 — it has an MVP track of its own — **evolution**. The Nov-4 and Nov-11 open questions above are answered. The Nov-12 (stand-up) commitment above (review the recycler capabilities) is not yet discharged: the review moved to Klimovich's updated capabilities and a Sunday Nov 15 meeting [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -110,3 +126,9 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 - [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]

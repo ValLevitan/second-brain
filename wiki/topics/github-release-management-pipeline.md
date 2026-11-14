@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 120
+source-count: 124
 open-commitments: 1
 open-questions: 11
 ---
@@ -871,6 +871,14 @@ Detail on [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-
 - **Build to release.** CAP-311's link from the shipped build to its release notes was not built; the build names go at the top of the release notes instead, and the Flex-Port label ("вы один" plus a commit — heard) must be made clearer [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 - **Val.** "мы просто не дочитали книгу… мы ничего не должны выдумывать" — Jira and GitHub already describe the process; Bosik (CI/CD) belongs at release meetings [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 
+## Nov 12 2026 — only the ISO image is taken from production, never files from DEV or STG; releases are created right after the meeting, and only by Irina or Pavel; Thursday releases; CI/CD for the recycler and the Texas V43 games
+
+- **ISO from production only.** At the [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] [[wiki/people/alexander-biratka.md|Biratka]] suggested a DEV server first; [[wiki/people/val-levitan.md|Val]]: "Файлы с дафой с т г я разрешаю только ISO имидж брать. С продаж." [[wiki/people/pavel.md|Pavel]]: then "на продакшн сервер должен попадать артефакт, который прошёл… Хотя бы базовый набор автоматических тестов"; Val: that "должна идти своей коллеёй", so keep MVP 1 very limited [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+- **Releases at once.** Val: "делайте планирование, скетчу и делайте релизы сразу. Даже если не полные"; at 8:33 Val: "Андрей не должен создавать релиз… Алиса [релиз] может создать только Ирина или пара [Паша]" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
+- **Thursdays.** [[wiki/people/andrei-klimovich.md|Klimovich]]: "Правильное время для релизов все фильмы в релиз по четвергам" [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
+- **CI/CD owed.** For the recycler — Pavel: "для рисайклера этого нету", Biratka to build it; Val reminded [[wiki/people/andrey-bosik.md|Bosik]] of it for Thursday [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]. For the Texas V43 games — Bosik (Val) or [[wiki/people/alexei-khamin.md|Khamin]] (Pavel) — on [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-12 note) [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+- Rulings: [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] · [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -994,3 +1002,7 @@ Detail on [[wiki/decisions/2026-10-05-hardware-follows-the-developer-repo-model-
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]

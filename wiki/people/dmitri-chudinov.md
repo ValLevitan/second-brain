@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 129
+source-count: 134
 open-commitments: 58
 open-questions: 2
 ---
@@ -787,6 +787,18 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian, label "Dzmitry Chudzinau"): the link from a shipped build to its release notes "не закладывался" for MVP 1, so plan it for MVP 2; Klimovich said it formally was, in CAP-311, and let it go; he pointed to the Flex IQ and Flex-Port version lines in the release notes — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]. Val's "дима" among the developers not needed at release meetings is most likely him (**inference**) [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 
+## Nov 12 2026 — a video mock-up with Andrei; the MVP 2 capability review before any features; the LTE on/off event, activation code and GUI are his
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): main work "с Андреем видеомокаутинхост" (heard; the notes: a video mock-up), maybe a first deploy that day; he reviewed the MVP 2 capabilities, settled product codes, needs Efim on the presets, will comment on each capability for Andrei, and creates no features until the review is done — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-12 note; commitment there); the LTE-modem on/off event and activation code are his, and he does the GUI himself — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-12 note; commitment there) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+## Nov 12 2026 (8:33 AM) — CAP-159 lottery, machine names, CAP-312, the two "masters", Grafana alerting; IQ and port do not wait for the server
+
+At the [[wiki/meetings/2026-11-12-mvp2-capability-review-goods-category-master-role-and-release-split.md|8:33 AM MVP 2 review]] (Russian; label "Dzmitry Chudzinau") his Claude found nothing about lottery in the code base (CAP-159); machine swaps behind a port are invisible; CAP-312's "not connected to master" "в принципе невозможно" (Klimovich had answered his comments); the IQ "master" and the business master are different; alerting is a Grafana task, "не ожидайте никаких фич"; terminals are ready on updates and SIM cards, so "одно как бы не блокирует другое" — the split into MVP 2_1 / 2_2 and the "2 подчеркивания" naming — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]]; he reviews the rest and reads the machine-naming capability [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
+
+## Nov 13 2026 — named as first writer of the production download screen, and as Bosik's possible CI/CD partner for NOVA
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian; not present): Pavel and Bosik said "дима" wrote the production-server download screen first ("И дима сначала сначала дима писал"); Bosik will build CI/CD for NOVA after the first build "с Димой чудиновым или Сергеем цыманом" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -919,3 +931,8 @@ At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-produ
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 59
+source-count: 60
 open-commitments: 5
 open-questions: 2
 ---
@@ -12,32 +12,34 @@ open-questions: 2
 
 JVL's effort to enter the South Dakota video-lottery-terminal (VLT) route market. It began with the MG Oil opportunity (Jan 7) and, by late January, was in lab testing with the South Dakota lottery ahead of a first field release. [[raw/jira_value_stream_distribution_infrastructure_january_7_2025.md]] [[raw/sd_vlt_recap-jan-22-2025.md]]
 
-## Machine performance — current state (report month Sept 2026, received 2026-10-07)
+## Machine performance — current state (report month Oct 2026, received 2026-11-09)
 
-Source: the monthly **South Dakota VLT performance story** for **September 2026**, written by the `sd-vlt-monthly-report` routine from the South Dakota Lottery monthly Game Summary Report for JVL Systems, Inc. It is a document that asserts, not an owner ruling. It was sent to [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] and [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] on 2026-10-08 (00:21 UTC), with the Excel file. [[raw/SD_VLT_performance_story-September-2026.md]]
+Source: the monthly **South Dakota VLT performance story** for **October 2026**, written by the `sd-vlt-monthly-report` routine from the South Dakota Lottery monthly Game Summary Report for JVL Systems, Inc. It is a document that asserts, not an owner ruling. The report was received 2026-11-09; Val sent his own summary with the Excel file to [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] and [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] on 2026-11-10 (02:52 UTC), and Michael replied the same day: "Thank you for the data Val." [[raw/SD_VLT_performance_story-October-2026.md]]
 
-- **The report's headline:** "we sell more machines, but each machine makes less money." [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Terminals:** 55 in September 2026 (56 in August 2026). [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Net machine income:** $122,597 in September (August: $132,949). The report rounds this to $123K — down 8% from August and down 16% from the July peak. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Per machine per day:** $74.30 (August: $76.58), against a state average of $81.75 (August: $80.86). The report calls this 9% below the state average and JVL's weakest month per machine. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Games played per machine per day:** 754 (August: 794; July: 883). The report calls 754 "the lowest ever". [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Average bet:** $1.11 (August: $1.09), "the highest ever" per the report. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Hold:** 8.88% (August: 8.85%); theoretical hold 8.98%. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Cash in:** $377,447 (August: $407,814). [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Games:** per the report, **Wild Colt** and **Lion Riches** "bring in half the money"; **Liberty Spins** and **Dutch Mill** are weak, "at about $7 a day each". *(Wild Colt is probably the title transcripts render as "Wild Cold" / "Wild Cole" / "Wild Cult" — inference, not stated.)* This matches the May-14-2026 read that Dutch Mill and Liberty Spins were South Dakota's two lowest performers (see below). [[raw/SD_VLT_performance_story-September-2026.md]]
-- **The report's reading (its interpretation, not wiki fact):** "It is not bad luck" — the machines kept their normal 8.9% hold; "The real problem is less play." People who do play bet more. [[raw/SD_VLT_performance_story-September-2026.md]]
+- **The report's headline:** "October looks better, but the gain is luck. Play per machine fell again." [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Terminals:** 56 in October 2026, one more than September (55). [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Net machine income:** $138,989 in October (September: $122,597). The report rounds this to $139K — up 13% from September and 5% below the July peak of $147K. [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Per machine per day:** $80.06 (September: $74.30), against a state average of $83.34 (September: $81.75). The report calls this 4% below the state average (9% below in September). [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Games played per machine per day:** 707 (September: 754; July: 883). The report calls 707 "the lowest ever". [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Average bet:** $1.13 (September: $1.11), "the highest ever" per the report — "Fewer games, bigger bets." [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Hold:** 10.02% (September: 8.88%); theoretical hold 8.98%. [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Cash in:** $365,553 (September: $377,447). [[raw/SD_VLT_performance_story-October-2026.md]]
+- **Games:** per the report, **Wild Colt** and **Lion Riches** "bring in 46% of the money, about $18 a day each"; **Dutch Mill** ($8) and **Liberty Spins** ($9) "are still the weakest". Liberty Spins "paid out only 88% in October, so its small gain is luck too." *(Wild Colt is probably the title transcripts render as "Wild Cold" / "Wild Cole" / "Wild Cult" — inference, not stated.)* This matches the May-14-2026 read that Dutch Mill and Liberty Spins were South Dakota's two lowest performers (see below). [[raw/SD_VLT_performance_story-October-2026.md]]
+- **The report's reading (its interpretation, not wiki fact):** "The gain is luck, not play." The machines kept 10.0% of the money played against a normal 9.0%; at the normal hold, October "would have made about $125K, or $72 a day per machine, the lowest ever." [[raw/SD_VLT_performance_story-October-2026.md]]
 
 ### Performance timeline (monthly reports — newest month is current state)
 
-- **About a year before Sept 2026 ("a year ago")** — 6 machines; each made about $164 a day, "twice the state average". Total net machine income was about $29K a month. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **Since then** — the fleet grew to 55 machines and total net machine income went up 4 times, to about $123K a month. Each new machine made less than the ones before. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **April 2026** — per machine, JVL was at the state average. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **June 2026 onward** — mostly below the state average. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **July 2026** — the peak month for total net machine income; 883 games played per machine per day. [[raw/SD_VLT_performance_story-September-2026.md]]
+- **October 2025 ("a year ago" in the Oct-2026 report)** — 6 machines; each made about $173 a day, "twice the state average". Total net machine income was about $32K a month. [[raw/SD_VLT_performance_story-October-2026.md]]
+- **About a year before Sept 2026 ("a year ago" in the Sept-2026 report)** — 6 machines; each made about $164 a day, "twice the state average". Total net machine income was about $29K a month. [[raw/SD_VLT_performance_story-September-2026.md]]
+- **Since then** — the fleet grew to 56 machines and total net machine income went up "more than 4 times, from $32K to $139K a month" (Oct report; the Sept report said 55 machines and about $123K). Each new machine made less than the ones before. [[raw/SD_VLT_performance_story-October-2026.md]] [[raw/SD_VLT_performance_story-September-2026.md]]
+- **April 2026** — per machine, JVL was at the state average. [[raw/SD_VLT_performance_story-October-2026.md]] [[raw/SD_VLT_performance_story-September-2026.md]]
+- **June 2026 onward** — below the state average in every month except July (Oct report; the Sept report said "mostly below"). [[raw/SD_VLT_performance_story-October-2026.md]] [[raw/SD_VLT_performance_story-September-2026.md]]
+- **July 2026** — the peak month for total net machine income, $147K; 883 games played per machine per day. [[raw/SD_VLT_performance_story-October-2026.md]] [[raw/SD_VLT_performance_story-September-2026.md]]
 - **August 2026** — 56 terminals; $132,949 net machine income; $76.58 per machine per day (state $80.86); 794 games per machine per day; average bet $1.09; hold 8.85%. [[raw/SD_VLT_performance_story-September-2026.md]]
-- **September 2026 (current)** — 55 terminals; $122,597 net machine income; $74.30 per machine per day (state $81.75); 754 games per machine per day; average bet $1.11; hold 8.88%. [[raw/SD_VLT_performance_story-September-2026.md]]
+- **September 2026** — 55 terminals; $122,597 net machine income; $74.30 per machine per day (state $81.75); 754 games per machine per day; average bet $1.11; hold 8.88%; cash in $377,447. The Sept report's headline: "we sell more machines, but each machine makes less money"; it read September as "not bad luck" — "The real problem is less play"; Wild Colt and Lion Riches brought in "half the money" and Liberty Spins and Dutch Mill were "at about $7 a day each". It was sent to Michael Gottlieb and Efim Podvoiski on 2026-10-08 (00:21 UTC). [[raw/SD_VLT_performance_story-September-2026.md]]
+- **October 2026 (current)** — 56 terminals; $138,989 net machine income; $80.06 per machine per day (state $83.34); 707 games per machine per day; average bet $1.13; hold 10.02%. [[raw/SD_VLT_performance_story-October-2026.md]]
 
-*(The report states "April", "June" and "July" without a year; 2026 is inferred from the report month. Later monthly reports extend this timeline.)*
+*(The reports state "April", "June" and "July" without a year; 2026 is inferred from the report month. Later monthly reports extend this timeline.)*
 
 ## Market opportunity (Jan 7)
 
@@ -473,6 +475,7 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/SD_VLT_performance_story-September-2026.md]]
+- [[raw/SD_VLT_performance_story-October-2026.md]]
 - [[raw/Meeting_Transcript_Game_Design_Class_A_Party_Time_and_Dual_Box-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]

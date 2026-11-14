@@ -3,7 +3,7 @@ type: project
 title: Texas used-machine distribution (via EDS)
 date: 2025-03-22
 aliases: [Texas market, JAMMA pinboard, Fusion Game Group, Omega cabinets, Torch Amusements, Missouri decal fee, Beaumont, Texas distribution, Texas EDS plan, Texas content prohibition, Texas branch, reconditioned machines, wild boar theme, WPU, PTI, PTI Sentry, Jordan Barberio, Joe Hollow, Joe Hello, Hello Games, Barberio Amusement, Capitol Amusement, Texas recycler test, pure skill state, Fannin County, Stephen Fenoglio, county patchwork, Texas net win, Ken Paxton opinion letter, AMOT, Dennis Bonnen, Texas lobbying, Bob Hall, Texas own locations, Texas front operator, Dannettee Hickman, Texas gas station displacement, recycler against Banilla, ARC trade-in, Austin warehouse, bottomless pit, Halcyon Texas trial, Texas profit share, two machines and a recycler]
-source-count: 73
+source-count: 75
 open-commitments: 17
 open-questions: 9
 ---
@@ -525,6 +525,15 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing.md|Nov-4 4:32 PM call]] [[wiki/people/val-levitan.md|Val]] asked [[wiki/people/felipe-miranda.md|Felipe]], who is quoting a Georgia operator five D27 on trade-in: "you know that our plan is to send the machines to Texas?" Felipe: "I didn't go in depth… I said… we have an opportunity with older games, but I didn't discuss it in depth because it was not a moment." Val also repeated the ARC figure — "George, for trading of his IGTs, he is looking at somewhere $1500 to charge us about $1500" — and Felipe: "I can start there… I'm sure they'd rather have $1,500 than have a machine sitting down in their office." The price rule for the trade-in itself is Val's alone — [[wiki/decisions/2026-11-04-felipe-does-not-quote-trade-in-prices-val-is-in-the-middle-of-every-trade-in-deal.md]]; the call's pricing is on [[wiki/decisions/2026-11-04-software-upgrades-retail-at-about-500-dollars-per-game-7500-for-a-15-game-library-and-1500-for-a-premium-game-and-the-ray-deal-is-closed-before-any-partnership-talk.md]] [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]] [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]].
 
+## Nov 12 2026 — the typical Texas install: two or more JVL vertical V43s, each with a Flex-Port and no printer or bill acceptor, one Flex-Pay Recycler Slim between two machines, e-wallet only, and a $20 promo bonus
+
+At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] (Russian) [[wiki/people/pavel.md|Pavel]] asked "мы в первую очередь делаем это для техсос [Texas]?" with e-wallet only and no TITO; [[wiki/people/val-levitan.md|Val]]: "Так точно", and drew the picture [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]:
+
+- **The machines.** Today's Texas games go to vertical by "методу метельского" ([[wiki/people/igor-metelski.md|Metelski]]'s method), "Те же игры"; in the Georgia warehouse "У нас есть пэушные горизонтальные машины т 27" (the notes: T27 horizontals from Pennsylvania), "Мы на них ставим вертикальные телевизоры", load the converted programs and "Устанавливаем туда флекс порты наши" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+- **The location.** "типичная установка… это 2 или больше наших машин, только наших", with Flex-Port, "Без принтера, без белых сектора [bill acceptor]. Вертикальные машины в 43. С одним. Флекс пей рисайлэр слим. Который стоит между 2 машинами" — "Это типичная установка маршрута" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+- **The bonus.** "Обязательно при этой установке иметь AFT ficher" — a promo for each $20 put in; set in the room at $1 per $20 with machines at 90% — [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]] [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+- **The recycler.** Its own MVP 1 on the production server by Thursday (Nov 19) — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]]. This answers the Nov-4 "the Recycler is a Texas product" question above with a dated plan. The Rage-or-NOVA question for the V43 games is on [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-12 note) [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
@@ -600,3 +609,5 @@ On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing
 - [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]

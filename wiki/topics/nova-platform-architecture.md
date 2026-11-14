@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 115
+source-count: 117
 open-commitments: 72
 open-questions: 39
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -912,6 +912,15 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - **Studio.** Metelski's scene tools now render on the NOVA 2 engine (custom shaders and better text support added); one tool, not two; the studio's model (Haiku through OpenRouter) becomes a replaceable setting; Leshkevich may propose a scripting-language studio because agent-to-UI tools are in TypeScript and Python — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
 - **Metrics.** Val: write "Новую платформу и галакси платформу" so the data a no-designer game loop needs comes out in the needed form — "Какие сенсоры?"; for Tuesday — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
 
+## Nov 13 2026 (7:01 AM) — NOVA works on Windows, not yet on RK; "done" is a CI-built image from the production server; LGS is not yet runnable on a machine; the old Data Center is dropped; the ISO comes from the integration repository; first ISO targeted Tuesday
+
+- **State.** Leshkevich: "Так графический движок работает"; games run on Windows, not yet on RK hardware. Pavel once rebuilt his source for the RK3576 and it ran with no maths (one outcome every spin) [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **Done.** Only a build made by CI/CD actions, put on the production server (S3), downloaded by link to a USB stick and run in a machine; a local performance check on RK is allowed as an extra step. Pavel: NOVA works only when all components build into one ISO, even with some parts missing — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **LGS.** Kharetski: an LGS that runs on a machine with a game does not exist yet; there is no build; integration with the hardware services is not ready and they are not in the ISO; peripherals work only in autotests; LGS works with remote maths and builds as a Docker container on every pull request and main; no compose file yet for all services on any PC. Metelski: Rage saves state synchronously in the main thread, up to 8 ms a save; threads and sync-vs-async must be decided, and he wants an LGS agent in the flow [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **The old Data Center** was proposed by Biratka instead of LGS and dropped: the new LGS works with separate device services, a new interface and API, and the old Data Center does not talk to the maths server [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **The ISO.** Pavel: the ISO comes from the separate integration repository, which takes a game's sources or released artifact, runs tests and packs it, with the maths and LGS. Kharetski writes the actions to finish that cycle; target Tue Nov 17; CI/CD after the build process (Bosik). Pavel's installer idea (all services and LGS with no game, on real hardware) is not decided — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **Markets.** Val: "1 1 это Техас. 2 это наверно джорджио." — see [[wiki/decisions/2026-09-01-first-nova-product-south-dakota-vlt-2.md]] (Nov-13 update) [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1030,3 +1039,5 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

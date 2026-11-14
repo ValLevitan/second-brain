@@ -4,8 +4,8 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 95
-open-commitments: 8
+source-count: 99
+open-commitments: 9
 open-questions: 0
 ---
 
@@ -292,6 +292,18 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian): "Всё теперь живёт на компании гитхад" (heard); "Подготовил все контеграции тулов Игоря в студию". He set out the core-vs-scripts-vs-API options for mechanics and certification (his scanner's "каталог сейчас из 200 игр", "24 игры холденриспин" — heard), untested — "Я правда я не пробовал"; he will study agent-to-UI standards and perhaps a scripting-language studio; Haiku was "относительно дешёвую модель, просто тестировать"; he wants "один универсальный" tool, will try Igor's flow ("Я потыкаю обещаю") and, with Igor, demo the one tool on Tuesday — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
 
+## Nov 12 2026 — Studio and engine; Igor's work added; the engine choice for the agents to be fixed
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): "Я работаю над студио"; he put Igor's work into the engine the day before ("Тема Игоря"); "возможно, немножко не туда свернул с выбором движка для агентов, поэтому я сегодня буду поправлять" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/igor-metelski.md|Metelski]] pushed his tool commits into Anton's projects and fixed the review comments [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+### Open commitments (Nov 12 2026)
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — fix the engine choice for the agents — due Nov 12 2026 ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+
+## Nov 13 2026 (7:01 AM) — he shows his agent converter for Nebraska Rage games; Lions Riches first, "16 из 17" tasks done but not yet played; his tokens ran out; a game by Monday for the first ISO; refactoring after
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian) he showed the Rust "Automated Converter": every box an agent with its own tools; he and Claude are the outside interface — "Это я и клод." Claude improves the agents from outside ("супервайз лординг", heard). The final goal is "автономный сборщик" of slots for NOVA 2; step 1 converts Nebraska NAD-2 Rage games, Lions Riches first ("клоп говорит он 16 из 17 задач сделана, но я ещё не запускал новую версию"); then a few more games; then games from a brief. His OpenRouter tokens ran out at about 1 AM after about $60 in about 10 hours. He wants to finish this part before automating NOVA's side, then refactor the repository, now a "зоопарк". On the Monday game: "Но игра точно запустится, но." — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -391,3 +403,7 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

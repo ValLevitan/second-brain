@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 184
+source-count: 186
 ---
 
 # AI-assisted development adoption
@@ -1061,6 +1061,12 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 
 At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autotest-environment.md|Oct-26 Minsk stand-up]] (Russian; Val absent) [[wiki/people/andrey-bosik.md|Bosik]] said some people work with Claude "бездумно": one developer has about 160 branches, many branches are named "fix/…" or "claude/…", and Claude adds itself as a commit co-author, which puts an unknown "Claude" user into reports. Rules: delete a branch when its Jira task closes; every Claude branch is tied to a Jira issue; no Claude co-author. [[wiki/people/pavel.md|Pavel]]: Claude keeps to the company standards if a link to them is in the session context or in its memory file [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]. Ruling: [[wiki/decisions/2026-10-26-claude-made-branches-carry-a-jira-key-and-are-deleted-when-the-task-closes-and-claude-is-never-a-commit-co-author.md]]. This follows the Oct-2 "war with Claude" above (**inference**).
 
+## Nov 13 2026 (7:01 AM) — an agent converter improved by Claude from outside; OpenRouter tokens run out; Claude Code run locally could save about $15,000 a month
+
+- **The converter.** At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] Leshkevich showed a Rust application of agents (Builder, Scene, Play, RAGE Converter, Art, Game Scripting, Issues) that log their own gaps; after each run Claude, with him, fixes and rebuilds them — "формально не агенты сами себе улучшают, а клод извне улучшает их и пересобирают"; most of it was written by Claude this way — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **Tokens.** His corporate OpenRouter tokens ran out at about 1 AM after about $60 in about 10 hours; the choice is a direct Anthropic API key or OpenRouter (a few cents' fee, any model, art models too). Bosik: an earlier $100 went fast — per minute, hour or day "это же большая разница"; Val: the meeting itself costs more than $60. Bosik has ideas from the usage analytics to cut cost [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+- **Claude Code locally.** Val asked Bosik about his email on running it locally: "Мы можем сэкономить гдето 15000 в месяц. Если это правда?" (per the notes, Claude Code commit costs average about $15,000 a month); Bosik had not read it; Pavel: "Скорее всего, скорее всего, и правда" [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -1247,3 +1253,5 @@ At the [[wiki/meetings/2026-10-26-daily-standup-claude-branch-hygiene-and-autote
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Claude_Branch_Hygiene_and_Autotest_Environment-October-26-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

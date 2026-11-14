@@ -3,13 +3,15 @@ type: decision
 title: First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01) — supersedes the Aug-14 "South Dakota Vertical 01 first" sequencing
 date: 2026-09-01
 aliases: [first NOVA product, South Dakota VLT 3, VLT3 vs VLT-2, first Nova release, SD VLT-2 first on NOVA, South Dakota VLT-2 first NOVA product, NOVA release sequencing ruling]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 0
 open-questions: 0
 ---
 
 # First NOVA product = South Dakota VLT-2 (owner ruling, 2026-09-01)
+
+> **Status note (Nov 13 2026):** on Nov 13 Val named the NOVA market order as Texas first, then probably Georgia, with Dakota held back for slow certification. Whether that replaces this ruling is queued for the owner — see the Nov-13 section below. [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 
 **This is an owner ruling, not a meeting decision.** Val ruled directly on 1 September 2026, answering the question the wiki had queued as LIVE OPEN #29 after he reopened it himself on the [[wiki/meetings/2026-08-26-alignment-planning-nova-september-releases.md|Aug-26 alignment call]]. Per §16 an owner correction is its own citation — there is no `[[raw/…]]` source for this page and none should be fabricated.
 
@@ -79,11 +81,18 @@ This speaks of the order of **game work**, not of which product is released firs
 - Acknowledge the **~2-day slip on the September-1 RAGE-based SD VLT-2 GLI submission (actual ≈ Sept 3 2026)** in the next weekly update — owner's explicit instruction, 2026-09-01. *(Written for the Friday 4 September 2026 run, which did not fire; carries forward to whichever run happens next.)*
 - **NOVA has no GLI date.** Watch for one being set; until then the wiki must say *unscheduled*, not carry the lapsed ~Nov-1 figure. *(Checked again against the Sept-4 2026 sources: the question was asked in the room and Val answered with readiness, not a date. Checked again against the Sept-11 2026 1:00 PM sources: GLI is not mentioned at all. Still unscheduled.)*
 
+## Nov 13 2026 — Val names Texas first, then probably Georgia, for NOVA
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] — **a source, not a written ruling** — [[wiki/people/igor-metelski.md|Igor Metelski]] recalled that the first NOVA product was to be "Дакота новое в дакоте мистери прогрессив". [[wiki/people/irina-shishko.md|Irina Shishko]]: South Dakota on NOVA is "Такая головная боль для сертификации"; [[wiki/people/pavel.md|Pavel Frolov]]: start where you need not, at every error, "идти через двойную тройную лабораторию". Val: "1 1 это Техас. 2 это наверно джорджио." [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+
+This does not fit the ruling above. It is recorded here, not resolved: whether Val's Nov-13 order replaces the Sept-1 ruling is **queued for the owner** (Tier A). Record: [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Naming_Convention_Standards_and_Nova_Conversion-September-4-2026.md]]
 - [[raw/Meeting_Notes_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Sunset_and_Class_A_on_Nova-September-11-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 
-*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The sources listed here back only the Sept-4, Sept-11 and Oct-23 sections.)*
+*(The owner rulings above carry no `[[raw/…]]` source and none should be fabricated — §16. The sources listed here back only the Sept-4, Sept-11, Oct-23 and Nov-13 sections.)*

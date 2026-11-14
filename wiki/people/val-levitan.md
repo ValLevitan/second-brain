@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 494
+source-count: 504
 open-commitments: 83
 open-questions: 1
 ---
@@ -1851,6 +1851,22 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 
 At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian), from his car, he asked whether the build can go on location yet, then: "весь мир уже это делает… мы просто не дочитали книгу"; developers ("саша дима Сергей") are not needed at release meetings, Bosik (CI/CD) is; he asked whether Klimovich had installed the IQ, and asked Pavel to call him after — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
 
+## Nov 11 2026 (8:57 AM) — he asks about the Georgia modem failure Felipe mentioned
+
+On the [[wiki/meetings/2026-11-11-georgia-modem-failure-after-old-software-on-elizabeth-machines.md|Nov-11 8:57 AM call]] (Russian) he asked what Felipe had said the day before — a modem install, maybe two machines failing, office or location unclear; Pavel explained the release 43.33 and modem-ISO failure on Elizabeth's machines — [[wiki/projects/georgia-market-rollout.md]] (Nov 11, 8:57 AM) [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]] [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]].
+
+## Nov 12 2026 (in absentia) — he set the recycler meeting
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] Irina: "Вал поставил. На 14 45 митинг" on the recycler capabilities — [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] (Nov-12 note) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+## Nov 12 2026 (6:53 AM and 8:33 AM) — the recycler MVP 1 by Thursday, "не двигайте дейт"; only the ISO from production; the Texas install and the $1-per-$20 bonus; "purpose of design" in prose; "audit report"; "Goods"; only Irina or Pavel create releases
+
+At his [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] (Russian; organizer): "Настаиваю, чтобы MVP один был сделан где то в четверг… Поставлен на продакшн сервер"; cut scope, never the date; "я разрешаю только ISO имидж брать. С продаж."; Texas, e-wallet only — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]]; the typical Texas install — [[wiki/projects/texas-used-machine-distribution.md]] (Nov 12); the $20 bonus, moved from $2 at 92% to "$1 за 20" at 90% — [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]]; Metelski's conversion into GitHub, and "я ещё не не уверен, что мы от него от рейч отошли" — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-12 note) [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. At the [[wiki/meetings/2026-11-12-mvp2-capability-review-goods-category-master-role-and-release-split.md|8:33 AM MVP 2 review]]: the purpose of design "не больше 2 параграфов", plain English, the business "why", no numbering; "Внутреннее тоже неправильно… одитрепорт"; "Зачем нужно называть это лотари?" — Goods; "Андрей не должен создавать релиз" — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]]; "Включите меня, пожалуйста, в этот митинг" (Sunday recycler meeting) — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
+
+## Nov 13 2026 (7:01 AM) — NOVA "done" is a CI-built image from the production server; first ISO Tuesday; Texas first, then probably Georgia; Kharetski's agent waits; Claude Code locally
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian) he asked for proof that NOVA works ("для меня это немножко сюрпрайз") and set the test: built only through CI/CD actions onto the production server, then by link to a USB stick into a machine — "Единственный эталон сделанного". He took an undertaking to make the production download screen show new products; asked for a parallel flow where game agents request NOVA features; named "1 1 это Техас. 2 это наверно джорджио."; set the first ISO for Tuesday ("Меня устраивает, если мы пообещаем и не успеем"); moved Kharetski's game-design agent "на следующий план"; and asked Bosik about running Claude Code locally — "Мы можем сэкономить гдето 15000 в месяц" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2355,3 +2371,13 @@ At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-produ
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

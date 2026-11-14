@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 86
+source-count: 91
 open-commitments: 32
 open-questions: 1
 ---
@@ -376,6 +376,18 @@ At the [[wiki/meetings/2026-11-11-trial-game-review-aristocrat-mechanic-not-buil
 
 At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian) he showed his Rage slot-art flow moved to NOVA 2 — layer layout, a paytable tool and the animation tuner, rendering "непосредственно на движке нового 2", with custom shaders and better text support added — and asked whether a designer's tool ("от брифа к готовым сценам") belongs in a developer studio, and "не ерунду ли я условно делаю?". The room chose one tool; he puts his tools into the repository with the engine and, with Anton, demos the one tool on Tuesday, warning a whole game takes more than "45 минут митинга"; he works with "опусом 5 и 5" (heard), not Haiku; he proposed checksums or a test bench to prove a mechanic unchanged — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
 
+## Nov 12 2026 — Nebraska resources; old-branch builds for a video; a Windows patch for GLI with Ivan; his tool commits in Anton's projects; symbol tools next
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): "по небратски [Nebraska] дальше вставлял ресурсы, починил билдынтус старых веток. Они нужны для записи видео просила Моника" ("Моника" not matched to a person with confidence); with Ivan "для джила [GLI] сделать рабочий патч для запуска под виндовс" — their "дота центр" (heard) did not start, "надо разбираться, какая у них жаба [Java] стоит" — [[wiki/organizations/gli.md]] (Nov 12); he pushed his commits into [[wiki/people/anton-leshkevich.md|Anton]]'s projects, fixed the review comments, and is adding tools "для работы с символами" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+## Nov 12 2026 (in absentia) — Val wants his Rage horizontal-to-vertical conversion for the Texas V43 line in GitHub
+
+At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] (Russian) Val: Igor's program "которая переводит. Рейч горизонтальная на рейч вертикальный" should run in GitHub, Igor building the environment and actions — "он говорил день 2 работы"; the Texas install uses his converted games — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-12 note) · [[wiki/projects/texas-used-machine-distribution.md]] (Nov 12) [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+
+## Nov 13 2026 (7:01 AM) — his tools are all in the shared repository; his style skill vs the Art agent; the 8 ms state save and an LGS agent; "an engine is not a game"
+
+At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian): "Все мои инструменты, которые, ну, типа я разработал ранее они все залиты в новый репозиторий"; his Rage-to-NOVA pipeline became Anton's RAGE Converter agent and his scene tool the Scene agent. His last commits had a skill "в котором был прописан наш стиль"; Anton's Art agent does not use it — not settled. On LGS: in Rage a state save "может уходить до 8 миллисекунд условно", about half a frame at 60 fps; he asked for an LGS agent in the flow (Anton agreed) and warned "то, что у нас есть движок, это не значит, что у нас есть игра". He recalled Dakota as the planned first NOVA product — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -465,3 +477,8 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 - [[raw/Meeting_Notes_Trial_Game_Review_Aristocrat_Mechanic_Not_Built_on_Rage-November-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]

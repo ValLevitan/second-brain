@@ -3,7 +3,7 @@ type: person
 title: Elizabeth
 date: 2025-04-28
 aliases: [Elizabeth, Elizabeth Palomino, Элизабет]
-source-count: 37
+source-count: 43
 open-commitments: 4
 disambiguation: "JVL engineering technician (full engineer by degree) handling Georgia service/parts; ex-Colombian-operation technician; Spanish-speaking. Surname Palomino (per the Jun-11-2026 passport/dsKey source). Distinct from Eliana, the Colombian EDS principal (wiki/people/eliana.md)."
 ---
@@ -149,6 +149,18 @@ On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-h
 
 At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-native-engine.md|Oct-22 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] Pavel said she asked the night before for the latest Flex-Port version; she must set BV mode for those devices in the Flex IQ devices menu before delivery and should ask Irina and Khamin first; Khamin will write to her and offer help. Whether she checked the pulses on the borrowed machines is not known — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-22 update).
 
+## Nov 11 2026 (in absentia) — the modem did not come up after release 43.33 and Pavel's ISO
+
+On the [[wiki/meetings/2026-11-11-georgia-modem-failure-after-old-software-on-elizabeth-machines.md|Nov-11 8:57 AM call]] Pavel said she wrote overnight "что у неё не поднялся модем после Того, как поставили последний выпущенный софт для джорджии"; she then put on his modem-setup ISO, which had worked before, "Вот эта процедура сейчас у Элизабет не прошла вчера"; Pavel will ask her to connect the machines to the JVL VPN — [[wiki/projects/georgia-market-rollout.md]] (Nov 11, 8:57 AM) [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]] [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]].
+
+## Nov 12 2026 (in absentia) — she reflashes modems in the field before handing them out
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] Pavel: "мы в полях сейчас вот с Элизабет… делали ещё отдельно… который перепрошивает модемы перед тем как отдавать. Ну и тогда он начинал работать. Наверное, это надо тоже всё встроить" — [[wiki/projects/georgia-market-rollout.md]] (Nov 12) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
+
+## Nov 12 2026 (in absentia) — a recycler to stand ready on Thursday
+
+At the [[wiki/meetings/2026-11-12-mvp2-capability-review-goods-category-master-role-and-release-split.md|8:33 AM MVP 2 review]] (Russian) Val asked Klimovich to email her "что вам нужно рисайкла, чтоб стоял готова в четверг" (Nov 19, recycler MVP 1); one is in the demo room with the old validator — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Lev_Rudky_Missed_Inventory_Adjustments-October-1-2026.md]]
@@ -188,3 +200,9 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
+- [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]

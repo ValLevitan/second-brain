@@ -3,10 +3,10 @@ type: decision
 title: The horizontal Texas games on RAGE are converted to vertical NOVA games with Igor's 20% method, with no change to maths or function; Igor ports Dutch Mill first and Sergey Kleimenychev only makes the video (Oct 8 2026)
 date: 2026-10-08
 aliases: [Texas blind conversion, в тупую слепую, Texas Rage to Nova vertical, перевозим их на нова вертикальные, 20 percent stretch, symbols 20% taller than wide, Dutch Mill first port, дач мил, Kleimenychev video only, looping topper video, keep it confidential, держим конфиденцию, Games convert horizontal to vertical, one feature per game under capability 240, рейчту новым migration]
-source-count: 11
+source-count: 13
 status: active
-open-commitments: 6
-open-questions: 2
+open-commitments: 8
+open-questions: 3
 ---
 
 # The horizontal Texas games on RAGE go to vertical NOVA, unchanged; Igor ports Dutch Mill first
@@ -113,6 +113,21 @@ At the [[wiki/meetings/2026-10-21-dutch-mill-on-nova-and-native-engine.md|Oct-21
 
 On the commitments and questions above: the Dutch Mill port is done (two days after Val's Oct-19 target) — moved to History. The "how long does a port take" question is answered by that measurement — moved to History.
 
+## Note, Nov 12 2026 — Val wants Metelski's horizontal-to-vertical conversion for the Texas V43 line running in GitHub with CI/CD; he calls it "рейч горизонтальная на рейч вертикальный" and is "не уверен" Rage is left behind; who writes the CI/CD is open
+
+At the end of the [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|Nov-12 6:53 AM recycler meeting]] (Russian; Igor absent) [[wiki/people/val-levitan.md|Val]], "хотя это не является частью этого митинга": he wants [[wiki/people/igor-metelski.md|Igor Metelski]]'s program "которая переводит. Рейч горизонтальная на рейч вертикальный. Чтоб уже это бежало в гидхабе" — "вся эта линия то, что вот будем выпускаться в 43 для Техаса"; Igor had told him "день 2 работы" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. [[wiki/people/pavel.md|Pavel]]: the actions to build everything must be redone too, and "Тут вся сиди будет в разы дольше, чем чем сами игры перенести, потому что они тянут за собой там и прогрессивы, и хал, и сборку i so"; Val: "давайте мы сразу это сделаем… Потому что я не знаю, сколько будет длиться этот рейч Техас в рейдж… я ещё не не уверен, что мы от него от рейч отошли и забыли", and later "я не сказал, давайте останемся с речи" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. Val's plan: Igor creates the working environment in GitHub and writes the actions, "И естественно, Андрей босик создал CICD pasvay. На Техас вифори фри [V43] вот эти игры"; Pavel: "Может быть Алексей хамин?" — the old CI/CD "был на сервере в виде скриптов", now to be committed, modified, into the Rage game projects, plus "отдельно интеграционную репозитории" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. Val did not choose between them [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+
+**Tension flagged, not resolved.** This page (Oct 8) has the Texas games going to **vertical NOVA**, and Rage was declared finished on Oct 18 and Nov 6; on Nov 12 Val speaks of Rage-vertical games for the Texas V43 line and is not sure Rage is left behind. It is not a new ruling — he says he did not say to stay with Rage — so it is recorded here as an open question, not a contradiction (**inference**) [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
+
+### Open commitments (Nov 12 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — set up the build environment and actions in GitHub for the Texas V43 conversion — due unspecified (Igor's own estimate to Val: about two days) — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] (Val) or [[wiki/people/alexei-khamin.md|Alexei Khamin]] (Pavel's suggestion) — the CI/CD pipeline for the Texas V43 games — due unspecified — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+
+### Open questions (Nov 12 2026)
+
+- Do the Texas V43 games ship on Rage (converted to vertical) or on NOVA, as ruled on Oct 8? Val on Nov 12: "я ещё не не уверен, что мы от него от рейч отошли" — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+
 ## History
 
 - [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — port Dutch Mill to vertical NOVA — due Mon Oct 19 2026 (Val's target) — [[raw/Meeting_Transcript_Dragon_Pays_Vertical_Accepted_and_Dutch_Mill_Port_Plan-October-8-2026.md]] — **discharged Oct 21 2026**: shown running on NOVA with tests [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
@@ -132,3 +147,5 @@ On the commitments and questions above: the Dutch Mill port is done (two days af
 - [[raw/Meeting_Transcript_Flex-Port_SAS_IGT_Lock_and_Emulator_Requirements-October-18-2026.md]]
 - [[raw/Meeting_Transcript_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]

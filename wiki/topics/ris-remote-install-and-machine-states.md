@@ -3,9 +3,9 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521, RIS improvements release notes, the current lease period will remain unaltered, upgrade pending, no bank in street operation]
-source-count: 71
+source-count: 73
 open-questions: 24
-open-commitments: 9
+open-commitments: 10
 ---
 
 # RIS (remote install/setup system) and machine states
@@ -627,6 +627,14 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 
 At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]] fixed what [[wiki/people/irina-shishko.md|Irina]] reported: "что перенос не работает, это мой бак был… новая версия ищет файл рис new… На старой версии его не может быть, потому что он только на новых создаётся и там добавился функционал о том, что нужно брать последний по номеру. Сохраненный"; and "предупреждение добавил, что там RTP… мы не можем проверить RTP. Поэтому типа на свой страх и риск применять" [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]. [[wiki/people/ivan.md|Ivan]] built with these changes and will check the delivered machine — "теперь это всё должно работать, по идее" [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]. On Nov 10 Kharetski worked on "фиксами по рисом фрууменсам VP один" with the agent [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
 
+## Nov 12 2026 — RIS performance: Ivan found and fixed bugs; a production build for Felipe after lunch
+
+At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] [[wiki/people/evgeny-kharetski.md|Kharetski]] on RIS performance: "ваня находил фиксел баги" (heard) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/ivan.md|Ivan]]: Pavel's fix "вроде всё у меня отработало", checked quickly; "продолжаю с рисом пробманс после обеда соберу бил продакшн. Вот Ирина хочет, чтобы мы отдали этому Филиппа" — so [[wiki/people/felipe-miranda.md|Felipe]] can look and raise questions, and it helps Ivan's own checks [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Which fix of Pavel's is not named.
+
+### Open commitments (Nov 12 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — build the production build after lunch and give it to Felipe (Irina's wish) — due Nov 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -701,3 +709,5 @@ At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-up
 - [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
