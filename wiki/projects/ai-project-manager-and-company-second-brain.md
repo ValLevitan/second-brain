@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, one brain for all agents, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 40
+source-count: 42
 open-commitments: 0
 open-questions: 0
 ---
@@ -167,6 +167,10 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 
 At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.md|Nov-6 10:33 AM NOVA-2 merge meeting]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: the design agent will be filled with "вики наших игр… на [GCM 3] это уже сгенерировано" and with the competitor mechanics analysed from videos, "в секонд брейн"; "Все, что знает агент, может знать и наш движок… использовать один мозг на двоих" — Anton Leshkevich's studio; he will "загрузить… все что ефим предоставил по… Фанат помоему вот и загрузить вике, которые предоставила мне Игорь"; [[wiki/people/igor-metelski.md|Igor]]: "Фанат я бы не торопился… не очень хорошем состоянии… Я бы предложил тебе ещё [Дакоту] отдать" — "Без проблем" (what "Фанат" is, is **unclear**; "Дакота" read as the South Dakota product, **inference**) — [[wiki/decisions/2026-11-06-rage-is-finished-nova-2-is-antons-rust-engine-with-lua-scripted-framework-and-games-lgs-stays-miranda-and-unity-are-not-needed-code-first-then-prose-no-browser-runtime-and-all-work-moves-to-corporate-repositories.md]], where the commitment is counted [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]] [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]. Igor's briefs are generated from the repository because "конфлюнс у нас как бы ну не всегда в актуальном состоянии" — 15 GCM3 games so far [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]].
 
+## Nov 11 2026 (7:31 AM) — the design agent opens a repository ticket; the game wiki and maths not yet loaded
+
+At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] [[wiki/people/evgeny-kharetski.md|Kharetski]]: after a brief is approved the agent gathers the brief and references, lays them out, archives them and opens a service ticket to Andrei for a new game repository — it may not create GitHub repositories itself. Loading the second brain with "игры вики игр 15 из гкуам 3" (heard; 15 GA-COAM 3 games) and the maths is not done yet; it is his undertaking for Tuesday Nov 17, with Efim brought in on the maths — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -208,3 +212,5 @@ At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]

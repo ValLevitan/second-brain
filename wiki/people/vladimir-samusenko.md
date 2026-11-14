@@ -3,8 +3,9 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 62
-open-commitments: 16
+source-count: 68
+open-commitments: 17
+open-questions: 1
 ---
 
 # Vladimir Samusenko
@@ -279,6 +280,26 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 
 - [ ] (blocked-on: MVP2-build-on-the-test-IQ) [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — run the TIN-111 Wi-Fi tests once the MVP 2 build is on the test Flex IQ and the cloud services are known — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 
+## Nov 9 2026 — TINT-115 (heard) near its end; the TINT-111 Wi-Fi access-point test waits for the firmware; which Flex-Ports have Wi-Fi; TINT-101/102 back to him; his LGS capabilities draft
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]: TINT-115 (heard "тотарствами 115") needs a test API at the final stage; TINT-111 and the Wi-Fi module ports — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-9 note); "Так какие порты с вайфаем подскажешь?" — Pavel could not recall the numbers; TINT-101/102 — [[wiki/topics/test-automation-strategy.md]] (Nov 9); "доделал черновик ка[па]бил[ити] для LGS. Пересмотрю глазами и потом… заводить их джира буду" — in which status and on whom, to discuss at the next meeting [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
+### Open commitments (Nov 9 2026)
+
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — review his LGS capabilities draft and enter it in Jira — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+
+### Open questions (Nov 9 2026)
+
+- Which Flex-Ports have the Wi-Fi module (Pavel recalled one in his room and one "у вас", numbers unknown)? — [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+
+## Nov 10 2026 — TINT-105 took long: its security items go to the future, not MVP 1 or MVP 2; a new capability 370 with Irina for several terminals and a master
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] (Russian) — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-10 note); [[wiki/topics/test-automation-strategy.md]] (Nov 10); "Часто заканчиваю 7 105 и дальше надо ковыряться" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+## Nov 11 2026 — test 105 waits for a free run; 111 and maybe 114 next on a Wi-Fi terminal (machine 82)
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian) — [[wiki/topics/test-automation-strategy.md]] (Nov 11; the commitment is tracked there) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -343,3 +364,9 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

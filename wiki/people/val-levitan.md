@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 486
+source-count: 494
 open-commitments: 83
 open-questions: 1
 ---
@@ -1835,6 +1835,22 @@ At the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-an
 
 At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian; the topic is his line from Nov 6) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]: "Вопрос, вопрос поднимается, какую проблему мы хотим адресовать?"; on why serials are reserved a month ahead for metal plates — "мы раньше выпускали вот этих эко машин. Мы выпускали тысячу в месяц. Нас этих количеств больше нету, мы упускаем другие машины совершенно. По другим ценникам и намного меньше… Сейчас у нас более единичные машины"; his label proposal — "Сделать меньше ударения на этой? Внешний. Лейбл… Код, который и штрихкод и. Цифровой… на принтере на водостойкой бумаги… Если его повредили, то просто перепечатываешь его, потому что основная информация в далласе ты рассчитываешь, что Даллас это твой. Хранитель правды"; on Business Central — "Если они заводят, то это тоже можно поменять. Потому что тоже процесс неправильный… Конечно, их надо их надо привлечь" (Genadi, Lev); on Dallas replacement — "мне нравится то, что дима говорит… машина спрашивает, это новый манефакче это ruplacement?… А в чем здесь могут быть? Обман какойто"; on a jurisdiction check at registration — "это не часть манафак это часть сейлз процесса, который контролируется рисом… К примеру, в мексико это будет одно. Там во Флориде будет другое"; the ruling — "Мы не ищем белых сектора и принтер нам все равно он стоит или нет нам главное, чтоб запустился c po IO мониторы… базовая игра… Это все могло выключаться, включаться, подключаться, переключаться. Нас это не волнует… Мы не контролируем периферийные девайсы"; and the close, after Pavel's lease-scan passport update — "Почему? Почему?… Надо посидеть подумать я не не могу всё так… Мне сейчас нужно получить транскрипт. И посидеть подумать" [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]. The two rulings and his commitment to come back with a position are on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]]; his Nov-6 use-case commitment stays open on [[wiki/decisions/2026-11-06-every-component-is-signed-separately-with-one-server-signature-at-update-time-ris-and-machine-registration-go-into-cloud-galaxy-use-cases-come-first-and-val-owns-machine-registration.md]] (Nov-7 update).
 
+## Nov 10 2026 (5:16 PM) — no online creator platform; his game loop from player data on the machine
+
+On the [[wiki/meetings/2026-11-10-jvl-creator-platform-idea-and-player-telemetry-game-loop.md|Nov-10 creator-platform call]] (Russian) he turned down [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]'s online creator platform — JVL is not in the online market, "я никогда не не смог сделать деньги в онлайн рынке" — and set out his direction: with JVL's own module on the machines and the move to the street business, the machine measures what players like, JVL makes a new game, reskin or extra mechanic with minimal human work, GLI approves it by checksum and it goes straight to the machine; the open problem is which statistics show what players like — [[wiki/decisions/2026-11-10-the-online-creator-platform-is-not-pursued-and-jvl-aims-at-a-loop-from-player-data-on-the-machine-to-new-games-sent-straight-to-it.md]] [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]] [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]].
+
+## Nov 11 2026 (6:37 AM) — agrees the trial game was rightly not built on Rage
+
+At the [[wiki/meetings/2026-11-11-trial-game-review-aristocrat-mechanic-not-built-on-rage.md|Nov-11 trial-game review]] (Russian) he accepted Igor's point that the Aristocrat-mechanic trial game had been dropped with Rage: "я мог перепутать… я был в дороге… это я я пропустил этот момент"; he confirmed the NOVA 2 meeting an hour later — [[wiki/decisions/2026-11-06-phone-video-of-help-screens-and-bonuses-is-enough-for-a-teardown-the-mechanic-is-ported-onto-jvls-own-maths-and-igor-builds-a-trial-game-with-an-aristocrat-mechanic.md]] (Nov-11 note) [[raw/Meeting_Transcript_Trial_Game_Review_Aristocrat_Mechanic_Not_Built_on_Rage-November-11-2026.md]] [[raw/Meeting_Notes_Trial_Game_Review_Aristocrat_Mechanic_Not_Built_on_Rage-November-11-2026.md]].
+
+## Nov 11 2026 (7:31 AM) — the NOVA-2 follow-up: "мы договариваемся, что у нас один тул"; "Я ненавижу, когда мои деньги экономят"; "Дизайнеров… в GVL не будет"; mechanics left open; Tuesday demo with free spins; the no-designers loop and "Какие сенсоры?"
+
+At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian) he hosted and ruled one tool from brief to game and a replaceable AI model ("индудент интеллигент… Который можно подставлять" — heard), left Anton's mechanics-placement question open ("давайте его будем считать открытым") while giving his own view — "Мне нравится выделенная механика", certify only the mechanics a package uses — moved the demo to Tuesday because he travels Monday, asked to bring Efim into the maths work, asked everyone to keep the work confidential, and set the metrics NOVA and Galaxy must collect as the question for Tuesday — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
+
+## Nov 11 2026 (8:31 AM) — at the MVP 1 release meeting: "а почему мы всё выдумываем?"; the wrong people in the room, Bosik missing
+
+At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian), from his car, he asked whether the build can go on location yet, then: "весь мир уже это делает… мы просто не дочитали книгу"; developers ("саша дима Сергей") are not needed at release meetings, Bosik (CI/CD) is; he asked whether Klimovich had installed the IQ, and asked Pavel to call him after — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2331,3 +2347,11 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]
+- [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Trial_Game_Review_Aristocrat_Mechanic_Not_Built_on_Rage-November-11-2026.md]]
+- [[raw/Meeting_Notes_Trial_Game_Review_Aristocrat_Mechanic_Not_Built_on_Rage-November-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]

@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 169
+source-count: 176
 open-commitments: 51
 ---
 
@@ -726,6 +726,18 @@ At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.
 
 At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian; label "Andrei Bosik") [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]: "На самом деле ты более фундаментальный вопрос подымаешь о том, как собирается вообще в целом машина мы когда то говорили об этом ещё с араном [heard; unresolved], о том, что типа зелёные огоньки… чтобы человек был минимально компетентный, который собирает машину"; "мы сначала собираем машину, а потом её регистрируем, а не наоборот ли происходит?… Сначала же, наверное, решают, какие компоненты должны быть установлены в машине и потом её собирают. И потом 3 этапом… подтверждают"; the new CMS should take in the assembly process — "Возможно, это в Майкрософт это бизнес централ"; "Я тоже думал, что там стриткод, если честно"; to Chudinov's per-machine encryption key — "Да та же самая схема, конечно, что тут придумывать"; and "если они собрали машину, зарегистрировали ее?… а принтерто не печатает, и надо его заменить, и чё происходит дальше" — which opened the peripherals-and-RIS thread [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]. All on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]].
 
+## Nov 9–10 2026 (in absentia) — the math repository goes through him; the graph logic with Chudinov
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] Pavel sent the math-repository question to "Андрею… Босиком" — Val had already given the go-ahead to open the maths — so Chudinov can build the dependency map; Chudinov will ask Andrei for access — [[wiki/decisions/2026-11-06-every-component-is-signed-separately-with-one-server-signature-at-update-time-ris-and-machine-registration-go-into-cloud-galaxy-use-cases-come-first-and-val-owns-machine-registration.md]] (Nov-9 note) [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]. At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] Chudinov: "параллельно с Андреем босиком сделали. Логика графа" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+## Nov 11 2026 (7:31 AM) — the repositories are created and the code pushed, access for everyone present; one tool is easier to support; the model is a setting; a demo "с корявым ю ай но с продуманной логикой"; the template repository can wait
+
+At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian, label "Andrei Bosik"): "репозитории, необходимые, созданы были код залит"; "Да я тоже настаиваю на одном" tool — "гораздо проще, когда оно все в одном месте"; the model is "параметр, который должен меняться", local models on the "шестнадцатигиговые" GPUs may come; he framed the Tuesday demo; a repository per mechanic is "жёстко"; the template repository's contents follow once the tool is finished — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
+
+## Nov 11 2026 (8:31 AM, in absentia) — Val wants him at release meetings
+
+At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] Val named him as the one missing, "потому что он занимается CICD" — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -901,3 +913,10 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]

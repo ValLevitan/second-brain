@@ -3,9 +3,9 @@ type: decision
 title: Machine reports come as a role-limited Excel export from the legacy CMS — by game, operator, jurisdiction and date, six months at most per export, each user seeing only their own region — not Tableau and not an MCP; Tableau is no longer maintained and its licence goes once the export ships; target November 7 (Val, Oct 29 2026)
 date: 2026-10-29
 aliases: [Tableau replaced by legacy CMS Excel export, Excel export from the legacy CMS, legacy CMS Excel export, табло не нужен, мне табло не нужен вообще, bury Tableau, drop the Tableau licence, six-month export limit, полгода максимум, role-based Excel export, game statistics export, account statistics export, Tableau reports fix incomplete and outdated data]
-source-count: 8
+source-count: 10
 status: active
-open-commitments: 4
+open-commitments: 3
 open-questions: 3
 ---
 
@@ -54,7 +54,6 @@ A Russian working call on Oct 29 2026, 8:31 – 8:58 AM Eastern — [[wiki/meeti
 
 ## Open commitments
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — extend the legacy CMS export: a role-based Excel export of account statistics by game, operator, jurisdiction and date, six months at most, with each user's region limits — due Nov 7 2026 (start Mon Nov 2) — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] — *Nov 3 2026: "Отчёт сделал"; STG deploy today or tomorrow; prod waits on verifying Tsymanov's vacation-time work* — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — give Efim full access to all the data — due with the export — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — stop updating the Tableau reports and give up the licence once the Excel export is delivered (licence runs to May) — due after the export ships — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] [[raw/Meeting_Notes_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
 - [ ] Owner not named — turn the meeting transcript into capabilities and tasks and open the project; Val said the AI project manager might do it ("у нас же есть этот как его пиям, может быть это сделает уже") — due unspecified — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] (see [[wiki/projects/ai-project-manager-and-company-second-brain.md]])
@@ -79,6 +78,14 @@ A Russian working call on Oct 29 2026, 8:31 – 8:58 AM Eastern — [[wiki/meeti
 
 At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-product-code.md|Nov-4 Minsk stand-up]] (Russian; Val absent) [[wiki/people/irina-shishko.md|Irina]]: "Мне нужно сейчас посмотреть, если чтото со стороны сервера не проверено да проверить, и тогда ты сможешь релизить"; [[wiki/people/pavel.md|Pavel]]: the items Sergey did ("борисовруман", "парисо" — heard: RIS, passport); [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "Дима будешь, если дадут добро, то паспорт тоже" deploy; [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Хорошо" [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]. This takes over the Nov-2 "Chudinov and Ivan meet on Wednesday" item (annotated on [[wiki/people/dmitri-chudinov.md]]); whether the STG deploy of Nov 3 happened is not said. The commitment is on [[wiki/people/irina-shishko.md]] (Nov 4). Chudinov also reported "Я сделаю рот вчера. Прелиз экю" (heard: the IQ release made yesterday) and work on host and server reporting [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]].
 
+## Update, Nov 11 2026 — the machine-statistics export is closed and released, and Chudinov wrote to Val that it is ready
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Вчера сегодня закрыл. Экспорт статистики по машинам war celine [heard]… сделан релиз… отписанный письмо о готовности" (the notes: he made the release and wrote to Val that it is ready); some tasks that did not get done under these capabilities (bugs, other features) still need marking [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]. The export commitment below is discharged. Whether Efim's full data access is done is not said; Bosik's Tableau step can now start (**inference** from the "after the export ships" condition).
+
+## History
+
+- [x] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — extend the legacy CMS export: a role-based Excel export of account statistics by game, operator, jurisdiction and date, six months at most, with each user's region limits — due Nov 7 2026 (start Mon Nov 2) — [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]] — *Nov 3 2026: "Отчёт сделал"; STG deploy today or tomorrow; prod waits on verifying Tsymanov's vacation-time work* — [[raw/Meeting_Transcript_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]] — *done Nov 11 2026: "Экспорт статистики по машинам… сделан релиз… отписанный письмо о готовности"* — [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Tableau_Replaced_by_Legacy_CMS_Excel_Export-October-29-2026.md]]
@@ -89,3 +96,5 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Notes_Daily_Standup_SIM_Traffic_Alert_and_Flex_IQ_Release_Action-November-3-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

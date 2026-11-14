@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery, Mery Villavicencio, Мэри]
-source-count: 18
+source-count: 20
 open-commitments: 2
 ---
 
@@ -59,6 +59,10 @@ On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-h
 - [ ] Mary — set the amount and the purchase lines for the open purchase order Lev asked about (vendor garbled) — due Monday Oct 19 2026 (notes' date; transcript "в понедельник") — [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]] [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [ ] Mary — enter the missing information into MSBC as directed (e.g. vendor transport invoices) — due from the week of Oct 19 2026 (proposed by Val; not confirmed) — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 
+## Nov 9 2026 (in absentia) — Leshkevich's test boards: Amazon links sent to her
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] Pavel suggested it might be simpler for Leshkevich to buy the boards locally with allocated money rather than ship parcels; Leshkevich: "я мэри скинул там все Ссылки на Amazon… я с ней обсужу как как лучше" [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -79,3 +83,5 @@ On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-h
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]

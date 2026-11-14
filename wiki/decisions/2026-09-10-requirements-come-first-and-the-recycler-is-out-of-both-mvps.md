@@ -3,10 +3,10 @@ type: decision
 title: Requirements are step two — the MVP split and the test automation come after; MVP 1 is October 1, MVP 2 is November 1, and the Flex-Recycler is in neither
 date: 2026-09-10
 aliases: [requirements are step two, MVP 1 October 1, MVP 2 November 1, recycler is not MVP 1 and not MVP 2, eighty percent of the general functionality, go through the capabilities of the last seven days, transactional products management]
-source-count: 10
+source-count: 16
 status: active — the recycler is out of MVP 1 and MVP 2 as ruled; on Sept 30 2026 it was placed in a probable MVP 3 (see update); on Oct 1 2026 the engineers said they work from the mock-ups first because the requirements are abstract (see update)
 open-commitments: 5
-open-questions: 2
+open-questions: 3
 ---
 
 # Requirements first, then the MVP split — and the Flex-Recycler is out of both
@@ -81,6 +81,18 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 - Does Flex Pay MVP 3 come first, or a separate Recycler MVP (for Texas)? Pavel takes it to the business — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 
+## Note, Nov 9–10 2026 — Biratka builds the new recycler on the Pay platform; it answers statuses and switches; the old recycler leaves the project "как сказал вал"; the Flex-Pay changes move into the Flex Recycler
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] [[wiki/people/alexander-biratka.md|Biratka]] took the recycler repository over the weekend; [[wiki/people/pavel.md|Pavel]]: the recycler is moving, or has moved, to the "карка платформы" (the notes: the Pay platform as the base); Biratka: "я как бы взял в pay когда как как основу… Зачем нам использовать старые?… мой эксперимент с подключением ри сайтлера отработал… Работает, отвечает на статусы… Переключается… старый ресайквер, как сказал вал нам не нужен… Я из проекта убираю" [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]. At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]]: "в отдельном потоке работаю с переносом… всех изменений с флекспэя флекс рисайклер, что при сайтлер у нас оказался в болееменее. Актуальном состоянии" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. Which MVP the recycler belongs to is not restated in these sources.
+
+## Note, Nov 11 2026 — Biratka's GCM bill-validator service now covers the recycler and is released; the recycler probably goes to MVP 3, "не для джорджии"
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]]: the service "Который для GCM билбалидатора был я его расширил до рисайтлера, ну по факту у него половина команд соответствует билвалидатору и часть рисайтлера"; "Уже выпустил версию, релизнул"; the next service builds will use it; he goes on with the recycler tasks Pavel set dates for [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]. [[wiki/people/pavel.md|Pavel]], on MVP 3 (Jan 20): "Я думаю, что ири сайлер, наверное, тоже пойдёт, хотя это не… Не для джорджии" — said in passing, not a ruling [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
+
+### Open questions (Nov 11 2026)
+
+- Does the recycler go into MVP 3 (Jan 20 2027), and is it left out for Georgia? (Pavel, in passing) — [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Notes_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
 - [[raw/Meeting_Transcript_Capability_Requirements_Workflow_and_MVP_Split-September-10-2026.md]]
@@ -92,3 +104,9 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 - [[raw/Meeting_Transcript_Daily_Standup_SAS_Log_Collection_Policy_and_RK3567_ARM_Boards-October-2-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 64
-open-commitments: 17
+source-count: 70
+open-commitments: 18
 ---
 
 # Anton Seregin
@@ -253,7 +253,7 @@ At the [[wiki/meetings/2026-11-04-daily-standup-release-build-handoff-and-nad2-p
 
 ### Open commitments (Nov 4 2026)
 
-- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — add a zoom-out button for the QR code to CF-10 (heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]]
+- [x] [[wiki/people/anton-seregin.md|Anton Seregin]] — add a zoom-out button for the QR code to CF-10 (heard) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Release_Build_Handoff_and_NAD2_Product_Code-November-4-2026.md]] — *done Nov 10 2026: "закрыл корифе 10, проверил на устройстве. На телефоне" (CORIFE-10 = the Nov-4 "CF-10"; the zoom-out button itself is not named — inference that it was in the closed task)* — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
 
 ## Nov 5 2026 — finishing CORIFE-8 (backend integration, deploying to dev); CORIFE-9 paused on the backend; a warning-spewing versioned library; reports and CORIFE-11 next; he extends the Flex IQ emulator to pass firmware-update packets, for the autotests
 
@@ -274,6 +274,26 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 ### Open commitments (Nov 6 2026)
 
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — close CORIFE-9, then the firmware-emulation feature (emulation, tests, documentation) — due Nov 6 2026 for CORIFE-9; the feature unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+
+## Nov 9 2026 — firmware-delivery emulation (fake firmware from the cloud to the terminal and on to the port); Pavel gives him the firmware-transfer autotests too, all under one feature ("81", heard)
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian) — [[wiki/topics/test-automation-strategy.md]] (Nov 9) [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
+### Open commitments (Nov 9 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — cover the autotests for firmware transfer to the Flex-Port along with the emulator (feature "81", heard, in the integration repository) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+
+## Nov 10 2026 — CORIFE-10 closed after checking on a phone (Tsymanov's terminal interaction works); the firmware-accumulator pull request is open
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]: "закрыл корифе 10, проверил на устройстве. На телефоне. Всё взаимодействие… с от терминалом то, что Сергей делал"; "Аккумулятор прошивки вот висят у меня… пи r открыт… Перепроверю, буду закрывать и уже потом перейду. Смотреть авто тесты" — whether their scenarios are current [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+### Open commitments (Nov 10 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — recheck and close the firmware-accumulator pull request, then review the autotests and whether their scenarios are current — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+
+## Nov 11 2026 — FIQ-83 closed; the emulator fetches firmware from dev or STG, no cloud emulation
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian): he closed "фики 83" (heard); still to verify that the emulator can push firmware to a real port; some autotest cases are not covered by the emulator. Pavel: fetch the firmware from dev or STG; do not emulate the cloud service — [[wiki/topics/test-automation-strategy.md]] (Nov 11; the commitment is tracked there) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -341,3 +361,9 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: GLI certification cost and speed (the scaling bottleneck)
 date: 2026-07-12
 aliases: [game certification, GLI approval, math testing, GLI automation, RiskCherry, certification cost]
-source-count: 6
+source-count: 8
 ---
 
 # GLI certification cost and speed (the scaling bottleneck)
@@ -59,6 +59,10 @@ A year after the Jan-2025 visit, JVL opened certification of the new Omni platfo
 - **Setup screens.** Nearly every setup screen is changing, so JVL will propose, in a white paper, how to test them, with automation. Juan: no JVL pre-screening is needed; GLI does its own. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 - **Screen-image checks.** Dan described GLI tools that compare what is on screen with a reference image. [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
 
+## Nov 10 2026 — Val's automatic GLI step for machine-made games
+
+On the [[wiki/meetings/2026-11-10-jvl-creator-platform-idea-and-player-telemetry-game-loop.md|Nov-10 creator-platform call]] (Russian; Val and [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]) Anton assumed a reskin keeps the certified maths and framework, so GLI "не смеют спросить много денег" for it [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]. Val's own loop sends a new game to GLI first: JVL tells GLI what changed, GLI approves for that sector, JVL gets the approval with checksums, the machine reports its checksums, they are checked against the approval and the game is enabled — "должно делать автоматически" [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]] [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]. A direction, not a GLI agreement; detail on [[wiki/decisions/2026-11-10-the-online-creator-platform-is-not-pursued-and-jvl-aims-at-a-loop-from-player-data-on-the-machine-to-new-games-sent-straight-to-it.md]].
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
@@ -67,3 +71,5 @@ A year after the Jan-2025 visit, JVL opened certification of the new Omni platfo
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - [[raw/Meeting_Transcript_GLI_Omni_Platform_Certification_Kickoff-January-28-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]
+- [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]

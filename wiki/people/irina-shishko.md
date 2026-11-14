@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 202
-open-commitments: 44
+source-count: 210
+open-commitments: 47
 ---
 
 # Irina Shishko
@@ -870,6 +870,35 @@ At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.
 
 At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]: on the metal plate — "Внешне только на ней можно увидеть, что за машина"; on a manufacturing device check — "Подожди, оно на мануфактуре будет. Голой бездевайся"; "по последним нашим изменениям уже рис… Мы делаем рис без принтера и потом захотели добавить принтер… добавляем принтер, только сообщаем потом об этом уже на сервер. Это вот рисом променты, которые мы сейчас делаем"; "Мне кажется, кудато мы ушли в какието такие прямо. Строгости. Вообще нам нужно что? Даллас. Соединить с номером машины. Что на нем есть сейчас, то и есть на этой машине"; "работает или нет? Билвалидатор нам ну никак не влияет на то, чтобы зарегистрировать, создать этот паспорт номер"; "мы на лету добавляем принтер, отнимаем принтер, меняем принтер билвалидатор отрываем, добавляем, меняем модель" — when Kharetski said the bill-validator add/remove does not work yet, "Ладно, хорошо, что сказала, а потом про это поговорим" (commitment with Kharetski on the Nov-7 decision page); "Да" to Val's base-only direction; the passport scan "его никто не не отменял" [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]. All on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]].
 
+## Nov 9 2026 — MVP 2 features written over the weekend and tests split; Biratka's port tests run with a fix list; firmware-transfer tests handed to Seregin by Claude; TINT-101/102; "whoever moves to To Do sets the date"
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian; "Ира") [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]: "Тесту начало писать. Для следующего VP 2… в выходные… создала афича"; she ran "порты. Тесты. Саши" and wrote what needs fixing; she split the MVP 2 tests with Khamin and Samusenko — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-9 note); she set Claude to find the firmware-transfer tests and move them to Seregin — [[wiki/topics/test-automation-strategy.md]] (Nov 9); on due dates, "если… я перевожу в ту до, то я должна поставить время" — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]]; she asked Pavel about FIQ-8 (heard), one feature per capability needed now, in his backlog [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
+### Open commitments (Nov 9 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — have Claude find every test tied to firmware transfer and move it to Seregin — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — check TINT-101 and TINT-102 (heard) and close them if they are not tests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+
+## Nov 10 2026 — "20 числа у нас релизом випи 2"; she waits to check the validator-screen bug on the IQ; she asks Biratka to review CAP-368 / feature 169; FRAM-1496 to be closed as rejected; who builds the modem switch-off server side, and when
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]: the MVP 2 date (November 20) and her capability grooming — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-10 note); the validator-screen bug: "я жду, что… вчера IQ был занят тем, что с… обновлением продакшн"; the latest main can now go on the IQ and, once Biratka rebuilds the port, she can test on a newer build; to Biratka: capability 368, feature 169 — "Нужно ли по ним что то что то делать?"; to Daniil: close FRAM-1496 as rejected with the reason; to Tsymanov/Chudinov: the modem switch-off server side — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-10 note) [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+### Open commitments (Nov 10 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — check the validator-screen bug on the IQ now the production update is done — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+
+## Nov 11 2026 — a 15-minute stand-up
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian) she noted another meeting followed: "нам 15 минут на это" [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
+
+## Nov 11 2026 (7:31 AM) — "Еще должно быть 2 Тула"?; the lab will test the whole game anyway; a Tuesday demo with free spins
+
+At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian): "Они всё равно полностью проверят игру"; "Еще должно быть 2 Тула… Один для дизайнера, во 2 Для разработчиков" before the room settled on one; "Готовую игру" and "Во вторник уже при спины должны видеться" (heard; free spins) — Val: "мне нравится ваша идея"; "Ефим уже всё отдал" — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
+
+## Nov 11 2026 (8:31 AM) — Ivan called in; capabilities close when nothing more is done; must Klimovich accept before Closed?; "клоуст не переоткрывается"
+
+At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian) she had Ivan joined "Чтоб у нас не было передаточных механизмов", confirmed the 37th capability is closed and nothing was built after the November 3 IQ build, asked whether Klimovich accepts the release before the capabilities close, and recalled "мы договаривались, что клоуст не переоткрывается"; build names, not links, in the release notes — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1075,3 +1104,11 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: "Accepted" on a capability means reviewed and accepted, not taken into work — taken into work is the move to To Do when the release scope is set, and the transition will be automated from feature status
 date: 2026-09-11
 aliases: [the green status in the middle misleads, accepted is not taken into work, move to To Do when we say we are doing MVP 1, automate capability status from feature status, a feature going In Progress moves its capability, move all MVP 1 capabilities into To Do, green Accepted looks done, change the colour, only not In Progress]
-source-count: 12
+source-count: 14
 status: active
 open-commitments: 6
 open-questions: 2
@@ -85,6 +85,10 @@ At the [[wiki/meetings/2026-10-07-daily-standup-test-coverage-first-and-ai-task-
 
 At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-signal-quality.md|Oct-8 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]] said his rules task (76, alongside TIN-61) keeps growing: as he reviews pull requests, the same points pile up and need to be added to the rules, "процесс такой, который может затянуться". He offered to close it and open a fresh one. [[wiki/people/irina-shishko.md|Irina]]: "Нет… я бы это не закрывала, я бы её сейчас поставила в туда. И просто по мере необходимости её туда добавляла, а потом уже закроется смысл 2 заводить 3, 5, 10 если про то же самое." Khamin asked whether the branch can stay open that long; Irina: she sees no sense in pulling it back and forth [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]. The notes record it as Irina's decision: the task stays open in To Do and rules are added as needed [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]].
 
+## Update, Nov 9 2026 — a task moved to To Do must carry a due date, set by whoever moves it; the creator does not put a new task straight into To Do
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] Pavel ruled that the move to To Do needs a due date, set by whoever makes the move ("если… я перевожу в ту до, то я должна поставить время" — Irina; Pavel: "Да"), written into the standard so each developer's Claude sets it, with no hard block in Jira; and, at Chudinov's request, "создающий не должен эту задачу сразу в туду вставить" [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]. This narrows the Oct-7 practice above (MVP 1 items straight to To Do even with no date). Full ruling: [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — automate the capability status transition from feature status (a feature going In Progress moves its capability To Do → In Progress, and back), after testing it — due after Monday Sept 14 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
@@ -118,3 +122,5 @@ At the [[wiki/meetings/2026-10-08-daily-standup-lease-expiry-scenarios-and-flex-
 - [[raw/Meeting_Notes_Daily_Standup_Test_Coverage_First_and_AI_Task_Numbers-October-7-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]

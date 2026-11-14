@@ -3,10 +3,10 @@ type: decision
 title: The modem on Georgia Flex machines stays always on and the operator's on/off screen goes — a machine that cannot send simply retries and sends when a connection returns, by modem or by wire; but an operator who does not want the modem must be able to switch it off on purpose, through a routine — scan a QR code, the server records the event and returns an activation code, only then the modem goes off — because a forced modem the owner cannot disable, whose data later leaks, is negligence and a legal risk for JVL; the scope widens (Kharetski on the machine, Chudinov on the server, maybe Seregin on the QR code, about three days) and the modem goes on every machine with this release because every operator wants remote updates (Val, on Pavel's proposal, Nov 5 2026)
 date: 2026-11-05
 aliases: [modem always on, оставим просто включенную эту опцию, remove the operator modem screen, убрать этот экран, no overhead in retrying, нет никакого большого верхеда, disable the modem on purpose, отключить модем через процедуру, чтобы это было намеренно, modem disable routine, QR code then activation code, сканирую QR код дайте мне активейшн код, server records the event, записать событие и отправить активэйшн код, modem disabled on purpose packet, модем отключается намеренно, allergic to the modem, у меня аллергия на него, forced modem legal risk, negligence on behalf of the manufacturer, большой лоссуд, if he did not disable it it is his problem, если человек его не отключил это его проблема, scope widens by about three days, не больше трёх дней, ideal moment to put a modem on every machine, идеальнейший вариант поставить модем на все машины, everyone wants remote updates, two-character activation code, four-character activation code as for the lease, confirmed machine actions capability, modem off confirmation capability]
-source-count: 4
+source-count: 8
 status: active
 open-commitments: 1
-open-questions: 1
+open-questions: 2
 ---
 
 # The modem stays always on, the on/off screen goes, and switching it off is a deliberate QR-and-activation-code routine (Nov 5 2026)
@@ -58,9 +58,25 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Nov 10 2026 — Kharetski starts the LTE-modem switch-off capability; who builds the server side (Tsymanov or Chudinov) and when is open; "планы были на 16"
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] [[wiki/people/evgeny-kharetski.md|Kharetski]], after loading the new standards into Claude: "приступлю потихонечку к разработке… связанной с л т m моего выключением" (heard; the notes: the LTE modem switch-off capability) [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. [[wiki/people/irina-shishko.md|Irina]]: Sergey or Dima — "кто из вас будит… Это делать?… И когда? … От этого. Зависит, когда мы будем выпускать, потому что опять же планы были на 16… Чтобы 16 выпустить, тогда нужно сейчас это уже сделать"; [[wiki/people/dmitri-chudinov.md|Chudinov]]: "нам надо и транзакшн делать до 20 и и этот"; "С тестированием лучше сразу распланировать, потому что… до сервера руки не успеваю доходить" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. Which release "the 16th" refers to is not named; the Georgia fix in [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]] ships to Eclipse on November 16 (**inference** that it is the same release).
+
+### Open questions (Nov 10 2026)
+
+- Who builds the server side of the LTE-modem switch-off — Tsymanov or Chudinov — and when, given the release planned for the 16th? — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+
+## Note, Nov 11 2026 — Kharetski on the agent and the LTE task; Pavel looks at the Georgia modem tonight
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: "Я агентом занимался… лтая задачей" (heard; the notes read the LTE task) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]. [[wiki/people/pavel.md|Pavel]]: "по модему для Джорджия буду смотреть сегодня вечером", along with a printer problem [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]. Whether this is the modem switch-off work is not said.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

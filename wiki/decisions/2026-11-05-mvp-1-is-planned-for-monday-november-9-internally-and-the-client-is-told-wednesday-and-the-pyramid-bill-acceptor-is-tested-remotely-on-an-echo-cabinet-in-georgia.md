@@ -3,7 +3,7 @@ type: decision
 title: The MVP 1 release is planned internally for Monday (November 9 2026) and the client is told Wednesday, so the client never waits on JVL; "released" means the production services deployed, the Flex IQ and Flex-Port firmware visible in the production server's interface on AWS, and the Jira release done through the GitHub procedure with the prose check; and the Pyramid bill acceptor is tested remotely on an Echo cabinet set up in Georgia, with as few subcontractor hands as possible (Val, Nov 5 2026)
 date: 2026-11-05
 aliases: [MVP 1 Monday internally Wednesday to the client, в понедельник, клиенту сказать в среду, the client never waits on us, plastic brackets for one location, пластиковые для 1 локации из 4 машин, brackets printed, metal brackets later, Pyramid bill acceptor remote test, кабинет эхо в Джорджии, Echo cabinet in Georgia, fewer subcontractor hands, меньше использовали сапконтрактов, insert a bill once a week, release means production services deployed and firmware visible on AWS, если вы не видите его в продакшн сервере значит его нету]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 1
@@ -36,14 +36,18 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the opening of the [[wiki/m
 
 ## Open commitments
 
-- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the Flex-Port build-download capability (the MVP 1 blocker) — due early in the week of Nov 9 2026 — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — finish the Flex-Port build-download capability (the MVP 1 blocker) — due early in the week of Nov 9 2026 — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — *Nov 11 2026: Klimovich checked "катабили 311" (heard; CAP-311) — "из этого интерфейса всё скачивается, всё работает" — and CAP-311 "числятся как клоуст"; that CAP-311 is this download capability is an **inference**, so kept open* — [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — collect the printed plastic brackets for the first location (four machines) and judge whether they will do — due Nov 5 2026 — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
-- [ ] The release team (Pavel, Irina, Chudinov, Ivan as release manager) — the MVP 1 release on the production server: services deployed, IQ and port firmware in the AWS interface, the Jira release through GitHub — due Monday Nov 9 2026 (client told Wednesday Nov 11) — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [ ] The release team (Pavel, Irina, Chudinov, Ivan as release manager) — the MVP 1 release on the production server: services deployed, IQ and port firmware in the AWS interface, the Jira release through GitHub — due Monday Nov 9 2026 (client told Wednesday Nov 11) — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] — *Nov 11 2026: not yet formally released in Jira; the go / no-go is expected "завтра к вечеру" (Nov 12) — carried on [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]]* — [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — set up an Echo cabinet in Georgia, connected remotely to the Minsk network, for the Pyramid bill-acceptor test; someone local inserts a bill or ticket about once a week — due unspecified — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 
 ## Open questions
 
 - Who holds the Pyramid capability — Alekseev (the transcript's "Алексеева") or Khamin (the notes' "Alexey")? — [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]] [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+
+## Note, Nov 11 2026 — not yet formally released
+
+At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 release meeting]] (Russian) Klimovich: the version "официально у нас ещё не зарелижена"; the IQ build on prod is from November 3 and is the release build; the go / no-go is expected "завтра к вечеру" if all is well — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 
 **§15.8:** clear. **§15 #9:** none.
 
@@ -51,3 +55,4 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the opening of the [[wiki/m
 
 - [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]

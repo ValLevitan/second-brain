@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 97
+source-count: 102
 open-commitments: 18
 open-questions: 3
 ---
@@ -422,6 +422,18 @@ At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-geor
 
 At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: "Да, я даже покажу просто. Как выглядит наш отчет? Это все такого еще никогда не было. Вот если убрать ещё отсюда. Алексеева с его задачами и Андрея ханда. Вот у нас прям прям хорошо. Все сроки стоят" — "Алексеева" read as [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] by the surname form and "Андрея ханда" (heard) as [[wiki/people/andrew-khandov.md|Andrew Khandov]] per the notes (both **inference**); Pavel: "Не сдержался, да такой. Эмоции"; and to Pavel: "Паша там просил агента вроде про кобабилити, но он копабилити ещё не умеет создавать. Он, может, он только добавит к комментариев, какой билет создаёт рекларимент фичи" — Pavel: "А ну хорошо" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]. This follows his Nov-3 end-date round and the Nov-5 red-build rule; the capability Pavel wanted is the modem-off confirmation one — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-6 note).
 
+## Nov 9 2026 — the Friday report missed about 30 tasks; his hard block on an empty due date is refused; he writes the rule into the standard
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian; "вопрос к диме") [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]: "пятничный отчёт, когда я порадовался, что она слишком мало задач был неправ… Порядка 30 задач… завтра ждите по ним, Сообщение"; he offered to block the move to To Do / In Progress on an empty date; Pavel refused a hard block; Kovalchuk took the standard change — "давайте я изменю стандарт сегодня добавлю эту точку" — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]], where his two commitments are tracked [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
+## Nov 10 2026 — he runs the stand-up in Pavel's absence; the new standard sent as a draft; the Knowledge repository is "our place to keep information"; the agent's draft task for Leshkevich
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] (Russian) he ran the round [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. "я разослал новую версию стандарта стандарт в статусе черновик, так что любые комментарии либо пожелания, либо предложения приветствуются… смотрите сроки"; "в репетитории к нову лишь [heard; the notes: the Knowledge repository] много чего появляется интересного… посматривайте туда. Это наша теперь. Место хранения информации" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. He told Leshkevich the agent had created a draft task for him — "Его либо в работу, либо отклонить" [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. He named "Андреем климовичем" as the Andrei Pavel talked with about the Flex IQ install — [[wiki/decisions/2026-11-10-the-flex-iq-is-released-with-two-screens-connected-and-the-single-screen-install-fix-is-held.md]] [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+## Nov 11 2026 — the custom-shaders item moved to Igor
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian) he told [[wiki/people/igor-metelski.md|Igor Metelski]] that the custom-shaders item was already moved to him and he could edit its description — [[wiki/decisions/2026-11-06-rage-is-finished-nova-2-is-antons-rust-engine-with-lua-scripted-framework-and-games-lgs-stays-miranda-and-unity-are-not-needed-code-first-then-prose-no-browser-runtime-and-all-work-moves-to-corporate-repositories.md]] (Nov-11 note) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -521,3 +533,8 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

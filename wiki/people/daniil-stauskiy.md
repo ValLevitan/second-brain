@@ -3,8 +3,8 @@ type: person
 title: Daniil Stauskiy
 date: 2026-11-08
 aliases: [Daniil Stauskiy, Daniil, Даниил, Daniil Stauski]
-source-count: 10
-open-commitments: 0
+source-count: 16
+open-commitments: 1
 open-questions: 0
 ---
 
@@ -32,6 +32,26 @@ At the [[wiki/meetings/2026-11-05-daily-standup-new-engine-capabilities-and-geor
 
 At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] (Russian; his report was repeated because Pavel's headphones were off) [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]: his task numbers are heard three ways ("Фрау, 1996, 97"; "1096, прям 1997"; "from 1496 fron 7") — not recorded; "уже проверил на 2 колонках работается… играет, почему то тихо причём… сам по себе усилитель точно работает"; the sound banks keep the loudness they had in the LGS; "Я по сути через пульс аудио могу его усилить… но я просто не знаю как бы так должно, либо усилитель сам по себе уже должен усиливать"; the old FMOD library also went through PulseAudio, "а я именно… на Ростовской [Rust] библиотеке проверял"; on the old LGS crash when another board was unplugged: "сейчас я и ю с б вытягивал и питание отключал именно с платы звуковой. Потом при подключении звук восстанавливается" — Pavel: "Отлично отлично то что надо" — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-6 note), where the Nov-5 commitment is discharged and the quiet-sound commitment and the two open questions are tracked.
 
+## Nov 9 2026 — FRAM-1496 checked and fixed; FMOD-5 (heard) to upload tomorrow as the full move to the Rust library (stereo, automatic distribution); should a sound library still go into the LGS? Biratka: no longer needed
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian; Pavel started with him) — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-9 note) [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
+### Open commitments (Nov 9 2026)
+
+- [x] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — upload the finished Rust sound library (FMOD-5, heard) — due Nov 10 2026 — [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] — *done Nov 10 2026 (heard): "закончил задачами вход, 4 вход 5"* — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+
+## Nov 10 2026 — FLAC streaming from disk, RAM about 400 MB to 35 MB; NENG-26 (heard) passed to him; the volume path; FRAM-1496 to be closed as rejected
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] (Russian; he went first) — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-10 note) [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+### Open commitments (Nov 10 2026)
+
+- [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — close FRAM-1496 as rejected, with the reason (sound no longer goes through the LGS) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+
+## Nov 11 2026 — sound plays in the engine branch, in time; the sounds and their names go into the Lua scripts
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian): in his branch the engine now calls the sound library directly, with sounds on spins and reels, "всё звучит хорошо… работает в тайминге"; parts of the engine are not finished; on where sound names should live so the engine is not rebuilt, Anton Leshkevich: in the Lua scripts, the engine plays by name; "Окей, так и буду делать тогда, ну завтра ещё там доделаю" — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-11 note; the commitment is tracked there) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -44,3 +64,9 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [[raw/Meeting_Notes_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

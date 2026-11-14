@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 94
+source-count: 98
 open-commitments: 11
 open-questions: 0
 ---
@@ -372,6 +372,14 @@ At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.
 
 At the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-and-qr-wallet.md|Nov-6 2:04 PM game-development meeting]] (English) [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]: Michael said "Efim came to me with some hit frequencies that were way, way, way out there for party time" and pulled it in to 12% of RTP at about 1 in 240; Efim: "this cup, it's important only on beds above $1.00. Because, with $1.00, most of the principal's outcomes will be naturally below $50"; the $50 cap is "In total, in total" for the free-spin round; free-spin counts vary by game ("in line three, just 7 three spins, for example", heard); on Val's $1.20 Georgia average bet: "A little bit more, alright"; on the $3 max bet saving "8 increments": "True"; on the QR wallet he asked whether the whole ticket always goes to credits — partial amounts exist but slow the transaction (Val); "it's good for the player, not good for the [operator]" (heard); on the Claude Class A reading: "No… Mr. Lyashenko does not rely on it" (heard) — [[wiki/decisions/2026-11-06-class-a-max-bet-is-3-dollars-free-spins-stay-party-time-takes-12-percent-of-rtp-at-about-1-in-240-rtp-about-92-percent-no-progressive-production-on-nova-in-january.md]] · [[wiki/decisions/2026-11-06-the-class-a-software-supports-two-cash-set-ups-bill-acceptor-and-printer-or-two-qr-scanners-scan-to-add-credits-and-scan-to-redeem-awards-with-scanners-as-vals-launch-goal.md]]. His Wildfire Ranch idea — "a large horse animation when you get 3 stacks of horses" (Michael) — is on [[wiki/projects/nebraska-skill-market.md]] (Nov 6, 2:04 PM); Lena asked whether he had told the programmers — "No, no, no, no, I didn't" [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]. The party-time tuning commitment (with Michael) is counted on the Class A decision page. Nothing of the morning's play-test prototype was said here [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]].
 
+## Nov 9 2026 (in absentia) — "ефим… на расте переписал математику"; Metelski proposes not waiting for his maths-server container
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] Pavel: "ефим же она [на] расти переписал математику" (heard) [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]. Metelski: the LGS talks to "некоторым математическим сервером ефима", and "мы просим ефима… собрать там контейнер с этим самым сервером"; the maths DLLs in the Rage games could be wrapped in a small server on the same protocol — "нам не обязательно ждать ефима" — [[wiki/decisions/2026-11-06-every-component-is-signed-separately-with-one-server-signature-at-update-time-ris-and-machine-registration-go-into-cloud-galaxy-use-cases-come-first-and-val-owns-machine-registration.md]] (Nov-9 note) [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
+
+## Nov 11 2026 (7:31 AM) — a "monster" first certification; pure addition, scripts that cannot touch each other; one tool with a switch; 1,000–2,000 recorded games for the agent; relative popularity first, retention unknowable
+
+At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] (Russian): Anton's mechanics-API option makes the first certification "монстр"; "наша задача в том, чтобы чистое добавление не меняло Того, что уже есть" — interpreted (Lua) scripts "точно друг на друга не влияют"; "я за то, что это был один тул" with an explicit designer / developer switch; he has "набор под 1000 игр или 2000 игр" with all messages recorded, in a repository, and will answer Kharetski's questions — Val: "подключиться ефима"; on metrics, "Сравнительная популярность" first, retention matters most but "мы не знаем, что это тот же человек вернулся" — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -470,3 +478,7 @@ At the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-an
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]

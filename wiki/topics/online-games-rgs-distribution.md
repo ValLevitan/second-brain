@@ -3,7 +3,7 @@ type: topic
 title: Online games / RGS distribution business
 date: 2025-01-30
 aliases: [online games, RGS distribution, EveryMatrix, RGS Matrix, Brazil market, iGaming, certification economics, revenue share, MaxBet, JVL Marketplace, marketplace, platform services, Golden Palace, Digitain, Hub88, BetConstruct, wallet, account manager, Platipus, Endorphina, SlotCatalog, Microgaming, NetEnt, Netflix for games, stealth launch, JVL Netflix, arbitrage, Relax Gaming, Pariplay, Spearhead, Hollywood Bets, fixed-price sales, digital storefront, one game a week, outsourcing studio, land-based licences, ELANTIL, LNT, LuckyStick, Top Sport, Golden Matrix]
-source-count: 15
+source-count: 17
 ---
 
 # Online games / RGS distribution business
@@ -134,6 +134,10 @@ Five older sources (staged 2025-03-29 but internally dated 2023–2024) predate 
 - **Regulated-market edge:** JVL's advantage is its licences + history; Ukrainian studios can't get licensed or sheltered. **EveryMatrix sheltering was shrinking in Europe**, so JVL planned to move to **Pariplay ("Parry Play") sheltering**; Brazil was becoming regulated, opening space as uncertified providers exit. Val was skeptical of Andrei's claim of ~100 established competitor studios. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
 - **Market shift (via Pavel):** operators had, over the prior ~6 months, stopped paying separate RGS fees, so Pavel now bundles RGS into the game price and deploys it on the operator's server — detail on [[wiki/people/pavel-studio-owner.md|Pavel's page]]. [[raw/online_strategy_brainstorm_with_andrei_klimovich_decembe_2025-03-29.md]]
 
+## Nov 10 2026 — "not in the online market today": Anton Leshkevich's creator platform is turned down
+
+On the [[wiki/meetings/2026-11-10-jvl-creator-platform-idea-and-player-telemetry-game-loop.md|Nov-10 creator-platform call]] (Russian) [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] pitched an online "creator platform" for outside developers to reskin JVL's certified games, with Stake Engine as the nearest product. [[wiki/people/val-levitan.md|Val]]: JVL is not in the online market today and "я никогда не не смог сделать деньги в онлайн рынке, поэтому… Для меня это не представляет интерес" [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]] [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]. This holds the mid-2025 step back from online (above). Detail on [[wiki/decisions/2026-11-10-the-online-creator-platform-is-not-pursued-and-jvl-aims-at-a-loop-from-player-data-on-the-machine-to-new-games-sent-straight-to-it.md]].
+
 ## Sources
 
 - [[raw/Recap with Andrei Klimovich - January 30, 2025.md]]
@@ -151,3 +155,5 @@ Five older sources (staged 2025-03-29 but internally dated 2023–2024) predate 
 - [[raw/andrei _klimovich_update-apr-15-2025.md]]
 - [[raw/Alignment with Andrei Klimovich.md]]
 - [[raw/alignment-planning-catch-up.md]]
+- [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]
+- [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]

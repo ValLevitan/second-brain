@@ -3,8 +3,8 @@ type: topic
 title: Game production throughput strategy (Val's "much faster" push)
 date: 2025-03-12
 aliases: [developing games faster, production throughput, game a month, game a week, parallel tracks, disjoint animation, zero to GLI, production time, scaling game output]
-open-questions: 2
-source-count: 7
+open-questions: 3
+source-count: 9
 ---
 
 # Game production throughput strategy (Val's "much faster" push)
@@ -89,6 +89,14 @@ A Val–[[wiki/people/michael-gottlieb.md|Michael Gottlieb]] one-on-one ([[wiki/
 - Nothing was decided — Val closed with "I'm going to think about it. We'll have another conversation on this." Whether JVL adopts the two-team split, the parallel-track/disjoint-animation model, or the junior-art-director experiment is unresolved. [[raw/developing_games_faster_michael_gottlieb_march_12-2025.md]]
 - Automated game generation / cloning from a specification (Nov-11): the taxonomy of specification elements JVL would need is not yet defined, and whether an AI-driven re-skin pipeline is feasible is unknown — Val deferred it. [[raw/Specs_graphics.md]]
 
+## Nov 10 2026 — from making games fast to choosing them from machine data
+
+On the [[wiki/meetings/2026-11-10-jvl-creator-platform-idea-and-player-telemetry-game-loop.md|Nov-10 creator-platform call]] (Russian; with [[wiki/people/anton-leshkevich.md|Anton Leshkevich]]) Val said making a game, even its maths, is now possible "с минимальными затратами", fully or mostly automatically — "раньше думал, что сделать игру самое сложное" [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]. His next step: machines on location measure what players use and like (buttons, features, perhaps where the eyes look on the screen); JVL makes a new game, a reskin or an extra mechanic with minimal human work; GLI approves it and it goes straight to the machine [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]] [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]. The hard part now is reading the data — whether two popular games out of eight are popular for the mechanic, the theme or the maths; Val believes no competitor can do this yet [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]. Anton is to look at what statistics can be collected. Detail on [[wiki/decisions/2026-11-10-the-online-creator-platform-is-not-pursued-and-jvl-aims-at-a-loop-from-player-data-on-the-machine-to-new-games-sent-straight-to-it.md]]. This moves the Nov-2025 "generate games from a specification" endgame (above) one step on, toward choosing which games to make — **inference** (the link is drawn here).
+
+### Open questions (Nov 10 2026)
+
+- Which machine statistics show whether a game's mechanic, theme or maths makes it popular? — [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]] [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]
+
 ## Sources
 
 - [[raw/github _structure-pavel-aaron-andrei.md]]
@@ -99,3 +107,5 @@ A Val–[[wiki/people/michael-gottlieb.md|Michael Gottlieb]] one-on-one ([[wiki/
 - [[raw/Specs_graphics.md]]
 - [[raw/Meeting_Transcript_Michael_Gottlieb_Art_Production_Roles_and_Estimation-January-23-2026.md]]
 - [[raw/Meeting_Transcript_Clayton_Lena_Game_Design_Jira_Orientation-January-27-2026.md]]
+- [[raw/Meeting_Transcript_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]
+- [[raw/Meeting_Notes_JVL_Creator_Platform_Idea_and_Player_Telemetry_Game_Loop-November-10-2026.md]]

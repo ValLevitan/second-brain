@@ -3,9 +3,9 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 82
+source-count: 88
 open-questions: 1
-open-commitments: 28
+open-commitments: 29
 ---
 
 # Alexei Khamin
@@ -371,6 +371,22 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — get the remaining ~30% of hardware autotests to start, carry the real bugs into the tests, and fix small port-test issues himself — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — check the Flex-Port view Tsymanov deployed on STG (the notes' undertaking; on the transcript only Irina's question and his "не проверял") — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 
+## Nov 9 2026 — testing updates sent through the Flex-Port terminal (Tsymanov updated something); helping with the production install on the Flex IQ; hardware autotests in parallel; Irina's MVP 2 tests whenever he waits
+
+At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] (Russian; label "Alexey Khamin") [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]: "тестирую обновления, которые передаются через терминал флекспорта. Ну сразу чтото не получалось. Сергей… обновил, должно, наверное, заработать"; today "на продакш… поставит"; "в параллели авто тесты идут дальше на железо"; Irina assigned him MVP 2 tests — [[wiki/topics/test-automation-strategy.md]] (Nov 9).
+
+## Nov 10 2026 — the Flex IQ production install fails with one monitor
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] (Russian; "лёша") [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]: "вчера занимался большей степени… на флекса IQ установки прода туда… с Димой разбирались… не устанавливаются, потому что с одним монитором у нас не идёт" — [[wiki/decisions/2026-11-10-the-flex-iq-is-released-with-two-screens-connected-and-the-single-screen-install-fix-is-held.md]]; he keeps the hardware autotests and rebuilds the Flex-Ports; Irina: when free, the MVP 2 tests [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+### Open commitments (Nov 10 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — rebuild/update the Flex-Ports; write his assigned MVP 2 tests whenever free — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+
+## Nov 11 2026 — TIN-93 closed, TIN-194 opened; who looks at terminals that do not flash from the SD card
+
+At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names-in-lua-scripts.md|Nov-11 stand-up]] (Russian; label "Alexey Khamin"): he closed TIN-93 (heard; CI for the hardware autotests) and opened TIN-194 with dates and a forecast — [[wiki/topics/test-automation-strategy.md]] (Nov 11) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]. He asked who looks at terminals that do not flash from the SD card; Pavel: closed — the factory-firmware boot needs an HDMI monitor, and a production flashing document will be written — [[wiki/decisions/2026-11-10-the-flex-iq-is-released-with-two-screens-connected-and-the-single-screen-install-fix-is-held.md]] (Nov-11 note) [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -455,3 +471,9 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]

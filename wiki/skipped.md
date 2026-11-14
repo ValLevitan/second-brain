@@ -312,3 +312,8 @@ Surfaced by this run's whole-tree vault↔raw pending sweep. Each is the **deriv
 
 ### Steady-state 2026-11-08 run (batches 276–279)
 - `Teams_chat_IO_board_repair_70_boards-November-3-2026.md` — **Teams chat capture (frontmatter `type: teams-chat-capture`, group chat "Evgeniy, Genadi and Pavel", IO Board Repair initiative) — OUT OF SCOPE per the 2026-08-03 owner ruling; not staged, not cited.** Vault location: obsidian-jvl/Transcripts-JVL/2026/11_November/.
+
+### Steady-state 2026-11-14 run (batches 280–281)
+- `Chat_Capture_First_Location_Readiness_and_Work_Order_by_Email-November-13-2026.md` — **Teams 1:1 chat capture (frontmatter `type: chat-capture`, screenshot of a Val ↔ Andrei Klimovich chat) — OUT OF SCOPE per the 2026-08-03 owner ruling; not staged, not cited.** Vault location: obsidian-jvl/Transcripts-JVL/2026/11_November/.
+- `Chat_Capture_Partial_Receipts_and_Freight_on_Partial_Shipments-November-13-2026.md` — **Teams chat capture (frontmatter `type: chat-capture`) — OUT OF SCOPE per the 2026-08-03 owner ruling; not staged, not cited.** Vault location: obsidian-jvl/Transcripts-JVL/2026/11_November/.
+- `Teams_chat_NOVA-2_machine_event_catalog_and_player_sessions-November-12-2026.md` — **Teams chat capture (frontmatter `type: teams-chat-capture`) — OUT OF SCOPE per the 2026-08-03 owner ruling; not staged, not cited.** Vault location: obsidian-jvl/Transcripts-JVL/2026/11_November/.

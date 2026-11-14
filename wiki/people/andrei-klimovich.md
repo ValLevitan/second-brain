@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 139
+source-count: 143
 open-commitments: 114
 open-questions: 0
 ---
@@ -946,6 +946,14 @@ He organised and ran the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-r
 
 At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 Minsk stand-up]] (Russian) [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "сегодня ещё с утра там Андрей климович писал, что на проде они там чтото собираются какието новые… клиентов привлекать уже какихто и. Для касмера было видны короче плашка апдейтов, потому что когда выкатывалась напротив, ещё не было авторизации для этой. Для этой фичи сегодня с утра перед диплоем, чтобы для кастомеров не было видно этого" [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-6 note). Which customers, and what "new clients" are being brought in, is not said. His Nov-5 commitments were not reported on.
 
+## Nov 10 2026 (in absentia) — Pavel talked with him and the Flex IQ single-screen installer fix is held: release with two screens; he is updating the MVP 2 requirements (inference)
+
+At the [[wiki/meetings/2026-11-10-daily-standup-flex-iq-single-screen-install-failure-and-mvp2-release-november-20.md|Nov-10 stand-up]] Chudinov passed on that Pavel made a fix for the one-monitor install failure but, after talking with "Андреем" — Kovalchuk: "Андреем климовичем" — "Пока эти фикси никуда не вносим выпускать будем с 2 экранами" — [[wiki/decisions/2026-11-10-the-flex-iq-is-released-with-two-screens-connected-and-the-single-screen-install-fix-is-held.md]] [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]. Irina said "Андрей их обновляет требования дописывает… громинг" for the MVP 2 capabilities (him by the requirements context — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]].
+
+## Nov 11 2026 (8:31 AM) — he runs the MVP 1 release procedure: the version is still unreleased in Jira; CAP-311's build link is missing ("переживём"); his go / no-go comes before Closed; green light "завтра к вечеру"; MVP 2 review tomorrow morning
+
+At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-product-sign-off.md|Nov-11 MVP 1 release meeting]] (Russian) he had half an hour, so only MVP 1: "Что нам мешает выпустить версию"; as product he cannot tell the release build on prod — CAP-311's link "сейчас нету", accepted for now with build names at the top of Ivan's release notes, and the Flex-Port label to be clearer; after Pavel and Irina, the order is release notes → his review, install and go / no-go → Closed and the Jira version released; he takes on checking the procedure against best practices today; he had downloaded but not yet installed the latest IQ build; the release notes stay unshortened; MVP 2 review "завтра утром" — [[wiki/decisions/2026-11-11-mvp-1-is-released-after-klimovichs-go-no-go-on-the-release-notes-then-capabilities-close-and-the-jira-version-is-released-and-closed-capabilities-are-never-reopened.md]] [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1088,3 +1096,7 @@ At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capabilit
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
+- [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
