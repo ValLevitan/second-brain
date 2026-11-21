@@ -3,10 +3,10 @@ type: decision
 title: MVP 2 is split in two — MVP 2_1 (Flex IQ and Flex-Port — Wi-Fi, remote port update, payout split, audit report; priority 1) and MVP 2_2 (web services; priority 2), and any capability with a port or IQ feature goes to 2_1; the "Lottery" payout product becomes one fixed, generic category, "Goods" (configurable categories in MVP 3); the "inspector report" is the "audit report" everywhere, even internally; the purpose of design is two paragraphs of plain prose, no numbering; MVP 2 sends SIM data tied to the location and the server grows the reporting later without IQ changes; a Master role on the web; only Irina or Pavel create releases (Nov 12 2026)
 date: 2026-11-12
 aliases: [MVP2 Transactional planning, MVP 2 capability review Nov 12, MVP 2_1, MVP 2_2, MVP 2 с половиной, MVP 2.5, 2 подчеркивания, IQ and port priority 1, web services priority 2, Goods category, гуц, goods not lottery, Lottery renamed Goods, CAP-159, one fixed category, nine categories in MVP 3, audit report, одитрепорт, inspector report renamed, purpose of design as prose, не больше 2 параграфов, no numbering, SIM data tied to location, Master role, CAP-367, master license holder, location license holder, requirement 2066, requirement 2069, CAP-312, alerting in Grafana, only Irina or Pavel create releases, Proposed to Accepted]
-source-count: 4
+source-count: 10
 status: active
 open-commitments: 6
-open-questions: 1
+open-questions: 2
 ---
 
 # MVP 2 splits into 2_1 (IQ and port) and 2_2 (web services); "Lottery" becomes "Goods"; the inspector report becomes the audit report (Nov 12 2026)
@@ -71,6 +71,14 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 The capability-372 merge and port rebuild sit on [[wiki/people/alexander-biratka.md]] and [[wiki/people/irina-shishko.md]] (Nov 17); Pavel's fix-version review on [[wiki/people/pavel.md]] (Nov 17).
 
+## Note, Nov 18 2026 — the cash-in counter gap goes with the report; 21 and 22 likely one build; MVP 2 focus is drifting, a clean-up call Nov 19
+
+At the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM AFT call]] (Russian) [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]:
+
+- **A scope gap in the money-flow report.** [[wiki/people/pavel.md|Pavel]]: in bill-validator wiring JVL has no cash-in counter in software, so the Flex IQ money-flow report misses cash-in; he has added it to the tasks but does not remember "в версию 21 оно стоит или в версию 22". [[wiki/people/andrei-klimovich.md|Klimovich]]: cover it "вместе с отчётом", which is only in version 2. Val: it is a software change and needs acceptance criteria [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]].
+- **One build.** [[wiki/people/irina-shishko.md|Irina]]: "2122 это всё равно финально будет быстрее всего одна один билд, который мы отдадим вместе"; Thursday's build is unlikely to go to the field. Klimovich: nothing is released until MVP 2 is tested [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]].
+- **Focus.** Klimovich: "у нас есть небольшое расползание фокуса. Что у нас в MP 2122" — a one-hour clean-up call Thu Nov 19, 8–9 AM, with Val [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. Commitments: [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — rewrite the MVP 2 purpose of design as at most two paragraphs of plain prose, the business "why", no numbering — due right after the call — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
@@ -80,13 +88,30 @@ The capability-372 merge and port rebuild sit on [[wiki/people/alexander-biratka
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — write autotests for the accepted requirements — due unspecified — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — read the machine-naming capability — due unspecified — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 
-- [ ] Unassigned (asked for by Biratka, Tsymanov and Irina) — a Flex IQ feature to decode the new Flex-Port error codes from capability 372 for offline storage and Grafana — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [ ] Unassigned (asked for by Biratka, Tsymanov and Irina) — a Flex IQ feature to decode the new Flex-Port error codes from capability 372 for offline storage and Grafana — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] — *Nov 19: Biratka's codes number about 16; Pavel wants a 2–3-word text per code; still no owner, and whether it is in this MVP is open* — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 
 ## Open questions
 
 - Does Wi-Fi between Flex IQ and Flex-Ports work through the GL 2 router once the port's Wi-Fi module MAC address is registered on it? Not yet tried — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- Do the texts for the new Flex-Port error codes go into this MVP (Chudinov's question)? Not answered — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 
 **§15.8:** clear. **§15 #9:** clear — CAP and requirement numbers only; the master licence number is named as a field, no value.
+
+## Note, Nov 19 2026 (stand-up) — capability 314 goes to 22; the error codes get short texts; "not today"
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian):
+
+- **Capability 314 is not SIM cards.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: "коповелли 3 14 это не симкарты это. Данные с BV купюры" — bill-validator note data, "по сассу". Pavel's feature under it was marked complete while the story on Chudinov stayed open — Pavel: "это ошибка". The capability sits on 22 but its features on 21 ("на MVP 22, а под ней фичи на itu на 21"). Pavel: the Flex-Port part "будет уже сейчас сделано" and lives on the port, harmless. Irina: "мы не сказали, что это все уйдёт на 22?"; Pavel: "Да, мы говорили о том, что это пойдёт на 22" — they set 22; Tsymanov could not ("не могу поставить 22"), because Flex IQ had no version 22 — Irina: "Сейчас я его сделаю" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]. Pavel: "надо будет тогда даты переставить то что не на 19" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Error-code texts.** [[wiki/people/alexander-biratka.md|Biratka]] added "16 годов" (codes) on the port; Flex IQ needs a description for each, otherwise they go to Grafana without one — "ничего не сломается". Pavel: "какоето короткое относительно понятное Сообщение, должно быть там дватри слова в идеале." Chudinov: "Я брать в этот MVP в работу или нет?" — not answered [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **The release is not today.** Pavel: "Этот north вообще был запланирован на сегодня" ("north" read as release — **inference**); Irina: "Не сегодня точно. Антона нет… Я бы сказала до выходных", since only yesterday "требования обновлял только Андрей"; [[wiki/people/vladimir-samusenko.md|Samusenko]]: "Вряд ли до выходных", without the cloud test environment "половина тестов не запустится" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]. That the stand-up said "today" (Nov 19) while Klimovich's Jira date was Nov 20 is a one-day difference; which was the plan is **unclear**.
+
+## Note, Nov 19 2026 (8:04 AM) — the clean-up call: the Nov-20 date will not hold; reporters clean their own items
+
+At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian) Klimovich: "сегодня мы видим, что 21, например, ожидается завтра"; asked about "дата релиза 20 ноября", Pavel: "Нереальность"; Irina: "Нет, нереально". Chudinov floated a weekend release, Irina Monday; **no new date was set**. Each reporter cleans their own 2_1 items before a follow-up the next day; 2_2 waits for the next week; CAP-267 is closed into CAP-146 [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]. Full record: [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]].
+
+## History
+
+- **Until Nov 19 2026 — MVP 2_1 was planned for November 20.** On Nov 12 Irina put the IQ-and-port release "на 20" as planned, the server part about "плюс 5 дней 25" (above) [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]. On Nov 19 the team said the 20th will not hold, with no new date — **evolution**; see the Nov-19 notes above [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
 
 ## Sources
 
@@ -94,3 +119,9 @@ The capability-372 merge and port rebuild sit on [[wiki/people/alexander-biratka
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

@@ -5885,3 +5885,17 @@ Progress: steady state — 24/44 of this week's new files handled (batches 282�
 
 ## [2026-11-21] ingest | steady-state batch 285 started (Nov 18 – Nov 19 2026 — 4 recordings, 8 files)
 Already staged at run start (cp + md5-verified); qmd update run.
+
+## [2026-11-21] ingest | steady-state batch 285 COMPLETED (Nov 18 – Nov 19 2026) — 4 recordings = 4 meeting events / 8 raw files
+**Files (8):** Meeting_Notes/Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026 (Russian, 8:00–8:22 AM) · Meeting_Notes/Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026 (English, 4:36–4:54 PM) · Meeting_Notes/Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026 (Russian, ~3:59–~4:43 AM) · Meeting_Notes/Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026 (Russian, ~8:04–~8:25 AM).
+**Pages created (7):** meetings 2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft, 2026-11-18-nathan-bom-agents-supplier-data-loop, 2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages, 2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip · decisions 2026-11-18 first installs connect Aristocrat through the bill acceptor, not AFT (SAS data and reports to MVP 3; cash-in counter gap), 2026-11-18 next BOM spike = self-learning supplier loop, 2026-11-19 Nov-20 MVP 2_1 date will not hold / reporter clean-up / CAP-267 into CAP-146.
+**Pages updated (~32 distinct):** decisions 2026-10-20 machines without working AFT, 2026-11-12 MVP 2 split (old Nov-20 date to History), 2026-11-05 MVP 2 narrow (RETITLED under §3 — the Nov-20 date no longer stated as current; status note), 2026-11-12 recycler MVP 1, 2026-10-05 payment-hub autotest stand, 2026-11-18 Jira grooming, 2026-11-18 Aristocrat, 2026-11-16 unguided BOM (Nathan's spike + note discharged); topic ai-assisted-development; org united-gaming; people andrei-klimovich, pavel, irina-shishko, val-levitan, nathan-carver, genadi-peari, dmitri-chudinov, andrey-bosik, alexander-biratka, alexei-khamin, daniil-stauskiy, dmitri-kovalchuk, evgeny-kharetski, igor-metelski, ivan, sergey-tsymanov, vladimir-samusenko, anton-seregin.
+**§15 #1:** none found. **§15.8:** clear. **§15 #9:** clear.
+**Dedup (§12, corpus-wide):** all four new.
+**Verification (parent verified; writers did not verify their own pages):** unit 7 — 27 facts (11 verifier-chosen, 16 writer) against one Russian and one English transcript; 27/27 held. Unit 8 — 31 facts (15 verifier-chosen, 16 writer) against two Russian transcripts; 31/31 held. PASS.
+**Queued:** Tier B — owner to check the retitled Nov-5 MVP 2 decision; "Дима Сергей" invitees = Chudinov + Tsymanov (inference); 21/22 = MVP 2_1/2_2 (inference); whose approval ("опру") gates field installs — open; Genadi's Nov-20 due date is in the notes only; "Евгений" (Port 13 code quality) and several "Андрей" mentions unresolved; stand-up said release "today" (Nov 19) vs Jira date Nov 20 — noted as unclear; garbles "двувой", "азер гудс", "Аш аккаунт хост", "крест сети карнавал" kept as heard.
+**Catalog:** index = disk bijection 1795 = 1795 = 1795. Artifact-tag scan clean (writers).
+Progress: steady state — 32/44 of this week's new files handled (batches 282–285). Through Thu Nov 19 2026 (8:25 AM).
+
+## [2026-11-21] ingest | steady-state batch 286 started (Nov 20 2026 — 6 recordings, 12 files)
+Already staged at run start (cp + md5-verified); qmd update run. Run as three writer units of two meetings each.

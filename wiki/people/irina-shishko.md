@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 225
+source-count: 230
 open-commitments: 50
 ---
 
@@ -937,6 +937,18 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 
 At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): she works on autotests and the requirements for the old framework. Her overdue tasks from the 16th–17th are items deferred to the future that she is moving — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). She told the voice agent not to create tasks from the talk about images — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Nov 18). She asked Biratka to sort the recycler capabilities into MVP 1 — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-18 note). On the message images she feared that old pictures, once shown, hide what must be redone. On RIS she wants Felipe's answer once Ivan is nearly done, and will ping the other side again today about access and bug answers. On CAP-142 she found only spikes and noted it sits in MVP 3 — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). She will give Seregin more autotests when he finishes his [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
+## Nov 18 2026 (8:00 AM) — the bill validator is already proven in the field; "Ничего нам не нужно"; she must not let anyone skip acceptance criteria; 21 and 22 likely one build
+
+At the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM AFT call]] (Russian) she argued for the bill validator on other makers' machines — it is already tested in the field and shows whether a fault is in JVL's port or in "их FT" — and said nothing new is needed: "мы поддерживаем 2 мода". Val told her twice not to let anyone skip writing acceptance criteria for the cash-in counter work. She will find out whether it is in 21 or 22, and thinks "2122… будет… один билд" [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. Her commitment: [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
+## Nov 19 2026 — version 22 for Flex IQ created on the spot; "not today… by the weekend"; ask Claude to write simply
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): she created version 22 for Flex IQ so capability 314's items could be set to it — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] (Nov-19 note); on the release, "Не сегодня точно. Антона нет… Я бы сказала до выходных"; she is cleaning tests against the requirements "Андрей один, Андрей 2 переписывали" (which two is **unclear**); she asked Biratka to put the recycler MVP 1 capabilities in order and Khamin to look at the TINTs on one capability; and she asked everyone to have Claude write questions more simply — [[wiki/topics/ai-assisted-development.md]] (Nov 19) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
+## Nov 19 2026 (8:04 AM) — CAP-267 into CAP-146 and closed; "Нет, нереально"; Monday for the autotests
+
+At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): CAP-267 was a placeholder; she moves its TINTs and the developer features into CAP-146 and closes 267; Nov 20 is "нереально"; she would release "до понедельника", to finish and check the autotests; she reviews her own reporter items offline — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1165,3 +1177,8 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

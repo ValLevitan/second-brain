@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 157
+source-count: 159
 open-commitments: 28
 open-questions: 0
 ---
@@ -606,6 +606,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — review the recycler capabilities and place them in MVP 1, backlog, review or To Do / In Progress — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 
+## Nov 19 2026 — recycler MVP 1 "practically closed" on the bench; about three tasks left; capabilities next; the S3 keys; about 16 new port error codes
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): the recycler accepts and pays out notes and talks to the port; the new user UI works; he closes the last "3 помоему задачи", then reviews the MVP 1 capabilities ("как задача у меня не стоит и я могу просто забыть"); the image is not yet put on S3 — keys must be created, and he has the task — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-19 note). He added "16 годов" (error codes) on the port that Flex IQ needs texts for — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] (Nov-19 note) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -767,3 +771,5 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

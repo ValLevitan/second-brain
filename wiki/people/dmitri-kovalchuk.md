@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 114
+source-count: 116
 open-commitments: 18
 open-questions: 3
 ---
@@ -458,6 +458,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] (Russian) he proposed starting with the Jira projects that have no repository and closing tasks not updated for six months after one message to their owners, keeping them as a trail. Val added his rules — archive unlinked work untouched about three months, archive initiatives with no capabilities, no "not to forget" tasks, a backlog of at most a month, everything under a value stream — and asked him to write them as a standard and point Claude at Jira. He said "я уже набросал список, это почти что стандарт". He will also extend the AI-PM's character description so its reports read simply, and ask Andrei — both commitments counted on [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
 
+## Nov 19 2026 — he relays Val's Jira clean-up standard to the Minsk team; he will collect stale items and ask owners before closing
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): "вчера вал попросил. Придумать стандарт по наведению порядка в джире" — no-owner tasks older than about three months, initiatives without capabilities or a value stream removed, a small backlog; he will gather such items and ask owners first — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] (Nov-19 note) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -574,3 +578,5 @@ On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.m
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Daniil Stauskiy
 date: 2026-11-08
 aliases: [Daniil Stauskiy, Daniil, Даниил, Daniil Stauski]
-source-count: 23
+source-count: 25
 open-commitments: 1
 open-questions: 0
 ---
@@ -68,6 +68,10 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 
 At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): Irina asked whether he saw the invitation for Saturday at 6:00; he can come. Biratka will not get the whole messages task from him by Saturday — "Там чисто анализ много занимает там объём кода большой" — but work starts today. He opened his task ("pron new younder 4", heard; the notes: a NewGin task) and asked for access to the old RAGE engine and framework (an SVN branch). Pavel: ask Igor where that repository is; Biratka: start with the framework, Igor will say if the engine is needed. Kovalchuk: "Есть ашди энджинда аш ди корзина, у Данилы доступ есть"; Irina and Biratka: enough for now [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]. This settles the Nov-17 open point on whether to invite him to the Saturday meeting.
 
+## Nov 19 2026 — moving system messages and dialogs into the new engine; collecting how each is shown, then a write-up with Biratka
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): he works on moving "системных сообщений и диалогов" into the new engine; dialogs convert, and the framework shows how messages are sent. Pavel recalled the agreement to collect all messages and describe how they are implemented — "по сути проза"; Daniil: "это я сейчас собираю, а потом саше обсужу и там чтонибудь напишем" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -93,3 +97,5 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

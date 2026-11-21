@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 97
+source-count: 98
 open-commitments: 34
 open-questions: 1
 ---
@@ -405,6 +405,10 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 
 At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) he said Claude, on a separate branch, ported the Georgia game Twin Bison ("thind bys" / "твинбайс", heard) to the current NOVA 2 engine; it talks to a locally run LGS over WebSocket and Claude can take screenshots through a local port. His old slot-art tool already worked step by step; he judged Anton's game sound on JVL geometry, with style questions. Of the image generators only ChatGPT kept art in the top half for a vertical game. He objected to returning to the old comms system (8 ms per save in Rage's main thread) and did not know whether the WebSocket link runs in the main thread. He argued that prose from NOVA 2 games only proves "что нова 2 работает как нова 2" — the source of truth is the Rage games, so prose and requirements come from Rage (accepted). He asked for Saturday instead of Friday. He undertook game CI and Twin Bison in the ISO so it runs on a machine by Saturday Nov 21 — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
 
+## Nov 19 2026 — Nebraska: a vertical bonus integrated, anticipation and scatter-stop effects next for Michael; another game ported to NOVA 2 with CI; a short document as an artifact
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): for Nebraska "вчера заинтегрировали один вертикальный бонус"; today "антисепейшн" and the "скатерстоп эффект", "по запросу Майкла" ([[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — **inference**). He ported one more game to NOVA 2, "крест сети карнавал" (heard; title **unclear**), and is setting up its CI. He will send Pavel, "женя" and maybe "Андрею" a short document with what was done and his Claude's questions; Pavel: make it an artifact — [[wiki/topics/ai-assisted-development.md]] (Nov 19) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -505,3 +509,4 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 74
+source-count: 76
 open-commitments: 18
 open-questions: 1
 ---
@@ -316,6 +316,10 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): he continues the open autotests for capabilities "245 287"; questions on all five went "Андрею или Сергею" (which Andrei is **unclear**). Looking for the next item he asked about capability 142 — only spikes and TINTs, no features — which led to Pavel's merge ruling — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). Meanwhile "займусь… с побили 289" and others he listed ("7 117? 14? 196?", heard). On the printer gap he said, with Chudinov, "У нас нету, ни требований, никаких" — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Nov-18 update) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
+## Nov 19 2026 — autotests for CAP-289 and CAP-287; most blocked items wait on a cloud test environment; he asked three times for a meeting, now set; two versions of every message
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): he works on autotests for "кап 289 и как 287" — Wi-Fi, key issuing, Wi-Fi setup by QR (the notes' reading) — and takes no new ones while blocked items keep coming back. Most are blocked because there is no test environment for the cloud services; "Я 3 раз прошёл собрать митинг"; Bosik set it for 13:00 that day — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update). On the release: "Вряд ли до выходных". On Claude texts he sends a short version in Teams and full context in Jira comments — [[wiki/topics/ai-assisted-development.md]] (Nov 19) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -392,3 +396,5 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

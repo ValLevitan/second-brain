@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 151
+source-count: 156
 open-commitments: 114
 open-questions: 0
 ---
@@ -966,6 +966,14 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian; organizer per the notes) he had put "все леварь экраны и флоу пользовательские" for the recycler into MVP 1 in Jira, with the flow PDF attached, and promised the admin screens "до завтра". He raised that capability 341 refers to the RT, not the 4-drum RQ. He first proposed a "try again" screen after a ticket jam, then accepted Val's simpler rule: "Упрощаем я поправлю, тогда сразу всё возвращаем." He proposed one balance for Texas and the MVP 1 cash-out fee — on the redemption screen, set per location, hidden at zero — and refused a fee on money going in: "Нет, нет, я категорически против." He proposed booting to idle after a power cut during payout (open), and on the restore-to-same-state requirement: "Пропишем" [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]] [[raw/Meeting_Notes_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. Rulings and his commitments: [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
 
+## Nov 18 2026 (8:00 AM) — he asks whether every maker's machine should go on the bill validator and counter; Val adopts it for Aristocrat and compliments him; Friday at the warehouse; an MVP 2 clean-up call
+
+He called the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM AFT call]] (Russian). He asked whether JVL should connect all machines "через билулидатор и каунтер независимо от производителя", with SAS only for data. His case: at the United Gaming warehouse four Aristocrat machines with identical settings behaved differently on AFT ("Это очень ненадёжно"), and technicians installing ports from JVL's instructions need no machine settings or RAM clear in BV mode. Early on he planned the nearest integration "с AFT"; Val then ruled the first installs connect Aristocrat through the bill acceptor — "Мои мой комплимент Андрею за то, что он продумал этот вопрос". He put SAS data "В 3 не раньше", called the Intralot data "неточны", said nothing goes out before MVP 2 is tested, and saw "расползание фокуса" in MVP 2_1 / 2_2 [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. His commitments (warehouse brackets and an Aristocrat on the BV, a borrowed Novomatic, the Nov-19 call): [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
+## Nov 19 2026 (8:04 AM) — he runs the MVP 2 clean-up call: live review is "неэффективно", each reporter cleans their own items; Nov 20 will not hold; still waiting for InComm registration; the payment hub with Nathan
+
+He led the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): he had gone through both versions the day before; he proposed that everyone review the items where they are reporter, 2_1 first and 2_2 next week, and meet again the next day at a time he agrees with Val; he asked how the "дата релиза 20 ноября" looks and heard "unrealistic". In the field: "мы всё ждём с инкомом. У нас проблема с регистрацией"; all hardware in hand; he must review with Nathan what is still missing on the payment-hub side — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]. At the same day's [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] Biratka and Chudinov closed items that waited on "Андрей"'s answers, and Biratka built the recycler user UI "который описал Андрей" (Klimovich — **inference**) — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-19 note) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1120,3 +1128,8 @@ At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
 - [[raw/Meeting_Notes_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

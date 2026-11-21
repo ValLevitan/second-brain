@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 158
+source-count: 160
 open-commitments: 60
 ---
 
@@ -744,6 +744,10 @@ At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-
 
 At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.md|Nov-16 4:40 PM call]] with Nathan (English) Val wants a spike so "Genadi to see", because "He thinks in old fashion… If you don't give it a path… how will it do it?" — "Valid question, but I've seen it done in development"; the agents "cannot go there with predetermined view of Genadi"; the aim is to stop Genadi sitting with 3D design to fit parts [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]. See [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]].
 
+## Nov 18 2026 (4:36 PM) — "No, it's incredible"; half the answers are in the product requirements; he adds supplier information, not data
+
+At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18 4:36 PM BOM call]] with Val and Nathan (English) he said "more than half of the answers, they are in the product requirements", asked how the agent knew the power needed, and called the result "incredible" — two days after calling himself skeptical. Val ruled that the assembler does not come to him ("Genadi is the last person that I want to take the attention from"); he is asked only when a supplier is unknown, once. He raised that generic parts and branded part numbers can come from any supplier; Val: JVL goes back to the exact supplier already in the BOM for missing data. He agreed to put supplier information, not data, in the parts files ("Yeah, I'll do"), and asked Val for a few minutes after the call [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]] [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]. See [[wiki/decisions/2026-11-18-the-next-bom-spike-is-a-self-learning-supplier-loop-the-agent-finds-the-supplier-asks-for-the-missing-data-updates-the-data-contracts-and-reassembles-with-no-human-answers.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -904,3 +908,5 @@ At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.
 - [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]

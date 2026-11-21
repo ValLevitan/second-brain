@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 141
+source-count: 143
 open-commitments: 57
 open-questions: 2
 ---
@@ -819,6 +819,14 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 
 At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian, label "Dzmitry Chudzinau"): on the Flex IQ builder ("билдером IQ"), the agent spent the day fixing flaky tests; he split the work into two tasks and starts the builder now. "Сделали с Андреем аккаунтин хвост на новом стейке всё развернули напрот всё работает" (garbled; the notes: the new stack is deployed and works; which Andrei is **unclear**). "л т е проверили на с т г сегодня… всё приходит" (LTE checked on STG; data arrives). An old task Pavel created does not fit the new standard — no requirements, no capability; he cannot delete it, so he closes it with a comment — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). The agent asks him to move a date on a requirement; requirements have no dates (same note). On Pavel's printer gap he objected: "А вот а гусь и всю реализацию с ним спринтерами выпили. У нас нету ни требований… Почему оно должно работать?" — Pavel ruled the fix anyway — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Nov-18 update) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
+## Nov 19 2026 — the Flex IQ builder done; full deploy on GitHub; the SIM-card task; capability 314 is bill-validator data; stale Jira items closed with comments
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian, label "Dzmitry Chudzinau"): "Вчера доделал этот билдер по флекс ай кю", answers "Закрылись Андреем" (Klimovich — **inference**); "Аш аккаунт хост теперь у нас появился" (heard; **unclear**); "Полноценное дипло на гетхабе про дженкинс можно забыть?"; he took the SIM-card task. He raised capability 314 — "это не симкарты это. Данные с BV купюры" — and the 21/22 mix-up — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] (Nov-19 note); and asked whether the error-code texts go into this MVP. On the Jira clean-up he had closed his old items with comments and suggests starting with stories without a repository prefix — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] (Nov-19 note) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
+## Nov 19 2026 (8:04 AM) — the cornerstone 2_1 tasks are done; maybe a weekend release; CAP-267's only feature is infrastructure
+
+At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): Flex-Port Wi-Fi updates ready, SIM-card data finishing that day, autotests and small items left — "может, даже получится, что получится релиз на выходные"; auto-rollback happens by itself; the one feature in CAP-267 was made by an agent for the build installers and can be closed — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -963,3 +971,5 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

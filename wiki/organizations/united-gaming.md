@@ -3,7 +3,7 @@ type: organization
 title: United Gaming (Georgia's largest master operator)
 date: 2026-09-02
 aliases: [United, United Gaming, Bunty's company, the largest Georgia master]
-source-count: 12
+source-count: 14
 open-commitments: 1
 open-questions: 1
 ---
@@ -96,6 +96,10 @@ At the [[wiki/meetings/2026-10-13-arc-zazanis-lunch-trade-in-and-2027-volume.md|
 
 At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pulse-mode-installs.md|Oct-29 stand-up]] [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] Pavel called United Gaming "один из крупнейших операторов в джорджии" with all kinds of machines; "Андрей" (the notes: Klimovich) goes there with Sebastian on Friday, Oct 30, to try the Flex-Port — [[wiki/decisions/2026-10-20-machines-without-working-aft-connect-by-bill-validator-emulation-and-pulses-in-mvp1-and-the-port-mode-is-set-per-port.md]] (Oct-29 update).
 
+## Nov 18 2026 — four Aristocrat machines at United's warehouse: AFT worked on one and not another
+
+At the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM AFT call]] (Russian) [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] said that at the "склад к Юнайтед гейминг" there were four Aristocrat machines JVL already knew how to support through AFT; with identical settings, "На одной деньги не выводятся, на другой деньги не принимаются", until rebooted and reconnected. This was one reason Val ruled the first installs connect Aristocrat through the bill acceptor. On Friday (Nov 20) Klimovich returns to "the warehouse" to check the remaining brackets and connect an Aristocrat through the bill validator — whether that is United's warehouse is not said [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. See [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
@@ -110,3 +114,5 @@ At the Minsk [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-a
 - [[raw/Meeting_Transcript_Billy_Liu_PlayPay_Virtual_Wallet_Pay_Tag_Plan-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]

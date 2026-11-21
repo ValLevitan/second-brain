@@ -3,9 +3,9 @@ type: decision
 title: Jira is groomed by Claude under a written standard — work with no Jira-project or repository link that nobody touched for about three months is archived; an initiative with no capabilities under it is archived; "not to forget" tasks are not allowed; a backlog is at most "next week, next month"; everything sits under a value stream or is removed; Kovalchuk writes the rules into the standards repository and the AI-PM gets a plain-language style guide (Nov 18 2026)
 date: 2026-11-18
 aliases: [Jira grooming standard, Jira hygiene cadence, Jira grooming rules, archive unlinked Jira work, no not-to-forget tasks, чтобы не забыть, запиши себе в блокнотик, no long backlog, не позволяйте длинный пекло, everything under a value stream, валю стримс, сорник, initiative without capabilities, если вы не видите кей побилоти, Claude grooms Jira, направите свой клод на грун, archive notice email, AI-PM report style, simple sentences for second-language readers, standards contest, $50 тоже не помешает, Lena's loose items archived]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 2
+open-commitments: 3
 open-questions: 2
 ---
 
@@ -61,7 +61,21 @@ Kovalchuk: an agent already sends people a reminder every morning about tasks ne
 
 **§15.8:** the $50 is a contest prize open to all, not a named person's pay — recorded. No personal passage.
 
+## Note, Nov 19 2026 — Kovalchuk tells the Minsk team; clean-up starts with stories that have no repository prefix
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "вчера вал попросил. Придумать стандарт по наведению порядка в джире" — tasks left without an owner or assignee "которые висят примерно уже больше, чем 3 месяца"; "Все инициативы, которые не имеют capoбити, должны быть убраны"; "Инициативы без уэлюстрим [value stream] должны быть убраны"; the backlog must not be big. Asked whether 10 is big, Pavel: "Небольшой однозначно"; Irina: it depends on when the task was made — work planned for roughly the next month is fine [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
+- Kovalchuk retold Val's "write it on a sheet of paper" remark ("Пишите на листике"); it was said to "Дима" (Chudinov — **inference**, matching Val's example above). Bosik: "Эта политика двойных стандартов, то мы должны все в джире писать и планировать то гдето на листике" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- [[wiki/people/dmitri-chudinov.md|Chudinov]] had already closed his old placeholder items "с комментариями" rather than delete them; he suggests starting with "Все фич истории… у них нету, например, префикса репозитории"; Kovalchuk: "все портфельные проекты" — forget them or re-create them properly [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- Kovalchuk will collect such items and ask their owners before closing, "чтобы просто тупо не закрыть всё"; anyone may close their own old tasks now — "либо реджектор… Но главное закрыть"; Pavel: "Кей принято" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
+### Open commitments (Nov 19 2026)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — collect the stale Jira items (start with features and stories with no repository prefix — the portfolio projects) and ask their owners before closing — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

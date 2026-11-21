@@ -3,7 +3,7 @@ type: decision
 title: Other makers' machines whose AFT does not fully work connect through bill-validator emulation (money in) and pulses (money out), and this mode is in MVP 1; the mode is set per port in the gateway, not detected; SAS (6.0 and up) is kept apart from AFT, for data that may become a paid product; MVP 1 release on a Wednesday and first install about November 2 (Oct 20 2026)
 date: 2026-10-20
 aliases: [bill validator emulation mode, BV emulation mode, режим билвалидатор эмуляции, pulses for cash-out, AFT for transactions SAS for data, SAS 6.0 and higher, not a hybrid mode, случайный режим, accidental mode, SAS data as a paid product, analytics of competitor machines, 30 to 50 dollars a month, promotional credits only on AFT machines, port mode per port in the gateway, no auto-detection of AFT, ID-003, four bill validators, report every spin, HTT dongle, machines back on Friday, MVP1 release Wednesday, first install November 2, ошибочное решение]
-source-count: 16
+source-count: 18
 status: active
 open-commitments: 20
 open-questions: 7
@@ -94,7 +94,7 @@ Settled at the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-
 
 ## Open questions
 
-- Should JVL read SAS data from other makers' machines at all, and sell it? Klimovich proposed it; Val doubted, then liked the wording; no product decision — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] — *Oct 21 2026: Pavel read games, money in and out and games played from a Banilla; Irina: "Это вот то, чего добиваются"; still no capabilities or requirements — not answered* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
+- Should JVL read SAS data from other makers' machines at all, and sell it? Klimovich proposed it; Val doubted, then liked the wording; no product decision — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] — *Oct 21 2026: Pavel read games, money in and out and games played from a Banilla; Irina: "Это вот то, чего добиваются"; still no capabilities or requirements — not answered* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] — *Nov 18 2026: parked, not answered — Klimovich: "В 3 не раньше"; Val: stop spending time on it, customers will ask once they see JVL's reports; MVP 3 in steps* — [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
 - Do replacement bill acceptors of other makes fit the same cabinet connector and work with JVL's port? To be checked on the four on hand — [[raw/Meeting_Transcript_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]]
 - Which Wednesday is the MVP 1 release? Not stated — [[raw/Meeting_Notes_Third_Party_EGM_BV_Emulation_Mode_and_SAS_Data-October-20-2026.md]] — *Oct 29 2026: Pavel said the team is expected to release the port "до завтра" (Oct 30, a Friday); whether that is the MVP 1 release is not said — not answered* — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - Which no-SAS (bill-validator) capabilities exist, are their acceptance criteria current, and which autotests must be written from scratch? — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
@@ -189,6 +189,10 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 - When do the first installs start, with which operator and which machines and equipment? Felipe has not finalised it — [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 
+## Update, Nov 18 2026 — Aristocrat too goes on the bill acceptor for the first installs; SAS data waits for MVP 3
+
+At the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM call]] (Russian) Klimovich asked whether all makers' machines should connect "через билулидатор и каунтер независимо от производителя", with SAS only for data. Pavel argued for AFT (SAS packets have checksums) but said most Georgia makers never implemented AFT properly and JVL cannot re-test it on other makers' machines every release; Klimovich described four Aristocrat machines at the United Gaming warehouse where AFT worked on one and not another. **Val ruled: "подключение аристократа не через… Эйф ти… А через белый цеп"** for the first installation; JVL's own machines can stay on SAS/AFT, and both modes stay supported [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. This goes beyond this page's rule, which kept AFT where it works — **evolution**. Full record, the cash-in counter gap and commitments: [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
 ## Open contradictions
 
 - **Does the Flex-Port follow the kiosk's mode command? (Oct 22 2026, same meeting.)** Khamin: "я перепроверил эту ситуацию, всё работает"; Biratka: "Да работает". Irina: the port "получает, но он не следует" these commands [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]. Not resolved. — *Oct 23 2026: not settled. Irina said nothing was changed on the Flex IQ for BV mode and only the port needs installing; Pavel wants Biratka's released Flex-Port given to the site "чтобы они проверяли режим". Nobody restated whether the port follows the command; the on-site test is the next evidence* — [[raw/Meeting_Transcript_Daily_Standup_Bill_Validator_Lockout_and_Atlanta_Port_Test-October-23-2026.md]]
@@ -219,3 +223,5 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Firmware_Delivery_and_Reopening_Completed_Features-October-28-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 70
+source-count: 73
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -283,6 +283,14 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 
 At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.md|Nov-16 4:40 PM call]] with Val (English) [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] he said he is working on the structure of the BOM in GitHub, with sync to MSBC already possible, and planned a programmatic function to match contracts with the agent only for edge-case search. Val ruled for unguided assembly: agents get only a product description ("an ATM machine") and the data contracts; a spec writer, an auditor and an assembler with a learning loop; a failed build must point to the data sheet. Nathan: "that answers a question that I was bouncing around with Genadi". He will spike an easy sub-assembly — "Let's shoot for Wednesday… if not Thursday" (Nov 18 or 19) — and send Val a note and book a meeting when ready [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]. Commitments: [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]]. Earlier the same afternoon Genadi told Val the prepared parts are with Nathan, who "сказал, что он это проверит" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]].
 
+## Nov 18 2026 (4:36 PM) — his unguided spike works: three scoped agents and a simulated user build a power-supply sub-assembly through questions; next, a supplier loop with no human answers
+
+At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18 4:36 PM BOM call]] with Val and Genadi (English) he showed the spike: several simulations with "3 scoped agents… an auditor and an assembler and a spec writer" plus an agent playing a non-expert user; no technical direction, only the interfaces from the data contracts and a flat parts list; the assembler asked questions (answers simulated), found missing contracts and iterated with the auditors; the closest it got to the power question was "120 volts, 60 hertz"; each run is in a sandbox and starts blank. Val ruled the next spike: erase all answers and hints; the agent finds the supplier, asks for and chases missing data, updates the data contracts and re-assembles until no human is needed. Nathan: "Let's try to do another two or three day spike"; he will set the focus from the transcript and not "hydrate all" the data [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]] [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]. His Nov-16 spike commitment is discharged on [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]]; the new one is on [[wiki/decisions/2026-11-18-the-next-bom-spike-is-a-self-learning-supplier-loop-the-agent-finds-the-supplier-asks-for-the-missing-data-updates-the-data-contracts-and-reassembles-with-no-human-answers.md]].
+
+## Nov 19 2026 (in absentia; name call an inference) — his Nov-18 email on what is left on the payment-hub side
+
+At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] Klimovich: "надо ещё с нейтаном доразбираться, что у нас ещё не сделано по пэймонт хабу… Он там вчера написал письмо"; possibly "не всё для пеймэнт процессинга готово" — settlements. "нейтан" read as Nathan Carver by the payment-hub context (**inference**) — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -355,3 +363,6 @@ At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.
 - [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]

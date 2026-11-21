@@ -3,10 +3,10 @@ type: decision
 title: The Flex-Pay Recycler Slim gets its own MVP 1, on the production server by Thursday (November 19 2026), built on Flex-Pay with the recycler in place of the validator and coin dispenser; whatever does not fit goes to a recycler MVP 2 a week later — scope is cut, the date never moves; only the ISO image from production may be taken, no files from DEV or STG; the first market is Texas, e-wallet only, no TITO; Pavel plans and creates releases right after each meeting (Val, Nov 12 2026)
 date: 2026-11-12
 aliases: [Recycler MVP 1, recycler MVP 1 by Thursday, Flex Recycler Slim MVP 1, MVP один на флекс payree сайм, MVP 1 2 3 for the recycler, разбить на MVP 123, cut scope not dates, не двигайте дейт, обрубить MVP один, recycler MVP 2 a week later, only the ISO from production, я разрешаю только ISO имидж брать, no files from DEV or STG, Texas e-wallet only no TITO, еволет no tito, recycler CI/CD, release right after the meeting, делайте релизы сразу, recycler on the Flex-Pay base, Sunday recycler meeting Nov 15, recycler November 19]
-source-count: 8
+source-count: 10
 status: active
-open-commitments: 6
-open-questions: 3
+open-commitments: 5
+open-questions: 4
 ---
 
 # The recycler gets its own MVP 1 on the production server by Thursday; MVP 2 a week later; cut scope, never the date (Nov 12 2026)
@@ -59,20 +59,35 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 ## Open commitments
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — create the recycler MVP 1 and MVP 2 releases and plan them in Jira — due Nov 12 2026 ("через пару часов") — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] — *at 8:33 Pavel had made the recycler version with three capabilities; an MVP 2 release is not mentioned, so not marked done* — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
-- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish the recycler hardware bring-up — due about Nov 14 2026 ("пару дней") — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
-- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] (6:53 meeting) / [[wiki/people/andrey-bosik.md|Andrey Bosik]] (Val's 8:33 reminder) — CI/CD for the recycler — due Thursday Nov 19 2026 — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] (6:53 meeting) / [[wiki/people/andrey-bosik.md|Andrey Bosik]] (Val's 8:33 reminder) — CI/CD for the recycler — due Thursday Nov 19 2026 — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] — *Nov 19: the recycler image is not yet put on S3 like the transactional builds; keys must be created; Biratka has the task* — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — prepare the updated recycler capabilities and requirements (scope for MVP 1) — due Sunday Nov 15 2026 — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] — *Nov 15: the player screens and flows were in MVP 1 in Jira ("Я добавил, все леварь экраны и флоу пользовательские"); the admin screens and flows promised "до завтра" — kept open until reported done* — [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
 - [x] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — set the Sunday 8 AM Eastern recycler meeting with Irina, Biratka, Pavel and Val — due Nov 15 2026 — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] — **discharged Nov 15 2026**: the meeting ran 8:01–8:57 AM Eastern with all four — [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]] [[raw/Meeting_Notes_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — email Elizabeth that a recycler must stand ready on Thursday — due Nov 19 2026 — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
-- [ ] The recycler team (Pavel, Biratka, Irina) — deliver recycler MVP 1 on the production server — due Thursday Nov 19 2026 — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- [ ] The recycler team (Pavel, Biratka, Irina) — deliver recycler MVP 1 on the production server — due Thursday Nov 19 2026 — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] — *Nov 19: "практически закрыт" on the bench, about three tasks left, the image not yet on S3; not shown on the production server* — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 
 ## Open questions
 
 - When is recycler MVP 2? Val said "через неделю в четверг… Не, не на следующей неделе, а через неделю", and at the close "MVP 2 на следующий четверг" — **unclear** (by the Nov-19 date for MVP 1, probably Nov 26 — **inference**) — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - Are the recycler units for the demo already assembled? Biratka asked; Val: "Я не знаю, собранный или нет" — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - Is a JCM validator unit in the demo room, or only the old one? — [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]] [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
+- Did recycler MVP 1 reach the production server (its image through S3) on Nov 19 or after? On Nov 19 it was "practically closed" but not yet on S3 — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 
 **§15.8:** clear — scope, dates and process only.
+
+## Note, Nov 19 2026 — MVP 1 "practically closed" on the bench; the image does not yet go to S3
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian), on MVP 1 day:
+
+- **Status.** [[wiki/people/alexander-biratka.md|Biratka]]: "MVP один… Текстически закрыт" (heard; practically closed) — "Все готово проверено на стенде. Купюру принимает купюры выдаёт. С портом общается"; the new user UI "который описал Андрей, работает" (Klimovich — **inference**), "юзер ю ай… не касаемся пока сетапа". He will close the last "3 помоему задачи" that waited on Andrei's answers, then "MVP один будет закрыт" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Tests.** He has internal tests, "ближе к юнит", and a test module per task; the other side cannot run them "Потому что у них рисайлера нету" — they ordered a unit. He removed a module from the build because Pavel said it is not needed [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Capabilities.** Irina asked whether he had put the MVP 1 capabilities and requirements in order; not yet — Klimovich went through them, but some capabilities are "непонятного предназначения"; Biratka will finish the tasks, then review them — "как задача у меня не стоит и я могу просто забыть" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Not yet on S3.** Pavel: the recycler image "Финально кладётся на с 3 хранилище. Как и для всех транзакшнов"? Biratka: "Сейчас нет" — MVP 1 never covered it, "ключи не были созданы"; it builds "как будто flexpay"; he has the task to change the keys — part of "Целая группа группа шагов" for recycler updates [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
+Val's rule was MVP 1 on the production server, taken only as the production ISO (above). These sources do not show it there on Nov 19, so the delivery commitment stays open.
+
+## History
+
+- [x] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish the recycler hardware bring-up — due about Nov 14 2026 ("пару дней") — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] — **discharged by Nov 19 2026** (**inference**): Biratka, "Все готово проверено на стенде. Купюру принимает купюры выдаёт. С портом общается" — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 
 ## Sources
 
@@ -84,3 +99,5 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Notes_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

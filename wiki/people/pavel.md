@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 327
+source-count: 332
 open-commitments: 121
 open-questions: 0
 ---
@@ -1562,6 +1562,18 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 
 At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian; he joined about 12 minutes in and led the round): after the round he raised the Georgia problem — "принтер не заработал на новых платах" — a scope gap: on the new Flex IQ interface boards, Flex IQ must set one signal at boot so the lines switch and a Gen 2 or Epic printer gets its signals. Against Chudinov's and Samusenko's "no requirements" he ruled: "забудем про мутагусь… надо поддержать в работе с обычным принтером"; "задача на час работы… придётся её вот сейчас создать и сделать" — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Nov-18 update; his commitment counted there). On CAP-142 he ruled that Sergey finds the capability where the QR Wi-Fi work was done and Claude merges the two, or autotests will be duplicated — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). On Chudinov's old task: delete it or comment that it is a placeholder; "вала интересует больше не состояние задачи, а состояние готовности этой задачи" — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). He had a report that prose for "Р к 35 68" (RK3568) is thin, though he remembers writing it; Tsymanov said a job updates prose on every PR. On Daniil's access to the old RAGE engine repository: ask Igor — "даже у меня туда доступа нету" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
+## Nov 18 2026 (8:00 AM) — AFT is more reliable, but other makers never implemented it properly; own machines on SAS, others on the bill acceptor; the cash-in counter gap; SAS meters held back
+
+At the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM AFT call]] (Russian) he gave the case for AFT (bill-validator emulation pays odd amounts in several steps; SAS packets carry checksums) and against it on other makers' machines ("большинство компаний… этот FT толком не реализовали"; JVL cannot re-test it every release). He proposed SAS on JVL's own machines and the bill acceptor on others. He reported a scope gap: in BV wiring there is no software cash-in counter, so the Flex IQ money-flow report misses cash-in; he has put it in the tasks but does not remember if it is in 21 or 22. Over SAS JVL can read the main meters on all machines; the port already collects some, held out of this release as untested [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. See [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
+## Nov 19 2026 — capability 314 to 22, his complete-marked feature "a mistake"; error-code texts of 2–3 words; "keep context narrow"; the cloud test-environment meeting set
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian) he led. On capability 314 he agreed his feature should not have been marked complete while Chudinov's story stayed open ("это ошибка") and that its items go to 22 — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] (Nov-19 note). For the new Flex-Port error codes he wants "дватри слова в идеале". On the cloud test environment: "как минимум один митинг был"; he settled the time, "Давайте на час" — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update). On long Claude texts: "мы приняли, стараемся держать контекст узким" — [[wiki/topics/ai-assisted-development.md]] (Nov 19) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
+## Nov 19 2026 (8:04 AM) — "Нереальность" for Nov 20; pull stray tasks out of Port 13; feed CAP-145 to Claude; server-side tests may not be worth it
+
+At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): the Nov-20 date for 2_1 is "Нереальность"; he is the reporter of the Port 13 terminal-update capability and must pull the unrelated tasks out; he proposed shrinking CAP-145's 20-plus requirements with Claude; the server-side update tests need a cloud environment "в лучшем случае только 22" and "Может быть, их вообще не стоит делать" — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1895,3 +1907,8 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

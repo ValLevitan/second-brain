@@ -3,7 +3,7 @@ type: decision
 title: The autotest stand for card tests — a real InComm or a fake one, local or in the cloud — is not MVP 1 and goes to a separate meeting with "Andrei"; the quick option is a Flex IQ build variant that fakes card issuance; the sides (cloud vs the office, a stand close to production vs "on whose machine") are recorded as positions
 date: 2026-10-05
 aliases: [autotest stand debate, стенд для автотестов, real or fake InComm, с реальным инкламом либо с фейковым, InComm emulator, эмулятор инкома, не MVP 1 иначе все будем заниматься подъёмом инкома, separate meeting with Andrei, отдельный митинг и туда Андрея надо, Flex IQ build variant fakes card issued, фейковые данные о том что карточка выпущена, stand eats 15 to 20 GB, 15 20 гигов памяти, cloud vs local stand, не согласен что нам надо это в облаке, dev staging stand, Payment Hub autotests, special white cards, беленькие карты, FP-94 FP-59 not here]
-source-count: 5
+source-count: 8
 status: active
 open-commitments: 2
 open-questions: 4
@@ -51,7 +51,7 @@ The separate meeting set on Oct 5 is not mentioned as held. The notes record the
 
 ## Open commitments
 
-- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — call a separate meeting on the autotest / InComm stand with "Andrei" (Bosik by context), Chudinov, Tsymanov and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] *(Oct 9: Pavel sets it for 12:45 that day, open to all interested — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]])*
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — hold the cloud test-environment meeting 13:00–14:00 (team time) on Nov 19, invite sent from the call, and add Khamin as owner of the TINT repository — due Nov 19 2026 — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — raise any blocker on the card tests to Irina at once — due before Oct 15 2026 — [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 
 ## Open questions
@@ -73,9 +73,27 @@ At the [[wiki/meetings/2026-10-09-daily-standup-weekend-service-rollout-and-stat
 
 Whether the 12:45 meeting was held is not in these sources. Pavel's commitment below stays open until a source shows it held.
 
+## Update, Nov 19 2026 — the cloud test environment still does not exist; autotests are blocked; Bosik sets a meeting for 13:00 that day
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian):
+
+- **Blocked.** [[wiki/people/vladimir-samusenko.md|Samusenko]]: most of his blocked autotests are blocked because "Нету тестового роман [environment] для облачных сервисов, то есть как получить какуюнибудь подпись настроить через облако л т е там… этого сейчас невозможно"; "этот вопрос поднимал уже миллиард миллионов раз"; "Я 3 раз прошёл собрать митинг по поводу. Тестового инваймента. Для облачных сервисов" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]. Earlier, on the release: without it "половина тестов не запустится" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Bosik pulled in.** Irina: "Дима, добавь сюда Андрея" and "Паша не забудь, пожалуйста его добавить"; Pavel: "Говорят ты 3 раз уже запрашиваешь митинга". [[wiki/people/andrey-bosik.md|Bosik]]: it needs its own meeting, not everyone here; "Это мы, когдато это обсуждали"; "Я тогда говорил, что я со своей стороны всё сделал… Я тебе приходил, говорил, что паш я сделал, тогда дима был в отпуске"; "Да я сам потом про него уже забыл". Pavel: "Да, как минимум один митинг был" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Set.** Bosik: "Давайте на сегодня во сколько создаем?"; Pavel: "Давайте на час"; Bosik: "13 ноль ноль тире 14 ноль ноль… сейчас разошлю". Samusenko later: "Андрей добавь лёшу на митинг все таки владелец в центре позитория нужен нам" (Khamin, owner of the TINT repository); Bosik: "Спасибо" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]. The notes call it "team local time"; no zone is said on tape [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+- **Same day, 8:04 AM.** Pavel on the server-side firmware-update tests: they need a separate environment for "сервисы. Который у нас на AWS крутятся", "который мы в лучшем случае только 22 с подымим" — and may not be worth automating — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
+
+Whether the 13:00 meeting was held, and what it decided, is not in these sources.
+
+## History
+
+- [x] [[wiki/people/pavel.md|Pavel Frolov]] — call a separate meeting on the autotest / InComm stand with "Andrei" (Bosik by context), Chudinov, Tsymanov and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]] *(Oct 9: Pavel sets it for 12:45 that day, open to all interested — [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]])* — **discharged by Nov 19 2026** (**inference**): Pavel, "Да, как минимум один митинг был"; Bosik: "Это мы, когдато это обсуждали" — which date it was held is not said — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Lease_Expiry_Scenarios_and_Flex_Signal_Quality-October-8-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Weekend_Service_Rollout_and_Stats_Blocking-October-9-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

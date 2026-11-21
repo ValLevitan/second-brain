@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 96
+source-count: 97
 open-questions: 2
 open-commitments: 30
 ---
@@ -411,6 +411,10 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian; label "Alexey Khamin"): after yesterday's task from Val ("задание волос", heard) he worked on "Законодательных для Штатов. Вещей" — to see what is and is not covered; another meeting on it is coming. In parallel a little on tests: updating the terminal and Flex Pay ("flexpree", heard), a build running. Irina: "надо не немножко", tests are still needed — share the time [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
+## Nov 19 2026 — hardware tests and offline runs; PR reviews against the TINT repository standards; an agent over the law repository; no time for the TINTs Irina asked about
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian, label "Alexey Khamin"): he keeps running tests on hardware, then adapts the added tests to pass offline, and reviews PRs "под стандарты тинт репозипозитория"; after "Вчера вот митинг провели свалом" he builds a semi-autonomous structure that reads the legislation repository and writes product-neutral requirements, NOVA first — [[wiki/topics/ai-assisted-development.md]] (Nov 19). Irina asked him to review the TINTs on one capability ("50 какие то"); "я не знаю когда мне добраться" — anyone freer may take them. Samusenko asked Bosik to add him, as owner of the TINT repository, to the cloud test-environment meeting — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -509,3 +513,4 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

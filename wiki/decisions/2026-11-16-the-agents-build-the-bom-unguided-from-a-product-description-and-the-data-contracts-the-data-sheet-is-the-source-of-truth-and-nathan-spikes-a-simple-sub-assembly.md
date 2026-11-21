@@ -3,9 +3,9 @@ type: decision
 title: The agents build the BOM unguided — they get only a short description of the product and the data contracts, with no template or assembly logic from Genadi or Nathan; when a build fails the cause must trace to the data sheet, which is the source of truth; Nathan spikes a simple sub-assembly for Wednesday Nov 18 (Thursday at the latest); the work splits into Val's procurement administration and AI-COO side and Genadi's specs and data sheets (Val, with Genadi Peari and Nathan Carver, Nov 16 2026)
 date: 2026-11-16
 aliases: [unguided BOM, unguided assembly, unguided assembly of a bill, unguided BOM test, unguided BOM spike, AI-logic for assembling BOM, BOM from data contracts without guidance, no template, ATM machine description, spec writer auditor assembler, data sheet is the source of truth, the exit is the data contract the entry point is the data sheet, pretend the product never existed in MSBC, compare two BOMs, Nov 16 BOM test, Nathan spike Wednesday, Val's part and Genadi's part, административная часть прокюрмента]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 5
+open-commitments: 3
 open-questions: 2
 ---
 
@@ -54,18 +54,29 @@ In one line: **the agents get only a short product description and the data cont
 
 ## Open commitments
 
-- [ ] [[wiki/people/nathan-carver.md|Nathan Carver]] — spike a workflow: ask the agents for something simple from a description only and let them assemble an easy sub-assembly from the data contracts ("Let's shoot for Wednesday… if not Thursday") — due Wed Nov 18 2026, Thu Nov 19 at the latest — [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] *(earlier the same afternoon Genadi said Nathan had "сказал, что он это проверит" — the BOM from Genadi's data [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]])*
-- [ ] [[wiki/people/nathan-carver.md|Nathan Carver]] — send Val a note when the spike is ready and book the meeting then ("I'll send you a note for sure… I'll get it booked"; Val does not want a meeting booked before it is ready) — due Nov 18–19 2026 — [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — send Val the link to the repository where everything is stored, and send it to the AI-COO too ("Это один репозиторий") — due unspecified — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — put any standard he has, even two sentences, into the GitHub standards repository, written by Claude ("попросите клод, чтоб он написал") — due unspecified — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — fix the procurement administration gaps himself (e.g. purchase orders without a G/L account) — due unspecified — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 
+## Update, Nov 18 2026 — the spike is done: a power-supply sub-assembly built through questions; Genadi calls it incredible; the next spike is a supplier loop
+
+At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18 4:36 PM call]] (English) with Val and Genadi [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]] [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]:
+
+- **Result.** Nathan ran several simulations with "3 scoped agents… an auditor and an assembler and a spec writer" plus an agent playing a non-expert user. With no technical direction — only the design purpose, where the data contracts are, a flat parts list and the interfaces needed — the assembler built a power-supply sub-assembly, asked questions over several rounds (answers were simulated), found contracts still missing, and iterated with the auditors' findings [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]].
+- **Reactions.** Val: "I'm ecstatic about… the result." Genadi: "more than half of the answers, they are in the product requirements"; "No, it's incredible" — after his Nov-16 skepticism [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]].
+- **Next.** Val ruled the next spike: no answers or hints from people; the agent finds the part's supplier, asks for the missing data, chases it, updates the data contracts and re-assembles until no human is needed; Genadi is asked only when a supplier is unknown, once — [[wiki/decisions/2026-11-18-the-next-bom-spike-is-a-self-learning-supplier-loop-the-agent-finds-the-supplier-asks-for-the-missing-data-updates-the-data-contracts-and-reassembles-with-no-human-answers.md]].
+
 ## Open questions
 
-- Can agents build a correct BOM from the data contracts with no guidance on the logic? Val's theory; Genadi skeptical; the spike is the test — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- Can agents build a correct BOM from the data contracts with no guidance on the logic? Val's theory; Genadi skeptical; the spike is the test — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] — *Nov 18 2026: partly answered — the spike built a power-supply sub-assembly from the data contracts, but with simulated human answers; a build with no human answers is the next spike, so left open* — [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - Who gets the copy of the repository link? Val: "Мне и копию с юро" — the notes write "Yuro" and call the name unclear; no Yuro is known in the wiki (**unclear**) — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 
 **§15.8:** clear — Val's general remark on what companies pay executives names no one and gives no figure; not recorded. **§15 #9:** clear.
+
+## History
+
+- [x] [[wiki/people/nathan-carver.md|Nathan Carver]] — spike a workflow: ask the agents for something simple from a description only and let them assemble an easy sub-assembly from the data contracts ("Let's shoot for Wednesday… if not Thursday") — due Wed Nov 18 2026, Thu Nov 19 at the latest — [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] *(earlier the same afternoon Genadi said Nathan had "сказал, что он это проверит" — the BOM from Genadi's data [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]])* — *discharged Nov 18 2026: at the 4:36 PM call Nathan showed the spike — three scoped agents (spec writer, assembler, auditor) and a simulated non-expert user built a power-supply sub-assembly from a flat parts list and the data contracts, through rounds of questions* — [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]] [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [x] [[wiki/people/nathan-carver.md|Nathan Carver]] — send Val a note when the spike is ready and book the meeting then ("I'll send you a note for sure… I'll get it booked"; Val does not want a meeting booked before it is ready) — due Nov 18–19 2026 — [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] — *discharged Nov 18 2026: Val "read every single sentence" of what Nathan sent, and the review was held that day (who booked it is not said)* — [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 
 ## Sources
 
@@ -73,3 +84,5 @@ In one line: **the agents get only a short product description and the data cont
 - [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]

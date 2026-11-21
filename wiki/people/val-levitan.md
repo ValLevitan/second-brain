@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 516
+source-count: 522
 open-commitments: 83
 open-questions: 1
 ---
@@ -1892,6 +1892,18 @@ On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayme
 
 On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] (Russian) he gave Kovalchuk his rules for cleaning Jira and asked that they be written as a standard and enforced by Claude on a schedule, with archive notices to task owners: a Jira-project / repository link marks real work; unlinked work nobody touched for about three months is archived; an initiative with no capabilities is archived; "чтобы не забыть" tasks are banned ("запиши себе в блокнотик"); a backlog is "на следующую неделю. Ну максимум на следующий месяц"; everything sits under a value stream or is removed — once in a stream "Деньги начали течь". He asked everyone to write standards, reminded Kovalchuk of the $50 standards-contest prize, and wants the AI-PM's reports in simple sentences for second-language readers — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
 
+## Nov 18 2026 (8:00 AM) — Aristocrat goes on the bill acceptor, not AFT, for the first installs; acceptance criteria are never skipped; SAS data waits for MVP 3
+
+At the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-not-aft.md|Nov-18 8:00 AM AFT call]] (Russian) he ruled "подключение аристократа не через… Эйф ти… А через белый цеп" — at a location with untested Aristocrat software the team "будете мучиться" and may have to reverse the install — and complimented Klimovich for thinking it through. He called the cash-in counter gap a software upgrade and told Irina twice not to let anyone skip acceptance criteria. On SAS data: stop spending time now — customers will ask once they see JVL's reports; first MVP 2, then MVP 3 in steps (3.1, 3.2…) with all reports. As soon as approval comes he will push installs of ports and terminals [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]] [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]. See [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]].
+
+## Nov 18 2026 (4:36 PM) — "I'm ecstatic"; the next BOM spike is a supplier loop with no human answers; data contracts must be self-defined
+
+At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18 4:36 PM BOM call]] with Nathan and Genadi (English) he said he read every sentence of Nathan's spike report and is "ecstatic". He ruled the next spike: erase all answers and hints; the agent finds the part's supplier, messages and chases it for missing data, updates the data contracts and the flat list, and re-assembles until no human is needed; "Data contracts have to be learning… It needs to be self-defined"; Genadi only when a supplier is unknown, once; some data left missing on purpose. Later the same loop can look for new suppliers. He will book the Friday Nov 20, 4 PM review and send the transcript [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]] [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]. See [[wiki/decisions/2026-11-18-the-next-bom-spike-is-a-self-learning-supplier-loop-the-agent-finds-the-supplier-asks-for-the-missing-data-updates-the-data-contracts-and-reassembles-with-no-human-answers.md]].
+
+## Nov 19 2026 (8:04 AM, briefly) — "capabilities sit with the product owner"; "requirements live with us a long time"; leaves for a call
+
+At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian) he joined for a few minutes: when Pavel proposed shrinking CAP-145's 20-plus requirements with Claude, Val: "такие побило лежат на стороне продакт оно" and "реглайменты с нами живут долго"; then "я должен взяться этот звонок" — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]. At the same day's [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] his Jira clean-up standard was relayed by Kovalchuk, and Bosik cited his plain-English rule for Claude [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2418,3 +2430,9 @@ On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.m
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Transcript_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Notes_GA_Ports_Aristocrat_via_Bill_Validator_Not_AFT-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]

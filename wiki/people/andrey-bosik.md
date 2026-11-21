@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 186
+source-count: 188
 open-commitments: 51
 ---
 
@@ -754,6 +754,10 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 
 At the Nov-18 stand-up Kovalchuk, on the voice agent breaking in: "Да это Андрей вчера я крутил так, чтобы она перебивала" (garbled; read as Bosik by the AI-PM context — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]. On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] Val said he had already told "Андрею" that the AI project manager's reports are hard to read; Kovalchuk will ask "Андрей" whether he already works on a style guide — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Nov 18) [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
 
+## Nov 19 2026 — pulled into the stand-up over the cloud test environment: "I did my part"; meeting 13:00–14:00 that day; "Simple English" for Claude
+
+At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian, label "Andrei Bosik", joined mid-meeting): Samusenko had asked three times for a meeting on a test environment for the cloud services. Bosik: it needs its own meeting; "Я тогда говорил, что я со своей стороны всё сделал"; he set it for "13 ноль ноль тире 14 ноль ноль" and sent the invite; Samusenko asked him to add Khamin — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update). He has spent two days on Samusenko's Claude-written questions ("26 пунктов"), and advised writing a global Claude rule to use "simple inglish" — [[wiki/topics/ai-assisted-development.md]] (Nov 19). On the Jira "write it on paper" story: "Эта политика двойных стандартов" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -946,3 +950,5 @@ At the Nov-18 stand-up Kovalchuk, on the voice agent breaking in: "Да это �
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
