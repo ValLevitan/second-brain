@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 78
-open-commitments: 19
+source-count: 80
+open-commitments: 18
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 open-questions: 1
 ---
@@ -322,7 +322,11 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 
 ### Open commitments (Nov 16 2026)
 
-- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — release the SMS fix for the Georgia demo-install problem — due Nov 16 2026 ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [x] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — release the SMS fix for the Georgia demo-install problem — due Nov 16 2026 ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] — **discharged Nov 16 2026**: "вчера ещё зализил смску" (Nov 17) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
+## Nov 17 2026 — the SMS fix was released; Flex IQ needs decoding for the new error codes; Wi-Fi tried in access-point mode
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian, label "Sergey Tsimanov"): "Заканчиваю с этими с лотереями… и вчера ещё зализил смску" — the SMS fix went out on Nov 16. On Biratka's new Flex-Port error codes: Flex IQ needs decoding "для Того, чтобы он смог их положить в для оффлайн бита и отправить графану в домочитаемом виде". He tried Wi-Fi between Flex IQ and Flex-Ports, mostly in access-point mode, where they see each other; through a router (GL 1 or GL 2, he does not remember) they did not; he had not tried GL 2 ([[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]], Nov-17 note). Pavel asked him to fix due dates set for today; he had set them the day before. Samusenko's feature moves to him because his story closes last [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -404,3 +408,5 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 17
+source-count: 21
 status: active
 open-commitments: 7
 open-questions: 1
@@ -115,6 +115,14 @@ At the [[wiki/meetings/2026-10-30-nova-remote-game-update-architecture.md|Oct-30
 
 At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] asked [[wiki/people/pavel.md|Pavel]] to write the release flow agreed there as a standard, with Claude, and post it: "Это стандарт попадет в наш nolight bace. Репозитории, которая называется стандарты… все, которые туда направляют свой клод… поставить какието gard raails" — the same repository and the same rule as above; Pavel: "Стандарт по по релизам" [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]. The commitment is tracked on [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]]. Val also said the bug-documentation standard already lives there [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
 
+## Note, Nov 16 2026 — Genadi's folder and part-number standards are in the repository; "even two sentences"
+
+At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-16 4:05 PM call with Genadi]] (Russian) [[wiki/people/val-levitan.md|Val]] said he writes standards into the repository called standards in the new GitHub space and points his own Claude at it; the AI-COO, AI-HR and the project manager agent all read it ("Они все смотрят на эти стандарты"). He asked [[wiki/people/genadi-peari.md|Genadi]] to have Claude write any standard he has — "Любой маленький стандарт даже 2 предложения" — in markdown and put it there [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. Genadi said the standards for the hardware repository's category folders and for how part numbers go inside them are written and are in the standards repository: "Да да, абсолютно" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. The commitment is on [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]].
+
+## Note, Nov 16 2026 (5:56 PM) — Lev Rudky writes the standards; Val sends him bullet points
+
+On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call with Lev Rudky]] (Russian part) [[wiki/people/val-levitan.md|Val]] said he made [[wiki/people/lev-rudky.md|Lev]] the authority on standards, not himself, and agreed to stop putting standards into GitHub himself: "так я я я не буду писать за стандарты пишешь да?" — Lev: "Я пишу да." Val will send Lev bullet points instead. Val's advice for overlaps: once a week (or once a month) point Claude at the standards and ask for a list of similar ones and a grooming; and before a commit, ask Claude whether a conflicting standard exists [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. The call is about Business Central standards; whether it covers every standard Val writes is not said (open question on [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]).
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -133,3 +141,7 @@ At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilo
 - [[raw/Meeting_Notes_NOVA_Remote_Game_Update_Architecture-October-30-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]

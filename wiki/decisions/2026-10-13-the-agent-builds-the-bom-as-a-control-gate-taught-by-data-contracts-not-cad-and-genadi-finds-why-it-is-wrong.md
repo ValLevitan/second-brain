@@ -3,7 +3,7 @@ type: decision
 title: The AI agent builds the BOM as a "control gate" for whether it understands JVL products — taught by data contracts (.md files), not CAD exports — and Genadi finds why it is wrong instead of fixing it; reports, vendor data, BOM and agent logic run as separate parallel workstreams
 date: 2026-10-13
 aliases: [BOM control gate, control BOM template, 70 percent right, data contracts not CAD, no SolidWorks export, what each part gives out, find the error not fix it, four parallel workstreams, report now BOM in three months]
-source-count: 7
+source-count: 11
 status: active
 open-commitments: 1
 open-questions: 1
@@ -51,7 +51,7 @@ At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oc
 
 ## Open commitments
 
-- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — build a control BOM as the template the agent's BOM is checked against (Val: "я могу [Генадия] попросить построить") — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] *(stated as a method; no date or product named)*
+- [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — build a control BOM as the template the agent's BOM is checked against (Val: "я могу [Генадия] попросить построить") — due unspecified — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]] *(stated as a method; no date or product named)* — *Nov 16 2026: Val wants no template given to the agent; the comparison is with the old MSBC BOM; whether this ask still stands was not said — left open* — [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 
 ## Open questions
 
@@ -63,6 +63,10 @@ At the [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|Oc
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] Val said an agent is a persona with a source of truth, and to learn from mistakes "we need to have an auditor of some sort" — another agent that checks against the truth. Nathan: output is verified by another agent and by people, and learning means refining the instructions and scripts. Val: every spec (a monitor's dimensions, a screw's thread and depth) must be in the data sheet in GitHub before the contract; "if we don't have this information, we should not be able to form a complete bomb. It should collapse. That's our checkpoint." [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] See [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
 
+## Nov 16 2026 note — no template for the agent; the old MSBC BOM is the comparison
+
+At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-16 4:05 PM call with Genadi]] (Russian) Val restated the test: export everything from MSBC to GitHub, polish it to the standards, remove the old BOM from MSBC "как будто бы в MSBC его никогда не было", let the AI build a BOM from the data contracts, then compare the two; the AI must not be told how — "не говорить ai, как это делать" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.md|4:40 PM call with Nathan]] (English) he added "I'm trying to avoid any sort of template"; the agents get only a verbal description of the product [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]. The control-gate idea stands; a template handed to the agent does not (**inference** from these words — the Oct-13 control BOM is not named). See [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
@@ -72,3 +76,7 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]

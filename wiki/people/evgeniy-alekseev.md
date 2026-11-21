@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 65
+source-count: 67
 open-commitments: 11
 ---
 
@@ -292,6 +292,10 @@ At the [[wiki/meetings/2026-10-30-daily-standup-default-ci-builds-and-flex-port-
 
 At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-by-november-20.md|Nov-5 MVP 2 scope review]] (Russian; he was not present) [[wiki/people/pavel.md|Pavel]]: on the Pyramid bill acceptor "Я танкоп обилити рекламу это уже сделал, даже назначил на Алексеева но… более эффективно… отправиться в Джорджия, поднять там кабинет эхо, подключить его удалённо в нашу сеть"; Val agreed with as few subcontractor hands as possible [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. The surname form "Алексеева" and the hardware context (he wrote the Pyramid printer code — Mar 25 above; Genadi named him for the ECHO printer/acceptor — Feb 12 above) point to this page (**inference**); the derived notes read "Alexey" ([[wiki/people/alexei-khamin.md|Khamin]]) [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]. Queued for the owner; no commitment is recorded on him until the name is settled — the test set-up is Pavel's on [[wiki/decisions/2026-11-05-mvp-1-is-planned-for-monday-november-9-internally-and-the-client-is-told-wednesday-and-the-pyramid-bill-acceptor-is-tested-remotely-on-an-echo-cabinet-in-georgia.md]]; see also [[wiki/organizations/pyramid-technologies.md]] (Nov 5).
 
+## Nov 17 2026 (in absentia, name call queued) — rules on Port-157 for how to write for the port, and a long list of what the team does wrong
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian; not present) [[wiki/people/alexei-khamin.md|Khamin]]: "этот Алексеев написал. В. Порт 157. Он там правило нам это написал. Как правильно писать у нас для порта?… Список большой, что мы не так делаем"; [[wiki/people/pavel.md|Pavel]]: "Да просил ревью сделать с нашей страны"; Khamin does not know what to do with it [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]. The surname form and his Flex-Port work point to this page (**inference**); the notes say only "a person" [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]. No owner for the list was named (open question on [[wiki/people/alexei-khamin.md]], Nov 17).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
@@ -360,3 +364,5 @@ At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-
 - [[raw/Meeting_Notes_Daily_Standup_Default_CI_Builds_and_Flex-Port_Merge_Lock-October-30-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

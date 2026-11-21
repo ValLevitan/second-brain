@@ -3,8 +3,8 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 70
-open-commitments: 17
+source-count: 72
+open-commitments: 18
 open-questions: 1
 ---
 
@@ -304,6 +304,14 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): his test "тинтоном 182" on the Flex IQ report page needs features under capability 315, which Chudinov will create only after the review — "Понял буду чтото искать брать другое" — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-12 note); Kovalchuk said he is building a plugin that loads the standard into Claude — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-12 note) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 17 2026 — contracts and FIG-206 done; CAP-287 (Flex IQ Wi-Fi delivery): 2 of 14 scenarios taken, questions left in Jira; his feature moves to Sergey
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian): he finished the contracts ("С контрактами для нового вчера закончил"), FIG-206, and answered [[wiki/people/andrei-klimovich.md|Klimovich]] on a requirement. On capability 287, "которая флекса и кюсики вай фай деливери", he took 118 first (the notes: TINT-118): "из 14 2 сценария взял работу, по остальным оставил вопросы в комментариях" for Sergey and partly Anton — about Anton he is not sure he picked the right person — and asked everyone to answer in the comments. Irina: much is needed on him by Thursday; "Ну ты ещё сам дергай нас". He asked who should own a feature where his work is done but Sergey's stories sit under it; Irina: move it to Sergey, whose story closes last ([[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]], Nov-17 note) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
+
+### Open commitments (Nov 17 2026)
+
+- [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — move his feature to Sergey Tsymanov — due Nov 17 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -376,3 +384,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

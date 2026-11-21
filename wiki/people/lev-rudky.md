@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 29
+source-count: 31
 open-commitments: 2
 ---
 
@@ -104,6 +104,17 @@ At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bra
 
 At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian; absent) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]: [[wiki/people/dmitri-chudinov.md|Chudinov]] named "гена либо лев" as the people to ask "Заводят ли они чтото бизнес централ заранее с этими номерами из пиво их материал?" — read as [[wiki/people/genadi-peari.md|Genadi Peari]] and Lev by the Business Central context (**inference**); Val: "Если они заводят, то это тоже можно поменять… Конечно, их надо их надо привлечь… к этому разговору"; the question is unassigned on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]] [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]].
 
+## Nov 16 2026 (5:56 PM) — he writes the standards and is their authority; Val sends bullet points; the PO topic becomes a PO standard
+
+On his [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call with Val]] (garbled English, then Russian) [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]:
+
+- **Too many links between standards.** "Чем больше там связок между собой" — Val's answer: point Claude at the standards once a week and ask for a list of similar ones and a grooming; Lev: "Да я я сегодня это делал ну." Lev wants an order of work so he does not go back to what is written; the bill of material is the base for many.
+- **Bullet points, not finished standards.** "Да да просто токен булот пойнт. Всё сделать так сделай так и всё" — digging through Val's drafts is less practical for him. Val agreed and confirmed the role: "я тебя сделал авторитетом в стандартах не себя"; "так я я я не буду писать за стандарты пишешь да?" — Lev: "Я пишу да."
+- **His Claude's answers are too long.** Val: tell it every answer is at most one paragraph.
+- **A PO standard.** He offered a place in a bigger standard (the notes: inventory management — [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]); Val: "я бы делал бы пил стандарт" (PO standard); Lev: "Окей."
+
+Ruling and commitments (his: write the PO standard): [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]. **§15.8:** clear.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -136,3 +147,5 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]

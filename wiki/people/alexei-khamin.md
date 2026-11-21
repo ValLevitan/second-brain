@@ -3,9 +3,9 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 92
-open-questions: 1
-open-commitments: 29
+source-count: 94
+open-questions: 2
+open-commitments: 30
 ---
 
 # Alexei Khamin
@@ -395,6 +395,18 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|6:53 AM recycler meeting]] (Russian) Pavel: "Может быть Алексей хамин?" — the old CI/CD was server scripts, to be committed, modified, into the Rage game projects plus an integration repository; Val named Bosik and did not decide — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-12 note); Val: "Алексею нужно будет писать, наверное, автотесты" [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]].
 
+## Nov 17 2026 — phone numbers on the terminal help screen; Val's request to compare state law with our requirements; an unstable Flex IQ build; REQ-1833; the Port-157 list
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian, label "Alexey Khamin"): he reminded the team of features from the day before's call to show "нашего номера телефонов… На хелп, который будет отобраться на терминале". Besides hardware autotests, Val ("шувал", **inference**) asked him to analyse "Текущего законодательства в штатах и то, что у нас есть в реклариментах" (the notes: regulations) — "Сегодня чтото ему уже подготовлю, отошлю, спрашиваю, что дальше с этим делать", perhaps into Jira. His Flex IQ build for the test stand failed twice with different errors; he asked Chudinov to look ("может ты посмотри"), who asked what he had run — no answer on tape. He reminded Pavel that REQ-1833 waits for Pavel's reply to comments. "этот Алексеев" ([[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]], **inference**) wrote rules on Port-157 for how to write for the port and "Список большой, что мы не так делаем"; Pavel: "Да просил ревью сделать с нашей страны"; Khamin: "с этим тоже я не знаю что делать… не мне смотреть" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
+
+### Open commitments (Nov 17 2026)
+
+- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — send Val the comparison of current state law with JVL's requirements and ask what to do next — due Nov 17 2026 ("Сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
+### Open questions (Nov 17 2026)
+
+- Who handles the Port-157 rules and the long list of what the team does wrong? Khamin does not know; no owner was named — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -489,3 +501,5 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

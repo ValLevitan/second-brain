@@ -4,8 +4,8 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 220
-open-commitments: 47
+source-count: 222
+open-commitments: 50
 ---
 
 # Irina Shishko
@@ -919,6 +919,16 @@ At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-
 
 At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) she asked for a release so what was found on Saturday with the demo installs can be checked in Georgia; told it is the SMS service, she asked Tsymanov to release it. She has sorted which capabilities and features go in which release; Pavel pointed to "3 регламента" and an agent task on her ("94… 95, 96"). She will put the autotests Tsymanov has already done first for Samusenko [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
 
+## Nov 17 2026 — "только то, что нужно на четверг"; she rebuilds the port after Biratka's merge; task 178 to capability 298; she keeps her drafts because tests follow requirements; a feature goes to whoever closes the last story
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian): she told Pavel to keep only Thursday's work in 21 and mark the rest 22; she will rebuild the port once Biratka merges capability 372 — "я подожду и чтоб вы уже последняя версия была"; on the error codes, "Значит нужна такая фича"; she raised Ivan's task 178 and, with Pavel, moved it to capability 298, "он вообще на м в п 3" — "я сейчас переведу" ([[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]], Nov-17 note). She is on autotests and will write features from the Flex capability requirements. Kovalchuk asked whether her drafts should go to someone else; Pavel offered Biratka for the recycler ones, but Kovalchuk noted tests follow requirements — Irina: "Неправильно в том то и дело"; Pavel: "лучше ира". On dates her Claude "всё сам двигает, даты ставит", and dates are still needed to plan. She told Samusenko to move his feature to Sergey, whose story closes last ([[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]], Nov-17 note) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
+
+### Open commitments (Nov 17 2026)
+
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — rebuild the port after Biratka merges capability 372 — due Nov 17 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — move task 178 to capability 298 (MVP 3) — due Nov 17 2026 ("я сейчас переведу") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — write features from the Flex capability requirements so autotests can be created — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1142,3 +1152,5 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 - [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

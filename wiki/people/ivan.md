@@ -3,8 +3,8 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 77
-open-commitments: 17
+source-count: 79
+open-commitments: 18
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
 
@@ -333,6 +333,14 @@ At the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-and-produ
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian; label "Ivan Shpak"): Pavel's fix "вроде всё у меня отработало" in a quick check; RIS performance and the production build for Felipe — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 12; commitment there); on the LTE modem, "просто не затягивайте, пожалуйста" — [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md]] (Nov-12 note); he asked Pavel to come by after lunch: "есть вопрос… по принтеру просто поведение… надо как то им отписаться" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. With Metelski he is working on a Windows patch for GLI — [[wiki/organizations/gli.md]] (Nov 12) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 17 2026 — Kharetski's modem UI works; LTE on a machine for Georgia on STG waits for Chudinov's deploy; task 178 leaves the release
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian, label "Ivan Shpak"): on RIS; he checked the UI part of the modem work "то, что женя добавил" (Kharetski, **inference**) — "вроде всё ок, всё работает". He asked Chudinov whether he can connect LTE ("алтошку", heard) to a machine "для джорджии на с т г"; Chudinov: nothing is merged or deployed yet; Ivan: "ты сегодня это закинешь правильно… Тогда дождусь". His task 178 (a Flex-Port check) had been done on a machine he then had to give to Biratka, "поэтому всё вернулось как было"; he asked for a due date (Irina: "На 20"; he: "В среду следующей недели"), then Pavel and Irina moved the task to capability 298 in MVP 3 ([[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]], Nov-17 note) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
+
+### Open commitments (Nov 17 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — connect LTE to a machine for Georgia on STG once Chudinov's work is deployed — due unspecified (after the deploy) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -412,3 +420,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

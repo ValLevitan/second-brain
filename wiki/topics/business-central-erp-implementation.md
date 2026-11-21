@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 94
+source-count: 98
 open-questions: 9
 ---
 
@@ -559,6 +559,14 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 
 - Are cabinet serial numbers entered into Business Central in advance from the BOM, and by whom (Genadi or Lev)? Unassigned — [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 
+## Nov 16 2026 — purchase orders without a G/L account send cost to expenses, not inventory; Val takes the admin side himself
+
+At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-16 4:05 PM call with Genadi]] (Russian) [[wiki/people/val-levitan.md|Val]] gave an example of what is wrong in the procurement administration: a purchase order is issued (for a bill acceptor, for example) with no G/L account on it — "Мы не ставим chelackкаунт туда" — so the cost "идёт в. Expensis. А должен идти в инвенторе"; then the cost of goods is counted wrong and "мы не считаем штуки. У нас нет штук" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. He has taken on "весь административный ужас" himself; he called the set-up made by "Дэниэл. Майклом и лёвой" a mess ("чистое безобразие") and said each relied on the other [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. ("лёвой" = [[wiki/people/lev-rudky.md|Lev Rudky]], "Майклом" / "миша" = [[wiki/people/mikhail-perelman.md|Mikhail Perelman]] by context — **inference**; "Дэниэл" unresolved.) The work split — Val owns procurement administration and the AI-COO, Genadi owns specs and data sheets — and his test of building a BOM from data contracts after removing the old one from MSBC are on [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]]. The Nov-3 question above (is MSBC cleaned and reloaded from GitHub?) is not answered: the removal Val described is a step in a test, not a ruling (**inference**).
+
+## Nov 16 2026 (5:56 PM) — the purchase-order line question goes into a PO standard that Lev writes
+
+On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call]] [[wiki/people/val-levitan.md|Val]] and [[wiki/people/lev-rudky.md|Lev Rudky]] went over how a purchase-order line is entered. The recording of that part is garbled English: words heard include "At the GL account", "Sales tax recoverable", "Inventory items, those name part number", "the description one at the part number", and from Val "we should not add accounts on that" — the exact rule **cannot be read** [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. The outcome is clear: Lev writes it up as a PO (purchase order) standard, not inside the inventory management standard (Val: "я бы делал бы пил стандарт") [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. Ruling: [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]. Whether this is the G/L-account gap Val raised with Genadi two hours earlier (above) is an **inference**.
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -656,3 +664,7 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Parts_Export_from_BC_to_GitHub-November-3-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]

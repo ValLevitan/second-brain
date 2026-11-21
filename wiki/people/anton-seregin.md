@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 74
-open-commitments: 18
+source-count: 76
+open-commitments: 19
 ---
 
 # Anton Seregin
@@ -303,6 +303,14 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian): he finished the emulator part of test 129; per Claude's proposal the checks split into a real-device part and an emulator/CI part, marked in the acceptance criteria, and Pavel agreed; next a separate profile with a real Flex-Port; he made two STG accounts for the test, built in, with nobody to restore them if the database is cleaned — [[wiki/topics/test-automation-strategy.md]] (Nov 13; commitments tracked there) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
 
+## Nov 17 2026 — the port tests pass (TINT-212); the emulation part works; checking against a real port today
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian): "Что заработало на порте сейчас вот тесты проходят. Под 212 тинтам" (the notes: TINT-212); the emulation part works and he must check against a real port. Asked again by Irina: many scenarios, some need checking that the port really works that way; done "гдето 2 30… Сегодня". Samusenko left some CAP-287 questions for "Антону" in Jira (which Anton is not said; Seregin by the test context — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
+
+### Open commitments (Nov 17 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — check the TINT-212 port tests against a real port — due Nov 17 2026 (about 2:30) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -379,3 +387,5 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

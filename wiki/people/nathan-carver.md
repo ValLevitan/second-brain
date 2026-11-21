@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 67
+source-count: 70
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -279,6 +279,10 @@ At Val's [[wiki/meetings/2026-10-21-hardware-parts-single-repo-and-bom-spike.md|
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] he showed the first data contract the agent generated: two human steps (put the source files in the part's folder; write the item YAML), then the agent writes the contract; the repository is "self-instructing". Next he merges this into Genadi's folder structure, makes different agents produce the same contract, then a BOM and the MSBC sync. He did not know about JVL's persona repository and will contact Andrei Bosik to move the instructions there; he will help Genadi pull MSBC standard parts once Genadi has a client ID — [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]]. He sent Val the repository link (notes).
 
+## Nov 16 2026 (4:40 PM) — from a contract-matching function to an unguided agent BOM; a spike for Wednesday
+
+At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.md|Nov-16 4:40 PM call]] with Val (English) [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] he said he is working on the structure of the BOM in GitHub, with sync to MSBC already possible, and planned a programmatic function to match contracts with the agent only for edge-case search. Val ruled for unguided assembly: agents get only a product description ("an ATM machine") and the data contracts; a spec writer, an auditor and an assembler with a learning loop; a failed build must point to the data sheet. Nathan: "that answers a question that I was bouncing around with Genadi". He will spike an easy sub-assembly — "Let's shoot for Wednesday… if not Thursday" (Nov 18 or 19) — and send Val a note and book a meeting when ready [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]. Commitments: [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]]. Earlier the same afternoon Genadi told Val the prepared parts are with Nathan, who "сказал, что он это проверит" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -348,3 +352,6 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Notes_Hardware_Parts_Single_Repo_and_BOM_Spike-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]

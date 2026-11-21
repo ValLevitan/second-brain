@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 154
+source-count: 158
 open-commitments: 60
 ---
 
@@ -733,6 +733,17 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 
 At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian) Klimovich recalled "переписку Геннадия с дрессемом" (heard; with JCM, as the notes read it) when the recycler model was chosen: the RQ cannot be upgraded to pay out a bundle, and a model "чуть ли не в 2 раза дороже" can. Val: "100% гену сюда можно подтянуть. Гена ответит на эти вопросы. Он хорошо в этом разбирается" — take the meeting transcript and ask him to answer the questions [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. ("Геннадия" / "гену" = Genadi — **inference** by name.) See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
 
+## Nov 16 2026 (4:05 PM) — his part is specs and data sheets; the parts are prepared and with Nathan; skeptical of an unguided BOM
+
+At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-16 4:05 PM call]] with Val (Russian) [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]:
+- He told Val procurement and building the BOM are two different things, and urged running the AI-COO at full power now to watch inventory and catch errors; Val said that side is his own. Val split the work: Val's part is the administrative side of procurement and the AI-COO; Genadi's part is the specs and data sheets, "чтобы был правильным Белов материал" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]].
+- His agent sorts the data contracts by category "безошибочно" and adds the documentation; the assembly is prepared and "сейчас у него мяч" — with Nathan, who said he would check the BOM; about half the parts are in the repository. Standards for the category folders and for part numbers are written and in the standards repository [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]].
+- On Val's idea that the AI builds a BOM from the data contracts without being told how: "я скептика насчёт этого я не понимаю… по какой логике он… будет руководствоваться"; also "это идея на самом деле" with "очень много нюансов" [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. Val asked him to send the repository link (to Val and the AI-COO) and to put his own standards, even two sentences, into the standards repository; his wish to go over small items was put off by Val [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]] [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]. Commitments and the test: [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]].
+
+## Nov 16 2026 (4:40 PM, in absentia) — "he thinks in old fashion"
+
+At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.md|Nov-16 4:40 PM call]] with Nathan (English) Val wants a spike so "Genadi to see", because "He thinks in old fashion… If you don't give it a path… how will it do it?" — "Valid question, but I've seen it done in development"; the agents "cannot go there with predetermined view of Genadi"; the aim is to stop Genadi sitting with 3D design to fit parts [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]] [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]. See [[wiki/decisions/2026-11-16-the-agents-build-the-bom-unguided-from-a-product-description-and-the-data-contracts-the-data-sheet-is-the-source-of-truth-and-nathan-spikes-a-simple-sub-assembly.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -889,3 +900,7 @@ At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
+- [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]

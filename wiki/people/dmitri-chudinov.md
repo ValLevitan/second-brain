@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 136
+source-count: 138
 open-commitments: 59
 open-questions: 2
 ---
@@ -805,7 +805,11 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 
 ### Open commitments (Nov 16 2026)
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — release the modem work — due Nov 16 2026 ("Сегодня уже выложу") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — release the modem work — due Nov 16 2026 ("Сегодня уже выложу") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] — *Nov 17: not yet merged or deployed ("ничего не слил и не диплом"); Ivan expects it that day* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+
+## Nov 17 2026 — LTE nearly closed; CI/CD with "Андреем", maybe testable on STG today; the modem work not yet deployed
+
+At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian, label "Dzmitry Chudzinau"): he is closing the LTE work ("т е", the notes: LTE) and checking that uninstall works; with "Андреем" (which Andrei is **unclear**) on CI/CD — "возможно, сразу заработает сборка… сразу на эстегэ сегодня можно будет это проверить"; then Flex IQ builds. Asked by Ivan, he said nothing is merged or deployed yet ("ничего не слил и не диплом"); Ivan: "ты сегодня это закинешь". Khamin asked him to look at his unstable Flex IQ build. On dates: "Дима дима попробовал, подвинула" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]. His Nov-16 commitment to release the modem work stays open (not yet deployed on Nov 17).
 
 ## Sources
 
@@ -946,3 +950,5 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]

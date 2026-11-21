@@ -3,7 +3,7 @@ type: decision
 title: Val and Lev Rudky focus together on fixing inventory control (receipts, production postings, invoicing) so Mary can run the work alone and Lev's time moves to standards and automation
 date: 2026-10-16
 aliases: [fix inventory control, inventory control is the root problem, вдвоём с тобой сфокусируемся, so Mery can work alone, Lev to standards and automation, inventory cantrol]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 2
 open-questions: 1
@@ -41,8 +41,14 @@ In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-proj
 
 **Not recorded (§15.8):** no pay was discussed. Val's remarks judging how long the fixing has gone on, and whether Mary will cope, are left out. Personal matters not recorded.
 
+## Note, Nov 16 2026 (5:56 PM) — Lev's time to standards: he now writes them
+
+On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call]] Val confirmed he gave Lev the role of authority on standards ("Я тебе дал эту роль") and that Lev, not Val, writes them from Val's bullet points; the purchase-order topic becomes a PO standard rather than part of the inventory management standard [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. This carries out the Oct-16 wish that Lev's time go to standards (**evolution**). See [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]. The two Oct-16/Oct-19 commitments above are not reported done.
+
 ## Sources
 - [[raw/Meeting_Transcript_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Rudky_Workload_Inventory_Control_and_Mery_Replacing_Misha-October-16-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
