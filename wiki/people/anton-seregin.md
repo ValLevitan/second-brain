@@ -4,8 +4,8 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 76
-open-commitments: 19
+source-count: 78
+open-commitments: 20
 ---
 
 # Anton Seregin
@@ -311,6 +311,14 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — check the TINT-212 port tests against a real port — due Nov 17 2026 (about 2:30) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 
+## Nov 18 2026 — in-progress items closed today; after a reboot mid-update the port restarts the download instead of resuming; he checks the code
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): he closes everything in progress today; left are running the port power-off scenario by hand and maybe checking that the USB firmware matches the one sent over the network. Open TINT questions include what happens when an update is refused, and: when the port reboots during an update, "Он типа, должен по рекламентам… Продолжать как бы выкачку… а он за начинает заново". Irina asked whether it really should resume; Tsymanov: there is a resume mechanism, and in some cases it decides to download afresh — "Какие обстоятельства? Я уже не помню"; Irina: then Anton looks in the code. On CAP-142 he said it may have been built from two sides, Flex IQ and Flex-Port — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). Jira comments load only every other time for him (VPN) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
+### Open commitments (Nov 18 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — check in the code when the port resumes and when it restarts a firmware download after a reboot (the rules say resume) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -389,3 +397,5 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

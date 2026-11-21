@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 29
+source-count: 31
 open-commitments: 5
 open-questions: 3
 ---
@@ -165,6 +165,10 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] (Russian; "миша" = Mikhail Perelman by the procurement context, §4) Val: "если миша уйдёт, мы закопаемся… у нас осталось 45 дней… Рабочих дней 45 дней. Потом миша уйдёт" — so the administrative procurement system comes first and cost work waits for January — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. Genadi also said he had raised ordering harnesses with "михаэлю" (read as Mikhail by context — **inference**) [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. No reason for leaving and no personal detail recorded.
 
+## Nov 17 2026 (4:35 PM) — the 21.5-inch and 43-inch order: 40 by air as goodwill, the balance waiting for a prepayment he has asked for since August; Val holds it until a recount
+
+On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayment-hold.md|Nov-17 4:35 PM call]] (Russian) he said an order for 100 units of 21.5-inch and 80 of 43-inch was ready; the prepayment to this vendor, which he has asked for "начиная с конца августа", is still not made. He had 40 units of 43-inch flown in urgently; the vendor sent them without prepayment "просто гудвилл" and paid the air freight. The balance (100 × 21.5-inch, 40 × 43-inch) waits for payment. Val said the stock shows 163 units of 21.5-inch; Mikhail's guess: when the 40 arrived, the whole PO was received by mistake, "Без подсчета". Val holds the prepayment until he recounts; Mikhail: "Ну окей." Vendor and PO not named — [[wiki/decisions/2026-11-17-the-21-and-43-inch-prepayment-and-balance-shipment-wait-until-val-recounts-the-stock.md]] [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]] [[raw/Meeting_Notes_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -198,3 +202,5 @@ On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-h
 - [[raw/Meeting_Transcript_GitHub_MSBC_Repositories_per_Project_and_Data_Contracts-October-19-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Notes_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]]

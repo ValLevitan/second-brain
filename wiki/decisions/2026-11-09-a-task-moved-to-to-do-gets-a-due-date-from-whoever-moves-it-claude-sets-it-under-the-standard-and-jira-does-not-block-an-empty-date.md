@@ -3,7 +3,7 @@ type: decision
 title: A task moved to To Do must carry a due date, set by whoever moves it (not necessarily the doer) — the rule goes into the Jira standard so every developer's Claude sets it; the creator does not put a new task straight into To Do; Jira gets no hard block on an empty date (a next-day notice instead); due dates are needed at least at feature level, and small features need not be split into stories
 date: 2026-11-09
 aliases: [due date rule in the standard, due date when moving to To Do, давайте это просто впишем стандарт, Claude sets the due date, no hard block on empty due date, запрет перевода в статус ту ду, creator does not put a task straight into To Do, создающий не должен эту задачу сразу в туду, whoever moves it to To Do sets the date, due date at feature level, хотя бы на уровне фич, 30 tasks without a due date, Friday report missed 30 tasks]
-source-count: 12
+source-count: 16
 status: active
 open-commitments: 2
 open-questions: 0
@@ -84,6 +84,15 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - **Are dates still needed?** Kovalchuk leans to the view that tasks now close so fast that one rarely stays open more than "14:00" (the notes: 14 days). Pavel: without due dates, how do you find tasks that hang — "без без дэйт это такая. Не видно". Irina: "оно всё равно нужно… чтобы хоть как то планировать" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]. The rule above stands.
 - **Who owns a feature with several people's stories.** [[wiki/people/vladimir-samusenko.md|Samusenko]] finished his work on a feature that now holds [[wiki/people/sergey-tsymanov.md|Tsymanov]]'s stories. Irina: move it to Sergey, "потому что кто Сергей будет последний закрывать свою это свою историю и заодно будет закрывать фичу"; with several people, pick the one whose story will "вероятно, будет последней" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
 
+## Note, Nov 18 2026 — the agent asks for a date on a requirement; deferred items show as overdue; an old placeholder task is closed with a comment; Val bans "not to forget" tasks
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]:
+- **A date on a requirement.** [[wiki/people/dmitri-chudinov.md|Chudinov]]: the agent writes to him to move the date on a requirement — "Зачем нам в требовании вообще даты". [[wiki/people/irina-shishko.md|Irina]]: "в требованиях нет дат… Они бесконечные". [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: then some requirement on him has a date — "есть требования, есть дата, дата просрачивается, напомню"; probably a due date is filled in. He asked for the number: "18, 64" (the notes: REQ-1864). Not resolved in the call [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **Deferred items show as overdue.** [[wiki/people/pavel.md|Pavel]] pointed to Irina's overdue tasks "16 числа 17"; Irina: "я их там это самое двигаю… это то, что мы перенесли на будущее, поэтому они у меня потерялись" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **An old task that does not fit the standard.** Chudinov: a task Pavel once created "Формально она под под новые стандарты не подходит" — no requirements, no capability. Pavel: delete it, or comment that it is just a placeholder. Chudinov: "я задачу удалять же не могу я тогда её просто закроюсь с комментарием". Pavel: "я думаю, что вала интересует больше не состояние задачи, а состояние готовности этой задачи" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **Watch the dates.** Kovalchuk at the close: "следите за сроками, пользуйте я доступные средства" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **Later that morning (6:23 AM call).** Val told Kovalchuk of a task due December 18 that he asked to bring forward to December 11, "потому что мы хотим быть закрытой 18"; it was a "чтобы не забыть" task, and such tasks are not allowed in Jira — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
@@ -98,3 +107,7 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]

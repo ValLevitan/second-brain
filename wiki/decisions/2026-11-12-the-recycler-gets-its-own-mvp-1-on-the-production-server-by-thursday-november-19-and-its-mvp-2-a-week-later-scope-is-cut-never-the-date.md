@@ -3,7 +3,7 @@ type: decision
 title: The Flex-Pay Recycler Slim gets its own MVP 1, on the production server by Thursday (November 19 2026), built on Flex-Pay with the recycler in place of the validator and coin dispenser; whatever does not fit goes to a recycler MVP 2 a week later — scope is cut, the date never moves; only the ISO image from production may be taken, no files from DEV or STG; the first market is Texas, e-wallet only, no TITO; Pavel plans and creates releases right after each meeting (Val, Nov 12 2026)
 date: 2026-11-12
 aliases: [Recycler MVP 1, recycler MVP 1 by Thursday, Flex Recycler Slim MVP 1, MVP один на флекс payree сайм, MVP 1 2 3 for the recycler, разбить на MVP 123, cut scope not dates, не двигайте дейт, обрубить MVP один, recycler MVP 2 a week later, only the ISO from production, я разрешаю только ISO имидж брать, no files from DEV or STG, Texas e-wallet only no TITO, еволет no tito, recycler CI/CD, release right after the meeting, делайте релизы сразу, recycler on the Flex-Pay base, Sunday recycler meeting Nov 15, recycler November 19]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 6
 open-questions: 3
@@ -46,6 +46,10 @@ Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-
 
 At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian) Klimovich showed the player screens and flows in MVP 1. [[wiki/people/irina-shishko.md|Irina]]: "MVP один это кусочек, который мы сделаем до четверга", not the first release to people; for Thursday the team finishes the player flow — take money, create the wallet, pay out, update the wallet, play with the ports — so Klimovich can install it and walk it through; admin flows and reports come later [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]] [[raw/Meeting_Notes_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. The flow rules agreed there (escrow paths, jam = cancel and refund, Texas one balance, the cash-out fee, power loss, RIS and Passport before the first live install) are on [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
 
+## Note, Nov 18 2026 — spray mode works; paying a free sum across the drums does not; the recycler capabilities are to be sorted into MVP 1
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 Minsk stand-up]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]] (he said "по билладатору со спраймодом"; the notes: bill validator — the drums show it is the recycler, **inference**): "я уже протестировал спреймод заработал", so he will close the test task. What does not work is "Вот этот вот вариант, который говорил вал, когда мы говорим просто сумму" — the amount per drum must be given ("хотим 5 из этого барабана хотим 10 из этого"); Pavel: so it cannot be told to pay "$289"? Biratka: "такого режима я не нашёл", he will dig further. Spray will be the default; switching the mode from the terminal will be possible. The installer builds like Flex IQ; the separate action for the OS/app update packages does not build them yet [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]. [[wiki/people/irina-shishko.md|Irina]] asked him to review the recycler capabilities and put into MVP 1 those done or being done — many are in progress but "Не стоит ни на тебе, ни… в MVP один… шурумбурум", and she cannot create features. Biratka: unknown ones to the backlog, done ones to review, in-progress ones to To Do or In Progress — tracked on [[wiki/people/alexander-biratka.md]] (Nov 18) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
 ## How it sits against earlier rulings
 
 - [[wiki/decisions/2026-09-10-requirements-come-first-and-the-recycler-is-out-of-both-mvps.md]] — the recycler stays out of the *transactional* MVP 1 and MVP 2, but now has its own MVP 1 and MVP 2; the Nov-4 "Flex-Pay MVP 3 first, or a recycler MVP?" question is answered — **evolution** (annotated there).
@@ -78,3 +82,5 @@ At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
 - [[raw/Meeting_Notes_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

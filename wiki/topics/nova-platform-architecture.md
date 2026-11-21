@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 119
+source-count: 121
 open-commitments: 73
 open-questions: 39
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -929,6 +929,16 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (and others holding similar tasks) — run Claude over the projects (Flex IQ and others) so actions use RK35xx, not 3568, without erasing the Lotto key parameter at build time — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 
+## Nov 17 2026 (8:04 AM) — the ISO installs with maths but no game; first ISO with a game shown Saturday; the game is a signed package of Lua scripts and assets for one runner; system messages get a standard library; requirements from Rage prose; RK3576 build with services next
+
+- **The ISO today.** At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) Kharetski's ISO from the integration repository "собирается и ставится на машину, но без игр", "Уже уже с математикой", on FP7 (x86). Igor: the ISO is "наш полный продукт" — game, LGS, peripheral libraries, maybe a local progressive controller. Igor ran Twin Bison on the NOVA 2 engine with a local LGS over WebSocket and will put it into the ISO through game CI for Saturday Nov 21 — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- **What a game is.** One Linux executable runner for Lua scripts, plus each game's Lua scripts and assets (Igor). Pavel: each game a signed package mounted at boot; an update swaps packages. The game list must match on the LGS/SAS side and live in one place, not "как у нас в рейдже в разных местах" (Pavel). Patches are "следующий вопрос" [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- **System messages.** Val: "давайте сделаем правильную библиотеку месседж", standard like Igor's other layers; Biratka's idea to go back to the old comms system was dropped after Igor objected (Rage's synchronous data-center calls in the main thread, about 8 ms per save). Whether the new WebSocket link runs in the main thread is not known. Kharetski: the NOVA LGS ("Нгс", heard) is about four months behind, and about 90% of the RIS/promo work is "костыли" to be redone once everything works [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- **Languages.** Rust and Lua for NOVA 2; Java for LGS and the progressive; JavaScript for the front end [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- **Builds.** CI is built but has nowhere to publish; test builds stay on an office computer (3 GB from Amazon each time is too slow); production later. Machines need their own download portal, separate from the transactional one, and an app from Dima Chudinov to register machines — a separate meeting [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- **Requirements.** NOVA 2 requirements are to come from prose written from the Rage engine and games, "единственный как бы источник истины" (Igor); Irina checks what Claude writes [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- **RK3576 next.** The bill-validator and IO-board services and the build for ARM as for x86; a milestone Wednesday of an RK build with services and no game; Pavel's real date about Dec 4. The RK has one HDMI output; one two-monitor stand. Pavel's multi-arch Docker idea is not decided; Kharetski: develop for the RK, drop containers if they lag [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1051,3 +1061,5 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]

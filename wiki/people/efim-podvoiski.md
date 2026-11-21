@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 102
+source-count: 103
 open-commitments: 11
 open-questions: 0
 ---
@@ -388,6 +388,10 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English): he confirmed Georgia COAM and Class A maths are predetermined — with random maths "you can never promise players" a minimum in free spins; he runs the party-time tests on his simulator with Michael and showed a win-distribution chart kept close to a well-accepted game; for Lions Riches party time is "10 to 60" times the bet; his Class A maths tasks sit under IP 1197 as capability 286, which Lena and Michael cannot see, and he moved IP 1197 to In Progress during the meeting; about four more tasks are coming; he hopes to finish the production maths by New Year, "Not less than four weeks, I am sure" — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. On the category labels he proposed "a flat text" instead of a widget-like bar — [[wiki/topics/slot-game-design-principles.md]] (Nov 13) [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
 
+## Nov 17 2026 (in absentia) — Val: the maths must be finished once NOVA 2 is handed over
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) Val, laying out the plan to March 15, said "Ефим не успеет с математикой" and that the team must then take up the maths and finish it — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -494,3 +498,4 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]

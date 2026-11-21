@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 87
+source-count: 91
 open-commitments: 16
 ---
 
@@ -378,6 +378,14 @@ At the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-bet-an
 
 At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English): she found she and Michael do not see the capability level in Jira and will ask IT — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]; Class A production starts "in January 2027… in NOAA [NOVA]" after Nebraska, and she is talking to Igor and Anton Leshkevich about a new environment "when we are going to assemble games using AI", expecting "a clear picture" in December — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. On Nebraska: "it's actually not 15"; the golden husk bonus moves to Match 3; version 2 will be integrated but "not tested, not necessarily" by the end of December; the diamond bonus on dual screen is "not an easy task", first insertion "maybe next week" — [[wiki/projects/nebraska-skill-market.md]] (Nov 13) [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. On the Colombia games: "we can easily use the same assets for Georgia"; vertical is "much better for this type of games"; she starts design images after the concept stage and her South Dakota designs — [[wiki/decisions/2026-11-13-the-new-perceived-persistence-games-are-vertical-not-dual-screen-fly-me-to-the-moon-a-colombian-carnival-game-and-treasure-island.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. Before Val joined she said a fresh build with an adjusted pay table is coming and, if good, Vitaliy records a demo video [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
 
+## Nov 17 2026 (in absentia) — Val: keep NOVA 2 from the design team until it is finished; the system goes to her team from March 15
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) Val said he knows Anton and Igor talk with Lena; Igor: "мы с Леной разговариваем про небраску 2 только". Val warned that if the design team gets an unfinished platform they will find a way to reject it and the company stops. His plan: a producer starts Jan 15, the system is polished until Mar 15, and "С 15 марта мы отдаем это. Лене" — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 (in absentia) — Val: her Jira items outside her main projects are "99% not needed"; attach them to a serious project or they are archived
+
+On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] (Russian) Val said that everything of hers in Jira that sits outside her main projects — "не под её проектами, а там внизу" — is "На 99%… не нужно"; she gets a short deadline (heard "15:00", **unclear**) to attach it to something serious, or it goes to the archive. Kovalchuk: her projects "сейчас живут сами собой ещё на старой архитектуре". Val grooms her projects with her every week and removes what is not current; she knows the work will be done differently on the new platform, and her artwork is kept on their own computers — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]. At the Nov-18 stand-up Biratka named her as the designer who may later choose new images for the system messages ("какойнибудь там дизайнер может Лена") [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -469,3 +477,7 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

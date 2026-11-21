@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 222
+source-count: 225
 open-commitments: 50
 ---
 
@@ -929,6 +929,14 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — move task 178 to capability 298 (MVP 3) — due Nov 17 2026 ("я сейчас переведу") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — write features from the Flex capability requirements so autotests can be created — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 
+## Nov 17 2026 (8:04 AM, NOVA-2) — she checks the Rage prose and requirements Claude writes; Rage message dictionaries
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) she pointed to old Rage's dictionaries "которых прописаны все Все сообщения" as input for Claude; she said tests need requirements with acceptance criteria. After a vote ("Единогласно" — Pavel) she takes the prose-from-Rage work: Claude writes the requirements and she says which are right ("я скажу да это хорошее"). Igor: she is the most fitting choice. She asked whether the system messages include tilts; Biratka: yes, everything that is not a game message — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 — autotests and requirements for the old framework; deferred items show as overdue; recycler capabilities to MVP 1; Felipe's answer on RIS; CAP-142
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): she works on autotests and the requirements for the old framework. Her overdue tasks from the 16th–17th are items deferred to the future that she is moving — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). She told the voice agent not to create tasks from the talk about images — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Nov 18). She asked Biratka to sort the recycler capabilities into MVP 1 — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-18 note). On the message images she feared that old pictures, once shown, hide what must be redone. On RIS she wants Felipe's answer once Ivan is nearly done, and will ping the other side again today about access and bug answers. On CAP-142 she found only spikes and noted it sits in MVP 3 — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). She will give Seregin more autotests when he finishes his [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1154,3 +1162,6 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

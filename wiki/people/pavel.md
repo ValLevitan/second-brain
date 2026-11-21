@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 323
+source-count: 327
 open-commitments: 121
 open-questions: 0
 ---
@@ -1554,6 +1554,14 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — review which features need their fix version changed and mark everything not needed for Thursday as 22 — due before Thursday Nov 19 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 
+## Nov 17 2026 (8:04 AM, NOVA-2) — AI raters that learn from human rejections; a game as a signed package; RK3576 services and build next, real date about Dec 4; multi-arch containers
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) he proposed a shared review block: two networks rate each result and a human makes the final call, so the networks learn why things are rejected. He described each game as a package "который мы можем подписать", mounted at boot, with updates swapping packages, and the game list kept in one place. He set the next step: the same builder for the RK3576 so all tests pass on any platform, starting with the bill-validator and IO-board services for ARM; next milestone an RK build with services and no game; real result "гдето к 4 декабря". The RK has one HDMI output and only one two-monitor stand (at Daniil's); more are needed, or Kharetski takes Daniil's. He raised multi-arch Docker containers (not decided) and called the vote that gave Irina the requirements work — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 — the printer gap on the new Flex IQ interface boards: a one-hour fix he does today; CAP-142 is merged by Claude after Sergey finds the twin; Val cares about readiness, not task state
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian; he joined about 12 minutes in and led the round): after the round he raised the Georgia problem — "принтер не заработал на новых платах" — a scope gap: on the new Flex IQ interface boards, Flex IQ must set one signal at boot so the lines switch and a Gen 2 or Epic printer gets its signals. Against Chudinov's and Samusenko's "no requirements" he ruled: "забудем про мутагусь… надо поддержать в работе с обычным принтером"; "задача на час работы… придётся её вот сейчас создать и сделать" — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Nov-18 update; his commitment counted there). On CAP-142 he ruled that Sergey finds the capability where the QR Wi-Fi work was done and Claude merges the two, or autotests will be duplicated — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). On Chudinov's old task: delete it or comment that it is a placeholder; "вала интересует больше не состояние задачи, а состояние готовности этой задачи" — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). He had a report that prose for "Р к 35 68" (RK3568) is thin, though he remembers writing it; Tsymanov said a job updates prose on every PR. On Daniil's access to the old RAGE engine repository: ask Igor — "даже у меня туда доступа нету" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1883,3 +1891,7 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

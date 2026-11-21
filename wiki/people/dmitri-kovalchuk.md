@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 110
+source-count: 114
 open-commitments: 18
 open-questions: 3
 ---
@@ -450,6 +450,14 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 
 At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian): before the start he was trying a voice assistant in the call ("эмма") — "Мы хотели потестить еще, мы не успели сегодня, так что давайте пока ее игнорировать". He asked whether Irina's draft items should go to someone else; tests follow requirements, so she keeps them. He asked people to move dates through the agent chat — "Попробуйте тогда"; Chudinov reported it worked. He leans to the view that tasks now close fast, rarely open longer than "14:00" (the notes: 14 days); Pavel and Irina want dates kept — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-17 note; his Nov-13 commitment marked done there) [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]].
 
+## Nov 18 2026 — the voice AI-PM in the stand-up: answer its chat questions or the queue stalls; Daniil's access is in place; "следите за сроками"
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian) he explained that the voice agent ("Emma (AI-PM)") keeps a queue of questions — until one is answered, no other reminder or clarification comes — "старайтесь отвечать, не игнорируйтесь"; it does not know some names, Val's least of all — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Nov 18). He asked Chudinov for the number of the requirement the agent wants re-dated ("18, 64"; the notes: REQ-1864) — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). At the close: "следите за сроками"; Daniil already has access to "ашди энджинда аш ди корзина" (heard; the notes: HD engine and HD casino); more on request. He suggested Seregin change his VPN region when Jira comments failed [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
+## Nov 18 2026 (6:23 AM) — the Jira grooming rules with Val; he writes them as a standard for Claude to enforce; the AI-PM gets a style guide
+
+On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] (Russian) he proposed starting with the Jira projects that have no repository and closing tasks not updated for six months after one message to their owners, keeping them as a trail. Val added his rules — archive unlinked work untouched about three months, archive initiatives with no capabilities, no "not to forget" tasks, a backlog of at most a month, everything under a value stream — and asked him to write them as a standard and point Claude at Jira. He said "я уже набросал список, это почти что стандарт". He will also extend the AI-PM's character description so its reports read simply, and ask Andrei — both commitments counted on [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -562,3 +570,7 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]

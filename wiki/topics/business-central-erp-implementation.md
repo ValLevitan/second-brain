@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 98
+source-count: 99
 open-questions: 9
 ---
 
@@ -567,6 +567,10 @@ At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-
 
 On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call]] [[wiki/people/val-levitan.md|Val]] and [[wiki/people/lev-rudky.md|Lev Rudky]] went over how a purchase-order line is entered. The recording of that part is garbled English: words heard include "At the GL account", "Sales tax recoverable", "Inventory items, those name part number", "the description one at the part number", and from Val "we should not add accounts on that" — the exact rule **cannot be read** [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. The outcome is clear: Lev writes it up as a PO (purchase order) standard, not inside the inventory management standard (Val: "я бы делал бы пил стандарт") [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. Ruling: [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]. Whether this is the G/L-account gap Val raised with Genadi two hours earlier (above) is an **inference**.
 
+## Nov 17 2026 — the stock shows 163 units of 21.5-inch; the whole PO may have been received when only 40 units of 43-inch arrived
+
+On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayment-hold.md|Nov-17 4:35 PM call]] with Mikhail Perelman (Russian) Val read the stock as "163 штуки, 21 с половиной" for an order of 100 × 21.5-inch and 80 × 43-inch, of which only 40 × 43-inch had arrived (by air). Mikhail's guess: "Когда они получили 40 штук, они просто приняли весь пиво" (heard; PO) — "100 плюс 80. Просто по ошибке. Это моё предположение." Val will recount before any prepayment — [[wiki/decisions/2026-11-17-the-21-and-43-inch-prepayment-and-balance-shipment-wait-until-val-recounts-the-stock.md]] [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -668,3 +672,4 @@ On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov
 - [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]]

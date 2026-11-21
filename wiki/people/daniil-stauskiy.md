@@ -3,7 +3,7 @@ type: person
 title: Daniil Stauskiy
 date: 2026-11-08
 aliases: [Daniil Stauskiy, Daniil, Даниил, Daniil Stauski]
-source-count: 20
+source-count: 23
 open-commitments: 1
 open-questions: 0
 ---
@@ -60,6 +60,14 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian): he opened a pull request ("ньюджин 26", heard), checked it against a non-local LGS — sound plays well, the Studio fixed too; Biratka and Pavel: LGS may and should change, everything about sound is removed from it, in a task separate from the engine's — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-13 note; commitment tracked there) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
 
+## Nov 17 2026 (in absentia) — his sound pull request not yet merged; the system messages through him; the RK stand at his desk
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) Anton said he had not yet merged Daniil's sound pull request. Biratka will do the system-message library through Daniil, guiding and checking him; Irina noted he had studied Calle Ocho and the current machines. The one two-monitor RK3576 stand is at his desk; Pavel may give it to Kharetski. Whether to invite him to the Saturday meeting was left open — he works mornings and studies — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 — invited to the Saturday 6:00 meeting; his messages task needs the old RAGE engine and framework; he has HD engine and HD casino access, enough for now
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): Irina asked whether he saw the invitation for Saturday at 6:00; he can come. Biratka will not get the whole messages task from him by Saturday — "Там чисто анализ много занимает там объём кода большой" — but work starts today. He opened his task ("pron new younder 4", heard; the notes: a NewGin task) and asked for access to the old RAGE engine and framework (an SVN branch). Pavel: ask Igor where that repository is; Biratka: start with the framework, Igor will say if the engine is needed. Kovalchuk: "Есть ашди энджинда аш ди корзина, у Данилы доступ есть"; Irina and Biratka: enough for now [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]. This settles the Nov-17 open point on whether to invite him to the Saturday meeting.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -82,3 +90,6 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

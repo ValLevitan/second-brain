@@ -3,9 +3,9 @@ type: decision
 title: Wi-Fi credentials are entered once on Flex-Pay and handed to each Flex-Port by an encrypted QR code — and the connection/installation event is captured and sent home, buffered when there is no internet
 date: 2026-09-07
 aliases: [encrypted QR provisioning, QR handoff to Flex-Ports, no password screen on the Flex-Port, install telemetry, who connected what and when, offline buffering, cloud logging server, Grafana section]
-source-count: 12
+source-count: 14
 status: active — Oct 15 2026: for Flex IQ's own access point the credentials are set on the location's dashboard page and the QR is generated there, not typed on Flex-Pay; the QR hand-off to each port stands (see the Oct-15 update); Oct 19 2026: Pavel confirmed the QR is encrypted, now with a key personal to each location, and carries all settings, not only Wi-Fi (see the Oct-19 update); Oct 20 2026: the spike exists and Pavel restated the requirement (Location Manager makes the QR; Flex IQ, Flex Pay and the Flex-Ports decode it) for the AI PM (see the Oct-20 update); Oct 21 2026: Pavel said the Flex Pay Wi-Fi QR is temporary and asked Seregin for one registration-and-settings design across Flex-Port, Flex Pay and Flex IQ (see the Oct-21 update)
-open-commitments: 4
+open-commitments: 5
 open-questions: 1
 ---
 
@@ -81,8 +81,20 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - **Pavel: architecture first.** "архитектуру на основе этого", agree on it, and from it see which capabilities are really needed. The present capability — "богатый механизм применения… настроек вайфай сети на всех возможных устройствах" — may need splitting into smaller ones [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
 - **Review today.** [[wiki/people/pavel.md|Pavel]]: with Ira at least, maybe Sergey; Seregin wants Sergey and Sasha ([[wiki/people/alexander-biratka.md|Biratka]]) too [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]].
 
+## Update, Nov 18 2026 — CAP-142 holds only spikes, yet Tsymanov already built the Flex IQ QR function; he finds the capability it was done under, and Claude merges the two
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]:
+
+- **The question.** [[wiki/people/vladimir-samusenko.md|Samusenko]], looking for autotest work, asked whether he can take capability 142, "Вай фай ситафором терминал скрин QQR код handal" (heard) — "я всё ещё в капбилите… не вижу фич здесь только спайки и тинты". [[wiki/people/irina-shishko.md|Irina]] opened it ("Клок, 11. Фп. 13 64" — FP-1364, Seregin's spike); Kovalchuk: those are done; Pavel: "Но это спайки". Irina: the capability is not needed if it has no features — or was it done inside another one? "И вообще она стоит на мвп 3" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **What it is.** [[wiki/people/pavel.md|Pavel]]: "На флекс айтюу зайдя в какойто экран мы должны увидеть QR код, который, если ты отсканируешь на телефоне, можно их поднести к порту… и порт подключится к этой вайфай сети." Irina: "Ну и это Сергей делал." Pavel: "Сергей это сделано." [[wiki/people/sergey-tsymanov.md|Tsymanov]]: "Да." [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- **Why twice.** Pavel: either it was built without these tasks, or "она 2 раза была описана в 2 разных capoilti". Irina: "это вот Андрей чтото гдето когдато написал" (which Andrei is **unclear**). [[wiki/people/anton-seregin.md|Seregin]]: maybe from two sides — one done from Flex IQ, the other from the Flex-Port; "Я спайки же проведены" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **The ruling.** Pavel: "Чтобы Сергей посмотрел на кап 142, нашёл в каком каб делался этот функционал и просто мы к лода попросим объединить эти экобилити в одну, потому что… у нас здесь явно будут дублироваться и автотесты тогда." Samusenko takes capability 289 and other autotests meanwhile [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
+This moves on from the Oct-20 state ("CAP-142 is still only proposed"): the function exists, and the open point is now a duplicate capability, not missing work — **evolution**. Which capability holds the built work is not yet known.
+
 ## Open commitments
 
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — find which capability holds the Flex IQ QR Wi-Fi work, so Claude can merge it with CAP-142 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — build the Wi-Fi provisioning screens on Flex-Pay and Flex-IQ and the encrypted-QR handoff to the Flex-Ports, diagnostic screens included — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]] [[raw/Meeting_Notes_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — extend the cloud logging to record connection and installation telemetry (time, date, location, port serial numbers, what was installed where), including store-and-forward when there is no internet at the moment of connection — due unspecified — [[raw/Meeting_Transcript_WiFi_Module_on_FlexPorts_and_Provisioning-September-7-2026.md]]
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — prepare the questions, a careful user flow and one registration-and-settings architecture across Flex-Port, Flex Pay and Flex IQ, then review it with Pavel, Biratka and Irina — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]] — *Oct 22 2026: the scenarios are written (about four); the architecture and the review are next — left open* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
@@ -111,3 +123,5 @@ At the [[wiki/meetings/2026-10-22-daily-standup-flex-port-cashout-screens-and-na
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Mode_Switch_and_SAS_CRC_Fix-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Cashout_Screens_and_Native_Engine-October-22-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

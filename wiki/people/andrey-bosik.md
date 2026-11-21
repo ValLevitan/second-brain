@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 182
+source-count: 186
 open-commitments: 51
 ---
 
@@ -746,6 +746,14 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian): he was topping up the corporate OpenRouter account but could not log in to the site; an earlier "соточку" went fast, and "$60 за минуту за час мы будем тратить или за сутки это же большая разница"; at the end he had looked at the usage and has ideas to cut cost, for a call with Anton. He wanted a separate portal for NOVA builds like the transactional one; Val wants today's screen extended — open. The build is "сторона жени и Паша"; CI/CD after it, "с Димой чудиновым или Сергеем цыманом". He had not read Val's email on running Claude Code locally — "Хорошо, я обязательно изучу" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 17 2026 (8:04 AM, NOVA-2) — what is the artifact?; CI built but nowhere to publish; machines need their own portal, not the transactional one
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian; label "Andrei Bosik") he asked "что будет артефактом?" — which led to the ISO and game-package talk. He said artists use reference pictures about 80% of the time. CI "мы строили грамотно" but there is nowhere to publish yet; builds stay on an office computer. Production needs Dima Chudinov to write an app that registers machines; when Val suggested extending what Chudinov builds for Flex PaySlim, Bosik held that machines are a separate product with their own portal, as agreed — "Нам тогда нужно собраться, обсудить это"; Val gave in. He said RK on Saturday was "Нереально" until the x86 build is done, and that a demo of the workflow by year end is "100%", with many comments expected from the designers — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 (in absentia; name call an inference) — the voice AI-PM's interrupting; Val's remark on its reports
+
+At the Nov-18 stand-up Kovalchuk, on the voice agent breaking in: "Да это Андрей вчера я крутил так, чтобы она перебивала" (garbled; read as Bosik by the AI-PM context — **inference**) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]. On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] Val said he had already told "Андрею" that the AI project manager's reports are hard to read; Kovalchuk will ask "Андрей" whether he already works on a style guide — [[wiki/projects/ai-project-manager-and-company-second-brain.md]] (Nov 18) [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -934,3 +942,7 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]

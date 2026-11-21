@@ -3,9 +3,9 @@ type: decision
 title: NOVA 2 gets one tool, not two — Igor Metelski's scene and art flow goes into Anton Leshkevich's studio; the AI model in the studio is a replaceable setting and money is not to be saved on it; the next review is Tuesday, a demo of the one tool going from the design agent's brief toward a finished game, free spins included; where game mechanics live (compiled core, scripts or each game) and what that means for certification stays open; JVL will have no designers, and Val asks which machine metrics NOVA and Galaxy must collect so games can be chosen and made without them (Val, Nov 11 2026)
 date: 2026-11-11
 aliases: [NOVA-2 follow-up - agile plan check, NOVA 2 one tool, один тул, один универсальный, one tool from brief to game, Igor's scene flow into the studio, designer tool vs developer tool, дизайнеров в GVL не будет, no designers at JVL, replaceable AI model, индудент интеллигент который можно подставлять, Haiku through OpenRouter, do not save my money, мои деньги экономят, local models on 16 GB GPUs, Tuesday NOVA 2 demo, demo with free spins, фри спины, where mechanics live, core vs scripts vs games, mechanics catalogue from 200 free slot games, hold and spin catalogue, certify only the mechanics a package uses, machine metrics for game decisions, какие сенсоры, relative popularity, retention, QR code on a big win, template repository for new games, keep it confidential]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 8
+open-commitments: 7
 open-questions: 3
 ---
 
@@ -78,14 +78,13 @@ Anton: agent-to-UI work rests on MCP ("MCP типа modal tontex por cols" — h
 
 ## Open commitments
 
-- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] and [[wiki/people/igor-metelski.md|Igor Metelski]] — plan one tool from the two and demo it, from the design agent's brief toward a finished game, free spins included — due Tue Nov 17 2026 — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — walk through Igor's scene flow himself ("Я потыкаю обещаю") — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — study the agent-to-UI standards and bring options, including writing the studio in a scripting language — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — load the game wiki and the maths into the agent's second brain; try loading the new game's repository into the engine — due Tue Nov 17 2026, **moved to the next plan on Nov 13** (Val: "это можно перенести на на следующий план") [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — go through the material Efim sent by email — due the next meeting (Tue Nov 17 2026) — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — answer Kharetski's questions and show the recorded-games data — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [ ] All attendees — think about which metrics NOVA and Galaxy must collect so game decisions can be made without designers — due Tue Nov 17 2026 — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
-- [ ] All attendees — keep this work confidential inside the company — due ongoing — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [ ] All attendees — keep this work confidential inside the company — due ongoing — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] — **restated Nov 17:** Val: "вся эта информация… договаривается на конфиденциальном" [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 
 ## Open questions
 
@@ -102,7 +101,16 @@ Anton: agent-to-UI work rests on MCP ("MCP типа modal tontex por cols" — h
 - Tuesday Nov 17 now also carries the first NOVA ISO, and Kharetski's game-design agent moved "на следующий план" so he can write the build actions — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 - The one-tool demo from brief toward a game is not mentioned on Nov 13; that commitment stays open.
 
+## Note, Nov 17 2026 (8:04 AM) — the Tuesday check: still one tool, but no central agent; a team repository
+
+- At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 Tuesday check]] Anton reported that one central Builder agent running all others does big tasks badly; the tool becomes a step-by-step pipeline with a human check between steps, more like Igor's old slot-art flow. Val: "меня это устраивает" — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- The converter moves out of the engine repository into a new team repository; Igor and Kharetski join ("академической греблей") [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- Kharetski's style book, and his brief agent's reference pictures, are to feed the art; Val wants several style books. Whether the art uses Igor's style skill is still not settled [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+- "The AI model is a replaceable setting" stands; Val's Nov-17 rule is quality first with any model, cost later [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
 ## History
+
+- [x] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] and [[wiki/people/igor-metelski.md|Igor Metelski]] — plan one tool from the two and demo it, from the design agent's brief toward a finished game, free spins included — due Tue Nov 17 2026 — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] — **superseded Nov 17 2026:** no joint demo; Anton showed the one-agent tool's Lions Riches result and the plan became a step pipeline in a new team repository, with Igor and Kharetski — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 
 - [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — put his scene and art tools into the repository with the engine — due unspecified (before the Tuesday demo) — [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] — **discharged Nov 13 2026:** Igor: "Все мои инструменты, которые, ну, типа я разработал ранее они все залиты в новый репозиторий"; Anton: "Да всёпортировано" [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 
@@ -112,3 +120,5 @@ Anton: agent-to-UI work rests on MCP ("MCP типа modal tontex por cols" — h
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]

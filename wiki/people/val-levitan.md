@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 511
+source-count: 516
 open-commitments: 83
 open-questions: 1
 ---
@@ -1880,6 +1880,18 @@ At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-
 
 On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call with Lev Rudky]] (garbled English, then Russian) he agreed to stop writing standards and putting them in GitHub: "Так ты предпочитаешь чтоб я?… не клал это в гидхаб, а отправлял тебе имя… так я я я не буду писать за стандарты пишешь да?" — Lev: "Я пишу да." His reason: "Я, я специально сделал так, чтобы ты был авторитетом на стандарты. Я тебе дал эту роль." His advice on overlaps: once a week or once a month have Claude list similar standards and groom them — "это всё можно причесаться." He would make the purchase-order topic "пил стандарт" (a PO standard), not part of inventory management [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. Ruling and his commitment (send Lev bullet points of what worries him): [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]].
 
+## Nov 17 2026 (8:04 AM) — quality first, cost later; "академической греблей"; a standard message library; Saturday ISO; confidentiality and the plan to March 15
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) he ruled quality first with any model and cost later; accepted Anton's step pipeline with a human check between steps; asked to move from "единоборства" to "академической греблей" so Igor and Kharetski join; ruled a proper standard system-message library; moved the next meeting to Saturday Nov 21, 10 AM to noon, to see "а с о имидж на костылях"; gave in to Bosik on a separate machine portal ("всё сдаюсь"); and accepted Igor's case that NOVA 2 requirements come from Rage prose. He asked that all of it stay confidential, warned about the design team, and said a known industry producer starts Jan 15, the system is polished to Mar 15 and then goes to Lena — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 17 2026 (4:35 PM) — he holds the 21.5-inch and 43-inch prepayment until he recounts the stock
+
+On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayment-hold.md|Nov-17 4:35 PM call]] with Mikhail Perelman he held the prepayment and the balance shipment ("нам пока не надо это отправляться, я должен сначала выяснить, что что у нас есть") and undertook to recount and find who received the PO — [[wiki/decisions/2026-11-17-the-21-and-43-inch-prepayment-and-balance-shipment-wait-until-val-recounts-the-stock.md]] [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]].
+
+## Nov 18 2026 (6:23 AM) — Jira grooming rules for Kovalchuk's standard: archive unlinked, untouched work; no "not to forget" tasks; backlog at most a month; everything under a value stream
+
+On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] (Russian) he gave Kovalchuk his rules for cleaning Jira and asked that they be written as a standard and enforced by Claude on a schedule, with archive notices to task owners: a Jira-project / repository link marks real work; unlinked work nobody touched for about three months is archived; an initiative with no capabilities is archived; "чтобы не забыть" tasks are banned ("запиши себе в блокнотик"); a backlog is "на следующую неделю. Ну максимум на следующий месяц"; everything sits under a value stream or is removed — once in a stream "Деньги начали течь". He asked everyone to write standards, reminded Kovalchuk of the $50 standards-contest prize, and wants the AI-PM's reports in simple sentences for second-language readers — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2401,3 +2413,8 @@ On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov
 - [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]

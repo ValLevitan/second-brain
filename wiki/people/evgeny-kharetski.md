@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 123
+source-count: 127
 open-questions: 1
 open-commitments: 18
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -462,6 +462,14 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 
 At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian): "Исо файл. Собрал… Сейчас буду право ставить на машину плюс л т. Я выключение тоже сделано" (heard; the notes: "LTE switch-off is done"). Which build the ISO is, is not said [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]. This discharges his Nov-10 commitment to build the LTE-modem switch-off capability (machine side).
 
+## Nov 17 2026 (8:04 AM) — the ISO installs with maths but no game; style book and references; test builds local; he takes the RK services and build himself
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian; "женя" / "Евгений" / "корецкий" = Kharetski by context) he said his ISO "собирается и ставится на машину, но без игр", "Уже уже с математикой", on FP7; he will go on with it and support Igor so the build comes with a game. He proposed loading JVL's style book (Val agreed); his brief agent takes reference pictures that go into the GitHub repository with the brief. Test builds should stay local — 3 GB from Amazon each time is too slow — and go to Amazon later. The NOVA LGS ("Нгс", heard) is about four months behind; about 90% of the RIS/promo work is "костыли", to be redone after everything works. He takes all RK3576 service and build work himself ("мне проще самому"); RK not this Saturday because FP7 is not finished; next an RK build with services and no game (Wednesday). On containers: the same isolated environment everywhere; develop for the RK and drop containers if they lag. He asked whether the design team could help as outside expertise; Val: it never worked — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 — the build with maths done, testing now; hardware services monitor devices constantly; components build from any source, not only a release
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian; "Женя", he answers): "и сошкой занимаюсь и сделал. Уже с математикой сборку… Сейчас буду её проверять" ("сошкой" heard; the notes: the ISO). Many changes to the hardware services so they do not fall over and keep monitoring device availability, not just once. Services and all components can now be built from any source, "а не только из релиза, потому что мы… Задолбаемся релизить". He answered Ivan's questions on RIS ("по рискрум ты", heard) and made "3 вроде пикса" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -588,3 +596,7 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

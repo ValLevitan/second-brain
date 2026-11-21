@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, one brain for all agents, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 42
+source-count: 46
 open-commitments: 0
 open-questions: 0
 ---
@@ -171,6 +171,16 @@ At the [[wiki/meetings/2026-11-06-nova2-studio-engine-demo-and-agile-merge-plan.
 
 At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and-game-metrics.md|Nov-11 NOVA-2 follow-up]] [[wiki/people/evgeny-kharetski.md|Kharetski]]: after a brief is approved the agent gathers the brief and references, lays them out, archives them and opens a service ticket to Andrei for a new game repository — it may not create GitHub repositories itself. Loading the second brain with "игры вики игр 15 из гкуам 3" (heard; 15 GA-COAM 3 games) and the maths is not done yet; it is his undertaking for Tuesday Nov 17, with Efim brought in on the maths — [[wiki/decisions/2026-11-11-nova-2-gets-one-tool-from-brief-to-game-igors-scene-flow-goes-into-the-studio-the-ai-model-is-a-replaceable-setting-a-tuesday-demo-and-where-mechanics-live-stays-open.md]] [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]] [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]].
 
+## Nov 18 2026 — "Emma", the voice AI-PM, sits in the stand-up; answer her chat questions or the queue stalls; Val finds the reports hard to read and wants a plain-language style guide
+
+**In the stand-up.** At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 Minsk stand-up]] (Russian) the voice agent took part under the speaker label "Emma (AI-PM)". It answers only when addressed ("Сама без обращения не вмешиваюсь"); asked by Biratka for a cartoon voice, it said it knew of no such ability. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: the choice of voices is small — this is "единственный голос, который поддерживает русский английский". Irina told it: "не создавай ничего… По этому разговору задач" (the side talk on images) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **Interrupting.** When it broke in, Kovalchuk: "Да это Андрей вчера я крутил так, чтобы она перебивала" (garbled; who tuned it is **unclear** — Andrei read as [[wiki/people/andrey-bosik.md|Bosik]] by the AI-PM context, **inference**). Irina proposed two names — one to call it, one for talking about it among themselves [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **The question queue.** Kovalchuk: "Когда эмма обращается к вам в чат важно както реагировать, отвечать ей" — a queue of questions forms, for example a reminder on an open question; until it is answered, another question, notice or clarification will not come; "старайтесь отвечать, не игнорируйтесь" [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **Names it does not know.** Biratka: it asked him who "догена" is and decided it was "генадий Перри" ([[wiki/people/genadi-peari.md|Genadi Peari]]). Kovalchuk: it takes the transcription, and some names it does not know — "Особенно вал она там часто не понимает" — and organisations too; asking is fine [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+- **A date on a requirement.** It asked Chudinov to move the date on a requirement — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note).
+
+**Report style (6:23 AM, Val and Kovalchuk).** Kovalchuk: the agent already sends a morning reminder about tasks near their dates; grooming notices could go there too. Val dislikes how the AI project manager writes reports — "Тяжело считаться очень… мне надо вчитываться"; facts are right, but the manner needs a guide: "простые предложения", for English-as-a-second-language readers ("Инглиш секондлэндвич", heard). Kovalchuk: the agent is set to "Исключительно правду, без всякой воды"; it has a character description he will extend, and he will ask Andrei whether he already started — commitment on [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -214,3 +224,7 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 - [[raw/Meeting_Notes_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]

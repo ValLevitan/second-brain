@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 154
+source-count: 157
 open-commitments: 28
 open-questions: 0
 ---
@@ -592,7 +592,19 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 ### Open commitments (Nov 17 2026)
 
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish capability 372, send it for review, and tell Irina when it is merged — due Nov 17 2026 ("в течение там часа") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
-- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — test the power-backup / spray-mode bit on the recycler by hand — due Nov 18 2026 ("завтра") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [x] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — test the power-backup / spray-mode bit on the recycler by hand — due Nov 18 2026 ("завтра") — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] — *done Nov 18 2026: "я уже протестировал спреймод заработал"* — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+
+## Nov 17 2026 (8:04 AM, NOVA-2) — the engine apart from the builder; put the game in the ISO and see what is missing; he takes the system messages through Daniil
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian; label "Alexander Biratko") he asked whether the engine can be driven by any AI over an API/MCP, and said the engine and the game-building system are "2 разные вещи". He pushed to put Igor's game into Kharetski's ISO, run it on a machine and see what is missing, above all system messages. His idea to go back to the old comms system for speed was dropped after Igor objected. He undertook the system messages — tilts and all non-game messages — through Daniil, guiding and checking him. He said Irina should write automatic tests after the ISO, with acceptance criteria from the old engine. He suggested the tool is more "юнитиплюс Миранда" and proposed re-confirming the RK dates on Saturday — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 — the recycler's spray mode works; a free sum across drums does not; he sorts the recycler capabilities into MVP 1; old message images as placeholders
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian; label "Alexander Biratko"): "я уже протестировал спреймод заработал" — he closes the test task; what does not work is paying a given sum across drums ("$289", Pavel's example) — the amount per drum must be given; spray is the default, with a mode switch from the terminal; the installer builds like Flex IQ but the update packages do not build yet — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-18 note). Irina asked him to review the recycler capabilities and put the right ones in MVP 1; he agreed: unknown ones to the backlog, done ones to review, in-progress ones to To Do or In Progress. On Daniil's system messages he wants the old engine's resources taken as placeholders — "в качестве playstolдеров берём старые ресурсы" — and a designer, maybe Lena, can choose new images later; Irina feared losing track of what must be redone; not settled. For Daniil's access he said start with the framework only; "Игорь придёт, он скажет" if the engine is needed [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
+### Open commitments (Nov 18 2026)
+
+- [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — review the recycler capabilities and place them in MVP 1, backlog, review or To Do / In Progress — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 
 ## Sources
 
@@ -752,3 +764,6 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

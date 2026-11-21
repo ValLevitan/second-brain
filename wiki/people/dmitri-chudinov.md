@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 138
-open-commitments: 59
+source-count: 141
+open-commitments: 57
 open-questions: 2
 ---
 
@@ -222,7 +222,7 @@ He was not on the [[wiki/meetings/2026-09-11-technician-complaints-and-new-capab
 - [ ] Dmitri Chudinov — attend the Monday working meeting on the new Passport/RIS regulations — due Sept 14 2026, 9:30; **assigned in his absence** — [[raw/Meeting_Transcript_Technician_Complaints_and_New_Capabilities_Workshop-September-11-2026.md]]
 - [ ] Dmitri Chudinov — work the weekend on the services needed for Flex-Port / Flex-IQ communication and card activation on the e-wallet path — due Sept 12–13 2026 — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] [[raw/Meeting_Notes_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
 - [ ] Dmitri Chudinov — extend the existing firmware-dissemination mechanism to all FlexPay and Flex IQ devices (step one of the three-step staging) — due unspecified — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
-- [ ] Dmitri Chudinov — remove the code supporting MudaGoose, at MVP 3 — due MVP 3, undated — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]]
+- [x] Dmitri Chudinov — remove the code supporting MudaGoose, at MVP 3 — due MVP 3, undated — [[raw/Meeting_Transcript_Transactional_MVP1_Scope_and_Priorities-September-11-2026.md]] — *treated as done by Nov 18 2026: "А вот а гусь и всю реализацию с ним спринтерами выпили" (read as complete — **inference**)* — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 
 ## Sept 14 2026 (8:01 AM) — the man who caught four things nobody had said out loud
 
@@ -805,11 +805,19 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 
 ### Open commitments (Nov 16 2026)
 
-- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — release the modem work — due Nov 16 2026 ("Сегодня уже выложу") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] — *Nov 17: not yet merged or deployed ("ничего не слил и не диплом"); Ivan expects it that day* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [x] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — release the modem work — due Nov 16 2026 ("Сегодня уже выложу") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] — *Nov 17: not yet merged or deployed ("ничего не слил и не диплом"); Ivan expects it that day* — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] — *done by Nov 18 2026: "л т е проверили на с т г сегодня… всё приходит"; Ivan: the LTE tests passed and data reaches the server (read as deployed — **inference**)* — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 
 ## Nov 17 2026 — LTE nearly closed; CI/CD with "Андреем", maybe testable on STG today; the modem work not yet deployed
 
 At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-178-to-mvp3.md|Nov-17 stand-up]] (Russian, label "Dzmitry Chudzinau"): he is closing the LTE work ("т е", the notes: LTE) and checking that uninstall works; with "Андреем" (which Andrei is **unclear**) on CI/CD — "возможно, сразу заработает сборка… сразу на эстегэ сегодня можно будет это проверить"; then Flex IQ builds. Asked by Ivan, he said nothing is merged or deployed yet ("ничего не слил и не диплом"); Ivan: "ты сегодня это закинешь". Khamin asked him to look at his unstable Flex IQ build. On dates: "Дима дима попробовал, подвинула" [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]. His Nov-16 commitment to release the modem work stays open (not yet deployed on Nov 17).
+
+## Nov 17 2026 (8:04 AM, in absentia) — named for the machine-registration app that production downloads need
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) Bosik said production downloads need "диму чудинного" to write an app that registers machines. Val asked whether to extend what Chudinov is adding for Flex PaySlim; Bosik: machines get their own portal, separate from the transactional one, which needs its own meeting; Val gave in — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
+## Nov 18 2026 — the Flex IQ builder split in two; LTE checked on STG; an old placeholder task closed with a comment; he objects to the printer fix ("no requirements")
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian, label "Dzmitry Chudzinau"): on the Flex IQ builder ("билдером IQ"), the agent spent the day fixing flaky tests; he split the work into two tasks and starts the builder now. "Сделали с Андреем аккаунтин хвост на новом стейке всё развернули напрот всё работает" (garbled; the notes: the new stack is deployed and works; which Andrei is **unclear**). "л т е проверили на с т г сегодня… всё приходит" (LTE checked on STG; data arrives). An old task Pavel created does not fit the new standard — no requirements, no capability; he cannot delete it, so he closes it with a comment — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-18 note). The agent asks him to move a date on a requirement; requirements have no dates (same note). On Pavel's printer gap he objected: "А вот а гусь и всю реализацию с ним спринтерами выпили. У нас нету ни требований… Почему оно должно работать?" — Pavel ruled the fix anyway — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Nov-18 update) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
 ## Sources
 
@@ -952,3 +960,6 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

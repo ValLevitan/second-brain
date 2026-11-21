@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 79
+source-count: 81
 open-commitments: 18
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -339,7 +339,15 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 ### Open commitments (Nov 17 2026)
 
-- [ ] [[wiki/people/ivan.md|Ivan]] — connect LTE to a machine for Georgia on STG once Chudinov's work is deployed — due unspecified (after the deploy) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [x] [[wiki/people/ivan.md|Ivan]] — connect LTE to a machine for Georgia on STG once Chudinov's work is deployed — due unspecified (after the deploy) — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] — *done Nov 18 2026: "мы уже прошли л т е тесты. Они отправляются на сервер"* — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+
+## Nov 18 2026 — the LTE tests passed; RIS: the yellow board is left, a couple of days of tests, then Felipe; two bugs wait on the other side; no access to their system yet
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian, label "Ivan Shpak"): "мы уже прошли л т е тесты. Они отправляются на сервер"; LTE could be closed — "вопрос, насколько мы это хотим по джорджии?". On RIS: mainly the yellow board is left, not yet looked at — "тесты на пару дней". [[wiki/people/irina-shishko.md|Irina]] wants an answer from Felipe ([[wiki/people/felipe-miranda.md|Felipe Miranda]]) and asked him to tell her when he is nearly done, so she can "дёрнуть". Bugs: "4, из которых вот 200 Игорь а 2 это то, что мы запросили у них" ("200" read as 2) — Igor made the fixes (which Igor is **unclear**; Ivan has not reviewed them yet) and two wait for answers from the other side; Irina reminded him of what "ефим" ([[wiki/people/efim-podvoiski.md|Efim Podvoiski]]) wrote — the paytable or the maths will need updating; "Хорошо постараюсь на забыть". He still has no access to their system; Irina: ping them again today [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
+### Open commitments (Nov 18 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — finish the RIS tests (the yellow board) and tell Irina when nearly done, so she can ask Felipe for his answer — due unspecified ("на пару дней") — [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -422,3 +430,5 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 72
+source-count: 74
 open-commitments: 18
 open-questions: 1
 ---
@@ -312,6 +312,10 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 
 - [ ] [[wiki/people/vladimir-samusenko.md|Vladimir Samusenko]] — move his feature to Sergey Tsymanov — due Nov 17 2026 — [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 
+## Nov 18 2026 — autotests for CAP-245 and CAP-287; asks to take CAP-142, finds only spikes; takes CAP-289 meanwhile; objects to the printer fix
+
+At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-merge.md|Nov-18 stand-up]] (Russian): he continues the open autotests for capabilities "245 287"; questions on all five went "Андрею или Сергею" (which Andrei is **unclear**). Looking for the next item he asked about capability 142 — only spikes and TINTs, no features — which led to Pavel's merge ruling — [[wiki/decisions/2026-09-07-wi-fi-provisioning-by-encrypted-qr.md]] (Nov-18 update). Meanwhile "займусь… с побили 289" and others he listed ("7 117? 14? 196?", heard). On the printer gap he said, with Chudinov, "У нас нету, ни требований, никаких" — [[wiki/decisions/2026-10-06-mudagoose-is-removed-from-the-code-entirely-and-git-history-is-the-way-back.md]] (Nov-18 update) [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -386,3 +390,5 @@ At the [[wiki/meetings/2026-11-17-daily-standup-flex-port-error-codes-and-task-1
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Flex-Port_Error_Codes_and_Task_178_to_MVP3-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]

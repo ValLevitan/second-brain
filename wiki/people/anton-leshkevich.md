@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 99
+source-count: 101
 open-commitments: 9
 open-questions: 0
 ---
@@ -304,6 +304,10 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian) he showed the Rust "Automated Converter": every box an agent with its own tools; he and Claude are the outside interface — "Это я и клод." Claude improves the agents from outside ("супервайз лординг", heard). The final goal is "автономный сборщик" of slots for NOVA 2; step 1 converts Nebraska NAD-2 Rage games, Lions Riches first ("клоп говорит он 16 из 17 задач сделана, но я ещё не запускал новую версию"); then a few more games; then games from a brief. His OpenRouter tokens ran out at about 1 AM after about $60 in about 10 hours. He wants to finish this part before automating NOVA's side, then refactor the repository, now a "зоопарк". On the Monday game: "Но игра точно запустится, но." — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 17 2026 (8:04 AM) — the one-agent tool built Lions Riches "кривовато"; a step pipeline next; his converter moves to a new team repository
+
+At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) he said his tool built Lions Riches, but with overlapping, unsorted symbols; big tasks go badly and burn tokens because the agents, above all the central Builder, get confused; small tasks are quick and cheap ("10 минут и 20 центов"). Claude Sonnet plans well; DeepSeek could not call the right agent; he has not tried Fable. Val's rule: quality first, cost later — "Хорошо понял это принято." He proposed removing the central agent for a step-by-step pipeline with a human check between steps (accepted), moving the converter out of the engine repository into a new repository with clean code for team work, and a call with Igor and Kharetski "завтра". He had not yet merged Daniil's sound pull request. He suggested the name "новобилдер". In his tool LGS is "ещё не интегрирован всё на моках" — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -407,3 +411,5 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
