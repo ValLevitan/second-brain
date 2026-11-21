@@ -1,35 +1,35 @@
-# JVL second brain — weekly update, Saturday November 14 2026
+# JVL second brain — weekly update, Saturday November 21 2026
 
 This week's update completed. Everything checked out.
 
 ## What came in
 
-Twelve meetings from Monday November 9 to Friday November 13, plus the South Dakota VLT report for October. Four Minsk stand-ups, two NOVA 2 meetings, two MVP release meetings, a recycler meeting, a short Georgia modem call, a short trial-game check, and Anton's creator-platform pitch. Three Teams chat captures were set aside as out of scope, as the rules say.
+22 meetings, Friday November 13 to Friday November 20. Six Minsk stand-ups, two NOVA 2 / game-design meetings, three MVP 2 release calls, the recycler review, two Genadi calls, two Nathan calls on the BOM agents, and calls with Lev, Mikhail, Dmitri Kovalchuk, Georgia ports, billing (PROD test 2) and the finance team. Two of the Nov 13 meetings arrived after last week's run, so they came in this week.
 
 ## What the brain learned
 
-- **NOVA "done" and the first ISO.** On Nov 13 you ruled that NOVA is done only when an image built by CI/CD goes from the production server to a USB stick and runs in a machine. The first ISO is targeted for Tuesday Nov 17. Order: Texas first, then probably Georgia. Kharetski's game-design agent waits for the next plan.
-- **NOVA 2 one tool.** On Nov 11 you ruled one tool from brief to game: Igor's scene flow goes into Anton's studio. The AI model is a setting that can be changed. You said JVL will have no designers. Where game mechanics live is still open, because of certification.
-- **Creator platform declined.** On Nov 10 you turned down Anton's online creator platform, because JVL is not in the online market. Your direction instead: the machine measures what players like, JVL makes the game automatically, GLI approves by checksum, and the game goes straight to the machine.
-- **MVP 1 release order.** On Nov 11: Ivan updates the release notes, Klimovich gives go or no-go, then capabilities close and the Jira version is released. A closed capability is never reopened; a change becomes a new capability. 36 of 37 capabilities were closed.
-- **MVP 2 split.** On Nov 12 MVP 2 was split: 2.1 is the IQ and the port (first priority), 2.2 is web services (second). "Lottery" becomes one general "Goods" category. "Inspector report" becomes "audit report". No new MVP 2 features before the capability review.
-- **Recycler.** You gave the Flex-Pay Recycler Slim its own MVP 1, on the production server by Thursday Nov 19. What does not fit goes to MVP 2 a week later. Cut scope, never move the date. Texas first, e-wallet only, no TITO.
-- **Texas promo bonus.** The $20 promo was $2 at 92%. After Pavel showed it pays 102% in total, it became $1 per $20 with machines at 90%.
-- **Flex IQ install.** The install fails with only one monitor. Pavel's fix is held; the release goes out with two screens connected. Future releases will be flashed by cable.
-- **Jira due dates.** Whoever moves a task to To Do sets its due date. The rule goes into the standard. Jira will not block an empty date; a notice comes the next day.
-- **Georgia modem.** The modem did not come up on Elizabeth's machines after the latest Georgia software. Not investigated yet. Minsk will get VPN access to look. The SIM data may have run out. Chudinov now owns the modem on/off work.
-- **South Dakota, October.** 56 machines, $138,989 net income, $80 per machine per day (state average $83). Games per machine fell to 707 a day, the lowest so far; the report says the gain was luck, not more play.
+- **MVP 2.1 date.** The Nov 20 date did not hold. On Nov 20 the scope was frozen and 2.1 set for Wednesday Nov 25. No going back to old builds: fix forward with a patch. MVP 2.2 is the master role plus reporting; its date comes after its scope is frozen.
+- **NOVA builder.** On Nov 17 you ruled quality before cost. The one big agent becomes a step-by-step pipeline with a person checking between steps, in a new team repository. The first ISO with a game (Twin Bison) is shown Saturday Nov 21; the RK build comes next.
+- **Georgia ports.** On Nov 18 you ruled the first installs connect Aristocrat through the bill acceptor, not AFT. SAS data and new reports wait for MVP 3. The missing cash-in counter needs acceptance criteria.
+- **Unguided BOM.** Agents build the BOM from a product description and the data contracts, with no template. The data sheet is the truth. Nathan's first spike built a power supply; the next one is a supplier loop with no human answers. Genadi works only on the BOM, not procurement; his purchasing knowledge goes into standards, checked daily by his own PO agent.
+- **Standards.** Lev Rudky writes the standards and you send him bullet points. Purchase orders get their own standard. Claude will groom Jira under a written standard: old unlinked work is archived, no "not to forget" tasks, backlog at most one month. The finance team turns each mistake into a standard and each member runs an email agent against the standards.
+- **Invoices.** The location invoice is due on its date, with 35% a year simple interest from day 7. The monthly connection fee is invoiced on the 1st to the master, net 15.
+- **Recycler MVP 1.** Player flow agreed on Nov 15: a jammed ticket cancels and refunds, Texas shows one balance, a cash-out fee per location (hidden at zero), at least 90 seconds to take a note.
+- **Games.** Class A maths stays predetermined where the law allows; Lions Riches party time is set. The new games are vertical, not dual screen. Nebraska games get Class 3 precogs and anticipations; Georgia V4 is aimed at June 1.
+- **Stock.** The 21.5-inch / 43-inch prepayment waits until you recount the stock (the system shows 163).
+- **New person:** Erika Gonzalez, finance team.
 
 ## Held for you
 
-- **First NOVA market.** On Nov 13 you said Texas first, then Georgia. On Sept 1 you ruled South Dakota VLT-2 is the first NOVA product. Does Nov 13 replace Sept 1?
-- **Texas V43 games: Rage or NOVA?** On Nov 12 you said you are not yet sure JVL has moved off Rage. Which one?
-- **CI/CD owners.** Recycler: Biratka or Bosik? Texas V43: Bosik or Khamin?
-- **NOVA 2 is confidential.** On Nov 11 you asked to keep NOVA 2 inside the company. The brain records it as usual. Do you want to limit who can see those pages?
-- **Small item.** The Nov 6 trial game was dropped. The old decision was marked, not closed. Confirm.
+- **Producer hire.** On Nov 17 you said a known producer starts Jan 15 and nobody knows yet. The brain records it with no name. Should it be held out?
+- **Who writes standards?** Nov 16: Lev writes them. Nov 18 and 20: you ask everyone to write them, and say you write them too. Which is the rule?
+- **$90 monthly fee.** Master pays by default (Nov 20), but the September deal says the location pays. Which wins?
+- **Texas promo bonus.** On Nov 20 you reopened it. Is "$1 per $20" still the rule?
+- **Texas games: Rage or NOVA?** Still open. The Nov 13 stand-up planned six vertical Texas games on Rage.
+- **Small items.** An old MVP 2 decision was renamed because its date changed — please check. The $50 standards-contest prize is recorded — keep or drop it?
 
-Three short personal remarks were removed from the recordings before saving. Nothing personal is in the brain.
+Family and personal talk was removed from four recordings before saving. Nothing personal is in the brain.
 
 ## Health
 
-Everything checked out. 143 facts were checked against the recordings; 142 matched word for word, and the one smoothed quote was fixed.
+Everything checked out. 313 facts were checked against the recordings; 312 matched word for word, and the one shortened quote was fixed.
