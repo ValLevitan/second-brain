@@ -3,7 +3,7 @@ type: organization
 title: JCM (bill validator / recycler vendor)
 date: 2025-05-20
 aliases: [JCM, JCM Global, GCM, G 7, G C M]
-source-count: 9
+source-count: 10
 open-questions: 1
 ---
 
@@ -53,6 +53,10 @@ On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom
 - **Texas Flex Slim.** The Texas version drops the card dispenser and puts a "GCM" recycler where the bill acceptor was ("вместо билаксептера. Устанавливаем GCM"; later "GSMR setletler"). See [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Sept 23, 11:05 AM). [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 - **TITO desktop.** Genadi found that "GCM" and TransAct already sell a "тито десктоп"; Val stopped JVL's own box for now and will connect a bought one to the IQ. See [[wiki/decisions/2026-09-23-jvl-stops-building-its-own-tito-desktop-box-and-uses-jcm-or-transact-for-now.md]]. [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
 
+## Nov 15 2026 — the recycler JVL has is the 4-drum RQ, not the 2-drum RT; one note at a time or a bundle is still to be checked with JCM
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian): capability 341 referred to the RT model; [[wiki/people/andrei-klimovich.md|Klimovich]]: "У arqq 4 барабана у о р т 2 барабана"; [[wiki/people/alexander-biratka.md|Biratka]]: "у джимовского есть 2 модели, одна с 2, другая с 4 барабанами", and the unit JVL has has four; he will fix the capability [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. Whether the RQ pays out one note at a time or a bundle is not known: Klimovich read "по одной банкноте" in its documents and recalled Genadi's correspondence ("переписку Геннадия с дрессемом", heard) that the RQ cannot be upgraded for bundles while a model "чуть ли не в 2 раза дороже" can; [[wiki/people/val-levitan.md|Val]] thinks JCM has an extra bundle module and advised documenting the questions and asking the JCM designers through Genadi with the meeting transcript; Biratka wants his own tests first [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
 ## Open questions
 
 - Does the RT denominate notes on the way *out*? Cliff was ~99% sure it tracks which drum holds which denomination (so pre-loaded drums stay correct) but had to confirm. [[raw/JCM_meeting_Cliff__bill_recycler-may-20-2025.md]]
@@ -68,3 +72,4 @@ On the [[wiki/meetings/2026-09-23-texas-flex-slim-release-street-cabinet-and-bom
 - [[raw/Meeting_Transcript_Mutha_Goose_Supplier_Dinner_Intel-August-18-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Install_Recycler_Sourcing_CPI-August-25-2026.md]]
 - [[raw/Meeting_Transcript_Texas_Flex_Slim_Release_Street_Cabinet_and_BOM_Source_of_Truth-September-23-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]

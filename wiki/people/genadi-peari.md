@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 153
+source-count: 154
 open-commitments: 60
 ---
 
@@ -729,6 +729,10 @@ At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-
 
 At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-and-dallas-replacement.md|Nov-7 6:31 AM Saturday NOVA/Galaxy session]] (Russian; absent) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]: [[wiki/people/dmitri-chudinov.md|Chudinov]] said the one open point on the registration scheme needs "уточнение, кто тут, наверное, паше больше гена либо лев. Заводят ли они чтото бизнес централ заранее с этими номерами из пиво их материал?" — read as Genadi and [[wiki/people/lev-rudky.md|Lev Rudky]] by the BC / parts context (**inference**); Val: "Если они заводят, то это тоже можно поменять. Потому что тоже процесс неправильный… Конечно, их надо их надо привлечь… к этому разговору"; nobody took the question (unassigned on [[wiki/decisions/2026-11-07-only-the-base-comes-up-at-manufacture-no-jurisdiction-check-at-registration-the-one-scan-serial-label-and-dallas-replacement-are-not-decided.md]]) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]] [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]. Val also recalled that the way a customer is typed in BC for sales is a term "Геннадий назвал… с Геннадием говорили на эту тему" (the term itself **unclear**) [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]].
 
+## Nov 15 2026 (in absentia, inference) — his correspondence with JCM on the recycler model; Val wants him to put the bundle questions to JCM's designers
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian) Klimovich recalled "переписку Геннадия с дрессемом" (heard; with JCM, as the notes read it) when the recycler model was chosen: the RQ cannot be upgraded to pay out a bundle, and a model "чуть ли не в 2 раза дороже" can. Val: "100% гену сюда можно подтянуть. Гена ответит на эти вопросы. Он хорошо в этом разбирается" — take the meeting transcript and ask him to answer the questions [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. ("Геннадия" / "гену" = Genadi — **inference** by name.) See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -884,3 +888,4 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]

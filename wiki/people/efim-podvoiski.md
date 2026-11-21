@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 100
+source-count: 102
 open-commitments: 11
 open-questions: 0
 ---
@@ -384,6 +384,10 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian) Chudinov: "надо от ефима подтверждение, что там будет с пресетами по каждому прогрессу те же не те же" — [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (Nov-12 note; the commitment is tracked there) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 13 2026 (12:10 PM) — "Finite, you mean predetermined outcome? Yes"; Class A "cannot be a purely random"; his simulator and win-distribution chart; Lions Riches "10 to 60"; the maths tasks under IP 1197; production maths by New Year, "Not less than four weeks"
+
+At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English): he confirmed Georgia COAM and Class A maths are predetermined — with random maths "you can never promise players" a minimum in free spins; he runs the party-time tests on his simulator with Michael and showed a win-distribution chart kept close to a well-accepted game; for Lions Riches party time is "10 to 60" times the bet; his Class A maths tasks sit under IP 1197 as capability 286, which Lena and Michael cannot see, and he moved IP 1197 to In Progress during the meeting; about four more tasks are coming; he hopes to finish the production maths by New Year, "Not less than four weeks, I am sure" — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. On the category labels he proposed "a flat text" instead of a widget-like bar — [[wiki/topics/slot-game-design-principles.md]] (Nov 13) [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -488,3 +492,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The Texas recycler install must carry an AFT promo bonus for $20 put in — only for $20, nothing for $5 or $10; first set at $2 per $20 with machines at 92%, it was changed in the room to $1 per $20 with machines at 90% after Pavel and Biratka showed the first version pays about 102%; the recycler screen must show the offer, and Klimovich writes its text and visual (Val, Nov 12 2026)
 date: 2026-11-12
 aliases: [$20 promo bonus, 20 dollar promo bonus, $1 per $20, $1 за 20, $2 promo credit, $2 промошн crew, AFT promo feature, AFT ficher, Texas RTP 90 percent, машины на 90%, 92 процента ол ин, 102 percent expectation, 102 процента, only $20 and only $2, Только $20 и только $2, bonus offer on the recycler screen, promo bonus text and visual]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 2
 open-questions: 0
@@ -42,6 +42,10 @@ Biratka: "нам нужно на ю ай както активно отобра�
 - The idea itself — $2 of promotional credit for every $20 — was pitched by Val to an operator on Jun 22 2026; see [[wiki/topics/flexpay-business-architecture-payout-devices.md]] (Jun 22 section).
 - Promotional money as a balance type was parked to MVP 2 or 3 on [[wiki/decisions/2026-09-15-balance-is-total-playable-only-and-redeemable-everywhere.md]]; this ruling sets the Texas offer, not the balance model.
 
+## Note, Nov 15 2026 — Texas shows one balance; promo credits in recycler MVP 1 or MVP 2 is open; Val's Georgia handpay reminder
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian): Texas has no handpay rule ("Нету нету нету" — Val), so the recycler ticket and wallet show one balance with no playable/redeemable split. Val used the moment to remind the team that promo credits in Georgia COAM must respect the handpay law — the player cannot cash them out until the play-through is reached, "потому что иначе мы нарушаем закон". [[wiki/people/pavel.md|Pavel]]'s example: credit 21 for 20, "этот 21 это будет плейбл редима был будет только 20". Klimovich asked whether promo credits go into MVP 1; [[wiki/people/alexander-biratka.md|Biratka]]: "если не готова, давай на MVP 2 перекинем" — not settled [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
 ## Open commitments
 
 - [ ] Unassigned (the notes: "needs clarification") — add the $20 promo bonus (AFT) to the recycler capabilities — due unspecified — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
@@ -53,3 +57,4 @@ Biratka: "нам нужно на ю ай както активно отобра�
 
 - [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]

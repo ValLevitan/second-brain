@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 104
+source-count: 108
 open-commitments: 18
 open-questions: 3
 ---
@@ -438,6 +438,14 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): "Просроченных задач практически нету"; little open over 14 days; open features under closed parents to check; "очень много сдач… у которых нету сроков"; Samusenko's plugin to load the standard into Claude; the agent "не может, у неё нет разрешения на установку даты" — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-12 note) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 13 2026 (6:16 AM) — dates "намного всё лучше"; the reminder bug fixed; the agent may move dates on a chat command, a one-week trial; every repository has a Jira project
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian): the agent now reminds about every task with a problem, not once only; he will let it change due dates on a person's chat command and trial it for a week, then maybe add reminders about coming dates, perhaps only for Chudinov's own tasks — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-13 note; commitment tracked there) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. On Daniil's sound task: "Если есть репа, значит… есть проект" — a table is in the knowledge base [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+## Nov 16 2026 — the agent can now move tasks; a missed draft for Biratka
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) he pointed to a draft item for Biratka that was missed — Pavel moved the recycler bundle check to To Do — and announced "Агенту добавили возможность двигать задачи, то есть можете попробовать" [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]. See [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-16 note).
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -544,3 +552,7 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

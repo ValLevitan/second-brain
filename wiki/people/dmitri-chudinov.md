@@ -4,8 +4,8 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 134
-open-commitments: 58
+source-count: 136
+open-commitments: 59
 open-questions: 2
 ---
 
@@ -799,6 +799,14 @@ At the [[wiki/meetings/2026-11-12-mvp2-capability-review-goods-category-master-r
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian; not present): Pavel and Bosik said "дима" wrote the production-server download screen first ("И дима сначала сначала дима писал"); Bosik will build CI/CD for NOVA after the first build "с Димой чудиновым или Сергеем цыманом" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 16 2026 — NAD nearly done; automatic paytables blocked on file contradictions, waiting for Metelski; the modem work out today; a full CI/CD build with "Андреем"
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian, label "Dzmitry Chudzinau"): "из текущих нат, я там практически всё сделал" (heard; NAD); he wanted to pass the paytables automatically but found "Противоречия в файлах и я жду Игоря, он обещал поправить"; his modem work "Сегодня уже выложу"; with "Андреем" he is reworking the build — "сделаем полноценный CICD, чтоб все могли пользоваться" (which Andrei is **unclear**). He left the SMS release to Tsymanov: "Пускай серега зарелит" [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
+### Open commitments (Nov 16 2026)
+
+- [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — release the modem work — due Nov 16 2026 ("Сегодня уже выложу") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -936,3 +944,5 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

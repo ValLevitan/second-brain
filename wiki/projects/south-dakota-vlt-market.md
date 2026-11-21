@@ -3,7 +3,7 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 60
+source-count: 61
 open-commitments: 5
 open-questions: 2
 ---
@@ -417,6 +417,10 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 
 - Driven by [[wiki/people/val-levitan.md|Val]] with [[wiki/people/juan-martinez.md|Juan]] (regulator/operator relationship, field side) and [[wiki/people/pavel.md|Pavel]] (Minsk software); [[wiki/people/irina-shishko.md|Irina]] on printer testing and GLI diffs, [[wiki/people/sebastian.md|Sebastian]] on field service, [[wiki/people/ivan.md|Ivan]] on GLI scheduling. **Lonnie** is the SD lottery-lab tester; **"Alani"** appears as the SD lottery (supplied the SAS adapter, requested the permit-number rename) — whether Alani is the lottery entity or a person there is unclear (see Owner Decisions). [[raw/sd_vlt_recap-jan-22-2025.md]] [[raw/Alignment_outstanding_subjects_2025-02-19.md]]
 
+## Nov 13 2026 (12:10 PM) — Liberty Spins, converted from predetermined to random maths because South Dakota allows only random, "ended up being dead last in the rankings"; Rodeo Spins for South Dakota has "substantial changes"
+
+At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English), [[wiki/people/michael-gottlieb.md|Michael]]: "we took Liberty spins to South Dakota… because we couldn't do predetermined math, we took an approach that you thought was going to work and it didn't. And the game ended up being dead last in the rankings. So we've made some substantial changes to it for rodeo spins for South Dakota and hopefully that will go… and that will work." Val: "South Dakota prohibits predetermined, they only want random" — Efim: "Yes"; Michael: "Correct" — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. This agrees with the monthly reports above, where Liberty Spins is among the weakest South Dakota games.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -480,3 +484,4 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 - [[raw/Meeting_Transcript_Daily_Standup_MVP1_Extension_and_RK3576_Game_Library-October-14-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]

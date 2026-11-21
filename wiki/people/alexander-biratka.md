@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 149
+source-count: 152
 open-commitments: 26
 open-questions: 0
 ---
@@ -577,6 +577,14 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian, label "Alexander Biratko"): he told Val NOVA is in the repository Anton showed, and Claude reads how to build a game on it; he agreed Pavel's local check "Не отменяет" Val's rule. He proposed "Может, будем использовать стар дета центр?" instead of LGS; after Pavel, Bosik, Kharetski and Metelski objected — "Вот ладно всё всё забыли." — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 15 2026 (8:01 AM) — owner of capability 341, to be fixed to the 4-drum RQ; the three bill-in paths; a fee when money goes in, refused; payout money frozen first; one note or a bundle — "я проверю я завтра в офисе"
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian, label "Alexander Biratko"): for Thursday "хотя бы пользовательский надо добить"; his recycler work is done and the screens need polishing. He owns capability 341 and will correct it to the 4-drum RQ. He set out the three bill-in paths — Cancel, Print, timeout with no ticket and a record — which Val confirmed. He suggested taking the cash-out fee when money goes in; Klimovich refused, and he accepted the redemption-screen fee ("Давай"). He said payout money must be "сразу заморожены перед тем, как выдаваться", and that the "restore to the same state" rule should be written as its own requirement. On bundles he first said the RQ has nowhere to stack notes, then agreed to check in the office [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
+## Nov 16 2026 — capability 372 (port with new screens) and the recycler features; the bundle check moved to To Do
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) he took capability 372 ("По порту там с новыми экранами") and is turning Klimovich's recycler capabilities into features. Pavel moved his check — "может ли он пачкой выдавать или только поштучно?" — to To Do [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -730,3 +738,6 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

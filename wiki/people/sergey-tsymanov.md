@@ -3,8 +3,8 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 76
-open-commitments: 18
+source-count: 78
+open-commitments: 19
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 open-questions: 1
 ---
@@ -316,6 +316,14 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian; not present): Irina named him for the production-server download screen ("Сергей цимонов цыманов цимонов Сергей, короче"), which Dima wrote first; Bosik will build CI/CD for NOVA after the first build "с Димой чудиновым или Сергеем цыманом" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 16 2026 — the Georgia problem is the SMS service, not RIS; he releases the fix today; lottery tickets and the redemption split
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian, label "Sergey Tsimanov"): when Irina asked for a RIS release for what was found on Saturday with the demo installs, he said "Это не ре это это не рис этот смска тогда"; Chudinov: "Пускай серега зарелит"; he: "сегодня". Ivan had checked on Saturday that the negative case worked. He is on lottery tickets and fixing stories — Pavel: "сплит этого самого редепша" [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
+### Open commitments (Nov 16 2026)
+
+- [ ] [[wiki/people/sergey-tsymanov.md|Sergey Tsymanov]] — release the SMS fix for the Georgia demo-install problem — due Nov 16 2026 ("сегодня") — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -394,3 +402,5 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

@@ -3,10 +3,10 @@ type: decision
 title: The horizontal Texas games on RAGE are converted to vertical NOVA games with Igor's 20% method, with no change to maths or function; Igor ports Dutch Mill first and Sergey Kleimenychev only makes the video (Oct 8 2026)
 date: 2026-10-08
 aliases: [Texas blind conversion, в тупую слепую, Texas Rage to Nova vertical, перевозим их на нова вертикальные, 20 percent stretch, symbols 20% taller than wide, Dutch Mill first port, дач мил, Kleimenychev video only, looping topper video, keep it confidential, держим конфиденцию, Games convert horizontal to vertical, one feature per game under capability 240, рейчту новым migration]
-source-count: 13
+source-count: 15
 status: active
-open-commitments: 8
-open-questions: 3
+open-commitments: 9
+open-questions: 5
 ---
 
 # The horizontal Texas games on RAGE go to vertical NOVA, unchanged; Igor ports Dutch Mill first
@@ -126,7 +126,30 @@ At the end of the [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday
 
 ### Open questions (Nov 12 2026)
 
-- Do the Texas V43 games ship on Rage (converted to vertical) or on NOVA, as ruled on Oct 8? Val on Nov 12: "я ещё не не уверен, что мы от него от рейч отошли" — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- Do the Texas V43 games ship on Rage (converted to vertical) or on NOVA, as ruled on Oct 8? Val on Nov 12: "я ещё не не уверен, что мы от него от рейч отошли" — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] — *Nov 13: the stand-up worked on the Rage variant (see the note below); no ruling by Val.*
+
+## Note, Nov 13 2026 (6:16 AM) — six Texas games already converted to vertical on Rage as a first version, with AI art nobody approved; nothing goes out; the needed parts are planned onto GitHub, then a CI/CD integration repository that builds a Rage ISO
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 Minsk stand-up]] (Russian; Val absent) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]:
+
+- **The question.** [[wiki/people/pavel.md|Pavel]]: "вал вчера говорил по поводу над… Вертикальных с горизонтальных на вертикальную машину. Что это всё ещё актуально в варианте рейдж?" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- **Why.** Pavel: horizontal machines came in from somewhere ("горизонтальные ей откудато пришли"); for the Texas market a vertical machine would be more useful, and the idea is that "если быстренько переделать эту машину на вертикальную и поставить туда правильный софт. У нас будет готовый продукт для Техаса" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Which games.** [[wiki/people/igor-metelski.md|Igor]] first spoke of the few games that never had a vertical version, then asked "или ты имеешь в виду 1 над?"; Pavel: "Наверно 1 над"; [[wiki/people/irina-shishko.md|Irina]]: "Наверное, игры, которые были в Техасе их сделать вертикальными"; Igor: "Вот эти вот 6 игр, которые я сделал." What "1 над" names is kept as heard (the notes: "the Texas games, NAD 1") [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Their state.** Igor: "они в каком то виде есть, но это же это это не генерированный арт, который как бы ни с кем не согласован, это надо показывать кому то"; "я думал это всё эксперимент. Я не думал, что мы хотим это ну типа в продакшн куда то пускать." Pavel noted for himself that "какаято 1 версия переконвертированной рейд игры из горизонтальной вертикально готова 6 игр", and further steps need a go-ahead. They live on Igor's experiment branch: "у меня есть ветка один 27… эта ветка находится фактически в актуальном состоянии" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Creative briefs.** For games that never had a vertical version, the layout of the top half is a design question: "например, там какойнибудь джеманте, вот у нас вообще никогда не было вертикальной версии"; "мы переносим это в таком же виде как есть или нам надо придумать как организовать вот эту вот верхнюю половину экрана" — "нужны вот эти вот креатив, ну типа брифы креативные". Doing it on Rage "совсем не проблема будет" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Nothing goes out; GitHub first.** Irina: "там ещё речь шла о том, чтобы это всё в гид перенести"; Pavel: "Да и сборку всю." Igor said he could technically build a Windows build and give the games to Michael or anyone, to learn whether the AI art ("нейрорт") is acceptable; Irina: "Пока мы ничего никому не отдаём" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Pavel's plan.** "можно из этих задач будет запланировать. Перенос необходимых компонентов на гид"; next "сделать CICD, то есть какоето интеграционный репозиторий для сборки именно рейдж игр", which pulls sources from other repositories, or, if each component is released separately, takes their artifacts, and builds an ISO ("сошку", heard) "как мы собирали для рэйдшi". Igor already builds locally in containers. Igor and Pavel would talk after the meeting [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+This is the stand-up acting on Val's Nov-12 wish (the note above), on the Rage side. It is a working plan, not a new ruling by Val; the Rage-or-NOVA question stays open (**inference**). At the 7:01 AM NOVA-2 follow-up the same morning the art question came up again for NOVA — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]].
+
+### Open commitments (Nov 13 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] and [[wiki/people/pavel.md|Pavel Frolov]] — plan the tasks to move the needed Rage components to GitHub, then the CI/CD integration repository that builds the Rage ISO; talk after the stand-up — due unspecified (talk Nov 13 2026) — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+
+### Open questions (Nov 13 2026)
+
+- How should the top half of the screen look for games that never had a vertical version — moved as is, or newly designed? Igor needs creative briefs — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- Is Igor's AI-generated art for the six vertical games acceptable? Nobody has approved it — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 
 ## History
 
@@ -149,3 +172,5 @@ At the end of the [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday
 - [[raw/Meeting_Notes_Dutch_Mill_on_NOVA_and_Native_Engine-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]

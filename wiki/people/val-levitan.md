@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 504
+source-count: 505
 open-commitments: 83
 open-questions: 1
 ---
@@ -1867,6 +1867,10 @@ At his [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dol
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian) he asked for proof that NOVA works ("для меня это немножко сюрпрайз") and set the test: built only through CI/CD actions onto the production server, then by link to a USB stick into a machine — "Единственный эталон сделанного". He took an undertaking to make the production download screen show new products; asked for a parallel flow where game agents request NOVA features; named "1 1 это Техас. 2 это наверно джорджио."; set the first ISO for Tuesday ("Меня устраивает, если мы пообещаем и не успеем"); moved Kharetski's game-design agent "на следующий план"; and asked Bosik about running Claude Code locally — "Мы можем сэкономить гдето 15000 в месяц" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 15 2026 (8:01 AM) — at the recycler review: "мы всегда съедаем всё, что нам дают"; a jam cancels and refunds ("вы очень комплектуете этот процесс"); no $100 bills; three fee categories and the $65 Nebraska service; at least 90 seconds; GLI-11 for power loss; "не хотел бы отказываться от рис и паспорта"
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian): all bills go to the drums, Cancel gives the player his bills back, and the wallet exists "только тогда, когда билет правильно напечатался"; a jammed ticket ends the transaction, refunds the money and calls the attendant to fix and test the product. He advised refusing $100 bills — fakes from Iran about 20 years ago, "это просто приглашать. Фальшивщиков". He wants "3 типа категорий по физ" defined in setup (name, percent, who pays), unused for now; Nebraska banks charge "$65 в месяц" to service dispensers and some operators pass that to the player. A dispensed note should wait "как минимум 90 секунд". Power loss must restore to the same stage under a GLI requirement — "помоему call ai leven" (heard; GLI-11). RIS and Passport stay, not in MVP 1 but before the first live install; the IQ install next week goes ahead without them. On bundles: ask the JCM designers through Genadi with the transcript [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2381,3 +2385,4 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]

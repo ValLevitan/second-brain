@@ -3,7 +3,7 @@ type: decision
 title: The Class A maximum bet is $3 (25-cent steps), raised later only if the market asks; free spins stay and party time takes 12% of RTP at about 1 in 240 — half the free-spin rate — and starts silently on the base spin after a $50-capped free-spin round; total RTP about 92%, as in Georgia; no progressive, party time replaces it; a vertical machine on the Georgia COAM base with the larger-coin skill pick; production on NOVA in January after Nebraska (Nov 6 2026)
 date: 2026-11-06
 aliases: [Class A max bet $3, not more than three, 3 bucks is fine, limited bet machine, limiting bet machine, average bet in Georgia about $1.20, give me my $6 button, we're not leaving money on the table, 8 increments you don't have to deal with, party time 12% of RTP, 1 in 240, free spins 1 in 120, winning streak, party time after free spins, we're not going to tell you, $50 cap in total, free spins stay, take their money fast give it back slowly, time on device, two things to chase, Primero failed, Solid argument clever, quicksand or swimming in oatmeal, total RTP 92%, no progressives, the $50 win cap eats it up, party time is the replacement for the progressive, vertical machine, Georgia COAM as the base, choose the larger coin, Class A skill, Claude's interpretation of Class A regulations, sent on 831, January after Nebraska, comp art approved, Nova completely new workflow]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 3
@@ -59,12 +59,18 @@ Val: "what's the schedule like on this?" Lena: "We will start it in January afte
 ## Open questions
 
 - Does Georgia law require a skill element in Class A? The team's belief rests on a Claude reading sent Aug 31 that is marked not to be relied on; Val asked where the rule comes from — [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
-- What are the party-time values per bet level, and how is a fixed value made inside the $50 cap? Carried from Oct 30; not touched here — [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- What are the party-time values per bet level, and how is a fixed value made inside the $50 cap? Carried from Oct 30; not touched here — [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]] — *partly answered Nov 13 2026 for Lions Riches: party time pays 10 to 60 times the bet, $30 to $180 at the $3 top bet; the other games are still to come* [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - How many free spins does the Class A game give (Michael: "10, 10"; Efim: "7… for example", heard)? — [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 
 **§15.8:** clear — market, machine and maths economics only. **§15 #9:** none.
+
+## Note, Nov 13 2026 — Lions Riches is the first game dialled in (party time ~1 in 240, 10–60× the bet); Rodeo Spins next, with party time after its re-spin feature; Class A maths is predetermined; production is scheduled in December
+
+At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English): of the six Class A games, Lions Riches is "in good shape" — party time about 1 in 240, "Four of multiplier is 10 to 60" (Efim), so  to  at the "" top bet; free spins about 1 in 120. Rodeo Spins is next: its 5× multiplier on reel 4 hits the win cap in one spin, so party time is bolted onto the back of its re-spin feature, as after free spins. Efim: the first three or four games need close work, then a baseline. Class A maths stays predetermined ("our preference would always be predetermined math if the law permitted" — Val). Lena will schedule production in December for January 2027 on NOVA; Efim hopes to finish the production maths by New Year, "Not less than four weeks" — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. The tuning commitment above stays open (one game of six done).
 
 ## Sources
 
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]

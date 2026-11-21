@@ -3,7 +3,7 @@ type: person
 title: Daniil Stauskiy
 date: 2026-11-08
 aliases: [Daniil Stauskiy, Daniil, Даниил, Daniil Stauski]
-source-count: 18
+source-count: 20
 open-commitments: 1
 open-questions: 0
 ---
@@ -56,6 +56,10 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian; he went first): "добавил кнопочку мод… добавил переключение кнопки"; "буду комитить уже и открывать пьер"; his question on where the LGS-only sounds go was settled — game sounds in the game, system sounds in the framework, setup clicks in setup, the speaker test via the framework — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-12 note; his Nov-11 commitment is annotated there) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 13 2026 (6:16 AM) — his pull request plays sound against a non-local LGS; sound comes out of LGS as a separate task
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian): he opened a pull request ("ньюджин 26", heard), checked it against a non-local LGS — sound plays well, the Studio fixed too; Biratka and Pavel: LGS may and should change, everything about sound is removed from it, in a task separate from the engine's — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-13 note; commitment tracked there) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -76,3 +80,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]

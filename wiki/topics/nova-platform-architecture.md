@@ -3,8 +3,8 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 117
-open-commitments: 72
+source-count: 119
+open-commitments: 73
 open-questions: 39
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
 ---
@@ -921,6 +921,14 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - **The ISO.** Pavel: the ISO comes from the separate integration repository, which takes a game's sources or released artifact, runs tests and packs it, with the maths and LGS. Kharetski writes the actions to finish that cycle; target Tue Nov 17; CI/CD after the build process (Bosik). Pavel's installer idea (all services and LGS with no game, on real hardware) is not decided — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 - **Markets.** Val: "1 1 это Техас. 2 это наверно джорджио." — see [[wiki/decisions/2026-09-01-first-nova-product-south-dakota-vlt-2.md]] (Nov-13 update) [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 13 2026 (6:16 AM) — the repository rename from RK3568 to RK35xx is not done; Claude is to sweep the projects so actions use 35xx; the Lotto key on Amazon is tied to 3568 and its parameter must survive the build
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] asked about "переименовывание было из рка 35, 68 на 35 икс икс"; [[wiki/people/dmitri-chudinov.md|Chudinov]]: "А я ещё не делал." Pavel: similar tasks sit with him, Chudinov and others; "надо, наверное клодам прогнать те проекты, над которыми мы работаем флекс айкью там и так далее, чтобы нигде в экшнах не использовалось явно там 30. 5 68 использовалось 35 XX" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. Chudinov: for Lotto "там у нас уже на Amazon зашит. Как ключ", which would not fit other boards if a terminal's board changed; Pavel: if 3568 is named and the key was made for 3568, "то всё хорошо"; Chudinov: "Надо смотреть, чтоб этот параметр никто не стёр гетхаба, когда его выпускают изборка" — he does not remember whether it sits in the RK image or in the terminals [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+### Open commitments (Nov 13 2026, 6:16 AM)
+
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] and [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (and others holding similar tasks) — run Claude over the projects (Flex IQ and others) so actions use RK35xx, not 3568, without erasing the Lotto key parameter at build time — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1041,3 +1049,5 @@ At the [[wiki/meetings/2026-11-07-machine-registration-one-scan-server-serial-an
 - [[raw/Meeting_Notes_NOVA-2_Mechanics_Placement_One_Studio_Tool_and_Game_Metrics-November-11-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]

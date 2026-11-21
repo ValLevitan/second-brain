@@ -3,7 +3,7 @@ type: decision
 title: The modem on Georgia Flex machines stays always on and the operator's on/off screen goes — a machine that cannot send simply retries and sends when a connection returns, by modem or by wire; but an operator who does not want the modem must be able to switch it off on purpose, through a routine — scan a QR code, the server records the event and returns an activation code, only then the modem goes off — because a forced modem the owner cannot disable, whose data later leaks, is negligence and a legal risk for JVL; the scope widens (Kharetski on the machine, Chudinov on the server, maybe Seregin on the QR code, about three days) and the modem goes on every machine with this release because every operator wants remote updates (Val, on Pavel's proposal, Nov 5 2026)
 date: 2026-11-05
 aliases: [modem always on, оставим просто включенную эту опцию, remove the operator modem screen, убрать этот экран, no overhead in retrying, нет никакого большого верхеда, disable the modem on purpose, отключить модем через процедуру, чтобы это было намеренно, modem disable routine, QR code then activation code, сканирую QR код дайте мне активейшн код, server records the event, записать событие и отправить активэйшн код, modem disabled on purpose packet, модем отключается намеренно, allergic to the modem, у меня аллергия на него, forced modem legal risk, negligence on behalf of the manufacturer, большой лоссуд, if he did not disable it it is his problem, если человек его не отключил это его проблема, scope widens by about three days, не больше трёх дней, ideal moment to put a modem on every machine, идеальнейший вариант поставить модем на все машины, everyone wants remote updates, two-character activation code, four-character activation code as for the lease, confirmed machine actions capability, modem off confirmation capability]
-source-count: 12
+source-count: 14
 status: active
 open-commitments: 2
 open-questions: 2
@@ -80,6 +80,10 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 - [ ] [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] — build the LTE-modem on/off event and the activation code returned in answer, and the GUI himself — due unspecified (Ivan: "не затягивайте") — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 
+## Note, Nov 16 2026 — Kharetski's LTE switch-off is done on the machine side; Chudinov releases his modem work today; Ivan checks the UI part
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: "Я выключение тоже сделано" (heard; the notes: LTE switch-off done), and he will put a new ISO on a machine with LTE. [[wiki/people/dmitri-chudinov.md|Chudinov]] on the modem: "Сегодня уже выложу и можно будет допускать, смотреть." [[wiki/people/ivan.md|Ivan]] is checking the UI part while the server part is being finished ("там серверные части опишку доделает" — who is **unclear**) [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]. Chudinov's on/off-event commitment above is not reported done.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
@@ -94,3 +98,5 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 - [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

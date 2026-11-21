@@ -4,8 +4,8 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 91
-open-commitments: 32
+source-count: 95
+open-commitments: 34
 open-questions: 1
 ---
 
@@ -388,6 +388,19 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian): "Все мои инструменты, которые, ну, типа я разработал ранее они все залиты в новый репозиторий"; his Rage-to-NOVA pipeline became Anton's RAGE Converter agent and his scene tool the Scene agent. His last commits had a skill "в котором был прописан наш стиль"; Anton's Art agent does not use it — not settled. On LGS: in Rage a state save "может уходить до 8 миллисекунд условно", about half a frame at 60 fps; he asked for an LGS agent in the flow (Anton agreed) and warned "то, что у нас есть движок, это не значит, что у нас есть игра". He recalled Dakota as the planned first NOVA product — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 13 2026 (6:16 AM) — six Texas games already vertical on his Rage branch 1.27, with AI art nobody approved; "я думал это всё эксперимент"; creative briefs needed; GLI games run on Windows
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian): the six Texas games he converted from horizontal to vertical exist "в каком то виде", on his experiment branch "один 27", but the art is generated and "ни с кем не согласован"; he thought it an experiment, not something for production; games that never had a vertical version need creative briefs for the top half of the screen; he can build a Windows build for anyone, but Irina: "Пока мы ничего никому не отдаём"; he and Pavel plan GitHub and a Rage CI/CD after the meeting — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-13 note) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. Status: "Завелись своей у джилай игры на gindows" (GLI games on Windows); he cannot load the emails GLI sent and asked Ivan to copy them; he helped the designers with branches, worked on Nebraska, put small fixes into his NOVA 2 tools and worked through symbol creation on the old tool [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+## Nov 16 2026 — a game ported from "г кма 2"; a game-select screen for the vertical NAD game; files for Chudinov; a small GLI fix for Dakota still owed
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian): "я на новопортировал твинбайсон из этого из г кма 2" (heard; Twin Bison, source **unclear**); because Pavel had said the vertical NAD game he made will be uploaded somewhere, he made a game-select screen for it in the style of the newer games; a small fix at "жени"'s request; files prepared for Chudinov ("только проверить все ему скинуть"); and "по запросу джилай в дакоте ещё одна небольшая правка нужна", which Ivan asked for [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
+### Open commitments (Nov 16 2026)
+
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — fix the paytable-file contradictions Chudinov found — due unspecified ("он обещал поправить" — Chudinov) — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — the small GLI fix for Dakota — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -482,3 +495,7 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

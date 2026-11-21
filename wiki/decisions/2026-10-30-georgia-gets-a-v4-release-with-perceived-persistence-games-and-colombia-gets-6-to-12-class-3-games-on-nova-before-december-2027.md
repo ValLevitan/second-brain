@@ -3,9 +3,9 @@ type: decision
 title: There will be a Georgia V4 software release, with "perceived persistence" games Val calls large-format; and the Colombia refresh is 6 to 12 Class 3 games on NOVA made from the updated Georgia games (Bison, wolves, lions) for an installed base whose contracts expire December 2027 (Oct 30 2026)
 date: 2026-10-30
 aliases: [Georgia V4 release, another Georgia software, perceived persistence, large format games, Colombia refresh, contracts expire December 2027, minimum 6 maximum 12, six game pack twelve game pack, Bison and wolves in Class 3, Colombia NOVA release, questions for Martha, pub crawl is popular in Colombia, fruit games, Diamond Link did not do well in Colombia, last six months data]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 4
+open-commitments: 5
 open-questions: 2
 ---
 
@@ -35,9 +35,9 @@ Val: "I would suggest having a meeting with Martha, but if you have a set of que
 
 ## Open commitments
 
-- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — talk with Martha about the Colombia market, with a written list of questions and then verification questions — due unspecified — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — talk with Martha about the Colombia market, with a written list of questions and then verification questions — due unspecified — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] — *progress Nov 13 2026: Michael has some of Martha's feedback and is "still waiting for some more"* [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — pull the Colombia top-games data for the last six months only — due unspecified — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
-- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] / [[wiki/people/lena.md|Lena Zhukova]] — draw up the list of 6–12 Class 3 games for the Colombia NOVA release — due unspecified (after Martha's answers) — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] / [[wiki/people/lena.md|Lena Zhukova]] — draw up the list of 6–12 Class 3 games for the Colombia NOVA release — due unspecified (after Martha's answers) — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]] — *progress Nov 13 2026: Michael has "a preliminary list of games"; three perceived-persistence titles named* [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — find out whether the Colombia cabinets have V-decks ("I'll find out"; Val then said they do) — due unspecified — [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 
 ## Open questions
@@ -47,7 +47,19 @@ Val: "I would suggest having a meeting with Martha, but if you have a set of que
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Nov 13 2026 — Georgia V4 has a game list and early designs and is to be scheduled next week; the perceived-persistence games are vertical, with three titles named
+
+At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English):
+- **Georgia V4.** Val: "I understand that we're working on… V4 for Georgia COO [COAM]." Michael: "I've done some preliminary work on it… I have a list of games and some preliminary designs. And I will probably get this scheduled next week. I'm focused on Nebraska right now, Nebraska in Class A" [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
+- **Colombia and the perceived-persistence games.** Michael is "still waiting for some more feedback from Martha" but has "a preliminary list of games"; the perceived-persistence games will be vertical, not dual screen (Val: "I don't care which screen"); the first three are Fly Me to the Moon (Georgia), a Colombian carnival game (Colombia) and Treasure Island (universal) — [[wiki/decisions/2026-11-13-the-new-perceived-persistence-games-are-vertical-not-dual-screen-fly-me-to-the-moon-a-colombian-carnival-game-and-treasure-island.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
+
+### Open commitments (Nov 13 2026)
+
+- [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — schedule Georgia COAM V4 (Class B) — due week of Nov 16 2026 ("probably… next week") — [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
+- [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]

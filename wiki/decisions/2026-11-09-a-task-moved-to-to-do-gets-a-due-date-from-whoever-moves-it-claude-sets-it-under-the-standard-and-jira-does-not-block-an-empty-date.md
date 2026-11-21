@@ -3,9 +3,9 @@ type: decision
 title: A task moved to To Do must carry a due date, set by whoever moves it (not necessarily the doer) — the rule goes into the Jira standard so every developer's Claude sets it; the creator does not put a new task straight into To Do; Jira gets no hard block on an empty date (a next-day notice instead); due dates are needed at least at feature level, and small features need not be split into stories
 date: 2026-11-09
 aliases: [due date rule in the standard, due date when moving to To Do, давайте это просто впишем стандарт, Claude sets the due date, no hard block on empty due date, запрет перевода в статус ту ду, creator does not put a task straight into To Do, создающий не должен эту задачу сразу в туду, whoever moves it to To Do sets the date, due date at feature level, хотя бы на уровне фич, 30 tasks without a due date, Friday report missed 30 tasks]
-source-count: 6
+source-count: 10
 status: active
-open-commitments: 2
+open-commitments: 3
 open-questions: 0
 ---
 
@@ -61,6 +61,22 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 - [ ] Unassigned (Kovalchuk's Gantt finding; no owner named) — set due dates on the tasks that have none, and check the open features whose parents are closed — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 
+## Note, Nov 13 2026 — dates are "намного всё лучше"; the agent's reminder bug is fixed; the agent may now move due dates on a chat command, as a one-week trial; a day-before warning maybe later
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 stand-up]] [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] thanked those who closed tasks and set dates: "Там намного всё лучше стало" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **The reminder bug.** On what "лёша" ([[wiki/people/alexei-khamin.md|Khamin]] by name, **inference**) raised the day before: the agent reminded about all tasks on Monday, then about a new task once and not again "чтобы как будто не спамить вас"; "Теперь он будет напоминать про все задачи. Такие висят с какимито проблемами" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Moving dates by chat.** Kovalchuk asked whether the team wants the agent to move dates on command — "вы ему чат пишете… подвин на такоето число. Он сам двигает" — instead of asking Claude separately. [[wiki/people/pavel.md|Pavel]]: "Наверное, наверное, это полезный функционал. Ну если мы действительно читаем то, что говорит RIPM? Агент" (heard; the PM agent) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. [[wiki/people/dmitri-chudinov.md|Chudinov]] asked for a warning a day ahead ("А может, а может а может написать за день?"); Kovalchuk feared spam. His plan: "я попробую включить его… если это будет сегодня вообще работать всё с майкрософтом. Я включу что мандаты смог менять" (heard; that it can change dates); "Мы неделю обкатаем"; then perhaps reminders about coming dates, or "только для димы" — Chudinov asked for all tasks, including others'; Kovalchuk: "Только по твоим" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+This loosens the Nov-12 finding that the agent "не может, у неё нет разрешения на установку даты": on a person's chat command it may now move a date, on trial (**evolution**, not contradiction).
+
+### Open commitments (Nov 13 2026)
+
+- [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — let the agent change due dates on a chat command and run it as a one-week trial; then maybe day-before reminders, perhaps only for Chudinov's own tasks — due Nov 13 2026 to start ("если… с майкрософтом" works) — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+
+## Note, Nov 16 2026 — the agent can now move tasks
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: "Агенту добавили возможность двигать задачи, то есть можете попробовать пописать, если у когото чтото будет не так… отправляйте" [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]. The notes read it the same way [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
@@ -69,3 +85,7 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

@@ -3,9 +3,9 @@ type: decision
 title: The game sound library is rewritten in Rust on PulseAudio and lives in the engine, not the LGS — the LGS drives it through an API; the Kira library is dropped for now; the existing FMOD sounds are converted by a tool from FSB to FLAC with JSON descriptions, so Vlad's work is kept and he can go on with his own tools (Pavel, Biratka and Daniil Stauskiy, Nov 2 2026)
 date: 2026-11-02
 aliases: [sound library in Rust, Rust sound library, PulseAudio sound library, Kira dropped, FSB to FLAC, FMOD sounds converted, JSON sound description, sound library lives in the engine not LGS, самодостаточный пульс аудио, библиотека на расте, маленький конвертер]
-source-count: 16
+source-count: 18
 status: active
-open-commitments: 3
+open-commitments: 4
 open-questions: 3
 ---
 
@@ -90,6 +90,14 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]]: in the Studio "добавил кнопочку мод… добавил переключение кнопки"; "буду комитить уже и открывать пьер" [pull request] [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. His question: sounds that belonged only to the LGS were stored and called there, but now "у нас чисто движок со звуком работы", so they must move to the framework or the engine — e.g. the speaker check, left and right [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/alexander-biratka.md|Biratka]]: "звуки будут в игре, а системные… во фремворк. Ну, соответственно, игровые в игре"; inside the LGS only a click is needed, which could be the game engine's standard one [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. [[wiki/people/pavel.md|Pavel]]: "Вот эти вот все клики, которые внутри интерфейса с этапа [setup]. Наверное, пусть он в сетапе и живёт этот звук, а если нам надо будет запустить именно тест звука? Ну, наверное, надо тогда действительно отправить какуюто команду. Во фреймворд типа проиграй своими средствами, звук, наверное, так будет правильнее"; a framework call on every click "Выглядит как стрельба из пушки по воробьям"; Biratka: before, the framework asked the LGS on every click; Pavel: "это было в омне, но это не было в рейдже" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. Daniil: "Хорошо" [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. The notes record it as a decision (Pavel; Daniil agreed) [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Note, Nov 13 2026 — the pull request is checked against a non-local LGS and sound plays; everything to do with sound comes out of LGS, as a task separate from the engine's; each repository has its own Jira project
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 stand-up]] (Russian) [[wiki/people/daniil-stauskiy.md|Daniil]]: "открыл пиар по ньюджин 26" (heard; the notes: NewGin-26), checked "с л гээс, который не локальная" — "звук играет все хорошо", and the Studio is fixed too. He asked whether LGS should be touched now: the old library calls can go, "раз мы уже этого не будем делать", and the steps should be sent with the volume value "в процентном" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. [[wiki/people/alexander-biratka.md|Biratka]]: "Лжес можно править? И даже нужно." [[wiki/people/pavel.md|Pavel]]: "В лджисе всё, что связано со звуком да, то есть убираем." Daniil asked if one task covers both; Biratka: "Не разные, ну разные задачи" — one for the engine; [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: every repository now has a matching Jira project — "Если есть репа, значит… есть проект" — with a table in the knowledge base [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+### Open commitments (Nov 13 2026)
+
+- [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — open separate tasks for removing the sound handling from LGS and for the engine changes — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -108,3 +116,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]

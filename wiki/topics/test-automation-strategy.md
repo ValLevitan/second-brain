@@ -3,8 +3,8 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 109
-open-commitments: 84
+source-count: 111
+open-commitments: 86
 open-questions: 16
 ---
 
@@ -1103,6 +1103,18 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — answer Andrei's hard-or-soft mode question on Khamin's requirement mismatch — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — look at FIQ-218 (add it to the emulator) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 
+## Nov 13 2026 (6:16 AM) — Seregin's test 129: the emulator part is done; Claude proposes splitting checks into a real-device part and an emulator/CI part, marked in the acceptance criteria, and Pavel agrees; a real Flex-Port profile is next; two hard-coded STG test accounts have no owner if the database is cleaned
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 Minsk stand-up]] (Russian; Pavel led) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]:
+- **Seregin — the split.** On "129" he made the emulator part ("Сделалмуляторную часть", heard). Some checks need the real device: "клуб предлагает разделить эти проверки. Вынести их в как бы на реальном устройстве. Часть и часть, которая эмуляторы вы только проверяться. Ну которая CI" ("клуб" read as Claude, as in the notes); this must be marked "в акцептонных критериях" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. [[wiki/people/pavel.md|Pavel]]: "Да, наверное, в этом есть смысл", so that a check against the acceptance criteria does not later report a mismatch — "Ну тут надо явно" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. Next task: a separate profile "который мы променяем с реальным флекспортом"; the emulator part serves fast checks on pull requests without holding a real device [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **The STG accounts.** He made "2 аккаунта" on STG for test 129; they are built into the test, so if users delete them or the database is cleaned "Тесты упадут", and there is no restore script — "кто должен как бы отвечать за восстановление" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. Pavel: not to be solved in the meeting; older server-side tests surely use some accounts; "Предлагаю отдельно поговорить там с ирой с Иваном с Алексеем" ([[wiki/people/irina-shishko.md|Irina]], [[wiki/people/ivan.md|Ivan]], [[wiki/people/alexei-khamin.md|Khamin]] — the last by the notes' reading, **inference**) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+- **Irina** reworks the autotest features because the requirements changed, then the tests themselves — "Работа по кругу" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. **Samusenko**'s tests are blocked waiting for features, Wi-Fi or cloud; he helps [[wiki/people/evgeny-kharetski.md|Kharetski]] with contracts for hardware services in the NOVA integration repository "Для работы автотекстов" [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+### Open commitments (Nov 13 2026)
+
+- [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — next task: a separate test profile run with a real Flex-Port, the emulator part kept for CI and pull requests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] with [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/ivan.md|Ivan]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — decide who restores the autotest accounts on STG if the database is cleaned — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1214,3 +1226,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]

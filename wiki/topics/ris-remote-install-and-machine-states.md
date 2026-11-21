@@ -3,7 +3,7 @@ type: topic
 title: RIS (remote install/setup system) and machine states
 date: 2026-02-06
 aliases: [RIS, component allow-listing, portal access, give you access to the portal, reload after component change, born on the manufacturing floor, birth certificate, validator swap fraud, remote initial setup, remote install system, remote setup, RIS modernization, machine states, sold-machine RIS, RIS subscription, manual override screens, participation financed debt-free, the Passport, passport lock, passcode key, jugular of the whole operating system, peripheral lock, it's in the center not on the side, the passport must not be killed, do not confuse RIS and passport, the bindings are good we use them wrongly, unit 17 changed its bill acceptor, operator nominates who may update the passport, a technician to me is a business owner, hard reset, passport is a symptom not a root cause, eight hard-reset cases, factory reset, decommission and recommission, error code 2, boot loop, three kinds of factory reset, restore the last RIS, file store of every RIS, soft reset, use case 11, who scans the passport, one USB for the whole bank, MVP1 release of the RIS rework, RIS rework, soft factory reset, silent reset, reuse lastly applied RIS, one RIS and a list of machines, RIS inside the cabinet, RIS improvement MVP1, RIS improvements component, RIS changes review, offline RIS fallback, saved RIS on the machine, сколько угодно нет ограничений, BB 3521, RIS improvements release notes, the current lease period will remain unaltered, upgrade pending, no bank in street operation]
-source-count: 73
+source-count: 74
 open-questions: 24
 open-commitments: 10
 ---
@@ -635,6 +635,10 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 
 - [ ] [[wiki/people/ivan.md|Ivan]] — build the production build after lunch and give it to Felipe (Irina's wish) — due Nov 12 2026 — [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 
+## Nov 15 2026 — RIS and Passport are not in recycler MVP 1, but must be in place before the first live recycler install; the IQ install next week goes ahead without them
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian) [[wiki/people/val-levitan.md|Val]]: "Я бы не хотел бы отказываться от рис и паспорта… я чувствую, что это понадобится." He defined RIS as "remond innation setup" (heard; Remote Installation Setup) — a USB stick, a QR code or the cell modem — and the Passport as the birth certificate written at manufacture: the parts' serial numbers go into the Dallas chip, and whether a part may be changed later depends on whether the device is sold, rented, run by JVL or sold in instalments [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. [[wiki/people/andrei-klimovich.md|Klimovich]]: none of this logic exists yet for the IQ and the ports. [[wiki/people/pavel.md|Pavel]]: the IQ has no Dallas, so the board ID serves as the passport; the recycler and Flex-Pay boards have a Dallas [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. Agreed: not in MVP 1 ([[wiki/people/alexander-biratka.md|Biratka]]: "давайте не выпи один"), but "должно быть сделано до 1 инсталляции" (Klimovich) — [[wiki/people/irina-shishko.md|Irina]] "Да", Val "я соглашусь с этим". The IQ install planned for next week goes ahead without it: Val is "на 99%" sure the design will show many shortcomings, "Поэтому я не тороплюсь, устанавливая десятки или сотни" [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -711,3 +715,4 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Transcript_Daily_Standup_Flex_IQ_Single_Screen_Install_Failure_and_MVP2_Release_November_20-November-10-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]

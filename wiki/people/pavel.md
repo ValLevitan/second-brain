@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 316
+source-count: 321
 open-commitments: 120
 open-questions: 0
 ---
@@ -1534,6 +1534,18 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian): he once rebuilt Anton's source for the RK3576 and it ran with no maths. A quick local build "мы можем сэкономить там неделю разработки" if RK performance is too low; Val: this does not cancel his rule. NOVA works only when all components build into one ISO and run on a machine or RK3576. The production server is S3; only payment-terminal builds have a download screen. "I so m это отдельный репозиторий интеграционный." He proposed an installer that starts all services and LGS with no game; he supports Kharetski on the Tuesday build; "100% 100% повылазит чтото, чего мы ещё не не учли" — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]] [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 13 2026 (6:16 AM) — six Texas Rage games converted to vertical, art unapproved; GitHub then a Rage CI/CD; sound out of LGS; the test split; the RK35xx sweep; the agent moving dates
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian; he led) he raised Val's question of the day before on turning horizontal machines vertical "в варианте рейдж": for Texas "У нас будет готовый продукт" if a machine is converted fast and given the right software; he recorded that a first version of six converted games exists and further steps need a go-ahead; he planned moving the needed components "на гид" and then "какоето интеграционный репозиторий для сборки именно рейдж игр" — [[wiki/decisions/2026-10-08-texas-rage-games-convert-to-vertical-nova-unchanged-and-igor-ports-dutch-mill-first.md]] (Nov-13 note) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. He ruled that everything to do with sound comes out of LGS — [[wiki/decisions/2026-11-02-the-game-sound-library-is-rewritten-in-rust-on-pulseaudio-inside-the-engine-kira-is-dropped-for-now-and-the-fmod-sounds-are-converted-to-flac-with-json-descriptions.md]] (Nov-13 note); agreed with splitting autotests into real-device and emulator parts and sent the STG-account question to a separate talk — [[wiki/topics/test-automation-strategy.md]] (Nov 13); asked for Claude to sweep the projects onto RK35xx — [[wiki/topics/nova-platform-architecture.md]] (Nov 13, 6:16 AM); and called the agent's date moves useful "если мы действительно читаем" what it says — [[wiki/decisions/2026-11-09-a-task-moved-to-to-do-gets-a-due-date-from-whoever-moves-it-claude-sets-it-under-the-standard-and-jira-does-not-block-an-empty-date.md]] (Nov-13 note) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]. His own day: the printer problem closed; raise the Wi-Fi module's baud rate and check reliability; MVP 2 tasks and MVP 1 for the recycler [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
+## Nov 15 2026 (8:01 AM) — the escrow note returns by itself in 30 seconds; block money when there is no paper; "unclaimed" is too hard a word; $21 credited, $20 redeemable; the IQ has no Dallas; per note or the whole payout?
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian): the escrowed bill "через 30 секунд сама возвращается"; with no paper "не давать возможность даже засовывать деньги"; he asked to drop the word "unclaimed" — Val offered "forfeit" or "Отказ". His promo example: credit 21 for 20, playable 21, "редима был будет только 20". The IQ has no Dallas, so the board ID is its passport; the recycler and Flex-Pay boards have one. He asked whether the 90-second payout wait is per note, and worried that notes dispensed after a long power cut could be taken by someone else [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
+## Nov 16 2026 — stand-ups move to the morning, at least this week; the recycler bundle check to To Do
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian; he led): "надо будет перенести все наши дейли стендап. По крайней мере на этой неделе на утро" — he forgot to start today, "на завтра". He moved Biratka's bundle-or-single check to To Do [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1856,3 +1868,8 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]

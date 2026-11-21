@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 72
+source-count: 74
 open-commitments: 18
 ---
 
@@ -299,6 +299,10 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] (Russian): "я взял один 129 работу"; "доступ к репозиториям понадобится"; earlier questions from Sergey are still unanswered by Pavel; Khamin's FIQ-218 (add to the emulator) is his to look at — [[wiki/topics/test-automation-strategy.md]] (Nov 12; the commitment is tracked there) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 13 2026 (6:16 AM) — test 129: the emulator part done; the real-device / emulator split; the real Flex-Port profile next; two hard-coded STG accounts
+
+At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-and-agent-date-moves.md|Nov-13 6:16 AM stand-up]] (Russian): he finished the emulator part of test 129; per Claude's proposal the checks split into a real-device part and an emulator/CI part, marked in the acceptance criteria, and Pavel agreed; next a separate profile with a real Flex-Port; he made two STG accounts for the test, built in, with nobody to restore them if the database is cleaned — [[wiki/topics/test-automation-strategy.md]] (Nov 13; commitments tracked there) [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -373,3 +377,5 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Notes_Daily_Standup_Flex_Pay_to_MVP3_and_Sound_Names_in_Lua_Scripts-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]

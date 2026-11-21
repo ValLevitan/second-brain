@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 217
+source-count: 220
 open-commitments: 47
 ---
 
@@ -911,6 +911,14 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-tuesday.md|Nov-13 NOVA-2 follow-up]] (Russian): in the brief stage "этот рейс конвектор, он пропадёт вот этот квадратик, а появится новый конвектор с брифдизайном" (heard); Anton agreed. On Dakota as the first NOVA product: "Такая головная боль для сертификации" — start first where fixes are quick. She named Sergey Tsymanov ("Сергей цимонов цыманов") for the production download screen — [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md]] [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]].
 
+## Nov 15 2026 (8:01 AM) — "MVP один это кусочек, который мы сделаем до четверга"; RIS and Passport before the first install; boot to idle would break the restore rule
+
+At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-cashout-fee.md|Nov-15 8:01 AM recycler review]] (Russian): the first release "который уйдёт людям" is not MVP 1, which is only the piece done by Thursday. She agreed ("Да") that RIS and Passport must be in place before the first live recycler install. When Klimovich proposed booting to idle after a power cut during payout: "Если мы после Того, как это реботнулись, возвращаемся не в то состояние… то мы нарушаем тогда требования" — not settled [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]. See [[wiki/decisions/2026-11-15-recycler-mvp-1-player-flow-cancel-refunds-a-jammed-ticket-cancels-texas-shows-one-balance-and-a-location-cash-out-fee.md]].
+
+## Nov 16 2026 — the Georgia fix: SMS, not RIS ("Значит я напутала"); releases sorted; three requirements and an agent task; Samusenko's autotests
+
+At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) she asked for a release so what was found on Saturday with the demo installs can be checked in Georgia; told it is the SMS service, she asked Tsymanov to release it. She has sorted which capabilities and features go in which release; Pavel pointed to "3 регламента" and an agent task on her ("94… 95, 96"). She will put the autotests Tsymanov has already done first for Samusenko [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1131,3 +1139,6 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 - [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
