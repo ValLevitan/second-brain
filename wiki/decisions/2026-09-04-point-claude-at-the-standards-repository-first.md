@@ -3,7 +3,7 @@ type: decision
 title: Standing instruction — use the standards, add to the standards, and point your Claude at the standards repository first (Knowledge Base / Standards in GitHub, access verified for all 39 accounts)
 date: 2026-09-04
 aliases: [point your code at the standards, standards repository instruction, Knowledge Base Standards folder, 39 accesses verified, write narrow granular standards, moving away from Confluence]
-source-count: 21
+source-count: 25
 status: active
 open-commitments: 7
 open-questions: 1
@@ -123,6 +123,11 @@ At the [[wiki/meetings/2026-11-16-genadi-unguided-bom-test-and-standards.md|Nov-
 
 On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov-16 5:56 PM call with Lev Rudky]] (Russian part) [[wiki/people/val-levitan.md|Val]] said he made [[wiki/people/lev-rudky.md|Lev]] the authority on standards, not himself, and agreed to stop putting standards into GitHub himself: "так я я я не буду писать за стандарты пишешь да?" — Lev: "Я пишу да." Val will send Lev bullet points instead. Val's advice for overlaps: once a week (or once a month) point Claude at the standards and ask for a list of similar ones and a grooming; and before a commit, ask Claude whether a conflicting standard exists [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]] [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]. The call is about Business Central standards; whether it covers every standard Val writes is not said (open question on [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]).
 
+## Note, Nov 20 2026 — two more uses: Genadi's purchasing standards and a daily PO agent; finance mistakes become standards
+
+- **~3:09 PM, with Genadi** ([[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|stub]], Russian). Val said the knowledge base has "репозитории, которые называются стандарты" and his AI-COO reads them before acting; he will write a standard from the call himself; [[wiki/people/genadi-peari.md|Genadi]] is to write his purchasing knowledge into GitHub as standards and build an agent that checks all POs against them once a day [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]] [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+- **~3:32 PM, with the finance team** ([[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|stub]], English). "Standards need to be filed in GitHub. We have knowledge base repository called standards. So when we make mistakes and we discover these mistakes, we write a standard"; each person's own agent checks their email against them [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
 - [[raw/Meeting_Transcript_Rage_Nova_Conversion_Readiness-September-4-2026.md]]
@@ -145,3 +150,7 @@ On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov
 - [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

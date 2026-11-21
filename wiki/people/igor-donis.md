@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 17
+source-count: 20
 open-commitments: 2
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
@@ -85,6 +85,14 @@ In the booked meeting ([[wiki/meetings/2026-09-23-cash-position-and-vendor-payme
 
 - [ ] Igor Donis — after Laura and Marta send the EDS-vs-Colombia offset position, ask Colombia to send JVL about $25,000 — due unspecified — [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 
+## Nov 20 2026 (~10:02 AM) — late interest must be in the invoice or the contract; he and Lev owe a test invoice "in one hour"
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English; he spoke partly in Spanish, [[wiki/people/felipe-miranda.md|Felipe]] translating): he cannot change the terms in the system himself — [[wiki/people/lev-rudky.md|Lev]] makes the changes Val agreed; interest for late payment "should be somewhere in the invoice or in the contract with the customer." Nathan said he had agreed the MSBC configurations with "Igor". Val gave Igor and Lev one hour to present a test invoice; Igor: "After this meeting, Blev [Lev] and I meeting" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
+## Nov 20 2026 (~3:32 PM) — the ACH authorization delay call; learn agents over the weekend
+
+At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English) he confirmed he has JVL's Claude and Claude Code subscription ("See, yes, I got it") and is among the finance team asked to learn routines, skills and agents over the weekend and to set up an agent that checks his email against the standards [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Igor_Donis_Vendor_Payment_Escalation-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
@@ -104,3 +112,7 @@ In the booked meeting ([[wiki/meetings/2026-09-23-cash-position-and-vendor-payme
 - [[raw/mx_tax-dispute_status_review-july-5-2025.md]]
 - [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]]
 - [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

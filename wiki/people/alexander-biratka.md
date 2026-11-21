@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 159
+source-count: 160
 open-commitments: 28
 open-questions: 0
 ---
@@ -610,6 +610,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): the recycler accepts and pays out notes and talks to the port; the new user UI works; he closes the last "3 помоему задачи", then reviews the MVP 1 capabilities ("как задача у меня не стоит и я могу просто забыть"); the image is not yet put on S3 — keys must be created, and he has the task — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-19 note). He added "16 годов" (error codes) on the port that Flex IQ needs texts for — [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] (Nov-19 note) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 — reviewing Andrei's recycler requirements REQ-84 to REQ-107; the recycler MVP 1 is not closed — no closing meeting, no recycler to test on
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian, label "Alexander Biratko"): he works through new recycler requirements "от рек 84 до рек 107" — features and stories, changed screens — added by "Андрей" as MVP 1 (Klimovich — **inference**). "мы просто не закрыли VP один" — the Thursday meeting did not happen; Pavel: "пока они не получат рисайклер, можно считать, что мы этот можем… в BP один добавлять туда какие то задачи" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. Recycler thread: [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -773,3 +777,4 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

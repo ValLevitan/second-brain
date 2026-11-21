@@ -3,7 +3,7 @@ type: person
 title: Lena
 date: 2026-07-12
 aliases: [Lena, Lena Zhukova, Laina, Elina, Liana, Leanna, Selena, Elena]
-source-count: 91
+source-count: 93
 open-commitments: 16
 ---
 
@@ -386,6 +386,10 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 
 On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.md|Nov-18 6:23 AM Jira grooming call]] (Russian) Val said that everything of hers in Jira that sits outside her main projects — "не под её проектами, а там внизу" — is "На 99%… не нужно"; she gets a short deadline (heard "15:00", **unclear**) to attach it to something serious, or it goes to the archive. Kovalchuk: her projects "сейчас живут сами собой ещё на старой архитектуре". Val grooms her projects with her every week and removes what is not current; she knows the work will be done differently on the new platform, and her artwork is kept on their own computers — [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]. At the Nov-18 stand-up Biratka named her as the designer who may later choose new images for the system messages ("какойнибудь там дизайнер может Лена") [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]].
 
+## Nov 20 2026 (12:02 PM) — about two weeks to add precogs and anticipations to Nebraska; Class A production from mid-January in NOVA; one month or three months of art; doubts about V4 by June
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English): the Nebraska precog and anticipation work is "about" two weeks, with new graphics for Wildfire Ranch and Lions Riches; Class A production starts "in the middle of January, because we need to finish Nebraska", in NOVA — "that's why I am very cautious with estimations"; storyboards for party time and dialogues are done; for six games, "not more than a month" for artists if Georgia V3 assets are reused, "three months" if redesigned; for Georgia V4 by June 1: "2 very complex new games, so I… might have some doubts" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-20-the-nebraska-games-get-class-3-precognitions-and-anticipations-for-about-two-more-weeks-and-future-georgia-five-reel-dual-box-games-get-the-same-class-3-presentation-while-three-reel-games-keep-nudge.md]] · [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] · [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -481,3 +485,5 @@ On the [[wiki/meetings/2026-11-18-dmitri-jira-grooming-rules-and-short-backlog.m
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 99
+source-count: 102
 open-questions: 9
 ---
 
@@ -571,6 +571,14 @@ On the [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov
 
 On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayment-hold.md|Nov-17 4:35 PM call]] with Mikhail Perelman (Russian) Val read the stock as "163 штуки, 21 с половиной" for an order of 100 × 21.5-inch and 80 × 43-inch, of which only 40 × 43-inch had arrived (by air). Mikhail's guess: "Когда они получили 40 штук, они просто приняли весь пиво" (heard; PO) — "100 плюс 80. Просто по ошибке. Это моё предположение." Val will recount before any prepayment — [[wiki/decisions/2026-11-17-the-21-and-43-inch-prepayment-and-balance-shipment-wait-until-val-recounts-the-stock.md]] [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]].
 
+## Nov 20 2026 (~10:02 AM) — location invoice: due on its date, 35% simple daily interest from day 7, standard layout; a recurring monthly connection fee invoice, net 15, interest from day 31
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM "PROD test 2 with InComm kickoff" call]] (English): the first Payment Hub invoice stuck partly because "MSBC didn't have the proper configurations" (since agreed by Nathan with Igor); MSBC "can apply interest based on the term you set on the invoice" (Nathan). Val: payment "on the date of invoices not negotiable"; interest from day 7, "35% per year, divided the number of days, non-compounded". [[wiki/people/lev-rudky.md|Lev]]: the payment term is "practically immediate" to create; use the standard layout — agreed, "No customization" (Val), test invoice "in one hour". The monthly fee: a recurring invoice on the 1st, the install date recorded in MSBC as the proration marker, minimum 24 hours, net 15, interest from day 31. Bank reconciliation with CIBC is not yet integrated [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. This keeps the July-20 COD rule and adds late interest (**inference**). Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
+## Nov 20 2026 (~3:09 PM) — Nathan's MSBC MCP covers only part; gaps go to him as use cases
+
+On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 call with Genadi]] (Russian) Val said Nathan has an MCP that reads MSBC for Val's AI executive, but it covers perhaps "30% 10% я не знаю". When an agent lacks access it drafts a use case, puts it in GitHub, and Nathan adds it to the MCP. Val also said an MSBC export of a BOM built by hand holds no data sheets — for TVs only the model [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -673,3 +681,6 @@ On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayme
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Mikhail_21_and_43_Inch_Order_Prepayment_Hold-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]

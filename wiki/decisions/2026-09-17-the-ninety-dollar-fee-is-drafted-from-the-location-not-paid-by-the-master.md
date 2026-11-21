@@ -3,7 +3,7 @@ type: decision
 title: For Dynamic Gaming, the $90 a month is drafted from each location by voided cheque, not paid by the master — no equipment contract, the post-show price for everyone, and service off if a location stops paying
 date: 2026-09-17
 aliases: [ninety dollars drafted from the location, voided check draft, the master will not pay the ninety dollars, you turn off the machine, no contract no lock-in, we can't offer discounts post show, Dynamic Gaming fee settlement]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 0
 open-questions: 2
@@ -46,8 +46,13 @@ The derived notes record the same terms in their decisions list ("JVL bills the 
 
 **§15.8:** clear — deal terms and company economics only.
 
+## Note, Nov 20 2026 — the monthly connection fee becomes a recurring invoice with the master as default payer; the master-or-location choice stays in the requirements
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM "PROD test 2 with InComm kickoff" call]] (English), Val set the monthly connection fee up as a recurring invoice on the 1st, "net 15 days and interest starts at day 31", billed to the operator. [[wiki/people/felipe-miranda.md|Felipe]]: "Are we always charging the master Val?… I don't think that's the case." Val: "I'm 99% sure that this is the case. If it's not, we'll meet again and we'll adjust again." Klimovich: the Payment Hub requirements already let JVL choose "either it's master or location"; Val: "if that feature is already in, keep it" — it is "described in the document", not built [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. This is a default, set beside this page's one-customer deal; not a contradiction (**inference**). Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Blue_Sky_Gold_Rush_Refurbished_Machines_Offer_and_Transactional_Demo-October-15-2026.md]]
 - [[raw/Meeting_Notes_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
 - [[raw/Meeting_Transcript_Dynamic_Gaming_Georgia_Master_Licensee_and_Cashless_Pitch-September-17-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]

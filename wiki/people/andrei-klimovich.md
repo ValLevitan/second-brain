@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 156
+source-count: 160
 open-commitments: 114
 open-questions: 0
 ---
@@ -974,6 +974,14 @@ He called the [[wiki/meetings/2026-11-18-ga-ports-aristocrat-via-bill-validator-
 
 He led the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): he had gone through both versions the day before; he proposed that everyone review the items where they are reporter, 2_1 first and 2_2 next week, and meet again the next day at a time he agrees with Val; he asked how the "дата релиза 20 ноября" looks and heard "unrealistic". In the field: "мы всё ждём с инкомом. У нас проблема с регистрацией"; all hardware in hand; he must review with Nathan what is still missing on the payment-hub side — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]. At the same day's [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] Biratka and Chudinov closed items that waited on "Андрей"'s answers, and Biratka built the recycler user UI "который описал Андрей" (Klimovich — **inference**) — [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]] (Nov-19 note) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 (9:02 AM) — MVP 2_1 set for Wednesday November 25; task 399 into 2_1; fix forward, no rollback; he explains the master role for 2_2; the offline question parked
+
+He led the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian). He asked to push a previous build when a release breaks business logic, then accepted Chudinov's fix-forward rule — "изи пути нету тогда… Давайте на этом договоримся"; he moved the 2_1 Jira date from "23 ноября" to "25 ноября" (he cannot set it himself — "мои полномочия всё тут"); "Хорошо, 399 переехал на 21". He walked through the Georgia market (manufacturer, location owner, master/operator; "Джорджия один мастер, одна локация") and the 2_2 master registration by master licence number; "2 и 2 это про мастера и про репортинг"; terminal-move detection and the master managing his own terminals go to MVP 3. On MVP 3 he flagged that "в джорджии очень плохо, с мобильным интернетом", then parked the offline debate [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Commitments: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
+## Nov 20 2026 (~10:02 AM) — he runs "PROD test 2 with InComm kickoff": go-live next Wednesday or Thursday "in a perfect world"; the invoice mock-ups; a message to Monica
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English) he walked his e-mail list point by point, asking for "exact date and responsible person"; "we've already postponed the release a couple of times with our customer." He undertook to update the location invoice mock-up with interest from day 7, to tell [[wiki/people/monica.md|Monica]] ("who is working on the contract") that the terms must be there too, and to make a payer-agnostic mock-up for the new monthly connection fee invoice; he raised the fee as "" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1133,3 +1141,7 @@ He led the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]

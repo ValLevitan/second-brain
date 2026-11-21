@@ -1,15 +1,17 @@
 ---
 type: decision
-title: The November 20 date for MVP 2_1 will not hold, and no new date is set (a weekend, or Monday, was floated); instead of reviewing live, every reporter cleans up their own MVP 2_1 capabilities, features and requirements (version, status, stale items) before a follow-up call the next day, with 2_2 left to the next week; CAP-267 (Flex IQ firmware management) was a placeholder and is closed, its TINTs and developer features moving into CAP-146; CAP-145's 20-plus unpublished requirements (on Anton Seregin) and the Port 13 terminal-update capability's stray tasks are to be sorted; no terminal is in the field yet — InComm registration is awaited (Nov 19 2026)
+title: The November 20 date for MVP 2_1 will not hold, and no new date was set that day (a weekend, or Monday, was floated; on Nov 20 the date was set to Wednesday November 25); instead of reviewing live, every reporter cleans up their own MVP 2_1 capabilities, features and requirements (version, status, stale items) before a follow-up call the next day, with 2_2 left to the next week; CAP-267 (Flex IQ firmware management) was a placeholder and is closed, its TINTs and developer features moving into CAP-146; CAP-145's 20-plus unpublished requirements (on Anton Seregin) and the Port 13 terminal-update capability's stray tasks are to be sorted; no terminal is in the field yet — InComm registration is awaited (Nov 19 2026)
 date: 2026-11-19
 aliases: [MVP2_1 and MVP2_2 scope recap and review, Nov 19 MVP 2 clean-up call, MVP2_1 Reporter Cleanup and Release Date Slip, release date slip Nov 20, дата релиза 20 ноября нереально, reporter clean-up, по принципу репортера, CAP-267 closed, 267 мы закрываем и забываем про него, CAP-267 into CAP-146, Flex IQ firmware management, Flex-Port firmware update, CAP-145 requirements, больше 20 реквием к одной каполите, Anton Seregin requirements, Port 13 capability, порт 13, weekend release, Monday release, InComm registration wait, payment hub settlement review with Nathan]
-source-count: 3
+source-count: 7
 status: active
-open-commitments: 5
-open-questions: 3
+open-commitments: 4
+open-questions: 2
 ---
 
 # The Nov-20 date for MVP 2_1 will not hold; each reporter cleans up their own 2_1 items; CAP-267 is closed into CAP-146 (Nov 19 2026)
+
+**Status note (Nov 20 2026):** the clean-up and the slip stand; the "no new date" part is overtaken — at the Nov-20 follow-up call the 2_1 date was set to **Wednesday November 25** (see the Nov-20 note below and History).
 
 Agreed at the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov 19 2026, 8:04 AM "MVP2_1 and MVP2_2 scope recap and review"]] (Russian, about 21 minutes), led by [[wiki/people/andrei-klimovich.md|Andrei Klimovich]], with [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]] (label "Dzmitry Chudzinau") and, for a few minutes, [[wiki/people/val-levitan.md|Val Levitan]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]. This is the clean-up call Klimovich proposed the day before — [[wiki/decisions/2026-11-18-first-installs-connect-aristocrat-through-the-bill-acceptor-not-aft-sas-data-and-new-reports-wait-for-mvp-3-and-the-cash-in-counter-gap-needs-acceptance-criteria.md]] (Nov-19 note). The release it is about was set on [[wiki/decisions/2026-11-12-mvp-2-splits-into-mvp-2-1-iq-and-port-and-mvp-2-2-web-services-lottery-becomes-goods-and-the-inspector-report-becomes-the-audit-report.md]] and dated on [[wiki/decisions/2026-11-05-mvp-2-is-kept-narrow-wi-fi-with-the-flex-iq-as-access-point-or-client-remote-flex-port-update-robust-installation-and-install-diagnostics-due-november-20-and-the-rest-goes-to-mvp-3-around-january-20.md]] (both have a Nov-19 note).
 
@@ -60,19 +62,26 @@ Chudinov asked if any terminal works yet. Klimovich: "В поле нет, мы �
 
 ## Open commitments
 
-- [ ] Every MVP 2_1 reporter (Klimovich, Pavel, Irina, Chudinov and the team) — review their own 2_1 capabilities, features and requirements: fix version, status, remove stale items — due Nov 20 2026 (before the follow-up call) — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — finish CAP-146 with the TINTs and developer features from CAP-267, tidy CAP-267 and close it — due Nov 19 2026 ("сейчас") — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — finish CAP-146 with the TINTs and developer features from CAP-267, tidy CAP-267 and close it — due Nov 19 2026 ("сейчас") — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] — *Nov 20: at the stand-up Irina proposed splitting CAP-146 ("кап. 146 разделить"), since its test items sit on 22; whether 267 is closed is not said — still open* — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — pull the undone, unrelated tasks out of the Port 13 terminal-update capability — due unspecified — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
-- [ ] Unassigned (with [[wiki/people/anton-seregin.md|Anton Seregin]]) — sort out the CAP-145 requirements: remove, or keep and publish — due unspecified — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [ ] Unassigned (with [[wiki/people/anton-seregin.md|Anton Seregin]]) — sort out the CAP-145 requirements: remove, or keep and publish — due unspecified — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] — *Nov 20: Pavel moved the Anton requirements he reviewed ("все требования, которые м один") to request review on Irina, who deletes inadequate or duplicate ones; that these are CAP-145's is an **inference** — still open* — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — review with Nathan what is still missing on the payment-hub side (settlements) after Nathan's Nov-18 email — due unspecified — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 
 (Klimovich agreeing the follow-up time with Val, and Chudinov finishing the SIM-card data that day, are logistics and status; not tracked.)
 
 ## Open questions
 
-- What is the new MVP 2_1 release date — a weekend (Chudinov) or Monday Nov 23 (Irina)? Not set — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - CAP-145: shrink its 20-plus requirements with Claude (Pavel), or keep them as product-owner material that lives long (Val)? — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - Are the server-side firmware-update tests (CAP-267/146) worth automating at all, and only once a cloud test environment exists? — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+
+## Note, Nov 20 2026 — the follow-up call: 2_1 is set for Wednesday November 25
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM follow-up call]] (Russian) Pavel said the clean-up was gone through "вчера сегодня": he brought his unpublished requirements to request review, some to Irina for the last word; Irina still had 5. The 2_1 scope is frozen and development done; the Jira date, which must include written and passed autotests, stood at "23 ноября" and was moved: Klimovich "давайте 25 ноября когда поставим"; Pavel "Да да ставь на среду". Task 399 moved into 2_1 [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Full record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]]. At that morning's [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] the CAP-145 and CAP-146 items moved (annotated under Open commitments) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
+
+## History
+
+- [x] Every MVP 2_1 reporter (Klimovich, Pavel, Irina, Chudinov and the team) — review their own 2_1 capabilities, features and requirements: fix version, status, remove stale items — due Nov 20 2026 (before the follow-up call) — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] — *discharged Nov 20 2026: the follow-up call was held and Pavel reported the items gone through; Irina's 5 remaining requirements are carried as a new commitment on the Nov-20 decision* — [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- **Answered Nov 20 2026 —** "What is the new MVP 2_1 release date — a weekend (Chudinov) or Monday Nov 23 (Irina)?" — Wednesday November 25 — [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 
 **§15.8:** clear — scope, dates and process only. **§15 #9:** clear — capability numbers only.
 
@@ -81,3 +90,7 @@ Chudinov asked if any terminal works yet. Klimovich: "В поле нет, мы �
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]

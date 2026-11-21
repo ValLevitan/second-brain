@@ -4,7 +4,7 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 79
+source-count: 80
 open-commitments: 16
 ---
 
@@ -403,6 +403,10 @@ He led the [[wiki/meetings/2026-11-06-game-development-class-a-party-time-max-be
 
 At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English): he explained why predetermined maths lets JVL "force specific rewards and outcomes" and how Liberty Spins failed as a random South Dakota game; he argued dual box makes the Class A five-reelers "look exactly like a class 3 game"; with Efim he has Lions Riches party time dialled in (about 1 in 240, 10–60× the bet) and moves to Rodeo Spins; his house numbers: "one and 120 for free spins", 1 in 240 for party time, but they "vary on a game to game basis" — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. He will schedule Georgia V4 next week — [[wiki/decisions/2026-10-30-georgia-gets-a-v4-release-with-perceived-persistence-games-and-colombia-gets-6-to-12-class-3-games-on-nova-before-december-2027.md]] (Nov-13 note); he named three perceived-persistence games (Fly Me to the Moon, a Colombian carnival game, Treasure Island), accepted Val's "I don't care which screen" with "It will absolutely be vertical", and will schedule them in game concept next week — [[wiki/decisions/2026-11-13-the-new-perceived-persistence-games-are-vertical-not-dual-screen-fly-me-to-the-moon-a-colombian-carnival-game-and-treasure-island.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. Val parked the category-label presses with him — [[wiki/topics/slot-game-design-principles.md]] (Nov 13); Nebraska is 11 games — [[wiki/projects/nebraska-skill-market.md]] (Nov 13) [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
 
+## Nov 20 2026 (12:02 PM) — precogs and anticipations for Nebraska; why Georgia has none; Queen of Luxor "a little volatile"; "done with rage"; Fly Me to the Moon on Georgia maths; promo credits "not compelling"
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English) he proposed adding precognitions and anticipations to the Nebraska games ("I am surprised as to how poor they're performing"), explained that the Georgia nudge builds the trigger stack on reel 3, and set the line: five-reel Georgia games on dual box with Class 3 presentation, three-reel keep nudge — to confirm with Felipe. On Class A: Rodeo Spins' re-spin must feel different from party time; Queen of Luxor's events come "one in 59, one in 60 spins"; "We're all done with rage." On Val's promo idea: "I don't think giving somebody a buck for… 20 bucks… I just don't see it as compelling"; "I want a silver bullet that can be a differentiator for us" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-nebraska-games-get-class-3-precognitions-and-anticipations-for-about-two-more-weeks-and-future-georgia-five-reel-dual-box-games-get-the-same-class-3-presentation-while-three-reel-games-keep-nudge.md]] · [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] · [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -484,3 +488,4 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Mary gets answers from Business Central by asking through MCP in Spanish or English, not from special reports; Nathan adds MSBC endpoints for end-to-end inventory control, driven by AI COO use cases that Val writes (use cases → capabilities → endpoints)
 date: 2026-10-19
 aliases: [no special reports for Mery, Mery asks through MCP, multi-contextual protocol, Spanish or English questions, more MSBC endpoints, end-to-end points, AI COO use cases, use cases to capabilities to endpoints, AI COO scans Business Central and emails, purchase invoices not handled correctly, prepayment does not register, vendor shipping notice, 40 days lead time, agent writes its own MD notes, no custom MSBC reports, Lev for invoicing]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 2
 open-questions: 1
@@ -71,6 +71,10 @@ At the [[wiki/meetings/2026-10-20-github-msbc-repo-tags-and-light-and-wonder-bra
 
 At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-and-persona-repo.md|Oct-29 2:02 PM call]] Val said "I want to point the CO persona… to the same repository. I have a I CO… whose responsibility is to look after purchasing and manufacturing", and asked Nathan for the repository link. Genadi needs an MSBC client ID to pull the standard parts into GitHub — Nathan: "it's the same thing we did for the MCP server" [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]] [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]. See [[wiki/decisions/2026-10-29-the-hardware-agents-instructions-move-to-the-persona-repository-and-any-ai-model-can-do-the-work-from-github.md]].
 
+## Note, Nov 20 2026 — the same use-case loop, for Genadi's PO agent
+
+On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 ~3:09 PM call]] (Russian) Val described Nathan's MSBC MCP as covering only part ("30% 10% я не знаю"). When [[wiki/people/genadi-peari.md|Genadi]]'s planned PO-check agent has no access, it drafts a use case for Nathan in the same chat, it goes into GitHub, and Nathan adds it to the MCP — "луб" — the use-case route of this ruling, now from an engineer's agent rather than only the AI-COO [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
@@ -79,3 +83,4 @@ At the [[wiki/meetings/2026-10-29-hardware-parts-first-generated-data-contract-a
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
 - [[raw/Meeting_Notes_Hardware_Parts_Data_Contract_Generation_and_Persona_Repo-October-29-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]

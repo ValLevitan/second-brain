@@ -3,7 +3,7 @@ type: person
 title: Monica
 date: 2026-07-12
 aliases: [Monica, Monika, Monica Levitan-Fenwick, Monica Levitan]
-source-count: 12
+source-count: 13
 ---
 
 # Monica
@@ -62,6 +62,10 @@ On the [[wiki/meetings/2026-07-15-warrant-history-new-raise-priority-litwack.md|
 
 On the [[wiki/meetings/2026-08-11-dwolla-reserve-reduction-negotiation.md|Aug-11 Dwolla call]] (Monica not on it) Dwolla's Nancy Baccam said that once the reserve is agreed, the order form will be updated with the new transaction limit and reserve and sent "I believe to Monica for her to sign", with production access after that. Val made the reserve agreement come first. Detail on [[wiki/organizations/dwolla.md]]. [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 
+## Nov 20 2026 (in absentia; name call an inference) — the late-interest terms go into the customer contract she is working on
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] Klimovich said he would "send a message to Monica, who is working on the contract", that the location invoice's late interest (from day 7, 35% a year, simple daily) "should be stated there too"; Val: "Yes, Sir" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Read as this Monica by her contracts role (**inference**). Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
 ## Sources
 
 - [[raw/cibc_account_the_january_6_2025.md]]
@@ -76,3 +80,4 @@ On the [[wiki/meetings/2026-08-11-dwolla-reserve-reduction-negotiation.md|Aug-11
 - [[raw/Meeting_Transcript_CIBC_ACH_Account_Architecture-July-2-2026.md]]
 - [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
 - [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]

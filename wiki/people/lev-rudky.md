@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 31
+source-count: 32
 open-commitments: 2
 ---
 
@@ -115,6 +115,10 @@ On his [[wiki/meetings/2026-11-16-lev-standards-ownership-and-po-standard.md|Nov
 
 Ruling and commitments (his: write the PO standard): [[wiki/decisions/2026-11-16-lev-rudky-writes-the-standards-val-sends-him-short-bullet-points-instead-and-the-purchase-order-topic-becomes-a-po-standard.md]]. **§15.8:** clear.
 
+## Nov 20 2026 (~10:02 AM) — the payment term is "practically immediate"; use the standard invoice layout; a test invoice in one hour, no customization
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English): "there are no problems to create an appropriate payment term in the system. It's practically immediate"; on layout, "Why can't we use the existing layout like the standard layout?" — Klimovich agreed; only the content must match the approved mock-up. Val: "One hour… No customization." Lev: "If it requires customizations, I won't be able to tell you" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. He and [[wiki/people/igor-donis.md|Igor Donis]] owe the test invoice; Val also named him for confirming the recurring monthly invoice set-up ("subject for less confirmation", reading **inference**) [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -149,3 +153,4 @@ Ruling and commitments (his: write the PO standard): [[wiki/decisions/2026-11-16
 - [[raw/Meeting_Notes_GitHub_MSBC_Repo_Tags_and_Light_and_Wonder_Bracket-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]

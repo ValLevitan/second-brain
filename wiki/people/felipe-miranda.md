@@ -3,7 +3,7 @@ type: person
 title: Felipe Miranda
 date: 2026-07-13
 aliases: [Felipe Miranda, Felipe, Filippo, Filipa, Philippe, Felipe Miranda Giorgi, Филипп, Филипп Н, Filipp N]
-source-count: 120
+source-count: 124
 open-commitments: 24
 open-questions: 0
 ---
@@ -497,6 +497,18 @@ On the [[wiki/meetings/2026-11-04-felipe-sales-coaching-software-upgrade-pricing
 
 On the [[wiki/meetings/2026-11-11-georgia-modem-failure-after-old-software-on-elizabeth-machines.md|Nov-11 8:57 AM call]] Val said Felipe told him "вчера" about trying to install the modem, with maybe two machines failing — the Georgia modem failure on Elizabeth's machines — [[wiki/projects/georgia-market-rollout.md]] (Nov 11, 8:57 AM) [[raw/Meeting_Transcript_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]] [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]. At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 stand-up]] Ivan will build production after lunch and give it to him, at Irina's wish, "Чтобы он посмотрел" — [[wiki/topics/ris-remote-install-and-machine-states.md]] (Nov 12) [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]].
 
+## Nov 20 2026 (~10:02 AM) — he translates for Igor Donis and doubts that the master always pays the monthly fee
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English) he translated [[wiki/people/igor-donis.md|Igor Donis]]'s Spanish (late interest must be in the invoice or contract; Lev changes the terms). On the new monthly connection fee invoice: "Are we always charging the master Val?… I don't think that's the case"; Val: "99% sure… If it's not, we'll meet again" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
+## Nov 20 2026 (12:02 PM, in absentia) — Michael will confirm with him the Georgia five-reel dual box / three-reel nudge approach
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] Michael said he "checked with Felipe recently and he still agrees with… that approach", and will "check back in with Felipe" when the final decision is due [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-nebraska-games-get-class-3-precognitions-and-anticipations-for-about-two-more-weeks-and-future-georgia-five-reel-dual-box-games-get-the-same-class-3-presentation-while-three-reel-games-keep-nudge.md]].
+
+## Nov 20 2026 (~3:32 PM) — the ACH authorization delay call; he translates and may circulate the transcript
+
+At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English) he translated Val into Spanish (partly garbled on tape). Val suggested "Felipe circulates the transcript or I will circulate the transcript"; he is among those to learn routines, skills and agents over the weekend [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
 - [[raw/Meeting_Notes_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
@@ -619,3 +631,7 @@ On the [[wiki/meetings/2026-11-11-georgia-modem-failure-after-old-software-on-el
 - [[raw/Meeting_Notes_Georgia_Modem_Failure_After_Old_Software_on_Elizabeth_Machines-November-11-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

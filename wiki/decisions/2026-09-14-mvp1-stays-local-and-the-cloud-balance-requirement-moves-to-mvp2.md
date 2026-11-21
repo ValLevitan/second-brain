@@ -3,7 +3,7 @@ type: decision
 title: MVP 1 keeps wallet balances on the terminal — requirement 1538 comes off capability 158 and moves to a new MVP 2 cloud capability, and the MVP 1 dashboard shows activated cards only
 date: 2026-09-14
 aliases: [requirement 1538, MVP1 cloud scope is two things, device online status, issued cards dashboard, operations dashboard specification, machine statistics premium tier, capability 158, cloud balance moves to MVP2, local terminal storage, dashboard shows activated cards only, eWallet movement reporting deferred, Claude closing a capability wrong, рекламент 1538, requirement 1436, data retention, factory reset wipes everything, capability 177]
-source-count: 10
+source-count: 12
 status: active
 open-commitments: 3
 open-questions: 2
@@ -91,6 +91,10 @@ At the [[wiki/meetings/2026-09-17-transactional-mvp1-skillpay-multi-product-and-
 
 At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-caps-and-mvp2-scope.md|Oct-14 3:49 PM launch-plan meeting]] (Russian), [[wiki/people/andrei-klimovich.md|Klimovich]] warned that every transaction lives only inside the Flex IQ, so a burnt unit zeroes the location's history. [[wiki/people/val-levitan.md|Val]] proposed, and Klimovich accepted, a backup of each unit to the cloud, "Два дня бэкап на каждый юнит", as the first cloud step — [[wiki/decisions/2026-10-14-the-first-cloud-step-is-a-backup-of-each-flex-iq.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]. Nothing here moves the cloud into MVP 1 in words.
 
+## Update, Nov 20 2026 — MVP 3: move tickets and wallets to the cloud; Val and Chudinov want always-on, Klimovich and Pavel fear blocked locations; parked
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian), starting on MVP 3, [[wiki/people/andrei-klimovich.md|Klimovich]] asked whether wallets and transactions ("волитов транзакции") leave local storage for the cloud. [[wiki/people/dmitri-chudinov.md|Chudinov]]: "Чем раньше перейдем, тем лучше"; he is against creating a ticket offline and uploading it later. Klimovich and [[wiki/people/pavel.md|Pavel]]: Georgia mobile coverage is poor, and a short drop would block money in, out and between machines; Pavel would allow credit moves inside a location offline, while money to a card needs internet. [[wiki/people/val-levitan.md|Val]] backed Chudinov — offline exceptions are "неправильная философия"; design for "всегда есть интернат" and fix weak coverage with better connectivity. Klimovich parked it for a full discussion [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — move requirement 1538 onto the MVP 2 cloud capability, off capability 158 — restated Sept 15 2026 as due **that day**. **Partially discharged Sept 16 2026**: the MVP 2 cloud capability was created on Sept 15; the move of 1538 is still unconfirmed — [[raw/Meeting_Transcript_Transactional_MVP1_Use_Cases_and_eWallet_Ticket_Recovery-September-14-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Balance_Naming_and_UI_Flow_Walkthrough-September-15-2026.md]] [[raw/Meeting_Transcript_Transactional_MVP1_Open_Questions_and_Offline_Operation-September-16-2026.md]]
@@ -115,3 +119,5 @@ At the [[wiki/meetings/2026-10-14-transactional-mvp1-launch-plan-brackets-daily-
 - [[raw/Meeting_Notes_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_FlexPort_and_IQ_UX_Design-September-21-2026.md]]
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]

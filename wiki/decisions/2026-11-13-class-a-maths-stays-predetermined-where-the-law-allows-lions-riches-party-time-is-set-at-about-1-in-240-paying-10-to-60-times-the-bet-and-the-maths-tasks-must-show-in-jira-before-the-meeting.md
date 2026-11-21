@@ -3,9 +3,9 @@ type: decision
 title: JVL's preference is predetermined maths wherever the law allows, and Class A maths is predetermined (party time is a planned outcome) — South Dakota allows only random maths and Liberty Spins, converted to random, came last; Lions Riches is the first Class A game "dialled in" — party time about 1 in 240 spins paying 10 to 60 times the bet ($30 to $180 at the $3 top bet), free spins about 1 in 120, the base game shaped by a win-distribution curve; Rodeo Spins is next, with party time after its re-spin feature; the first three or four games get close work and the rest follow; the Class A maths tasks sat unseen as a Jira capability under IP 1197, so the group undertakes to have the schedule right before each meeting; Class A production is scheduled in December for January on NOVA, and Efim hopes to finish the production maths by New Year, not less than four weeks (Nov 13 2026)
 date: 2026-11-13
 aliases: [predetermined maths, predetermined math, finite math, our preference would always be predetermined math if the law permitted, random math, Liberty Spins dead last, South Dakota only random, Lions Riches dialed in, Lions Riches dialled in, party time 10 to 60 times the bet, 30 to 180 dollars, 1 in 240, 1 in 120 free spins, three legs of the stool, win distribution curve, meaty middle, mountain at 10 times your bet, Efim's simulator, IP 1190, IP 1193, IP 1197, cap 286, capabilities not visible in Jira, schedule correct before the meeting, Class A production not scheduled, January 2027 on NOVA, production maths by New Year, not less than four weeks, dual box better than Nudge]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 4
+open-commitments: 6
 open-questions: 3
 ---
 
@@ -80,7 +80,28 @@ Michael: "the market's continuing to grow". Val: "No… the market is not growin
 
 **§15.8:** clear — game maths and market only. **§15 #9:** none.
 
+## Update, Nov 20 2026 — Rodeo Spins and Queen of Luxor reviewed; first-round maths for all six games by the end of next week; production from mid-January on NOVA, not Rage; one to three months of art
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English):
+
+- **Rodeo Spins.** Michael: "We went through rodeo spins this week. We feel pretty good about that, but we need to play it… the emulator tells one story"; its re-spin mechanic and party time must "feel different to the player", so "maybe specifically for Rodeo Spins, Lena… we might do a little bit more for party time in terms of maybe changing some colors" — Lena: "OK" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Queen of Luxor.** It has "base game and then you've got three unique things that can happen. One is the pick bonus, one is free spins, one is party time"; together "one of the three events is going to happen, one in 59, one in 60 spins… it looks good on paper, but it is a little volatile." Efim: "amongst these games, we will balance it… we will have more soft mass [maths]… this game allows for volatile mass." Michael: "if any of the games is going to be a little more volatile, Queen of Luxor would be the game"; "we are nowhere in the mess of what Primero did. This has a base game… solid free spins… a solid pick bonus"; Egyptian themes "are supposed to be volatile" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Bayou Riches** "is going to be softer for sure… it's a lighter theme" (Michael) [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **No approval wait.** Val: "Obviously, there is no approval with Eclipse; we can place machines and locations right away" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **When production starts.** Val, from memory: "January 15th." Michael: "Lena hasn't even started scheduling for it yet." Lena: "we only will start the production in the middle of January, because we need to finish Nebraska"; "we plan to do it in Nova, that's why… I am very cautious with estimations"; Efim "doesn't want to do a lot of changes in framework in Rich Studio [Rage Studio], because for Class A, we will need to do a lot of on the… backstage." Michael: "we want the foundation of it to be Nova… We're all done with rage"; the Rage runtime is "really kludged… we're expecting that Nova should be any weak [week] now" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Design stage.** Michael: "the design stage hasn't even started yet"; Lena: "the storyboards is done, like for all this party time and dialogues, only problems must now" (read as only the maths left, **inference**). Efim: "the only thing in design is mass, and… I can finish by the end of next week, because now I'm moving much faster"; "The first, the first round will be done by next week, by the end of the next week"; all six will be revisited ("go back and massage something, definitely"). Val: "So we could say that design stage is a week away" — Efim: "Yes" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Lena's art estimate (six games).** Reusing "all Georgia V3 assets without redesigning" and adding only "party time animations and the effects and dialogues… for artists it's not more than a month"; with redesigned assets, "Three, three, three months, I would say." Michael: "that's assuming that we've got Nova up and running and all the tools that you need are there" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+
+**What changed.** The production start is now "the middle of January" rather than just "January 2027"; Lena's December scheduling commitment above stays open (she "hasn't even started scheduling"). The first-round maths for all six games is new and sits before the production maths that Efim hopes to finish by New Year (that commitment stays open). **Evolution.**
+
+### Open commitments (Nov 20 2026)
+
+- [ ] [[wiki/people/efim-podvoiski.md|Efim Podvoiski]] — first round of maths for all six Class A games — due end of the week of Nov 23 2026 ("by the end of the next week"; the notes: Nov 27) — [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [ ] [[wiki/people/lena.md|Lena Zhukova]] — make party time look different in Rodeo Spins (e.g. colours) so it is not confused with its re-spin — due unspecified ("maybe") — [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 332
+source-count: 337
 open-commitments: 121
 open-questions: 0
 ---
@@ -1574,6 +1574,18 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): the Nov-20 date for 2_1 is "Нереальность"; he is the reporter of the Port 13 terminal-update capability and must pull the unrelated tasks out; he proposed shrinking CAP-145's 20-plus requirements with Claude; the server-side update tests need a cloud environment "в лучшем случае только 22" and "Может быть, их вообще не стоит делать" — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
 
+## Nov 20 2026 — Flex-Port fallback: two boot areas, the board button untested, "вопросы Евгения"; hardware tests are never automated; Anton's requirements to request review; he cleans the build machine
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian) he led. On a failed Flex-Port update: "есть у него на самом деле 2 пары как бы загрузочных мест", the slot switches only after the write is checked, and a board button may switch it back — "наверно никто не проверял… это вопросы Евгения"; acceptance criteria "писались независимо… от имплементации" and must be re-checked. On autotests: "железные железные тесты однозначно нет" — mark the criterion "онли мэниал"; the Flex-Port can emulate a scan. He moved the Anton requirements he reviewed to request review on Irina, and to Kharetski's full build machine: "Ну хорошо я почищу" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]].
+
+## Nov 20 2026 (9:02 AM) — no central rollback; task 399 must be in 2_1 or Wi-Fi will not work in Georgia; "ставь на среду"
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian): "хотелось бы, чтобы у нас отката централизованного отката на предыдущие версии не было"; Alekseev's firmware that flashes the Wi-Fi module "самая наверное серьёзная задача, которая осталась", expected over the weekend — Genadi ruled out the cable a week ago; for the 2_1 date "Да да ставь на среду"; a new master must not see a location's old statistics; credit moved between machines inside a location need not require internet, money to a card does [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
+## Nov 20 2026 (~10:02 AM) — QA "tested only until the moment when the real money is actually started to move"; Saturday 9 AM with Nathan
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English): real cards and invoices going "up to Business Central" are "impossible to test on QA"; he sees no dependency "except for Business Central, dual [Dwolla] and location building [billing]"; he set a Saturday Nov 21, 9 AM meeting with [[wiki/people/nathan-carver.md|Nathan Carver]] ("we were working on our weekends") and "will ask Dima and Serge to go through this document" first [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1912,3 +1924,8 @@ At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-dat
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]

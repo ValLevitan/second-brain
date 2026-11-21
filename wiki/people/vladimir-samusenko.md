@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 76
+source-count: 78
 open-commitments: 18
 open-questions: 1
 ---
@@ -320,6 +320,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): he works on autotests for "кап 289 и как 287" — Wi-Fi, key issuing, Wi-Fi setup by QR (the notes' reading) — and takes no new ones while blocked items keep coming back. Most are blocked because there is no test environment for the cloud services; "Я 3 раз прошёл собрать митинг"; Bosik set it for 13:00 that day — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update). On the release: "Вряд ли до выходных". On Claude texts he sends a short version in Teams and full context in Jira comments — [[wiki/topics/ai-assisted-development.md]] (Nov 19) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 — cloud items moved to 2_2 with new TINTs; 117 merging; 10 of his Wi-Fi scenarios need real hardware, so they are marked manual
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian): after yesterday's meeting he moved the tasks needing the cloud to 2_2, split partly done items and created new TINTs for cloud tests; "117 мержется" (Anton to review the pull request). Item 196 is stuck on Wi-Fi tests: machine 84's Wi-Fi module does not work, and 82 is a demo machine; "у меня есть 10 сценариев там 23, 10 из которых я не могу выполнить" (a QR scanner; something plugged in by USB — the notes: a USB modem). Ruling: mark them manual-only and list them in a separate feature, kept in the repository [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -398,3 +402,5 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

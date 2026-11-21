@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 160
+source-count: 163
 open-commitments: 60
 ---
 
@@ -748,6 +748,18 @@ At the [[wiki/meetings/2026-11-16-nathan-unguided-bom-spike-from-data-contracts.
 
 At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18 4:36 PM BOM call]] with Val and Nathan (English) he said "more than half of the answers, they are in the product requirements", asked how the agent knew the power needed, and called the result "incredible" — two days after calling himself skeptical. Val ruled that the assembler does not come to him ("Genadi is the last person that I want to take the attention from"); he is asked only when a supplier is unknown, once. He raised that generic parts and branded part numbers can come from any supplier; Val: JVL goes back to the exact supplier already in the BOM for missing data. He agreed to put supplier information, not data, in the parts files ("Yeah, I'll do"), and asked Val for a few minutes after the call [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]] [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]. See [[wiki/decisions/2026-11-18-the-next-bom-spike-is-a-self-learning-supplier-loop-the-agent-finds-the-supplier-asks-for-the-missing-data-updates-the-data-contracts-and-reassembles-with-no-human-answers.md]].
 
+## Nov 20 2026 (9:02 AM, in absentia, name call inference) — "no cable" for flashing the Wi-Fi module, so task 399 moves into 2_1
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian) Pavel: a week ago "решали с геной гена сказала не не, не никакого провода. Мы потом с этим будем иметь проблемы" — the Flex-Port Wi-Fi module is flashed by firmware, not by cable; so Alekseev's task 399 moved into MVP 2_1 [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
+## Nov 20 2026 (~3:09 PM) — drawings are almost all in GitHub, data sheets for one cabinet; only the BOM with Nathan, not procurement; his know-how into standards and a daily PO agent
+
+At the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 ~3:09 PM call]] with Val (Russian) [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]] [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]:
+- **Status.** "наши чертежи уже почти все там"; for "весь этот кабинет" all data sheets are loaded — TVs, power supplies and main parts — and for other parts "я просто не входил ещё" [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]].
+- **Focus.** He had spent the day on procurement, thinking Val asked for it; Val: "Я был специфик, чтоб вы не работали с протюрматом, чтоб вы работали только под нейтоном" [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]].
+- **His example.** For 50 sets of monitor covers needed "IQ собирать", the supplier asked $1,500 to ship about three boxes by air and added parts that need not fly; procurement only asked why so expensive, instead of getting its own quote from the packing list [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]].
+- **Val's answer.** Val will write a standard from the call; Genadi is to write his knowledge as standards in GitHub and build his own agent that checks all POs once a day against them ("Good point… это надо сделать"). Val: "я боюсь, что вы у меня всего один" — he does not want Genadi doing this by hand [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -910,3 +922,6 @@ At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18
 - [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]

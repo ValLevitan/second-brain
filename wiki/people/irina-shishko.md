@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 230
+source-count: 234
 open-commitments: 50
 ---
 
@@ -949,6 +949,14 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): CAP-267 was a placeholder; she moves its TINTs and the developer features into CAP-146 and closes 267; Nov 20 is "нереально"; she would release "до понедельника", to finish and check the autotests; she reviews her own reporter items offline — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
 
+## Nov 20 2026 — "Хорошо убираем" (no update error on the port screen); manual-only scenarios in a separate feature; obsolete capabilities deleted; CAP-146 to be split; "don't rely only on Claude"
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian): she agreed the failed Flex-Port update is not shown on the port — "в каком месте это можно показать"; non-automatable acceptance criteria go "для ручного" into a separate feature, manual tests live in Jira as their own type; obsolete capabilities are deleted, not archived; CAP-146 should be split since its test items are on 22; she sorts out a Wi-Fi IQ for Samusenko (spare board into machine 84) and reviews Anton's requirements Pavel moved to her. To all: "не надейтесь только на Клода и глазами тоже читайте фичи требования акцептонск критерии" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]].
+
+## Nov 20 2026 (9:02 AM) — 2_1 is "замороженный", development done; 5 requirements still on her; "ещё пару дней" — November 25
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian): "то, что у нас в 02:01, оно уже закончено разработчиками сейчас. Осталось это дописать автотест и проверить"; "на мне ещё 5 висит"; she would give the date "ещё пару дней" since autotests are written over the weekend and bugs come back — the date became Wednesday November 25 [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Commitments: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1182,3 +1190,7 @@ At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-dat
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]

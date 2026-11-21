@@ -5,7 +5,7 @@ date: 2025-03-14
 aliases: [Nebraska, Nebraska skill market, TNT, TNT Enterprises, NTN, T&T, Wagner, Whitey Tolliver, Mike Kotab, Michael Kotab, Miko, Nebraska nudge, Nebraska Department of Revenue, Georgia 1, Georgia 2, no-hands version, Golden Husk, corn bonus, power slider, power meter, Lucky Rainbow, Bullseye, Bonilla Games, Banila, Vanilla, Thistle, Swift bonus, Simon game, secondary skill, Brittany Waters, Malibu, Eclipse, Intralot, Texas skill]
 open-commitments: 13
 open-questions: 12
-source-count: 91
+source-count: 93
 ---
 
 # Nebraska skill-gaming market entry
@@ -588,6 +588,10 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — Nebraska version 2: all games integrated in the build (not all tested) — due end of December 2026 — [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [ ] [[wiki/people/lena.md|Lena Zhukova]] — first insertion of the diamond bonus on dual screen in the build — due week of Nov 16 2026 ("maybe next week") — [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 
+## Nov 20 2026 (12:02 PM) — precognitions and anticipations added to the Nebraska games, about two more weeks; "Nebraska is not performing"; the Match 3 progressive replaces the Golden Husk pick
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English): [[wiki/people/michael-gottlieb.md|Michael]] played the Nebraska build and wants "the additional production value that we have had in our class 3 product" — precognitions and anticipations; the first release was "an extremely accelerated schedule"; most assets exist, new ones are needed for Wildfire Ranch and Lions Riches; [[wiki/people/lena.md|Lena]]: "about" two weeks; Michael: "It is going to extend the schedule a couple of weeks." Val: "Nebraska is not performing, so our games are not interesting"; Michael: Fiery Ice is "flat in terms of presentation value"; "I am surprised as to how poor they're performing"; "the match 3 progressive… a newer superior progressive to that Golden Husk progressive pick." In Nebraska even three-reel games use dual box (Michael: "100%, yes") [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-20-the-nebraska-games-get-class-3-precognitions-and-anticipations-for-about-two-more-weeks-and-future-georgia-five-reel-dual-box-games-get-the-same-class-3-presentation-while-three-reel-games-keep-nudge.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Felipe_IGT_Trade_In_Approach_and_ARC_Delivery-November-4-2026.md]]
@@ -682,3 +686,5 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [[raw/Meeting_Transcript_NOVA2_Studio_Engine_Demo_and_Agile_Merge_Plan-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

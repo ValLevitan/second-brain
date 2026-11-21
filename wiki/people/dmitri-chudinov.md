@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 143
+source-count: 147
 open-commitments: 57
 open-questions: 2
 ---
@@ -827,6 +827,18 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian): Flex-Port Wi-Fi updates ready, SIM-card data finishing that day, autotests and small items left — "может, даже получится, что получится релиз на выходные"; auto-rollback happens by itself; the one feature in CAP-267 was made by an agent for the build installers and can be closed — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
 
+## Nov 20 2026 — two screen stories closed; the SIM-card task works on terminal 80; he reviews 2_1 and 2_2
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian, label "Dzmitry Chudzinau"): closed two screen stories; the SIM-card task checked on terminal 80 works, he is finishing the unregistered-terminal case; reviewing MVP 2_1 and 2_2 — Pavel: first sort the MVP 2 capabilities for items that are really his. On release notes: "давайте заведём… потом её отдельно обсудим… Мы сейчас не будем её делать всё равно" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
+
+## Nov 20 2026 (9:02 AM) — fix forward, never back; offline tickets are wrong architecture; terminals to the master first
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian): a failed update falls back to the previous partition by itself, but "мы никогда не будем… ставить на терминал чтото из прошлого… иначе мы можем получить коллизию в базе данных" — a same-day patch instead; he had missed task 399 in his review; a moved terminal cannot be detected reliably ("это пока в любом случае ручное управление"); idea for later: bind terminals to the master, who assigns them to locations; on MVP 3 cloud wallets "Чем раньше перейдем, тем лучше" — against offline tickets, like an ATM with no bank link; Val backed him [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
+## Nov 20 2026 (~10:02 AM, in absentia; name call an inference) — to read Nathan's billing runbook before a Saturday call
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] Pavel said he "will ask Dima and Serge to go through this document to be prepared for tomorrow's call" (Saturday Nov 21, 9 AM, with [[wiki/people/nathan-carver.md|Nathan Carver]]); heard also as "Tsimanov Chudzinau and Tsimanov". "Dima" is read as Chudinov by the back-end context (**inference**) [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -973,3 +985,7 @@ At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-dat
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]

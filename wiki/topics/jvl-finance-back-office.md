@@ -3,7 +3,7 @@ type: topic
 title: JVL finance back-office
 date: 2026-07-14
 aliases: [finance team, finance back-office, controllership, Alka finance team, finance restructuring, weekly cash flow, EDS quarterly payment, Elevate invoice reconciliation, receivables cleanup, aged receivables, collections, contaminated aging]
-source-count: 70
+source-count: 72
 open-commitments: 4
 open-questions: 5
 ---
@@ -494,6 +494,13 @@ Three separate recordings on the same afternoon show the payment chain end to en
 - **The banks.** This call shows Bank of America as the account payroll runs from, and RBC CAD being moved to it — in line with the Aug-27 plan for RBC to "hit a sunset" (see the Sept 8 note above and [[wiki/organizations/rbc.md]]). [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 - **§15.8:** payroll appears only as a payment category; no amount or named-person pay. Val's remark on how Igor ran the call is a personal judgement and is withheld. Company cash and supplier economics are in scope. §15 #9: banks named, no account numbers.
 
+## Nov 20 2026 (~3:32 PM) — a late reply to an ACH authorization request; mistakes become standards; each person's own email agent
+
+At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] "Account Balance - ACH Authorization Attempt" (English, with Spanish translation; [[wiki/people/val-levitan.md|Val]], [[wiki/people/felipe-miranda.md|Felipe]], [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/erika-gonzalez.md|Erika Gonzalez]], [[wiki/people/laura.md|Laura]]) [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]:
+- **The miss.** Erika: "We did not review the ACH authorization request promptly, which resulted in a delayed response… Our normal practice is response to customer requests immediately." The customer is not named [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]].
+- **The fix.** By hand, "as soon as possible"; owner not named [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]].
+- **The rule.** A mistake found becomes a standard in the GitHub standards repository; each team member sets up their own routines or agents that go through their email against the standards, so a missed email is flagged; learn it over the weekend [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
@@ -569,3 +576,5 @@ Three separate recordings on the same afternoon show the payment chain end to en
 - [[raw/Meeting_Transcript_Ilya_Wells_Fargo_Operating_Business_Readout-April-23-2026.md]]
 - [[raw/Meeting_Transcript_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
 - [[raw/Meeting_Notes_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

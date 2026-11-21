@@ -3,7 +3,7 @@ type: person
 title: Laura
 date: 2025-04-15
 aliases: [Laura, Laura Escorcia]
-source-count: 10
+source-count: 12
 ---
 
 # Laura
@@ -28,6 +28,10 @@ At the Aug-3 [[wiki/meetings/2026-08-03-gl-accounts-systems-labs.md|GL working s
 
 On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-23 cash-position call]], Igor Donis said Laura and Martha had told him no cash would come from Colombia toward the EDS payment, and that he is waiting for them to send "the position between a compensation EDS versus Columbia" before he asks Colombia to send money to JVL. Detail on [[wiki/organizations/eds-colombia.md]] (Sept 23). [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
 
+## Nov 20 2026 (~3:32 PM) — the ACH authorization delay call
+
+She attended the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English) where a late reply to a customer's ACH authorization request was owned by the team; she is among those asked to learn routines, skills and agents over the weekend and to set up an email-checking agent against the standards [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
@@ -40,3 +44,5 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 - [[raw/Meeting_Transcript_GL_Accounts_Systems_Labs-August-3-2026.md]]
 - [[raw/Meeting_Transcript_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 - [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

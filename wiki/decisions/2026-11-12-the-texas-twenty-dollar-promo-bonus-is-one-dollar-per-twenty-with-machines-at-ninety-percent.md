@@ -3,10 +3,10 @@ type: decision
 title: The Texas recycler install must carry an AFT promo bonus for $20 put in — only for $20, nothing for $5 or $10; first set at $2 per $20 with machines at 92%, it was changed in the room to $1 per $20 with machines at 90% after Pavel and Biratka showed the first version pays about 102%; the recycler screen must show the offer, and Klimovich writes its text and visual (Val, Nov 12 2026)
 date: 2026-11-12
 aliases: [$20 promo bonus, 20 dollar promo bonus, $1 per $20, $1 за 20, $2 promo credit, $2 промошн crew, AFT promo feature, AFT ficher, Texas RTP 90 percent, машины на 90%, 92 процента ол ин, 102 percent expectation, 102 процента, only $20 and only $2, Только $20 и только $2, bonus offer on the recycler screen, promo bonus text and visual]
-source-count: 3
+source-count: 5
 status: active
-open-commitments: 2
-open-questions: 0
+open-commitments: 3
+open-questions: 1
 ---
 
 # The Texas $20 promo bonus: $1 per $20 put in, machines at 90% (Nov 12 2026)
@@ -14,6 +14,8 @@ open-questions: 0
 Ruled by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-dollar-promo-bonus.md|Nov 12 2026, 6:53 AM recycler meeting]] (Russian), with [[wiki/people/pavel.md|Pavel Frolov]], [[wiki/people/alexander-biratka.md|Alexander Biratka]] and [[wiki/people/irina-shishko.md|Irina Shishko]] [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]. It belongs to the Texas install described on [[wiki/projects/texas-used-machine-distribution.md]] (Nov 12) and the recycler MVP on [[wiki/decisions/2026-11-12-the-recycler-gets-its-own-mvp-1-on-the-production-server-by-thursday-november-19-and-its-mvp-2-a-week-later-scope-is-cut-never-the-date.md]]. These are player-promotion and machine-return figures (market economics), not anyone's pay.
 
 *(Quotes come from an unpunctuated Russian speech-to-text transcript, kept word for word.)*
+
+*Status note: on Nov 20 2026 Val reopened promo credits and loyalty with the game designers and left it to think over; this ruling is not withdrawn but is under review — see the Nov-20 note below.* [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
 
 ## Val's first version — $2 per $20
 
@@ -53,8 +55,31 @@ At the [[wiki/meetings/2026-11-15-recycler-mvp1-user-flow-escrow-jam-refund-and-
 
 **§15.8:** clear — the $1 / $2 are player promotions and 90% / 92% are machine returns; no named-person pay.
 
+## Note, Nov 20 2026 — Val reopens promo credits and loyalty with the game designers; Efim and Michael doubt that $1 per $20 changes behaviour; no decision, Val will think more
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English) Val described the Texas footprint — "two machines with… Flex Pay Slim… Recycler… In between" and "the Flexport AFT… peripheral in every machine"; the player inserts $20, gets a ticket from a "Tito type printer" used "as a temporary e-wallet", scans it at the machine (an operator-settable PIN optional) — and said: "What I would like to do is… to engage loyalty and… Promo credits", with "the same capability to migrate to the Georgia market as well. Georgia and Nebraska, yes" (Georgia with a card dispenser, no recycler) [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+
+- **Promo vs loyalty (Val).** "promotional is a front payment and loyalty is a result"; promo credit "you cannot cash out" and is played first (Michael: "it should take the promo credits first"; Val: "He starts with promo"), wins going to the money meter; "Loyalty are issued for cash out at any time… Loyalty is a kickback" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **The ask and the push-back.** Val: "If I could tell a player, hey, put a 20 and I will give you an extra buck for it… then it changes the whole attitude of the player." Efim: "We cannot give a buck for 20." Val: "it depends on the on the base RTP… I could set RTP for, uh, let's say eighty-nine percent" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Val: in the 1980s "on the gray machines… for every 20, we were giving extra money… it was working very successfully in street locations" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **The maths.** Michael: "Efim, what if you change the payback to 86% and then use the delta?"; later: "You could probably set the machines to 75% payout and give them 5 bucks for every… 20… But then math kicks in." Efim: "If you give $5 on 20, you cannot give more than seventy-five percent in mass [maths]"; with 75% "you spend less time on the machine with the same twenty-five bucks, then you would 20 bucks with 90%" — asked if that is factual: "That's what… on my head… I might make a mistake" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Habit risk.** Michael: promotions are "a double-edged sword… they'll wait until the promo happens" (Barona's "playing in the rain"). Val: "I'm not sure that $1.00 is the game changer" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Loyalty by bet instead (Efim, Michael).** Efim: "use not money, but actually actual bet for loyalty… You need to only bid [bet] for $80 to get 80 cents"; Michael: "that's how casinos calculate loyalty"; clear thresholds ("for every 500 bucks you gamble"); and the reusable ticket as a longer-term wallet — "come next week, put it in… your loyalty can be accumulated… like $10 when you spend 1000" (Efim). Michael: "I don't think giving somebody a buck for… 20 bucks… I just don't see it as compelling" — "the average bet is over a dollar" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **Where it ended.** Val: "Maybe I'm wrong"; Michael: "I want you to be right. I want a silver bullet"; Val: "I want to think a little more about it" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. The notes: "Considered, not decided" [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+
+**Status.** The Nov-12 ruling ($1 per $20, machines at 90%) has not been withdrawn, but Val has reopened the idea; read it as under review (**inference**).
+
+### Open commitments (Nov 20 2026)
+
+- [ ] [[wiki/people/val-levitan.md|Val Levitan]] — think further about promo credits and loyalty (amount, basis, RTP) — due unspecified — [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+
+### Open questions (Nov 20 2026)
+
+- Promo credits and loyalty: how much, on what basis (cash in or amount bet), and at what base RTP — and does the Nov-12 $1 per $20 at 90% still stand? — [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Recycler_MVP1_User_Flow_Escrow_Jam_Refund_and_Cashout_Fee-November-15-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

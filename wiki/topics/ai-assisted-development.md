@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 192
+source-count: 194
 ---
 
 # AI-assisted development adoption
@@ -1094,6 +1094,12 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - **A short document, shared as an artifact.** [[wiki/people/igor-metelski.md|Metelski]] will send Pavel, "женя" and maybe "Андрею" a link to a short document — what was done and "несколько вопросов, которые мой клод задаёт"; Pavel: "просто проси его сделать в виде артефакта" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 - **Builds.** Pavel recalled Claude telling him a self-hosted runner could speed up builds — on [[wiki/people/evgeny-kharetski.md]] (Nov 19) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 (~3:09 PM and ~3:32 PM) — standards plus a personal checking agent, for hardware purchasing and for finance
+
+Two calls the same afternoon carry one idea from [[wiki/people/val-levitan.md|Val]]: write what goes wrong as a standard, then let a person's own agent check the work against the standards.
+- **Genadi's PO agent** ([[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|~3:09 PM]], Russian). [[wiki/people/genadi-peari.md|Genadi]] is to build an agent he opens "раз в день" to look at all POs against the standards and list what does not match; give it a persona that reads the standards each time; when it lacks MSBC access, it drafts a use case for [[wiki/people/nathan-carver.md|Nathan]]'s MCP — "у вас получается луб". Val's AI-COO already reads the standards before acting [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+- **Finance email agents** ([[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|~3:32 PM]], English). Each finance-team member is to run "your own routines, skills, agents that go through your e-mail on a regular basis" against the standards. Val runs "close to 20 routines and agents", "as frequently as every 15 minutes, or as… Rarely, as let's say, once a quarter"; "the less you direct an agent, the better the agent works"; if Claude's explanation is unclear, say "chew it up for me" [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -1288,3 +1294,5 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Notes_Nathan_Unguided_BOM_Spike_from_Data_Contracts-November-16-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

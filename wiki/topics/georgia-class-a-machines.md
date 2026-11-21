@@ -3,7 +3,7 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 46
+source-count: 48
 open-commitments: 0
 open-questions: 13
 ---
@@ -557,6 +557,10 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - **Schedule.** The maths tasks sat under IP 1197 as capability 286, which Lena and Michael cannot see; the group undertakes to have the schedule right before each meeting; production starts "in January 2027… in NOAA [NOVA]" after Nebraska, scheduled in December once the AI assembly flow is clear; Efim hopes to finish the production maths by New Year — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
 - **Market (Val).** "the market is not growing because Primero is failing and the operators also have hesitation because Class A is not. Regulated"; operators do not want legislators to think they use "a loophole in the law"; "I do have operators to try it… it's a shot in the dark. But I believe that we should take this shot because… We, we need another product"; three new players are coming "Into Class B" — "AGS is coming in, and there are two other new manufacturers" [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]].
 
+## Nov 20 2026 (12:02 PM) — Rodeo Spins and Queen of Luxor reviewed; first-round maths for all six by the end of next week; production from mid-January on NOVA; one to three months of art; no Eclipse approval needed
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English): Queen of Luxor has base game, pick bonus, free spins and party time, with "one of the three events… one in 59, one in 60 spins" — volatile but acceptable for an Egyptian theme; Bayou Riches "softer"; Rodeo Spins' party time may get different colours so it does not feel like its re-spin. Val: "there is no approval with Eclipse; we can place machines and locations right away." Lena: production starts "in the middle of January" after Nebraska, "in Nova"; "We're all done with rage" (Michael). Efim: first round of maths "by the end of the next week." Lena's art estimate for six games: "not more than a month" reusing Georgia V3 assets, "three months" with redesign, assuming NOVA and its tools are ready [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] (Nov-20 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
@@ -606,3 +610,5 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [[raw/Meeting_Notes_Class_A_Party_Time_Max_Bet_and_QR_Wallet-November-6-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

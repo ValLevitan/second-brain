@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 97
+source-count: 98
 open-questions: 2
 open-commitments: 30
 ---
@@ -415,6 +415,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian, label "Alexey Khamin"): he keeps running tests on hardware, then adapts the added tests to pass offline, and reviews PRs "под стандарты тинт репозипозитория"; after "Вчера вот митинг провели свалом" he builds a semi-autonomous structure that reads the legislation repository and writes product-neutral requirements, NOVA first — [[wiki/topics/ai-assisted-development.md]] (Nov 19). Irina asked him to review the TINTs on one capability ("50 какие то"); "я не знаю когда мне добраться" — anyone freer may take them. Samusenko asked Bosik to add him, as owner of the TINT repository, to the cloud test-environment meeting — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update) [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 — hardware tests near the end; Val's laws-to-requirements task gets its own repository and Jira project; "the port silently falls back"; manual tests stay in the repository
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian, label "Alexey Khamin"): hardware tests nearly done ("в конце тунале уже виден"); emulator tests fixed; PR reviews; his main work is now Val's task to automate turning legislation into requirements ("законодательство вынесения реклариментов") — a separate rules repository and a Jira project exist, and he will open a task. On the Flex-Port: it "просто молча откатывается" and the old version comes up. On autotests: "тесты, которые только руками, они всё равно должны быть в репозитории", found by one filter [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -514,3 +518,4 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Transcript_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

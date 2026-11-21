@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 73
+source-count: 76
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -291,6 +291,14 @@ At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18
 
 At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] Klimovich: "надо ещё с нейтаном доразбираться, что у нас ещё не сделано по пэймонт хабу… Он там вчера написал письмо"; possibly "не всё для пеймэнт процессинга готово" — settlements. "нейтан" read as Nathan Carver by the payment-hub context (**inference**) — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
 
+## Nov 20 2026 (~10:02 AM) — his two location-billing runbooks; "reprioritized to other JVL work"; CIBC reconciliation deprioritized; a Saturday review with Pavel's team
+
+At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English) he said he has "two runbooks, one for deployment and verification of configuration, and then the second is to recover the invoice from our first test run"; he sent them "last month" and "Since that time, I've been reprioritized to other JVL work"; the recovery runbook doubles as "an initial integration test" with Dwolla and MSBC. The CIBC reconciliation "still needs to be integrated… it's been deprioritized on my list of work. But we can change that." He meets [[wiki/people/pavel.md|Pavel]]'s team on Saturday Nov 21 at 9 AM, then gives dates [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
+
+## Nov 20 2026 (~3:09 PM, in absentia) — "нэйтан не фейкает эту сборку"; his MSBC MCP covers only part
+
+On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 call with Genadi]] (Russian) Val said he wants to be sure "что нэйтан не фейкает эту сборку" — without data sheets he does not see how an agent assembles a BOM. Val also said Nathan's MCP for MSBC covers only part ("30% 10% я не знаю"); Genadi's agent is to draft a use case for Nathan when it lacks access, and Nathan adds it to the MCP [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -366,3 +374,6 @@ At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-dat
 - [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]

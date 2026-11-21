@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 188
+source-count: 191
 open-commitments: 51
 ---
 
@@ -758,6 +758,10 @@ At the Nov-18 stand-up Kovalchuk, on the voice agent breaking in: "Да это �
 
 At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian, label "Andrei Bosik", joined mid-meeting): Samusenko had asked three times for a meeting on a test environment for the cloud services. Bosik: it needs its own meeting; "Я тогда говорил, что я со своей стороны всё сделал"; he set it for "13 ноль ноль тире 14 ноль ноль" and sent the invite; Samusenko asked him to add Khamin — [[wiki/decisions/2026-10-05-the-payment-hub-autotest-stand-is-not-mvp1-and-a-separate-meeting-with-andrei-designs-it.md]] (Nov-19 update). He has spent two days on Samusenko's Claude-written questions ("26 пунктов"), and advised writing a global Claude rule to use "simple inglish" — [[wiki/topics/ai-assisted-development.md]] (Nov 19). On the Jira "write it on paper" story: "Эта политика двойных стандартов" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 — no update error on the Flex-Port screen ("Так и решили"); obsolete capabilities deleted; release notes on the operations dashboard; Docker clean-up for all; Emma's voice
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian, label "Andrei Bosik"): he asked whether a failed Flex-Port update should show on the port; after the talk — "я просто уберу тогда это… ошибка остаётся записана в блоге… на терминале… и в даш бородок" — "Так и решили". He deletes a couple of obsolete capabilities (tests already moved); asks that production files on the operations dashboard carry release notes (.md) — Pavel had Emma open a capability; tells everyone building Docker dev images to add a clean-up step ("это, кстати, всех касается"); re-pointed his report at MVP 2_1/2_2. His MVP 3 on-screen Wi-Fi question was parked. Emma's text-to-speech: "Рикол сервис называется recol i" (heard) with a Bulgarian language model, the only one there that "может говорить и на русском, и на английском языке одновременно" [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]]. At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] Chudinov named him for the 2_2 Grafana alerting talk [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -952,3 +956,6 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]

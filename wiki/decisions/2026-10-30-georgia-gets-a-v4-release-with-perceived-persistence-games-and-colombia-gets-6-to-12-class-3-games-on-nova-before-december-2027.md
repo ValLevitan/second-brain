@@ -3,10 +3,10 @@ type: decision
 title: There will be a Georgia V4 software release, with "perceived persistence" games Val calls large-format; and the Colombia refresh is 6 to 12 Class 3 games on NOVA made from the updated Georgia games (Bison, wolves, lions) for an installed base whose contracts expire December 2027 (Oct 30 2026)
 date: 2026-10-30
 aliases: [Georgia V4 release, another Georgia software, perceived persistence, large format games, Colombia refresh, contracts expire December 2027, minimum 6 maximum 12, six game pack twelve game pack, Bison and wolves in Class 3, Colombia NOVA release, questions for Martha, pub crawl is popular in Colombia, fruit games, Diamond Link did not do well in Colombia, last six months data]
-source-count: 4
+source-count: 6
 status: active
-open-commitments: 5
-open-questions: 2
+open-commitments: 6
+open-questions: 3
 ---
 
 # Georgia V4 with perceived-persistence games; Colombia gets 6–12 Class 3 games on NOVA before December 2027 (Oct 30 2026)
@@ -57,9 +57,28 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 
 - [ ] [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — schedule Georgia COAM V4 (Class B) — due week of Nov 16 2026 ("probably… next week") — [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]] [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 
+## Note, Nov 20 2026 — Georgia V4 aimed at June 1, before the August trade show; two complex new games; Lena has doubts
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English): Val: "Georgia version 4, we're planning for… Sometimes in April, May"; Lena: "And so on, I would say." Val: "I would like to have a few months in locations before the trade show. And the trade show is in August. So I really don't want to move it further than, let's say, June 1st." Lena: "We are planning to do 2 very complex new games, so I, I might have some doubts" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+
+- **Fly Me to the Moon** will use "Georgia math… not class 3"; it is "a takeoff of Aristocrats' Midnight Train, which is a top performer in the Georgia market" (Michael) [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- **The Colombian carnival game** is "a takeoff on, I think, Baozu Zou Fu [heard], the firecracker game… 5 reel, 5 by 3, and then you'll have three strands of firecrackers in the colors of the… Colombian carnival colors" (Michael). Lena asked "And this carnival game as well, right?" (Georgia maths) — no clear answer on tape. The notes list it as the second V4 game [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. On Nov 13 it was named for Colombia; whether it is now also a Georgia V4 game is **unclear**.
+- Val: "Let's try to accomplish it for June… Let's try" — Michael: "Yeah, I hear you" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]].
+- Michael on Georgia: "I'm working on Georgia… it's all in Jira" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Whether V4 is now scheduled (his Nov-13 commitment) is not said.
+
+### Open commitments (Nov 20 2026)
+
+- [ ] [[wiki/people/lena.md|Lena Zhukova]] and [[wiki/people/michael-gottlieb.md|Michael Gottlieb]] — aim to have Georgia V4 ready by June 1 (year not said; 2027 by **inference**) — [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+
+### Open questions (Nov 20 2026)
+
+- Can Georgia V4 be ready by June 1 with two complex new games, and is the Colombian carnival game one of them? — [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Class_A_Party_Time_and_Colombia_Refresh-October-30-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

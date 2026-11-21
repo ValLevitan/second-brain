@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, one brain for all agents, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 46
+source-count: 47
 open-commitments: 0
 open-questions: 0
 ---
@@ -181,6 +181,10 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 
 **Report style (6:23 AM, Val and Kovalchuk).** Kovalchuk: the agent already sends a morning reminder about tasks near their dates; grooming notices could go there too. Val dislikes how the AI project manager writes reports — "Тяжело считаться очень… мне надо вчитываться"; facts are right, but the manner needs a guide: "простые предложения", for English-as-a-second-language readers ("Инглиш секондлэндвич", heard). Kovalchuk: the agent is set to "Исключительно правду, без всякой воды"; it has a character description he will extend, and he will ask Andrei whether he already started — commitment on [[wiki/decisions/2026-11-18-claude-grooms-jira-under-a-written-standard-unlinked-work-untouched-three-months-is-archived-no-not-to-forget-tasks-backlog-at-most-a-month-everything-under-a-value-stream.md]] [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]] [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]].
 
+## Nov 20 2026 — Emma asks for a neutral, non-human picture; her voice is a Bulgarian model, the only one that speaks Russian and English
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian), asked what picture she wants, "Emma (AI-PM)" said: "Мне подойдет любая нейтральная картинка, например, абстрактное изображение чипа… потому что я не человек и не хочу выглядеть как человек", adding "это не правило". Asked which text-to-speech she uses, she did not know and named [[wiki/people/andrey-bosik.md|Bosik]] or [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] — "Они ведут мою настройку." Bosik: the service is "Рикол сервис называется recol i" (heard; name **unclear**), with a Bulgarian language model, the only one there that "может говорить и на русском, и на английском языке одновременно"; earlier Kovalchuk had said the voice also speaks Spanish. Pavel also had her open a capability on the spot (release notes on the operations dashboard) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -228,3 +232,4 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

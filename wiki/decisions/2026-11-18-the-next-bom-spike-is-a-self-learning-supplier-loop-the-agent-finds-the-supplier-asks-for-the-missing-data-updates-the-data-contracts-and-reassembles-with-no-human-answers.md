@@ -3,7 +3,7 @@ type: decision
 title: After Nathan's first unguided spike assembled a power-supply sub-assembly through questions, the next spike is a self-learning supplier loop — the agent finds the part's existing supplier, asks it for the missing data sheet or details and chases it, updates the data contracts and the flat list, and tries to assemble again until it needs no human; all earlier answers and hints are erased; Genadi is asked only when a supplier is unknown, and only once; some part data is left missing on purpose; review Friday Nov 20 at 4 PM (Val, with Nathan Carver and Genadi Peari, Nov 18 2026)
 date: 2026-11-18
 aliases: [supplier data loop, supplier data-chase loop, BOM agents supplier data loop, AI-logic for assembling BOM continued, self-learning data contracts, data contracts have to be learning, self-defined data contract, chase the supplier, Mr. Supplier I am one of your clients, erase all the answers, Genadi is the last person, leave some data missing, don't hydrate all of it, 120 volts 60 hertz, three scoped agents, spec writer assembler auditor, simulated non-expert user, Nov 18 BOM spike result, Friday Nov 20 4 PM BOM review]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 0
@@ -60,7 +60,12 @@ In one line: **the agent's only way to new knowledge is the part's own supplier;
 
 **§15.8:** clear. **§15 #9:** clear.
 
+## Note, Nov 20 2026 — a missing data sheet is reported by the agent
+
+On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 ~3:09 PM call]] (Russian, before the 4 PM review) Val and Genadi agreed the same rule as this loop: when data is missing, the agent "должен сказать, я не могу принять здесь решение. У меня не хватает", rather than it being filled in blind; with a part number the agent finds a data sheet faster than a person. Val wants to be sure Nathan "не фейкает эту сборку" [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Genadi's status: one cabinet's data sheets loaded, others not yet. Whether he added supplier information (the commitment above) was not discussed [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]

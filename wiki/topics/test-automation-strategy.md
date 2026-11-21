@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 111
+source-count: 113
 open-commitments: 86
 open-questions: 16
 ---
@@ -1115,6 +1115,10 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — next task: a separate test profile run with a real Flex-Port, the emulator part kept for CI and pull requests — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] with [[wiki/people/irina-shishko.md|Irina Shishko]], [[wiki/people/ivan.md|Ivan]] and [[wiki/people/alexei-khamin.md|Alexei Khamin]] — decide who restores the autotest accounts on STG if the database is cleaned — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 
+## Nov 20 2026 — scenarios that need real hardware are marked manual-only in the acceptance criteria, listed in a separate manual-check feature and kept in the repository
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian) Samusenko said 10 of the 23 scenarios on his Wi-Fi set need real hardware (a QR scanner; something plugged in by USB — the notes: a USB modem) and cannot be automated. Pavel: "железные железные тесты однозначно нет"; the Flex-Port has a command that emulates a scan, which some tests already use; otherwise the acceptance criterion carries a mark "что этот онли мэниал… Чтоб авто тестовый не пытался". Irina: go through the acceptance criteria, mark those "для ручного" and create a separate feature with the list to check by hand; manual tests are written in Jira as their own test type. Khamin: manual-only tests "всё равно должны быть в репозитории", findable with one filter [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. This extends the Nov-13 split of checks into a real-device part and an emulator part marked in the acceptance criteria (above). Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1228,3 +1232,5 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

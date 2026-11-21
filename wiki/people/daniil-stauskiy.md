@@ -3,7 +3,7 @@ type: person
 title: Daniil Stauskiy
 date: 2026-11-08
 aliases: [Daniil Stauskiy, Daniil, Даниил, Daniil Stauski]
-source-count: 25
+source-count: 26
 open-commitments: 1
 open-questions: 0
 ---
@@ -72,6 +72,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian): he works on moving "системных сообщений и диалогов" into the new engine; dialogs convert, and the framework shows how messages are sent. Pavel recalled the agreement to collect all messages and describe how they are implemented — "по сути проза"; Daniil: "это я сейчас собираю, а потом саше обсужу и там чтонибудь напишем" [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 — machine-state messages; the sound library into the new engine
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian): continuing machine-state messages (agreed the approach with "саша"); will put the sound library in for the new engine, close task "ньюанджин 54 26" (heard) and create a task for the machine-state work [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Flex-Port_Release_Build_and_Rust_Sound_Library-November-2-2026.md]]
@@ -99,3 +103,4 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

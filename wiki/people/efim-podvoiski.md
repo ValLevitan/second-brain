@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 103
+source-count: 105
 open-commitments: 11
 open-questions: 0
 ---
@@ -392,6 +392,10 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 
 At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) Val, laying out the plan to March 15, said "Ефим не успеет с математикой" and that the team must then take up the maths and finish it — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
 
+## Nov 20 2026 (12:02 PM) — first-round maths for all six Class A games by the end of next week; Queen of Luxor may be the volatile one; "If you give $5 on 20, you cannot give more than seventy-five percent"; loyalty by bet
+
+At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English): "I can finish by the end of next week, because now I'm moving much faster than… these first two games… The first round will be done… by the end of the next week"; the six games will be balanced, "more soft mass" in some, Queen of Luxor allowed "volatile mass"; he does not want framework changes in Rage Studio for Class A (per Lena). On promo credits: "We cannot give a buck for 20"; "If you give $5 on 20, you cannot give more than seventy-five percent", and then players may spend less time on the machine — his estimate, "I might make a mistake"; he prefers loyalty by "actual bet" and the reusable ticket as a longer wallet [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] · [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -499,3 +503,5 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]

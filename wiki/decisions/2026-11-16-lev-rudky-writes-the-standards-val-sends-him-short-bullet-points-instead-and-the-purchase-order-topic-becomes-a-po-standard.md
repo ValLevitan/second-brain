@@ -3,7 +3,7 @@ type: decision
 title: Lev Rudky writes the standards and is their authority; Val stops writing standards and committing them to GitHub and sends Lev short bullet points of what worries him instead; overlaps between standards are cleaned up by pointing Claude at them once a week or once a month; the purchase-order topic of the call becomes a PO standard, not part of the inventory management standard (Nov 16 2026)
 date: 2026-11-16
 aliases: [Lev writes the standards, Lev is the authority on standards, я тебя сделал авторитетом в стандартах, bullet points not standards, токен булот пойнт, чопинг поинс, Val stops committing standards, PO standard, пио стандарт, пил стандарт, purchase order standard, not the inventory management standard, weekly standards grooming, груми]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 2
@@ -55,7 +55,13 @@ The first ten minutes were about how a purchase-order line is entered. Words hea
 
 **§15.8:** clear. **§15 #9:** clear. Personal matters: none.
 
+## Note, Nov 20 2026 — Val still says "I will write a standard"
+
+On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 ~3:09 PM call with Genadi]] (Russian) Val said: "Я сейчас возьму транскрипт и напишу стандарт" — a purchasing standard he means to write himself [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. At ~3:32 PM he told the finance team "when we make mistakes and we discover these mistakes, we write a standard" [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. This bears on the second open question above (whether Val stopped writing all standards) but does not settle it — Lev's role is not mentioned in either call. Records: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]] · [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]

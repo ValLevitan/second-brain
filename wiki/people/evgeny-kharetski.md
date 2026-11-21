@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 129
+source-count: 130
 open-questions: 1
 open-commitments: 18
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -474,6 +474,10 @@ At the [[wiki/meetings/2026-11-18-daily-standup-printer-signal-gap-and-cap-142-m
 
 At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] (Russian; "Женя"): he waits for "Игорь игры" and expects to finish within the day once he has them. Builds worry him: after a change in Rust "больше часа надо ждать", because the packer archives on "двухъядерном процессоре. Виртуалки хаба". Pavel: Claude told him a self-hosted runner could be set up for builds. Kharetski: "может нам стоит этим заняться" — no one knows when the cloud arrives, and for local and test builds the wait and the download are too long; keep only the last build, "как сейчас". He is working bugs through with Ivan [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]. No decision was taken.
 
+## Nov 20 2026 — the game ISOs are ready to try, but the shared build machine is full; he builds framework and engine himself in the ISO action
+
+At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian; "Женя", he answers): the ISOs with games should build — "для меня по сути всё готово, чтоб пробовать и сошку с игрой уже ставить" — but the machine ran out of space: a Claude folder "Раздуло до 30 гигабайт" and "ещё чтото 90" GB of leftovers; Pavel: "Ну хорошо я почищу". To Bosik: he builds the framework and engine inside the ISO action himself ("Ну я собираюсь сам"); Bosik asked him to add Docker clean-up. Igor waits for his feedback on the games CI ("жду от жены обратной связи" — read as Zhenya, **inference**). Right after his turn Irina told him Ivan is writing "штук с десяток замечаний" on RIS, from the machine side — "Это нужно будет срочно сделать"; he: "Ага, без проблем" — so Ivan's stories "на женю" are read as his (**inference**) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -606,3 +610,4 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]

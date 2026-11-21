@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 522
+source-count: 528
 open-commitments: 83
 open-questions: 1
 ---
@@ -1904,6 +1904,18 @@ At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18
 
 At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-date-slip.md|Nov-19 8:04 AM clean-up call]] (Russian) he joined for a few minutes: when Pavel proposed shrinking CAP-145's 20-plus requirements with Claude, Val: "такие побило лежат на стороне продакт оно" and "реглайменты с нами живут долго"; then "я должен взяться этот звонок" — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]] [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]. At the same day's [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short-claude-messages.md|Nov-19 stand-up]] his Jira clean-up standard was relayed by Kovalchuk, and Bosik cited his plain-English rule for Claude [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]].
 
+## Nov 20 2026 (9:02 AM) — no releases less often than weekly; define what goes in; only what the law requires on master changes; design for always-on internet
+
+At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian): "Я не хотел бы делать релисы реже, чем раз в неделю"; not a time box but "давайте мы дефан что войдёт? И сделаем это за неделю". On a location changing master: "Никто ничего не будет отвязывать… Единственное, что закон требует это регистрация IQ к лакей к масту… Главное, чтобы этот айкью нам платил"; JVL should not chase operators — "это неправильно"; the open task is to learn "как закон требует". On MVP 3 he backed Chudinov: offline exceptions are "неправильная философия"; poor coverage is fixed with more connectivity ("поставить Тесла антенну"), "Лучше сегодня это не значит лучше завтра… Давайте сделаем, правильно?" [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
+
+## Nov 20 2026 (~3:09 PM) — "Я был специфик": Genadi only on the BOM; "Все ваши знания должны лечь в стандарт"; a daily PO agent
+
+At the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 ~3:09 PM call]] with Genadi (Russian) he asked for drawings and data sheets for every part in GitHub and doubted a BOM can be built without them; told Genadi to work only with Nathan on the BOM, not procurement; said he would write a standard from the transcript himself; and told Genadi to write his knowledge as standards and build an agent that checks all POs once a day — "мне… выгоднее переплатить на этом, чем вас замучать в этом" [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]] [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
+
+## Nov 20 2026 (~3:32 PM) — "quick and clear, our mistake": mistakes become standards, each person runs their own email agent; "close to 20 routines"
+
+At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English, by mobile phone) he praised the team for owning a late reply to an ACH authorization request, asked for a fix by hand, and set two concepts: write a standard into GitHub when a mistake is found, and have your own agent go through your email against the standards. He runs "close to 20 routines and agents", from every 15 minutes to once a quarter; "the less you direct an agent, the better the agent works"; learn it over the weekend [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2436,3 +2448,9 @@ At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-dat
 - [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
