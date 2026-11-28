@@ -3,7 +3,7 @@ type: project
 title: Texas used-machine distribution (via EDS)
 date: 2025-03-22
 aliases: [Texas market, JAMMA pinboard, Fusion Game Group, Omega cabinets, Torch Amusements, Missouri decal fee, Beaumont, Texas distribution, Texas EDS plan, Texas content prohibition, Texas branch, reconditioned machines, wild boar theme, WPU, PTI, PTI Sentry, Jordan Barberio, Joe Hollow, Joe Hello, Hello Games, Barberio Amusement, Capitol Amusement, Texas recycler test, pure skill state, Fannin County, Stephen Fenoglio, county patchwork, Texas net win, Ken Paxton opinion letter, AMOT, Dennis Bonnen, Texas lobbying, Bob Hall, Texas own locations, Texas front operator, Dannettee Hickman, Texas gas station displacement, recycler against Banilla, ARC trade-in, Austin warehouse, bottomless pit, Halcyon Texas trial, Texas profit share, two machines and a recycler]
-source-count: 77
+source-count: 78
 open-commitments: 17
 open-questions: 9
 ---
@@ -538,6 +538,10 @@ At Val's [[wiki/meetings/2026-11-12-flex-recycler-slim-mvp1-by-thursday-and-20-d
 
 At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English) Val described the Texas install as "two machines with… Flex Pay Slim… Recycler… In between" and "the Flexport AFT… peripheral in every machine"; inside the recycler: "A 14 inch screen placed vertically", "QR code or barcode scanner", a "Tito type printer" and "a bill-to-bill dispenser"; the printed ticket is "a temporary e-wallet", validated "through scanning optically", with an optional PIN "settable by an operator." He wants loyalty and promo credits on it, and the same in Georgia (card dispenser, no recycler) and Nebraska; Efim and Michael doubted the $1-per-$20 idea and preferred loyalty by amount bet; Val: "I want to think a little more about it" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]] (Nov-20 note).
 
+## Nov 21 2026 — Texas is the first market for NOVA 2: operating on the new platform with old games about February 1 2027
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] Val: "Начало мы начнем оперировать в Техасе… я бы сказал бы 1 февраля", with "Старые игры переделаны" for the new platform. He would prefer two platforms but "Я согласен на одну платформу"; "я возьму любую вещь, которую вы мне дадите"; the point is to "посмотреть, что взрывается" at low risk. [[wiki/people/irina-shishko.md|Irina Shishko]]: "Техас это страна без сертификатов"; "Техас у нас над один сейчас стоит." Which product (NAD 1 or NAD 2, one platform or two, how many games) is open. Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
 ## Sources
 - [[raw/Meeting_Transcript_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
 - [[raw/Meeting_Notes_Felipe_Sales_Coaching_Software_Upgrade_Pricing-November-4-2026.md]]
@@ -617,3 +621,4 @@ At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan
 - [[raw/Meeting_Notes_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]

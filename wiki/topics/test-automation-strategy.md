@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 113
+source-count: 115
 open-commitments: 86
 open-questions: 16
 ---
@@ -1119,6 +1119,10 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 
 At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian) Samusenko said 10 of the 23 scenarios on his Wi-Fi set need real hardware (a QR scanner; something plugged in by USB — the notes: a USB modem) and cannot be automated. Pavel: "железные железные тесты однозначно нет"; the Flex-Port has a command that emulates a scan, which some tests already use; otherwise the acceptance criterion carries a mark "что этот онли мэниал… Чтоб авто тестовый не пытался". Irina: go through the acceptance criteria, mark those "для ручного" and create a separate feature with the list to check by hand; manual tests are written in Jira as their own test type. Khamin: manual-only tests "всё равно должны быть в репозитории", findable with one filter [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]. This extends the Nov-13 split of checks into a real-device part and an emulator part marked in the acceptance criteria (above). Record: [[wiki/decisions/2026-11-20-a-failed-flex-port-firmware-update-is-not-shown-on-the-port-screen-and-hardware-only-autotest-scenarios-are-marked-manual-in-a-separate-feature.md]].
 
+## Nov 23 2026 — the Flex-Port update itself is not autotested (no good STM32 emulator), only the Flex IQ–port protocol; Seregin's autotests found a failing update
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) [[wiki/people/pavel.md|Pavel]]: delivery of an update from the server to Flex IQ "тестируется есть на этот тест и он проходится"; the port update itself — "Flex порта мы не покроем автоматическими тестами" — only the protocol between Flex IQ and the port, that the file arrives. Emulating the port's processor would be untrue: "Аккумуляторов, готовых хороших аккумуляторов стм 32 не существует" ("аккумуляторов" = emulators, the notes' reading); "Поэтому этот тест конкретно проводится на реальном железе." Irina: "Это руками проверит." Meanwhile [[wiki/people/anton-seregin.md|Seregin]]'s weekend autotests, written to his acceptance criteria, found that the update without stick or ST-Link did not work [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Same line as the Nov-20 manual-only marking above. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1234,3 +1238,5 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 - [[raw/Meeting_Notes_Daily_Standup_Vertical_Rage_Games_for_Texas_and_Agent_Date_Moves-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]

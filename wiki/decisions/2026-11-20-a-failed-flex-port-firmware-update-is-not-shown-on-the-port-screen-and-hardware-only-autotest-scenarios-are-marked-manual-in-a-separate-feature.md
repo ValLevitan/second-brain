@@ -3,7 +3,7 @@ type: decision
 title: A failed Flex-Port firmware update is not shown on the port's own screen — the port stays on the working version, so the error lives only in the terminal log and the operations dashboard, and Bosik removes the on-screen item from the requirement; whether the port really can fall back (two boot areas, too little room, a board button nobody tested) is for "Евгений" to confirm, and the acceptance criteria must be re-checked against the real implementation; autotest scenarios that need real hardware (a QR scanner, a USB device — 10 of Samusenko's Wi-Fi set) are marked manual-only in the acceptance criteria, listed in a separate manual-check feature and kept in the repository so one filter finds them; obsolete capabilities are deleted, not archived; release notes for production files on the operations dashboard become a capability, not for this release; Docker dev-image builds get a clean-up step (Nov 20 2026)
 date: 2026-11-20
 aliases: [Flex-Port firmware update failure not shown on screen, failed update stays in the log, ошибка обновления прошивки на флекспорте, мы не показываем на farto эту про ошибку, Flex-Port rollback, два загрузочных места, two boot slots, board button rollback, manual-only autotests, онли мэниал, hardware-only test scenarios, 10 of 23 Wi-Fi scenarios, manual-check feature, delete obsolete capabilities, release notes capability, релиз ноты на operations dashboard, Docker dev image clean-up, machine 84 Wi-Fi board]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 7
 open-questions: 2
@@ -78,7 +78,13 @@ Bosik, after confirming that [[wiki/people/evgeny-kharetski.md|Kharetski]] build
 
 **§15.8:** clear — process and test design only. **§15 #9:** clear — capability, item and machine numbers only.
 
+## Note, Nov 23 2026 — an update without stick or ST-Link failed in Seregin's autotests; the port update stays a real-hardware check
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) [[wiki/people/pavel.md|Pavel]]: Seregin's weekend autotests found that the update "Не через флешку, не через эстелинк" did not work; Khamin looks first, then Tsymanov. The Flex-Port update itself is not covered by autotests — only the Flex IQ–port protocol — "Поэтому этот тест конкретно проводится на реальном железе." Irina: "сейчас это работает не как часы" [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Record and commitment: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]

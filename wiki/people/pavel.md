@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 337
+source-count: 340
 open-commitments: 121
 open-questions: 0
 ---
@@ -1586,6 +1586,18 @@ At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-r
 
 At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English): real cards and invoices going "up to Business Central" are "impossible to test on QA"; he sees no dependency "except for Business Central, dual [Dwolla] and location building [billing]"; he set a Saturday Nov 21, 9 AM meeting with [[wiki/people/nathan-carver.md|Nathan Carver]] ("we were working on our weekends") and "will ask Dima and Serge to go through this document" first [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
 
+## Nov 21 2026 (10:01 AM, NOVA-2) — he proposes Biratka as architect, a separate daytime NOVA meeting, and an external disk on the RK3576
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] he proposed "сашу биратко" as architect and coordinator of the engine and games (agreed) and a separate daytime NOVA meeting at a time good for Anton, with the morning stand-up for transactional topics (agreed; Val wants to be in all of them). On RK3576: "нам надо всётаки ставить внешний жёсткий диск" so the soldered eMMC is not worn out; the database on the external disk, the eMMC for the secure checks. Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## Nov 23 2026 (~8:14 AM) — IP-481 as the root; one MVP with a date for everything; components released alone
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) he proposed "корням всей работы предлагается использовать IP 481", placed "под встрем IP 90", and offered one MVP holding hardware, system and studio with a date such as "1 декабря. Например" — Val: "У меня такой подход больше нравится". His MVP 1 for the hardware platform: a base game on the new engine with today's services and LGS on the RK3576, about a week. He noted a single component, such as a printer fix, can be released without the games. This week: requirements with Biratka, move Anton's capabilities under the right initiative, help Kharetski on RK [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitment: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
+## Nov 23 2026 (~11:46 AM) — no straight date for the modems; the modem test tool is out; the revision-2 boards cannot be fixed in software; the port update is tested on real hardware only
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] with Val and Irina (Russian) Pavel: modems bought from internet sellers come with different firmware and carrier locks — "под каждой чуть ли не модем нам надо подстраиваться" — so there is no direct answer on when they work reliably; the test tool Val asked for the week before is released ("я его зарелизил уже"). On the 20 revision-2 boards: "Со стороны со стороны софта это никак не сделаешь"; he offered a half-hour experiment and Val said no. On updates: Seregin's weekend autotests found that the update without stick or ST-Link did not work; Khamin looks first, then Tsymanov; "Я не думаю, что там серьезная проблема". He explained the two Flex-Port update paths, why the port update is checked only on real hardware ("готовых хороших аккумуляторов стм 32 не существует"), and the Wi-Fi setup as built [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1929,3 +1941,6 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: The modem on Georgia Flex machines stays always on and the operator's on/off screen goes — a machine that cannot send simply retries and sends when a connection returns, by modem or by wire; but an operator who does not want the modem must be able to switch it off on purpose, through a routine — scan a QR code, the server records the event and returns an activation code, only then the modem goes off — because a forced modem the owner cannot disable, whose data later leaks, is negligence and a legal risk for JVL; the scope widens (Kharetski on the machine, Chudinov on the server, maybe Seregin on the QR code, about three days) and the modem goes on every machine with this release because every operator wants remote updates (Val, on Pavel's proposal, Nov 5 2026)
 date: 2026-11-05
 aliases: [modem always on, оставим просто включенную эту опцию, remove the operator modem screen, убрать этот экран, no overhead in retrying, нет никакого большого верхеда, disable the modem on purpose, отключить модем через процедуру, чтобы это было намеренно, modem disable routine, QR code then activation code, сканирую QR код дайте мне активейшн код, server records the event, записать событие и отправить активэйшн код, modem disabled on purpose packet, модем отключается намеренно, allergic to the modem, у меня аллергия на него, forced modem legal risk, negligence on behalf of the manufacturer, большой лоссуд, if he did not disable it it is his problem, если человек его не отключил это его проблема, scope widens by about three days, не больше трёх дней, ideal moment to put a modem on every machine, идеальнейший вариант поставить модем на все машины, everyone wants remote updates, two-character activation code, four-character activation code as for the lease, confirmed machine actions capability, modem off confirmation capability]
-source-count: 14
+source-count: 18
 status: active
 open-commitments: 2
 open-questions: 2
@@ -84,6 +84,11 @@ At the [[wiki/meetings/2026-11-11-daily-standup-flex-pay-to-mvp3-and-sound-names
 
 At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-release.md|Nov-16 stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]]: "Я выключение тоже сделано" (heard; the notes: LTE switch-off done), and he will put a new ISO on a machine with LTE. [[wiki/people/dmitri-chudinov.md|Chudinov]] on the modem: "Сегодня уже выложу и можно будет допускать, смотреть." [[wiki/people/ivan.md|Ivan]] is checking the UI part while the server part is being finished ("там серверные части опишку доделает" — who is **unclear**) [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]. Chudinov's on/off-event commitment above is not reported done.
 
+## Note, Nov 23–24 2026 — the modem goes into Georgia build 4377 for field test on different modems before the lab; Pavel's modem test tool is out; on Nov 24 the modem was not yet tested and will be used on the D27
+
+- **Nov 23, ~11:46 AM.** Val asked for one release with "Вот этот модом и риск модифишн для jobia"; Irina handed over the build "со всеми фиксами и с модемом", number "43 77", for Elizabeth and Sebastian to test on different modems before the lab. Pavel: modems from internet sellers arrive with different firmware and carrier locks, so no direct answer on reliability; the modem test tool Val asked for is released [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] — [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+- **Nov 24, 3:31 PM.** Sebastian had not tested the modem at all; Val confirmed the modem will be used on the D27 cabinet; another half day or a day [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]] [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]] — same page, Nov-24 update.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
@@ -100,3 +105,7 @@ At the [[wiki/meetings/2026-11-16-daily-standup-morning-standups-and-sms-fix-rel
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Morning_Standups_and_SMS_Fix_Release-November-16-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
+- [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]

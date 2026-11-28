@@ -3,7 +3,7 @@ type: project
 title: The AI project manager and the company second brain — Val's direction (Sept 25 2026), the design and plan of work (Sept 29 2026), owned by Andrey Bosik
 date: 2026-09-25
 aliases: [AI PM, one brain for all agents, Dasha is a bad name, PM agent glossary, Jira project codes pronunciation, словарь глоссарий, AI project manager, AIPM, AI проджект менеджер, Design_AI-PM, company second brain, JVL second brain, одна компании секунд брейн, second brain for JVL, Karpathy method at JVL, AI draft tasks in Jira, meeting bot, AI PM persona, transcript collection, глоссарий Лены, Listener, листонер, 318 transcripts, AI Draft status, Teams agent, боевой режим, live mode October 12, 0.80 threshold, порог 0.80]
-source-count: 47
+source-count: 49
 open-commitments: 0
 open-questions: 0
 ---
@@ -185,6 +185,10 @@ At the [[wiki/meetings/2026-11-11-nova-2-mechanics-placement-one-studio-tool-and
 
 At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian), asked what picture she wants, "Emma (AI-PM)" said: "Мне подойдет любая нейтральная картинка, например, абстрактное изображение чипа… потому что я не человек и не хочу выглядеть как человек", adding "это не правило". Asked which text-to-speech she uses, she did not know and named [[wiki/people/andrey-bosik.md|Bosik]] or [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] — "Они ведут мою настройку." Bosik: the service is "Рикол сервис называется recol i" (heard; name **unclear**), with a Bulgarian language model, the only one there that "может говорить и на русском, и на английском языке одновременно"; earlier Kovalchuk had said the voice also speaks Spanish. Pavel also had her open a capability on the spot (release notes on the operations dashboard) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
 
+## Nov 23 2026 — Val asks the NOVA team to say their undertakings aloud so Emma creates the capabilities
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) Val: "у нас эмма присутствует здесь, почему не попросить её, чтоб она подготовила всё, что нужно?" Biratka and the team asked "Emma (AI-PM)" for capabilities (the studio symbols step, base-game scenes, studio CI/CD, Kharetski's and Igor's work); she answered "Сейчас поищу", "Секундочку", "Да поняла". Val: "Посмотрим, что эмма сможет нам создать, если нет… будем её просто доделывать" [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Whether she created them is not in the source [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. See [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_AI_Project_Manager_for_Jira-September-25-2026.md]]
 - [[raw/Meeting_Notes_AI_Project_Manager_for_Jira-September-25-2026.md]]
@@ -233,3 +237,5 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

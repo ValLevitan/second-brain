@@ -3,8 +3,8 @@ type: person
 title: Sean Riley
 date: 2025-05-07
 aliases: [Sean Riley, Sean]
-source-count: 11
-open-commitments: 2
+source-count: 12
+open-commitments: 3
 disambiguation: "Sean Riley = JVL's external chartered accountant (finance/tax/loan context). Distinct from Sean Fellows (CEO of the Georgia operator Diamond Amusement — market/operator context) and from the still-unresolved batch-32 FlexPay-enclosure 'Sean' (surname unknown). Resolve by context, not the name string."
 ---
 
@@ -64,10 +64,15 @@ Sean does not attend the [[wiki/meetings/2026-09-07-departure-tax-trust-and-bad-
 - **The call to Sean was booked the same day.** Vitaly planned to phone him the next morning; Val asked him instead to **email immediately and set the call today for tomorrow**, and Vitaly agreed. [[raw/Meeting_Transcript_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]]
 - **An open question about him.** Vitaly does not yet know how far Sean will go beyond pure accounting: "some accountants like to be purely on the accounting side, some accountants like to be on the tax side as well… **I do not know where Sean stands on this.**" [[raw/Meeting_Transcript_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]]
 
+## Nov 10 2026 — to prepare an up-to-date JVL balance sheet
+
+On Val's go-forward call with [[wiki/people/alan.md|Alan Litwack]] ([[wiki/meetings/2026-11-10-litwack-jvl-go-forward-noteholder-buyout-and-liquidation-test.md]]), Alan asked for an up-to-date balance sheet to show liquidators and later the shareholders and noteholders; Val: "Yeah, but Sean Riley can do it." Decision: [[wiki/decisions/2026-11-10-jvl-go-forward-test-whether-any-liquidator-will-take-jvl-then-offer-the-other-holders-a-nominal-buyout-over-time-with-a-small-upside-share.md]]. [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]
+
 ## Open commitments
 
 - [ ] Sean Riley — send Val names of Canadian transfer-pricing firms ("I'll dig into it; I'll send just some names as well") — due unspecified — [[raw/Meeting_Transcript_Gilmore_Cross_Border_Tax_Strategy-July-8-2026.md]]
 - [ ] Sean Riley — give Vitaly Timokhov the detail behind the financial statements: the intercompany loans, reconstructed books for 680, and the subsidiary list — due from the week of Sept 8 2026 — [[raw/Meeting_Transcript_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]] [[raw/Meeting_Notes_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]]
+- [ ] Sean Riley (for Val) — prepare an up-to-date JVL balance sheet for the liquidator talks — due unspecified — [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]
 
 ## History
 
@@ -87,3 +92,4 @@ Sean does not attend the [[wiki/meetings/2026-09-07-departure-tax-trust-and-bad-
 - [[raw/finance_alka_sean_reily_year-end-May-12-2025.md]]
 - [[raw/finance_taxes_georgia-may-30-2025.md]]
 - [[raw/finance_loans_review_sean_alka-june-13-2025.md]]
+- [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]

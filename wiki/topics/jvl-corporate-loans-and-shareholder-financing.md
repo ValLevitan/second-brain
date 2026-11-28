@@ -3,7 +3,7 @@ type: topic
 title: JVL corporate loans and shareholder financing
 date: 2025-06-11
 aliases: [JVL loans, shareholder loans, loan schedule, accrued interest, Skrepnik Capital, Skrepnek Capital, ScrapNeck Capital, Romper, 2032968 Ontario, 840914 Ontario, 2011-680 Ontario, Boris and Peter loans, related-party loans, note payable Ontario USD]
-source-count: 20
+source-count: 21
 open-commitments: 10
 open-questions: 2
 ---
@@ -138,11 +138,11 @@ On the [[wiki/meetings/2025-11-06-statements-loans-review-2nd-path.md|Nov-6 "2nd
 
 - How will Val treat his own accrued interest on the 840914 / USD loan — leave it as a loan or **convert it into equity**? Deferred pending his discussion with Sean Riley (the June-13 call built the schedules but did not settle the equity question). [[raw/finance_loans_review-june-11-2025.md]] [[raw/finance_loan_summary_detailed_review_alka-june-13-2025.md]]
 
-- Did the original ~$11M warrant money come with a **loan or note**? Val says no ("they purchased warrants"); Litwack says yes ("They made a loan… and with it came warrants"). To be settled from the balance sheet and the warrant issuance agreement. [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
+- Did the original ~$11M warrant money come with a **loan or note**? Val says no ("they purchased warrants"); Litwack says yes ("They made a loan… and with it came warrants"). To be settled from the balance sheet and the warrant issuance agreement. [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]] **Nov 10 2026:** on the go-forward call the eleven million is spoken of as notes ("The prosperity notes" — "What's the total? Eleven") and its holders as "note holders"; not settled [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]].
 
 ## Open contradictions
 
-- **How much of the 2011-680 loan remains (2026).** Jul 10 2026: Val says "twenty four million dollars" remaining [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]. Sept 7 2026: Vitaly Timokhov, reading Sean Riley's statements, says "twenty-six million" [[raw/Meeting_Transcript_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]]. (The June-2025 GL figure was ~$20.85M.) Not resolved.
+- **How much of the 2011-680 loan remains (2026).** Jul 10 2026: Val says "twenty four million dollars" remaining [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]. Sept 7 2026: Vitaly Timokhov, reading Sean Riley's statements, says "twenty-six million" [[raw/Meeting_Transcript_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]]. (The June-2025 GL figure was ~$20.85M.) Not resolved. Nov 10 2026 data point: Val says "My money is twenty four million" and Alan Litwack answers "No, it was twenty seven" [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]] *(reading Val's "my money" as this same 2011-680 balance is an **inference**; Val stressed on Jul 10 that it is the corporation's loan, not his).*
 - **JVL's accumulated losses (2026).** Jul 10 2026: Val says "close to fourteen million dollars" [[raw/Meeting_Transcript_Alan_Litwack_Convertible_Debenture_Design-July-10-2026.md]]. Sept 7 2026: Vitaly reads "about $18 million" from the statements, and Val agrees ("Yeah, 18") [[raw/Meeting_Transcript_Departure_Tax_Trust_and_Bad_Debt-September-7-2026.md]]. Possibly a different entity or basis; not resolved.
 
 ## Jan 9 2026 — Val asks Doug Skrepnek for lenience on the remaining debt
@@ -222,3 +222,4 @@ On the [[wiki/meetings/2026-09-07-departure-tax-trust-and-bad-debt.md|Sept-7 202
 - [[raw/Meeting_Transcript_Alan_Litwack_Warrant_History_and_New_Raise_Priority-July-15-2026.md]]
 - [[raw/Meeting_Notes_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
 - [[raw/Meeting_Transcript_CIBC_Ivan_Lucic_840914_600K_Transfer-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]

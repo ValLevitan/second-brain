@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 101
+source-count: 103
 open-commitments: 9
 open-questions: 0
 ---
@@ -308,6 +308,14 @@ At the [[wiki/meetings/2026-11-13-nova-2-agent-converter-demo-and-first-iso-by-t
 
 At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-iso-demo.md|Nov-17 NOVA-2 Tuesday check]] (Russian) he said his tool built Lions Riches, but with overlapping, unsorted symbols; big tasks go badly and burn tokens because the agents, above all the central Builder, get confused; small tasks are quick and cheap ("10 минут и 20 центов"). Claude Sonnet plans well; DeepSeek could not call the right agent; he has not tried Fable. Val's rule: quality first, cost later — "Хорошо понял это принято." He proposed removing the central agent for a step-by-step pipeline with a human check between steps (accepted), moving the converter out of the engine repository into a new repository with clean code for team work, and a call with Igor and Kharetski "завтра". He had not yet merged Daniil's sound pull request. He suggested the name "новобилдер". In his tool LGS is "ещё не интегрирован всё на моках" — [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]] [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]].
 
+## Nov 21 2026 (10:01 AM, NOVA-2) — he demos the studio "game pipeline"; one person, one game, one week stays the goal
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] he showed the studio: a runtime with plug-in steps, each with its own tools, interface, tests and review and an "agents точка MD" file; brief import and review and a symbols step built; an Electron desktop app; a handoff document "скормить его к лоду" for new developers. His goal stays "один человек, одна игра". He is to merge Daniil's sounds into the engine "к понедельнику". Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## Nov 23 2026 (~8:14 AM) — MVP 1 narrow: the base-game step, CI/CD and a one-page self-install for a new designer; maths from the model library for now
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) he proposed taking maths from "готовую библиотеку моделей", since at first "Большая часть игр будут рискины". He wanted to try Igor's 3D-plus-video method on symbols; Val: "Давайте мы сделаем MB один, который с узким применением, но работающим", so he takes the base scene ("Хорошо, тогда я займусь базовой сценой"). His plan for a new designer — log in with a JVL account, download the studio, it installs itself, with a guide — became a must: Val wants a page where the designer installs everything alone. Biratka: "думай о безопасности" [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -413,3 +421,5 @@ At the [[wiki/meetings/2026-11-17-nova-2-step-pipeline-team-repo-and-saturday-is
 - [[raw/Meeting_Notes_NOVA-2_Agent_Converter_Demo_and_First_ISO_by_Tuesday-November-13-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

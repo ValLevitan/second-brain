@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 163
+source-count: 165
 open-commitments: 60
 ---
 
@@ -760,6 +760,13 @@ At the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agen
 - **His example.** For 50 sets of monitor covers needed "IQ собирать", the supplier asked $1,500 to ship about three boxes by air and added parts that need not fly; procurement only asked why so expensive, instead of getting its own quote from the packing list [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]].
 - **Val's answer.** Val will write a standard from the call; Genadi is to write his knowledge as standards in GitHub and build his own agent that checks all POs once a day against them ("Good point… это надо сделать"). Val: "я боюсь, что вы у меня всего один" — he does not want Genadi doing this by hand [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
 
+## Nov 23 2026 (~1:17 PM) — 20 new-revision boards coming; controller kits for the 5 monitors and the counters; data contracts first, supplier search as agent logic
+
+At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcing-and-data-contracts.md|Nov-23 ~1:17 PM call]] with Val (Russian) [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]] [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]:
+- **Boards.** 20 boards of the new revision (Val: "ревизия 3") ship from China at the end of the week, about $16–17 each plus 50%; he doubts sending the 20 revision-2 boards back is worth it. He opened the board check in Jira as a story; Val parked how it should be opened [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]].
+- **Sourcing.** He is replacing the controller kits of the ~5 active monitors ("покупали у акиры") — a 43-inch sample is ordered — and looking for a new source for the electromechanical counters after a 50% price rise. He sources "В основном 90%" on Alibaba, checks by hand that a supplier is a manufacturer, then moves the talk to Outlook. He wants controllers with built-in LED backlight control and power supply [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]].
+- **Ruling.** Data sheets for the 5 monitors' controller boards and the counter into GitHub the same day; finishing the data contracts is his top priority; supplier search is to become agent logic. Val: "если я вас завяжу в прокюрменд, это будет смерть… В автоматике вас завязать" [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-23-genadi-first-finishes-the-data-contracts-and-loads-every-data-sheet-into-github-and-supplier-search-becomes-agent-logic-built-on-them.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -925,3 +932,5 @@ At the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agen
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]

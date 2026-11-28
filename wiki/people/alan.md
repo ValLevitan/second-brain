@@ -2,9 +2,9 @@
 type: person
 title: Alan (Val's long-time lawyer)
 date: 2025-06-11
-aliases: [Alan, Alan Litwack, Alan Litwak]
-source-count: 10
-open-commitments: 2
+aliases: [Alan, Alan Litwack, Alan Litwak, Alan D. Litwack]
+source-count: 12
+open-commitments: 4
 open-questions: 0
 disambiguation: "Alan — a lawyer and long-time advisor/friend of Val (~40 years) who introduced the customs specialist [[wiki/people/lucie.md|Lucie]] for JVL's CBSA tariff matter on June 11 2025, and (as 'Alan Litwack') the lawyer to consult on the Boris/Peter loan-to-equity reclassification on June 13. Likely one and the same (surname now surfaced — Tier A). Distinct from [[wiki/people/alka-sood.md|Alka]] (finance) and [[wiki/people/alejandro.md|Alejandro]] (Mexico accountant)."
 ---
@@ -15,7 +15,7 @@ Alan is a **lawyer and long-time advisor / friend of [[wiki/people/val-levitan.m
 
 - **Role on this matter:** the relationship lawyer coordinating the engagement — he had already briefed Lucie on JVL's products, framed the customs questions, and undertook to **respond to CBSA's last email and copy Lucie**, so JVL can start the work before the **June 16 CBSA reply deadline**. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 - **Relevant experience he cited:** he has **sold a number of companies** that imported goods which "should have been subject to tariff, but then did something to it and shipped it out," and so held a **duty-drawback-style licence** letting them reclaim/avoid the tariff on re-export — the precedent he raised for JVL's Canada-assemble-then-export-to-US flow. [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
-- A colleague **Lydia** (his/Lucie's firm) is referenced as able to explain the export-licence particulars. He and Val also mentioned having had **similar surgeries a couple of weeks earlier** (personal aside). [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
+- A colleague **Lydia** (his/Lucie's firm) is referenced as able to explain the export-licence particulars. (Personal matters not recorded.) [[raw/tariffs_lucie_alan_intro-june-11-2025.md]]
 
 Full tariff substance: [[wiki/topics/tariffs-and-customs-compliance.md]].
 
@@ -39,10 +39,21 @@ One call in two recorded segments ([[wiki/meetings/2026-09-29-litwack-capital-ca
 - **The write-off model.** Heard Val's investor idea for the Georgia transactional equipment ($4,000 paid now, write-off on $15,000, balance over time). His reading: "You're essentially… lending him. He's paying you over time" — fine "as long as at some point you're getting the full fifteen thousand dollars." His condition: JVL must not be "accused of participating" — "nobody in the IRS can say you helped them disguise something… we have to… structure it better"; he will "get some of my U.S. people" to look at how the write-off works ([[wiki/decisions/2026-09-29-the-investor-write-off-structure-is-checked-so-nobody-can-say-jvl-helped-disguise-anything.md]]; detail on [[wiki/projects/transactional-equipment-depreciation-investor-deal.md]]) [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
 - **His own comparison.** "Carney is doing the same thing, but not for slot machines… in Canada for certain types of things, computer things, also… mining… You get to write it off the year it comes into use. So he took a page out of Trump's book." Recorded as his claim [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]].
 
+## Nov 10 2026 — the JVL go-forward plan: test the liquidators, then a nominal buyout
+
+A ~32-minute call ([[wiki/meetings/2026-11-10-litwack-jvl-go-forward-noteholder-buyout-and-liquidation-test.md]], ~4:01 PM). Decision page: [[wiki/decisions/2026-11-10-jvl-go-forward-test-whether-any-liquidator-will-take-jvl-then-offer-the-other-holders-a-nominal-buyout-over-time-with-a-small-upside-share.md]].
+
+- **His reading of the numbers.** With the notes and Val's money at "well over thirty million dollars" against a liquidation value Val put at five to ten million, "maybe if they're lucky, twenty-five cents on the dollar", and "The shares clearly have no value" [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]].
+- **What a liquidation means.** If no one puts money in, JVL is insolvent and "some liquidator, trustee, receiver, somebody like that has to go in"; [[wiki/people/boris.md|Boris]] "has no capacity" to step in and can only bid for the assets; "a lot of the casinos, etc., are not allowed to buy from an entity that's in liquidation" [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]].
+- **The plan he proposed.** A current balance sheet, the shutdown numbers, a few liquidators asked; if "none of them will take this without upfront money", Val offers to take the other holders out for a nominal amount paid over time, sharing "ten percent or something" of any turnaround. Val: "Yeah, that's the plan. I like it" [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]].
+- **An insolvency partner.** "because you know I'm not an insolvency lawyer… I want to set up a call with one of my partners who does this" — "It's you and I and John Leslie" (as transcribed), Thursday Nov 12 at eleven [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]] [[raw/Meeting_Notes_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]].
+
 ## Open commitments
 
 - [ ] Alan Litwack — write the dilution part of Val's capital-call letter to the partners — due unspecified, after Val's draft (expected by the weekend of Oct 3–4 2026) — [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
 - [ ] Alan Litwack — have his US people look at how the investor write-off works, enough that nobody can say JVL helped disguise anything — due unspecified — [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
+- [ ] Alan Litwack — send the invite for the Thursday Nov 12, 11:00 AM call with Val and his insolvency partner "John Leslie" — due Nov 12 2026 — [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]
+- [ ] Alan Litwack and Val (owner unclear) — run the JVL shutdown numbers and talk to a couple of liquidators, trustees or receivers — due unspecified — [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]
 
 **§15.8:** nothing about his fees or pay is recorded. **Personal matters not recorded** (the Sept-29 segment 1 ends on a removed personal passage).
 
@@ -58,3 +69,5 @@ One call in two recorded segments ([[wiki/meetings/2026-09-29-litwack-capital-ca
 - [[raw/Meeting_Transcript_Alan_Litwack_Capital_Call_Letter_to_Partners-September-29-2026.md]]
 - [[raw/Meeting_Notes_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
 - [[raw/Meeting_Transcript_Alan_Litwack_Transactional_Equipment_Tax_Write_Off_Model-September-29-2026.md]]
+- [[raw/Meeting_Transcript_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]
+- [[raw/Meeting_Notes_Litwack_JVL_Go_Forward_Noteholder_Buyout_and_Liquidation_Test-November-10-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 35
+source-count: 38
 open-commitments: 3
 open-questions: 2
 ---
@@ -165,6 +165,14 @@ At the [[wiki/meetings/2026-10-29-daily-standup-cash-out-progress-screen-and-pul
 
 At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-scope.md|Nov-5 12:03 PM call]] (Russian) [[wiki/people/pavel.md|Pavel]]: on the machines "Блокируется интро лотом… Там то, что логи собирал Себастьян. Ну было у нас предположение, что ошибочно срабатывает состояние хендпей… Ну, в общемто оно подтвердилось" [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]; the notes: "Sebastian's logs confirmed the guess from the last few days" [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]] — [[wiki/decisions/2026-11-05-a-tilt-is-a-tilt-collect-comes-off-critical-tilt-dialogs-exception-51-stops-when-the-dialog-closes-and-the-fix-ships-free-to-eclipse-november-16.md]], [[wiki/organizations/intralot.md]] (Nov 5). Whether this is the ticket Irina asked him to open on Oct 23 (above) is not said; that commitment stays as recorded on [[wiki/organizations/intralot.md]].
 
+## Nov 23 2026 (in absentia) — with Elizabeth, the tester of Georgia build 4377 on different modems; the multiplexer pin fix he tried with Andrei did not work
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) Irina: the build with all fixes and the modem is handed over — "Элизабет и Себастьян должны его забирать и проверять"; Pavel: on different modems, following the RIS documentation, before it goes to the lab. Pavel also said "Андрей Себастьян пытались это сделать 1 эксперимент, который они сделали, у них не заработал" (the pin fix on a revision-2 board), and a full multiplexer removal is "слишком сложная задача для там Себастьяна или для Андрея" [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] — [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+
+## Nov 24 2026 (3:31 PM) — 73 of about 75 acceptance criteria tested; about 8 fail and about 8 questions; the modem not tested; it will be used on the D27
+
+At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and-modem-not-tested.md|Nov-24 3:31 PM call]] (English; from his phone in the warehouse) Sebastian: testing started on Nov 23, "the middle of the day"; about 75 criteria, 73 done; notes go into "the file that Felipe shared in the group"; "the engineers repaired a lot of fails on the previous version", but about 8 still fail and he has about 8 questions; results to Irina by about 4:30 PM. He had not tested the modem at all; he asked whether the modem will be used on the D27 cabinet, where this software is being tested — Val: "yes, we will be" — so another half day or a day [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]] [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -202,3 +210,6 @@ At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-sco
 - [[raw/Meeting_Notes_Daily_Standup_Cash-Out_Progress_Screen_and_Pulse_Mode_Installs-October-29-2026.md]]
 - [[raw/Meeting_Transcript_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 - [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
+- [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]

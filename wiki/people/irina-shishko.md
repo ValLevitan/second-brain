@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 234
+source-count: 238
 open-commitments: 50
 ---
 
@@ -957,6 +957,22 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 
 At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM call]] (Russian): "то, что у нас в 02:01, оно уже закончено разработчиками сейчас. Осталось это дописать автотест и проверить"; "на мне ещё 5 висит"; she would give the date "ещё пару дней" since autotests are written over the weekend and bugs come back — the date became Wednesday November 25 [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Commitments: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
 
+## Nov 21 2026 (10:01 AM, NOVA-2) — "уже полторы 1000 требований"; tag them with Claude; Texas needs no certificate; she chases Efim's maths
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] she said the Jira requirements project holds "уже полторы 1000 требований" that must be read through; Val: give each requirement a group of tags and run Claude over them. The studio is a new project with its own requirements. On Texas: "Техас это страна без сертификатов"; Georgia needs certification first. Val gave her the chase for Efim's maths for the ported games (Friday) and asked her to bring Alexei into these meetings. Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## Nov 23 2026 (~8:14 AM) — the old NOVA capabilities' requirements "нам не годятся"; requirements rewritten from RAGE in about a week
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) she said the NOVA capabilities in Jira were made by Daniil, and the requirements under them "нам не годятся"; she is writing requirements from the RAGE platform (Val: the source of truth is "рейч код"), will link them to the good capabilities and remove the rest — "где то через неделю". On Biratka's one-feature path for the LGS catch-up: "мы уже идём по другому пути сейчас". She asked whether Andrey Bosik removed the extra repositories [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitment: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
+## Nov 23 2026 (~11:46 AM) — build 4377 with all fixes and the modem goes to the field testers; South Dakota first, then the transactional version; updates "не как часы" yet
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] with Val and Pavel (Russian) Irina: "Я отдала на тест билт сегодня, который со всеми фиксами и с модемом" — build "43 77"; Ivan checked it that morning and a production build was made; "Элизабет и Себастьян должны его забирать и проверять." Priorities: South Dakota, then "следующий приоритет это у нас транзакшнл версия." On updates: "сейчас это работает не как часы" [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]]; South Dakota: [[wiki/projects/south-dakota-vlt-market.md]] (Nov 23).
+
+## Nov 24 2026 (in absentia) — Sebastian's test results come to her
+
+At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and-modem-not-tested.md|Nov-24 3:31 PM call]] (English) Sebastian said that after the last two criteria "I can send all the information to the to Irina"; read as Irina Shishko (QA context) [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]] (Nov-24 update).
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1194,3 +1210,7 @@ At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-r
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]

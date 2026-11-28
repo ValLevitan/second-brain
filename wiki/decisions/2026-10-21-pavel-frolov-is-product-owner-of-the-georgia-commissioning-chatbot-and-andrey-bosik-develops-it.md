@@ -3,7 +3,7 @@ type: decision
 title: Pavel Frolov is product owner of the Georgia commissioning chatbot and Andrey Bosik develops it — the machine itself calls Intralot and a chatbot answers the commissioning questions, every call is recorded, and a failed call goes to a live technician (Val, Oct 21 2026)
 date: 2026-10-21
 aliases: [commissioning chatbot, Georgia commissioning chatbot, chatbot for commissioning machines, комиссия чат бот, чат бот для комиссии машин, commission machine button, machine calls Intralot, Pavel product owner of the chatbot, Bosik develops the chatbot, voice over IP in the cloud]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 4
 open-questions: 2
@@ -52,6 +52,10 @@ Decided by [[wiki/people/val-levitan.md|Val Levitan]] on an ad-hoc Teams call wi
 
 At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-owners.md|Oct-23 "coffee machine" chat]] (Russian) [[wiki/people/pavel.md|Pavel]] said that the day before he prepared "документ, описывающий воркфлум в целом. И какие там есть нюансы" for the automatic assistant that calls and arranges decommissioning and commissioning, and sent it to Andrey to look at; Val: "Андрею босику" — Pavel: "Да да да" [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]. The notes list Bosik's review of it as an undertaking [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]. Later [[wiki/people/andrey-bosik.md|Bosik]] said a voice bot calling the regulator "не сократит время декамишин" — the technician still has to wait on site; Pavel: the key is to take re-commissioning out of every case that does not need it [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]. The wider plan: [[wiki/decisions/2026-10-23-to-sell-in-georgia-jvl-must-win-back-the-operators-technicians-by-making-its-machines-easier-to-service-starting-with-the-lighter-ris-in-november.md]]. Nothing here says spikes are defined or capabilities written, so Pavel's commitments stay open.
 
+## Note, Nov 23 2026 — Val brings the bot to the NOVA team: buy the voice part, do the integration; Intralot likes it
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) Val raised the bot as something "никто из вас не слышал": the call takes "гдето минут 20" by Intralot's count and about two hours by JVL's people; the bot should make the call, hand back to the technician when needed, and send a report. JVL should not design the voice technology — "У меня есть минимум одно предложение… И коз звонка $4 в час"; he knows "как минимум 3" such companies; JVL builds a good integration. "Я уже разговаривал с интерлотом, и эта идея очень нравится." [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. No one was assigned at this meeting [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]], so the Oct-21 roles (Pavel product owner, Bosik developer) are not changed by it, and Pavel's and Bosik's commitments stay open. Record: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -60,3 +64,5 @@ At the [[wiki/meetings/2026-10-23-technician-loyalty-and-developers-as-product-o
 - [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Frolov_Commissioning_Chatbot_Product_Owner-October-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

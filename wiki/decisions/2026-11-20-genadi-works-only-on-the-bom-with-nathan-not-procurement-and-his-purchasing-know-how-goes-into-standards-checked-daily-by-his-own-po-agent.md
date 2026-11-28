@@ -3,7 +3,7 @@ type: decision
 title: Genadi works only on the bill of materials with Nathan, not on procurement; drawings and data sheets for every part go into GitHub, and a missing data sheet is something the agent must report, not guess; what Genadi knows about purchasing goes into written standards, and he builds his own agent that checks all purchase orders once a day against them; MSBC gaps go to Nathan as use cases for his MCP (Val, with Genadi Peari, Nov 20 2026)
 date: 2026-11-20
 aliases: [Genadi only on the BOM, не работали с прокюрментом, работали только под нейтоном, PO check agent, daily PO agent, polit агент, посмотри на все POL, все ваши знания должны лечь в стандарт, data sheets in GitHub, дата шитс, Nathan not faking the assembly, нэйтан не фейкает эту сборку, $1500 air freight, packing list quotation, MCP use case loop, use case for Nathan, Nov 20 Genadi call]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 5
 open-questions: 2
@@ -63,7 +63,13 @@ In one line: **Genadi's hours go to the BOM with Nathan; what he knows about buy
 
 **§15.8:** clear — the $1,500 is a supplier freight quote, not anyone's pay. **§15 #9:** clear.
 
+## Note, Nov 23 2026 — data contracts named the top priority; supplier search to become agent logic
+
+At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcing-and-data-contracts.md|Nov-23 ~1:17 PM call with Genadi]] (Russian) Genadi was still sourcing by hand (monitor controller kits, electromechanical counters). Val made finishing the data contracts and loading all data sheets his top priority — the 5 monitors' controller boards and the counter that day — and asked that supplier search itself be built as agent logic on the data contracts: "если я вас завяжу в прокюрменд, это будет смерть… В автоматике вас завязать" [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]] [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]. This page's data-sheet commitment stays open (partly due that day). Record: [[wiki/decisions/2026-11-23-genadi-first-finishes-the-data-contracts-and-loads-every-data-sheet-into-github-and-supplier-search-becomes-agent-logic-built-on-them.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]

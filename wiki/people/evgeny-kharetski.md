@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 130
+source-count: 133
 open-questions: 1
 open-commitments: 18
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -478,6 +478,14 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian; "Женя", he answers): the ISOs with games should build — "для меня по сути всё готово, чтоб пробовать и сошку с игрой уже ставить" — but the machine ran out of space: a Claude folder "Раздуло до 30 гигабайт" and "ещё чтото 90" GB of leftovers; Pavel: "Ну хорошо я почищу". To Bosik: he builds the framework and engine inside the ISO action himself ("Ну я собираюсь сам"); Bosik asked him to add Docker clean-up. Igor waits for his feedback on the games CI ("жду от жены обратной связи" — read as Zhenya, **inference**). Right after his turn Irina told him Ivan is writing "штук с десяток замечаний" on RIS, from the machine side — "Это нужно будет срочно сделать"; he: "Ага, без проблем" — so Ivan's stories "на женю" are read as his (**inference**) [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
 
+## Nov 21 2026 (10:01 AM, NOVA-2) — the first ISO with a NOVA 2 game and LGS runs on a test stand; brief templates get their own repository; Georgia games on RK by Friday
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] he showed the ISO built from the integration repository: all services, LGS and "Одна игра на базе нового движка"; only green branches can be built; one game and the system take "3 с лишним гигабайта"; the engine takes "2 ядра процессора 210%". He proposed the brief-templates repository ("агент будет смотреть на этот репозиторий") and the next step — convert a set of games and run them on RK "условно к пятнице", with the LGS part brought up to date because "он сильно отстал". Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## Nov 23 2026 (~8:14 AM) — LGS brought up to the data center; the whole NOVA platform on RK; the brief agent does not yet handle maths
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) he said his brief agent "Не не делает брифы с математиками"; Val: "это одна из вещей, которые нужно доделать в первую очередь" (no owner was said; the notes put it on him pending Val's confirmation [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]). On sound: "Чистоклот не умеет слушать". He went through the new setup "скриптами", not with a real RIS, and holds it done "пока не докажем обратно". This week: bring the LGS repository up to the data-center changes (multi-progressive, modem, setup) and bring up "нашу платформу всю ново платформу на р к" with the games ready by then; the team meets daily [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -611,3 +619,6 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

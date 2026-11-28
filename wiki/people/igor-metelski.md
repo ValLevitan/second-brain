@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 99
+source-count: 101
 open-commitments: 34
 open-questions: 1
 ---
@@ -413,6 +413,14 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-only-autotests.md|Nov-20 stand-up]] (Russian): "я вчера настроил ca и для игр" — waiting for Zhenya's feedback ("жду от жены", read as Kharetski — **inference**); build on x86 first, then "н р к" (the RK board) once the ISO shows everything; also Nebraska. He complained the stand-up runs "почти на час" and should be short; Irina: it is about what will be done next [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]].
 
+## Nov 21 2026 (10:01 AM, NOVA-2) — shader or PNG decided after measuring on RK; the Georgia games to NOVA 2 by Friday; Blender-to-video
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] he asked to decide shader versus PNG sequence "когда мы начнём замерять перформанс на машину"; asked for a Monday developers' meeting because his game work and Anton's studio live in separate branches; has two games converted (Twin Bison and a carnival game) and will convert the Georgia games for Friday — "Джорджия готова Джорджия в продакшене" — but Efim gave no maths for Twin Bison. He showed a Blender scene and camera path made by Claude and turned into a short transition video, and a 3D wolf from one picture ("волка 3 лапом"). Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## Nov 23 2026 (~8:14 AM) — maths must come first and belongs in the brief; sound data into the briefs and a sound standard; several games into one ISO
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian): "математику нужно иметь как можно раньше"; "Дефим говорит, что нет" (AI cannot write it); "входные данные для студии это уже готовый бриф" — Val agreed. He will add when each sound starts, its name and maybe its length to the existing Georgia briefs, and Val asked for all approved sounds standardized "так, как игр успешно сделал со всеми fraims". With Kharetski he extends the pipeline to build several games and load them into the ISO, and games for RK; first he merges main into his test branch of framework and engine [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -515,3 +523,5 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

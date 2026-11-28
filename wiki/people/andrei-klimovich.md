@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 160
+source-count: 161
 open-commitments: 114
 open-questions: 0
 ---
@@ -982,6 +982,10 @@ He led the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-mast
 
 At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English) he walked his e-mail list point by point, asking for "exact date and responsible person"; "we've already postponed the release a couple of times with our customer." He undertook to update the location invoice mock-up with interest from day 7, to tell [[wiki/people/monica.md|Monica]] ("who is working on the contract") that the terms must be there too, and to make a payer-agnostic mock-up for the new monthly connection fee invoice; he raised the fee as "" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
 
+## Nov 23 2026 (in absentia; name calls inference) — no first transactional install date yet, he waits for answers; he tried the multiplexer pin fix with Sebastian
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) Val asked when the first transactional system is installed. Pavel: "Андрей не говорил"; Irina: "Он же сказал, что от интролота ждёт каких то ответов"; Val: "Инкома." Whether Intralot or InComm is meant is **unclear**. Pavel had talked about the revision-2 boards with Alekseev and "Андреем. Климовичем", and "Андрей Себастьян" tried the pin fix once, without success [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Both "Андрей" read as Klimovich (installs; named just before — **inference**). Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1145,3 +1149,4 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]

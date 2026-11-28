@@ -3,7 +3,7 @@ type: organization
 title: Intralot (Georgia's central-system operator; route ambitions)
 date: 2026-10-14
 aliases: [Intralot, Intralot Georgia, Bally Intralot, the new Bally Intralot, intra lot, intraday, the interlod, Interlock, Intralock, Interlot, Interloch, Interlord, IntraLa, intro, Intro lap, Incelot, InfraLott, Intellicom, intralight, Intralot lab, Intralot site controller, the site controller, set controller, side controller, Intralot reports, Georgia central monitoring system, state monitoring system]
-source-count: 27
+source-count: 28
 open-commitments: 6
 open-questions: 4
 ---
@@ -159,6 +159,10 @@ At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-sco
 
 **Nov 6 2026.** At the [[wiki/meetings/2026-11-06-daily-standup-modem-off-confirmation-capability-and-cap-287-in-mvp2.md|Nov-6 stand-up]] [[wiki/people/ivan.md|Ivan]]: "Женя мне ещё написал, что лонгпол 51, точнее esco 1 он тоже починил"; Ivan will rebuild his machine to verify, and still does not know "как это донести до интермота" (Nov 5) — no contact with Intralot about the cause is recorded [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]].
 
+## Nov 23 2026 (in absentia) — Val: "Я уже разговаривал с интерлотом", and they like the AI commissioning bot
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) Val described Georgia COAM commissioning — a technician on the phone with an Intralot engineer, "гдето минут 20" by Intralot's count, about two hours by JVL's people — and his wish for a JVL-side AI bot to make the call. He said: "Я уже разговаривал с интерлотом, и эта идея очень нравится", and Intralot may make its own bot on their side ("Они даже со своей стороны, наверное, сделают своего под" — end **unclear**) [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. This answers, by Val's report, the Oct-21 question whether Intralot knows of the bot. Record: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -188,3 +192,4 @@ At the [[wiki/meetings/2026-11-05-georgia-tilt-handpay-fix-and-modem-disable-sco
 - [[raw/Meeting_Notes_Georgia_Tilt_Handpay_Fix_and_Modem_Disable_Scope-November-5-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

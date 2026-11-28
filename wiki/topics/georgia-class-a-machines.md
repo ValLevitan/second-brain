@@ -3,7 +3,7 @@ type: topic
 title: Georgia Class A machines
 date: 2026-08-31
 aliases: [Class A, Class A machines, Alan Powell, twenty five seventy five, twenty eighty, one game suite, forty bucks per day, намберту, в принципе дали мне заказ, two machines a week, five machines a week, the same machines go to Texas, Class A on Nova, Class A V43, party time feature, awards cannot be bet, for now yes, playing within the rules, no book of Class A regulations, if you had a pulse you get a license, not hooked up to a central accounting system, hang our hat on one supplier, slinging them out and seeing what sticks, it's predominantly the meters, Class A licence easier than B, Georgia Class A, Class A licence, amusement machines Georgia, two-bucket win system, $50 per spin cap, $50 per hand, Primero Class A, play bucket, redemption bucket, Hope Scholarship, class eight]
-source-count: 48
+source-count: 49
 open-commitments: 0
 open-questions: 13
 ---
@@ -561,6 +561,10 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 
 At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English): Queen of Luxor has base game, pick bonus, free spins and party time, with "one of the three events… one in 59, one in 60 spins" — volatile but acceptable for an Egyptian theme; Bayou Riches "softer"; Rodeo Spins' party time may get different colours so it does not feel like its re-spin. Val: "there is no approval with Eclipse; we can place machines and locations right away." Lena: production starts "in the middle of January" after Nebraska, "in Nova"; "We're all done with rage" (Michael). Efim: first round of maths "by the end of the next week." Lena's art estimate for six games: "not more than a month" reusing Georgia V3 assets, "three months" with redesign, assuming NOVA and its tools are ready [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]] [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] (Nov-20 update).
 
+## Nov 21 2026 — Class A offered to the NOVA 2 team as a market with no approval; its briefs go through Kharetski's agent
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] Val offered Georgia Class A as another early NOVA 2 market: "мы можем легко и легко экспериментировать без апруло"; the maths is not ready — "ефим дорабатывает. Он сказал, ну максимум ещё неделя. Ну дайте 10 дней." The designs are at concept stage with no production: "Но нету продакшн как раз вам хорошо будет всё это делать продакшн уже на вашей новой системе." Agreed: feed the Confluence pages to [[wiki/people/evgeny-kharetski.md|Kharetski]]'s brief agent, send Val the list of what is missing, and Val gets it from the designers. Texas stays first. Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_ARC_Gaming_Zazanis_Lunch_Trade_In_and_2027_Volume-October-13-2026.md]]
@@ -612,3 +616,4 @@ At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]

@@ -3,9 +3,9 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 61
-open-commitments: 5
-open-questions: 2
+source-count: 63
+open-commitments: 6
+open-questions: 4
 ---
 
 # South Dakota VLT market entry
@@ -421,6 +421,19 @@ At the [[wiki/meetings/2026-10-23-game-development-dual-box-rule-and-colombia-cl
 
 At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-colombia-vertical-games.md|Nov-13 12:10 PM game-development meeting]] (English), [[wiki/people/michael-gottlieb.md|Michael]]: "we took Liberty spins to South Dakota… because we couldn't do predetermined math, we took an approach that you thought was going to work and it didn't. And the game ended up being dead last in the rankings. So we've made some substantial changes to it for rodeo spins for South Dakota and hopefully that will go… and that will work." Val: "South Dakota prohibits predetermined, they only want random" — Efim: "Yes"; Michael: "Correct" — [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]. This agrees with the monthly reports above, where Liberty Spins is among the weakest South Dakota games.
 
+## Nov 23 2026 — GLI finishes testing the first build; two remarks still unanswered; whether Efim's maths change is in the build is unclear; Ivan rechecks on Nov 24
+
+At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) [[wiki/people/irina-shishko.md|Irina]]: "Саус Дакота сегодня джелай закончили тестировать первую, так сказать их. 1 билд но они нам не ответили на. 2 их замечания" ("джелай" = [[wiki/organizations/gli.md|GLI]], the notes' reading). The rest is probably fixed; "Не знаю, только вставлена ли математика тоже ефим подправлял" ([[wiki/people/efim-podvoiski.md|Efim]]). [[wiki/people/ivan.md|Ivan]] returns to the build the next day to recheck all remarks and GLI's answers on the two points. South Dakota comes first; the transactional version is the next priority [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]].
+
+### Open commitments (Nov 23 2026)
+
+- [ ] [[wiki/people/ivan.md|Ivan]] — recheck all GLI remarks on the South Dakota build and the answers on the two open points — due Tue Nov 24 2026 — [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+
+### Open questions (Nov 23 2026)
+
+- What are GLI's answers on its two unanswered remarks on the first South Dakota build? — [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- Is Efim's maths change in the South Dakota build? — [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -485,3 +498,5 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 - [[raw/Meeting_Transcript_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Notes_Game_Development_Dual_Box_Rule_and_Colombia_Class_3-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
+- [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]

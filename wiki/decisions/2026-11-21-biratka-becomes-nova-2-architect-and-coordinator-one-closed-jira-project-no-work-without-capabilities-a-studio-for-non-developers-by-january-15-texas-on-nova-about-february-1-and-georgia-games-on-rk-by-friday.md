@@ -1,0 +1,106 @@
+---
+type: decision
+title: NOVA 2 after the first studio demo and the first ISO with a game — Alexander Biratka becomes architect and coordinator of the engine and games; one new closed Jira project for all NOVA work, seen by 11 people; nothing is done without capabilities and requirements; the studio gets a web base, shared work with comments and three animation types; brief templates get their own versioned repository; Val's dates — a studio a non-developer can use alone by January 15 2027, Texas operating on the new platform with old games about February 1, approval by April 15 at the latest; next step the Georgia games converted and run on RK by Friday Nov 27 (Pavel and Val, Nov 21 2026)
+date: 2026-11-21
+aliases: [Nova-2 follow up Nov 21, NOVA 2 studio demo, game pipeline, studio conveyor, first ISO with a game, Biratka architect, Sasha Biratko architect, closed NOVA Jira project, 11 people, no work without capabilities, без кейпобилитис и реквайрментов, January 15 studio, February 1 Texas, April 15 approval, Georgia games on RK, brief templates repository, one person one game one week]
+source-count: 4
+status: active
+open-commitments: 13
+open-questions: 6
+---
+
+# NOVA 2: an architect, one closed Jira project, Val's dates, and Georgia games on RK next (Nov 21 2026)
+
+Taken at the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov 21 2026, 10:01 AM "Nova-2 follow up"]] (Russian; ~95 minutes), the Saturday showing promised on Nov 17 ([[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md]]) [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]. Architecture context: [[wiki/topics/nova-platform-architecture.md]].
+
+## 1. Anton's studio demo — the "game pipeline"
+
+- **What it is.** A runtime with core libraries; steps plug into it. "Шаг определяет все свои инструменты… свой пользовательский интерфейс свои тесты и свои свой ревью флол", so "несколько разработчиков могли независимы друг от друга работать над отдельными шагами" ([[wiki/people/anton-leshkevich.md|Anton Leshkevich]]). Each step has "файлик agents точка MD". Two steps so far: "Импорт и ревью брифа" and the step "который строит символы". The brief carries versions and migration: "Версий и миграции от одной к другой" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Desktop for now.** "Вот это десктоп приложение… чтобы потом было легко переключиться на вебверсию. Оно написано на электроне" (Electron) [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **The demo.** "Я для демос генерировал бриф из wild fire range для небраски релиза" (Wildfire Ranch, by context). The review screen flags gaps — "в брифе нету описания бэкграунда"; no picture for the jackpot coin — but open questions do not stop the work. Then "12 символов суммарно": each is tested before Approve; a small assistant changed a rotation "на 10 градусов" and re-ran the tests; symbols keep versions. Animations are shader only for now: "Я просто портировал то что было" (from [[wiki/people/igor-metelski.md|Igor Metelski]]'s tools). When all symbols are approved the studio packs them for the engine ("упаковывает картинки ватласы") [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Handoff.** Anton attached "хендо документ" to the meeting chat for any developer who starts on the project: "просто скормить его к лоду" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **The goal stays** "один человек, одна игра" in a week; shared web work is a possible step on the way [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+**What the studio must get (Val's ruling).** Asked for by the team: three animation types — "покадровая анимация… шейдер… скелетная анимация" ([[wiki/people/alexander-biratka.md|Alexander Biratka]]); export to Photoshop and back, because an artist can "в том же фотошопе за 2 минуты убрать там ненужную блёсточку, обратно импортировать" ([[wiki/people/andrey-bosik.md|Andrey Bosik]]); save to the repository at any time (Bosik, [[wiki/people/pavel.md|Pavel Frolov]]); shared work — Val: "Чтобы можно было шеер комментировать." The derived notes record the ruling as "web base, shared work with comments, and the three animation types (Decided by Val)" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]] [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]. Import of existing symbols (for example common royals) is on Anton's list, not built [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+**Shader or PNG sequence — decided later.** Igor: "давайте вернёмся к этому вопросу, когда мы начнём замерять перформанс на машину. Ну особенно на вот это р к"; Biratka agreed [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+**Repositories — not settled.** Bosik: "у нас было 2 репозитория… один сасетцами куда ложились графические исходники и 2 уже с самой игрой, где был код игры и готовы атлас с картинками" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+## 2. Kharetski's first ISO with a NOVA 2 game
+
+- **Built and running.** [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]]: "На базе новый интегэйшн репозитория. Сделал так, чтобы можно было собирать образ… все наши… сервисы и. Одна игра на базе нового движка"; LGS is in it — "всё работает так как оно должно работать на настоящих машинах" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]. The notes: installed from a USB stick on a test stand, the carnival game [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **The builder.** Picks a version of each part; only green branches can be built: "можем собрать только то, где вся зелёный полностью." Everything runs "в докерс контейнерах" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Load.** The stand has "32 гигабайта оперативной памяти"; without the browser, "Одна игра и вся наша система занимает в памяти 3… 3 с лишним гигабайта"; the RK platform has 8. Docker memory dropped after a code change: "мы освободили 2 или 3 гигабайта лишних." The open point: "Движок движок занимает полностью целых 2 ядра процессора 210%" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Install flow** needs work: the stick must be pulled out fast "чтобы она снова не загрузилась в флешки при перезагрузке" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Disk.** Pavel: on the RK3576 "нам надо всётаки ставить внешний жёсткий диск", because the soldered eMMC can be worn out; the database belongs on the external disk; the eMMC suits the secure checks. [[wiki/people/genadi-peari.md|Genadi Peari]]: check the GLI rules before deciding what goes in containers — "Поэтому запись это не здоровая операция." Kharetski may also try the services without Docker; Bosik suggests light Linux images such as Alpine [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+## 3. The rulings
+
+- **Alexander Biratka — architect and coordinator.** Pavel: "предлагается сделать вот архитектором и. Движущей силой этого проекта сашу биратко. Чтобы он взял на себя вот самый верхний уровень… Этого движка и игр", and to take part in capabilities and requirements. Val asked who objects; Anton: "Я не нет возражений меня против"; Pavel: "Координатором" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Two meeting streams.** Pavel: a separate daytime NOVA meeting "удобное для Антона время", the morning stand-up for transactional and other topics. Val: "меня включаете во все митинги в любое время" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **One closed Jira project.** Val: "Андрей давай поговорите с Димой, чтоб он открыл под это новый проект"; existing NOVA projects folded in — "давайте закроем эти все проекты"; "10 человек, плюс Алексея это 11 человек… Вся остальная информация должна быть закрыта" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **No work without capabilities and requirements.** Val: "без киев из и рекламу, пожалуйста, ничего не делайте" (heard; capabilities and requirements) [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Requirements are tagged.** [[wiki/people/irina-shishko.md|Irina Shishko]]: the Jira requirements project "уже полторы 1000 требований" and they must be read through. Val: "на каждое требование нужно иметь группу тагов… запустить туда клота, чтобы он сделал тагину." Irina: the studio is a new project with its own requirements; those for games and framework are reused [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Brief templates in their own repository.** Kharetski: "давайте мы заведём репозиторий от брифы… и просто агент будет смотреть на этот репозиторий. И оттуда брать последней версии"; Val: "Классная." This answers Anton's concern that the brief will change as the pipeline grows [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+## 4. Val's dates and the end goal
+
+- **January 15 2027 — a studio for a non-developer.** "К 15 января 27… Студия инваймент, с которым человек, который не девелопер, может интерфейс работать… Самостоятельно. На расстоянии", and submit comments. Earlier: "у нас начинают работать новый продюсер 15 января." Pavel: "15 января это пятница, наверное, поэтому 17"; Irina: "студия к 18" — the exact day was not fixed [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **About February 1 2027 — Texas.** "Начало мы начнем оперировать в Техасе… я бы сказал бы 1 февраля", on the new platform with "Старые игры переделаны". Val would prefer two platforms, "Но как вам удобно? Я согласен на одну платформу"; "я возьму любую вещь, которую вы мне дадите"; the point: "посмотреть, что взрывается." Irina: Texas needs no certificate; Georgia needs certification first. Which product (NAD 1 or NAD 2) was not settled [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]. See [[wiki/projects/texas-used-machine-distribution.md]].
+- **April 15 2027 at the latest — approval.** "К 15 апреля максимум… Мы должны опроф. Систему новую j." What is approved, and by whom, is **unclear** (the notes: "it sounds like GLI") [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]] [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **Georgia Class A as another option.** "мы можем легко и легко экспериментировать без апруло"; maths not ready — "ефим дорабатывает. Он сказал, ну максимум ещё неделя. Ну дайте 10 дней." The Class A designs are at concept stage, with production still to do — Val: "Но нету продакшн как раз вам хорошо будет всё это делать продакшн уже на вашей новой системе" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]. See [[wiki/topics/georgia-class-a-machines.md]].
+- **Class A briefs through Kharetski's agent.** Igor: feed the Confluence pages to the tool "чтобы он сделал бриф в нужном формате, и мы тогда сразу видим, чего нам не хватает." Val: "Евгений на выдаче даст нам отчёт мне не хватает… Отправьте это мне" — he gets the rest from the designers [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **The art team.** Today "Только продакшн стоит 6 игр… От 30 до 45 дней" with no art rework, and three "до 4" months with rework; concept and design "ещё гдето месяц 45 дней." Val will not give the game-design agent to the designers yet: "я хочу дать им готовый проект, проверенный"; "Я не верю, что у нас Художественный состав останется в том составе" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+- **The end goal.** Machines with a modem report "какая математика работы, какие сюжеты в играх работают в каждом из регионов"; "Мы на лету делаем игру за неделю"; it goes to the lab, then "по модуму в машину"; a month of data, then the next game — per group of regions and per state. Genadi "со следующего года начнёт готовить новый харвар машину", and Val will add sensors "которые… индустрия пока боятся их ставить" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+## 5. Next step — Georgia games on RK by Friday
+
+Kharetski proposed converting a set of games and running it on RK, "условно к пятнице"; Igor: Georgia, because "Джорджия готова Джорджия в продакшене"; Anton: it "сразу подсветит проблемы с движком". Igor has two converted (Twin Bison and a carnival game) and can bring "фил гэ и игры это 4 штуки и джип р г игры это ещё 4 штуки" (heard). Efim gave no maths for Twin Bison. Val: "в пятницу вас устроит?" and gave the maths chase to Irina [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]].
+
+## 6. Igor's Blender-to-video method
+
+A scene and camera path made in Blender by Claude ("все за меня делает клод"), then a reference clip fed to a video generator that "довольно точно придерживается ракурсов"; a short transition for a vertical Texas test game. A 3D wolf made from one picture came out "волка 3 лапом" [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]. See [[wiki/topics/game-art-animation-production-pipeline.md]].
+
+## Relation to earlier rulings
+
+- [[wiki/decisions/2026-11-17-the-nova-builder-becomes-a-step-by-step-pipeline-with-human-review-in-a-team-repo-quality-before-cost-first-iso-shown-saturday-rk-build-next.md|Nov 17]] — the step pipeline and the Saturday ISO were promised; both were shown. **Discharged in substance.**
+- [[wiki/decisions/2026-11-13-nova-is-done-only-when-a-ci-built-image-from-the-production-server-runs-on-a-machine-the-first-iso-is-built-tuesday-texas-first-then-georgia-and-the-design-agent-waits.md|Nov 13]] — Texas first, then probably Georgia; Nov 21 keeps Texas first and puts a date on it. **Evolution.** Nov 13 said "done" means a CI-built image from the production server; the Nov-21 ISO was built from the integration repository on a test stand — whether it came through the production server is not said.
+
+## Open commitments
+
+- [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — finish and merge Daniil's sounds into the engine — due Mon Nov 23 2026 ("к понедельнику") — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]], Anton Leshkevich, [[wiki/people/alexander-biratka.md|Alexander Biratka]] and the developers — meet on Monday to bring the branches together and set one starting point — due Mon Nov 23 2026 — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] (with "Dima") — open the new closed Jira project for the 11 people and fold the existing NOVA projects into it — due unspecified ("Всё организуем без проблем") — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — bring Alexei (automatic tests) into these meetings — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] Irina Shishko — get Efim's maths for the games being ported — due Fri Nov 27 2026 — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — build the converted games into one image, bring the LGS part up to date, run it on RK and measure performance — due Fri Nov 27 2026 — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] Igor Metelski — convert the Georgia games to NOVA 2 — due Fri Nov 27 2026 — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] Alexander Biratka and the team — make a schedule for MVP 1 and MVP 2 that fits Val's dates and say which features fit; tell Val if it does not — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] [[wiki/people/pavel.md|Pavel Frolov]] — set up the separate daytime NOVA meeting and invite Val to all meetings — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] Evgeny Kharetski — create the brief templates repository and point the agent at it — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] The team (Igor, Kharetski, Irina) — feed the Class A pages from Confluence to the brief agent and send Val the list of what is missing; Val gets it from the designers — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] Irina Shishko — tag the Jira requirements with Claude so they can be sorted — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [ ] Igor Metelski — send Anton material on the Blender-to-video method — due unspecified — [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## Open questions
+
+- Texas on about February 1: which product exactly — NAD 1 or NAD 2, one platform or two, how many games? — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- What must be approved by April 15, and by whom ("Систему новую j" — GLI is the notes' reading)? — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- Is two full CPU cores for the engine acceptable, and can it be cut? — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- Docker or plain services on RK — and do the GLI rules allow the disk writes containers make? — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- One repository per game or per release, and where does work-in-progress art live? — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- The exact January date for the studio (15th, 17th or 18th) — [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+**§15.8:** clear — no person's pay. **§15 #9:** none.
+
+## Note, Nov 23 2026 — the first working session: IP-481 as root, Biratka owner, one weekly MVP
+
+At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) the team set "NOVA" as the only name, IP-481 as the root initiative for all capabilities and MVPs, with Biratka as its owner, and one MVP — NOVA-MVP-1 — for hardware, system and studio, about weekly; the January-15 limit for the studio was restated; this week Kharetski brings the whole platform up on RK and Igor builds several games into the ISO, carrying on the Georgia-games-on-RK step [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]] [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. This page's commitments are not discharged by it: the closed Jira project is not mentioned (work is put under IP-481 instead), and no MVP schedule beyond "about a week" was set. Record: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
+
+## Sources
+
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]

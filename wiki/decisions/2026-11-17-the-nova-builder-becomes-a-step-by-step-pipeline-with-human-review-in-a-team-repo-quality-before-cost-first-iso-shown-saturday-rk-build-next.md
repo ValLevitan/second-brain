@@ -3,9 +3,9 @@ type: decision
 title: The NOVA game builder becomes a step-by-step pipeline with a human check between steps instead of one central agent running all others; Anton's converter leaves the engine repository for a new team repository and Igor and Kharetski join; quality first, cost later; the first ISO with a game (Igor's Twin Bison) is shown Saturday Nov 21, 10 AM to noon; next an RK3576 build with services and no game (Wednesday); system messages get a proper standard library; NOVA-2 requirements come from prose written from Rage; test builds stay local and machine downloads need their own portal; a producer joins Jan 15 and the design team gets the system from Mar 15 (Val, Nov 17 2026)
 date: 2026-11-17
 aliases: [NOVA-2 follow-up - Tuesday check, NOVA-2 Step Pipeline Team Repo and Saturday ISO Demo, step-by-step pipeline, Пошаговый подход, детерминистический конвейер, 10 министический конвейер, human review between steps, academic rowing, академическая гребля, единоборство, team repository for the converter, quality first cost later, Twin Bison on NOVA-2, твинбайс, thind bys, Saturday ISO demo, ISO on crutches, а с о имидж на костылях, system message library, библиотеку месседж, requirements from Rage prose, RK3576 services build, multi-arch Docker, malty arch, machine portal separate from transactional, producer from January 15, hand-over to Lena March 15, style book, стайлбук]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 11
+open-commitments: 9
 open-questions: 6
 ---
 
@@ -103,14 +103,12 @@ Val: "я бы сегодня концентрировался не на… бо�
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — move the converter out of the engine repository into a new repository with clean code for team work, and build the first step-by-step pipeline prototype ("я разнесу код из движка, построил 1 прототип") — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/anton-leshkevich.md|Anton Leshkevich]] — call Igor and Kharetski to show the new set-up ("завтра") — due Wed Nov 18 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — set up CI for games and put Twin Bison into the ISO so it runs on a machine — due Sat Nov 21 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
-- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — go on with the ISO build (FP7, x86) and support Igor so the build comes with a game — due Sat Nov 21 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — build the services (bill validator, IO board) and an RK3576 build with them and no game — due Wednesday (Nov 25 per the notes; inference) — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — take the system messages and close that part through Daniil, guiding and checking him — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — have Claude write prose from the Rage engine and games, pull NOVA 2 capabilities and requirements, and check them — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — more two-monitor RK stands, or Daniil's stand to Kharetski — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] (proposed) — re-confirm the RK dates at the Saturday meeting — due Sat Nov 21 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [ ] Unassigned (Bosik: "Нам тогда нужно собраться, обсудить это") — a meeting on the production portal for machine builds, separate from the transactional portal, with Dima Chudinov — due unspecified — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
-- [ ] Unassigned — ask Daniil whether he wants to join the Saturday meeting ("надо предложить, если захочет") — due Sat Nov 21 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 
 ## Open questions
 
@@ -123,7 +121,18 @@ Val: "я бы сегодня концентрировался не на… бо�
 
 **§15.8:** clear — the money talk is company AI spend (20 cents a fix, model discounts); no named person's pay; the producer's contract terms are garbled and not recorded beyond the dates. **§15 #9:** none. Personal matters not recorded.
 
+## Nov 21 2026 update — the Saturday showing happened
+
+At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] Leshkevich showed the step pipeline (brief import and review, symbols, each step with its own tools, tests and review) and Kharetski showed the first ISO with one NOVA 2 game and LGS running on a test stand. Twin Bison was not the game: Igor — "ефим не дал нам математику на твинбайсон, поэтому собственно пришлось конвертить крестной сети карнавал" (a carnival game), so his Twin Bison commitment stays open. The RK run is the next step: the Georgia games converted and measured on RK by Friday Nov 27. See [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
+## History
+
+- [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — go on with the ISO build (FP7, x86) and support Igor so the build comes with a game — due Sat Nov 21 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] — **done Nov 21: the ISO with one NOVA 2 game and LGS ran on a test stand** [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [x] Unassigned — ask Daniil whether he wants to join the Saturday meeting ("надо предложить, если захочет") — due Sat Nov 21 2026 — [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]] — **done: the Nov-21 notes list Daniil Stauskiy among the attendees** [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Notes_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
+- [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
