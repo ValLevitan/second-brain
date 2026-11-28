@@ -3,9 +3,9 @@ type: decision
 title: One game, one merge into the NOVA integration branch (not everything at once); the studio stays single-user with a fixed order of steps for now — Biratka's template-based parallel work is for a future version, to be revisited before about January 15; the curve-based effect editor waits; the brief must describe the help screens, because the GDD will be generated from the brief; also MVP 1 needs a game to prove the framework, Igor's four Georgia games are ready but unchecked and wait on Efim's match-3 progressive maths, all services build for ARM, and Pavel and Kharetski want a general call with Efim on how the maths set is built into the RK image (NOVA stand-up, Nov 25 2026)
 date: 2026-11-25
 aliases: [one game one merge, одна игра один мерж, integration branch, studio single-user fixed steps, одна пользовательский режим, template-based parallel studio work, help screens in the brief, описание хелпа в брифе, GDD generated from the brief, curve effect editor postponed, lock button studio, procedural symbols after brief import, match-3 progressive maths, мачт 3 прогрессив, Efim maths preset, remote maths server, ARM builds, RK image with LGS only, maths in the image, 1000 games maths, game select screen, liquid glass icon, Dragon Pays in the NOVA repository, machine-state feature 1353, RAGE data centre moved into LGS]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 10
+open-commitments: 9
 open-questions: 4
 ---
 
@@ -56,7 +56,6 @@ Agreed at the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-r
 
 ## Open commitments
 
-- [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — push Efim for the match-3 progressive maths for NOVA — due Nov 25 2026 (written during the meeting) — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — test several games together through the game select screen and profile memory, locally first; move the game icon into each game repository — due unspecified (icon work "прям час") — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — create a capability for the select-screen work if none exists; set the MVP 1 release on the capabilities after Daniil's and Pavel's review — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — finish the machine-state feature, then start the engine-side screen display — due Nov 26 2026 ("Завтра") — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
@@ -74,9 +73,19 @@ Agreed at the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-r
 - What format does help text use for symbol substitutions and formatting? — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - How will the studio offer ways to make an effect (sprite, video, shader, code, Spine)? — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 
+## Note, Nov 26 2026 — Efim's match-3 maths is in the last build, but tied to his own way of passing progressive parameters; the call with Efim is set for the same day
+
+At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) [[wiki/people/irina-shishko.md|Irina]] reported that Efim told her he heard about the NOVA match-3 maths "1 раз"; [[wiki/people/evgeny-kharetski.md|Kharetski]]: Efim has now delivered it — "Уже в белде есть" — but initialising it needs Efim's new approach, which the team does not accept, because LGS cannot know which games need progressive parameters. The team wants the maths to describe itself, meets Efim the same day, and adds the API itself if he will not [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. The general call with Efim (commitment above) is being set up; the match-3 question above is answered only in part. Record: [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 **§15.8:** clear. **§15 #9:** none.
+
+## History
+
+- [x] [[wiki/people/irina-shishko.md|Irina Shishko]] — push Efim for the match-3 progressive maths for NOVA — due Nov 25 2026 (written during the meeting) — [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]] — **discharged Nov 26 2026**: she asked Efim and reported his answer ("я 1 раз об этом слышу") [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]
 
 ## Sources
 
 - [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - [[raw/Meeting_Notes_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]
+- [[raw/Meeting_Notes_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

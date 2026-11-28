@@ -3,7 +3,7 @@ type: person
 title: Alexei Khamin
 date: 2025-04-22
 aliases: [Alexei Khamin, Aliaksey Khamin, Alexey Khamin, Khamin, Хамин, Khanin, Ханин, Kamin, Alexey Kamin, Lyosha, Лёша]
-source-count: 102
+source-count: 103
 open-questions: 2
 open-commitments: 30
 ---
@@ -436,6 +436,10 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian; label "Alexey Khamin") he reported testing the Flex-Port by hand — updates, money in and out, update through the server — all fine "Кроме киса возврат на предыдущий релиз". Today he makes a broken firmware to check the fall-back. He sees about 10 to 15 merged but undeleted branches in the firmware repository, and an Emma story with the same author and assignee [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
 
+## Nov 26 2026 (3:45 AM) — 20 stage firmwares: the update code erases the base application; narrowing the follow-up Claude reviews
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian; label "Alexey Khamin") he reported about 20 test firmwares, one per update stage, and that the code says the base application is not returned to after a certain stage, against the requirements; he thinks it is a hardware limit and will list his findings for the letter to Alekseev. He objected to the recycler on production ("без требований, без без скапов") and is narrowing the reviews that follow the bot's first comments, with statistics gathered [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -540,3 +544,4 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

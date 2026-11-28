@@ -3,7 +3,7 @@ type: decision
 title: Sebastian stops testing the Georgia modem today and finishes it on Friday from a simple checklist that Ivan makes out of his LTE-modem test plan (due the Minsk evening of Nov 26), because the modem change has no requirement with acceptance criteria yet; modem support instructions are needed anyway (how to check it works, see its state, know the data reaches the server, find problems); the South Dakota VLT build gets the new RIS but not the modem, and the next build also answers GLI's two open issues; the SD VLT RIS capabilities stay in Jira because of GLI (not moved to GitHub), and Pavel proposes one capability with one feature for merging the commits; about one week of testing is accepted (Val, with Pavel Frolov and Irina Shishko, Nov 25 2026)
 date: 2026-11-25
 aliases: [RIS+Modem Flex-GACOM Status update, RIS Modem Sebastian Checklist and SD VLT RIS Port, Nov 25 RIS and modem call, 75 acceptance criteria for RIS, modem checklist for Sebastian, LTE modem test plan, план тестирования л т и модема, Sebastian off the modem today, снимем его с того чтобы он сегодня проверял модем, modem support instructions, инструкции как проверять работоспособность, modem wrong requirement link, неправильная ссылка, SD VLT new RIS not modem, модель не добавляем, не для сауздаты локалити, SD VLT fixes and RIS improvements, capabilities 304-310, one capability one feature for the merge, merge into another branch, неделя, GLI two issues]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 6
 open-questions: 2
@@ -58,9 +58,14 @@ Taken at the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt
 - Are GLI's two open South Dakota issues real problems? GLI has started to answer — [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
 - Which requirement, with acceptance criteria, belongs to the Georgia modem capability? The current link is wrong — [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
 
+## Note, Nov 26 2026 — Ivan hopes to give Sebastian a RIS build with all fixes; the South Dakota RIS capabilities are still to be rewritten
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/ivan.md|Ivan]] was checking the tests Claude wrote for [[wiki/people/sebastian.md|Sebastian]] and hoped to give him a build with all fixes at the end of the day; Tsymanov's CMS changes must first go to STG, and there was no task for it. A pending task is to plan and rewrite the capabilities, requirements and features for the South Dakota RIS improvement — Pavel: "По факту это перенос кода из Джорджа"; Ivan: "в солсакоте есть свои нюансы и тут нужно быть аккуратными" [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 **§15.8:** clear. **§15 #9:** clear — capability numbers only.
 
 ## Sources
 
 - [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
 - [[raw/Meeting_Notes_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 348
+source-count: 350
 open-commitments: 121
 open-questions: 0
 ---
@@ -1627,6 +1627,10 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 
 At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian): Sebastian checks only what the modem change asked for; "нам всё равно для модома надо инструкции, как проверять работоспособность", since "через 3 месяца к нам придут и скажут. Ваш модем не работает?"; Ivan writes the first version. For South Dakota VLT the capabilities are "избыточное такое количество"; one capability and one feature for moving the commits would do, and he plans them on the Minsk side [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
 
+## Nov 26 2026 (3:45 AM and 6:28 AM) — a dev branch for 2.2; the recycler stays off production; he writes to Alekseev; the capability status flow; the maths should describe itself
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) he led; agreed the temporary "dev" branch for MVP 2.2, moved the master capability to Accepted and explained the status flow, and said he will write to Alekseev about the Flex-Port update erasing the base application [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) he set the ISO test plan (existing stand, then the same drive in a touch machine), wants one more movable vertical machine, has access to the maths code and ran a Claude query on it, and was asked to create the meeting with Efim [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. Records: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]] · [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1981,3 +1985,5 @@ At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-p
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

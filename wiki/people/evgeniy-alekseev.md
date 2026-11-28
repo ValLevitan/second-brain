@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 77
+source-count: 79
 open-commitments: 11
 ---
 
@@ -317,6 +317,10 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian; not present) Pavel: the newest Flex-Port board revision with the Wi-Fi module soldered on "есть у Евгения Алексеева"; he made the main-processor update flash the Wi-Fi module too, Minsk cannot test it, and "мяч на его стороне". Pavel: "пока мы не подтвердим… ну 21 мы не можем закрывать." His task is capability 399 (feature heard as "afort 258"), due that day in Jira; Pavel added a check that after the update the module "по крайней мере сканирует сеть". Seregin is to write him an instruction for the Flex IQ emulator, because "у Алексея больше всего времени в выходные будет". Klimovich: last week he sent 6 boards with Wi-Fi modules he fitted by hand [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
 
+## Nov 26 2026 (in absentia) — asked whether the Flex-Port update can avoid erasing the old application
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) Khamin found that the Flex-Port update code erases the base application after a certain stage, against the requirement to return to it; Pavel: "Давайте напишем алексееву письмо с вопросами", and the requirement is not cancelled without his confirmation. Kovalchuk also noted his Wi-Fi-module test from Nov 25 sits in no Jira project [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
@@ -397,3 +401,5 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 - [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

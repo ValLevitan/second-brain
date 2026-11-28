@@ -3,7 +3,7 @@ type: decision
 title: Procurement reports come only from MSBC — the Excel-export report must go; the MSBC consultant builds the reports and names the endpoints, Nathan links them through the API into MCP; Genadi works out the gaps with Lev this week so Mary gets concrete work
 date: 2026-10-13
 aliases: [reports only from MSBC, one source of truth for procurement, Misha's Excel report, pivot table report, freezing the facts, transport invoice, consultant builds the report, Nathan links endpoints into MCP, 1 2 3 4 gaps for Mery, 70 percent sure the report is needed]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 5
 open-questions: 2
@@ -45,6 +45,10 @@ Genadi mentioned an open-source ERP at "$30 в месяц". Val: that is per use
 
 In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purchasing-endpoints-and-ai-coo.md|Oct 19 "GitHub-MSBC" meeting]] (English; Val, Genadi, Nathan) Val said: "We need to move away from building specialized reports. It has to be done through a multi-contextual protocol" — Mary writes in Spanish or English and gets an answer. Nathan is to add more MSBC endpoints for end-to-end inventory control, driven by AI COO use cases Val writes; Nathan agreed. Val also said the count "is more or less okay now" and the real gap is purchase invoices (prepayments, vendor shipping notices, lead time) [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]. Ruling: [[wiki/decisions/2026-10-19-mary-asks-business-central-through-mcp-not-special-reports-and-nathan-adds-msbc-endpoints-from-ai-coo-use-cases.md]]. **Evolution:** MSBC stays the only source and MCP the way in; the endpoint list now comes from the use cases. The consultant and Lev's report work were not mentioned on Oct 19, so those items stand as written. The notes record the same [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]].
 
+## Nov 27 2026 update — a price in MSBC must rest on a vendor quotation
+
+At the [[wiki/meetings/2026-11-27-genadi-flexport-github-msbc-link-and-vendor-quote-rule.md|Nov-27 call]] with Genadi, Val ruled: "The only source of truth is a direct Vendor quote that can only be sourced from the procurement@jvl.ca email box"; "A final price that can enter MSBC must always be supported by a vendor's quotation emailed to on their letterhead to our procurement@jvl.ca". MSBC item costs, JVL's own PO prices and receipts are "never a source of truth" — Claude had traced a 5-inch LCD's $4.34 item-card cost to an internal JVL Labs transfer and its $24.30 to JVL's own PO [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. **Evolution:** MSBC stays where the final price lives, but a price there counts only when a quotation backs it. Record: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/genadi-peari.md|Genadi Peari]] — work with Lev Rudky this week on what the procurement reports need and what administrative data is missing in MSBC; list the gaps so Mary gets concrete work — due week of Oct 13 2026 — [[raw/Meeting_Transcript_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
@@ -66,3 +70,4 @@ In segment 2 of the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-proj
 - [[raw/Meeting_Notes_GitHub_MSBC_AI_BOM_and_MSBC_Reports-October-13-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]

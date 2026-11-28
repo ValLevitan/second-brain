@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 141
+source-count: 143
 open-questions: 1
 open-commitments: 18
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -507,6 +507,10 @@ At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-gam
 
 At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian; not present) Irina: the SD VLT RIS capabilities have no features because "женя их туда ещё не переносил"; the work is a merge of existing changes "в другой бранч", and "Перенесёт женя, наверное, сразу, как только скажет." Read as Kharetski, who does the RIS work (**inference**; the notes say "Evgeny") [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Commitment: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
 
+## Nov 26 2026 (6:28 AM, NOVA) — a three-game ISO; Efim's way with progressive parameters; tagged autotests
+
+At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) he had an ISO with three games ready for the stand, then a touch machine; he told the progressive-parameters story — LGS cannot know which games need them and Efim "сделал так, как удобно ему" — and built the ISO without the game that needs Efim's new approach. The integration repository is ready for tests with the SAS tool; he proposed tagged autotests, listed by his Claude, for Biratka to review [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. (In absentia at the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]], "женя" asked whether the bill-validator module should be a separate service — name call an **inference** [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]].) Record: [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -651,3 +655,5 @@ At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-p
 - [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

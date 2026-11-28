@@ -3,9 +3,9 @@ type: decision
 title: Nothing new goes into the BEP Jira project — under the standard each repository has its own feature prefix, BEP is to be closed and everything in it deleted, and Ivan moves his stories to the CMS project; a change to an old project gets a new capability, even a small one; Flex-Port power loss in the middle of an update is not reported to the terminal now — Pavel calls it a separate MVP, and Seregin proposes the change in the requirement for its owner Klimovich to approve; Bosik opens a capability so Chudinov removes dead code before the GitHub variables are deleted; also Seregin's loader fix, Khamin's manual Flex-Port round, Emma's duplicate features, Claude limits and the "standards" plugin, and Pavel's view that MVP 2.1 goes on all devices (Minsk stand-up, Nov 25 2026)
 date: 2026-11-25
 aliases: [BEP project closed, BEP Jira project, в бепах создаю, такие проекты как б е п, own prefix per repository, свой префикс для фич, new capability for old projects, новый копбилитик, power loss during update, отключение питания посреди обновления, item 130, item 128 counters, acceptance criterion 4, аксебзенс критери 4, отдельный MVP, dead code capability, GitHub variables clean-up, GitHub application change on main, cluster updates by New Year, capability 253, IP-747, IP-435, standards plugin, Стандартс, Claude limit 10 percent, Claude reset button, Emma duplicate features, MVP 2.1 on all devices]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 11
+open-commitments: 10
 open-questions: 5
 ---
 
@@ -58,10 +58,13 @@ Settled at the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-upd
 - **MVP 2.1.** Bosik asked when the Flex IQ MVP 2.1 release is; Irina: "Сегодня… Но его не будет." Pavel: since MVP 1 was never installed, "MVP 21 будет поставлен на все устройства", which gives remote firmware updates; wires are still needed, as some devices have no Wi-Fi module [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Earlier: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
 - **RK3576 and RIS.** Pavel prepares the RK3576 so "женя" can use it for the new installer. Ivan rebuilds RIS with Zhenya's fixes; Zhenya sent Pavel questions on a modem, which needs a SIM card; Ivan will come to Pavel for the modem (both "Zhenya" = [[wiki/people/evgeny-kharetski.md|Kharetski]] — **inference**) [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]].
 
+## Note, Nov 26 2026 — Khamin's broken-firmware test became 20 stage firmwares: the update code erases the base application; Seregin closed item 130; cluster updates run to the New Year holidays
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]] reported about 20 test firmwares, one for each update stage; the code itself says that after a certain stage "возвращение к базовому приложению не будет", against the linked requirements, so Pavel writes to Alekseev before the requirement is touched. [[wiki/people/anton-seregin.md|Seregin]] closed items 235 and 130 (130 was the power-loss case above) and is reviewing 128 and 234. [[wiki/people/andrey-bosik.md|Bosik]]: the cluster updates go on "до новогодних каникул", more than a hundred, each about two minutes; one large update of about two hours comes later, not that week [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — comment on the power-loss requirement (acceptance criterion 4) that the failure is seen by indirect signs, for Klimovich to approve — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — make a broken firmware and check the device falls back after a failed update — due Nov 25 2026 — [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [ ] [[wiki/people/ivan.md|Ivan]] — move his stories from BEP to the CMS project — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [ ] [[wiki/people/irina-shishko.md|Irina Shishko]] — move capability 253 from IP-747 to IP-435; re-check her merged firmware branches are deleted — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — create the capability for Chudinov's dead-code removal, then delete the GitHub variables — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
@@ -84,7 +87,12 @@ Settled at the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-upd
 
 **§15.8:** clear — Claude usage limits are tool quotas, not anyone's pay. **§15 #9:** clear — Jira item and capability numbers only.
 
+## History
+
+- [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — make a broken firmware and check the device falls back after a failed update — due Nov 25 2026 — [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] — **discharged Nov 26 2026**: he made about 20 test firmwares, one per update stage [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

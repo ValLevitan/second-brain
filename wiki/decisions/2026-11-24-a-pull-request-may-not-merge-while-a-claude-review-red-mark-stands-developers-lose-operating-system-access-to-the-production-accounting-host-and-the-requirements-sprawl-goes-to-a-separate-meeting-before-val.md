@@ -3,7 +3,7 @@ type: decision
 title: A pull request may not merge while a Claude-review red mark stands — fix it, re-run the review, then merge, with exception cases still being tested by Bosik (Pavel asked that a reasoned reply to the red mark be enough); developers lose operating-system access to the production accounting host and such work goes through Bosik's team, though GlassFish problems stay shared; the requirements sprawl (about 1,100 Jira requirements, duplicates unknown, Chudinov's product-spec-in-GitHub idea against Pavel's "the capability is the spec") goes to a separate meeting that brings a proposal to Val; the Minsk Nexus stays and is cleaned up after New Year; also the Flex-Port update hang traced to the firmware-bank switch, with Seregin's fix that refuses pre-release versions (Minsk stand-up, Nov 24 2026)
 date: 2026-11-24
 aliases: [Claude review merge gate, red mark blocks merge, красный кружок, клод ревью, merge blocked by Claude review, no OS access to production accounting host, доступа у вас туда в операционку больше нет, requirements sprawl, 1100 requirements, порядка 1100 реклариментов, product spec in GitHub, спека на продукт, Flex IQ Port spec, capability is the spec, Minsk Nexus clean-up after New Year, firmware bank switch hang, pre-release version blocked, dead secrets clean-up, jvlgaming.com certificate, Grafana error emails]
-source-count: 6
+source-count: 7
 status: active
 open-commitments: 11
 open-questions: 5
@@ -96,6 +96,10 @@ Settled at the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-
 At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) Seregin reported his port fix made and checked by autotests, with the old loader refusing the update; his counters question (item 128) still blocks. Khamin ran the manual Flex-Port round — all fine except returning to the previous release. Irina said a 4:00 meeting covers capabilities and requirements, arising from "вчера женя разговаривал с валом"; Chudinov was not invited and Biratka will bring him [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
 
 
+## Note, Nov 26 2026 — local self-review runs up to four rounds before the pull request, then the bot reviews once; Khamin narrows the follow-up reviews; the accounting host and internet access
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/anton-seregin.md|Seregin]] said the local review now runs "по 4 круга", even for documentation prose, up to an hour. [[wiki/people/vladimir-samusenko.md|Samusenko]]: the standard ends self-review when no faults are found, "максимум 4 круга"; [[wiki/people/pavel.md|Pavel]]: after the pull request "ещё одно ревью будет уже на gi". [[wiki/people/alexei-khamin.md|Khamin]] is narrowing the reviews that follow the bot's first comments — only the changes, a medium or high setting — since "Основное основное время и токены занимают именно ревью". Bosik asked Ivan whether the accounting host must be reachable from the internet that day; Ivan will tell him [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## History
 
 - [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — run a full manual cycle on the Flex-Port, updates first — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] — **discharged Nov 25 2026**: done by hand, all fine except returning to the previous release [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
@@ -108,3 +112,4 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

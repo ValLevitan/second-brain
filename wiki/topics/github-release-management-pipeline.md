@@ -3,7 +3,7 @@ type: topic
 title: GitHub release management and the CI/CD release pipeline
 date: 2025-10-21
 aliases: [release management, release pipeline, CI/CD, GitHub Actions pipeline, release artifacts, ISO image release, release manager role, continuous delivery, flex os installer, manifest, release candidate, single source of truth, feature branch discipline, sprints vs kanban, Jira GitHub link, FlexPos IP 902, FP 519, IP 89 dashboard grooming, bulk archive automation, Jira resolutions cleanup, Flex-POS Transition to Production, alpha build release tracking, knowledge repository, prose pending folder, prose merge action, docs contracts folder, integration repository, Knowledge Base repository, Standards folder, 39 accesses, hardware GitHub standard, hardware-components repo, hardware-manufacturing repo, BOM sync robot, category first manufacturer second]
-source-count: 127
+source-count: 129
 open-commitments: 1
 open-questions: 11
 ---
@@ -888,6 +888,10 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian): BEP-type Jira projects are not used and will be deleted; under the standard each repository has its own feature prefix; changes to old projects get a new capability. Bosik changed the GitHub application on main in all repositories but not in branches, and will delete unused variables once Chudinov's dead code is removed under a capability [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]] [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
 
+## Nov 26 2026 — a temporary "dev" branch for MVP 2.2 (an experiment, not a standard); SMS release only from main is disputed; secrets and variables reworked on main
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) the team agreed that MVP 2.2 work goes into a "dev" branch cut from main and merged into main as soon as 2.1 is released; [[wiki/people/andrey-bosik.md|Bosik]]: "Давайте это проведём как эксперимент", not a standard, and he keeps the branch out of the reports. Bosik's policy now lets SMS be released only from main; [[wiki/people/sergey-tsymanov.md|Tsymanov]] objected that the release action commits straight to main, where before a separate release branch was used; they release first and discuss after. Bosik reworked secrets and variables for the Flex products and the Flex recycler on main — branches must pull main [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]
@@ -1018,3 +1022,5 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

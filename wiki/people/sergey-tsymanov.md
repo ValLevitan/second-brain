@@ -3,7 +3,7 @@ type: person
 title: Sergey Tsymanov
 date: 2026-07-14
 aliases: [Sergey Tsymanov, Siarhei Tsymanau, Sergey Tsimanov, Tsymanau, Tsimanov, Sergei Tsyganov, Tsyganov, Цыганов, Sergei, Sergey]
-source-count: 92
+source-count: 93
 open-commitments: 18
 disambiguation: "Minsk engineer who drafts CMS requirements with the backend 'Dima' (Chudinov). OWNER-CONFIRMED 2026-07-14 = the payroll 'Siarhei Tsymanau' (Belarusian) and the IT-records 'Sergey Tsimanov' — same person; Tsymanov canonical, Tsymanau/Tsimanov aliases. Distinct from other 'Sergei/Sergey' names (e.g. Sergei Novitsky the advanced-setup technician; Sergey Vysotsky the outside digital-growth specialist, wiki/people/sergey-vysotsky.md); resolve by context."
 open-questions: 1
@@ -361,6 +361,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian; label "Sergey Tsimanov"): on the list Val's Claude made from Jira, "1 2 это помоему один и тот же пункт"; on the Jira dates, "Может, она берёт по по задаче какойто внутри" [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
 
+## Nov 26 2026 (3:45 AM) — SMS done; the master capability for MVP 2.2; the release action and main; no recycler on production
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian; label "Sergey Tsimanov") he finished SMS, will release it, and can start MVP 2.2 — master registration, authentication and authorization, report visibility; he moves the master capability to To Do. He disputed releasing from main (the action commits to main itself) and opposed the recycler on production; his CMS changes need a task to go to STG, and Ivan flagged the font size of his new field [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -455,3 +459,4 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

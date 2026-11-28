@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 39
+source-count: 40
 open-commitments: 3
 open-questions: 2
 ---
@@ -177,6 +177,10 @@ At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and
 
 At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian; not present) Val praised his 75 RIS acceptance criteria and wants the same for the modem. Pavel: for the modem he checks only the change asked for — the QR window, "ваш запрос принят", the activation code. Val: "снимем его с Того, чтобы он сегодня проверял модем"; when he is back at work on Friday he finishes from a checklist Ivan sends the Minsk evening of Nov 26 [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
 
+## Nov 26 2026 (in absentia) — Ivan checks the tests Claude wrote for him and hopes to hand him a build with all fixes
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) Ivan was checking, step by step, the tests Claude wrote for Sebastian, and hoped to give him a build with all fixes at the end of the day so the question can be closed; Tsymanov's CMS changes must reach STG first [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -218,3 +222,4 @@ At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-p
 - [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
 - [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

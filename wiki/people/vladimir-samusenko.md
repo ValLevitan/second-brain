@@ -3,7 +3,7 @@ type: person
 title: Vladimir Samusenko
 date: 2026-02-04
 aliases: [Vladimir Samusenko, Vladimir, Vlad, Владимир, Самусенко]
-source-count: 80
+source-count: 82
 open-commitments: 18
 open-questions: 1
 ---
@@ -333,6 +333,10 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) he said 116 and 107 are in review and he took 108, but slows down — "у меня лимит осталось 10%"; one ticket takes a day or two with all checks and reviews. The reset button failed twice for him. He made a plugin, "Стандартс", that reminds you of the team standards — two weeks in the team marketplace with a readme — and will post the install lines. On Seregin's case: propose the change under the requirement — "придет владелец посмотрит, согласится, поправит" [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
 
+## Nov 26 2026 (3:45 AM) — 116 and 107 closed; spikes for non-code work; "at most 4 rounds"
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) he closed test item 116, then 107 (both closed per the notes [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]), with 108 and 111 in work; said spikes already exist for work with no code; and read the standard as self-review until no faults are found, "максимум 4 круга" [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -415,3 +419,5 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

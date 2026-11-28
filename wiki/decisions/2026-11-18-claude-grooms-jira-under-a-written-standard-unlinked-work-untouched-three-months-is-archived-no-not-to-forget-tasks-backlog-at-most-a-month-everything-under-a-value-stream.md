@@ -3,7 +3,7 @@ type: decision
 title: Jira is groomed by Claude under a written standard — work with no Jira-project or repository link that nobody touched for about three months is archived; an initiative with no capabilities under it is archived; "not to forget" tasks are not allowed; a backlog is at most "next week, next month"; everything sits under a value stream or is removed; Kovalchuk writes the rules into the standards repository and the AI-PM gets a plain-language style guide (Nov 18 2026)
 date: 2026-11-18
 aliases: [Jira grooming standard, Jira hygiene cadence, Jira grooming rules, archive unlinked Jira work, no not-to-forget tasks, чтобы не забыть, запиши себе в блокнотик, no long backlog, не позволяйте длинный пекло, everything under a value stream, валю стримс, сорник, initiative without capabilities, если вы не видите кей побилоти, Claude grooms Jira, направите свой клод на грун, archive notice email, AI-PM report style, simple sentences for second-language readers, standards contest, $50 тоже не помешает, Lena's loose items archived]
-source-count: 5
+source-count: 7
 status: active
 open-commitments: 3
 open-questions: 2
@@ -77,6 +77,10 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) Chudinov and Kovalchuk ruled that nothing new goes into the BEP Jira project — "там будет всё удалено" — since under the standard each repository has its own feature prefix; Pavel: a change to an old project gets a new capability [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
 
+## Note, Nov 26 2026 — Kovalchuk proposes an organisational Jira project for small tasks "чтобы оно висело и не забывалось"; Pavel recalls Val is against it; not decided
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]] said his requirements work does not show in Jira. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: Emma often finds organisational tasks after meetings and there is no project for them — "Просто чтобы оно висело и не забывалось." [[wiki/people/pavel.md|Pavel]]: "мне кажется вал против таких вот… Проектов был всегда"; an alternative is a separate issue type inside the Capabilities and Requirements projects. Not decided [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. The proposal sits against rule 5 above ("not to forget" tasks are not allowed); the wiki records it as an open proposal, not a change. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
@@ -84,3 +88,5 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

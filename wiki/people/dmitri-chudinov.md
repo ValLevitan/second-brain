@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 150
+source-count: 151
 open-commitments: 57
 open-questions: 2
 ---
@@ -852,6 +852,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian; label "Dzmitry Chudzinau"; left at about 15 minutes): a release is "подтверждение списка всех требований, которые он должен был реализовать. Их уже нельзя редактировать никогда в будущем"; he is preparing a document, may review it with Sergey, and asked for a separate meeting — Val agreed. Leaving: "по 21 вопросов нет"; on 2_2 he answered Klimovich's comments and "ревью 22 идёт" [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
 
+## Nov 26 2026 (3:45 AM) — 2.2 starts now, 2.1 needs at least another week, so a dev branch; questions to Andrei; test the recycler on STG
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") he is sending MVP 2.2 questions to "Андрей" ("много, много, много неясностей"); asked where 2.2 code goes while 2.1 needs "как минимум… неделю" — "делаем девку" — and asked Bosik to keep it out of the reports; on the recycler: "Пускай проверяют на стг" [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1005,3 +1009,4 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

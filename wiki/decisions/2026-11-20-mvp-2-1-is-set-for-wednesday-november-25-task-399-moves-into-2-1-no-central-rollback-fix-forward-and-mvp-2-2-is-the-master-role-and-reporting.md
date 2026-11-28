@@ -3,7 +3,7 @@ type: decision
 title: (Nov 25 2026 — the November 25 date did NOT hold: 2_1 closes only after Alekseev's Wi-Fi-module test and the autotests, end of that week) MVP 2_1 is frozen (Wi-Fi, remote port update, Goods instead of lottery, phone, SIM cards, the closer-reading barcode — development done, autotests left) and its Jira release date, which must include written and passed autotests, moves from November 23 to Wednesday November 25 2026; task 399 (Alekseev's firmware that flashes the Wi-Fi module) moves from 2_2 into 2_1, since Wi-Fi will not work in Georgia without it; there is no central rollback to an older build — a device falls back by itself after a failed update, and a bad release is fixed forward with a same-day patch; MVP 2_2 is the master (operator) role and reporting — master registration by master licence number, a master list, login, his locations and statistics only for his period, location-master changes as a manual edit and InComm told by hand; its date is named only after a scope freeze; SAS statistics in bill-validator mode go to MVP 3; Val asks what the law requires when a location changes master, and backs designing MVP 3 for always-on internet — that debate is parked (Nov 20 2026)
 date: 2026-11-20
 aliases: [MVP2_1 and MVP2_2 review pt2, MVP 2_1 release November 25, release 2.1 Wednesday November 25, давайте 25 ноября, ставь на среду, 2_1 scope frozen, замороженный для 21, task 399, 399 переехал на 21, Wi-Fi module firmware, прошивка которая модуль прошивает, no central rollback, fix forward, патч день в день, master role in 2_2, master registration, мастер лайсенс намбер, master licence number, один мастер одна локация, location changes master, InComm told by hand, what the law requires, как закон требует, SAS statistics in bill-validator mode to MVP 3, 2_2 scope freeze, 2.3, MVP 3 cloud wallet, offline tickets, always-on internet, архитектура неправильно, чутьчуть быть беременным]
-source-count: 4
+source-count: 6
 status: active
 open-commitments: 6
 open-questions: 4
@@ -100,9 +100,15 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 
 **§15.8:** clear — scope, dates, architecture and market roles only. **§15 #9:** clear — master and location licence numbers are named as fields, no values.
 
+## Note, Nov 26 2026 — the master capability is Accepted; Tsymanov starts master registration, authentication and report visibility
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/sergey-tsymanov.md|Tsymanov]] said he can start MVP 2.2: "создание регистрация мастера", "Все авторизационно аутентификационные вещи для него" and a visibility scope for the master's reports; location-billing tasks may go to Nathan. [[wiki/people/pavel.md|Pavel]] had moved the master capability to Accepted; Tsymanov takes it on to To Do with its features. 2.2 code goes into a temporary "dev" branch until 2.1 is released [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
 - [[raw/Meeting_Notes_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

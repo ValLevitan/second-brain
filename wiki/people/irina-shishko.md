@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 245
+source-count: 247
 open-commitments: 50
 ---
 
@@ -994,6 +994,10 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 
 At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian): the modem capability's requirement link is wrong — "Нужно сделать требования сакс критерием" — but the LTE-modem test plan exists and becomes Sebastian's checklist; for South Dakota VLT a machine without a modem gives GLI nothing to test; the RIS capabilities were placed in Jira on purpose for GLI; the work is a merge into another branch, testing "сказала бы неделя" [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
 
+## Nov 26 2026 (3:45 AM and 6:28 AM) — the requirement cannot be cancelled without Alekseev; 14 overdue 2.2 items; Efim "heard it for the first time"; not enough hands for tests
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) she said "мы не можем просто так сказать всё и мы отменяем это требование" on the Flex-Port return requirement, asked Khamin to list his findings, questioned the recycler on production, and will remove the dates from her 14 unassigned MVP 2.2 items [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) she offered the two vertical machines behind her for tests, reported Efim's "я 1 раз об этом слышу" on the match-3 maths, said "просто физически у нас не хватает рук", and plans test tasks after Monday [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. Records: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]] · [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1242,3 +1246,5 @@ At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-p
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

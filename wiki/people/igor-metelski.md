@@ -4,7 +4,7 @@ title: Igor Metelski
 date: 2026-07-14
 aliases: [Igor Metelski, Igar Miatselski, Miatselski, Igor, Igor Mitelsky, Мительский, Mitsierski, Igor Mitsierski]
 disambiguation: "RGS engineer on Efim Podvoiski codebase (= payroll Igar Miatselski). One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
-source-count: 103
+source-count: 104
 open-commitments: 34
 open-questions: 1
 ---
@@ -430,6 +430,10 @@ At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-stat
 
 At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image.md|Nov-25 NOVA stand-up]] (Russian) he reported four games ready with bonuses, main merged into his branch and the build passing; Pavel asked for one game per merge and he agreed. The Georgia games have three kinds of progression; "ефим не делал ещё математику для тех матч 3 прогрессив" — old maths, not yet moved to Efim's project. He uploaded all games to the repositories "Андрей" created; next he runs several games through the select screen and profiles memory, and moves the liquid-glass icon into each game's repository. He proposed a curve-based effect editor (put off) and a shared studio project format; help text needs a format for substitutions and formatting [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-one-game-one-merge-into-the-nova-integration-branch-the-studio-stays-single-user-with-fixed-steps-for-now-and-the-brief-must-describe-the-help-screens.md]].
 
+## Nov 26 2026 (6:28 AM, NOVA) — game loading cut to about 2 seconds; touch added; Efim's maths
+
+At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) he reported that a game now loads in about two seconds instead of 10–12, with shared resources kept in memory, and that he added touch; he wants several games tried on a touch machine. More than a week earlier Efim told him the match-3 maths was not ready, so he made a different game; best to "в математике спросить" which games need progressive parameters [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -536,3 +540,4 @@ At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

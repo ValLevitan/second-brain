@@ -3,7 +3,7 @@ type: decision
 title: The agents build the BOM unguided — they get only a short description of the product and the data contracts, with no template or assembly logic from Genadi or Nathan; when a build fails the cause must trace to the data sheet, which is the source of truth; Nathan spikes a simple sub-assembly for Wednesday Nov 18 (Thursday at the latest); the work splits into Val's procurement administration and AI-COO side and Genadi's specs and data sheets (Val, with Genadi Peari and Nathan Carver, Nov 16 2026)
 date: 2026-11-16
 aliases: [unguided BOM, unguided assembly, unguided assembly of a bill, unguided BOM test, unguided BOM spike, AI-logic for assembling BOM, BOM from data contracts without guidance, no template, ATM machine description, spec writer auditor assembler, data sheet is the source of truth, the exit is the data contract the entry point is the data sheet, pretend the product never existed in MSBC, compare two BOMs, Nov 16 BOM test, Nathan spike Wednesday, Val's part and Genadi's part, административная часть прокюрмента]
-source-count: 9
+source-count: 10
 status: active
 open-commitments: 3
 open-questions: 2
@@ -86,6 +86,10 @@ On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agen
 
 At the Nov-25 MSBC attributes meeting Val said "Мы протестировали уже с Геннадием. И с нейтоном" that a power-supply sub-assembly can be built from the data sheets and kept in MSBC as its own part number, so JVL does not need the BC manufacturing module (read as this spike, **inference**). Lev's test of MSBC item attributes runs on the same power-supply assembly [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
 
+## Note, Nov 26 2026 — Val runs the test himself on FlexPort: two sources of truth, and the first gap list
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] with Genadi, Val reported that he had told Claude "the only source of truth" is the list under `components` in GitHub plus a general, non-engineering description of what FlexPort is (taken from Confluence and Jira) — "Nothing else. Ignore everything else." Claude built a bill of material and listed what was missing: no data contract yet for the main board, touch screen and scanner board; "review which revision is released" on the main board; no part number for the scanner engine; the network link to Flex IQ [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. Val then ruled that the BOM now in MSBC is revision 1 and the one built from the data contracts becomes revision 2. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 
@@ -97,3 +101,4 @@ At the Nov-25 MSBC attributes meeting Val said "Мы протестировал�
 - [[raw/Meeting_Notes_Nathan_BOM_Agents_Supplier_Data_Loop-November-18-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 80
+source-count: 81
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -312,6 +312,10 @@ At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-i
 
 At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] Val said he and Genadi had tested with Nathan that a power-supply sub-assembly can be built from data sheets and kept in MSBC as its own part number; Lev's Claude can write to MSBC only as far as Nathan's MCP allows, and missing functions go to Nathan as use cases [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Lev suggested Nathan load the components into the assembly order and check the drawings before Elizabeth posts [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
 
+## Nov 26 2026 (in absentia) — not needed for the data contracts; needed for loading a locked BOM through MCP
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] Val told Genadi that Nathan is not needed to produce the data contracts or to build "какой-то custom solution" for site differences; but in one option for a checked BOM — a dated revision sent to Business Central — "Это делается через MCP, там нам нужен Nathan". The merge of engineering and admin vendor data is to be talked through "Меньше с Левой, чем с Нейтаном" [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. Not yet raised with him. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -394,3 +398,4 @@ At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-r
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]

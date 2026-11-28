@@ -3,7 +3,7 @@ type: person
 title: Efim Podvoiski
 date: 2026-07-13
 aliases: [Efim Podvoiski, Efim, Yefim, Ifim, EFIM, Podvoiski, Athim, Athene, Athena, Ethan, Epheme, Afim]
-source-count: 108
+source-count: 110
 open-commitments: 11
 open-questions: 0
 ---
@@ -409,6 +409,10 @@ At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-stat
 
 At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image.md|Nov-25 NOVA stand-up]] (Russian) Igor said Efim had not yet moved the old match-3 progressive maths into his NOVA project, with the preset handled at start-up; Irina wrote to him during the meeting. Pavel and Kharetski want a general call with him on how the maths is configured and built into the image [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-one-game-one-merge-into-the-nova-integration-branch-the-studio-stays-single-user-with-fixed-steps-for-now-and-the-brief-must-describe-the-help-screens.md]].
 
+## Nov 26 2026 (in absentia) — his match-3 maths is in the last build, but passed progressive parameters his own way; a meeting the same day
+
+At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) Kharetski said Efim took the "send parameters everywhere" idea under thought, "а потом сделал так, как удобно ему" — parameters only where needed, which LGS cannot know. His match-3 maths is "Уже в белде", but initialising it needs his new approach, which the team does not accept; he told Irina, Kharetski and Biratka he heard of it for the first time. The team wants him to extend the maths API so the maths describes itself — if not, "мы сами Добавим" — and set a meeting with him the same day [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -521,3 +525,5 @@ At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]
+- [[raw/Meeting_Notes_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

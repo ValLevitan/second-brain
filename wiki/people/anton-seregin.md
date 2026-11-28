@@ -4,7 +4,7 @@ title: Anton Seregin
 date: 2026-07-13
 aliases: [Anton Seregin, Seregin, Anton Seryogin, Серёги, Серёгин]
 disambiguation: "Minsk payroll / React-TS front-end dev, this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 86
+source-count: 87
 open-commitments: 20
 ---
 
@@ -344,6 +344,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian; not present) Pavel: "Кто кто больше всего пользовался этим аккумулятором Антон серёгин?" — Irina: "Антон серегин пользовался"; Pavel: "как разработчик и как тестировщик"; Chudinov: "Инструкцию сможет подготовить подробно." Pavel: due "завтра максимум послезавтра" ("аккумулятор" = emulator, the notes' reading) [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Commitment: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
 
+## Nov 26 2026 (3:45 AM) — items 235 and 130 closed; reviewing 128 and 234; local reviews run four rounds
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) he closed items 235 and 130 and is reviewing 128 and 234; the local Claude review now runs "по 4 круга", even for documentation, up to an hour [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -432,3 +436,4 @@ At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-aleksee
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

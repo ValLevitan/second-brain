@@ -3,7 +3,7 @@ type: decision
 title: Mikhail Perelman leaves from January; Mary (Mery) takes over his ordering role — decided for now (owner ruling 2026-10-15), with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
-source-count: 15
+source-count: 16
 status: active
 open-commitments: 1
 open-questions: 0
@@ -57,6 +57,10 @@ On the [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-c
 
 **Not recorded (§15.8 / §15 #1):** no pay or contract terms were discussed. Any personal detail about either person, judgments of either person's work, and Genadi's reaction to the news are left out. Personal matters not recorded.
 
+## Nov 26 2026 update — Misha is to show Mery how to order the Flex IQ and Port parts
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] with Genadi, Val ruled that Mery orders 50 Flex IQ and 300 Ports from the BOM now in MSBC (treated as revision 1) and said "я попрошу, чтобы Миша показал Мэри, как нужно заказать детали на на эти две вещи"; Genadi is to focus on data contracts instead [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. "Миша" = Mikhail Perelman by the ordering context — **inference**. **Consistent** with the hand-over. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
 - [[raw/Meeting_Notes_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]]
@@ -73,3 +77,4 @@ On the [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-c
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
 - [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]

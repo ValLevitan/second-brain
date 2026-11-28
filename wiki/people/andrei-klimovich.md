@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 166
+source-count: 167
 open-commitments: 114
 open-questions: 0
 ---
@@ -1003,6 +1003,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 He organised the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian). For Val he summed up 2_1: "главное 3 постулата… Вай фай удалённое обновление портов и сплит гуд", and confirmed Val's Claude list by its bold headings. The first location install is "в пятницу… если всё пойдёт, как запланировано"; he will test an alpha build on Saturday if Minsk delivers it Saturday morning Eastern. On conflicting requirements: each day he handles the team's overnight comments "через агента", and when he edits "у меня всегда стоит проверка на новые конфликты"; he will review that agent, keep the requirements clean before 2_2 planning, and wants a full process meeting after MVP 1 and 2_1 ship. He adds the location onboarding email fix to 2_2 [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
 
+## Nov 26 2026 (in absentia; name call an inference) — Chudinov and Tsymanov send him MVP 2.2 questions
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) Chudinov said he is sending "Андрей" MVP 2.2 questions and Tsymanov wrote to "Андрей" about capability questions (both = Klimovich by the requirements context — **inference**); Kovalchuk noted the 2.1 alpha build for "Андрей климович" sits in no Jira project [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1172,3 +1176,4 @@ He organised the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-te
 - [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

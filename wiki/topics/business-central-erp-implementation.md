@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card, item attributes, MSBC item attributes, part revision]
-source-count: 106
+source-count: 109
 open-questions: 9
 ---
 
@@ -587,6 +587,25 @@ At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-i
 
 At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|Nov-25 meeting "MSBC - Description and Attributes"]] (Russian; [[wiki/people/val-levitan.md|Val]], [[wiki/people/lev-rudky.md|Lev]], [[wiki/people/genadi-peari.md|Genadi]]) Val asked to stop packing the configuration into the item description: the description keeps only the product name, and screens, scanner, card reader, modem and the like go into MSBC **item attributes**, filled by an agent from the data sheets and data contracts in GitHub [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]] [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Lev believes attributes need nothing enabled ("Скорее всего, еще нет") but will first test them in a test company on the power-supply assembly, checking purchase orders, invoices and other documents; the default attributes are too few, so JVL will need its own (bill validator, printer, extra devices) [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. MSBC has no part revision today; Genadi types it into the description by hand and asked for it as an attribute or field — not decided [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Lev confirmed "Продакшн ордерс нет. Вообще" in JVL's BC, with work-arounds; Val: the manufacturing module is not needed [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Val is against a hand-kept configuration table; sales and production ask Claude for the part number by its attributes [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. This changes how a configuration is described since the Apr-6 top-level part-number fix above (**evolution**). Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
 
+## Nov 26 2026 — the MSBC BOM is revision 1; engineering and admin vendor data merge in MSBC; "в BC огромный месс"
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] between Val and Genadi [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]:
+- **Revisions.** The BOM already in MSBC is treated as revision 1, and Mery orders from it now (50 Flex IQ, 300 Ports); revision 2 is built in GitHub from the data contracts and loaded into MSBC, then used from then on.
+- **Two sides of vendor data.** Engineering sends the part and the vendor name; the vendor card (bank details, address, contacts, terms) is filled by finance and procurement and "живет своей жизнью в бизнес-центру"; "эти вещи должны merge". To be talked through "Меньше с Левой, чем с Нейтаном"; Val would rather accept mistakes than enter it by hand for three years.
+- **Vendor attributes.** Claude is to list the vendor-profile fields MSBC already offers; if there are no vendor attributes, JVL adapts to how MSBC keeps vendor details. Genadi set up a "revision" item attribute himself.
+- **Grooming.** "в BC огромный месс" (Room label; Genadi by context) — vendor emails are to go into the procurement mailbox and be groomed, and Claude builds a negotiation history per vendor.
+Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
+## Nov 27 2026 — a price enters MSBC only from a letterhead quotation; the GitHub link is never cut; prices sit on the wrong tab
+
+At the [[wiki/meetings/2026-11-27-genadi-flexport-github-msbc-link-and-vendor-quote-rule.md|Nov-27 call]] between Val and Genadi [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]:
+- **Price rule.** The only source of truth for a price is a vendor quote in procurement@jvl.ca; a casual email is indicative only; a final price enters MSBC only with the vendor's letterhead quotation; MSBC item costs, our own PO prices and receipts are never a source; with no quotation there is no price in MSBC and the gap goes to Val [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]] [[raw/Meeting_Notes_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]].
+- **Two prices traced.** For the 5-inch LCD (MON-480X854-5I-TS-1) the item card showed $4.34 — two receipts from JVLCAN01 (JVL Labs), "an internal transfer cost between the two JVL companies" — while PO P_ORD000000502 to Startek carried $24.30, with no Startek quote or invoice in procurement@ and no posted invoice in MSBC (Claude's answer, pasted by Val) [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]].
+- **Wrong tab.** The vendors and prices exist on the Purchase Prices page (YIMATONG1 for the scanner engine SCN-BQCODE-01; STARTEK1 for the LCD), typed by hand, while the item cards show no vendor; Genadi asked for a clear rule on which tabs are written, "чтобы все читали из одних и тех же табс" [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]].
+- **The link.** An assembly such as the FlexPort PT1 is not copied frozen into MSBC; it stays linked to GitHub, with GitHub as the base — how is open [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]].
+- **Readiness.** Claude's "Flex-Port Vendor Readiness" table: 0 of 14 parts ready; after the price rule, 0 of 14 with a vendor quotation and 11 MSBC costs with none (screen descriptions) [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]].
+Record: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
@@ -696,3 +715,6 @@ At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-r
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]
+- [[raw/Meeting_Notes_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]

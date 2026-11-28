@@ -4,7 +4,7 @@ title: Dmitri Kovalchuk
 date: 2026-07-13
 aliases: [Dmitri Kovalchuk, Dmitry Kovalchuk, Dima Kovalchuk, Dima]
 disambiguation: "IT (GitHub-admin, infrastructure, secrets/Azure, AI-tool accounts) — the IT-context "Dima". Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 119
+source-count: 121
 open-commitments: 18
 open-questions: 3
 ---
@@ -475,6 +475,14 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] Val said "дима Ковальчук их дописывает" — the functions missing from an MCP an engineer gave JVL — and that Val can have a Jira task opened for him with the use case [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
 
+## Nov 26 2026 (3:45 AM) — an organisational Jira project for the small tasks Emma finds; Irina's overdue items
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) he proposed an organisational project for small tasks Emma finds after meetings — "Просто чтобы оно висело и не забывалось" — citing the Nov-25 alpha build and Alekseev's Wi-Fi test as untracked; not decided. On dates: Samusenko fixed his; Irina has the most, 14 [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
+## Nov 27 2026 (in absentia) — to merge Genadi's and Misha's supplier emails into procurement@jvl.ca
+
+At the [[wiki/meetings/2026-11-27-genadi-flexport-github-msbc-link-and-vendor-quote-rule.md|Nov-27 call]] Val: "в понедельник утром вы можете позвонить э, Диме Ковальчуку, чтобы он э, и Мишины, и ваши email merge" into the procurement mailbox — Genadi to call him on Monday Nov 30 [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. Record: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
@@ -596,3 +604,5 @@ At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-r
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]

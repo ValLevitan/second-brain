@@ -3,7 +3,7 @@ type: decision
 title: In Business Central (MSBC) the item description holds only the product name and the configuration details (screens, scanner, card reader, modem and so on) move into MSBC item attributes, filled from the data sheets and data contracts; Lev Rudky first tests attributes in a test company on the power-supply assembly before the live company; Val is against a configuration table, because the requirements are the only source of truth; part revision (asked by Genadi) is not decided (Val, with Lev Rudky and Genadi Peari, Nov 25 2026)
 date: 2026-11-25
 aliases: [MSBC item attributes, item attributes vs description, MSBC - Description and Attributes, description and attributes, атрибуты, атрибьюты, attributes in Business Central, part revision in MSBC, ревизия, no configuration table, against tables, Flex product table, power-supply assembly test, test company BC, AC warning label, outside labour as resource, BOM revision cut-over, Nov 25 MSBC attributes meeting]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 5
 open-questions: 3
@@ -79,7 +79,12 @@ Taken at the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-
 
 **§15.8:** clear — no one's pay is named; the label price is a part cost. **§15 #9:** clear.
 
+## Note, Nov 26 2026 — Genadi says he set up a "revision" attribute himself
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] Genadi said MSBC's attributes field "легко настраивается" and "я сделал там, допустим, атрибут ревизия"; Val: part attributes are "очень нужно" [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. This bears on the open question above about JVL's own attributes and revision, but Lev's test is not reported, so the question stays open. Vendor attributes are a separate list, to be agreed after Lev finishes his current work. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]

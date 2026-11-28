@@ -3,7 +3,7 @@ type: decision
 title: The Flex-Pay Recycler Slim gets its own MVP 1, on the production server by Thursday (November 19 2026), built on Flex-Pay with the recycler in place of the validator and coin dispenser; whatever does not fit goes to a recycler MVP 2 a week later — scope is cut, the date never moves; only the ISO image from production may be taken, no files from DEV or STG; the first market is Texas, e-wallet only, no TITO; Pavel plans and creates releases right after each meeting (Val, Nov 12 2026)
 date: 2026-11-12
 aliases: [Recycler MVP 1, recycler MVP 1 by Thursday, Flex Recycler Slim MVP 1, MVP один на флекс payree сайм, MVP 1 2 3 for the recycler, разбить на MVP 123, cut scope not dates, не двигайте дейт, обрубить MVP один, recycler MVP 2 a week later, only the ISO from production, я разрешаю только ISO имидж брать, no files from DEV or STG, Texas e-wallet only no TITO, еволет no tito, recycler CI/CD, release right after the meeting, делайте релизы сразу, recycler on the Flex-Pay base, Sunday recycler meeting Nov 15, recycler November 19]
-source-count: 10
+source-count: 12
 status: active
 open-commitments: 5
 open-questions: 4
@@ -85,6 +85,10 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 Val's rule was MVP 1 on the production server, taken only as the production ISO (above). These sources do not show it there on Nov 19, so the delivery commitment stays open.
 
+## Note, Nov 26 2026 — Bosik's proposal to add Flex-recycler support to the over-the-air update and put it on production is turned down
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/andrey-bosik.md|Bosik]] proposed adding the Flex recycler to the over-the-air update and putting that build on production, because "они со дня на день придут и скажут, дайте нам прошивку нарицай клер". Tsymanov, Chudinov, Irina and Khamin objected — not in the MVP, no requirements; Chudinov: "Пускай проверяют на стг"; Bosik: "Уговорили." [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. This concerns the transactional over-the-air update, not the recycler's own MVP track above. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## History
 
 - [x] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — finish the recycler hardware bring-up — due about Nov 14 2026 ("пару дней") — [[raw/Meeting_Transcript_Flex_Recycler_Slim_MVP1_by_Thursday_and_20_Dollar_Promo_Bonus-November-12-2026.md]] — **discharged by Nov 19 2026** (**inference**): Biratka, "Все готово проверено на стенде. Купюру принимает купюры выдаёт. С портом общается" — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
@@ -101,3 +105,5 @@ Val's rule was MVP 1 on the production server, taken only as the production ISO 
 - [[raw/Meeting_Notes_Daily_Standup_Printer_Signal_Gap_and_CAP-142_Merge-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

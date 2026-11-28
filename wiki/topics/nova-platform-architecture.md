@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 133
+source-count: 135
 open-commitments: 73
 open-questions: 39
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -970,6 +970,10 @@ At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image
 
 At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] set four studio stages, agreed "as a concept": today the studio is "Франк энд инструмент, который позволяет дизайнеру копировать игры"; then new layers, timing diagrams and transition physics; then new stories from machine signals; then decoding other makers' machines from video — "3 пункт и 4 они могут местами поменяться" [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. In Val's value stream game concept sets the mechanics, game design the story and symbols, and "гейм продаж это замещение билдера" — the builder replaces production [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. The group agreed the design brief is the output of the game-concept stage and the entry point to the studio, with [[wiki/people/evgeny-kharetski.md|Kharetski]]'s agent covering game concept; what artifacts end that stage is open [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Use cases and requirements stay, the capability stays as the touch point, and a closed capability is never reopened. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
 
+## Nov 26 2026 (6:28 AM) — game loading down to about 2 seconds; progressive parameters need a self-describing maths API; the three-game ISO goes on a machine; LFS files re-pushed
+
+At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) [[wiki/people/igor-metelski.md|Igor]] cut game loading from "где то 10 12 секунд" to about two seconds by keeping resources shared by all games in memory, and added touch. [[wiki/people/evgeny-kharetski.md|Kharetski]]'s ISO with three games goes on the existing stand, then the same drive into a touch machine. LGS must now pass progressive parameters to the maths at start-up but cannot know which games need them; Efim did it his own way, so the team wants the maths to say "who it is, which version, which games, which parameter template", meets Efim the same day, and adds the API itself if he will not. Some LFS files had never been pushed; [[wiki/people/anton-leshkevich.md|Leshkevich]] re-uploaded them, added guards, and aims to run a game from the brief by the end of the week [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1106,3 +1110,5 @@ At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-gam
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]
+- [[raw/Meeting_Notes_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

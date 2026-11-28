@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 168
+source-count: 172
 open-commitments: 60
 ---
 
@@ -775,6 +775,25 @@ At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-i
 
 At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] (Russian) Genadi agreed attributes are needed "для всех парк намберска эти 1000 номеров", but the MSBC defaults are not enough [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He asked for part revision as an attribute or a field — today he types it into the description by hand; a backward-compatible change is a new revision, otherwise a new number [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He defended his GitHub table of the final Flex product numbers (JVL sells "8 наименований флекса") against Val's "я против таблиц" and was not convinced [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]] [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He warned that a cheap AC warning label on power-supply plates is not bought or applied, "Из за этого могут люди в тюрьму сесть" [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He is to deepen the power-supply assembly in Lev's test company and send the attributes. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
 
+## Nov 26 2026 (2:31 PM and 3:30 PM) — "день и ночь" for his components folders; $95 a machine on monitors; Claude checks his parts; data contracts for revision 2, not ordering
+
+Two calls with Val (Russian) [[raw/Meeting_Transcript_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]] [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]:
+- **2:31 PM.** He walked Val through `components`: category folders, then manufacturer, contracts and part numbers, so a second maker sits next to the first; plastics per product, metal for Flex Pay, Slim and Port, electronics under PCBA ("Flexport это FP01"). Val: "это день и ночь" [[raw/Meeting_Transcript_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]]. Claude checks his new parts against the data contracts — "сегодня он мне три раза послал меня переделывать" [[raw/Meeting_Transcript_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]]. Monitor driver boards: "на бумаге у меня уже сейчас сейвинг 95 долларов на машину", samples on the way, a few days for the transition [[raw/Meeting_Transcript_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]] [[raw/Meeting_Notes_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]].
+- **3:30 PM.** Val's FlexPort run showed gaps; Genadi: "я по флекспорту, честно говоря, там не проходился", and the Wi-Fi main-board revision must go in with an updated contract [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. He asked again for a locked BOM after a human check (as on Oct 13); Val is open to it as one option. He wants every vendor quotation kept "построчно" and will move his vendor emails into a "procurement export" folder. Val: Mery orders from revision 1, Misha shows her how; Genadi's "Фокус on data contracts" for revision 2 [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]].
+Record and commitments: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
+## Nov 27 2026 (11:56 AM) — "GitHub не знает" lead time and price; two kinds of parts; MSBC prices on the wrong tab; merge the emails on Monday
+
+At the [[wiki/meetings/2026-11-27-genadi-flexport-github-msbc-link-and-vendor-quote-rule.md|Nov-27 call]] (Russian; ~1 h 38 min) [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]:
+- He argued that GitHub should not say where to buy: a JVL-designed part can go to ten vendors, and lead time and price per vendor live in MSBC — "у этого Джинтау delivery две недели… Есть другой вендор, у него месяц, цена половина". He splits parts into designed-by-JVL and standard parts: "У меня в Data Contract не будет вендора никогда." Val held that standard parts still need a reliable data contract; who records the vendor stayed open.
+- He proposed locking an assembly, unlocking only with "reason for this, right? Какой-то ECN"; Val ruled the GitHub–MSBC link must never be cut.
+- He showed MSBC himself: the vendors and prices are on the Purchase Prices tab, not the item card — "надо определиться… в какие табс, чтобы все читали из одних и тех же табс".
+- That morning he added scanners and monitors to the data contracts (PR 58).
+- He hit his Claude usage limit mid-call; Val told him to ask IT for more.
+- His end state: tell the agent "хочу 50 сетов", get the list with stock and on-order counts, every part over about $15 set apart for a person to decide, then bulk POs.
+- He owes: talk to Misha, and on Monday morning (Nov 30) call Dmitri Kovalchuk to merge his and Misha's supplier emails into procurement@jvl.ca.
+Record and commitments: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
@@ -945,3 +964,7 @@ At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-r
 - [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]]
+- [[raw/Meeting_Notes_Genadi_Components_Repo_Structure_and_Monitor_Sourcing_Savings-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]

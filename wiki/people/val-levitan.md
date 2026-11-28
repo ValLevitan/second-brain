@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 534
+source-count: 535
 open-commitments: 83
 open-questions: 1
 ---
@@ -1928,6 +1928,10 @@ With Mery he showed that the vendor's steel code (about 80%) was wrong for slot-
 
 At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) he kept use cases, requirements and capabilities against Biratka's proposals — the capability is the touch point between market and development; agreed the process first and the standards after; ruled that a closed capability is never reopened and a change opens a new one; ruled that acceptance tests are written only from use cases, requirements and acceptance criteria, not from code or prose; set four studio stages; and agreed the brief is the output of the game-concept stage [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. He would close conflicting requirements automatically (not decided), wants grooming agents in a loop for standards and requirements, and will think about test contracts and schedule the meeting again [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
 
+## Nov 27 2026 (11:56 AM) — "The only source of truth is a direct Vendor quote"; "link it to MSBC", not copy-paste
+
+With Genadi he traced two prices for one FlexPort part to an internal transfer and JVL's own PO, and dictated to Claude that a price enters MSBC only when backed by a vendor's letterhead quotation in procurement@jvl.ca — "Memorize it for the future" — with irregularities brought to him; he ruled that the GitHub–MSBC link is never cut ("Не copy-paste. а link it. to MSBC"); and he set Monday's next step: merge Genadi's and Misha's supplier emails into procurement@jvl.ca, then he reruns the vendor table [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. Record: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2472,3 +2476,4 @@ At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-gam
 - [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]

@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 170
+source-count: 172
 open-commitments: 28
 open-questions: 0
 ---
@@ -643,6 +643,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian; label "Alexander Biratko") he called the structure "очень сложно и громоздко" and proposed a versioned brief/spec in the repository with features and acceptance criteria only, or the requirement as parent over capabilities, or copying requirements per product; the team kept the current structure, and he said "Я несколько предложений высказал, они все были отказаны" [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. He warned that Claude will follow old closed capabilities in Jira unless told not to, and said tests need contracts (hooks, emulators) [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
 
+## Nov 26 2026 (3:45 AM and 6:28 AM) — his requirements work does not show in Jira; RIS recycler hooks; the EBDS module is Java, not a service; he meets Efim on progressive parameters
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian; label "Alexander Biratko") he raised that NOVA requirements work does not show in Jira (requirements carry the NOVA and NOVA engine labels), reported hooks that let the RIS recycler be tested almost hands-off, and said the EBDS bill-validator module is Java with a rewritten serial-port part — "Но в сервис это не выделено" — though a service would be a plus [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. At the [[wiki/meetings/2026-11-26-nova-standup-faster-game-loading-and-efim-progressive-parameters.md|Nov-26 NOVA stand-up]] (Russian) he backed testing the ISO on a normal machine, said that if Efim will not extend the maths API "мы сами Добавим", and set up the meeting with Efim; he could not check out the engine and framework because LFS files were missing [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]. Records: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]] · [[wiki/decisions/2026-11-26-lgs-cannot-know-which-games-need-progressive-parameters-so-the-maths-should-describe-itself-the-team-meets-efim-and-adds-the-api-itself-if-he-will-not.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -817,3 +821,5 @@ At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-gam
 - [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Faster_Game_Loading_and_Efim_Progressive_Parameters-November-26-2026.md]]

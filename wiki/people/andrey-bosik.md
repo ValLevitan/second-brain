@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 198
+source-count: 199
 open-commitments: 51
 ---
 
@@ -783,6 +783,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian; label "Andrei Bosik") he backed the current requirements structure — "Нас тоже не все устраивает, понимаешь, но лучше решение пока не придумали" [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]; said Kharetski's agent must gather everything and check "что никто ничего не забыл, не упустил", and that the whole game concept is the agent's work [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
 
+## Nov 26 2026 (3:45 AM) — variables reworked on main; cluster updates to the New Year holidays; the dev branch as an experiment; SMS only from main; the recycler proposal dropped
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian; label "Andrei Bosik") he reworked secrets and variables for the Flex products and the Flex recycler on main; cluster updates go on "до новогодних каникул", with one two-hour update later; he treats the MVP 2.2 dev branch as an experiment and keeps it out of the reports; his policy lets SMS be released only from main; his proposal to put Flex-recycler support on production was talked down — "Уговорили" [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -987,3 +991,4 @@ At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-gam
 - [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
 - [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
 - [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

@@ -4,7 +4,7 @@ title: Mikhail Perelman
 date: 2026-07-13
 aliases: [Mikhail Perelman, Misha, Миша, Mikhail, Michael]
 disambiguation: "Procurement Manager (parts/vendors/shipments; the retrofit-lead "Misha"). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 34
+source-count: 36
 open-commitments: 5
 open-questions: 3
 ---
@@ -173,6 +173,14 @@ On the [[wiki/meetings/2026-11-17-mikhail-perelman-21-and-43-inch-order-prepayme
 
 At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 1:05 PM accounting call]] Mery's example of a gap in the standards was a PC purchase "creada este días atrás por Mikhail" with a materials account instead of an expense account; it was fixed at the accounting level [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] ("Mikhail" = him by the purchasing context — **inference**). On the [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-code.md|3:57 PM call]] Val told Mery: "Michael is on the way out… You're taking his place" [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]; the notes take "Michael" to be Mikhail Perelman [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Personal matters not recorded. Records: [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]] · [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
 
+## Nov 26 2026 (in absentia; name call an inference) — to show Mery how to order the Flex IQ and Port parts
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] Val: "а у нас пока работает Миша, я попрошу, чтобы Миша показал Мэри, как нужно заказать детали на на эти две вещи" (50 Flex IQ and 300 Ports) [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. "Миша" = him by the ordering context — **inference**. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
+## Nov 27 2026 (in absentia; name call an inference) — prices typed by hand on the Purchase Prices tab; his supplier emails go into procurement@jvl.ca
+
+At the [[wiki/meetings/2026-11-27-genadi-flexport-github-msbc-link-and-vendor-quote-rule.md|Nov-27 call]] between Val and Genadi: the vendor prices Claude could not find on the item cards are on MSBC's Purchase Prices tab, entered by hand — Val: "Миша руками вносит эти данные… он работает с Excel" [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. The $24.30 Startek PO (P_ORD000000502, Sep 15 2026) was entered by purchaser "MP" (Claude's answer as pasted) [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. Val asked Genadi to talk to Misha so he prepares his supplier emails, to be merged with Genadi's into procurement@jvl.ca by Dmitri Kovalchuk on Monday [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. "Миша" / "MP" = him by the purchasing context — **inference**. Remarks judging his work are not recorded. Record: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Design_to_MSBC_Zero_Trust_Repos_and_Data_Contracts-October-5-2026.md]]
@@ -211,3 +219,5 @@ At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 1:0
 - [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
 - [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]

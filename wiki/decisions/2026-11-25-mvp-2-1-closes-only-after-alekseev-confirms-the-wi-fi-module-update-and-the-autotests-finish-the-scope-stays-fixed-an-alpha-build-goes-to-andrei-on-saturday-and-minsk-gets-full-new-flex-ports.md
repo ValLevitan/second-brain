@@ -3,7 +3,7 @@ type: decision
 title: MVP 2_1 does not close until Evgeniy Alekseev confirms that the board update also flashes the Wi-Fi module (capability 399, with an added definition-of-done item — after the update the module at least scans the network) and the remaining autotests finish (end of the week), so the November 25 date does not hold; the 2_1 scope stays fixed — Flex-Ports on Wi-Fi to the IQ, remote update of all Flex-Ports, split goods, support phone numbers (the inspector/audit report is 2_2); Minsk gives Andrei Klimovich an alpha build on Saturday morning Eastern to test what does not need Wi-Fi; Seregin writes Alekseev an instruction for the Flex IQ emulator; Val sends Minsk full assembled new-revision Flex-Ports with the Wi-Fi module from China; the requirements-conflict process and Chudinov's release-specification idea go to a separate meeting; the location onboarding email fix goes into 2_2, which has no schedule yet (Nov 25 2026)
 date: 2026-11-25
 aliases: [MVP2_1 release sync, MVP2_1 Release Sync WiFi Firmware Test Alekseev, 2_1 cannot close without the Wi-Fi test, 21 мы не можем закрывать, один из сдерживающих факторов, capability 399, feature 258, afort 258, scans the network, сканирует сеть, definition of done, дефиниш оно дан, alpha build Saturday, альфа версия, бинт альфу, split goods, сплит гудс, сплит гуд, support phone numbers, new TITO ticket small barcode, Flex IQ emulator instruction, аккумулятор флекса айкью, full assembled Flex-Port to Minsk, собранный порт, полную сборку, release specification, спецификация на релиз, conflict-check agent, location onboarding email, 2_2 no schedule, MVP 2_1 Jira filter, MVP 2_1 release name, capability 145 Wi-Fi tests]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 10
 open-questions: 3
@@ -93,7 +93,12 @@ Val showed his Claude's summary of 2_2. Klimovich: "Да выглядит кор
 
 **§15.8:** clear — no pay amounts; "счёт" is a shipment invoice with no figure. **§15 #9:** clear — capability and feature numbers only.
 
+## Note, Nov 26 2026 — "at least another week" for 2.1; 2.2 work goes into a temporary dev branch; the alpha build and Alekseev's test sit in no Jira project
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/dmitri-chudinov.md|Chudinov]] said 2.2 starts now "и будем как минимум счётом неделю ждать 21", so 2.2 code goes into a temporary "dev" branch cut from main and merged into main when 2.1 is released. [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]] used this meeting as his example of untracked work: the 2.1 alpha build for Andrei Klimovich and Alekseev's Wi-Fi-module test are recorded in no Jira project [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Against the end-of-week close above this is **evolution** (a day-later estimate), not a contradiction. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
 - [[raw/Meeting_Notes_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

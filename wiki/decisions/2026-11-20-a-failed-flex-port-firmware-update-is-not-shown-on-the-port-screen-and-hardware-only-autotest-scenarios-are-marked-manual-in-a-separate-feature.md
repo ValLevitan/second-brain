@@ -3,7 +3,7 @@ type: decision
 title: A failed Flex-Port firmware update is not shown on the port's own screen — the port stays on the working version, so the error lives only in the terminal log and the operations dashboard, and Bosik removes the on-screen item from the requirement; whether the port really can fall back (two boot areas, too little room, a board button nobody tested) is for "Евгений" to confirm, and the acceptance criteria must be re-checked against the real implementation; autotest scenarios that need real hardware (a QR scanner, a USB device — 10 of Samusenko's Wi-Fi set) are marked manual-only in the acceptance criteria, listed in a separate manual-check feature and kept in the repository so one filter finds them; obsolete capabilities are deleted, not archived; release notes for production files on the operations dashboard become a capability, not for this release; Docker dev-image builds get a clean-up step (Nov 20 2026)
 date: 2026-11-20
 aliases: [Flex-Port firmware update failure not shown on screen, failed update stays in the log, ошибка обновления прошивки на флекспорте, мы не показываем на farto эту про ошибку, Flex-Port rollback, два загрузочных места, two boot slots, board button rollback, manual-only autotests, онли мэниал, hardware-only test scenarios, 10 of 23 Wi-Fi scenarios, manual-check feature, delete obsolete capabilities, release notes capability, релиз ноты на operations dashboard, Docker dev image clean-up, machine 84 Wi-Fi board]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 7
 open-questions: 2
@@ -90,6 +90,10 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 
 At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) Seregin found that after a power cut mid-update the port recovers but the terminal does not learn of it; in line with this ruling, Pavel kept it out — Grafana shows it by indirect signs and building it "выглядит как отдельный MVP" — and Seregin comments on Klimovich's requirement. Khamin's manual round passed except returning to the previous release; he builds a broken firmware next [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
 
+## Note, Nov 26 2026 — the update code itself says the base application is erased after a certain stage; Pavel writes to Alekseev before anyone drops the return requirement
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]] made about 20 test firmwares, one per update stage, and found in the code that after a certain stage "возвращение к базовому приложению не будет" — the comment was first written by Tsymanov ("так как оно уже застёрто"), while the linked requirements say the port must return. Khamin thinks it is a hardware limit. [[wiki/people/pavel.md|Pavel]]: "Давайте напишем алексееву письмо с вопросами"; [[wiki/people/irina-shishko.md|Irina]]: "мы не можем просто так сказать всё и мы отменяем это требование" [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. This is the fall-back question the Alekseev commitment above already holds; it stays open. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
@@ -98,3 +102,5 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 - [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

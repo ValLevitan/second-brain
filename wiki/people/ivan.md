@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 87
+source-count: 88
 open-commitments: 18
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -374,6 +374,10 @@ At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requ
 
 At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian; not present) Irina: the LTE-modem test plan "у него есть, он по нему работал", and he will make it "в более доступном виде"; Pavel: "Инструкции попросим написать 1 вариант Ивана"; Val: "Ваш вечер завтра пусть иван отправит". He also tests the South Dakota VLT build after the RIS commits are merged — Pavel: testing "для вани"; Irina: about a week [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Commitments: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
 
+## Nov 26 2026 (3:45 AM) — checking Claude's tests for Sebastian; a build with all fixes at the end of the day; the CMS release to STG
+
+At the [[wiki/meetings/2026-11-26-daily-standup-jira-tasks-for-non-code-work-and-mvp2-2-dev-branch.md|Nov-26 Minsk stand-up]] (Russian; label "Ivan Shpak") he was checking the tests Claude wrote for Sebastian and hoped to give Sebastian a build with all fixes "в конце дня"; Tsymanov's CMS changes must go to STG first and there was no task; he will tell Bosik when the accounting host needs internet access; on the South Dakota RIS: "в солсакоте есть свои нюансы" [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-mvp-2-2-work-goes-into-a-temporary-dev-branch-off-main-flex-recycler-support-stays-off-production-and-alekseev-is-asked-before-the-flex-port-return-requirement-changes.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -463,3 +467,4 @@ At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-p
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
 - [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Jira_Tasks_for_Non_Code_Work_and_MVP2_2_Dev_Branch-November-26-2026.md]]

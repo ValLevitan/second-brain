@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 36
+source-count: 37
 open-commitments: 2
 ---
 
@@ -131,6 +131,10 @@ Per the notes of the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell
 
 At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] (Russian) Lev could not confirm attributes "за 2 минуты"; he will run a small test himself in a test company on the power-supply assembly and check purchase orders, invoices and other documents ("нужен верификаш") [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He said JVL's BC has no production orders, only work-arounds; he posts assemblies because of shortages (about 40, mostly small) and suggested Nathan load the data and check the drawings first so [[wiki/people/elizabeth.md|Elizabeth]] can post them [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. His own worries: the BOM must always carry the latest board revision, with a cut-over process for mixed old and new boards, and outside labour such as coating set up as a resource, not an item [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Commitments: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
 
+## Nov 26 2026 (in absentia) — "Меньше с Левой, чем с Нейтаном"; manual entry vs loading
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] Val said the merge of engineering and admin vendor data in MSBC is to be talked through "Меньше с Левой, чем с Нейтаном": Lev is careful and wants to enter data by hand, which would take years — "Мне лучше допустить ошибки, чем а, э, делать это три года". Genadi wants the vendor attribute list agreed after Lev finishes his current work [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 
@@ -170,3 +174,4 @@ At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-r
 - [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
 - [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]

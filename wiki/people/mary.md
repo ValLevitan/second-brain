@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery, Mery Villavicencio, Мэри]
-source-count: 24
+source-count: 26
 open-commitments: 2
 ---
 
@@ -71,6 +71,14 @@ At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 acc
 
 On a [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-code.md|39-minute call]] Val took apart her Hongjin duty estimate (about 99% as he read it): the HTS code came from the vendor's invoice and Claude agreed with it; she offered the broker, and Val said JVL must do its own research. His check put the vendor's steel code at about 80% and game parts, HTS 9504.30.00.60, at about 20% — now the rule [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]] [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Val: "Michael is on the way out… You're taking his place"; "I'm gonna teach you Claude, I'm gonna teach you agents, I'm gonna teach you MCP" [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. She owes an Atlas freight quote as a new option next to FedEx. Record: [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
 
+## Nov 26 2026 (in absentia) — to order 50 Flex IQ and 300 Ports; Misha to show her how
+
+At the [[wiki/meetings/2026-11-26-genadi-flexport-bom-revision-2-and-vendor-data.md|Nov-26 3:30 PM call]] Val ruled that "Мэри пока сделает заказ, по ревизии 1" — the BOM now in MSBC — for 50 Flex IQ and 300 Ports, and "я попрошу, чтобы Миша показал Мэри, как нужно заказать детали" [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]. Record: [[wiki/decisions/2026-11-26-a-bom-has-two-sources-of-truth-the-product-description-and-the-github-data-contracts-mery-orders-from-msbc-revision-1-now-and-genadi-finishes-the-data-contracts-for-revision-2.md]].
+
+## Nov 27 2026 (in absentia) — she chases missing vendor data through procurement@; the Startek payment requests
+
+At the [[wiki/meetings/2026-11-27-genadi-flexport-github-msbc-link-and-vendor-quote-rule.md|Nov-27 call]] Val said that when vendor information is missing, "Мэри тогда начинает чейсить. Through procurement email" [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. Claude found in procurement@jvl.ca that Mery asked for payment of $1,921 on the Startek PO P_ORD000000502 on Oct 28, Nov 9 and Nov 25, still pending on Nov 25 (Claude's answer as pasted by Val) [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]. Record: [[wiki/decisions/2026-11-27-a-part-price-enters-msbc-only-from-a-vendor-quotation-on-letterhead-emailed-to-procurement-and-the-github-msbc-link-is-never-cut.md]].
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -97,3 +105,5 @@ On a [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-cod
 - [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
 - [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_BOM_Revision_2_and_Vendor_Data-November-26-2026.md]]
+- [[raw/Meeting_Transcript_Genadi_FlexPort_GitHub_MSBC_Link_and_Vendor_Quote_Rule-November-27-2026.md]]
