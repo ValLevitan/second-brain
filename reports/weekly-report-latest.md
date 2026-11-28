@@ -1,35 +1,36 @@
-# JVL second brain — weekly update, Saturday November 21 2026
+# JVL second brain — weekly update, Saturday November 28 2026
 
 This week's update completed. Everything checked out.
 
 ## What came in
 
-22 meetings, Friday November 13 to Friday November 20. Six Minsk stand-ups, two NOVA 2 / game-design meetings, three MVP 2 release calls, the recycler review, two Genadi calls, two Nathan calls on the BOM agents, and calls with Lev, Mikhail, Dmitri Kovalchuk, Georgia ports, billing (PROD test 2) and the finance team. Two of the Nov 13 meetings arrived after last week's run, so they came in this week.
+23 meetings, Saturday November 21 to Friday November 27. Also one older call that was filed late: your November 10 call with Alan Litwack.
+
+The week had five Minsk and NOVA stand-ups, two NOVA planning meetings, the long design-brief meeting, the MVP 2.1 release sync, two modem / RIS calls with Sebastian's results, four calls with Genadi, the MSBC attributes meeting, the Payment Hub invoice call, the accounting team's AI show-and-tell, and your call with Mery on the Hongjin duty.
 
 ## What the brain learned
 
-- **MVP 2.1 date.** The Nov 20 date did not hold. On Nov 20 the scope was frozen and 2.1 set for Wednesday Nov 25. No going back to old builds: fix forward with a patch. MVP 2.2 is the master role plus reporting; its date comes after its scope is frozen.
-- **NOVA builder.** On Nov 17 you ruled quality before cost. The one big agent becomes a step-by-step pipeline with a person checking between steps, in a new team repository. The first ISO with a game (Twin Bison) is shown Saturday Nov 21; the RK build comes next.
-- **Georgia ports.** On Nov 18 you ruled the first installs connect Aristocrat through the bill acceptor, not AFT. SAS data and new reports wait for MVP 3. The missing cash-in counter needs acceptance criteria.
-- **Unguided BOM.** Agents build the BOM from a product description and the data contracts, with no template. The data sheet is the truth. Nathan's first spike built a power supply; the next one is a supplier loop with no human answers. Genadi works only on the BOM, not procurement; his purchasing knowledge goes into standards, checked daily by his own PO agent.
-- **Standards.** Lev Rudky writes the standards and you send him bullet points. Purchase orders get their own standard. Claude will groom Jira under a written standard: old unlinked work is archived, no "not to forget" tasks, backlog at most one month. The finance team turns each mistake into a standard and each member runs an email agent against the standards.
-- **Invoices.** The location invoice is due on its date, with 35% a year simple interest from day 7. The monthly connection fee is invoiced on the 1st to the master, net 15.
-- **Recycler MVP 1.** Player flow agreed on Nov 15: a jammed ticket cancels and refunds, Texas shows one balance, a cash-out fee per location (hidden at zero), at least 90 seconds to take a note.
-- **Games.** Class A maths stays predetermined where the law allows; Lions Riches party time is set. The new games are vertical, not dual screen. Nebraska games get Class 3 precogs and anticipations; Georgia V4 is aimed at June 1.
-- **Stock.** The 21.5-inch / 43-inch prepayment waits until you recount the stock (the system shows 163).
-- **New person:** Erika Gonzalez, finance team.
+- **JVL go-forward (Nov 10, Alan Litwack).** Plan: get a current balance sheet from Sean Riley, ask a few liquidators if they will take JVL. If none will take it without money up front, offer the other holders a small buyout paid over time, with about 10% if JVL turns around. Alan brings his insolvency partner.
+- **NOVA.** One name now: "NOVA", not "NOVA-2". Alexander Biratka is the architect and coordinator. IP-481 is the root of all NOVA work, with one weekly MVP for hardware, system and studio. Texas on NOVA about February 1. One game, one merge. A game is one capability, with one branch per asset.
+- **Capabilities.** On Nov 25 the team kept use cases, requirements and capabilities. A closed capability is never reopened. Tests are written only from acceptance criteria. The brief is the output of the game-concept stage.
+- **MVP 2.1.** The November 25 date did not hold. 2.1 closes only after Alekseev confirms the Wi-Fi module update and the autotests finish. On Nov 26 the team said at least one more week. MVP 2.2 work starts in a temporary branch.
+- **Georgia modem.** Sebastian tested 73 of about 75 criteria; the modem was not tested. He waits for Ivan's checklist. The South Dakota build gets the new RIS but not the modem.
+- **Purchasing rules.** A part price goes into MSBC only from a vendor quotation on letterhead, emailed to procurement. A BOM has two sources of truth: the product description and the data contracts in GitHub. Mery orders 50 Flex IQ and 300 Ports from revision 1 now. An approved PO is never changed; only the person who made it can cancel it.
+- **Duty.** Slot and amusement parts come in under tariff code 9504.30.00.60, about 20% all-in, not the vendor's steel code (about 80%). JVL does its own tariff research.
+- **MSBC.** The item description holds only the product name. The configuration goes into item attributes. Lev tests this first in a test company. No configuration table.
+- **Invoices.** First transactional install now. The invoice says "due upon use of service". Interest from day 7 is an internal setting. The invoice template moves out of Business Central into GitHub.
+- **Accounting team.** A weekly AI show-and-tell. Next step is MCP for Business Central, then agents.
 
 ## Held for you
 
-- **Producer hire.** On Nov 17 you said a known producer starts Jan 15 and nobody knows yet. The brain records it with no name. Should it be held out?
-- **Who writes standards?** Nov 16: Lev writes them. Nov 18 and 20: you ask everyone to write them, and say you write them too. Which is the rule?
-- **$90 monthly fee.** Master pays by default (Nov 20), but the September deal says the location pays. Which wins?
-- **Texas promo bonus.** On Nov 20 you reopened it. Is "$1 per $20" still the rule?
-- **Texas games: Rage or NOVA?** Still open. The Nov 13 stand-up planned six vertical Texas games on Rage.
-- **Small items.** An old MVP 2 decision was renamed because its date changed — please check. The $50 standards-contest prize is recorded — keep or drop it?
+- **Litwack call (Nov 10).** This is legal advice on insolvency and a buyout. The brain keeps it like the earlier Litwack calls. Your own loan repayment amount is not recorded. Please say if you want this call kept out of the brain.
+- **Interest rate.** Nov 20 says 35% a year on late location invoices. On Nov 24 Andrei said 45%. Which is right?
+- **Modem rule.** In October you said every machine ships with a modem. The South Dakota build now goes without a modem. Is that an exception?
+- **Old page to check.** An older loans page cites a file named for departure tax and a trust. Please confirm it holds only JVL matters.
+- **Small items.** "John Leslie" (Alan's insolvency partner) — spelling not confirmed. "Boris works for a competitor" was linked to the former shareholder Boris by context.
 
-Family and personal talk was removed from four recordings before saving. Nothing personal is in the brain.
+Personal talk was removed from four recordings before saving (holding-company and personal tax talk, health and family remarks). A private share link pasted in a meeting chat was also removed. Nothing personal is in the brain.
 
 ## Health
 
-Everything checked out. 313 facts were checked against the recordings; 312 matched word for word, and the one shortened quote was fixed.
+Everything checked out. 278 facts were checked against the recordings, and all 278 matched. A check of 12 older facts also held.
