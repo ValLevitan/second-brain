@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 148
+source-count: 150
 open-commitments: 57
 open-questions: 2
 ---
@@ -844,6 +844,14 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 
 At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") he raised the requirements sprawl — in half a year "какая то страшная мусорка" — with Claude's "45%" edited after release, half of his transactional list empty, and two capabilities that contradict each other. His idea: a product spec in GitHub (for example the Flex IQ Port), approved by pull requests and linked to Jira, with change history — "по сути, база знаний". Pavel: the capability is the spec; Chudinov: "Не не, не согласен. Capelise это набор фич." He took the Grafana error emails within MVP 2.2. When Bosik closed operating-system access to the production accounting host he asked whether GlassFish was now Bosik's alone; Bosik: no, shared [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
 
+## Nov 25 2026 (3:46 AM) — "на каждый репозиторий свой префикс для фич"; dead code removed under a capability
+
+At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") he raised that items are still created in BEP: "Удаляйте, у нас теперь по стандарту на каждый репозиторий свой префикс для фич"; Ivan's job is stories, and stories with no parent will bring Val's emails — "Уже уже прилетало". He leads the legacy capabilities under IP-435. On Bosik's variables: the standard is shared, "ты можешь обойти, мы это не можем", so the dead-code removal goes through a capability. He was not invited to the 4:00 requirements meeting and agreed to join [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
+
+## Nov 25 2026 (9:51 AM) — a specification per release, never edited afterwards; a separate meeting; "по 21 вопросов нет"
+
+At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian; label "Dzmitry Chudzinau"; left at about 15 minutes): a release is "подтверждение списка всех требований, которые он должен был реализовать. Их уже нельзя редактировать никогда в будущем"; he is preparing a document, may review it with Sergey, and asked for a separate meeting — Val agreed. Leaving: "по 21 вопросов нет"; on 2_2 he answered Klimovich's comments and "ревью 22 идёт" [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -995,3 +1003,5 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]

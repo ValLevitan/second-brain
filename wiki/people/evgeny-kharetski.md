@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 136
+source-count: 141
 open-questions: 1
 open-commitments: 18
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -495,6 +495,18 @@ At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-stat
 
 At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian, two people) he set out two ways to link the studio and the tracking (way 1: the agent gets a repository from Andrei and creates feature branches; way 2: Jira inside the studio) — Val chose way 1. He asked "Почему мы хотим создание одной игры делить на кап обилите?" and proposed one capability per game; after Val described the studio's asset-by-asset work he agreed features are needed, "всегда будут одинаковым набором". He separated growing the studio for a new mechanic ("сначала должна студия подготовиться") from making one game — Val: "наверное, вы правы." He closed: "что создавать кабинет и фичу да мы это можем сделаем", and will discuss linking it with the studio with "Саша" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]] [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Record and his commitments: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
 
+## Nov 25 2026 (6:19 AM, NOVA) — all services build for ARM; the RK image needs Pavel's inputs; put all current maths into the image
+
+At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image.md|Nov-25 NOVA stand-up]] (Russian) he confirmed "все у нас умеет подаром платформу собираться"; for an RK image he needs Pavel's inputs for the builder — "Ну, значит завтра." He would pick the games and pull their maths in automatically, or put all current maths into the image (even 1,000 games is not large) so games can be added later; he and Pavel want a general call with Efim. He said the brief agent "спрашивает ровно то, что есть в брифе". A RAGE-into-LGS report labelled Biratka may be his (**unclear**) [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-one-game-one-merge-into-the-nova-integration-branch-the-studio-stays-single-user-with-fixed-steps-for-now-and-the-brief-must-describe-the-help-screens.md]]. At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] "женя" with the RIS fixes, the modem questions and the RK3576 installer is read as him (**inference**) [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]].
+
+## Nov 25 2026 (7:59 AM) — features and due dates against the standards; "what is my agent for?"; the brief is the output of game concept
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) he said the Nov-24 scheme does not fit the standards — requirements must exist and "у каждой фичи должен быть дуедэйт" (not answered) [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. He asked "я не очень понимаю назначение агента" if everything is settled before a person comes to it; by the end the group agreed the brief is the result of the game-concept stage and his agent covers that stage [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. When he restated Val's Nov-24 request as auto-created and auto-closed capabilities and features, Val said "Я так не сказал" (open contradiction on the decision page) [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
+## Nov 25 2026 (11:02 AM, in absentia; name call an inference) — to merge the RIS improvements into the South Dakota VLT branch
+
+At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian; not present) Irina: the SD VLT RIS capabilities have no features because "женя их туда ещё не переносил"; the work is a merge of existing changes "в другой бранч", and "Перенесёт женя, наверное, сразу, как только скажет." Read as Kharetski, who does the RIS work (**inference**; the notes say "Evgeny") [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Commitment: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -634,3 +646,8 @@ At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-an
 - [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
 - [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: Jira is groomed by Claude under a written standard — work with no Jira-project or repository link that nobody touched for about three months is archived; an initiative with no capabilities under it is archived; "not to forget" tasks are not allowed; a backlog is at most "next week, next month"; everything sits under a value stream or is removed; Kovalchuk writes the rules into the standards repository and the AI-PM gets a plain-language style guide (Nov 18 2026)
 date: 2026-11-18
 aliases: [Jira grooming standard, Jira hygiene cadence, Jira grooming rules, archive unlinked Jira work, no not-to-forget tasks, чтобы не забыть, запиши себе в блокнотик, no long backlog, не позволяйте длинный пекло, everything under a value stream, валю стримс, сорник, initiative without capabilities, если вы не видите кей побилоти, Claude grooms Jira, направите свой клод на грун, archive notice email, AI-PM report style, simple sentences for second-language readers, standards contest, $50 тоже не помешает, Lena's loose items archived]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 3
 open-questions: 2
@@ -73,9 +73,14 @@ At the [[wiki/meetings/2026-11-19-daily-standup-cloud-test-environment-and-short
 
 - [ ] [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]] — collect the stale Jira items (start with features and stories with no repository prefix — the portfolio projects) and ask their owners before closing — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 
+## Note, Nov 25 2026 — BEP is not used; each repository has its own prefix
+
+At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) Chudinov and Kovalchuk ruled that nothing new goes into the BEP Jira project — "там будет всё удалено" — since under the standard each repository has its own feature prefix; Pavel: a change to an old project gets a new capability [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Dmitri_Jira_Grooming_Rules_and_Short_Backlog-November-18-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]

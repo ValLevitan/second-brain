@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 164
+source-count: 166
 open-commitments: 114
 open-questions: 0
 ---
@@ -995,6 +995,14 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) he reported the test card activations work and the first install can go "tomorrow" if the location is ready, else Friday or Monday; he meets Felipe to set it. He asked whether the location invoice keeps "net 10" or 5 or 7 — Val: "due upon use of service" — and proposed removing the terms field. Showing yesterday's test invoice, he said the footer needs "those numbers that Val approved previously, like 45% annual interest" (Nov 20 recorded 35% — open contradiction). He offered Lev "the proper SVG file" for the slogan and asked for a quick fix before the template moves out of BC [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]] [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record and his commitments: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
 
+## Nov 25 2026 (in absentia) — owner of the Flex-Port update requirement (acceptance criterion 4)
+
+At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) the requirement that the terminal learn of a power cut during a port update was named as his ("Климовичем", acceptance criterion 4). Seregin will comment that the failure is seen by indirect signs, for him to approve. "Андрей" who answered the counters questions is read as him (**inference**) [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
+
+## Nov 25 2026 (9:51 AM) — 2_1 in "3 постулата"; an alpha build to test on Saturday; his daily comment agent; a process meeting after 2_1
+
+He organised the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian). For Val he summed up 2_1: "главное 3 постулата… Вай фай удалённое обновление портов и сплит гуд", and confirmed Val's Claude list by its bold headings. The first location install is "в пятницу… если всё пойдёт, как запланировано"; he will test an alpha build on Saturday if Minsk delivers it Saturday morning Eastern. On conflicting requirements: each day he handles the team's overnight comments "через агента", and when he edits "у меня всегда стоит проверка на новые конфликты"; he will review that agent, keep the requirements clean before 2_2 planning, and wants a full process meeting after MVP 1 and 2_1 ship. He adds the location onboarding email fix to 2_2 [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1162,3 +1170,5 @@ At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-i
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
 - [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]

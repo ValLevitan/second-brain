@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 27
+source-count: 29
 open-commitments: 1
 open-questions: 4
 ---
@@ -183,6 +183,10 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 
 At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 8:01 AM design-guide call]] (Russian) Val rejected building Jira into the NOVA studio: no hard tie "студии в джира, потому что завтра мы можем поменять вот те от джиры, например, работать непосредственно в gedхабе [GitHub]… я бы хотел бы уйти от джиры" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. The game's capability and features are tracked through feature branches and pull requests in GitHub instead. Detail: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
 
+## Nov 25 2026 — "я сплю и вижу": leaving Jira is wanted, but not now
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) Val said Jira also holds the planning of non-developers (service, market research): "Может быть такое, что мы от жиры отойдём, ну я сплю и вижу, чтобы это случилось" — the requirements could then migrate elsewhere; "Давайте не будем пока нарушать этот шаг", or other movements he is syncing break [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Against [[wiki/people/alexander-biratka.md|Biratka]]'s idea of a versioned spec in the repository in place of capabilities, the use-case / requirement / capability chain in Jira stays for now [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Detail: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
 ## Sources
 
 - [[raw/the_importance_of_storing_artifacts_in_git.md]]
@@ -212,3 +216,5 @@ At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-an
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]

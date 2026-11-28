@@ -3,7 +3,7 @@ type: decision
 title: MVP 1 is formally released in this order — Ivan updates the release notes (build names at the top, a clearer Flex-Port version label), Andrei Klimovich as product reviews them, installs the builds and gives a go / no-go, and only then the release manager moves all capabilities to Closed and releases the version in Jira; a Closed capability is never reopened — a gap found later goes into a new "amendment" capability; the missing CAP-311 build-to-release-notes link is accepted as missing for MVP 1; the release notes keep their length for this first run (Nov 11 2026)
 date: 2026-11-11
 aliases: [MVP1 Release, MVP2 Scope and CAPs/REQs review, MVP1 release procedure, Nov 11 MVP 1 release meeting, product go / no-go, зелёный свет, green light by tomorrow evening, release notes then go-no-go then Closed, amendment capability, побилити amment, Closed is not reopened, клоуст не переоткрывается, CAP-311, к а п 311, build names at the top of the release notes, 37 capabilities 36 closed, IQ build of November 3, why do we invent the process, мы просто не дочитали книгу, wrong people at the release meeting]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 6
 open-questions: 2
@@ -49,6 +49,10 @@ Agreed at the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-an
 - **The MVP 1 date.** The Nov 9 internal release had not been formally closed by Nov 11 — [[wiki/decisions/2026-11-05-mvp-1-is-planned-for-monday-november-9-internally-and-the-client-is-told-wednesday-and-the-pyramid-bill-acceptor-is-tested-remotely-on-an-echo-cabinet-in-georgia.md]] (Nov-11 note).
 - **Process.** Logged on [[wiki/topics/github-release-management-pipeline.md]] (Nov 11).
 
+## Update — Nov 25 2026 (7:59 AM)
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] Val restated the rule himself: "нет кей побил эти закрыт, умер закончен он никогда мы кей побил этим никогда не возвращаемся всё" — a change edits the current requirement and its acceptance criteria and opens a new capability; Pavel: "Окей, принято." Pavel said a capability-amendment type already exists ("кополите амман", heard) [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Detail: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/ivan.md|Ivan]] — update the MVP 1 release notes with the build names at the top and re-check the 37th capability — due Nov 11 2026 ("сегодня") — [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]] [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
@@ -69,3 +73,5 @@ Agreed at the [[wiki/meetings/2026-11-11-mvp1-release-procedure-release-notes-an
 
 - [[raw/Meeting_Transcript_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Release_Procedure_Release_Notes_and_Product_Sign-Off-November-11-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]

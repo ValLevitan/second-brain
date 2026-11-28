@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 342
+source-count: 348
 open-commitments: 121
 open-questions: 0
 ---
@@ -1607,6 +1607,26 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) he ruled on the studio's bonus step: "Давайте по принципу 80, 20… давайте нижние яблоки соберем". He is making the build output ready firmware update packages for RK boards; the RK installer builds in the same repository as a separate platform, and Kharetski waits for his go. On LGS statistics he asked for an easily added SSD and a check against GLI — "100% да нам надо скормить этот жела и 11" [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
 
+## Nov 25 2026 (3:46 AM) — a change to an old project gets a new capability; power loss mid-update "выглядит как отдельный MVP"; MVP 2.1 on all devices
+
+At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) he led the round. On the BEP clean-up: old projects had no capabilities, so "надо думать о том, чтобы создать какойто новый копбилитик, который будет описывать эти изменения. Даже если они будут небольшие". On Seregin's power-loss case he judged the report of little use — it takes one developer and one autotest writer, and "Каждое дополнительное усложнение увеличивает шансы на отказ"; Seregin comments on the requirement instead. He thinks MVP 2.1 will go on all devices, since MVP 1 was never installed, and he prepares the RK3576 for Kharetski's new installer [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
+
+## Nov 25 2026 (6:19 AM, NOVA) — one game, one merge; all services build for ARM; an RK image with LGS only; "Пока одна пользовательский режим"
+
+At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image.md|Nov-25 NOVA stand-up]] (Russian) he asked that games go into the integration branch one at a time, not "всё подряд"; said all services now build for ARM and he did the maths build; wants to try an RK image "даже вот без игр чисто л г с поднять" and works today on whether the system is ready for an image. On the studio: "Пока одна пользовательский режим… С последовательностью шагов"; the curve effect editor is put off; he suggested a lock button on the component controls. He raised how labs would check an image holding maths for many games [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-one-game-one-merge-into-the-nova-integration-branch-the-studio-stays-single-user-with-fixed-steps-for-now-and-the-brief-must-describe-the-help-screens.md]].
+
+## Nov 25 2026 (7:59 AM) — requirements made per capability now conflict; an agent to check them before development; use cases are missing; "Окей, принято"
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) he named the main problem: requirements made separately per capability "пересекаются и могут нарушать друг друга"; he proposed an agent that checks all requirements, non-functional ones too, before development — about 80% of cases [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. He said use cases are almost missing ("нехватка на самом деле юске") and a capability-amendment type already exists [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. When Val ruled a closed capability is never reopened: "Окей, принято." [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
+## Nov 25 2026 (9:51 AM) — "21 мы не можем закрывать" without Alekseev's test; an alpha build on Saturday; full assembled Flex-Ports for Minsk
+
+At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian): the Wi-Fi-module update is one factor holding 2_1, the remaining autotests the other; he added a network-scan item to Alekseev's definition of done and will contact him; he proposed an alpha build for what does not need Wi-Fi ("Без проблем" to Saturday morning Eastern); Minsk needs only the new Flex-Ports, "Собранный порт… Со сканером ну лучше полную сборку" [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
+
+## Nov 25 2026 (11:02 AM) — modem instructions are needed anyway; one capability for the SD VLT RIS merge
+
+At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian): Sebastian checks only what the modem change asked for; "нам всё равно для модома надо инструкции, как проверять работоспособность", since "через 3 месяца к нам придут и скажут. Ваш модем не работает?"; Ivan writes the first version. For South Dakota VLT the capabilities are "избыточное такое количество"; one capability and one feature for moving the commits would do, and he plans them on the Minsk side [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1955,3 +1975,9 @@ At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-stat
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]

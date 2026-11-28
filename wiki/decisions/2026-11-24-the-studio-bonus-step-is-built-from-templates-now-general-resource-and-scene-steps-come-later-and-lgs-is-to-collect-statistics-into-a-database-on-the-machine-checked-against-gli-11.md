@@ -3,9 +3,9 @@ type: decision
 title: The studio's bonus step is built from templates (general bonus features, the bonus screens, transition and end message made in one step, then packed into scenes by the contracts) — Biratka's more general "create resource / create scene from a template set" steps come later, by Pavel's 80/20 ("low apples first"); a texture-format speed study waits until speed is a problem; and LGS is to gain a statistics capability — collect statistics, keep them long term in a database on the machine, send them to the hub — with storage turned into a fast buffer, room for an added SSD, a possible move to Spring, and the history rules to be checked against GLI-11 (NOVA stand-up, Nov 24 2026)
 date: 2026-11-24
 aliases: [bonus step templates, бонусная игра шаблон, studio bonus step, create resource step, create scene step, 80/20 low apples, нижние яблоки соберем, WebP textures, texture format, LGS statistics, сбор статистики LGS, LGS database on the machine, LGS to Spring, storage as buffer, history archive tab, GLI-11 history check, LGS simulation mode container, RK firmware update packages, RK installer build, NOVA-2 renamed NOVA in Jira, demo mode menu task]
-source-count: 2
+source-count: 3
 status: active
-open-commitments: 10
+open-commitments: 9
 open-questions: 4
 ---
 
@@ -54,7 +54,6 @@ Agreed at the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-l
 - [ ] Anton Leshkevich — check the texture format for the new engine and write to Daniil — due after the meeting, Nov 24 2026 — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [ ] [[wiki/people/daniil-stauskiy.md|Daniil Stauskiy]] — merge his green pull request in the library himself — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [ ] Daniil Stauskiy — take the demo-mode menu task (from Biratka) — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
-- [ ] [[wiki/people/igor-metelski.md|Igor Metelski]] — request repositories for all four games and upload them, same contract as the first — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — finish the LGS fixes and the container build with LGS in simulation mode — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [ ] Evgeny Kharetski — analyse moving LGS to Spring or similar — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — create the requirements and capabilities for LGS statistics, the database and the history archive; agree the statistics list with Efim — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
@@ -70,7 +69,17 @@ Agreed at the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-l
 
 **§15.8:** clear. **§15 #9:** none.
 
+## Note, Nov 25 2026 — the general template idea raised again and again left for later; Igor's games are in repositories
+
+At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image.md|Nov-25 NOVA stand-up]] (Russian) Biratka again proposed scenes and resources from templates so several people work in parallel; Leshkevich: "Звучит очень здорово для версии, какойнибудь будущей" — the studio stays single-user with fixed steps, to be revisited before about January 15. Igor uploaded all four games to their repositories [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-one-game-one-merge-into-the-nova-integration-branch-the-studio-stays-single-user-with-fixed-steps-for-now-and-the-brief-must-describe-the-help-screens.md]].
+
+
+## History
+
+- [x] [[wiki/people/igor-metelski.md|Igor Metelski]] — request repositories for all four games and upload them, same contract as the first — due unspecified — [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]] — **discharged Nov 25 2026**: "я залил в репозитории на все игры" [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [[raw/Meeting_Notes_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]

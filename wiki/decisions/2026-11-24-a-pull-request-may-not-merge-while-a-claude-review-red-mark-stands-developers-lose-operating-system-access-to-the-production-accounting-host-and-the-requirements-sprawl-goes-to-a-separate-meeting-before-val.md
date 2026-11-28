@@ -3,9 +3,9 @@ type: decision
 title: A pull request may not merge while a Claude-review red mark stands — fix it, re-run the review, then merge, with exception cases still being tested by Bosik (Pavel asked that a reasoned reply to the red mark be enough); developers lose operating-system access to the production accounting host and such work goes through Bosik's team, though GlassFish problems stay shared; the requirements sprawl (about 1,100 Jira requirements, duplicates unknown, Chudinov's product-spec-in-GitHub idea against Pavel's "the capability is the spec") goes to a separate meeting that brings a proposal to Val; the Minsk Nexus stays and is cleaned up after New Year; also the Flex-Port update hang traced to the firmware-bank switch, with Seregin's fix that refuses pre-release versions (Minsk stand-up, Nov 24 2026)
 date: 2026-11-24
 aliases: [Claude review merge gate, red mark blocks merge, красный кружок, клод ревью, merge blocked by Claude review, no OS access to production accounting host, доступа у вас туда в операционку больше нет, requirements sprawl, 1100 requirements, порядка 1100 реклариментов, product spec in GitHub, спека на продукт, Flex IQ Port spec, capability is the spec, Minsk Nexus clean-up after New Year, firmware bank switch hang, pre-release version blocked, dead secrets clean-up, jvlgaming.com certificate, Grafana error emails]
-source-count: 3
+source-count: 6
 status: active
-open-commitments: 12
+open-commitments: 11
 open-questions: 5
 ---
 
@@ -24,6 +24,8 @@ Settled at the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-
 - **Pavel: the capability is the spec.** "Похорошему… успехом с пекой должен выступать копобилити" — "коммуникация машины с терминалом" sounds to him like capability level, with links to requirements. Chudinov: "Не не, не согласен. Capelise это набор фич." Pavel also saw a missing layer "который описывает, с одной стороны, постановку задач, а с другой стороны релизное состояние"; an MVP in Jira today is only "223 предложения" (two or three sentences) and then the capability links. Biratka: "это типа проза" [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]].
 - **Irina.** She dislikes the requirement descriptions: "Очень много всего пишется… каких то блоков, которые вообще не нужны" (who answered, when, how many changes). She had raised the same problem "в пятницу или в субботу" (Pavel) [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]].
 - **The route.** Pavel: "надо думать и на отдельном митинге принимать решения". Kovalchuk: "Надо встретиться просто пообсуждать… а потом уже тогда предложить вал. Вот решение какоето." Pavel: "прежде чем поднимать этот вопрос… надо придумать, как это может быть решено, какими способами." Pavel added that empty requirements should not exist — each needs at least one acceptance criterion [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]].
+
+- **Nov 25 note.** The next day the conflict problem reached Val at the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]]: Pavel named requirements made separately per capability that "пересекаются и могут нарушать друг друга" and proposed an agent that checks all requirements before development; whether conflicts close automatically (Val) or after a person's review (Irina, Biratka) is not decided; the current structure stays [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Whether that meeting counts as the separate meeting is not said (**inference** only). Detail: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
 
 ## 2. The Claude-review merge gate
 
@@ -68,7 +70,6 @@ Settled at the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-
 - [ ] (blocked-on: New Year) Andrey Bosik with Pavel Frolov — clean up and retire the Minsk Nexus — due after New Year — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [ ] Dmitri Chudinov — fix the Grafana error emails within MVP 2.2 — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [ ] [[wiki/people/anton-seregin.md|Anton Seregin]] — finish and verify the bank-switch fix for the Flex-Port update — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
-- [ ] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — run a full manual cycle on the Flex-Port, updates first — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [ ] [[wiki/people/alexander-biratka.md|Alexander Biratka]] — answer which Flex-Port counters are kept after a restore (blocks Seregin's autotests) — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [ ] Alexander Biratka — create the capability discussed at yesterday's meeting and take Irina's two new stories — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [ ] Irina Shishko — send Biratka the capability map and the two stories; send Ivan GLI's answers — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
@@ -90,8 +91,20 @@ Settled at the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-
 
 **§15.8:** clear — the $300 is a test payment. **§15 #9:** clear — no account or licence numbers.
 
+## Note, Nov 25 2026 — Seregin's fix made; Khamin's manual round done; a 4:00 requirements meeting
+
+At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) Seregin reported his port fix made and checked by autotests, with the old loader refusing the update; his counters question (item 128) still blocks. Khamin ran the manual Flex-Port round — all fine except returning to the previous release. Irina said a 4:00 meeting covers capabilities and requirements, arising from "вчера женя разговаривал с валом"; Chudinov was not invited and Biratka will bring him [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]].
+
+
+## History
+
+- [x] [[wiki/people/alexei-khamin.md|Alexei Khamin]] — run a full manual cycle on the Flex-Port, updates first — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] — **discharged Nov 25 2026**: done by hand, all fine except returning to the previous release [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]

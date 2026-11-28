@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 532
+source-count: 534
 open-commitments: 83
 open-questions: 1
 ---
@@ -1924,6 +1924,10 @@ He set a regular AI-only show-and-tell for the accounting team — "I don't use 
 
 With Mery he showed that the vendor's steel code (about 80%) was wrong for slot-machine parts and ruled game parts, HTS 9504.30.00.60, about 20% all-in — "You have to do your own research" — and said he would post it as a standard in GitHub [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]] [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
 
+## Nov 25 2026 (7:59 AM) — the capability is the "камень прикосновения"; a closed capability "умер"; tests never from code; four studio stages; game concept before the brief
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) he kept use cases, requirements and capabilities against Biratka's proposals — the capability is the touch point between market and development; agreed the process first and the standards after; ruled that a closed capability is never reopened and a change opens a new one; ruled that acceptance tests are written only from use cases, requirements and acceptance criteria, not from code or prose; set four studio stages; and agreed the brief is the output of the game-concept stage [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. He would close conflicting requirements automatically (not decided), wants grooming agents in a loop for standards and requirements, and will think about test contracts and schedule the meeting again [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2466,3 +2470,5 @@ With Mery he showed that the vendor's steel code (about 80%) was wrong for slot-
 - [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
 - [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]

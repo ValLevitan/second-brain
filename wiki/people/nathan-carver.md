@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 79
+source-count: 80
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -308,7 +308,12 @@ At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-r
 
 At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) he separated the two terms: the customer pays on the day of service, while "MSPC uses the terms to know when to apply interest… Right now it's 10, we can update it to 7", and the printed invoice need not show the internal value. He found the sales invoice template in use — "this 53001 and I downloaded the RDLC template" — and said a new report ID could be assigned "to our COAM customers". On a bounced draw: the customer pays "by credit card or pay some other way with JVL" for now. His "who is taking on updating the template?" got no direct answer [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
 
+## Nov 25 2026 (in absentia) — the power-supply sub-assembly test; MCP gaps go to him as use cases; Lev wants him to load assembly-order data
+
+At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] Val said he and Genadi had tested with Nathan that a power-supply sub-assembly can be built from data sheets and kept in MSBC as its own part number; Lev's Claude can write to MSBC only as far as Nathan's MCP allows, and missing functions go to Nathan as use cases [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Lev suggested Nathan load the components into the assembly order and check the drawings before Elizabeth posts [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Transcript_Nathan_Carver_Flex_Pay_Slim_BOM_Reverse_Spike-October-5-2026.md]]

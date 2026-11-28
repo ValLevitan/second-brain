@@ -3,7 +3,7 @@ type: person
 title: Sebastian
 date: 2025-02-19
 aliases: [Sebastian, Sebastian Cortes, the engineer I brought in from Miami]
-source-count: 38
+source-count: 39
 open-commitments: 3
 open-questions: 2
 ---
@@ -173,6 +173,10 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 
 At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and-modem-not-tested.md|Nov-24 3:31 PM call]] (English; from his phone in the warehouse) Sebastian: testing started on Nov 23, "the middle of the day"; about 75 criteria, 73 done; notes go into "the file that Felipe shared in the group"; "the engineers repaired a lot of fails on the previous version", but about 8 still fail and he has about 8 questions; results to Irina by about 4:30 PM. He had not tested the modem at all; he asked whether the modem will be used on the D27 cabinet, where this software is being tested — Val: "yes, we will be" — so another half day or a day [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]] [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
 
+## Nov 25 2026 (11:02 AM, in absentia) — off the modem test for the day; he finishes it on Friday from Ivan's checklist
+
+At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM RIS and modem call]] (Russian; not present) Val praised his 75 RIS acceptance criteria and wants the same for the modem. Pavel: for the modem he checks only the change asked for — the QR window, "ваш запрос принят", the activation code. Val: "снимем его с Того, чтобы он сегодня проверял модем"; when he is back at work on Friday he finishes from a checklist Ivan sends the Minsk evening of Nov 26 [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Sales_Q4_Trade_In_Plan_and_Transactional_Momentum-October-14-2026.md]]
@@ -213,3 +217,4 @@ At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
 - [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]

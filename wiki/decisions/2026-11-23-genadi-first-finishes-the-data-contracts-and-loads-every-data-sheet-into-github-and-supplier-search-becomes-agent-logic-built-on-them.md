@@ -3,7 +3,7 @@ type: decision
 title: Genadi Peari's top priority is to finish the data contracts and load every data sheet into GitHub — starting the same day with the controller boards of the 5 current monitors (part numbers matching MSBC) and the electromechanical counter; his new monitor-controller requirements (built-in LED backlight control and power supply, no extra boards) go into the data contracts; supplier search is to become agent logic built on the data contracts, not hand work, with Andrei to help if he is stuck; the question of how the revision-2 board check was opened in Jira is parked (Val, with Genadi Peari, Nov 23 2026)
 date: 2026-11-23
 aliases: [Nov 23 Genadi call, Alignement Nov 23, finish the data contracts first, доделать дата контракты, положить все дата шиты, monitor controller kits, controller boards for 5 monitors, Akira monitors, integrated LED backlight control, integrated power supply, electromechanical counters 50 percent, supplier search by agents, manufacturer or trading company, Alibaba sourcing agent, revision 2 boards, revision 3 boards, 20 boards multiplexer, Genadi in automation not procurement]
-source-count: 3
+source-count: 4
 status: active
 open-commitments: 5
 open-questions: 4
@@ -67,7 +67,12 @@ About 90 minutes before this call, at the [[wiki/meetings/2026-11-23-pavel-irina
 
 **§15.8:** clear — the board prices are part costs, and no amount of the contractor's charge was named. **§15 #9:** clear.
 
+## Note, Nov 25 2026 — the data sheets also feed MSBC item attributes
+
+Two days later, at the Nov-25 MSBC attributes meeting, Val said the attributes of each item in Business Central should come from its data sheet, "потому что атрибют и это часть дельта контракта", and that a hand-kept table of Flex configurations should give way to the data contracts and requirements [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 
 - [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]

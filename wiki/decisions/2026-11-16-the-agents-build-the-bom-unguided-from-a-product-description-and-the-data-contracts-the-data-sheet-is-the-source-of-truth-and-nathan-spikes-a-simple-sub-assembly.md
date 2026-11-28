@@ -3,7 +3,7 @@ type: decision
 title: The agents build the BOM unguided — they get only a short description of the product and the data contracts, with no template or assembly logic from Genadi or Nathan; when a build fails the cause must trace to the data sheet, which is the source of truth; Nathan spikes a simple sub-assembly for Wednesday Nov 18 (Thursday at the latest); the work splits into Val's procurement administration and AI-COO side and Genadi's specs and data sheets (Val, with Genadi Peari and Nathan Carver, Nov 16 2026)
 date: 2026-11-16
 aliases: [unguided BOM, unguided assembly, unguided assembly of a bill, unguided BOM test, unguided BOM spike, AI-logic for assembling BOM, BOM from data contracts without guidance, no template, ATM machine description, spec writer auditor assembler, data sheet is the source of truth, the exit is the data contract the entry point is the data sheet, pretend the product never existed in MSBC, compare two BOMs, Nov 16 BOM test, Nathan spike Wednesday, Val's part and Genadi's part, административная часть прокюрмента]
-source-count: 8
+source-count: 9
 status: active
 open-commitments: 3
 open-questions: 2
@@ -82,7 +82,12 @@ At the [[wiki/meetings/2026-11-18-nathan-bom-agents-supplier-data-loop.md|Nov-18
 
 On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 ~3:09 PM call]] (Russian) Val sharpened the split above: Genadi is not to work on procurement at all, only on the BOM with Nathan ("Я был специфик, чтоб вы не работали с протюрматом"). Genadi said drawings are almost all in GitHub and, for one cabinet, all data sheets (TVs, power supplies, main parts) are loaded; other parts not yet. Val asked again that Genadi put his knowledge into standards in GitHub — the open commitment above is restated, not yet discharged [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]] [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
 
+## Note, Nov 25 2026 — Val cites the power-supply test; the same assembly becomes Lev's attribute test
+
+At the Nov-25 MSBC attributes meeting Val said "Мы протестировали уже с Геннадием. И с нейтоном" that a power-supply sub-assembly can be built from the data sheets and kept in MSBC as its own part number, so JVL does not need the BC manufacturing module (read as this spike, **inference**). Lev's test of MSBC item attributes runs on the same power-supply assembly [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 
 - [[raw/Meeting_Transcript_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Unguided_BOM_Test_and_Standards-November-16-2026.md]]

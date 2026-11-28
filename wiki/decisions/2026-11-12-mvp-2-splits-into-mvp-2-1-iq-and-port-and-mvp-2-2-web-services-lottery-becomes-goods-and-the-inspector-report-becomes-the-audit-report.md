@@ -1,9 +1,9 @@
 ---
 type: decision
-title: MVP 2 is split in two — MVP 2_1 (Flex IQ and Flex-Port — Wi-Fi, remote port update, payout split, audit report; priority 1) and MVP 2_2 (web services; priority 2), and any capability with a port or IQ feature goes to 2_1; the "Lottery" payout product becomes one fixed, generic category, "Goods" (configurable categories in MVP 3); the "inspector report" is the "audit report" everywhere, even internally; the purpose of design is two paragraphs of plain prose, no numbering; MVP 2 sends SIM data tied to the location and the server grows the reporting later without IQ changes; a Master role on the web; only Irina or Pavel create releases (Nov 12 2026)
+title: MVP 2 is split in two — MVP 2_1 (Flex IQ and Flex-Port — Wi-Fi, remote port update, payout split, audit report [Nov 25: the inspector/audit report is placed in 2_2, not 2_1]; priority 1) and MVP 2_2 (web services; priority 2), and any capability with a port or IQ feature goes to 2_1; the "Lottery" payout product becomes one fixed, generic category, "Goods" (configurable categories in MVP 3); the "inspector report" is the "audit report" everywhere, even internally; the purpose of design is two paragraphs of plain prose, no numbering; MVP 2 sends SIM data tied to the location and the server grows the reporting later without IQ changes; a Master role on the web; only Irina or Pavel create releases (Nov 12 2026)
 date: 2026-11-12
 aliases: [MVP2 Transactional planning, MVP 2 capability review Nov 12, MVP 2_1, MVP 2_2, MVP 2 с половиной, MVP 2.5, 2 подчеркивания, IQ and port priority 1, web services priority 2, Goods category, гуц, goods not lottery, Lottery renamed Goods, CAP-159, one fixed category, nine categories in MVP 3, audit report, одитрепорт, inspector report renamed, purpose of design as prose, не больше 2 параграфов, no numbering, SIM data tied to location, Master role, CAP-367, master license holder, location license holder, requirement 2066, requirement 2069, CAP-312, alerting in Grafana, only Irina or Pavel create releases, Proposed to Accepted]
-source-count: 12
+source-count: 13
 status: active
 open-commitments: 6
 open-questions: 2
@@ -113,10 +113,16 @@ At the [[wiki/meetings/2026-11-19-andrei-mvp2-1-reporter-cleanup-and-release-dat
 
 At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-role-in-2-2.md|Nov-20 9:02 AM follow-up call]] (Russian): Irina — the 2_1 capability set "можно сказать, что он замороженный для 21" (Wi-Fi, updates, Goods instead of lottery, phone, SIM cards; Klimovich adds the closer-reading barcode); development is done, autotests remain. The Jira date stood at "23 ноября" and was moved to Wednesday November 25 (Klimovich: "давайте 25 ноября когда поставим"; Pavel: "Да да ставь на среду"). Task 399 (the firmware that flashes the Wi-Fi module) moved from 22 to 21. For 2_2 Klimovich: "2 и 2 это про мастера и про репортинг" — master registration by master licence number ("наш главный идентификатор"), his locations, statistics only for his collection; its date waits for a scope freeze. SAS statistics in bill-validator mode moved to MVP 3 [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]. Full record: [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
 
+## Note, Nov 25 2026 (9:51 AM) — the 2_1 scope is fixed; the inspector report is in 2_2; the November 25 date does not hold
+
+At the [[wiki/meetings/2026-11-25-mvp2-1-release-sync-wifi-firmware-test-alekseev.md|Nov-25 9:51 AM "MVP2_1 release sync"]] (Russian) Klimovich named 2_1's "главное 3 постулата… Вай фай удалённое обновление портов и сплит гуд", plus support phone numbers; when he added "репорта для инспектора", Irina: "Репортов 22." 2_1 does not close until Alekseev confirms the Wi-Fi-module update and the autotests finish [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]. Full record: [[wiki/decisions/2026-11-25-mvp-2-1-closes-only-after-alekseev-confirms-the-wi-fi-module-update-and-the-autotests-finish-the-scope-stays-fixed-an-alpha-build-goes-to-andrei-on-saturday-and-minsk-gets-full-new-flex-ports.md]].
+
 ## History
 
 - **Until Nov 19 2026 — MVP 2_1 was planned for November 20.** On Nov 12 Irina put the IQ-and-port release "на 20" as planned, the server part about "плюс 5 дней 25" (above) [[raw/Meeting_Transcript_MVP2_Capability_Review_Goods_Category_Master_Role_and_Release_Split-November-12-2026.md]]. On Nov 19 the team said the 20th will not hold, with no new date — **evolution**; see the Nov-19 notes above [[raw/Meeting_Transcript_Andrei_MVP2_1_Reporter_Cleanup_and_Release_Date_Slip-November-19-2026.md]].
-- **Nov 19 – Nov 20 2026 — no date, then November 23 in Jira.** On Nov 20 the Jira date stood at November 23 and was moved to **Wednesday November 25**, the current state — **evolution** [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]].
+- **Nov 19 – Nov 20 2026 — no date, then November 23 in Jira.** On Nov 20 the Jira date stood at November 23 and was moved to **Wednesday November 25** — **evolution** [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]].
+- **Nov 20 – Nov 25 2026 — November 25, then no fixed date.** On Nov 25 the 25th did not hold; the release waits for Alekseev's Wi-Fi-module test and the autotests (end of that week) — **evolution** [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]].
+- **Nov 12 – Nov 25 2026 — the audit report.** Listed in 2_1 on Nov 12; placed in 2_2 by Irina on Nov 25 — **evolution** [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]].
 
 ## Sources
 
@@ -132,3 +138,4 @@ At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-r
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
+- [[raw/Meeting_Transcript_MVP2_1_Release_Sync_WiFi_Firmware_Test_Alekseev-November-25-2026.md]]

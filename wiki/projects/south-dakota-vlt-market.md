@@ -3,8 +3,8 @@ type: project
 title: South Dakota VLT market entry
 date: 2025-01-22
 aliases: [South Dakota, SD VLT, South Dakota VLT 3, VLT3, South Dakota D2703, IP1180, IP887, IP1131, IP1137, GD918, South Dakota lottery, South Dakota route, video lottery, Alani lottery, SDVLT, Epic 950, V43, D27, SD cap, Bioliches, Gypsy Spirit, Crazy Colt, Queen of Luxor, Liberty Spin, Rodeo Spin, South Dakota vertical, MG Oil report, VLT2, Cool Cat, Black Hills Kino, Dragon Pace, Dakota Bison, Solar Keno, Keno Deluxe, IP459, IP1063, SD VLT performance story, Wild Colt, Lion Riches, Liberty Spins, Dutch Mill]
-source-count: 63
-open-commitments: 6
+source-count: 64
+open-commitments: 8
 open-questions: 4
 ---
 
@@ -431,8 +431,17 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 
 ### Open questions (Nov 23 2026)
 
-- What are GLI's answers on its two unanswered remarks on the first South Dakota build? — [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- What are GLI's answers on its two unanswered remarks on the first South Dakota build? — [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] — *Nov 25: GLI has started to answer; whether the two are real problems is not yet clear* — [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
 - Is Efim's maths change in the South Dakota build? — [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+
+## Nov 25 2026 (11:02 AM) — the next build gets the new RIS but not the modem; GLI's two issues; the RIS capabilities stay in Jira; about a week of testing
+
+At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM call]] (Russian) with [[wiki/people/pavel.md|Pavel]] and [[wiki/people/irina-shishko.md|Irina]], [[wiki/people/val-levitan.md|Val]]: "Я предлагаю добавить туда рис"; the modem — "модель не добавляем". Irina: a machine without a modem gives [[wiki/organizations/gli.md|GLI]] nothing to test, and if GLI asks about the code, "мы им скажем, что этот функционал не для сауздаты локалити." On GLI's findings: "Мы часть починили, мы с ними согласились"; for two errors JVL asked GLI for more information, and GLI "уже начали это самое отвечать"; so the next build needs the RIS and "ответ на вот эти 2." The Jira release for SD VLT fixes and RIS improvements holds capabilities "304 тире 310", with no features yet; they stay in Jira, set there on purpose for GLI (Irina), and Pavel proposes one capability and one feature for merging the commits. Testing, Irina: "сказала бы неделя"; Val: "Хорошо неделя" [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
+
+### Open commitments (Nov 25 2026)
+
+- [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] ("женя" — **inference**) — merge the RIS-improvement commits into the SD VLT branch — due as soon as asked — [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
+- [ ] [[wiki/people/ivan.md|Ivan]] — test the SD VLT build with the RIS changes — due about one week — [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]
 
 ## Sources
 
@@ -500,3 +509,4 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]

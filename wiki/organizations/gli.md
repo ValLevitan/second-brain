@@ -3,7 +3,7 @@ type: organization
 title: GLI (Gaming Laboratories International)
 date: 2026-07-12
 aliases: [GLI, Gaming Laboratories International, GLC, start with GLI, they are the most savvy, they will ask for a payment, Puerto Rico Gaming Board, light certificate]
-source-count: 8
+source-count: 9
 ---
 
 # GLI (Gaming Laboratories International)
@@ -64,6 +64,10 @@ At the [[wiki/meetings/2026-10-16-david-villari-zephyr-puerto-rico-distribution-
 
 At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-features-before-capability-review.md|Nov-12 Minsk stand-up]] (Russian) [[wiki/people/igor-metelski.md|Igor Metelski]]: "С ваней пытаемся для джила [GLI] сделать рабочий патч для запуска под виндовс"; "сейчас у них не стартовал дота центр [heard]. Вот и там надо разбираться, какая у них жаба [Java] стоит" — with [[wiki/people/ivan.md|Ivan]] [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]. What the patch is for is not said.
 
+## Nov 25 2026 — two open South Dakota issues; the modem stays out of the SD build
+
+At the [[wiki/meetings/2026-11-25-ris-modem-sebastian-checklist-and-sd-vlt-ris-port.md|Nov-25 11:02 AM call]] (Russian) Irina: JVL fixed part of GLI's South Dakota findings and agreed with them; on two errors it asked GLI for more information, and GLI, slow at first, "уже начали это самое отвечать" — it is not clear they are real problems. The next SD build carries the new RIS but no modem; if GLI asks about modem code, "мы им скажем, что этот функционал не для сауздаты локалити" [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]. Record: [[wiki/decisions/2026-11-25-sebastian-stops-modem-testing-until-ivans-checklist-arrives-and-the-south-dakota-vlt-build-gets-the-new-ris-but-not-the-modem-with-about-a-week-of-testing.md]].
+
 ## Sources
 
 - [[raw/gli_visit-jan-7-2025.md]]
@@ -74,3 +78,4 @@ At the [[wiki/meetings/2026-11-12-daily-standup-recycler-rust-service-and-no-fea
 - [[raw/Meeting_Transcript_David_Villari_Zephyr_Puerto_Rico_Distribution_and_Beta_Test-October-16-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Recycler_Rust_Service_and_No_Features_Before_Capability_Review-November-12-2026.md]]
+- [[raw/Meeting_Transcript_RIS_Modem_Sebastian_Checklist_and_SD_VLT_RIS_Port-November-25-2026.md]]

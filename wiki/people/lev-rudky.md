@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 35
+source-count: 36
 open-commitments: 2
 ---
 
@@ -127,7 +127,12 @@ At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-i
 
 Per the notes of the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting show-and-tell]], the vendor bank-details standard in GitHub (v1.4, Nov 24; changed in v1.2, Nov 20) has Lev, as MIS Manager, enter and approve bank details, while Mery only saves the vendor's documents [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. After the call Val's rulings went to him by email (sent Nov 25, Cc Vaselisa): add to the PO standard that nobody changes a PO after Val approves it, only its issuer cancels it, the CFO and COO are told, the controller decides the account and the AI CFO verifies it; and write a short standard that standards do not copy application user manuals [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]].
 
+## Nov 25 2026 (12:31 PM) — he tests MSBC item attributes in a test company first; no production orders in JVL's BC; why he, not Elizabeth, posts assemblies
+
+At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] (Russian) Lev could not confirm attributes "за 2 минуты"; he will run a small test himself in a test company on the power-supply assembly and check purchase orders, invoices and other documents ("нужен верификаш") [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He said JVL's BC has no production orders, only work-arounds; he posts assemblies because of shortages (about 40, mostly small) and suggested Nathan load the data and check the drawings first so [[wiki/people/elizabeth.md|Elizabeth]] can post them [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. His own worries: the BOM must always carry the latest board revision, with a cut-over process for mixed old and new boards, and outside labour such as coating set up as a resource, not an item [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. Commitments: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]

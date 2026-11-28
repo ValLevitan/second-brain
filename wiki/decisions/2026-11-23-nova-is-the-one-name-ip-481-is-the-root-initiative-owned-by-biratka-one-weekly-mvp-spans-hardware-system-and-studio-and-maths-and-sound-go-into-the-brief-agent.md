@@ -3,7 +3,7 @@ type: decision
 title: NOVA is the one name (no more "NOVA-2"); IP-481 is the root initiative for all NOVA work, owned by Alexander Biratka with Igor, Evgeny, Anton and Daniil; one MVP — NOVA-MVP-1 — holds the hardware platform, the system and the studio together, and MVPs come about once a week; MVP 1 stays narrow but working (the base-game step and a one-page self-install for a new designer); maths and sound belong in the brief agent, not the studio; the studio is tested as its own product; the setup screens count as done until tests say otherwise; Val also asks for an AI bot to do Georgia commissioning calls (Val, NOVA team, Nov 23 2026)
 date: 2026-11-23
 aliases: [NOVA sync Nov 23, NOVA sync meeting, NOVA not NOVA-2, нова и всё, IP-481 root initiative, IP 481 NOVA Gaming Platform Land-based, NOVA-MVP-1, Нова MVP один, one MVP for hardware system and studio, weekly MVP, MVP every week, maths in the brief agent, sound in the brief, sound standard, new designer onboarding, self-install page, studio secrecy, black-box tools, AI commissioning bot, Emma creates capabilities]
-source-count: 6
+source-count: 8
 status: active
 open-commitments: 13
 open-questions: 7
@@ -100,6 +100,10 @@ At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-stat
 
 At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian) Val and [[wiki/people/evgeny-kharetski.md|Kharetski]] agreed that when a design brief is complete, the brief agent creates one capability per game ("сделай мне игру") with one feature and feature branch per asset; the studio is not tied to Jira; a game initiative gets its project number and repository together. Val pointed at "IP 11 97" (heard; the notes: IP-1197, not confirmed) as the initiative for the agent's capabilities — how it relates to IP-481 was not said [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]] [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
 
+## Note, Nov 25 2026 — the IP-481 capability review is done; Igor merged main into his branch; game repositories exist
+
+At the [[wiki/meetings/2026-11-25-daily-standup-bep-cleanup-and-port-update-requirements.md|Nov-25 Minsk stand-up]] (Russian) Biratka said he finished reviewing all capabilities in IP-481 and sent them to Daniil, Igor and Zhenya to confirm; engine requirements come next [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]. At the [[wiki/meetings/2026-11-25-nova-standup-four-games-efim-math-and-rk-image.md|Nov-25 NOVA stand-up]] Igor said he merged main into his branch and the build passes, and he uploaded all games to repositories "Андрей" created (**inference**: Bosik) — a partial answer to the repositories question below [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]. Records: [[wiki/decisions/2026-11-25-nothing-new-goes-into-the-bep-jira-project-each-repository-uses-its-own-prefix-old-project-changes-get-a-new-capability-and-the-power-loss-during-update-report-is-proposed-out-of-the-requirement.md]] · [[wiki/decisions/2026-11-25-one-game-one-merge-into-the-nova-integration-branch-the-studio-stays-single-user-with-fixed-steps-for-now-and-the-brief-must-describe-the-help-screens.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
@@ -108,3 +112,5 @@ At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-an
 - [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
 - [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
 - [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_BEP_Cleanup_and_Port_Update_Requirements-November-25-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Four_Games_Efim_Math_and_RK_Image-November-25-2026.md]]

@@ -4,7 +4,7 @@ title: Michael Gottlieb
 date: 2026-07-13
 aliases: [Michael Gottlieb, Michael, Mike]
 disambiguation: "Senior VP of Game Design (works with Juan). Misha/Michael cluster (2, owner-ruled): [[wiki/people/michael-gottlieb.md|Michael Gottlieb]]=Senior VP Game Design / [[wiki/people/mikhail-perelman.md|Mikhail Perelman]]=Procurement Manager (the "retrofit Misha"). Resolve by context; queue if none."
-source-count: 80
+source-count: 81
 open-commitments: 16
 ---
 
@@ -407,6 +407,10 @@ At the [[wiki/meetings/2026-11-13-game-development-class-a-party-time-math-and-c
 
 At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan-and-promo-credits.md|Nov-20 ~12:02 PM game-development meeting]] (English) he proposed adding precognitions and anticipations to the Nebraska games ("I am surprised as to how poor they're performing"), explained that the Georgia nudge builds the trigger stack on reel 3, and set the line: five-reel Georgia games on dual box with Class 3 presentation, three-reel keep nudge — to confirm with Felipe. On Class A: Rodeo Spins' re-spin must feel different from party time; Queen of Luxor's events come "one in 59, one in 60 spins"; "We're all done with rage." On Val's promo idea: "I don't think giving somebody a buck for… 20 bucks… I just don't see it as compelling"; "I want a silver bullet that can be a differentiator for us" [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-nebraska-games-get-class-3-precognitions-and-anticipations-for-about-two-more-weeks-and-future-georgia-five-reel-dual-box-games-get-the-same-class-3-presentation-while-three-reel-games-keep-nudge.md]] · [[wiki/decisions/2026-11-13-class-a-maths-stays-predetermined-where-the-law-allows-lions-riches-party-time-is-set-at-about-1-in-240-paying-10-to-60-times-the-bet-and-the-maths-tasks-must-show-in-jira-before-the-meeting.md]] · [[wiki/decisions/2026-11-12-the-texas-twenty-dollar-promo-bonus-is-one-dollar-per-twenty-with-machines-at-ninety-percent.md]].
 
+## Nov 25 2026 (in absentia; inference) — named by Val as the producer of the game-concept stage
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian) Val described the game-concept stage as run by "Майкл." or another producer, who asks about markets, installed machines and competition and sets the mechanics and rough story before game design; Irina also spoke of going to "Майклу" for a new game [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. "Майкл" = Michael Gottlieb is an **inference** from the producer role. Record: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Inamax_Ray_Cosentino_Georgia_Market_and_Trial_Agreement-February-11-2026.md]]
@@ -489,3 +493,4 @@ At the [[wiki/meetings/2026-11-20-game-development-nebraska-precogs-class-a-plan
 - [[raw/Meeting_Transcript_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Notes_Class_A_Party_Time_Math_and_Colombia_Vertical_Games-November-13-2026.md]]
 - [[raw/Meeting_Transcript_Game_Development_Nebraska_Precogs_Class_A_Plan_and_Promo_Credits-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]

@@ -3,7 +3,7 @@ type: decision
 title: A game is one capability ("make me a game") with one feature and one feature branch per asset — each symbol, transition and sound; the brief agent opens them when the design brief is complete, a merged artifact closes its feature and all features close the capability; the studio is not tied to Jira (Val may leave Jira for GitHub); a game initiative cannot be opened without its project number and repository, made together by JVL standards; growing the studio for new mechanics is a separate set of capabilities (Val and Kharetski, Nov 24 2026)
 date: 2026-11-24
 aliases: [design guide to capabilities, Design Guide to Capabilities list, one capability per game, make me a game capability, сделай мне игру, one feature per asset, feature branch per asset, фьючер бренч, feature branches from the brief agent, way 1 agent creates feature branches, no Jira integration in the studio, move away from Jira, уйти от джиры, project number and repository together, no initiative without a repository, new mechanics are studio capabilities]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 3
 open-questions: 3
@@ -55,6 +55,10 @@ Agreed by [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/evgeny-kh
 - [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md|Nov 23 2026]] — IP-481 is the root NOVA initiative; Val here pointed at "IP 11 97" (heard) as the game-design initiative for the agent's capabilities. How the two relate was not said — see Open questions.
 - [[wiki/topics/docs-as-code-and-atlassian-exit.md]] — Val's "я бы хотел бы уйти от джиры" (Nov-24 section there).
 
+## Update — Nov 25 2026 (7:59 AM)
+
+At the [[wiki/meetings/2026-11-25-design-brief-capabilities-requirements-and-game-concept-stage.md|Nov-25 7:59 AM meeting]] (Russian, six people) Val opened with this call: Kharetski's one capability per brief, and "у меня нету веских аргументов" against it. Later Val: one capability is likely enough — "по этому прифу нужно сделать set of aseds" — but he doubted it, because a brief first needs the market's needs, today written as use cases and requirements [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. The group then agreed the brief is the output of the game-concept stage and Kharetski's agent covers that stage; what artifacts end that stage is open [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Kharetski also said the scheme clashes with the standard that every feature has a due date; Val and Irina: agree the process first, then fix the standards [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]] [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. Detail: [[wiki/decisions/2026-11-25-capabilities-stay-the-market-development-touch-point-closed-ones-never-reopen-tests-come-only-from-acceptance-criteria-and-the-brief-is-the-game-concept-output.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — make the brief agent create one capability per game and its features (one per asset), and open the feature branches — due unspecified ("это нужно внести в ряд задач") — [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]] [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
@@ -67,9 +71,15 @@ Agreed by [[wiki/people/val-levitan.md|Val Levitan]] and [[wiki/people/evgeny-kh
 - Which Jira initiative holds the game capabilities — the heard "IP 11 97" / "IP five five sex" (the notes: IP-1197, IP-556, "Not confirmed"), and how does it sit with IP-481, the Nov-23 root initiative? — [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
 - How will new mechanics be described (physics, geometry, timing diagrams), and through what tool? Val: not now — [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
 
+## Open contradictions
+
+- **What Val asked for here.** On Nov 25 Kharetski recalled Val's request as capabilities and features created and closed automatically; Val: "Я так не сказал" [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]. This call's transcript has Val saying "Мы должны генерировать" capabilities and "сумма всех фьючерс закрывает" the game capability [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Recorded, not resolved.
+
 **§15.8:** clear. **§15 #9:** none.
 
 ## Sources
 
 - [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
 - [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]
+- [[raw/Meeting_Notes_Design_Brief_Capabilities_Requirements_and_Game_Concept_Stage-November-25-2026.md]]

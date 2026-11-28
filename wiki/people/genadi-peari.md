@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 166
+source-count: 168
 open-commitments: 60
 ---
 
@@ -771,7 +771,13 @@ At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcin
 
 At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) Val: "Genadi has the standards in the knowledge base of generating part number. So an invoice as a PDF file, that file needs to have a part number" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
 
+## Nov 25 2026 (12:31 PM) — attributes needed for all part numbers; asks for part revision; defends his Flex product table; the AC warning label
+
+At the [[wiki/meetings/2026-11-25-msbc-item-attributes-vs-description-and-part-revisions.md|"MSBC - Description and Attributes" meeting]] (Russian) Genadi agreed attributes are needed "для всех парк намберска эти 1000 номеров", but the MSBC defaults are not enough [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He asked for part revision as an attribute or a field — today he types it into the description by hand; a backward-compatible change is a new revision, otherwise a new number [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He defended his GitHub table of the final Flex product numbers (JVL sells "8 наименований флекса") against Val's "я против таблиц" and was not convinced [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]] [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He warned that a cheap AC warning label on power-supply plates is not bought or applied, "Из за этого могут люди в тюрьму сесть" [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]. He is to deepen the power-supply assembly in Lev's test company and send the attributes. Record: [[wiki/decisions/2026-11-25-the-item-description-holds-only-the-product-name-configuration-moves-into-msbc-item-attributes-lev-tests-them-first-in-a-test-company-and-there-is-no-configuration-table.md]].
+
 ## Sources
+- [[raw/Meeting_Transcript_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
+- [[raw/Meeting_Notes_MSBC_Item_Attributes_vs_Description_and_Part_Revisions-November-25-2026.md]]
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
