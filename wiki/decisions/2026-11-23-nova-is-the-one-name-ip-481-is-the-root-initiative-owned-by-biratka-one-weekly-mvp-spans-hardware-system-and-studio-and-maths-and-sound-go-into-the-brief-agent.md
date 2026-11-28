@@ -3,7 +3,7 @@ type: decision
 title: NOVA is the one name (no more "NOVA-2"); IP-481 is the root initiative for all NOVA work, owned by Alexander Biratka with Igor, Evgeny, Anton and Daniil; one MVP — NOVA-MVP-1 — holds the hardware platform, the system and the studio together, and MVPs come about once a week; MVP 1 stays narrow but working (the base-game step and a one-page self-install for a new designer); maths and sound belong in the brief agent, not the studio; the studio is tested as its own product; the setup screens count as done until tests say otherwise; Val also asks for an AI bot to do Georgia commissioning calls (Val, NOVA team, Nov 23 2026)
 date: 2026-11-23
 aliases: [NOVA sync Nov 23, NOVA sync meeting, NOVA not NOVA-2, нова и всё, IP-481 root initiative, IP 481 NOVA Gaming Platform Land-based, NOVA-MVP-1, Нова MVP один, one MVP for hardware system and studio, weekly MVP, MVP every week, maths in the brief agent, sound in the brief, sound standard, new designer onboarding, self-install page, studio secrecy, black-box tools, AI commissioning bot, Emma creates capabilities]
-source-count: 2
+source-count: 6
 status: active
 open-commitments: 13
 open-questions: 7
@@ -58,6 +58,10 @@ Taken at the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-pla
 
 Val raised it as new to this team. Commissioning a COAM machine to the Intralot computer is a phone call between a technician and an Intralot engineer; it takes "гдето минут 20" per Intralot and about two hours per JVL's people. He wants an AI bot on JVL's side to do the call, hand back to the technician if needed, and send a report. JVL should not design the voice technology: "У меня есть минимум одно предложение… И коз звонка $4 в час"; he knows "как минимум 3" such companies; JVL does the integration. "Я уже разговаривал с интерлотом, и эта идея очень нравится." [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. No one was assigned [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Earlier ruling: [[wiki/decisions/2026-10-21-pavel-frolov-is-product-owner-of-the-georgia-commissioning-chatbot-and-andrey-bosik-develops-it.md]] (Nov-23 note); [[wiki/organizations/intralot.md]].
 
+## Update, Nov 24 2026 — the Jira rename is done; the studio's next steps
+
+At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) [[wiki/people/alexander-biratka.md|Biratka]] reported the rename "новадва на нова" in Jira done — "около трёхсот правок" — with old Omni names fixed too. [[wiki/people/anton-leshkevich.md|Leshkevich]]'s base-game step is built and in test, the installer next; [[wiki/people/evgeny-kharetski.md|Kharetski]]'s LGS fixes run [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. At the earlier [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] Biratka said he is collecting the NOVA requirements and capabilities for engine and studio [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
+
 ## Relation to earlier rulings
 
 - [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md|Nov 21]] — Biratka now owns the initiative as well as being architect; the Jan-15 studio limit stands; the Georgia games on RK carry on in this week's MVP 1. Nov 21 asked for "a new closed Jira project"; Nov 23 puts all work under IP-481 instead — whether the closed project was opened is not said. **Evolution.**
@@ -92,7 +96,15 @@ Val raised it as new to this team. Commissioning a COAM machine to the Intralot 
 
 **§15.8:** clear — the "$4 в час" is a vendor's call price, not anyone's pay. **§15 #9:** none.
 
+## Note, Nov 24 2026 (8:01 AM) — the brief agent's output: one capability per game, one feature branch per asset
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian) Val and [[wiki/people/evgeny-kharetski.md|Kharetski]] agreed that when a design brief is complete, the brief agent creates one capability per game ("сделай мне игру") with one feature and feature branch per asset; the studio is not tied to Jira; a game initiative gets its project number and repository together. Val pointed at "IP 11 97" (heard; the notes: IP-1197, not confirmed) as the initiative for the agent's capabilities — how it relates to IP-481 was not said [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]] [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Detail and commitments: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

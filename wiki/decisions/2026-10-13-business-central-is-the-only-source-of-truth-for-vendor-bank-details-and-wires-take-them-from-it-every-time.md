@@ -3,7 +3,7 @@ type: decision
 title: Business Central is the only source of truth for vendor bank details — every wire takes them from Business Central, with no bank-side templates and no manual entry
 date: 2026-10-13
 aliases: [Business Central drives the template, no templates in Bank of America, vendor bank data source of truth, laborious and unacceptable, wires from Business Central, CSV wire upload, advanced platform]
-source-count: 2
+source-count: 4
 status: active
 open-commitments: 2
 open-questions: 2
@@ -44,7 +44,13 @@ On Sept 8 the bank's specialist Connie said wires at JVL's volume are manageable
 
 **§15 #9:** no account, routing or other banking identifier was spoken; none is recorded. **§15.8:** clear — Val's remark about Nathan's cost carries no figure.
 
+## Note, Nov 24 2026 — who enters the bank details
+
+At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting call]] the team asked whether purchasing (Mery) must enter vendor bank details in Business Central; Cris read an older instruction saying Mery does, and Mery and Igor argued for a second person checking [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Per the notes, the GitHub standard (v1.4, Nov 24; changed in v1.2, Nov 20) already has [[wiki/people/lev-rudky.md|Lev Rudky]] enter and approve bank details, with Mery only saving the vendor's documents in SharePoint and never entering, approving or paying [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Business Central stays the source of truth. Record: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]].
+
 ## Sources
 
 - [[raw/Meeting_Notes_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
 - [[raw/Meeting_Transcript_Bank_of_America_CashPro_Business_Central_Source_of_Truth_and_Customer_ACH_Portal-October-13-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

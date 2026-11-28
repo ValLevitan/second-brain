@@ -3,7 +3,7 @@ type: person
 title: Ivan
 date: 2025-02-19
 aliases: [Ivan, Ivan Shpakov, Иван Шпаков, Ivan Shpak, Ваня]
-source-count: 84
+source-count: 85
 open-commitments: 18
 disambiguation: "JVL release manager (GLI submittals, release-candidate marks). Not the bank representative Ivan of the Sept-25-2026 CIBC call (surname Lucic per the notes) — see wiki/meetings/2026-09-25-cibc-ivan-lucic-600k-transfer-post-dated.md. Resolve by context: releases/GLI → this page."
 ---
@@ -361,6 +361,11 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 
 At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) Irina: "ваня да проверял" the Georgia build with the modem that morning and a production build was made; "Ваня завтра обратно вернётся на саус дакоту на этот билл перепроверит всё то, что там было по по замечаниям" [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Records: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]] · [[wiki/projects/south-dakota-vlt-market.md]] (Nov 23, with the commitment).
 
+
+## Nov 24 2026 (~3:47 AM) — a little RIS left; on to the GLI items
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian; label "Ivan Shpak") he has a little left on RIS and moves to the GLI items; Irina has GLI's answers and will pass them on [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_RIS_Georgia_Branch_and_Critical_Error_Text-October-6-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -447,3 +452,4 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

@@ -4,7 +4,7 @@ title: Pavel
 date: 2026-07-12
 aliases: [Pavel, Pasha, Pavel Frolov, Павел Фролов]
 disambiguation: "JVL Minsk engineering director (Pavel Frolov). Pavel cluster (2): [[wiki/people/pavel.md|Pavel Frolov]]=JVL Minsk engineering director / [[wiki/people/pavel-studio-owner.md|Pavel]]=external Ukrainian outsourcing-studio owner. Resolve by context; queue if none."
-source-count: 340
+source-count: 342
 open-commitments: 121
 open-questions: 0
 ---
@@ -1598,6 +1598,15 @@ At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|N
 
 At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] with Val and Irina (Russian) Pavel: modems bought from internet sellers come with different firmware and carrier locks — "под каждой чуть ли не модем нам надо подстраиваться" — so there is no direct answer on when they work reliably; the test tool Val asked for the week before is released ("я его зарелизил уже"). On the 20 revision-2 boards: "Со стороны со стороны софта это никак не сделаешь"; he offered a half-hour experiment and Val said no. On updates: Seregin's weekend autotests found that the update without stick or ST-Link did not work; Khamin looks first, then Tsymanov; "Я не думаю, что там серьезная проблема". He explained the two Flex-Port update paths, why the port update is checked only on real hardware ("готовых хороших аккумуляторов стм 32 не существует"), and the Wi-Fi setup as built [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
 
+
+## Nov 24 2026 (~3:47 AM) — requirements to a separate meeting before Val; "the capability is the spec"; a reasoned reply should let a red Claude-review mark pass; field installs test with real money; the $300 Dwolla dev notice
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) he led the round. On Chudinov's requirements alarm he held that "успехом с пекой должен выступать копобилити", saw a missing layer for "релизное состояние", and sent the question to a separate meeting before it goes to Val: "надо придумать, как это может быть решено, какими способами". On Bosik's merge gate he asked that a merge pass when someone answered the red mark — block only "если красный есть и нету ответа на этот красный"; Bosik kept red as blocking, with exceptions still to test. On the field cash-out failure: installers "$5 засовывают, играют и выводят" — "стандартная процедура установки машин". He got an email of a $300 ACH on the Dwolla dev account and will check it; the Minsk Nexus is still used — "после нового года вычистить всё" [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
+## Nov 24 2026 (6:16 AM, NOVA) — "80, 20": templates now, general steps later; RK firmware packages; GLI-11 for the history database
+
+At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) he ruled on the studio's bonus step: "Давайте по принципу 80, 20… давайте нижние яблоки соберем". He is making the build output ready firmware update packages for RK boards; the RK installer builds in the same repository as a separate platform, and Kharetski waits for his go. On LGS statistics he asked for an easily added SSD and a check against GLI — "100% да нам надо скормить этот жела и 11" [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1944,3 +1953,5 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 - [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]

@@ -3,7 +3,7 @@ type: person
 title: Mary
 date: 2026-07-12
 aliases: [Mary, Mery, Mery Villavicencio, Мэри]
-source-count: 20
+source-count: 24
 open-commitments: 2
 ---
 
@@ -63,6 +63,14 @@ On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-h
 
 At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-update-dependency-map.md|Nov-9 stand-up]] Pavel suggested it might be simpler for Leshkevich to buy the boards locally with allocated money rather than ship parcels; Leshkevich: "я мэри скинул там все Ссылки на Amazon… я с ней обсужу как как лучше" [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]].
 
+## Nov 24 2026 (1:05 PM) — first at the accounting AI show-and-tell; who enters vendor bank details
+
+At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting show-and-tell]] (Spanish) she went first: a Claude-built duty, tax and freight table for the Hongjin shipment (DDP by Hongjin judged better — replaced the same afternoon), the wrong-account PO the standards do not cover, a Claude-drafted letter asking each vendor for full bank details, and learning "West AI B" (WSIB, per the notes) with Claude [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Before Val joined she asked whether she must enter vendor bank details in Business Central: "no debería ser yo la que llene. Porque compra se dedica a comprar" [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Per the notes, the GitHub standard (v1.4) already agrees: [[wiki/people/lev-rudky.md|Lev Rudky]] enters and approves; she only saves the vendor's documents in SharePoint [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. She described her own work as "procurement or payroll" [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Records: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]] · [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]].
+
+## Nov 24 2026 (3:57 PM) — the Hongjin tariff code: do your own research; she takes Michael's place
+
+On a [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-code.md|39-minute call]] Val took apart her Hongjin duty estimate (about 99% as he read it): the HTS code came from the vendor's invoice and Claude agreed with it; she offered the broker, and Val said JVL must do its own research. His check put the vendor's steel code at about 80% and game parts, HTS 9504.30.00.60, at about 20% — now the rule [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]] [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Val: "Michael is on the way out… You're taking his place"; "I'm gonna teach you Claude, I'm gonna teach you agents, I'm gonna teach you MCP" [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. She owes an Atlas freight quote as a new option next to FedEx. Record: [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
+
 ## Sources
 
 - [[raw/shipment_of_machines_from_mexico_january_8_2025.md]]
@@ -85,3 +93,7 @@ At the [[wiki/meetings/2026-11-09-daily-standup-due-date-rule-in-standard-and-up
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Transcript_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Due_Date_Rule_in_Standard_and_Update_Dependency_Map-November-9-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]

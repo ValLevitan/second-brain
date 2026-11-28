@@ -3,7 +3,7 @@ type: decision
 title: Mikhail Perelman leaves from January; Mary (Mery) takes over his ordering role — decided for now (owner ruling 2026-10-15), with training from Oct 19 through November and half of December
 date: 2026-10-08
 aliases: [Misha leaves, Mery takes over, Mary takes over procurement, Mikhail Perelman hand-over, procurement hand-over, training from October 19]
-source-count: 13
+source-count: 15
 status: active
 open-commitments: 1
 open-questions: 0
@@ -44,6 +44,10 @@ At the [[wiki/meetings/2026-10-19-github-msbc-repositories-per-project-mery-purc
 
 On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-harnesses.md|Oct 20 3:06 PM call with Genadi]] (Russian) Val: "у нас осталось 45 дней… Рабочих дней 45 дней. Потом миша уйдёт", so the administrative side of procurement comes first and cost work waits for January; "нам нужно постепенно вводить меры в курс дел"; Genadi should fill GitHub with supplier data and talk with Val every day — [[wiki/decisions/2026-10-20-the-procurement-admin-system-comes-first-and-cost-cuts-new-suppliers-and-machine-redesign-wait-for-january.md]] [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]] [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]. **Consistent** with a January departure; nothing here changes the plan.
 
+## Nov 24 2026 update — Val tells Mery herself
+
+On the [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-code.md|Nov-24 3:57 PM call]] Val told Mery directly: "Michael is on the way out… You're taking his place", and "I'm gonna teach you Claude, I'm gonna teach you agents, I'm gonna teach you MCP" [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. The notes take "Michael" to be Mikhail Perelman [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Personal matters not recorded. Related: [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/val-levitan.md|Val Levitan]] — start training Mary on ordering — due Oct 19 2026, running through November and half of December — [[raw/Meeting_Transcript_Alignment_BOM_Ordering_and_Data_Contracts-October-8-2026.md]] *(Oct 19: the work to build her Business Central environment began; no training session is reported [[raw/Meeting_Transcript_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]])*
@@ -67,3 +71,5 @@ On the [[wiki/meetings/2026-10-20-genadi-peari-procurement-admin-first-tvs-and-h
 - [[raw/Meeting_Notes_GitHub_MSBC_Mery_Purchasing_Endpoints_and_AI_COO_Use_Cases-October-19-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Peari_Procurement_Admin_First_TVs_and_Harnesses-October-20-2026.md]]
+- [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]

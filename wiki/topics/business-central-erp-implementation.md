@@ -3,7 +3,7 @@ type: topic
 title: Business Central ERP implementation (JVL's Dynamics 365 rollout)
 date: 2025-05-24
 aliases: [Business Central, BC, Dynamics 365 Business Central, D365 BC, Navision, ERP rollout, MRP, material requirements generation, chart of accounts, GL, general ledger, dimensions, Global dimensions, posting setup, AI naming convention, installment payments, aged receivables, Customer Ledger Entries, category-based terms, subscription module, parts vs machines terms, Black Horse Entertainment, Sales Watch, import duties tax category, landed cost, tax category, assembly BOM, production BOM, BOM history, BOM sync robot, tag stamp on item card]
-source-count: 102
+source-count: 104
 open-questions: 9
 ---
 
@@ -579,6 +579,10 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 
 On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 call with Genadi]] (Russian) Val said Nathan has an MCP that reads MSBC for Val's AI executive, but it covers perhaps "30% 10% я не знаю". When an agent lacks access it drafts a use case, puts it in GitHub, and Nathan adds it to the MCP. Val also said an MSBC export of a BOM built by hand holds no data sheets — for TVs only the model [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
 
+## Nov 24 2026 (11:16 AM) — "due upon use of service"; the BC term 10 → 7 only for interest; invoice template 53001 (RDLC) to come out of BC into GitHub
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English): the location invoice must say "due upon use of service" with no days; Nathan: "MSPC uses the terms to know when to apply interest… Right now it's 10, we can update it to 7," independent of what the customer sees; Klimovich: remove the terms field from this invoice type. [[wiki/people/lev-rudky.md|Lev]] will check whether interest can start days after an invoice is posted ("the original issued invoice to modify it… I don't think it's possible"). Nathan found the sales invoice template "53001" as an RDLC layout ("we can use RDLC or Word"); another report ID can be assigned "to our COAM customers" so machine-sale invoices do not change. Val suspects the template is "hard-coded in BC": it must come out, with "The reference to a template for MSBC… inside of GitHub", one per product, each with a part number; Lev works with "our… consultant" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]] [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -684,3 +688,5 @@ On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agen
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

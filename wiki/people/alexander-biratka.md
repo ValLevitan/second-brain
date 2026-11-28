@@ -4,7 +4,7 @@ title: Alexander Biratka
 date: 2026-07-12
 aliases: [Alexander Biratka, Alexander, Sasha, Sasha Biratka, Alexander Beratka, Sasha Beratka, Alex, Alex Beratko, Alexander Beratko, Sasha Piratko, Sasha Deratka, Alex Baratka, Alex Beratka, Alexander Berankov, Biratko, Alexander Biratko]
 disambiguation: "Alexander cluster (provisional — owner ruling pending): distinct JVL people sharing the given name Alexander. [[wiki/people/alexander-biratka.md|Alexander Biratka]] = Omni/Pixi framework & build engineer (aka Sasha; garbles Beratko/Baratka); [[wiki/people/alexander-korochkin.md|Alexander Korochkin]] = LGS QA-automation engineer (GitHub Alexander_K@JVL, read-only; aka Alexander K); [[wiki/people/alexander-tumanov.md|Alexander Tumanov]] = Minsk QA / data-center knowledge-capture hire (surname unverified). Resolve by context: Omni framework / Pixi / build → Biratka; LGS QA automation / read-only build consumer → Korochkin; manual-tester onboarding / data-center interviews → Tumanov. A further name 'Alexander Derok' (back-end build-integration / Java, per Val on Feb-6-2026) is unconfirmed — queued, not a page. Not [[wiki/people/alexei-khamin.md|Alexei Khamin]] (different name). Queue anything fitting none; never force-match."
-source-count: 162
+source-count: 166
 open-commitments: 28
 open-questions: 0
 ---
@@ -622,6 +622,19 @@ At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-februar
 
 At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) he gave the overview — the project is for "создания. И выпуска игр" as a flow, from Evgeny's brief agent through Anton's studio to a game running in the engine — and asked that Jira say only NOVA: "Давайте нова и всё". Val named him owner of the initiative, IP-481, with Igor, Evgeny, Anton and Daniil. He found maths and sound missing from the pipeline, wants a studio step listing the game's sounds, proposed compiled tools as a "чёрный ящик", and wants the LGS catch-up as one feature with stories. This week: review the NOVA requirements and capabilities, create capabilities for the NOVA engine with Irina, lead the MVP 1 talks — but no code: "У меня сейчас рисайклер" [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
 
+
+## Nov 24 2026 (~3:47 AM) — the recycler tasks on the stand; collecting the NOVA requirements; the Flex-Port counters question comes to him
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) he checks his recycler tasks on the stand (screens, the validator in setup) and collects the NOVA requirements and capabilities for engine and studio, to update them one by one; he must create the capability discussed the day before and take Irina's two stories. Seregin's counters question (which survive a restore) was passed to him [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
+## Nov 24 2026 (6:16 AM, NOVA) — general "resource / scene" steps proposed and deferred; NOVA-2 renamed NOVA in Jira (about 300 edits); an LGS statistics database
+
+At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) he asked how the studio's bonus step will work and proposed general steps ("создание ресурса", a scene from a template set); Leshkevich and Pavel deferred it. He finished renaming "новадва на нова" in Jira — "около трёхсот правок" — and fixed old Omni names. With Kharetski he set out new LGS capabilities: collect statistics, keep them long term in a database on the machine, send them to the hub; what to collect is to be agreed with Efim; storage would become a buffer written to the database in batches. He gives Daniil the demo-mode menu [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
+
+## Nov 24 2026 (8:01 AM, in absentia) — Kharetski will discuss with him how the brief agent's capabilities link to the studio
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian) Kharetski: "я еще с Сашей с Сашей обсужу… Чтобы со студией там связал, если что?" — Val: "Да да да, конечно" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]; the notes name him "Alexander (Sasha)" [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -788,3 +801,7 @@ At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|N
 - [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

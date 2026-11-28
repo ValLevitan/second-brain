@@ -3,7 +3,7 @@ type: person
 title: Cris Nacarino
 date: 2026-08-05
 aliases: [Cris Nacarino, Cris, Chris, Cristina Nacarino]
-source-count: 9
+source-count: 10
 ---
 
 # Cris Nacarino
@@ -26,6 +26,10 @@ Part of the Peru-based staff kept on after the Peru office closure (moved to rem
 
 - **Jan 21 2026:** [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] said he "got confirmation from Chris that the money was cleared" before shipping seven ECHO-channel machines on a payment later cancelled by the payer (see [[wiki/topics/echo-home-gaming-device.md]], Jan 21 2026). "Chris" resolved to Cris by finance context (payment confirmation) — not stated by surname. [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
 
+## Nov 24 2026 (1:05 PM) — open POs sorted by Claude; holds the Avalara login
+
+At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting show-and-tell]] (Spanish) she said she uses Claude in single sessions, not projects. She exported purchase orders from Business Central and had Claude split them into received, partly received and not received, to help close the many POs still open in BC; she had the vendor bank-details standard translated and explained as a one-page PDF; her main daily use is translating and writing English emails [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Before Val joined she read out the older instruction that Mery enters vendor bank details in Business Central [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Igor said she holds the Avalara login for the sales-tax reports [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]].
+
 ## Sources
 
 - [[raw/financial_alka_alignment-march-24-2025.md]]
@@ -37,3 +41,4 @@ Part of the Peru-based staff kept on after the Peru office closure (moved to rem
 - [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_Klimovich_Ecommerce_Fraud_Loss_and_Marketplace_Expansion-January-21-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

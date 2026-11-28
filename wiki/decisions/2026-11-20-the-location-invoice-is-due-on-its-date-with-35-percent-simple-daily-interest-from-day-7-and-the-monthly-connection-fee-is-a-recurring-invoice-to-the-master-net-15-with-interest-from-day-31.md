@@ -3,9 +3,9 @@ type: decision
 title: The location invoice is due on its own date, with late interest from day 7 at 35% a year, simple daily and not compounded, and the standard Business Central layout carrying the approved wording; the monthly connection fee becomes a recurring invoice on the 1st, prorated by full days from the install date, billed to the master at net 15 with interest from day 31; PROD test 2 and the first real location wait on Nathan's two runbooks, reviewed with the Minsk team on Saturday (Val, Nov 20 2026)
 date: 2026-11-20
 aliases: [location invoice terms, interest from day 7, 35 percent simple daily interest, non-compounded, payment on the date of invoice is not negotiable, net 15 interest from day 31, recurring monthly connection service, monthly connection fee invoice, prorated from the installation date, minimum billing period 24 hours, standard layout no customization, PROD test 2, prod test 2 with InComm, location billing recovery runbook, stuck invoice from the first test, Nathan's runbooks]
-source-count: 2
+source-count: 4
 status: active
-open-commitments: 6
+open-commitments: 5
 open-questions: 3
 ---
 
@@ -52,7 +52,7 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-11
 
 - [ ] [[wiki/people/nathan-carver.md|Nathan Carver]] and [[wiki/people/pavel.md|Pavel Frolov]] (with [[wiki/people/dmitri-chudinov.md|Chudinov]] and [[wiki/people/sergey-tsymanov.md|Tsymanov]], **inference**) — meet, go through the runbooks and all open items, then give expected dates — due Saturday Nov 21 2026, 9 AM — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [ ] [[wiki/people/pavel.md|Pavel Frolov]] — ask "Dima and Serge" to read the runbook before the Saturday call — due Nov 21 2026 — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
-- [ ] [[wiki/people/igor-donis.md|Igor Donis]] and [[wiki/people/lev-rudky.md|Lev Rudky]] — set the payment term and present a test location invoice (standard layout, no customization) to Klimovich and Val — due Nov 20 2026, "in one hour" — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [x] [[wiki/people/igor-donis.md|Igor Donis]] and [[wiki/people/lev-rudky.md|Lev Rudky]] — set the payment term and present a test location invoice (standard layout, no customization) to Klimovich and Val — due Nov 20 2026, "in one hour" — **discharged by Nov 24 2026** (inference): Klimovich showed "the one from yesterday's test", which Lev called the standard BC invoice "With A footnote added to it" — [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]] — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — update the location invoice mock-up with interest from day 7 — due unspecified — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — tell Monica the interest terms must also be in the customer contract — due unspecified — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [ ] [[wiki/people/andrei-klimovich.md|Andrei Klimovich]] — make and share the content mock-up for the monthly connection fee invoice (payer-type agnostic; net 15, interest from day 31) — due unspecified — [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]] [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
@@ -67,7 +67,19 @@ Set by [[wiki/people/val-levitan.md|Val Levitan]] at the [[wiki/meetings/2026-11
 
 **§15.8:** clear — customer invoice terms, the $90 fee and the interest rate are company economics; no named-person pay. **§15 #9:** none.
 
+## Update, Nov 24 2026 — the wording becomes "due upon use of service"; day 7 becomes an internal setting; the standard layout is to leave Business Central
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 11:16 AM Payment Hub call]] (English) Klimovich said the location invoice still showed "net 10 days". [[wiki/people/val-levitan.md|Val]]: "The term should say due on due on use of service… No 10 days, no one day, no three hours, no half an hour"; interest "accumulates starting seven days and on", but "the client never sees that it's a seven-day term… These are internal settings in accounting." Nathan: the BC term is 10 now and "we can update it to 7"; Klimovich: remove the terms field from this invoice type — Val: "With me, it would be fine." Val then ruled that the invoice template, "hard-coded in BC" by his suspicion, must come out of BC with its reference in GitHub, one template per product, each with a part number; the current template is used for the first location [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. **Evolution:** immediate payment and day 7 stand; the wording and the "standard layout, no customization" approach changed. Lev is not sure BC can start interest some days after a posted invoice [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Detail and new commitments: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
+- **Igor and Lev's test invoice.** Klimovich showed "the one from yesterday's test" (showing terms and a footer with wrong numbers); Lev: "It's a standard… From BC… With A footnote added to it" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Read as the test location invoice of the commitment below (**inference**) — marked discharged.
+
+## Open contradictions
+
+- **The annual interest rate.** Nov 20: Val — "Based on 35% per year, divided the number of days, non-compounded" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Nov 24: Klimovich — "those numbers that Val approved previously, like 45% annual interest" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]; the Nov-24 notes: "Not resolved here" [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Not resolved.
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

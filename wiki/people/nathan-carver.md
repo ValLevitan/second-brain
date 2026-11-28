@@ -3,7 +3,7 @@ type: person
 title: Nathan Carver
 date: 2025-06-09
 aliases: [Nathan, Nathan Carver, Code Carver]
-source-count: 76
+source-count: 79
 open-commitments: 17
 disambiguation: "Nathan Carver (Code Carver LLC) — the JVL contractor-roster 'Nathan' (see [[wiki/topics/jvl-contractor-roster.md]]); the June-9 2025 onboarding meeting confirms this 'Nathan' is him. Not to be confused with any other Nathan."
 ---
@@ -299,6 +299,15 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 
 On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|Nov-20 call with Genadi]] (Russian) Val said he wants to be sure "что нэйтан не фейкает эту сборку" — without data sheets he does not see how an agent assembles a BOM. Val also said Nathan's MCP for MSBC covers only part ("30% 10% я не знаю"); Genadi's agent is to draft a use case for Nathan when it lacks access, and Nathan adds it to the MCP [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
 
+
+## Nov 24 2026 (in absentia; name call an inference) — the old invoice through Business Central before 14:00; a $300 ACH on the Dwolla dev account
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) Pavel relayed a message from "нейтано": before 14:00 "их времени" the team should see that the old invoice passed (the notes: through Business Central). Pavel also got a notice of a $300 ACH on the Dwolla dev account; the team thinks Nathan made a test invoice on dev — not confirmed [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
+## Nov 24 2026 (11:16 AM) — two different terms: what the customer sees and what MSBC uses for interest; report 53001 in RDLC
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) he separated the two terms: the customer pays on the day of service, while "MSPC uses the terms to know when to apply interest… Right now it's 10, we can update it to 7", and the printed invoice need not show the internal value. He found the sales invoice template in use — "this 53001 and I downloaded the RDLC template" — and said a new report ID could be assigned "to our COAM customers". On a bounced draw: the customer pays "by credit card or pay some other way with JVL" for now. His "who is taking on updating the template?" got no direct answer [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
 - [[raw/Meeting_Notes_GitHub_MSBC_Agent_BOM_Assembly_Pay_Slim-October-9-2026.md]]
@@ -377,3 +386,6 @@ On the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agen
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Notes_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

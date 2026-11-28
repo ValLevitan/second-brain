@@ -4,7 +4,7 @@ title: Dmitri Chudinov
 date: 2026-07-13
 aliases: [Dmitri Chudinov, Dmitry Chudinov, Dima Chudinov, Dzmitry Dudzinau, Dzmitry, Dzmitry Chudzinau, Dima]
 disambiguation: "Back-end architect / Java (Belarusian spelling Dzmitry Dudzinau; the "Dzima" backend). Dima/Dmitry cluster (3, owner-ruled): [[wiki/people/dmitri-kovalchuk.md|Dmitri Kovalchuk]]=IT / [[wiki/people/dmitriy-khandov.md|Dmitriy Khandov]]=Senior 3D designer / [[wiki/people/dmitri-chudinov.md|Dmitri Chudinov]]=back-end. Resolve by context; queue if none."
-source-count: 147
+source-count: 148
 open-commitments: 57
 open-questions: 2
 ---
@@ -839,6 +839,11 @@ At the [[wiki/meetings/2026-11-20-andrei-mvp2-1-release-november-25-and-master-r
 
 At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] Pavel said he "will ask Dima and Serge to go through this document to be prepared for tomorrow's call" (Saturday Nov 21, 9 AM, with [[wiki/people/nathan-carver.md|Nathan Carver]]); heard also as "Tsimanov Chudzinau and Tsimanov". "Dima" is read as Chudinov by the back-end context (**inference**) [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
 
+
+## Nov 24 2026 (~3:47 AM) — "a frightening dump" of requirements; a product spec in GitHub; the Grafana errors in MVP 2.2; GlassFish stays shared
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian; label "Dzmitry Chudzinau") he raised the requirements sprawl — in half a year "какая то страшная мусорка" — with Claude's "45%" edited after release, half of his transactional list empty, and two capabilities that contradict each other. His idea: a product spec in GitHub (for example the Flex IQ Port), approved by pull requests and linked to Jira, with change history — "по сути, база знаний". Pavel: the capability is the spec; Chudinov: "Не не, не согласен. Capelise это набор фич." He took the Grafana error emails within MVP 2.2. When Bosik closed operating-system access to the production accounting host he asked whether GlassFish was now Bosik's alone; Bosik: no, shared [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -989,3 +994,4 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

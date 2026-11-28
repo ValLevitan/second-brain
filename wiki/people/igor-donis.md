@@ -3,7 +3,7 @@ type: person
 title: Igor Donis
 date: 2026-07-13
 aliases: [Igor Donis, Igor]
-source-count: 20
+source-count: 22
 open-commitments: 2
 disambiguation: "JVL Financial Controller — the finance/corporate Igor. One of FIVE Igor-named people (owner-ruled): Igor Donis (Financial Controller → wiki/people/igor-donis.md), Igor (Ihar) Nazarenka (mobile-app, owner-confirmed 2026-07-14 → wiki/people/igor-nazarenka.md), Igor Starovoytov (contractor industrial designer → wiki/people/igor-starovoytov.md), Igor Metelski (RGS engineer, = payroll Igar Miatselski → wiki/people/igor-metelski.md), Ihar Hrybko (UX/UI → wiki/people/ihar-hrybko.md). Resolve by context: finance/corporate → Donis; mobile app/UI + new-market ops → Nazarenka; cabinet/industrial design → Starovoytov; RGS/online-integration code → Metelski; queue anything fitting none."
 ---
@@ -93,6 +93,10 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 
 At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English) he confirmed he has JVL's Claude and Claude Code subscription ("See, yes, I got it") and is among the finance team asked to learn routines, skills and agents over the weekend and to set up an agent that checks his email against the standards [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
 
+## Nov 24 2026 (1:05 PM) — sales-tax returns and a live bank reconciliation with Claude
+
+At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting show-and-tell]] (Spanish) he showed his Claude projects (Systems tax-return analysis, vendor credit applications, the consolidated cash forecast, state sales tax). Sales tax: Avalara reports (Cris holds the login) against Business Central, then a simulated return per state; his last Georgia return matched the DOR portal; states Georgia, Nebraska, South Dakota and Texas (Texas still under review), with Florida also on the live report. Live: the October RBC CAD and USD reconciliation against Navision (JVL Labs) "de acuerdo a standards", run on a month with unbooked items on purpose [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. He gave Mery the right account for the wrong-account PO [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]], and said: "I don't know yet how to use the artifacts" — he owes learning them [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Igor_Donis_Vendor_Payment_Escalation-September-23-2026.md]]
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
@@ -116,3 +120,5 @@ At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-stand
 - [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
 - [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

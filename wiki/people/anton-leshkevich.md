@@ -4,7 +4,7 @@ title: Anton Leshkevich
 date: 2025-01-21
 aliases: [Anton Leshkevich, Anton, Antoine, Anton Dmishkevich, Дмишкевич, Дмишкевичем, Liashkevich, Anton Liashkevich, Lishkevich, Anton Lishkevich, Лишкевич, Rishkevich, Anton Rishkevich, ришкевич, Vishkevich, вишкевич, брижке]
 disambiguation: "Minsk engineer (Omni/RGS), this page. One of THREE Antons (owner-ruled): Anton Leshkevich (Minsk engineer, Omni/RGS; transcript-garble alias "Dmishkevich" → wiki/people/anton-leshkevich.md), Anton Seregin (Minsk payroll / React-TS front-end → wiki/people/anton-seregin.md), Anton (SMM) (Meta-ads contractor, ECHO marketing → wiki/people/anton-smm.md). Resolve by context: Omni/RGS engineering → Leshkevich; front-end/setup UI → Seregin; ad campaigns/SMM → the contractor; queue anything fitting none."
-source-count: 103
+source-count: 105
 open-commitments: 9
 open-questions: 0
 ---
@@ -316,6 +316,15 @@ At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-februar
 
 At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) he proposed taking maths from "готовую библиотеку моделей", since at first "Большая часть игр будут рискины". He wanted to try Igor's 3D-plus-video method on symbols; Val: "Давайте мы сделаем MB один, который с узким применением, но работающим", so he takes the base scene ("Хорошо, тогда я займусь базовой сценой"). His plan for a new designer — log in with a JVL account, download the studio, it installs itself, with a guide — became a must: Val wants a page where the designer installs everything alone. Biratka: "думай о безопасности" [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
 
+
+## Nov 24 2026 (6:16 AM, NOVA) — the base-game step built and in test; the bonus step from templates, not all-AI; textures most likely WebP
+
+At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) he built the step that builds the base game; today he tests it and makes the review changes, then the installer, then maybe app auto-updates. The bonus step will most likely be "Шаблон, который будет поддерживать такие достаточно общие фичи"; "Я не хочу полностью просить ai, чтобы генерировал это всё дело". Biratka's general steps: "Можно сделать так, но в будущем". He told Daniil to merge his own pull request, and will check the texture format (most likely WebP; only WebP and PNG are supported now) [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
+
+## Nov 24 2026 (8:01 AM, in absentia; inference) — the design stage is "what Anton does in the design studio"
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian) Val placed the design guide at the design stage only — "это то, что сейчас Антон делает дизайн студии" — and said that in "демонстрации Антона" the studio is built for automatic creation of each game element (symbols, transitions), so one feature per asset is needed [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. "Антон" read as Leshkevich (**inference**, studio context). Record: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
@@ -423,3 +432,5 @@ At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|N
 - [[raw/Meeting_Transcript_NOVA-2_Step_Pipeline_Team_Repo_and_Saturday_ISO_Demo-November-17-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

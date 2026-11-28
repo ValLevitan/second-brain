@@ -3,7 +3,7 @@ type: decision
 title: A new part number is assigned by Claude from the written part-number standard in the GitHub "standards" repo and pushed to MSBC once, when the part is created
 date: 2026-09-30
 aliases: [part number from the standard, Claude reads the standard and gives it a part number, standards repo part number, transferred into MSBC only for the first time, Claude can populate it, two sources of input for a new part number, posting groups dimensions units of measure, accounting fields on a new item, South Dakota cable for Light and Wonder example]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 0
 open-questions: 2
@@ -42,6 +42,11 @@ The derived notes record it as "New part numbers come from a written standard in
 
 **§15.8:** clear — process only. **§15 #9:** clear.
 
+## Note, Nov 24 2026 — invoice templates get part numbers too
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 11:16 AM Payment Hub call]] (English) Val: "Genadi has the standards in the knowledge base of generating part number. So an invoice as a PDF file, that file needs to have a part number"; the daily transactional invoice's part number "is different from the invoice that we generate for machine sales or product sales, hardware sales" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. The part-number standard thus reaches beyond hardware parts to document templates (**inference** from the wording). Detail: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
 - [[raw/Meeting_Transcript_GitHub_to_MSBC_BOM_Flat_List_Bridge-September-30-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

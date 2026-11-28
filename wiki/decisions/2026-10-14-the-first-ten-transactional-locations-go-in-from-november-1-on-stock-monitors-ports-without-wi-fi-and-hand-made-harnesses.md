@@ -3,7 +3,7 @@ type: decision
 title: The first ten transactional locations go in from November 1 — stock monitors instead of covers, Flexports without Wi-Fi, JVL-made brackets for the first location, ten harness sets made by hand, at most two installs a day, then a pause
 date: 2026-10-14
 aliases: [path to the first ten locations, November 1 stays, Первое ноября у нас решено, first ten locations then a pause, десять локаций нам сделаем паузу, monitors instead of covers, JVL We Take Our Games Seriously on the monitor, first release without Wi-Fi, no port replacement, brackets for the first location, order brackets for ten locations, hand-made harnesses, ten sets of harness by hand, two installs a day, sixty ports for ten locations]
-source-count: 11
+source-count: 13
 status: active
 open-commitments: 7
 open-questions: 2
@@ -77,6 +77,10 @@ At the [[wiki/meetings/2026-10-20-third-party-egm-bv-emulation-mode-and-sas-data
 
 At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilot-watch.md|Nov-4 MVP 1 release meeting]] (Russian) [[wiki/people/val-levitan.md|Val]] said "мы поставили цель сделать этого 1 октября… Выдали это на 40 дней позже. Неважно чья вина" and defined the release as the cleaned build on the production server — so as of Nov 4 the MVP 1 release of the November-1 owner ruling had not been made; no new date was set [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] — [[wiki/decisions/2026-11-04-a-release-is-done-only-when-the-cleaned-build-is-on-the-production-server-under-a-number-ivan-is-release-manager-with-claude-written-release-notes-and-an-exception-report-and-request-review-leaves-the-feature-workflow.md]]. **Evolution:** the November 1 date has slipped; the ruling's content (ten locations, then a pause; two installs a day) was not revisited. [[wiki/people/andrei-klimovich.md|Klimovich]]: "3 утверждённые локации"; the first "в часе езды от нашего уайнхауса" with one JVL and one Aristocrat on SAS and two "HT" (heard) in bill-validator mode; "У нас ещё нету бракетов" (Val) — [[wiki/decisions/2026-11-04-the-flex-port-build-download-programmer-image-and-usb-update-goes-into-mvp-1-because-a-client-who-cannot-take-the-build-has-no-release.md]] [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]] [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]].
 
+## Note, Nov 24 2026 — the first install is set for Nov 25, else Friday or Monday
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 11:16 AM Payment Hub call]] (English) Klimovich: "we are ready to do that tomorrow. So I will meet with Felipe today… If the location is ready, we can go there tomorrow"; if not, after Thanksgiving, "either Friday before the weekend… or Monday, which is better." Val: "One location makes no difference to me… with this one location, let's achieve perfection" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]] (the notes: Nov 25, else Nov 27 or Nov 30 [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]). **Evolution:** the November 1 start has slipped to the week of Nov 23 at the earliest; the ten-then-pause plan was not revisited. Detail: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
 - [[raw/Meeting_Notes_Transactional_MVP1_Launch_Plan_Brackets_Daily_Caps_and_MVP2_Scope-October-14-2026.md]]
@@ -89,3 +93,5 @@ At the [[wiki/meetings/2026-11-04-mvp1-transactional-release-definition-and-pilo
 - [[raw/Meeting_Transcript_Genadi_Peari_China_LTE_Modems_Payment-October-21-2026.md]]
 - [[raw/Meeting_Transcript_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
 - [[raw/Meeting_Notes_MVP1_Transactional_Release_Definition_and_Pilot_Watch-November-4-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

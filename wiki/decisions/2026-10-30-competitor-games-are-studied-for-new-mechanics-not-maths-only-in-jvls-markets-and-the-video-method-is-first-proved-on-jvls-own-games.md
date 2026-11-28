@@ -3,7 +3,7 @@ type: decision
 title: Competitor games are studied for their new mechanics, not their maths — only games that matter in JVL's markets, chosen by Val from a market report; a new mechanic goes into JVL's mechanics database, glossary and taxonomy and is re-themed for JVL's players; before any competitor is filmed, the video method is proved blind on one game from each of three JVL products by Fri Nov 6 (Val, Oct 30 2026)
 date: 2026-10-30
 aliases: [competitor teardown, AI teardown of a competitor game, Review – AI teardown of a competitor game (hypothesis test), competitor game breakdown, mechanics not maths, нам математика не нужна нам нужна механика, mechanics database, mechanics glossary and taxonomy, capture list for the video box, validation test on our own games, blind video breakdown vs code wiki]
-source-count: 8
+source-count: 9
 status: active
 open-commitments: 2
 open-questions: 2
@@ -81,6 +81,10 @@ The Friday review was held — [[wiki/meetings/2026-11-06-ai-teardown-control-te
 
 - [x] [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] — the validation test: a blind video breakdown of one game from each of the three products on the GA-COAM machine, compared with a wiki built from the code — due Fri Nov 6 2026 — [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] [[raw/Meeting_Notes_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]] — *Nov 5 2026: in progress — "Занимался ещё анализом видео, вот но щас пойду еще подсниму… На другой игре", this time with a phone (see the Nov-5 note)* — [[raw/Meeting_Transcript_Daily_Standup_New_Engine_Capabilities_and_Georgia_Handpay_Tilts-November-5-2026.md]] — *Nov 6 2026: "у меня 3 артефакта к митингу есть" — the capture-card game analysis (400-plus spins, no bonuses), the phone-video game analysis, and a note on the drawbacks of phone filming; the blind comparison with a code-built wiki is not reported, and the meeting itself is not in the sources — kept open* — [[raw/Meeting_Transcript_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]] — *discharged Nov 6 2026: the control test was reported at the 8:00 AM review — two JVL games filmed (capture card; phone), Claude pulled the mechanics with "небольшие косяки… не критично"; a phone video of the help screens and bonus rounds is enough; the side-by-side with a code-built wiki was not described* — [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]] [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 
+## Note, Nov 24 2026 — Val: the video method is "самый экономичный вариант" (the most economical option) now
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 8:01 AM design-guide call]] (Russian) with Kharetski, Val said he does not want to think yet about describing new mechanics by physics and geometry; for now he would record games popular "на математике и на… рынке" on video, find which layers, physics, geometry and timing diagrams are missing, add the code and discuss only the design brief — "Это самый экономичный вариант сейчас"; once JVL reaches some market leadership, "Тогда мы можем чтото уже другое добавить в нашу студию" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Consistent with this ruling. Detail: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_AI_Competitor_Game_Teardown_and_Mechanics_Library-October-30-2026.md]]
@@ -91,3 +95,4 @@ The Friday review was held — [[wiki/meetings/2026-11-06-ai-teardown-control-te
 - [[raw/Meeting_Notes_Daily_Standup_Modem_Off_Confirmation_Capability_and_CAP-287_in_MVP2-November-6-2026.md]]
 - [[raw/Meeting_Transcript_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
 - [[raw/Meeting_Notes_AI_Teardown_Control_Test_Aristocrat_Mechanic_Port_and_Trial_Game-November-6-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

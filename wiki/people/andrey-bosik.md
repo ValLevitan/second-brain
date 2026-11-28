@@ -4,7 +4,7 @@ title: Andrey Bosik
 date: 2026-07-13
 aliases: [Andrey Bosik, Andrei Bosik, Andrei, Andrey, Andre, Andre Bostic]
 disambiguation: "DevOps engineer (Minsk build/GitHub/DevSecOps). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 192
+source-count: 194
 open-commitments: 51
 ---
 
@@ -766,6 +766,15 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 
 At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-february-target.md|Nov-21 NOVA-2 Saturday meeting]] Val asked him to talk to "Дима" about one new closed Jira project for the 11 people, with the old NOVA projects folded in ("Всё организуем без проблем"). He asked that artists can export a symbol to Photoshop and import it back, and recalled the old rule of two repositories per game (art sources; game code with finished atlases). He suggested light Linux images such as Alpine. Decision: [[wiki/decisions/2026-11-21-biratka-becomes-nova-2-architect-and-coordinator-one-closed-jira-project-no-work-without-capabilities-a-studio-for-non-developers-by-january-15-texas-on-nova-about-february-1-and-georgia-games-on-rk-by-friday.md]] [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
 
+
+## Nov 24 2026 (~3:47 AM) — a merge blocked while Claude review leaves a red mark; no OS access for developers on the production accounting host; 39 dead secrets removed; the jvlgaming.com certificate; the Minsk Nexus parked to New Year
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian; label "Andrei Bosik") he announced a GitHub standard that forbids a merge while Claude review leaves a red mark — fix, re-run, then merge — tested on a test repository for two days; Pavel's "reasoned reply" exception is among the cases he is still testing. He closed operating-system access to the production accounting host and limited one more production host: work in the operating system goes "через нас", but GlassFish problems are solved together. He removed "Помоему 39" dead secrets and variables and will ask owners about the rest by the end of the week; renews the jvlgaming.com certificate (GlassFish on the CMS down about ten minutes); updates the clusters; asked someone to fix the 100–150 daily Grafana error emails (Chudinov took it); confirmed the dev and production Dwolla secrets differ; and parked the Minsk Nexus until after New Year [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
+## Nov 24 2026 (8:01 AM, in absentia; inference) — game repositories come from him, by request of the brief agent or by his own automation
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian) Kharetski said the brief agent asks "у Андрея… у нашего суппорт" for a game repository and an artist who asks Andrei directly is sent back through the approved pipeline; Val: "Или Андрей со своей стороны сделает автоматику, которая говорит, вот наши стандарты сделай. Репозиторий" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. "Андрей" as support read as Bosik (**inference**). Record: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -964,3 +973,5 @@ At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-februar
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_MVP2_1_Release_November_25_and_Master_Role_in_2_2-November-20-2026.md]]
 - [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

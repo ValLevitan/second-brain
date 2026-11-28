@@ -3,7 +3,7 @@ type: topic
 title: Tariffs and customs compliance (US–Canada tariffs, HS-code tracking, CBSA validation)
 date: 2025-04-28
 aliases: [tariffs, US-Canada tariffs, HS code, HS codes, harmonized system, country of origin, intercompany transfer pricing, BOM plus 30, CBSA, Canadian customs, CARM, trade compliance validation, international trade attorney, duty drawback, transitional export waiver, slot machine component subcategory, landed cost, import duties tax category, bill of material excludes freight, FlexPort board 46 versus 60]
-source-count: 13
+source-count: 17
 open-commitments: 7
 open-questions: 3
 ---
@@ -110,6 +110,10 @@ Everything above is strategy: classification, origin, transfer pricing, who advi
 - **Supplier behaviour is named as part of the distortion.** Genadi: the suppliers "**перепаковывают… делают хитрости, но это хьюч**" — they repack, they use tricks, and it is huge — and he asked Val not to be misled by the prices he himself quotes, "**потому что это зависит и прайсинг**". The supplier is **not identified**: his phrase for them, "**not sow mach**", is not interpretable, and the derived notes' reading of it as "the current suppliers" is their inference, not the source. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]] [[raw/Meeting_Notes_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
 - **Val's private markup, and the 30% coincidence.** He stated twice that he adds **30%** to any bill-of-material number Genadi gives him, and once that the truer figure is about **35%** — no change was agreed. **Inference, labelled:** this 30% and the Apr-2025 intercompany "bill of material + 30% markup" recorded above are numerically the same but are different instruments — a declared customs value between JVL Labs and JVL Systems in one case, Val's estimating rule for reading a hardware quote in the other. No source connects them; they are not merged. [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]] [[raw/business_central_update-apr-28-2025.md]]
 
+## Nov 24 2026 — slot and amusement machine parts under HTS 9504.30.00.60, about 20% all-in
+
+On a [[wiki/meetings/2026-11-24-mery-hongjin-ddp-costs-and-slot-parts-tariff-code.md|3:57 PM call]] with [[wiki/people/mary.md|Mery]] about the Hongjin shipment (P_ORD000000584), Val found that her duty estimate used the vendor's code 7326.90.86.88 (steel articles; about 80% from China, about $8 per $10). His Claude check put parts made only or mainly for slot ("bell-type") and amusement machines under **9504.30.00.60**, "approximately $2.05, 20% versus 80%", checked against the US tariff schedule, Chapter 99 version of November 10, 2026, with Section 301 and Section 232 in the breakdown. The material does not matter. He ruled it a standard, and said JVL must not rely on vendor documents or brokers: "You have to do your own research" [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]] [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Earlier the same day Mery had concluded DDP by Hongjin was cheaper on the vendor's code [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Val tied it to his earlier argument with Canadian customs, done "Before I moved the factory to the US" [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
+
 ## Open commitments
 
 - [ ] Owner not named on the call — create an import-duties tax category in Business Central so the landed cost of a part is captured, not just its component price — due unspecified — [[raw/Meeting_Transcript_FlexPort_Board_Landed_Cost_and_Import_Duty-September-17-2026.md]]
@@ -141,3 +145,7 @@ Everything above is strategy: classification, origin, transfer pricing, who advi
 - [[raw/finance_georgia_taxation-june-3-2025.md]]
 - [[raw/procurement_production_relocation-july-3-2025.md]]
 - [[raw/finance_update_alka-july-3-2025.md]]
+- [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

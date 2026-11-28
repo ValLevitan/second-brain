@@ -3,7 +3,7 @@ type: topic
 title: AI-assisted development adoption
 date: 2026-07-12
 aliases: [AI-assisted development, truth as code, knowledge work framework, keep Jira current, Cline, MCP adoption, AI coding tools, Anthropic, Norcross, Copilot, Copilot Studio, meeting tracking, GPT-4o Transcribe, Whisper, Unity MCP, Sonnet 3.7, Open WebUI, Docker, CUDA, Watchtower, OpenRouter spend, combine analogy, dark forest, LaTeX, printer tool, Ollama, llama.cpp, local inference, Code Llama, Hugging Face, Claude Code, AI sandwich, developer experience, think like a data scientist, sub-agents, verbose output, compiler layer, ways vs skills, ADR, cross-examination, Python Vulture, intelligence center, Waze system, ways framework, compiler stack diagram, module federation, Aaron ways system, Ways ADR, Ways capabilities catalog, regulatory provenance chain, JVL Ways pipeline, ways branch architecture, trusted stage users, clean environment lesson, engagement auditor agent, translation service, terminology override table, GitHub Enterprise fork, JVL GitHub Ways architecture guide, Capability Ticket, Jira hierarchy restructure, engineering guides, architecture black hole, Piratka, prose standard, code to prose, capability extraction, 29 capabilities, AI flattery caution, agent setup, prose initialization skill, prose skill, dependency-tree mapping, prose pending folder, contracts written by Claude, development pipeline end to end, clean-session evaluation, naming by Claude]
-source-count: 194
+source-count: 196
 ---
 
 # AI-assisted development adoption
@@ -1100,6 +1100,11 @@ Two calls the same afternoon carry one idea from [[wiki/people/val-levitan.md|Va
 - **Genadi's PO agent** ([[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agent.md|~3:09 PM]], Russian). [[wiki/people/genadi-peari.md|Genadi]] is to build an agent he opens "раз в день" to look at all POs against the standards and list what does not match; give it a persona that reads the standards each time; when it lacks MSBC access, it drafts a use case for [[wiki/people/nathan-carver.md|Nathan]]'s MCP — "у вас получается луб". Val's AI-COO already reads the standards before acting [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-genadi-works-only-on-the-bom-with-nathan-not-procurement-and-his-purchasing-know-how-goes-into-standards-checked-daily-by-his-own-po-agent.md]].
 - **Finance email agents** ([[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|~3:32 PM]], English). Each finance-team member is to run "your own routines, skills, agents that go through your e-mail on a regular basis" against the standards. Val runs "close to 20 routines and agents", "as frequently as every 15 minutes, or as… Rarely, as let's say, once a quarter"; "the less you direct an agent, the better the agent works"; if Claude's explanation is unclear, say "chew it up for me" [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
 
+
+## Nov 24 2026 — Claude review fixes can snowball; Claude reads Teams transcripts through the Microsoft 365 connector; GLI-11 and the code fed to Claude
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) [[wiki/people/pavel.md|Pavel]] said Claude fixes "всё и жёлтый красные" in his practice; [[wiki/people/dmitri-kovalchuk.md|Kovalchuk]]: sometimes "одно ломает другое". Chudinov cited Claude's finding that "45%" of requirements were edited after release [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) [[wiki/people/evgeny-kharetski.md|Kharetski]] said Claude with his Microsoft 365 connector pulls a meeting's transcript when asked, and proposed giving Claude the code and the idea to check against GLI-11; [[wiki/people/anton-leshkevich.md|Leshkevich]] does not want AI to generate the whole bonus step [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 - [[raw/Meeting_Notes_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
@@ -1296,3 +1301,5 @@ Two calls the same afternoon carry one idea from [[wiki/people/val-levitan.md|Va
 - [[raw/Meeting_Transcript_Daily_Standup_Cloud_Test_Environment_and_Short_Claude_Messages-November-19-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]

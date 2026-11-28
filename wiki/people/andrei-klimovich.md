@@ -4,7 +4,7 @@ title: Andrei Klimovich
 date: 2025-01-30
 aliases: [Andrei Klimovich, Andre]
 disambiguation: "Online-games/RGS commercial lead (ECHO/Amazon/online). Andrei/Andrey/Andrew cluster (3, owner-ruled): [[wiki/people/andrey-bosik.md|Andrey Bosik]]=DevOps engineer / [[wiki/people/andrew-khandov.md|Andrew Khandov]]=C# Miranda dev (Dmitriy Khandov's father) / [[wiki/people/andrei-klimovich.md|Andrei Klimovich]]=online-games commercial. Resolve by context; queue if none."
-source-count: 161
+source-count: 164
 open-commitments: 114
 open-questions: 0
 ---
@@ -986,6 +986,15 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 
 At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) Val asked when the first transactional system is installed. Pavel: "Андрей не говорил"; Irina: "Он же сказал, что от интролота ждёт каких то ответов"; Val: "Инкома." Whether Intralot or InComm is meant is **unclear**. Pavel had talked about the revision-2 boards with Alekseev and "Андреем. Климовичем", and "Андрей Себастьян" tried the pin fix once, without success [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Both "Андрей" read as Klimovich (installs; named just before — **inference**). Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
 
+
+## Nov 24 2026 (in absentia; name calls partly inference) — support for going back to pre-release builds is "not needed"; a field cash-out report; the counters question
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) Seregin said "Андрей климович ответил, что типа нам эта поддержка как бы и не нужна" (going back to pre-release builds). The "Андрей" who reported that cash-out fails on production at one site, and who passed the Flex-Port counters question to Biratka, is read as Klimovich (**inference**; the notes agree) [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
+## Nov 24 2026 (11:16 AM) — "there is nothing that holds us from the installation"; the terms question; "like 45% annual interest"; the slogan SVG; he sets the install date with Felipe
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) he reported the test card activations work and the first install can go "tomorrow" if the location is ready, else Friday or Monday; he meets Felipe to set it. He asked whether the location invoice keeps "net 10" or 5 or 7 — Val: "due upon use of service" — and proposed removing the terms field. Showing yesterday's test invoice, he said the footer needs "those numbers that Val approved previously, like 45% annual interest" (Nov 20 recorded 35% — open contradiction). He offered Lev "the proper SVG file" for the slogan and asked for a quick fix before the template moves out of BC [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]] [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record and his commitments: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Technician_Loyalty_and_Developers_as_Product_Owners-October-23-2026.md]]
 
@@ -1150,3 +1159,6 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Notes_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

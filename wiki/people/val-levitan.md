@@ -3,7 +3,7 @@ type: person
 title: Val Levitan
 date: 2026-07-12
 aliases: [Val, Val Levitan]
-source-count: 528
+source-count: 532
 open-commitments: 83
 open-questions: 1
 ---
@@ -1916,6 +1916,14 @@ At the [[wiki/meetings/2026-11-20-genadi-data-sheets-in-github-and-po-check-agen
 
 At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English, by mobile phone) he praised the team for owning a late reply to an ACH authorization request, asked for a fix by hand, and set two concepts: write a standard into GitHub when a mistake is found, and have your own agent go through your email against the standards. He runs "close to 20 routines and agents", from every 15 minutes to once a quarter; "the less you direct an agent, the better the agent works"; learn it over the weekend [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
 
+## Nov 24 2026 (1:05 PM) — the accounting team's AI show-and-tell; "a glorified instruction processor"
+
+He set a regular AI-only show-and-tell for the accounting team — "I don't use AI" accepted today, but "Two weeks from now… you are probably not for JBL" — and plans to have his Claude write a "next level" lesson from each transcript; he taught ESL-English summaries and "chew it up for me", and named the next step: MCP (Business Central first), then agents [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. After the call he ruled in chat on approved purchase orders and on standards not copying user manuals [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Records: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]] · [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]].
+
+## Nov 24 2026 (3:57 PM) — slot-machine parts under HTS 9504.30.00.60, about 20% all-in
+
+With Mery he showed that the vendor's steel code (about 80%) was wrong for slot-machine parts and ruled game parts, HTS 9504.30.00.60, about 20% all-in — "You have to do your own research" — and said he would post it as a standard in GitHub [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]] [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-slot-and-amusement-machine-parts-are-imported-under-hts-9504-30-00-60-at-about-20-percent-all-in-not-the-vendors-steel-code-and-jvl-does-its-own-tariff-research.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -2454,3 +2462,7 @@ At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-stand
 - [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
 - [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]
+- [[raw/Meeting_Notes_Mery_Hongjin_DDP_Costs_and_Slot_Parts_Tariff_Code-November-24-2026.md]]

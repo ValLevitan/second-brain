@@ -3,7 +3,7 @@ type: topic
 title: NOVA platform architecture (JVL land-based gaming platform)
 date: 2026-05-12
 aliases: [NOVA, NOVA platform, NOVA gaming platform, land-based platform, land-based gaming platform, services architecture, library-to-service decomposition, Chief Architect NOVA, Unix-socket services, per-service repositories, packaged games, AMQP CMS protocol, capabilities from prose, prose standard, LGS prose, repo to Jira linkage, module contracts, NOVA integration repository, knowledge repository]
-source-count: 125
+source-count: 128
 open-commitments: 73
 open-questions: 39
 disambiguation: "NOVA is the named successor of the 'Omni' land-based platform code-word — do not conflate NOVA (this on-cabinet services platform) with the Omni game-templating / Rage→Omni content transition tracked on [[wiki/topics/omni-core-advancement-and-game-templating.md]]."
@@ -953,6 +953,15 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - **Maths and sound.** Neither is in the pipeline. Maths sets symbols, pays and bonuses and must come first; the studio's input is a finished brief, so the brief agent must ask whether maths exists, attach it or offer to develop it; library models for now. Sound goes into the brief and a sound standard is pulled from today's approved sounds [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]].
 - **Studio MVP 1.** Narrow but working: the base-game step, CI/CD and a one-page self-install for a new designer; tools kept closed (compiled "чёрный ящик", JVL account, hidden prompts) [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Record: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
 
+
+## Nov 24 2026 (6:16 AM) — the bonus step from templates (80/20); WebP textures; a real LGS in simulation mode; RK firmware packages; NOVA-2 renamed NOVA in Jira; an LGS statistics database checked against GLI-11
+
+At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) Leshkevich's base-game step is built and in test; the bonus step will be a template of general features, with Biratka's general "resource / scene" steps deferred by Pavel's "80, 20". Textures most likely WebP (only WebP and PNG supported). Igor's four games wait for the LGS fixes (300+ commits) and their own repositories; Kharetski builds a container with a real LGS in simulation mode, since the studio runs games on mocks. Pavel makes the build output RK firmware update packages; the RK installer builds in the integration repository as its own platform. Biratka finished the Jira rename (about 300 edits). New LGS direction: collect statistics, keep them in a database on the machine, send them to the hub; storage becomes a buffer; an SSD should be easy to add; GLI-11 rules on history to be checked; maybe a move to Spring [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
+
+## Nov 24 2026 (8:01 AM) — from design brief to capabilities: one capability per game, one feature branch per asset
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian) [[wiki/people/val-levitan.md|Val]] and [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] agreed: when the design brief is complete, the brief agent creates one capability per game ("сделай мне игру") and one feature per asset — "каждый из символов. Каждую транзит… саундбайт" — each with a feature branch; a studio operation ends by merging its result into that branch, and "сумма всех фьючерс закрывает" the capability. Way 1: the agent gets the game repository from Andrei (support) and creates the feature branches; no Jira inside the studio, because "завтра мы можем… работать непосредственно в gedхабе". A game initiative cannot be opened without its project number and repository, "Соблюдая все наши стандарты". Growing the studio for new mechanics (new layers, timing, instructions) is a separate set of capabilities [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]] [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1081,3 +1090,6 @@ At the [[wiki/meetings/2026-11-13-daily-standup-vertical-rage-games-for-texas-an
 - [[raw/Meeting_Notes_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

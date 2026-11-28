@@ -3,7 +3,7 @@ type: topic
 title: Test-automation strategy and testing architecture
 date: 2025-01-15
 aliases: [test automation, testing architecture, eighty percent of the general functionality, requirements are step two, a hole automated tests will not cover, acceptance criteria in general terms, QA automation, shift-left testing, proof of concept testing, Catalon Studio, end-to-end testing, standalone test tool, Tosca, Test 360, test 360 culture, unit-test coverage, TDD, FlexPay test plan, FP-262, Page Object Model, POM, Selenium, XPath, OmniTest360, capability coverage, QA engineering, LGS XML abstraction, Figma to React, Vite, Claude Code review loop, acceptance criteria, two test warehouses, frozen test cases, test harness, test registry, no E2E tests for MVP 1, E2E micro-step, telnet hook test, 60 to 70 percent acceptance criteria, symlink to dev null, eight connection tests, money-crediting autotest]
-source-count: 115
+source-count: 116
 open-commitments: 86
 open-questions: 16
 ---
@@ -1123,6 +1123,11 @@ At the [[wiki/meetings/2026-11-20-daily-standup-firmware-rollback-and-manual-onl
 
 At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-wifi-updates.md|Nov-23 ~11:46 AM call]] (Russian) [[wiki/people/pavel.md|Pavel]]: delivery of an update from the server to Flex IQ "тестируется есть на этот тест и он проходится"; the port update itself — "Flex порта мы не покроем автоматическими тестами" — only the protocol between Flex IQ and the port, that the file arrives. Emulating the port's processor would be untrue: "Аккумуляторов, готовых хороших аккумуляторов стм 32 не существует" ("аккумуляторов" = emulators, the notes' reading); "Поэтому этот тест конкретно проводится на реальном железе." Irina: "Это руками проверит." Meanwhile [[wiki/people/anton-seregin.md|Seregin]]'s weekend autotests, written to his acceptance criteria, found that the update without stick or ST-Link did not work [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]] [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]. Same line as the Nov-20 manual-only marking above. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]].
 
+
+## Nov 24 2026 — the failed update traced to the firmware-bank switch; Seregin's autotests blocked on the counters question; a full manual Flex-Port cycle
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) the update failure found by [[wiki/people/anton-seregin.md|Seregin]]'s autotests was traced to the switch between firmware banks when an older pre-release goes over a newer firmware; his fix refuses pre-release versions. His remaining autotests wait on which Flex-Port counters survive a restore ([[wiki/people/alexander-biratka.md|Biratka]] to answer). [[wiki/people/alexei-khamin.md|Khamin]] runs a full manual cycle, updates first; [[wiki/people/pavel.md|Pavel]] suggested Claude might build a test that corrupts a sector so the checksum fails. [[wiki/people/vladimir-samusenko.md|Samusenko]]'s agents write autotests for 233 and 116 [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
 - [[raw/Meeting_Notes_Daily_Standup_Autotest_Stand_Debate_and_Jira_Reopen_Rules-October-5-2026.md]]
@@ -1240,3 +1245,4 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

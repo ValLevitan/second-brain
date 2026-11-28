@@ -3,7 +3,7 @@ type: person
 title: Laura
 date: 2025-04-15
 aliases: [Laura, Laura Escorcia]
-source-count: 12
+source-count: 13
 ---
 
 # Laura
@@ -32,6 +32,10 @@ On the [[wiki/meetings/2026-09-23-cash-position-and-vendor-payment-plan.md|Sept-
 
 She attended the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-standards-agents.md|Nov-20 finance call]] (English) where a late reply to a customer's ACH authorization request was owned by the team; she is among those asked to learn routines, skills and agents over the weekend and to set up an email-checking agent against the standards [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]] [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
 
+## Nov 24 2026 (1:05 PM) — simple AR reports from a Claude project; the standards need users' input
+
+At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting show-and-tell]] (Spanish) she said Business Central's AR reports are hard for customers to read, so a Claude project ("Arc") builds simple AR reports, customer statements and collection letters, with Erika and [[wiki/people/felipe-miranda.md|Felipe]], for two to three months now. Once or twice a week she exports from BC, adds manual columns and checks the last 2–3 days of sales against customer credit limits, raising problems with Felipe. She also asks Claude which G/L account to use and to explain and answer English emails [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Before Val joined she said the standards miss real cases and the people who use them should have a say [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Records: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]] · [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Cash_Position_and_Vendor_Payment_Plan-September-23-2026.md]]
@@ -46,3 +50,4 @@ She attended the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay
 - [[raw/Meeting_Notes_Chart_of_Accounts_Alignment_Systems_Labs-August-5-2026.md]]
 - [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
 - [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

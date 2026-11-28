@@ -3,7 +3,7 @@ type: person
 title: Lev Rudky
 date: 2024-01-01
 aliases: [Lev Rudky, Lev, Lev Rudki, Лёва Рудки, Лёва, лева]
-source-count: 32
+source-count: 35
 open-commitments: 2
 ---
 
@@ -119,6 +119,14 @@ Ruling and commitments (his: write the PO standard): [[wiki/decisions/2026-11-16
 
 At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice-terms.md|Nov-20 ~10:02 AM PROD test 2 call]] (English): "there are no problems to create an appropriate payment term in the system. It's practically immediate"; on layout, "Why can't we use the existing layout like the standard layout?" — Klimovich agreed; only the content must match the approved mock-up. Val: "One hour… No customization." Lev: "If it requires customizations, I won't be able to tell you" [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. He and [[wiki/people/igor-donis.md|Igor Donis]] owe the test invoice; Val also named him for confirming the recurring monthly invoice set-up ("subject for less confirmation", reading **inference**) [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]. Detail: [[wiki/decisions/2026-11-20-the-location-invoice-is-due-on-its-date-with-35-percent-simple-daily-interest-from-day-7-and-the-monthly-connection-fee-is-a-recurring-invoice-to-the-master-net-15-with-interest-from-day-31.md]].
 
+## Nov 24 2026 (11:16 AM) — can BC start interest days after a posted invoice? He checks; he takes the invoice template out of BC with the consultant
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) he doubted that a posted invoice can be changed to add interest ("I don't think it's possible") and asked what happens when a withdrawal bounces. He said the current invoice is "a standard… From BC… With A footnote added to it." Val asked him to report what the template is — Lev: "Couple days"; Val: "Let's do it today, please… I'll check with you at 4 o'clock" — and to work with "our… consultant" so the template comes out of BC with its reference in GitHub [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]] [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record and his commitments: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
+## Nov 24 2026 (in absentia) — he enters and approves vendor bank details; two more standards to write
+
+Per the notes of the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting show-and-tell]], the vendor bank-details standard in GitHub (v1.4, Nov 24; changed in v1.2, Nov 20) has Lev, as MIS Manager, enter and approve bank details, while Mery only saves the vendor's documents [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. After the call Val's rulings went to him by email (sent Nov 25, Cc Vaselisa): add to the PO standard that nobody changes a PO after Val approves it, only its issuer cancels it, the CFO and COO are told, the controller decides the account and the AI CFO verifies it; and write a short standard that standards do not copy application user manuals [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -154,3 +162,6 @@ At the [[wiki/meetings/2026-11-20-andrei-prod-test-2-billing-runbook-and-invoice
 - [[raw/Meeting_Transcript_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Notes_Lev_Standards_Ownership_and_PO_Standard-November-16-2026.md]]
 - [[raw/Meeting_Transcript_Andrei_PROD_Test_2_Billing_Runbook_and_Invoice_Terms-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Notes_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

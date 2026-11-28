@@ -4,7 +4,7 @@ title: Irina Shishko
 date: 2025-05-01
 aliases: [Irina Shishko, Irina Shyshko, Iryna Shyshko, Irina Shishkova, Ирина Шишко]
 disambiguation: "Vice Director of Engineering & Director of QA (owner-confirmed 2026-07-18), this page. Two Irinas (owner-confirmed 2026-07-18, genuinely two people): [[wiki/people/irina-shishko.md|Irina Shishko]] = Vice Director of Engineering + Director of QA (engineering management, QA, testing; = payroll Shyshko Iryna); [[wiki/people/irina-makarych.md|Iryna Makarych]] = game developer. Resolve by context: engineering-management / QA / testing / test-plans → Shishko; game development → Makarych; queue if genuinely unclear."Irina" mentions are genuinely ambiguous — queue rather than force. Owner to confirm the distinction or fold into one cluster."
-source-count: 238
+source-count: 239
 open-commitments: 50
 ---
 
@@ -973,6 +973,11 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 
 At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and-modem-not-tested.md|Nov-24 3:31 PM call]] (English) Sebastian said that after the last two criteria "I can send all the information to the to Irina"; read as Irina Shishko (QA context) [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-23-the-20-revision-2-boards-go-back-to-alekseev-for-repair-build-4377-with-the-modem-is-field-tested-on-different-modems-before-the-lab-and-remote-updates-and-wi-fi-setup-are-the-two-must-haves.md]] (Nov-24 update).
 
+
+## Nov 24 2026 (~3:47 AM) — requirement descriptions carry too much; look at the hardware first on the field cash-out; a full manual Flex-Port cycle, updates first
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) she backed Chudinov on requirements — she had raised it on Friday or Saturday — and disliked the descriptions: "Очень много всего пишется… каких то блоков, которые вообще не нужны". She is in the group that meets and brings a proposal to Val. On the field cash-out failure: only "наша" machine of about ten fails, so look at hardware and wiring first. She asked Khamin for a full manual Flex-Port cycle, updates first, and will send Biratka her capability map and two stories, and Ivan GLI's answers [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -1214,3 +1219,4 @@ At the [[wiki/meetings/2026-11-24-sebastian-ga-coam-acceptance-test-73-of-75-and
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

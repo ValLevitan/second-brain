@@ -3,7 +3,7 @@ type: decision
 title: After a late reply to a customer's ACH authorization request, a mistake that is found becomes a written standard in the GitHub standards repository, and each finance-team member sets up their own routines or agents that go through their email against the standards to catch what was missed; the immediate issue is fixed by hand first; the team learns routines, skills and agents over the weekend (Val, with the finance team, Nov 20 2026)
 date: 2026-11-20
 aliases: [ACH authorization delay, ACH authorization request missed, Account Balance - ACH Authorization Attempt, mistakes become standards, finance email agents, agent traverses my emails, traverse through my emails, routines skills agents, chew it up for me, close to 20 routines, two concepts standards and an agent, Nov 20 finance call]
-source-count: 2
+source-count: 3
 status: active
 open-commitments: 4
 open-questions: 1
@@ -55,7 +55,12 @@ In one line: **a missed step is written down once as a standard, and each person
 
 **§15.8:** clear — no one's pay came up. **§15 #9:** clear — no bank account or routing number appears; the customer is not named.
 
+## Note, Nov 24 2026 — the first AI show-and-tell
+
+Four days later, at the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting call]], each team member showed how they use Claude, and Val said the team has used it as "a glorified. instruction processor" and should move to MCP and then agents; "I don't use AI" will not be accepted "Two weeks from now" [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
 - [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

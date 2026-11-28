@@ -4,7 +4,7 @@ title: Evgeniy Alekseev
 date: 2025-03-11
 aliases: [Evgeniy Alekseev, Evgeny Alekseev, Zhenya Alekseev, Женя Алексеев, Alekseev]
 disambiguation: "Owner of the main embedded code branch, this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
-source-count: 75
+source-count: 76
 open-commitments: 11
 ---
 
@@ -308,6 +308,11 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 
 At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcing-and-data-contracts.md|Nov-23 ~1:17 PM call]] between Val and Genadi (Russian; not present) Genadi relayed Val's message asking "Евгению послать 20 бортов, чтобы он починил"; read as Alekseev by §4 context (inference). Genadi: 20 new-revision boards already ship from China this week, he already has two revision-2 boards and has not answered whether they can be fixed, and he was busy at the weekend implementing Wi-Fi support. Val: he is a contractor responsible for his work; "он просто поставил туда мультиплексер", and the fix — bite off the multiplexer and solder 2 pins — "Это проверили, это не работает"; if he cannot fix it, "пусть тогда он снимет свой чарч" (no amount named). Whether the boards go back was not settled [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]] [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]. Record: [[wiki/decisions/2026-11-23-genadi-first-finishes-the-data-contracts-and-loads-every-data-sheet-into-github-and-supplier-search-becomes-agent-logic-built-on-them.md]].
 
+
+## Nov 24 2026 (in absentia; name call an inference) — "Алексеев уже сделал": Wi-Fi module firmware travels inside the update file
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) Pavel said "Алексеев уже сделал" a step that flashes the Wi-Fi modules, the firmware lying "внутри апдейт бина"; Minsk cannot test that part. Read as Evgeniy Alekseev by surname and embedded context (**inference**; the notes mark the name "as heard") [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Daily_Standup_FlexPort_Firmware_Delivery_and_Network_Loss-September-30-2026.md]]
@@ -386,3 +391,4 @@ At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcin
 - [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

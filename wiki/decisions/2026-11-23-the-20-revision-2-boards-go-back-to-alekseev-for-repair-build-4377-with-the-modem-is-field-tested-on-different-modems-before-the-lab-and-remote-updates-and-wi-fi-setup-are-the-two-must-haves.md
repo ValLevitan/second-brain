@@ -3,7 +3,7 @@ type: decision
 title: The 20 revision-2 boards are packed and sent back to Alekseev for repair, with no more experiments on site (reopened the same afternoon in the Genadi call, not settled); Georgia build 4377 — all fixes plus the modem, the "modem and RIS modification" release — is field-tested by Elizabeth and Sebastian on different modems before it goes to the lab; for version 2 of the transactional equipment, reliable remote updates and Wi-Fi setup are the two things that matter most, and Val does not yet feel they are solid (Val, with Pavel Frolov and Irina Shishko, Nov 23 2026); Nov 24 — Sebastian has tested 73 of about 75 acceptance criteria, about 8 fail, the modem is not tested yet and will be used on the D27 cabinet
 date: 2026-11-23
 aliases: [Alignment by the coffee machine Nov 23 2026, Nov 23 Pavel Irina call, send the 20 boards back, эти 20 плат нужно отправить обратно, не надо делать эксперимент, revision 2 boards multiplexer, ревизия 3, build 4377, номер белда 43 77, modem and RIS modification for Georgia, модом и риск модифишн, test on different modems before the lab, на разных модемах, modem test tool released, тестовый ту зарелизил, different firmware and carrier locks, remote updates and Wi-Fi setup most important, вот эти 2 вещи которые очень очень важны, update not via stick or ST-Link failed, не через флешку не через эстелинк, no STM32 emulator, Wi-Fi as built, Flex IQ access point, QR code from the dashboard, RIS_Cell for GACOAM, 73 of 75 acceptance criteria, modem not tested, modem on the D27 cabinet]
-source-count: 5
+source-count: 6
 status: active
 open-commitments: 6
 open-questions: 5
@@ -56,6 +56,10 @@ In the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcin
 - **Results.** "the engineers repaired a lot of fails on the previous version, but still we have some fails around one, two, three, 4, 5, 6, 7, 8"; "around 8, and we have still around 8 questions about some acceptance criteria". By that morning about 3 had failed ("Maybe 3 of them, yes, for this morning" — his estimate). Results go to Irina; "I think I will be ready in maybe 430 430 P.m." [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]].
 - **The modem — not tested.** Val: "You have not tested the modem at all." — "No." Sebastian: "the modern will be used on the 27 cabinet"; "Because this software is, we are already testing on D27 cabinet." Val: "So you're asking me whether we will be using the modem for D27 cabin? Yeah, yes, we will be." Val: "So that means you will need another day or half a day." — "Yes, probably yes" [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]] [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]. So the Nov-23 rule — modem testing on different modems before the lab — was not yet met on Nov 24.
 
+## Update, Nov 24 2026 (~3:47 AM) — the failed update traced to the firmware-bank switch
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) [[wiki/people/alexei-khamin.md|Khamin]] said the failure reproduces only when an older pre-release firmware goes over a newer one; [[wiki/people/anton-seregin.md|Seregin]] traced it to the bank switch and has a fix under test; [[wiki/people/sergey-tsymanov.md|Tsymanov]] only delivered the firmware. The commitment below stays open until the fix is verified [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## How it sits against earlier rulings
 
 - [[wiki/decisions/2026-11-05-the-modem-stays-always-on-with-no-operator-on-off-screen-and-is-disabled-only-through-a-deliberate-qr-scan-server-event-and-activation-code-routine.md|Nov 5]] — the modem goes on every Georgia machine with this release; Nov 23 is the build that carries it into field test. **Evolution.**
@@ -87,3 +91,4 @@ In the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcin
 - [[raw/Meeting_Transcript_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
 - [[raw/Meeting_Notes_Sebastian_GA-COAM_Acceptance_Test_73_of_75_and_Modem_Not_Tested-November-24-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

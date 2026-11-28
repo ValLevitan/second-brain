@@ -3,7 +3,7 @@ type: topic
 title: Docs-as-code and the plan to exit Atlassian
 date: 2025-02-21
 aliases: [docs as code, documentation site, GitHub Pages, GitHub Docs, mermaid, Confluence exit, Atlassian exit, single source of truth, template repo, contact sheet, GDD, markdown tooling, VS Code vs Obsidian, GitHub Sync, GitHub Desktop, code-first toolbox]
-source-count: 26
+source-count: 27
 open-commitments: 1
 open-questions: 4
 ---
@@ -179,6 +179,10 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 - **External validator status** — Dmitri Chudinov referenced "some external service" that will check produced documentation against the declared criteria; whether it is built, planned, or aspirational was not clarified. [[raw/Meeting_Transcript_cas_cloud_migration_doc_readiness_review-April-28-2026.md]]
 - **Long-term KPIs + the Omni platform-vs-separate decision.** Chudinov flagged (May 7) that the team cannot commit to a new CAS architecture without knowing whether this same platform will host the next-generation **Omni** machines (coexisting with legacy floor machines via LANbase) or whether a separate product is built — needs an answer from Val at or before the May-14 tech-stack kickoff. [[raw/CAS_Cloud_Migration_ex-CMS_Grooming_Follow-up-May-7-2026.md]]
 
+## Nov 24 2026 — "я бы хотел бы уйти от джиры": the studio is not tied to Jira
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 8:01 AM design-guide call]] (Russian) Val rejected building Jira into the NOVA studio: no hard tie "студии в джира, потому что завтра мы можем поменять вот те от джиры, например, работать непосредственно в gedхабе [GitHub]… я бы хотел бы уйти от джиры" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. The game's capability and features are tracked through feature branches and pull requests in GitHub instead. Detail: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/the_importance_of_storing_artifacts_in_git.md]]
@@ -207,3 +211,4 @@ At the [[wiki/meetings/2026-10-24-ai-game-design-assistant-first-pass-and-code-a
 - [[raw/Meeting_Notes_Pavel_Frolov_Use_Case_Docs_and_Commissioning_Chatbot-October-21-2026.md]]
 - [[raw/Meeting_Transcript_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
 - [[raw/Meeting_Notes_AI_Game_Design_Assistant_and_Code_as_Source_of_Truth-October-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

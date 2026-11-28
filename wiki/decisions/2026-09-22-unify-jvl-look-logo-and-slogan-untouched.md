@@ -3,7 +3,7 @@ type: decision
 title: Unify JVL's look into one package — collect and arrange, no rebrand; the logo and slogan are not touched
 date: 2026-09-22
 aliases: [JVL brand unification, no rebrand, logo cannot be touched, slogan cannot be touched, JVL style guide, JVL collateral, trade show attire]
-source-count: 3
+source-count: 4
 status: active
 open-questions: 2
 ---
@@ -43,7 +43,12 @@ Reading Klimovich's draft promo flier three days later, Val read "We take our ga
 
 **§15.8:** clear — no fee, rate or pay figure was spoken.
 
+## Note, Nov 24 2026 — the invoice logo is missing the slogan
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 11:16 AM Payment Hub call]] (English) Val, looking at the Business Central test invoice: "the artwork doesn't have a slogan, and it must have a slogan… Andrei, please change the template to add slogan underneath of JVL." Klimovich: "I can send Lev the proper SVG file. I have one" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Consistent with this ruling (the logo and slogan are not changed). Detail: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Notes_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Howard_Tikka_Brand_Realignment_and_Collateral-September-22-2026.md]]
 - [[raw/Meeting_Transcript_Promo_Flier_and_Vysotski_Deployment-September-25-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

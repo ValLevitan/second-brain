@@ -3,7 +3,7 @@ type: topic
 title: JVL finance back-office
 date: 2026-07-14
 aliases: [finance team, finance back-office, controllership, Alka finance team, finance restructuring, weekly cash flow, EDS quarterly payment, Elevate invoice reconciliation, receivables cleanup, aged receivables, collections, contaminated aging]
-source-count: 72
+source-count: 74
 open-commitments: 4
 open-questions: 5
 ---
@@ -501,6 +501,14 @@ At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-stand
 - **The fix.** By hand, "as soon as possible"; owner not named [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]].
 - **The rule.** A mistake found becomes a standard in the GitHub standards repository; each team member sets up their own routines or agents that go through their email against the standards, so a missed email is flagged; learn it over the weekend [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]. Record: [[wiki/decisions/2026-11-20-a-mistake-found-becomes-a-written-standard-in-github-and-each-finance-team-member-runs-their-own-email-checking-agent-against-the-standards.md]].
 
+## Nov 24 2026 (1:05 PM) — the first AI show-and-tell; who enters vendor bank details; the wrong-account PO
+
+At the [[wiki/meetings/2026-11-24-accounting-team-ai-show-and-tell.md|Nov-24 accounting call]] "Claude demos by the accounting team" (mostly Spanish; [[wiki/people/val-levitan.md|Val]], [[wiki/people/mary.md|Mery]], [[wiki/people/laura.md|Laura]], [[wiki/people/igor-donis.md|Igor Donis]], [[wiki/people/cris-nacarino.md|Cris]], [[wiki/people/erika-gonzalez.md|Erika]]) [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]:
+- **The format.** Each person shows their real AI use; Val's Claude turns the transcript into a "next level" lesson; next step MCP (Business Central), then agents [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-accounting-team-shows-how-it-uses-ai-every-week-vals-claude-turns-each-transcript-into-a-next-level-lesson-and-the-next-step-is-mcp-then-agents.md]].
+- **What the team does with Claude today.** Sales-tax returns checked against Avalara and BC (Georgia, Nebraska, South Dakota, Texas under review); the October RBC CAD/USD reconciliation against Navision (JVL Labs); Bancolombia daily movements formatted to Val's standard; open-PO sorting; simple AR reports and credit-limit checks [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]].
+- **Vendor bank details.** The team asked who enters them in Business Central; per the notes, the GitHub standard (v1.4) says Lev Rudky enters and approves and Mery only saves documents [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]].
+- **A PO approved with the wrong account.** Not in the standards; Val ruled after the call that an approved PO is never changed, only its issuer cancels it, the CFO and COO are told, the controller decides the account and the AI CFO verifies it [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]] [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-purchase-order-val-approved-is-never-changed-only-its-issuer-cancels-it-the-cfo-and-coo-are-told-the-controller-picks-the-account-and-the-ai-cfo-checks-it-and-standards-do-not-copy-application-manuals.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Open_Purchase_Order_Payment_Walkthrough-September-23-2026.md]]
@@ -578,3 +586,5 @@ At the [[wiki/meetings/2026-11-20-finance-team-ach-authorization-delay-and-stand
 - [[raw/Meeting_Notes_Gilmore_GameWorks_US_Tax_and_Labs_Filing-June-30-2026.md]]
 - [[raw/Meeting_Transcript_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
 - [[raw/Meeting_Notes_Finance_Team_ACH_Authorization_Delay_and_Standards_Agents-November-20-2026.md]]
+- [[raw/Meeting_Transcript_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]
+- [[raw/Meeting_Notes_Accounting_Team_AI_Show_and_Tell-November-24-2026.md]]

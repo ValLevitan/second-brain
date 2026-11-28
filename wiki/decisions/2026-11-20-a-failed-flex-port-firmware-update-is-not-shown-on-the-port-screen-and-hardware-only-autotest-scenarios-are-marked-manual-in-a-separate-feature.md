@@ -3,7 +3,7 @@ type: decision
 title: A failed Flex-Port firmware update is not shown on the port's own screen — the port stays on the working version, so the error lives only in the terminal log and the operations dashboard, and Bosik removes the on-screen item from the requirement; whether the port really can fall back (two boot areas, too little room, a board button nobody tested) is for "Евгений" to confirm, and the acceptance criteria must be re-checked against the real implementation; autotest scenarios that need real hardware (a QR scanner, a USB device — 10 of Samusenko's Wi-Fi set) are marked manual-only in the acceptance criteria, listed in a separate manual-check feature and kept in the repository so one filter finds them; obsolete capabilities are deleted, not archived; release notes for production files on the operations dashboard become a capability, not for this release; Docker dev-image builds get a clean-up step (Nov 20 2026)
 date: 2026-11-20
 aliases: [Flex-Port firmware update failure not shown on screen, failed update stays in the log, ошибка обновления прошивки на флекспорте, мы не показываем на farto эту про ошибку, Flex-Port rollback, два загрузочных места, two boot slots, board button rollback, manual-only autotests, онли мэниал, hardware-only test scenarios, 10 of 23 Wi-Fi scenarios, manual-check feature, delete obsolete capabilities, release notes capability, релиз ноты на operations dashboard, Docker dev image clean-up, machine 84 Wi-Fi board]
-source-count: 4
+source-count: 5
 status: active
 open-commitments: 7
 open-questions: 2
@@ -59,6 +59,10 @@ Bosik, after confirming that [[wiki/people/evgeny-kharetski.md|Kharetski]] build
 - **Nov 19 — CAP-267 / CAP-146.** On Nov 19 Chudinov said the Flex IQ "Авто роллбек происходит автоматом" and Irina folded CAP-267 (Flex IQ firmware management) into CAP-146 (Flex-Port firmware update) — [[wiki/decisions/2026-11-19-the-november-20-mvp-2-1-date-will-not-hold-each-reporter-cleans-up-their-own-2-1-items-before-a-follow-up-call-and-cap-267-is-closed-into-cap-146.md]]. This page is about the Flex-Port's own fallback, which the team is less sure of; not a contradiction, a different device.
 - **Nov 20, 9:02 AM — no central rollback.** Later the same day Chudinov's rule (a device falls back by itself after a failed update; nobody pushes an older build) was agreed — [[wiki/decisions/2026-11-20-mvp-2-1-is-set-for-wednesday-november-25-task-399-moves-into-2-1-no-central-rollback-fix-forward-and-mvp-2-2-is-the-master-role-and-reporting.md]].
 
+## Update, Nov 24 2026 — the hang is the firmware-bank switch; Seregin's fix blocks pre-release versions
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) the update hang was traced to the switch between firmware banks when an older pre-release firmware is put over a newer one; [[wiki/people/anton-seregin.md|Seregin]]'s fix, under test, has the loader refuse pre-release versions and "релижина 001", and Klimovich said going back to pre-release builds need not be supported. The Wi-Fi module firmware now travels inside the update file ("Алексеев уже сделал" — read as Alekseev, **inference**) and Minsk cannot test it [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Open commitments
 
 - [ ] [[wiki/people/andrey-bosik.md|Andrey Bosik]] — remove the on-screen update-error item from the Flex-Port firmware-update requirement — due unspecified — [[raw/Meeting_Transcript_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]] [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
@@ -88,3 +92,4 @@ At the [[wiki/meetings/2026-11-23-pavel-irina-lte-modem-build-rev-2-boards-and-w
 - [[raw/Meeting_Notes_Daily_Standup_Firmware_Rollback_and_Manual_Only_Autotests-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
 - [[raw/Meeting_Notes_Pavel_Irina_LTE_Modem_Build_Rev_2_Boards_and_WiFi_Updates-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

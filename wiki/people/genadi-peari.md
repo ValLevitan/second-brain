@@ -3,7 +3,7 @@ type: person
 title: Genadi Peari
 date: 2026-07-12
 aliases: [Genadi Peari, Genadi, Gennady, Gennady Perry, Perry, Gena, Геннадий, Kenadi]
-source-count: 165
+source-count: 166
 open-commitments: 60
 ---
 
@@ -767,6 +767,10 @@ At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcin
 - **Sourcing.** He is replacing the controller kits of the ~5 active monitors ("покупали у акиры") — a 43-inch sample is ordered — and looking for a new source for the electromechanical counters after a 50% price rise. He sources "В основном 90%" on Alibaba, checks by hand that a supplier is a manufacturer, then moves the talk to Outlook. He wants controllers with built-in LED backlight control and power supply [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]].
 - **Ruling.** Data sheets for the 5 monitors' controller boards and the counter into GitHub the same day; finishing the data contracts is his top priority; supplier search is to become agent logic. Val: "если я вас завяжу в прокюрменд, это будет смерть… В автоматике вас завязать" [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]. Record and commitments: [[wiki/decisions/2026-11-23-genadi-first-finishes-the-data-contracts-and-loads-every-data-sheet-into-github-and-supplier-search-becomes-agent-logic-built-on-them.md]].
 
+## Nov 24 2026 (11:16 AM, in absentia) — his part-number standard is to cover invoice templates
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 Payment Hub call]] (English) Val: "Genadi has the standards in the knowledge base of generating part number. So an invoice as a PDF file, that file needs to have a part number" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
 - [[raw/Meeting_Notes_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -934,3 +938,4 @@ At the [[wiki/meetings/2026-11-23-genadi-rev-2-boards-monitor-controller-sourcin
 - [[raw/Meeting_Notes_Genadi_Data_Sheets_in_GitHub_and_PO_Check_Agent-November-20-2026.md]]
 - [[raw/Meeting_Transcript_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
 - [[raw/Meeting_Notes_Genadi_Rev_2_Boards_Monitor_Controller_Sourcing_and_Data_Contracts-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]

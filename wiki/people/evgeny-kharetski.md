@@ -3,7 +3,7 @@ type: person
 title: Evgeny Kharetski
 date: 2025-07-10
 aliases: [Evgeny Kharetski, Evgeny Kharetsky, Evgeny Khoretsky, Kharevsky, Yauheni Kharetski, Kharetsky, Koretski, Koretsky, Korecki, Khorvatsky, Корецкий, Хорватский, Халецкий, Коряцкий, харецкий]
-source-count: 133
+source-count: 136
 open-questions: 1
 open-commitments: 18
 disambiguation: "LGS developer (payroll "Kharetski Yauheni"), this page. Evgeny/Zhenya cluster — EXHAUSTIVE at THREE per owner (2026-07-20; Zhenya = Evgeniy = Evgeny = Eugine, one name): [[wiki/people/eugine-yavorski.md|Eugine Yavorski]] = FlexPort/FlexPay integration software (alias Egorsky); [[wiki/people/evgeniy-alekseev.md|Evgeniy Alekseev]] = embedded code + hardware-adjacent work (boards/redesigns/electronics, esp. Genadi Peari's projects); [[wiki/people/evgeny-kharetski.md|Evgeny Kharetski]] = LGS/Omni backend (payroll "Kharetski Yauheni"; garble-aliases Koretski/Khorvatsky). Resolve by context: FlexPort/FlexPay integration software → Yavorski; embedded/hardware-adjacent & Genadi's projects → Alekseev; LGS/Omni backend → Kharetski. NO fourth Zhenya exists — a mention fitting none clearly is a mis-heard non-Zhenya (cf. Ethan/Efim), so treat as garble/mishearing and queue; NEVER create a new Zhenya."
@@ -486,6 +486,15 @@ At the [[wiki/meetings/2026-11-21-nova-2-studio-demo-first-iso-and-texas-februar
 
 At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|Nov-23 NOVA sync meeting]] (Russian) he said his brief agent "Не не делает брифы с математиками"; Val: "это одна из вещей, которые нужно доделать в первую очередь" (no owner was said; the notes put it on him pending Val's confirmation [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]). On sound: "Чистоклот не умеет слушать". He went through the new setup "скриптами", not with a real RIS, and holds it done "пока не докажем обратно". This week: bring the LGS repository up to the data-center changes (multi-progressive, modem, setup) and bring up "нашу платформу всю ново платформу на р к" with the games ready by then; the team meets daily [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]. Commitments: [[wiki/decisions/2026-11-23-nova-is-the-one-name-ip-481-is-the-root-initiative-owned-by-biratka-one-weekly-mvp-spans-hardware-system-and-studio-and-maths-and-sound-go-into-the-brief-agent.md]].
 
+
+## Nov 24 2026 (6:16 AM, NOVA) — LGS fixes (300+ commits); a real LGS in simulation mode for the studio; storage as a buffer; the RK installer waits for Pavel's go
+
+At the [[wiki/meetings/2026-11-24-nova-standup-bonus-step-templates-and-lgs-statistics-database.md|Nov-24 NOVA stand-up]] (Russian) he said the LGS fixes run, "300 плюс камитов" on top, and he needs a repository for each of Igor's four games on the first game's contract. Since the studio runs games on mocks, he builds a container where a real LGS runs "в режиме симуляции", without bill validators. With Biratka he discussed LGS statistics in a database — storage becomes "практически в буфер" — and will analyse moving LGS to Spring or similar; he offered to check the plan against GLI-11 with Claude. His RK installer side is "плюс минус все готово". He noted Claude with his Microsoft 365 connector pulls Teams transcripts directly [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-the-studio-bonus-step-is-built-from-templates-now-general-resource-and-scene-steps-come-later-and-lgs-is-to-collect-statistics-into-a-database-on-the-machine-checked-against-gli-11.md]].
+
+## Nov 24 2026 (8:01 AM) — the design-guide call with Val: one capability per game, one feature branch per asset; he takes the agent changes
+
+At the [[wiki/meetings/2026-11-24-evgeny-design-guide-one-capability-per-game-and-feature-branches.md|Nov-24 design-guide call]] (Russian, two people) he set out two ways to link the studio and the tracking (way 1: the agent gets a repository from Andrei and creates feature branches; way 2: Jira inside the studio) — Val chose way 1. He asked "Почему мы хотим создание одной игры делить на кап обилите?" and proposed one capability per game; after Val described the studio's asset-by-asset work he agreed features are needed, "всегда будут одинаковым набором". He separated growing the studio for a new mechanic ("сначала должна студия подготовиться") from making one game — Val: "наверное, вы правы." He closed: "что создавать кабинет и фичу да мы это можем сделаем", and will discuss linking it with the studio with "Саша" [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]] [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]. Record and his commitments: [[wiki/decisions/2026-11-24-a-game-is-one-capability-with-one-feature-branch-per-asset-opened-by-the-brief-agent-no-jira-inside-the-studio-and-project-number-and-repository-are-created-together.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Machine_Registration_One_Scan_Server_Serial_and_Dallas_Replacement-November-7-2026.md]]
@@ -622,3 +631,6 @@ At the [[wiki/meetings/2026-11-23-nova-sync-ip-481-root-and-weekly-mvp-plan.md|N
 - [[raw/Meeting_Transcript_NOVA-2_Studio_Demo_First_ISO_and_Texas_February_Target-November-21-2026.md]]
 - [[raw/Meeting_Transcript_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
 - [[raw/Meeting_Notes_NOVA_Sync_IP-481_Root_and_Weekly_MVP_Plan-November-23-2026.md]]
+- [[raw/Meeting_Transcript_Nova_Standup_Bonus_Step_Templates_and_LGS_Statistics_Database-November-24-2026.md]]
+- [[raw/Meeting_Transcript_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]
+- [[raw/Meeting_Notes_Evgeny_Design_Guide_One_Capability_per_Game_and_Feature_Branches-November-24-2026.md]]

@@ -3,7 +3,7 @@ type: topic
 title: InfoSec, secrets management and server infrastructure
 date: 2025-03-19
 aliases: [secrets management, enterprise secrets manager, DevSecOps, Critical Insight, John Luke Peck, Minsk servers, cloud migration costing, Zabbix]
-source-count: 8
+source-count: 9
 open-commitments: 2
 open-questions: 1
 ---
@@ -109,6 +109,11 @@ The short [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 sess
 - **Migration rule (Val emphasized):** stand Keeper up as the production system, then move passwords from **KeePass step-by-step and MANUALLY** — **do NOT bulk-import** (KeePass holds many stale old passwords); forcing people to re-enter manually the first time is deliberate. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 - **Aaron's governance homework:** produce a plan for how Keeper will be implemented, how implementation is measured, sustained, governed, how users are helped, and how non-use is detected. Val was skeptical JVL can do full governance ("a foreign concept for us… we're not capable"), and said if they can't actually use it they'll scrap it. [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
 
+
+## Nov 24 2026 — developers lose operating-system access to the production accounting host; dead secrets cleaned; the jvlgaming.com certificate; the Minsk Nexus parked
+
+At the [[wiki/meetings/2026-11-24-daily-standup-requirements-sprawl-and-claude-review-merge-gate.md|Nov-24 Minsk stand-up]] (Russian) [[wiki/people/andrey-bosik.md|Andrey Bosik]] closed developers' access to the production accounting host's operating system and limited one more production host — logs are in Grafana and CI/CD is complete, so such work "должно проходить через нас"; GlassFish problems stay shared. He removed "Помоему 39" dead secrets and variables and will chase the owners of the unclear ones by the end of the week. He renews the jvlgaming.com certificate (GlassFish on the CMS down about ten minutes). The Nexus raised in Minsk on Docker is still used; clean-up after New Year [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]. Record: [[wiki/decisions/2026-11-24-a-pull-request-may-not-merge-while-a-claude-review-red-mark-stands-developers-lose-operating-system-access-to-the-production-accounting-host-and-the-requirements-sprawl-goes-to-a-separate-meeting-before-val.md]].
+
 ## Sources
 
 - [[raw/info_security_server_infrastructure.md]]
@@ -119,3 +124,4 @@ The short [[wiki/meetings/2025-08-15-keeper-install-authorization.md|Aug-15 sess
 - [[raw/it_maturity_update-may-28-2025.md]]
 - [[raw/IT_capability_maturity-july-23-2025.md]]
 - [[raw/keeper_security_implimentation_IT_maturity-august-15-2025.md]]
+- [[raw/Meeting_Transcript_Daily_Standup_Requirements_Sprawl_and_Claude_Review_Merge_Gate-November-24-2026.md]]

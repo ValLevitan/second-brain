@@ -3,7 +3,7 @@ type: organization
 title: Dwolla
 date: 2026-08-11
 aliases: [Dwolla, Qualls, Diwala, Duwalla, the ACH provider, the third-party ACH rail, Marc Lee, Mark, Nancy Baccam, Nancy]
-source-count: 4
+source-count: 5
 open-commitments: 2
 open-questions: 4
 ---
@@ -58,9 +58,14 @@ At the [[wiki/meetings/2026-11-05-mvp2-scope-review-wifi-and-remote-port-update-
 - Were same-day ACH credit switched off and the client transaction limit lowered for the test period, as Nancy suggested? — [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 - What does the "one hundred thousand" limit Nancy mentioned actually cap? The sentence is unclear in the transcript. — [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 
+## Nov 24 2026 — the test transfer through Dwolla is being finished; a bounced draw is paid by card or another way for now
+
+At the [[wiki/meetings/2026-11-24-payment-hub-invoice-terms-template-and-first-install.md|Nov-24 11:16 AM Payment Hub call]] (English) Klimovich: still to finish is "a transfer from my account to Dwola, from Dwola to JVL, which should work finally well, because it worked the last time"; it does not hold up the first install. On a withdrawal that finds no funds, [[wiki/people/nathan-carver.md|Nathan]]: "the agreed upon workflow initially is to have the customer… pay by credit card or pay some other way with JVL. And then the future is the system has capabilities to re-initiate" [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]. Detail: [[wiki/decisions/2026-11-24-first-transactional-install-now-invoice-due-upon-use-of-service-interest-from-day-7-internal-and-the-invoice-template-moves-out-of-business-central-into-github.md]].
+
 ## Sources
 
 - [[raw/Meeting_Transcript_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 - [[raw/Meeting_Notes_Dwolla_Reserve_Reduction_Negotiation-August-11-2026.md]]
 - [[raw/Meeting_Transcript_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
 - [[raw/Meeting_Notes_MVP2_Scope_Review_WiFi_and_Remote_Port_Update_by_November_20-November-5-2026.md]]
+- [[raw/Meeting_Transcript_Payment_Hub_Invoice_Terms_Template_and_First_Install-November-24-2026.md]]
